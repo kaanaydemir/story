@@ -3,22 +3,25 @@
 // ============================================================
 
 // ---------- ortak: izleyiciler (çobanlar Tamar'ın izinden yürür) ----------
-const Trail = {
-  pts: [], reset(x, y) { this.pts = [{ x, y }]; },
-  push(x, y) { const l = this.pts[this.pts.length - 1]; if (dist(l.x, l.y, x, y) > 0.15) { this.pts.push({ x, y }); if (this.pts.length > 400) this.pts.shift(); } },
-  at(back) { // izden "back" karo geride kalan nokta
-    let acc = 0;
+class TrailPath {
+  constructor() { this.pts = []; this.o = { x: 0, y: 0 }; }
+  reset(x, y) { this.pts = [{ x, y }]; }
+  push(x, y) { const l = this.pts[this.pts.length - 1]; if (dist(l.x, l.y, x, y) > 0.15) { this.pts.push({ x, y }); if (this.pts.length > 400) this.pts.shift(); } }
+  at(back) { // izden "back" karo geride kalan nokta (dönen nesne geçicidir)
+    let acc = 0; const o = this.o;
     for (let i = this.pts.length - 1; i > 0; i--) {
       const a = this.pts[i], b = this.pts[i - 1], d = dist(a.x, a.y, b.x, b.y);
-      if (acc + d >= back) { const k = (back - acc) / d; return { x: lerp(a.x, b.x, k), y: lerp(a.y, b.y, k) }; }
+      if (acc + d >= back) { const k = (back - acc) / d; o.x = lerp(a.x, b.x, k); o.y = lerp(a.y, b.y, k); return o; }
       acc += d;
     }
-    return this.pts[0];
-  },
-};
-function updateFollowers(list, dt, gaps) {
+    o.x = this.pts[0].x; o.y = this.pts[0].y; return o;
+  }
+}
+const Trail = new TrailPath();
+function updateFollowers(list, dt, gaps, trail) {
+  trail = trail || Trail;
   list.forEach((a, i) => {
-    const p = Trail.at(gaps[i]);
+    const p = trail.at(gaps[i]);
     const d = dist(a.x, a.y, p.x, p.y);
     if (d > 0.12) { const sp = Math.min(d * 2.2, 3.2) * dt; a.x += ((p.x - a.x) / d) * Math.min(sp, d); a.y += ((p.y - a.y) / d) * Math.min(sp, d); a.face(p.x - a.x, p.y - a.y); a.speed = 2.2; a.setMoving(true, dt); }
     else a.setMoving(false, dt);
@@ -78,7 +81,8 @@ Scenes.define('patika', {
     Trail.reset(sc.t.x, sc.t.y);
     Cam.bounds = { x0: -0.5, y0: 0.5, x1: 63.5, y1: 21.5 }; Cam.minY = null;
     Cam.follow(sc.t.x, sc.t.y, 0, true);
-    sc.said = 0; sc.idle = 0; sc.ahead = false; sc.end = false; sc.called = false;
+    sc.said = 0; sc.idle = 0; sc.ahead = false; sc.end = false; sc.called = false; sc.thoughtT = 0;
+    sc.ft = new TrailPath();
     Audio.setAmbience({ wind: 0.16, crickets: true });
     Audio.setDrone(true, 92);
     UI.bark('Tamar önde, kandil elinde. Çobanlar arkasından geliyor.', null, 3.2);
@@ -86,9 +90,16 @@ Scenes.define('patika', {
   update(dt) {
     const sc = this, t = sc.t;
     Player.update(dt);
-    if (sc.ahead && t.path) t.update(dt);
+    if (sc.ahead) {
+      // baba öne geçti: o yolu yürür, Tamar kandille hemen arkasından gelir
+      sc.f.update(dt); sc.ft.push(sc.f.x, sc.f.y);
+      const p = sc.ft.at(1.8), d = dist(t.x, t.y, p.x, p.y);
+      if (p.x > t.x - 0.05 && d > 0.12) { const st = Math.min(d, 2.4 * dt); t.x += ((p.x - t.x) / d) * st; t.y += ((p.y - t.y) / d) * st; t.face(p.x - t.x, p.y - t.y); t.setMoving(true, dt); }
+      else t.setMoving(false, dt);
+    }
     Trail.push(t.x, t.y);
-    updateFollowers([sc.f, sc.n, sc.y], dt, [3, 4.3, 5.6]);
+    if (sc.ahead) updateFollowers([sc.n, sc.y], dt, [3, 4.3]);
+    else updateFollowers([sc.f, sc.n, sc.y], dt, [3, 4.3, 5.6]);
     Cam.follow(t.x, t.y - 1, dt);
     Audio.listenerX = t.x;
     Gfx.updateParticles(dt);
@@ -96,10 +107,11 @@ Scenes.define('patika', {
     sc.idle = moving ? 0 : sc.idle + dt;
     if (sc.idle > 30 && !sc.called) { sc.called = true; UI.bark('Haydi kızım.', 'Baba', 2); }
     if (sc.idle > 60 && !sc.ahead) {
-      // baba öne geçer: yol kendiliğinden yürünür
+      // baba öne geçer (bölüm §7.3): yolu o yürür, Tamar ve ötekiler izler
       sc.ahead = true; Player.enabled = false;
-      const rest = PATIKA_PTS.filter(([x]) => x > t.x).map(([x, y]) => ({ x, y }));
-      t.path = rest; t.speed = 2.2;
+      const f = sc.f, rest = PATIKA_PTS.filter(([x]) => x > t.x + 0.5).map(([x, y]) => ({ x, y }));
+      f.path = [{ x: t.x + 0.8, y: t.y - 0.5 }].concat(rest); f.speed = 2.2; f.onArrive = null;
+      sc.ft.reset(f.x, f.y);
       UI.bark('Ben önden gideyim, sen ışığı tut.', 'Baba', 2.6);
     }
     // yolda üç söz (otomatik konuşma)
@@ -110,15 +122,18 @@ Scenes.define('patika', {
     ];
     if (sc.said < 3 && t.x > lines[sc.said][0]) { const L = lines[sc.said]; UI.bark(L[2], L[1], 5.5); sc.said++; if (sc.said === 3) sc.thoughtT = 6; }
     if (sc.thoughtT > 0) { sc.thoughtT -= dt; if (sc.thoughtT <= 0) { UI.objective('Hayvan bölmesi olan, konuk odası dolu, bu gece telaş görmüş bir ev.'); UI.bark('Hayvan bölmesi olan, konuk odası dolu, bu gece telaş görmüş bir ev.', 'Tamar', 4, true); } }
-    if (!sc.end && t.x > 60.5) { sc.end = true; Player.enabled = false; UI.objective('Hayvan bölmesi olan, konuk odası dolu, bu gece telaş görmüş bir ev.'); Scenes.goto('hangi_kapi'); }
+    if (!sc.end && (t.x > 60.5 || (sc.ahead && !sc.f.path))) { sc.end = true; Player.enabled = false; UI.objective('Hayvan bölmesi olan, konuk odası dolu, bu gece telaş görmüş bir ev.'); Scenes.goto('hangi_kapi'); }
   },
   draw(g) {
     const sc = this, cx = Cam.px(), cy = Cam.py(), map = sc.map;
-    Gfx.drawSky(g, cx, cy, { dim: 1 });
-    Gfx.drawRidge(g, cx, (map.y0 + 1.5) * TILE - cy + 14, { olives: true });
+    const mapTop = (map.y0 + 1.5) * TILE - cy; // gök satırlarının altı; bunun altını harita örter
+    if (mapTop > 0) { Gfx.drawSky(g, cx, cy, { dim: 1, fillH: mapTop + 2 }); Gfx.drawRidge(g, cx, mapTop + 14, { olives: true, maxY: Math.min(VH, mapTop + 2) }); }
     blitMap(g, map.img, cx + 8, cy + 8);
-    const list = sc.P.objs.filter((o) => Math.abs(o.x * TILE - cx - VW / 2) < VW / 2 + 40).concat([sc.t, sc.f, sc.n, sc.y]);
-    list.sort((a, b) => a.y - b.y);
+    const list = sc.list || (sc.list = []);
+    list.length = 0;
+    for (const o of sc.P.objs) if (Math.abs(o.x * TILE - cx - VW / 2) < VW / 2 + 40) list.push(o);
+    list.push(sc.t, sc.f, sc.n, sc.y);
+    list.sort(BY_Y);
     for (const o of list) { if (o instanceof Actor) o.draw(g, cx, cy); else drawObj(g, o, cx, cy, {}); }
     Gfx.resetLights();
     const p = sc.t.lampWorld();
@@ -141,7 +156,7 @@ const HOUSES = [
   { id: 3, x0: 28, x1: 33, row: 'up', door: 30, ad: 'Kalabalık ev', who: 'Kalabalık evin babası', skin: 'koylu2', reply: 'Hayvanlarım içeride, saman da dünkü. Bu gece kandil yakan olmadı.', miss: 'C2' },
   { id: 4, x0: 8, x1: 13, row: 'down', door: 10, ad: 'Dördüncü ev', who: 'Ev sahibi', skin: 'koylu1', reply: '', miss: null },
   { id: 5, x0: 21, x1: 26, row: 'down', door: 23, ad: 'Fırıncının evi', who: 'Fırıncı', skin: 'koylu2', reply: 'Benim altımda hayvan yok, fırın var.', miss: 'A' },
-  { id: 6, x0: 34, x1: 39, row: 'down', door: 36, ad: 'Kervan konuğunun evi', who: 'Kervan konuğu', skin: 'koylu1', reply: 'Eşekler konuklarımın, hepsi içeride. Bu gece kimse uyanmadı, kandil bile yakmadık.', miss: 'A' },
+  { id: 6, x0: 34, x1: 39, row: 'down', door: 36, ad: 'Kervan konuğunun evi', who: 'Kervan konuğu', skin: 'koylu1', reply: 'Eşekler konuklarımın, hepsi içeride. Bu gece kimse uyanmadı, kandil bile yakmadık.', miss: 'C3' },
 ];
 HOUSES.forEach((h) => { h.fy0 = h.row === 'up' ? 6 : 14; h.fy1 = h.row === 'up' ? 8 : 16; h.doorY = h.fy1; h.lit = false; });
 // ipucu hücreleri: A hayvan bölmesi, B konuk odası, C1 kapı aralığından ışık, C2 saman, C3 hayvanlar dışarıda
@@ -165,6 +180,8 @@ const CLUES = [
   { h: 6, c: 'A', icon: 'hayvan', x: 36, y: 16.7, txt: 'Konukların eşekleri içeride.' },
   { h: 6, c: 'B', icon: 'konuk', x: 39.7, y: 15.4, txt: 'Merdivende heybeler: konuk odası dolu.' },
   { h: 6, c: 'C2', icon: 'saman_taze', x: 36.6, y: 17.6, txt: 'Kapıda taze saman.' },
+  // Ev 6'nın eksik ipucu: hayvanlar içeride, dışarı bağlanan yok (C3 değil); yanlış kapıda bu işaretlenir
+  { h: 6, c: 'C3', icon: 'hayvan_ic', x: 38.4, y: 17.6, txt: 'Hayvanlar içeride; dışarı bağlanan yok.' },
 ];
 function buildVillage() {
   const m = new TileMap(48, 25, 0, 0);
@@ -262,6 +279,20 @@ function drawVillageProps(g, cx, cy, V) {
 const DONKEY = ['......kk......', '.....kxxk.....', 'kkkkkkxxxk....', 'kttttttttxk...', 'ktttttttttxk..', 'ktTTTTTTtttk..', '.kttttttttk...', '.kuk.kuk.kuk..', '.kuk.kuk.kuk..', '.kk..kk..kk...'];
 const GOAT = ['.k.....', 'kxk.kk.', '.kxxxxk', '.kxwxxk', '..kxxk.', '..kkkk.'];
 
+// Ev nesneleri için kalıcı çizim vekilleri (kare başına nesne ayrılmaz)
+const HOUSE_PROXIES = HOUSES.map((h) => ({ house: h, y: h.fy1 + 0.49 }));
+const VILLAGE_PROPS = [{ animals: true, y: 17.8 }, { pen: true, y: 10.7 }, { cistern: true, y: 21.4 }];
+function villageSky(g, cx, cy, map, o, ro) {
+  const mapTop = (map.y0 + 1.5) * TILE - cy;
+  if (mapTop <= 0) return;
+  const h = Math.min(VH, mapTop + 2);
+  o.fillH = h; ro.maxY = h;
+  Gfx.drawSky(g, cx, cy, o);
+  Gfx.drawRidge(g, cx, mapTop + 10, ro);
+}
+const SKY_V = { dim: 1, fillH: VH }, RIDGE_V = { olives: false, col: '#0c1030', maxY: VH };
+const SKY_A = { dim: 0.5, top: '#141a36', bot: '#4a4a6a', fillH: VH }, RIDGE_A = { olives: false, col: '#1a1e3a', windows: false, maxY: VH };
+
 Scenes.define('hangi_kapi', {
   title: 'Hangi Kapı?',
   enter() {
@@ -273,7 +304,7 @@ Scenes.define('hangi_kapi', {
       sc.goat = spriteFrom(GOAT, { x: '#5a4636', w: '#d8cdb4' });
     }
     HOUSES.forEach((h) => (h.lit = false));
-    sc.seen = {}; sc.marked = {}; sc.wrong = 0; sc.solved = false; sc.busy = false; sc.ahaSaid = false; sc.knocked = {};
+    sc.seen = {}; sc.marked = {}; sc.wrong = 0; sc.solved = false; sc.busy = false; sc.ahaSaid = false; sc.knocked = {}; sc.saidWake = false;
     sc.t = new Actor({ kind: 'tamar', x: 44, y: 22.6, dir: 'up', lamp: { child: true } });
     sc.f = new Actor({ kind: 'adult', skin: 'baba', x: 44.5, y: 24 });
     sc.n = new Actor({ kind: 'adult', skin: 'nahum', x: 43.5, y: 24.4 });
@@ -334,7 +365,7 @@ Scenes.define('hangi_kapi', {
     sc.villagers.forEach((v) => v.update(dt));
     Cam.follow(t.x, t.y - 1.2, dt);
     Audio.listenerX = t.x;
-    if (sc.bakisPrompt > 0) { sc.bakisPrompt -= dt; if (!Player.focus) UI.prompt('bakis', 'Bakış: çevreyi oku — ipuçları kenar ışığı alır'); if (Player.bakis) sc.bakisPrompt = 0; if (sc.bakisPrompt <= 0) UI.prompt(null); }
+    if (sc.bakisPrompt > 0) { sc.bakisPrompt -= dt; UI.prompt('bakis', 'Bakış: çevreyi oku — ipuçları kenar ışığı alır'); if (Player.bakis) sc.bakisPrompt = 0; if (sc.bakisPrompt <= 0) UI.prompt(null); }
     // Bakış ile ipucu görme
     if (Player.bakis) {
       for (const c of CLUES) {
@@ -346,14 +377,16 @@ Scenes.define('hangi_kapi', {
   },
   draw(g) {
     const sc = this, cx = Cam.px(), cy = Cam.py(), map = sc.map;
-    Gfx.drawSky(g, cx, cy, { dim: 1 });
-    Gfx.drawRidge(g, cx, (map.y0 + 1.5) * TILE - cy + 10, { olives: false, col: '#0c1030' });
+    villageSky(g, cx, cy, map, SKY_V, RIDGE_V);
     blitMap(g, map.img, cx + 8, cy + 8);
     drawVillageProps(g, cx, cy, sc);
-    const list = [sc.t, sc.f, sc.n, sc.y].concat(sc.villagers);
-    HOUSES.forEach((h) => list.push({ house: h, y: h.fy1 + 0.49 }));
-    list.push({ animals: true, y: 17.8 }, { pen: true, y: 10.7 }, { cistern: true, y: 21.4 });
-    list.sort((a, b) => a.y - b.y);
+    const list = sc.list || (sc.list = []);
+    list.length = 0;
+    list.push(sc.t, sc.f, sc.n, sc.y);
+    for (let i = 0; i < sc.villagers.length; i++) list.push(sc.villagers[i]);
+    for (let i = 0; i < HOUSE_PROXIES.length; i++) list.push(HOUSE_PROXIES[i]);
+    for (let i = 0; i < VILLAGE_PROPS.length; i++) list.push(VILLAGE_PROPS[i]);
+    list.sort(BY_Y);
     for (const o of list) {
       if (o instanceof Actor) o.draw(g, cx, cy);
       else if (o.house) { const h = o.house, sx = Math.round((h.x0 - 0.5) * TILE - cx), sy = Math.round((h.fy1 + 0.5) * TILE - cy); g.drawImage(h.spr, sx, sy - h.spr.height); drawHouseDetails(g, h, sx, sy); }
@@ -374,7 +407,7 @@ Scenes.define('hangi_kapi', {
     Gfx.applyDark('#03040f', 0.8);
     Gfx.dashedCircle(p.x * TILE - cx, p.y * TILE - cy + 6, 80, '#ffcf7a', 2, 5, 0.22);
     // Bakış: ipucu simgeleri (biçimle ayrışır)
-    const pulse = 0.65 + 0.35 * Math.sin(State.time * 4);
+    const pulse = REDUCED ? 0.85 : 0.65 + 0.35 * Math.sin(State.time * 4);
     const hintGlow = Hints.ctx === 'kapi' && Hints.level >= 2;
     for (const c of CLUES) {
       const seen = sc.seen[c.h] && sc.seen[c.h][c.c];
@@ -441,7 +474,7 @@ Scenes.define('avlu', {
       sc.stage = 1; Player.enabled = true;
       UI.objective('Şafak yaklaşıyor. Köy girişinden obaya dönülecek.');
       UI.prompt('bakis', 'Bakış: çevrene bak');
-      Scripts.run(function* () { yield 6; if (!Player.focus) UI.prompt(null); }, 'p');
+      Scripts.run(function* () { let w = 0; yield (dt) => { w += dt; return w > 7 || (Player.bakis && w > 1.5); }; UI.prompt(null); }, 'p');
     }, 'scene');
   },
   update(dt) {
@@ -476,14 +509,16 @@ Scenes.define('avlu', {
   },
   draw(g) {
     const sc = this, cx = Cam.px(), cy = Cam.py(), map = sc.map, V = sc.V;
-    Gfx.drawSky(g, cx, cy, { dim: 0.5, top: '#141a36', bot: '#4a4a6a' });
-    Gfx.drawRidge(g, cx, (map.y0 + 1.5) * TILE - cy + 10, { olives: false, col: '#1a1e3a', windows: false });
+    villageSky(g, cx, cy, map, SKY_A, RIDGE_A);
     blitMap(g, map.img, cx + 8, cy + 8);
     drawVillageProps(g, cx, cy, V);
-    const list = [sc.t, sc.f, sc.n, sc.y].concat(sc.listeners);
-    HOUSES.forEach((h) => list.push({ house: h, y: h.fy1 + 0.49 }));
-    list.push({ animals: true, y: 17.8 });
-    list.sort((a, b) => a.y - b.y);
+    const list = sc.list || (sc.list = []);
+    list.length = 0;
+    list.push(sc.t, sc.f, sc.n, sc.y);
+    for (let i = 0; i < sc.listeners.length; i++) list.push(sc.listeners[i]);
+    for (let i = 0; i < HOUSE_PROXIES.length; i++) list.push(HOUSE_PROXIES[i]);
+    list.push(VILLAGE_PROPS[0]);
+    list.sort(BY_Y);
     for (const o of list) {
       if (o instanceof Actor) o.draw(g, cx, cy);
       else if (o.house) { const h = o.house, sx = Math.round((h.x0 - 0.5) * TILE - cx), sy = Math.round((h.fy1 + 0.5) * TILE - cy); g.drawImage(h.spr, sx, sy - h.spr.height); drawHouseDetails(g, h, sx, sy); if (h.id === 4) drawLowDoorSilhouette(g, sx + h.doorPx, sy - 22); }
@@ -493,7 +528,7 @@ Scenes.define('avlu', {
     Gfx.light(10.6 * TILE - cx, 16 * TILE - cy, 40, 0.8);
     Gfx.applyDark('#1c2240', 0.55);
     if (Player.bakis) {
-      const pulse = 0.6 + 0.4 * Math.sin(State.time * 4);
+      const pulse = REDUCED ? 0.85 : 0.6 + 0.4 * Math.sin(State.time * 4);
       g.globalAlpha = pulse; g.strokeStyle = '#ffe9a8';
       const dx = Math.round((HOUSES[3].x0 - 0.5) * TILE - cx) + HOUSES[3].doorPx, dy = Math.round((HOUSES[3].fy1 + 0.5) * TILE - cy) - 22;
       g.strokeRect(dx - 1.5, dy - 1.5, 16, 24);
@@ -563,6 +598,7 @@ Scenes.define('yanki', {
     }, 'scene');
   },
   update(dt) { KW.update(dt); Player.update(dt); },
+  touchMode() { return 'etk'; },
   draw(g) {
     KW.extraLights = null;
     KW.draw(g);

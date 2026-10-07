@@ -37,11 +37,22 @@ function boot() {
     resetGame();
     Scenes.goto('acilis');
   });
+  // Yeniden başlat: süren geçiş ve betikler zorla bitirilir, sahne anında değişir
+  // (menü bir karartmanın ortasında açılmış olsa bile eski geçiş geri gelmez)
   Bus.on('restart', () => {
+    Scripts.kill(); Scenes.busy = false;
+    UI.closeHint(); UI.clearBark(); UI.fade(1, 0);
     resetGame();
-    KW.built = false; KW.stage = null;
+    KW.built = false; KW.stage = null; KW.gateClosed = false;
     State.paused = false;
-    Scenes.goto('acilis');
+    Scenes.goto('acilis', { instant: true });
+  });
+  // sekme/uygulama arka plana geçince: ses susar ve oyun duraklar
+  document.addEventListener('visibilitychange', () => {
+    try {
+      if (document.hidden) { if (Audio.ctx) Audio.ctx.suspend().catch(() => {}); if (State.started && !UI.menuOpen) UI.openPause(); }
+      else if (Audio.ctx) Audio.ctx.resume().catch(() => {});
+    } catch (e) {}
   });
   Scenes.goto('baslik', { instant: true });
   requestAnimationFrame(frame);
@@ -65,14 +76,14 @@ window.KANDIL = {
     simulate(inputName, ms) { Input.simulate(inputName, ms); return true; },
     // yardımcılar (testler için)
     scene() { return State.sceneId; },
-    ui() { return { dialog: UI.dlg.active, choice: UI.ch.active, card: UI.cardActive, menu: UI.menuOpen, prompt: $('prompt').classList.contains('hidden') ? null : $('prompt').textContent, bark: UI.bk.t > 0 ? UI.bk.text : null, fade: UI.fadeA, busy: Scenes.busy }; },
+    ui() { return { dialog: UI.dlg.active, choice: UI.ch.active, choiceArmed: UI.ch.active && !(UI.ch.armT > 0) && !UI.ch.needRelease, card: UI.cardActive, menu: UI.menuOpen, menuKind: UI.menuKind, menuSel: UI.menuSel, prompt: $('prompt').classList.contains('hidden') ? null : $('prompt').textContent, bark: UI.bk.t > 0 ? UI.bk.text : null, fade: UI.fadeA, busy: Scenes.busy, hint: UI.hint.open ? $('hintpanel').innerText : null, touchMode: UI.touchMode }; },
     advance() {
-      if (UI.cardActive) { const b = $('card').querySelector('button'); if (b) b.dispatchEvent(new Event('pointerdown')); else UI.closeCard(); return 'card'; }
-      if (UI.ch.active) { UI.pick(0); return 'choice'; }
+      if (UI.cardActive) { const b = $('card').querySelector('button'); if (b) b.click(); else UI.closeCard(); return 'card'; }
+      if (UI.ch.active) { UI.pick(0, true); return 'choice'; }
       if (UI.dlg.active) { UI.advance(true); return 'dialog'; }
       return null;
     },
-    choose(i) { if (UI.ch.active) { UI.pick(i); return true; } return false; },
+    choose(i) { if (UI.ch.active) { UI.pick(i, true); return true; } return false; },
     world() {
       const id = State.sceneId;
       const P = Player.a;
@@ -81,13 +92,19 @@ window.KANDIL = {
         out.father = { x: +KW.father.x.toFixed(2), y: +KW.father.y.toFixed(2), stone: KW.father.stone, standing: !!KW.father.standing, walking: !!KW.father.path, lamp: KW.father.lamp };
         out.sheep = Flock.sheep.map((s) => ({ g: s.group, x: +s.x.toFixed(2), y: +s.y.toFixed(2), mode: s.mode, gathered: s.gathered, stuck: s.stuck, at: s.gatherAt, fold: s.inFold }));
         out.units = Flock.units.length;
-        out.lamb = KW.lamb ? { x: KW.lamb.x, y: KW.lamb.y, mode: KW.lamb.mode } : null;
+        out.lamb = KW.lamb ? { x: KW.lamb.x, y: KW.lamb.y, mode: KW.lamb.mode, visible: KW.lamb.visible } : null;
+        out.gate = !!KW.gateClosed;
+        out.carry = { tamar: KW.tamar.carry, father: KW.father.carry };
       }
       return out;
     },
     fps() { return State.fps; },
     path(x, y) { if (!Player.map || !Player.a) return null; return Player.map.findPath(Player.a.x, Player.a.y, x, y); },
     hint() { Hints.request(); return { level: Hints.level, ctx: Hints.ctx }; },
+    // testler için: geçerli sahnenin seçili alanları ve ekrandaki ses dalgaları
+    sceneState(keys) { const s = Scenes.current || {}, o = {}; (keys || []).forEach((k) => { o[k] = s[k]; }); return JSON.parse(JSON.stringify(o)); },
+    ripples() { return Ripples.list.map((r) => ({ x: +r.x.toFixed(2), y: +r.y.toFixed(2), kind: r.kind })); },
+    dialogIndex() { return UI.dlg.active ? UI.dlg.i : -1; },
   },
 };
 

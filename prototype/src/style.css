@@ -24,8 +24,8 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 
 /* Hedef düşüncesi */
 #objective{position:absolute;left:calc(var(--fs)*.8);top:calc(var(--fs)*.6);max-width:55%;
-  font-style:italic;color:var(--ink-dim);font-size:calc(var(--fs)*.82);text-shadow:0 1px 0 #000,0 0 6px #000;opacity:.9}
-#usta{position:absolute;left:calc(var(--fs)*.8);top:calc(var(--fs)*2.2);font-size:calc(var(--fs)*.8);color:var(--ink-dim);
+  font-style:italic;color:var(--ink-dim);font-size:max(12px,calc(var(--fs)*.82));text-shadow:0 1px 0 #000,0 0 6px #000;opacity:.9}
+#usta{position:absolute;left:calc(var(--fs)*.8);top:calc(var(--fs)*2.2);font-size:max(12px,calc(var(--fs)*.8));color:var(--ink-dim);
   text-shadow:0 1px 0 #000}
 #usta .w{display:inline-block;margin-right:.35em;padding:0 .3em;border:1px solid #6b5a3a;border-radius:3px;background:rgba(10,12,30,.6)}
 #usta .w.used{opacity:.35;text-decoration:line-through}
@@ -40,12 +40,12 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 /* Etkileşim istemi */
 #prompt{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(var(--fs)*.7);
   background:rgba(8,10,24,.85);border:1px solid var(--panel-edge);border-radius:4px;padding:.25em .7em;white-space:nowrap;
-  font-size:calc(var(--fs)*.9)}
+  font-size:max(12px,calc(var(--fs)*.9))}
 #prompt .key{display:inline-block;min-width:1.4em;padding:0 .3em;margin-right:.45em;border:1px solid var(--gold);color:var(--gold);
   border-radius:3px;text-align:center}
 
 /* Diyalog */
-#dialog{position:absolute;left:3%;right:3%;bottom:calc(var(--fs)*.6);min-height:calc(var(--fs)*4.2);
+#dialog{position:absolute;left:3%;right:var(--dr,3%);bottom:calc(var(--fs)*.6);min-height:calc(var(--fs)*4.2);
   background:var(--panel);border:2px solid var(--panel-edge);border-radius:4px;padding:.55em .8em .55em .6em;
   display:flex;gap:.7em;align-items:flex-start;pointer-events:auto;cursor:pointer;
   box-shadow:0 0 0 2px #000, inset 0 0 0 1px rgba(232,198,106,.18)}
@@ -61,19 +61,20 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 #dialog.verse .text{font-family:var(--serif);font-size:calc(var(--fs)*1.05);color:#fbf3dc;letter-spacing:.01em}
 #dialog.verse{border-color:#b89a52;background:rgba(18,16,30,.94)}
 #dialog.narr .text{font-family:var(--serif);font-style:italic;color:#efe6d0}
-#dialog .verse{margin-top:.25em;font-size:calc(var(--fs)*.74);color:#c9b98a;letter-spacing:.02em;font-family:system-ui,-apple-system,'Segoe UI',Roboto,'DejaVu Sans',sans-serif}
+#dialog .verse{margin-top:.25em;font-size:max(12px,calc(var(--fs)*.74));color:#c9b98a;letter-spacing:.02em;font-family:system-ui,-apple-system,'Segoe UI',Roboto,'DejaVu Sans',sans-serif}
 #dialog .next{position:absolute;right:.6em;bottom:.2em;color:var(--gold);animation:blink 1.1s steps(2) infinite}
 #dialog.typing .next{visibility:hidden}
 @keyframes blink{50%{opacity:0}}
 
 /* Seçenekler */
-#choices{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(var(--fs)*5.6);display:flex;flex-direction:column;gap:.4em;
+#choices{position:absolute;left:50%;transform:translateX(-50%);transition:opacity .2s;bottom:calc(var(--fs)*5.6);display:flex;flex-direction:column;gap:.4em;
   min-width:55%;max-width:92%;pointer-events:auto}
 #choices button{pointer-events:auto;font:inherit;color:var(--ink);text-align:left;background:rgba(10,12,30,.94);border:2px solid #4a4030;
   border-radius:4px;padding:.45em .8em;cursor:pointer;min-height:2.6em}
 #choices button .n{color:var(--gold);margin-right:.6em}
 #choices button .tone{float:right;opacity:.7;margin-left:1em}
 #choices button.sel,#choices button:hover{border-color:var(--gold);background:rgba(40,34,30,.96)}
+#choices.arming button{opacity:.6;cursor:default}
 #choices .q{color:var(--ink-dim);font-style:italic;text-align:center;margin-bottom:.2em;text-shadow:0 1px 0 #000}
 
 /* Üç Işık */
@@ -85,9 +86,12 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 #hintpanel .h{font-size:calc(var(--fs)*.95)}
 #hintpanel .h.think{font-style:italic}
 #hintpanel .row{display:flex;gap:.5em;margin-top:.5em;flex-wrap:wrap}
+#hintpanel .keys{margin-top:.4em;font-size:max(12px,calc(var(--fs)*.72));color:var(--ink-dim)}
 #hintpanel button,#card button,#menu button{pointer-events:auto;font:inherit;color:var(--ink);background:#1d1a2a;border:2px solid #6b5a3a;border-radius:4px;
   padding:.35em .8em;cursor:pointer;min-height:2.4em}
-#hintpanel button:hover,#card button:hover,#menu button:hover,#menu button.sel,#card button.sel{border-color:var(--gold);background:#2a2436}
+#hintpanel button:hover,#card button:hover,#menu button:hover,#menu button.sel,#card button.sel,#hintpanel button.sel{border-color:var(--gold);background:#2a2436}
+button:focus{outline:none}
+button:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
 
 /* Üst düğmeler */
 #topbtns{position:absolute;right:calc(var(--fs)*.5);top:calc(var(--fs)*.5);display:flex;gap:.4em}
@@ -97,6 +101,8 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 .lampicon::before{content:"";position:absolute;left:0;right:0;bottom:0;height:.45em;background:#9a5a32;border-radius:40% 40% 50% 50%}
 .lampicon::after{content:"";position:absolute;left:.62em;bottom:.38em;width:.3em;height:.4em;background:#f0a040;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;box-shadow:0 0 5px #f0a040}
 #topbtns.off{display:none}
+#topbtns.sacred #btn-hint{opacity:0;pointer-events:none;visibility:hidden}
+#topbtns.sacred #btn-menu{opacity:.35}
 
 /* Tam ekran kart */
 #card{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:6% 8%;
@@ -104,8 +110,8 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 #card.clear{background:transparent}
 #card .t{font-size:calc(var(--fs)*1.15);max-width:34em;line-height:1.5}
 #card .t.serif{font-family:var(--serif)}
-#card .ref{margin-top:.8em;color:#c9b98a;font-size:calc(var(--fs)*.75);font-family:system-ui,-apple-system,'Segoe UI',Roboto,'DejaVu Sans',sans-serif}
-#card .tap{margin-top:1.6em;color:var(--ink-dim);font-size:calc(var(--fs)*.75);animation:blink 1.6s steps(2) infinite}
+#card .ref{margin-top:.8em;color:#c9b98a;font-size:max(12px,calc(var(--fs)*.75));font-family:system-ui,-apple-system,'Segoe UI',Roboto,'DejaVu Sans',sans-serif}
+#card .tap{margin-top:1.6em;color:var(--ink-dim);font-size:max(12px,calc(var(--fs)*.75));animation:blink 1.6s steps(2) infinite}
 #card h1{font-weight:600;font-size:calc(var(--fs)*2);margin:.1em 0 .1em;color:var(--gold);letter-spacing:.04em;text-shadow:0 2px 0 #000}
 #card h2{font-weight:400;font-size:calc(var(--fs)*1.2);margin:.1em 0 1em;color:var(--ink)}
 #card .summary{text-align:left;max-width:32em;font-size:calc(var(--fs)*.9);line-height:1.5;margin:.6em auto 1em;color:#e8dfca}
@@ -120,10 +126,10 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 #menu h1{margin:.1em 0 0;font-size:calc(var(--fs)*1.9);color:var(--gold);font-weight:600;letter-spacing:.05em;text-shadow:0 2px 0 #000}
 #menu h2{margin:.15em 0 .9em;font-size:calc(var(--fs)*1.05);font-weight:400}
 #menu .col{display:flex;flex-direction:column;gap:.45em;align-items:stretch}
-#menu table{margin:.4em auto;border-collapse:collapse;text-align:left;font-size:calc(var(--fs)*.85)}
+#menu table{margin:.4em auto;border-collapse:collapse;text-align:left;font-size:max(12px,calc(var(--fs)*.85))}
 #menu td{padding:.18em .6em;border-bottom:1px solid rgba(107,90,58,.35);vertical-align:top}
 #menu td:first-child{color:var(--gold);white-space:nowrap}
-#menu .small{font-size:calc(var(--fs)*.75);color:var(--ink-dim);margin-top:.6em}
+#menu .small{font-size:max(12px,calc(var(--fs)*.75));color:var(--ink-dim);margin-top:.6em}
 
 #fade{position:absolute;inset:0;background:#000;opacity:0;pointer-events:none}
 
@@ -138,5 +144,27 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
   background:rgba(14,16,36,.55);border:2px solid rgba(232,198,106,.45);display:flex;align-items:center;justify-content:center;padding:0;line-height:1.1}
 .tb.on{background:rgba(232,198,106,.35);border-color:#f3dc9a}
 .tb.ctx{border-color:#f0a040;box-shadow:0 0 10px rgba(240,160,64,.6)}
+#touch.sacred{opacity:.35}
+/* dokunmatik denetim kipleri: none (menü/kart) · etk (diyalog, kesit: yalnızca Etkileşim = devam) ·
+   joy (yalnızca çubuk) · joyetk (çubuk + Etkileşim) · full */
+#touch #joy,#touch .tb{transition:opacity .18s}
+#touch[data-m="none"] #joy,#touch[data-m="none"] .tb,
+#touch[data-m="etk"] #joy,#touch[data-m="etk"] #tb-bakis,#touch[data-m="etk"] #tb-gut,
+#touch[data-m="joy"] .tb,
+#touch[data-m="joyetk"] #tb-bakis,#touch[data-m="joyetk"] #tb-gut{opacity:0;pointer-events:none}
+.tb.off{border-color:#c06050;background:rgba(80,20,20,.45)}
 #dialog.locked{cursor:default}
+/* dokunmatik: en az 44 px dokunma hedefleri */
+@media (pointer:coarse){
+  #topbtns{gap:10px}
+  #topbtns .tbtn{width:max(44px,calc(var(--fs)*2.3));height:max(44px,calc(var(--fs)*2.3))}
+  #menu button,#card button,#hintpanel button,#choices button{min-height:44px}
+  #menu .col{gap:10px}
+  #choices{gap:10px}
+  #hintpanel .row{gap:10px}
+}
+@media (prefers-reduced-motion: reduce){
+  #dialog .next,#card .tap{animation:none}
+  #choices,#touch #joy,#touch .tb{transition:none}
+}
 #dialog.locked .next{display:none}

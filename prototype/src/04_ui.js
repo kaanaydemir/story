@@ -4,6 +4,12 @@
 // ============================================================
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+// Dokunuş/tıklama: pointerdown hızlı tepki verir; "click" ise klavye odağı ve yardımcı
+// teknolojiler (ekran okuyucu, anahtar erişimi) içindir. Aynı basış iki kez sayılmaz.
+function onTap(el, fn) {
+  el.addEventListener('pointerdown', (e) => { e.preventDefault(); el._tapT = performance.now(); fn(e); });
+  el.addEventListener('click', (e) => { if (el._tapT && performance.now() - el._tapT < 800) return; fn(e); });
+}
 
 const UI = {
   scale: 1, portrait: false, stageRect: { x: 0, y: 0, w: 640, h: 360 },
@@ -13,12 +19,14 @@ const UI = {
   cardActive: false, cardResolve: null, cardWait: 0,
   fadeA: 0, fadeTarget: 0, fadeSpeed: 1,
   menuOpen: false, menuKind: null,
-  hint: { open: false },
+  hint: { open: false, sel: 0 },
+  pr: { scene: null, player: null, sig: null },
+  touchMode: null,
   init() {
     $('dialog').addEventListener('pointerdown', (e) => { e.preventDefault(); this.advance(); });
-    $('card').addEventListener('pointerdown', (e) => { if (e.target.tagName === 'BUTTON') return; e.preventDefault(); this.cardTap(); });
-    $('btn-hint').addEventListener('pointerdown', (e) => { e.preventDefault(); Audio.init(); Bus.emit('hintRequest'); });
-    $('btn-menu').addEventListener('pointerdown', (e) => { e.preventDefault(); Audio.init(); if (!this.menuOpen && State.started) this.openPause(); });
+    $('card').addEventListener('pointerdown', (e) => { if (e.target.closest && e.target.closest('button')) return; e.preventDefault(); this.cardTap(); });
+    onTap($('btn-hint'), () => { Audio.init(); Bus.emit('hintRequest'); });
+    onTap($('btn-menu'), () => { Audio.init(); if (!this.menuOpen && State.started) this.openPause(); });
     const re = () => this.layout();
     window.addEventListener('resize', re);
     window.addEventListener('orientationchange', () => setTimeout(re, 120));
@@ -58,7 +66,7 @@ const UI = {
     let uiH = cssH;
     if (portrait) uiH = Math.max(cssH, vh + sa0.t - ctrlH - y);
     ui.style.left = x + 'px'; ui.style.top = y + 'px'; ui.style.width = cssW + 'px'; ui.style.height = uiH + 'px';
-    const fs = Math.max(13, Math.min(22, cssW / 640 * 11.5));
+    const fs = Math.max(touch ? 15 : 13, Math.min(22, cssW / 640 * 11.5));
     ui.style.setProperty('--fs', fs + 'px');
     document.documentElement.style.setProperty('--fs', fs + 'px');
     // dokunmatik kontroller
@@ -81,11 +89,19 @@ const UI = {
         this.placeButtons(tb, vw + sa0.l, vh + sa0.t, Math.min(vh * 0.16, 70), false);
       }
     }
+    // yatay dokunmatikte diyalog ve seçenekler sağdaki Etkileşim düğmesinin altına girmesin
+    let dr = 0;
+    if (touch && !portrait) {
+      const e = $('tb-etk'), el = parseFloat(e.style.left) || 0, et = parseFloat(e.style.top) || 0, ew = parseFloat(e.style.width) || 0;
+      const stageBottom = y + cssH;
+      if (el < x + cssW && et + ew > stageBottom - cssH * 0.3) dr = Math.max(0, x + cssW - el + 6);
+    }
+    ui.style.setProperty('--dr', dr ? dr + 'px' : '3%');
   },
   placeButtons(tb, vw, h, size, portrait) {
     tb.style.left = '0'; tb.style.top = '0'; tb.style.width = vw + 'px'; tb.style.height = h + 'px';
     const right = vw - 16, bottom = portrait ? h / 2 + size * 0.9 : h - 18;
-    const place = (id, cx, cy, s) => { const el = $(id); el.style.width = s + 'px'; el.style.height = s + 'px'; el.style.left = (cx - s / 2) + 'px'; el.style.top = (cy - s / 2) + 'px'; el.style.right = 'auto'; };
+    const place = (id, cx, cy, s) => { const el = $(id); el.style.width = s + 'px'; el.style.height = s + 'px'; el.style.left = (cx - s / 2) + 'px'; el.style.top = (cy - s / 2) + 'px'; el.style.right = 'auto'; el.style.fontSize = Math.max(9, Math.min(13, s * 0.18)) + 'px'; };
     place('tb-etk', right - size * 0.55, bottom - size * 1.55, size * 1.05);
     place('tb-gut', right - size * 1.75, bottom - size * 0.6, size * 1.05);
     place('tb-bakis', right - size * 2.75, bottom - size * 1.75, size * 0.95);
@@ -105,6 +121,8 @@ const UI = {
     if (d.i >= d.lines.length) { d.active = false; $('dialog').classList.add('hidden'); Input.lock(); return; }
     let L = d.lines[d.i]; if (typeof L === 'string') L = { text: L };
     d.line = L; d.full = L.text; d.shown = 0; d.t = 0; d.autoT = 0;
+    // kilitli (kendiliğinden akan) satırlar okunabilsin: bekleme metin uzunluğuna göre uzar
+    d.autoHold = L.auto == null ? null : L.lock ? Math.max(L.auto, L.text.length / 18) : L.auto;
     const el = $('dialog');
     el.className = '';
     if (L.kind) el.classList.add(L.kind);
@@ -137,14 +155,30 @@ const UI = {
   },
   clearBark() { $('bark').classList.add('hidden'); this.bk.t = 0; },
   // ---------------- istem ----------------
-  prompt(action, text) {
+  // İki yuva: sahnenin kendi istemi (öğretim, Bakış daveti…) ve oyuncunun odaktaki etkileşimi.
+  // Oyuncu yuvası doluysa o görünür; boşalınca sahne istemi geri gelir. Diyalog/menü sırasında gizlenir.
+  prompt(action, text) { this.pr.scene = text ? { action, text } : null; this.renderPrompt(); },
+  playerPrompt(action, text) {
+    const cur = this.pr.player;
+    if (!text) { if (!cur) return; this.pr.player = null; }
+    else { if (cur && cur.action === action && cur.text === text) return; this.pr.player = { action, text }; }
+    this.renderPrompt();
+  },
+  clearPrompts() { this.pr.scene = null; this.pr.player = null; this.renderPrompt(); },
+  renderPrompt() {
     const el = $('prompt');
-    if (!text) { el.classList.add('hidden'); $('tb-etk').classList.remove('ctx'); this._prompt = null; return; }
-    const key = Input.keyLabel(action);
-    const sig = key + text;
-    if (this._prompt !== sig) { el.innerHTML = `<span class="key">${esc(key)}</span>${esc(text)}`; this._prompt = sig; }
-    el.classList.remove('hidden');
-    $('tb-etk').classList.toggle('ctx', action === 'interact');
+    const P = this.blocking() ? null : this.pr.player || this.pr.scene;
+    if (!P) { if (this.pr.sig !== null) { el.classList.add('hidden'); $('tb-etk').classList.remove('ctx'); this.pr.sig = null; } return; }
+    const key = Input.keyLabel(P.action);
+    let text = P.text;
+    // dokunmatikte düğme adı metnin başında yinelenmesin ("[Bakış] Bakış: …")
+    if (text.indexOf(key + ':') === 0) text = text.slice(key.length + 1).trim();
+    const sig = P.action + '|' + key + '|' + text;
+    if (this.pr.sig !== sig) {
+      el.innerHTML = `<span class="key">${esc(key)}</span>${esc(text)}`; this.pr.sig = sig;
+      el.classList.remove('hidden');
+      $('tb-etk').classList.toggle('ctx', P.action === 'interact');
+    }
   },
   objective(text) { const el = $('objective'); if (!text) { el.classList.add('hidden'); return; } el.textContent = text; el.classList.remove('hidden'); },
   usta(n, show) {
@@ -159,12 +193,16 @@ const UI = {
   // ---------------- seçenekler ----------------
   choose(opts, question) {
     const c = this.ch; c.active = true; c.opts = opts; c.sel = 0; c.result = -1;
+    // diyalogu hızla geçen oyuncu seçeneği okumadan seçmesin: kısa bekleme + tuş bırakma şartı;
+    // bekleme sırasında yeniden basılan onay tuşu süreyi baştan başlatır
+    c.armT = 0.8; c.needRelease = true;
     const el = $('choices'); el.innerHTML = '';
     if (question) { const q = document.createElement('div'); q.className = 'q'; q.textContent = question; el.appendChild(q); }
     opts.forEach((o, i) => {
       const b = document.createElement('button');
       b.innerHTML = `<span class="n">${i + 1}</span>${esc(o.text || o)}${o.tone ? `<span class="tone">${esc(o.tone)}</span>` : ''}`;
-      b.addEventListener('pointerdown', (e) => { e.preventDefault(); this.pick(i); });
+      onTap(b, () => this.pick(i));
+      b.addEventListener('focus', () => { c.sel = i; this.markSel(); });
       el.appendChild(b);
     });
     el.classList.remove('hidden');
@@ -173,7 +211,7 @@ const UI = {
     return { done: () => !c.active, value: () => c.result };
   },
   markSel() { const bs = $('choices').querySelectorAll('button'); bs.forEach((b, i) => b.classList.toggle('sel', i === this.ch.sel)); },
-  pick(i) { const c = this.ch; if (!c.active) return; c.result = i; c.active = false; $('choices').classList.add('hidden'); Audio.ui(); Input.lock(); },
+  pick(i, force) { const c = this.ch; if (!c.active) return; if (!force && (c.armT > 0 || c.needRelease)) return; c.result = i; c.active = false; $('choices').classList.add('hidden'); Audio.ui(); Input.lock(); },
   // ---------------- kart ----------------
   card(html, opts) {
     opts = opts || {};
@@ -185,6 +223,7 @@ const UI = {
     return { done: () => !this.cardActive };
   },
   cardTap() { if (!this.cardActive || this.cardNoTap || this.cardWait > 0) return; this.closeCard(); },
+  cardButton(sel, fn) { const b = $('card').querySelector(sel); if (b) onTap(b, () => { if (this.cardWait <= 0) fn(); }); return b; },
   closeCard() { this.cardActive = false; $('card').classList.add('hidden'); $('card').innerHTML = ''; Input.lock(); },
   // ---------------- karartma ----------------
   fade(to, dur) {
@@ -200,16 +239,24 @@ const UI = {
     h += '<div class="row">';
     if (level >= 3 && opts.onContinue) h += '<button data-a="cont">Hikâyeye devam</button>';
     h += '<button data-a="close">Kapat</button></div>';
+    if (level >= 3 && opts.onContinue) {
+      const k = Input.lastDevice === 'pad' ? 'Y' : Input.lastDevice === 'touch' ? '' : 'Enter';
+      if (k) h += `<div class="keys">${esc(k)}: Hikâyeye devam · ${Input.lastDevice === 'pad' ? 'B' : 'Backspace'}: Kapat</div>`;
+    }
     el.innerHTML = h;
     el.classList.remove('hidden');
-    this.hint.open = true; this.hint.t = 14; this.hint.onContinue = opts.onContinue;
-    el.querySelectorAll('button').forEach((b) => b.addEventListener('pointerdown', (e) => {
-      e.preventDefault();
-      if (b.dataset.a === 'cont' && this.hint.onContinue) { const f = this.hint.onContinue; this.closeHint(); f(); }
-      else this.closeHint();
-    }));
+    this.hint.open = true; this.hint.t = 14; this.hint.onContinue = opts.onContinue; this.hint.sel = 0;
+    this.hint.buttons = [...el.querySelectorAll('button')];
+    this.hint.buttons.forEach((b) => onTap(b, () => this.hintAction(b.dataset.a)));
+    this.markHint();
   },
-  closeHint() { $('hintpanel').classList.add('hidden'); this.hint.open = false; },
+  markHint() { (this.hint.buttons || []).forEach((b, i) => b.classList.toggle('sel', i === this.hint.sel)); },
+  hintAction(a) {
+    if (!this.hint.open) return;
+    if (a === 'cont' && this.hint.onContinue) { const f = this.hint.onContinue; this.closeHint(); Audio.ui(); f(); }
+    else this.closeHint();
+  },
+  closeHint() { $('hintpanel').classList.add('hidden'); this.hint.open = false; this.hint.buttons = []; },
   // ---------------- menüler ----------------
   controlsHTML() {
     return `<table>
@@ -225,22 +272,28 @@ const UI = {
       <tr><td>Menü</td><td>Esc · sağ üstteki ≡ · Menu</td></tr>
     </table>`;
   },
-  openStart() {
+  openStart(sel) {
     this.menuOpen = true; this.menuKind = 'start';
     const el = $('menu'); el.className = 'start';
     el.innerHTML = `<div class="box"><h1>Kandil — Yıldızdan Şafağa</h1><h2>Bölüm 1: Yıldızın Altında</h2>
       <div class="col"><button data-a="start">Başla</button><button data-a="sound">${State.muted ? 'Ses: kapalı' : 'Ses: açık'}</button><button data-a="controls">Kontroller</button></div>
       <div class="small">Oynanabilir prototip · Luka 2:1–20 · yaklaşık 12–15 dakika</div></div>`;
-    this.bindMenu(el);
+    this.bindMenu(el, sel);
     $('topbtns').classList.add('off');
   },
-  openPause() {
+  openPause(sel) {
     if (this.menuOpen) return;
     State.paused = true; this.menuOpen = true; this.menuKind = 'pause';
     const el = $('menu'); el.className = '';
     el.innerHTML = `<div class="box"><h1 style="font-size:calc(var(--fs)*1.4)">Duraklatıldı</h1><h2>${esc(Scenes.current ? Scenes.current.title : '')}</h2>
       <div class="col"><button data-a="resume">Devam</button><button data-a="controls">Kontroller</button><button data-a="sound">${State.muted ? 'Ses: kapalı' : 'Ses: açık'}</button><button data-a="restart">Bölümü yeniden başlat</button></div></div>`;
-    this.bindMenu(el);
+    this.bindMenu(el, sel);
+  },
+  openRestartConfirm() {
+    const el = $('menu'); el.className = '';
+    el.innerHTML = `<div class="box"><h1 style="font-size:calc(var(--fs)*1.3)">Bölümü yeniden başlat?</h1><h2>Bu bölümdeki seçimlerin ve ilerlemen silinir.</h2>
+      <div class="col"><button data-a="backpause3">Hayır, devam et</button><button data-a="restartyes">Evet, baştan başla</button></div></div>`;
+    this.bindMenu(el, 0);
   },
   openControls(back) {
     const el = $('menu');
@@ -250,27 +303,38 @@ const UI = {
       <div class="col" style="margin-top:.8em"><button data-a="${back}">Geri</button></div></div>`;
     this.bindMenu(el);
   },
-  bindMenu(el) {
+  bindMenu(el, sel) {
     const bs = [...el.querySelectorAll('button')];
-    this.menuButtons = bs; this.menuSel = 0; this.markMenu();
-    bs.forEach((b, i) => b.addEventListener('pointerdown', (e) => { e.preventDefault(); this.menuSel = i; this.menuAction(b.dataset.a); }));
+    this.menuButtons = bs; this.menuSel = clamp(sel || 0, 0, bs.length - 1);
+    bs.forEach((b, i) => {
+      onTap(b, () => { this.menuSel = i; this.menuAction(b.dataset.a); });
+      b.addEventListener('focus', () => { if (this.menuSel !== i) { this.menuSel = i; this.markMenu(true); } });
+    });
+    this.markMenu(Input.lastDevice !== 'touch');
   },
-  markMenu() { (this.menuButtons || []).forEach((b, i) => b.classList.toggle('sel', i === this.menuSel)); },
+  // klavye seçimi ile tarayıcı odağı aynı düğmede tutulur (Tab + Enter tutarlı çalışır)
+  markMenu(focus) {
+    const bs = this.menuButtons || [];
+    bs.forEach((b, i) => b.classList.toggle('sel', i === this.menuSel));
+    if (focus && bs[this.menuSel] && document.activeElement !== bs[this.menuSel]) { try { bs[this.menuSel].focus({ preventScroll: true }); } catch (e) {} }
+  },
   menuAction(a) {
     Audio.init(); Audio.ui();
     if (a === 'start') { this.closeMenu(); Bus.emit('start'); }
-    else if (a === 'sound') { Audio.setMuted(!State.muted); this.menuKind === 'start' ? this.openStartRefresh() : this.openPauseRefresh(); }
+    else if (a === 'sound') { const i = this.menuSel; Audio.setMuted(!State.muted); this.menuKind === 'start' ? this.openStartRefresh(i) : this.openPauseRefresh(i); }
     else if (a === 'controls') this.openControls(this.menuKind === 'start' ? 'backstart' : 'backpause');
-    else if (a === 'backstart') this.openStartRefresh();
-    else if (a === 'backpause') this.openPauseRefresh();
+    else if (a === 'backstart') this.openStartRefresh(2);
+    else if (a === 'backpause') this.openPauseRefresh(1);
+    else if (a === 'backpause3') this.openPauseRefresh(3);
     else if (a === 'resume') { this.closeMenu(); }
-    else if (a === 'restart') { this.closeMenu(); Bus.emit('restart'); }
+    else if (a === 'restart') this.openRestartConfirm();
+    else if (a === 'restartyes') { this.closeMenu(); Bus.emit('restart'); }
   },
-  openStartRefresh() { this.menuOpen = false; this.openStart(); },
-  openPauseRefresh() { this.menuOpen = false; State.paused = false; this.openPause(); },
+  openStartRefresh(sel) { this.menuOpen = false; this.openStart(sel); },
+  openPauseRefresh(sel) { this.menuOpen = false; State.paused = false; this.openPause(sel); },
   closeMenu() {
     $('menu').classList.add('hidden'); $('menu').innerHTML = '';
-    this.menuOpen = false; State.paused = false; $('topbtns').classList.remove('off');
+    this.menuOpen = false; State.paused = false; $('topbtns').classList.remove('off'); this.menuButtons = [];
     Input.lock();
   },
   // ---------------- kare güncellemesi ----------------
@@ -280,12 +344,13 @@ const UI = {
       this.fadeA = approach(this.fadeA, this.fadeTarget, this.fadeSpeed * dt);
       $('fade').style.opacity = this.fadeA.toFixed(3);
     }
+    this.updateTouchMode();
     if (this.menuOpen) {
       const bs = this.menuButtons || [];
-      if (Input.pressed('down')) { this.menuSel = (this.menuSel + 1) % bs.length; this.markMenu(); }
-      if (Input.pressed('up')) { this.menuSel = (this.menuSel + bs.length - 1) % bs.length; this.markMenu(); }
+      if (Input.pressed('down')) { this.menuSel = (this.menuSel + 1) % bs.length; this.markMenu(true); }
+      if (Input.pressed('up')) { this.menuSel = (this.menuSel + bs.length - 1) % bs.length; this.markMenu(true); }
       if ((Input.pressed('confirm') || Input.pressed('interact')) && bs[this.menuSel]) this.menuAction(bs[this.menuSel].dataset.a);
-      else if (Input.pressed('menu') && this.menuKind === 'pause') this.closeMenu();
+      else if ((Input.pressed('menu') || Input.pressed('cancel')) && this.menuKind === 'pause') this.closeMenu();
       return;
     }
     if (this.cardActive) {
@@ -296,7 +361,7 @@ const UI = {
         if (Input.pressed('right') || Input.pressed('down')) this.cardSel = (this.cardSel + 1) % bs.length;
         if (Input.pressed('left') || Input.pressed('up')) this.cardSel = (this.cardSel + bs.length - 1) % bs.length;
         bs.forEach((b, i) => b.classList.toggle('sel', i === this.cardSel));
-        if (Input.pressed('confirm') && this.cardWait <= 0) bs[this.cardSel].dispatchEvent(new Event('pointerdown'));
+        if (Input.pressed('confirm') && this.cardWait <= 0) bs[this.cardSel].click();
       } else if (Input.pressed('confirm') && this.cardWait <= 0 && !this.cardNoTap) this.closeCard();
       return;
     }
@@ -304,6 +369,11 @@ const UI = {
       const c = this.ch, n = c.opts.length;
       if (Input.pressed('down')) { c.sel = (c.sel + 1) % n; this.markSel(); }
       if (Input.pressed('up')) { c.sel = (c.sel + n - 1) % n; this.markSel(); }
+      let anyNum = false;
+      for (let i = 0; i < Math.min(4, n); i++) if (Input.down('n' + (i + 1))) anyNum = true;
+      if (c.needRelease && !Input.down('confirm') && !anyNum) c.needRelease = false;
+      if (c.armT > 0) { c.armT -= dt; if (Input.pressed('confirm')) c.armT = 0.8; $('choices').classList.toggle('arming', c.armT > 0); return; }
+      $('choices').classList.remove('arming');
       for (let i = 0; i < Math.min(4, n); i++) if (Input.pressed('n' + (i + 1))) { this.pick(i); return; }
       if (Input.pressed('confirm')) this.pick(c.sel);
       return;
@@ -316,11 +386,34 @@ const UI = {
         if (n !== d.shown) { d.shown = n; $('dialog').querySelector('.text').textContent = d.full.slice(0, n); }
         if (d.shown >= d.full.length) $('dialog').classList.remove('typing');
       }
-      if (d.line && d.line.auto != null && d.shown >= d.full.length) { d.autoT += dt; if (d.autoT >= d.line.auto) { this.nextLine(); return; } }
+      if (d.autoHold != null && d.shown >= d.full.length) { d.autoT += dt; if (d.autoT >= d.autoHold) { this.nextLine(); return; } }
       if (Input.pressed('confirm')) this.advance();
     }
     if (this.bk.t > 0) { this.bk.t -= dt; if (this.bk.t <= 0) this.clearBark(); }
-    if (this.hint.open) { this.hint.t -= dt; if (this.hint.t <= 0 && !this.hint.onContinue) this.closeHint(); }
+    if (this.hint.open) {
+      this.hint.t -= dt; if (this.hint.t <= 0 && !this.hint.onContinue) this.closeHint();
+      // klavye/gamepad: Enter ya da Y = "Hikâyeye devam" (varsa), Backspace ya da B = Kapat
+      if (this.hint.open && !this.dlg.active) {
+        if (Input.pressed('accept')) this.hintAction(this.hint.onContinue ? 'cont' : 'close');
+        else if (Input.pressed('cancel') && !Player.charging) this.hintAction('close');
+      }
+    }
+    this.renderPrompt();
+  },
+  // dokunmatik denetimlerin görünürlüğü: menü/kartta hiçbiri; diyalogda yalnızca Etkileşim (devam);
+  // sahne denetimi kısıtlıyorsa (dokunmama, kesit) sahnenin söylediği kadarı
+  updateTouchMode() {
+    if (!Input.touchDevice) return;
+    let m;
+    if (this.menuOpen || this.cardActive) m = 'none';
+    else if (this.dlg.active || this.ch.active) m = 'etk';
+    else { const sc = Scenes.current; m = sc && sc.touchMode ? sc.touchMode() : (Player.enabled ? 'full' : 'etk'); }
+    if (m === this.touchMode) return;
+    this.touchMode = m;
+    $('touch').dataset.m = m;
+    if (m === 'none' || m === 'etk') Input.releaseTouch({ joy: true });
+    if (m === 'none' || m === 'joy') Input.releaseTouch({ buttons: ['bakis', 'gut', 'interact'] });
+    else if (m !== 'full') Input.releaseTouch({ buttons: ['bakis', 'gut'] });
   },
   blocking() { return this.dlg.active || this.ch.active || this.cardActive || this.menuOpen; },
 };

@@ -14,10 +14,11 @@ function crispLayer(w, h, fn) {
 }
 function ell(g, x, y, rx, ry, col) { g.fillStyle = col; g.beginPath(); g.ellipse(x, y, rx, ry, 0, 0, 6.2832); g.fill(); }
 function poly(g, pts, col) { g.fillStyle = col; g.beginPath(); g.moveTo(pts[0], pts[1]); for (let i = 2; i < pts.length; i += 2) g.lineTo(pts[i], pts[i + 1]); g.closePath(); g.fill(); }
+// Dokunmama anları: ipucu düğmesi gerçekten kaybolur (görünmez ama dokunulabilir değil);
+// menü düğmesi soluk kalır ki oyuncu bilerek duraklatabilsin
 function sacredUI(on) {
-  $('topbtns').style.opacity = on ? '0' : '';
-  $('topbtns').style.pointerEvents = on ? 'none' : '';
-  $('touch').style.opacity = on ? '0.35' : '';
+  $('topbtns').classList.toggle('sacred', !!on);
+  $('touch').classList.toggle('sacred', !!on);
 }
 
 // ------------------------------------------------------------
@@ -35,6 +36,7 @@ Scenes.define('baslik', {
     UI.openStart();
     Audio.setAmbience({ wind: 0.1, crickets: true });
   },
+  touchMode() { return 'none'; },
   update(dt) { Gfx.updateParticles(dt); if (Math.random() < dt * 3) Gfx.spawn({ x: 318 + Math.random() * 6, y: 306, vx: (Math.random() - 0.5) * 4, vy: -10, t: 0, life: 1.2, c: '#ffcf7a' }); },
   draw(g) {
     Gfx.drawSky(g, State.time * 6, 0, { dim: 1 });
@@ -65,6 +67,7 @@ Scenes.define('acilis', {
     }, 'scene');
   },
   update() {},
+  touchMode() { return 'etk'; },
   draw(g) { g.fillStyle = '#05060f'; g.fillRect(0, 0, VW, VH); },
   skip() { Scripts.kill('scene'); UI.closeCard(); Scenes.goto('cerceve_giris', { instant: true }); },
 });
@@ -151,6 +154,7 @@ Scenes.define('cerceve_giris', {
     }, 'scene');
   },
   update() {},
+  touchMode() { return 'etk'; },
   draw(g) {
     Frame.draw(g, { dipper: this.dipper });
     if (this.wipe > 0) { g.fillStyle = '#000'; g.fillRect(0, 0, Math.round(VW * smooth(this.wipe)), VH); }
@@ -165,6 +169,8 @@ Scenes.define('cerceve_giris', {
 // ------------------------------------------------------------
 Scenes.define('mujde', {
   title: 'Müjde',
+  sacred: true,
+  touchMode() { return this.lookPrompt ? 'joy' : 'none'; },
   enter() {
     const sc = this;
     sc.camY = 280; sc.camTarget = 280; sc.flood = 0; sc.floodT = 0; sc.angel = 0; sc.host = []; sc.hostA = 0; sc.stars = 1; sc.dark = 0.8; sc.cine = 0;
@@ -187,10 +193,13 @@ Scenes.define('mujde', {
       yield (dt) => { sc.flood = Math.max(0.3, sc.flood - dt * 0.25); sc.huddle = Math.min(1, sc.huddle + dt * 0.6); return sc.flood <= 0.3; };
       yield 0.6;
       yield UI.say([{ who: 'Rab\'bin meleği', text: 'Korkmayın! İşte size bütün halkı çok sevindirecek bir müjde getiriyorum. Bugün Davut\'un kentinde sizin için bir Kurtarıcı doğdu. O, Rab Mesih\'tir. Size şu işaret olacak: Kundağa sarılmış, yemlikte yatan bir bebek bulacaksınız.', kind: 'verse', ref: 'Luka 2:10–12 · [yakın aktarım; kanonik replik]', auto: 7, lock: true }]);
-      // 2:13 — gök ordusu
+      // 2:13 — gök ordusu belirir (ışıklar ayet satırıyla birlikte yavaşça gelir)
       Audio.rise();
-      yield (dt) => { sc.hostA = Math.min(1, sc.hostA + dt * 0.35); return sc.hostA >= 1; };
-      sc.lookPrompt = true; UI.prompt('look', 'başını kaldır');
+      Scripts.run(function* () { yield (dt) => { sc.hostA = Math.min(1, sc.hostA + dt * 0.35); return sc.hostA >= 1; }; }, 'scene');
+      yield UI.say([{ text: 'Birden meleğin yanında Tanrı\'yı öven büyük bir gök ordusu belirdi.', kind: 'narr', ref: 'Luka 2:13 · [yakın aktarım]', auto: 2.5, lock: true }]);
+      yield until(() => sc.hostA >= 1);
+      // tek girdi: başını kaldırmak — dokunmama anında Bakış gerekmez, yalnızca yukarı (GDD §5.1a)
+      sc.lookPrompt = true; UI.prompt('up', 'başını kaldır');
       let waited = 0;
       yield (dt) => { waited += dt; const up = Input.down('up') || Input.down('lookup') || (Input.down('bakis') && Input.down('up')); if (up) sc.looked = true; return sc.looked || waited >= 8; };
       sc.lookPrompt = false; UI.prompt(null);
@@ -245,15 +254,15 @@ Scenes.define('mujde', {
     g.drawImage(sb.nahum, 352 - 8, base - 30);
     if (sc.bury) g.drawImage(ART.tamarCrouch, 285 - 8, base - 22 + 2); // Tamar yüzünü babasının abasına gömer
     else g.drawImage(ART.tamar.up[0], 280 - 8, base - 22);
-    // melek: dikey ışık biçimi (insan boyunu biraz aşar: ~44 px)
-    const ax = 320, ay = 560 - cy;
+    // melek: dikey ışık biçimi (insan boyunu biraz aşar: yetişkin sprite'ı ~29 px, melek ~35 px)
+    const ax = 320, ay = 560 - cy, AH = 35;
     if (sc.angel > 0) {
       const a = sc.angel;
-      for (let y = 0; y < 46; y++) {
-        const t = y / 46, w = Math.round(3 + Math.sin(t * Math.PI) * 6 + (t > 0.85 ? -2 : 0));
+      for (let y = 0; y < AH; y++) {
+        const t = y / AH, w = Math.round(3 + Math.sin(t * Math.PI) * 5 + (t > 0.85 ? -2 : 0));
         g.globalAlpha = a * (0.55 + 0.45 * Math.sin(t * Math.PI));
-        g.fillStyle = '#fff4cc'; g.fillRect(ax - w, ay - 46 + y, w * 2, 1);
-        g.globalAlpha = a; g.fillStyle = '#ffffff'; g.fillRect(ax - Math.max(1, w - 4), ay - 46 + y, Math.max(2, (w - 4) * 2), 1);
+        g.fillStyle = '#fff4cc'; g.fillRect(ax - w, ay - AH + y, w * 2, 1);
+        g.globalAlpha = a; g.fillStyle = '#ffffff'; g.fillRect(ax - Math.max(1, w - 4), ay - AH + y, Math.max(2, (w - 4) * 2), 1);
       }
       g.globalAlpha = 1;
     }
@@ -271,7 +280,7 @@ Scenes.define('mujde', {
     // ışık katmanı
     Gfx.resetLights();
     Gfx.light(fx, fy - 4, 90, 0.9); Gfx.glow(fx, fy - 4, 40, 0.4);
-    if (sc.angel > 0) { Gfx.light(ax, ay - 24, 160, sc.angel); Gfx.glow(ax, ay - 24, 64, 0.8 * sc.angel, ART.glow.gold); }
+    if (sc.angel > 0) { Gfx.light(ax, ay - 18, 160, sc.angel); Gfx.glow(ax, ay - 18, 56, 0.8 * sc.angel, ART.glow.gold); }
     Gfx.applyDark('#03040f', sc.dark);
     if (sc.flood > 0) { g.globalCompositeOperation = 'lighter'; const f = Math.min(1, sc.flood * 1.25); g.fillStyle = `rgb(${Math.round(255 * f)},${Math.round(226 * f)},${Math.round(150 * f)})`; g.fillRect(0, 0, VW, VH); g.globalCompositeOperation = 'source-over'; }
     Gfx.cinema(sc.cine);
@@ -287,10 +296,12 @@ Scenes.define('mujde', {
 // ------------------------------------------------------------
 Scenes.define('yemlik', {
   title: 'Yemlik',
+  sacred: true,
+  touchMode() { return this.phase === 1 && !this.crouched ? 'joyetk' : 'none'; },
   enter() {
     const sc = this;
     if (!sc.bg) sc.buildArt();
-    sc.tx = 186; sc.crouched = false; sc.quiet = 0; sc.idle = 0; sc.phase = 0; sc.walkT = 0; sc.dir = 'up';
+    sc.tx = 186; sc.crouched = false; sc.quiet = 0; sc.idle = 0; sc.phase = 0; sc.walkT = 0; sc.dir = 'up'; sc.ending = false; sc.autoT = false;
     sacredUI(true);
     Audio.setDrone(false); Audio.setAmbience({ wind: 0.03, crickets: false });
     Audio.setTone(true, 220, 0.06);
@@ -334,8 +345,9 @@ Scenes.define('yemlik', {
       g.fillStyle = '#7a7262'; g.fillRect(35, 117, 32, 12); g.fillStyle = '#958c78'; g.fillRect(35, 117, 32, 2);
       g.fillStyle = '#2a241c'; g.fillRect(38, 119, 26, 5);
       // bebek: kundak biçimi (bantlı), yüz pikseli yok — baş kundak gölgesinde
-      g.fillStyle = '#d8ccb0'; g.fillRect(42, 117, 18, 5); g.fillStyle = '#b8ac90'; g.fillRect(46, 117, 1, 5); g.fillRect(51, 117, 1, 5); g.fillRect(56, 117, 1, 5);
-      g.fillStyle = '#a89c80'; g.fillRect(57, 117, 4, 5);
+      // (kundak odadaki en parlak nesne olmasın diye koyu keten tonunda)
+      g.fillStyle = '#b8ac90'; g.fillRect(42, 117, 18, 5); g.fillStyle = '#9a8e74'; g.fillRect(46, 117, 1, 5); g.fillRect(51, 117, 1, 5); g.fillRect(56, 117, 1, 5);
+      g.fillStyle = '#8e8268'; g.fillRect(57, 117, 4, 5);
       // İsa'nın annesi Meryem: oturan, yemliğe eğik silüet; örtü gölgesi, yüz yok
       poly(g, [70, 132, 72, 112, 78, 102, 86, 96, 94, 100, 96, 114, 98, 132], '#1c1a2c');
       ell(g, 82, 98, 7, 7, '#1c1a2c'); poly(g, [74, 96, 82, 89, 90, 92, 92, 104, 84, 108, 76, 104], '#24223a');
@@ -391,8 +403,10 @@ Scenes.define('yemlik', {
     // evin kandili: tek ışık
     const lx = 250 + 111, ly = 126 + 60;
     g.drawImage(ART.lamp, lx - 3, ly); g.drawImage(ART.flame[Math.floor(State.time * 6) % 3], lx - 1, ly - 3);
+    // tek ışık evin kandilidir: bütün ışık düşüşü kandilden başlar; çocuğa odaklı ışık yok (GDD §11.6).
+    // Avludaki hafif ışık yalnızca çobanların durduğu yeri gösterir ve içeriye ulaşmaz.
     Gfx.resetLights();
-    Gfx.light(lx, ly, 96, 1); Gfx.light(lx - 40, ly + 50, 120, 0.7); Gfx.light(320, 300, 110, 0.35);
+    Gfx.light(lx, ly, 96, 1); Gfx.light(lx, ly, 160, 0.5); Gfx.light(230, 352, 118, 0.32);
     Gfx.glow(lx, ly, 34, 0.35);
     Gfx.applyDark('#020208', 0.86);
     Gfx.cinema(1);
@@ -411,26 +425,28 @@ Scenes.define('tablo1', {
     const sc = this;
     if (!sc.art) {
       const par = makeParchment(VW, VH, 21);
+      // kompozisyon diyalog kutusunun üstünde kalır (yer çizgisi y = 262): eğilen figürler ve armağan kapları görünür
+      const G = 262;
       sc.art = crispLayer(VW, VH, (g) => {
         // ev ve açık kapı (kapının açısı yüzünden içerisi görünmez)
-        poly(g, [300, 330, 300, 170, 500, 150, 520, 330], INK);
-        g.fillStyle = '#e8b060'; g.fillRect(352, 236, 34, 94);
-        poly(g, [352, 236, 386, 236, 404, 246, 404, 330, 386, 330], '#c88a40');
-        // eşikte, sayısı okunmayan bir grup yıldızbilimci (üst üste biner, bir kısmı çerçeve dışında)
+        poly(g, [360, G, 360, G - 150, 560, G - 170, 580, G], INK);
+        g.fillStyle = '#e8b060'; g.fillRect(410, G - 90, 34, 90);
+        poly(g, [410, G - 90, 444, G - 90, 462, G - 80, 462, G, 444, G], '#c88a40');
+        // eşikte, sayısı okunmayan bir grup yıldızbilimci: üst üste biner, en arkadakiler çerçeve dışına taşar
         const fig = (x, h, bow) => {
-          if (bow) { poly(g, [x - 18, 330, x - 14, 318, x + 2, 312, x + 14, 316, x + 18, 330], INK); ell(g, x + 16, 318, 5, 5, INK); }
-          else { poly(g, [x - 9, 330, x - 7, 330 - h * 0.7, x - 3, 330 - h * 0.9, x + 4, 330 - h * 0.9, x + 8, 330 - h * 0.7, x + 10, 330], INK); ell(g, x, 330 - h, 5.5, 6.5, INK); }
+          if (bow) { poly(g, [x - 18, G, x - 14, G - 12, x + 2, G - 18, x + 14, G - 14, x + 18, G], INK); ell(g, x + 16, G - 12, 5, 5, INK); }
+          else { poly(g, [x - 9, G, x - 7, G - h * 0.7, x - 3, G - h * 0.9, x + 4, G - h * 0.9, x + 8, G - h * 0.7, x + 10, G], INK); ell(g, x, G - h, 5.5, 6.5, INK); }
         };
-        fig(-4, 70); fig(18, 66); fig(44, 74); fig(70, 64); fig(150, 0, true); fig(200, 68); fig(232, 0, true); fig(268, 72); fig(292, 0, true);
-        // armağan kapları
-        [[176, 324], [258, 326], [318, 326]].forEach(([x, y]) => { poly(g, [x - 5, y + 6, x - 6, y - 2, x - 3, y - 6, x + 3, y - 6, x + 6, y - 2, x + 5, y + 6], INK); });
+        fig(244, 64); fig(260, 72); fig(276, 66); fig(294, 70); fig(310, 62); fig(330, 0, true); fig(348, 0, true); fig(366, 0, true);
+        // armağan kapları, eşiğin önünde
+        [[384, G - 6], [397, G - 6]].forEach(([x, y]) => { poly(g, [x - 5, y + 6, x - 6, y - 2, x - 3, y - 6, x + 3, y - 6, x + 6, y - 2, x + 5, y + 6], INK); });
         // yer
-        g.fillStyle = INK; g.fillRect(0, 330, VW, 4);
+        g.fillStyle = INK; g.fillRect(0, G, VW, 4);
       });
       sc.par = par;
     }
     Audio.setDrone(true, 98); Audio.setAmbience({ wind: 0.04 });
-    UI.objective('Tablo · Matta 2:1–12 · tanıklık iddiası yok');
+    UI.objective('Yıldızbilimciler ve yıldız · Matta 2:1–12');
     Scripts.run(function* () {
       yield 1.0;
       yield UI.say([SAY.yasli('Bunu ben görmedim. Aylar sonra anlattılar.')]);
@@ -439,11 +455,12 @@ Scenes.define('tablo1', {
     }, 'scene');
   },
   update() {},
+  touchMode() { return 'etk'; },
   draw(g) {
     g.drawImage(this.par, 0, 0);
     g.drawImage(this.art, 0, 0);
     // yıldız: tablodaki tek gök ışığı, yıldız altını
-    const x = 420, y = 70, a = 0.85 + 0.15 * Math.sin(State.time * 2);
+    const x = 470, y = 54, a = REDUCED ? 1 : 0.85 + 0.15 * Math.sin(State.time * 2);
     g.globalAlpha = a; g.fillStyle = '#e8c66a'; g.fillRect(x - 1, y - 6, 3, 13); g.fillRect(x - 6, y - 1, 13, 3); g.fillStyle = '#fff4cc'; g.fillRect(x - 1, y - 1, 3, 3); g.globalAlpha = 1;
   },
   skip() { Scripts.kill('scene'); Scenes.goto('tablo2', { fadeOut: 0.3 }); },
@@ -480,7 +497,7 @@ Scenes.define('tablo2', {
       });
     }
     sc.x = 0; sc.verse = false;
-    UI.objective('Tablo · Matta 2:13–18 · tanıklık iddiası yok');
+    UI.objective('Gece yola çıkan aile · Matta 2:13–18');
     Audio.setDrone(false); Audio.setAmbience({ wind: 0.12 });
     Scripts.run(function* () {
       yield 1.0;
@@ -496,6 +513,7 @@ Scenes.define('tablo2', {
     }, 'scene');
   },
   update() {},
+  touchMode() { return 'etk'; },
   draw(g) {
     const x = Math.round(this.x);
     g.drawImage(this.par, x, 0, VW, VH, 0, 0, VW, VH);
@@ -556,6 +574,7 @@ Scenes.define('cerceve_kapanis', {
     }, 'scene');
   },
   update(dt) { if (this.weave) this.rows = Math.min(24, this.rows + dt * 6); },
+  touchMode() { return 'etk'; },
   draw(g) {
     const sc = this;
     Frame.draw(g, { band: (gg) => drawBand(gg, 268, 148, 142, 24, Math.floor(sc.rows), State.flags.b01_haber) });
@@ -593,7 +612,8 @@ Scenes.define('son', {
     const F = State.flags, S = State.stats;
     const li = [];
     li.push(F.b01_ifade_kuzu === 'kucakta' ? 'Topal kuzuyu kucağında ağıla taşıdın.' : F.b01_ifade_kuzu === 'guderek' ? 'Topal kuzu kandilinin ışığını izleyerek ağıla girdi.' : 'Topal kuzuyu ağıla baban koydu.');
-    li.push(`Sürü gece ${S.gece_islik} ıslıkla ağıla indi.` + (F.usta_b01_iki_islik ? ' Usta işi: en fazla iki ıslık.' : ''));
+    const n = S.gece_islik || 0;
+    li.push(S.suru_auto ? 'Sürü, babanın kandilinin ardından ağıla indi.' : n === 0 ? 'Sürü gece ıslık çalmadan ağıla indi.' : n === 1 ? 'Sürü gece tek ıslıkla ağıla indi.' : `Sürü gece ${n} ıslıkla ağıla indi.`);
     li.push(F.b01_uyanan_ev === 0 ? 'Beytlehem\'de doğru kapıyı başka kimseyi uyandırmadan buldun.' : `Beytlehem'de ${F.b01_uyanan_ev} ev uyandı; kapılar nazikçe açıldı.`);
     li.push(F.b01_haber === 'koye' ? 'Şafakta gördüğünü obadakilere anlattın — çobanların anlatışının yankısı (Luka 2:17–18).' : F.b01_haber === 'babaya' ? 'Şafakta babana fısıldadın: “Annesi hiç konuşmadı. Hep baktı.”' : 'Şafakta gördüğünü kalbinde sakladın — “yüreğinde saklamak”ın yankısı (Luka 2:19).');
     const mem = [];
@@ -607,15 +627,15 @@ Scenes.define('son', {
     let html = `<h1>Bölüm 1 — Yıldızın Altında</h1><h2>Luka 2:1–20</h2><ul class="summary">${li.map((x) => `<li>${esc(x)}</li>`).join('')}`;
     if (mem.length) html += `<li>Hatıralar: ${esc(mem.join(', '))}.</li>`;
     tan.forEach((x) => (html += `<li><i>${esc(x)}</i></li>`));
-    html += `</ul><div class="t" style="font-size:.8em;color:#b9b2a0;margin-bottom:1em">Üç yol da tam ve saygın bir sondur. Seçimlerin İncil'deki olayları değiştirmez.</div><div class="btns"><button data-a="again">Yeniden oyna</button></div>`;
+    html += `</ul><div class="t" style="font-size:.8em;color:#b9b2a0;margin-bottom:1em">Seçimlerin İncil'deki olayları değiştirmez.</div><div class="btns"><button data-a="again">Yeniden oyna</button></div>`;
     Scripts.run(function* () {
       yield 0.6;
       UI.card(html, { noTap: true });
-      const b = $('card').querySelector('button[data-a="again"]');
-      if (b) b.addEventListener('pointerdown', (e) => { e.preventDefault(); UI.closeCard(); Bus.emit('restart'); });
+      UI.cardButton('button[data-a="again"]', () => { UI.closeCard(); Bus.emit('restart'); });
     }, 'scene');
     Audio.setDrone(false);
   },
   update() {},
+  touchMode() { return 'none'; },
   draw(g) { Frame.draw(g, { band: (gg) => drawBand(gg, 268, 148, 142, 24, 24, State.flags.b01_haber) }); },
 });

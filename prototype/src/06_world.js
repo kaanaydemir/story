@@ -12,7 +12,7 @@ class TileMap {
   get(x, y) { const i = x - this.x0, j = y - this.y0; if (i < 0 || j < 0 || i >= this.w || j >= this.h) return T.VOID; return this.t[j * this.w + i]; }
   set(x, y, v) { const i = x - this.x0, j = y - this.y0; if (i < 0 || j < 0 || i >= this.w || j >= this.h) return; this.t[j * this.w + i] = v; }
   fill(x0, y0, x1, y1, v) { for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) this.set(x, y, v); }
-  solidAt(fx, fy) { const x = Math.round(fx), y = Math.round(fy); if (this.extraSolid.has(x + ',' + y)) return true; return SOLID.has(this.get(x, y)); }
+  solidAt(fx, fy) { const x = Math.round(fx), y = Math.round(fy); if (this.extraSolid.size && this.extraSolid.has(x + ',' + y)) return true; return SOLID.has(this.get(x, y)); }
   boxFree(x, y, rx, ry) {
     return !(this.solidAt(x - rx, y - ry) || this.solidAt(x + rx, y - ry) || this.solidAt(x - rx, y + ry) || this.solidAt(x + rx, y + ry));
   }
@@ -256,7 +256,9 @@ class Actor {
     else if (child) oy = -11;
     else oy = L.raised ? -31 : -16;
     if (!L.ground && !child && L.raised) ox = this.dir === 'left' ? -6 : 6;
-    return { x: sx + ox, y: sy + oy };
+    const o = this._lsp || (this._lsp = { x: 0, y: 0 });
+    o.x = sx + ox; o.y = sy + oy;
+    return o;
   }
   drawLamp(g, sx, sy) {
     const p = this.lampScreenPos(sx, sy);
@@ -264,7 +266,8 @@ class Actor {
     const f = ART.flame[Math.floor(State.time * 8) % 3];
     g.drawImage(f, p.x - 1, p.y - 4);
   }
-  lampWorld() { const p = this.lampScreenPos(this.x * TILE, this.y * TILE + 4); return { x: p.x / TILE, y: p.y / TILE }; }
+  // dönen nesne aktöre ait geçici bir kaptır (kare başına ayırma yapılmaz); hemen kullanılmalıdır
+  lampWorld() { const p = this.lampScreenPos(this.x * TILE, this.y * TILE + 4), o = this._lw || (this._lw = { x: 0, y: 0 }); o.x = p.x / TILE; o.y = p.y / TILE; return o; }
 }
 
 // ------------------------------------------------------------
@@ -273,7 +276,7 @@ class Actor {
 const Ripples = {
   list: [],
   add(x, y, kind) { this.list.push({ x, y, kind, t: 0 }); if (this.list.length > 24) this.list.shift(); },
-  update(dt) { for (const r of this.list) r.t += dt; this.list = this.list.filter((r) => r.t < 1.6); },
+  update(dt) { const L = this.list; let j = 0; for (let i = 0; i < L.length; i++) { const r = L[i]; r.t += dt; if (r.t < 1.6) L[j++] = r; } L.length = j; },
   clear() { this.list.length = 0; },
 };
 
@@ -333,10 +336,10 @@ function planPath(cx, cy, px, py) {
 }
 
 const Flock = {
-  sheep: [], map: null, night: false, lamp: null, lampId: 0, unit: null, slotsFor: null, slots: [], tamar: null,
+  sheep: [], map: null, night: false, lamp: null, lampId: 0, unit: null, slotsFor: null, slots: [], tamar: null, quiet: false,
   onMove: null, movedSinceRaise: false, raiseT: -1, raiseHandled: true,
   units: [],
-  reset(map, list) { this.map = map; this.sheep = list; this.units = []; this.lamp = null; this.lampId++; this.slots = []; this.slotsFor = null; },
+  reset(map, list) { this.map = map; this.sheep = list; this.units = []; this.lamp = null; this.lampId++; this.slots = []; this.slotsFor = null; this.quiet = false; },
   inLight(s) { const L = this.lamp; return !!(L && L.raised && dist(s.x, s.y, L.x, L.y) <= RING + 1e-6); },
   // halkadaki yuvalar (kandile 1,5–2,6 karo)
   makeSlots(P) {
@@ -599,14 +602,17 @@ const Flock = {
     }
     if (this.night) this.chain();
     // yürüyüş algısı (babanın "ışığım ulaşmıyor" sözü)
-    if (!this.movedSinceRaise && this.sheep.some((s) => s.mode === 'seek' || s.mode === 'unit')) this.movedSinceRaise = true;
+    if (!this.movedSinceRaise && this.units.length) this.movedSinceRaise = true;
+    if (!this.movedSinceRaise) for (const s of this.sheep) if (s.mode === 'seek' || s.mode === 'unit') { this.movedSinceRaise = true; break; }
   },
   bleat(s) {
     const kind = s.mother ? 'ana' : 'koyun';
     if (this.night && s.mode !== 'idle' && !s.stuck && Math.random() < 0.5) return;
     const vis = this.tamar ? dist(s.x, s.y, this.tamar.x, this.tamar.y) : 0;
-    Audio.bleat(kind, s.x, clamp(0.4 - vis * 0.015, 0.05, 0.4));
-    Ripples.add(s.x, s.y - 0.5, 'thick');
+    // Meleyen Ses'te yalnızca kuzu ve anasının karşılıklı sesi gösterge üretir; sürünün
+    // rastgele melemeleri kısık sesle duyulur ama dalga bırakmaz (bölüm §6.1)
+    Audio.bleat(kind, s.x, this.quiet ? clamp(0.16 - vis * 0.01, 0.03, 0.16) : clamp(0.4 - vis * 0.015, 0.05, 0.4));
+    if (!this.quiet) Ripples.add(s.x, s.y - 0.5, 'thick');
   },
   moveSheep(s, dt, goal, speed) {
     let dx = 0, dy = 0;
@@ -628,17 +634,13 @@ const Flock = {
     const sp = Math.hypot(s.vx, s.vy), maxS = Math.max(speed, 0.6) * 1.15 + 0.4;
     if (sp > maxS) { s.vx *= maxS / sp; s.vy *= maxS / sp; }
     const nx = s.x + s.vx * dt, ny = s.y + s.vy * dt;
-    const map = this.map, rx = 0.32, ry = 0.22;
-    const fold = s.inFold;
-    const free = (x, y) => map.boxFree(x, y, rx, ry) && (fold || s.mode === 'tofold' || s.mode === 'script' || this.sameZone(s, y));
-    if (free(nx, s.y)) s.x = nx; else s.vx = 0;
-    if (free(s.x, ny)) s.y = ny; else s.vy = 0;
+    if (this.map.boxFree(nx, s.y, 0.32, 0.22)) s.x = nx; else s.vx = 0;
+    if (this.map.boxFree(s.x, ny, 0.32, 0.22)) s.y = ny; else s.vy = 0;
     if (Math.abs(s.vx) > 0.05) s.faceR = s.vx > 0;
     const moving = sp > 0.12;
     s.animT += dt * (moving ? 6 : 0);
     s.moving = moving;
   },
-  sameZone(s, y) { return true; },
 };
 
 // ------------------------------------------------------------
@@ -686,9 +688,8 @@ const Player = {
     if (Math.abs(ax) + Math.abs(ay) > 0.01) {
       let sp = a.speed * this.speedMul * (Input.down('sprint') ? 1.35 : 1) * (this.bakis ? 0.5 : 1) * Math.max(0.35, Input.analog || 1);
       const nx = a.x + ax * sp * dt, ny = a.y + ay * sp * dt;
-      const free = (x, y) => this.map.boxFree(x, y, 0.3, 0.2) && (!this.collide || this.collide(x, y));
-      if (free(nx, a.y)) a.x = nx;
-      if (free(a.x, ny)) a.y = ny;
+      if (this.free(nx, a.y)) a.x = nx;
+      if (this.free(a.x, ny)) a.y = ny;
       a.face(ax, ay); moved = true;
       this.stepT -= dt * sp; if (this.stepT <= 0) { this.stepT = 0.85; Audio.step(a.x, true); }
     }
@@ -725,10 +726,11 @@ const Player = {
         if (d <= (it.r || 1.5) && d < bd) { bd = d; best = it; }
       }
       this.focus = best;
-      if (best) UI.prompt('interact', typeof best.label === 'function' ? best.label() : best.label); else UI.prompt(null);
+      if (best) UI.playerPrompt('interact', typeof best.label === 'function' ? best.label() : best.label); else UI.playerPrompt(null);
       if (best && Input.pressed('interact')) best.action();
-    } else UI.prompt(null);
+    } else UI.playerPrompt(null);
   },
+  free(x, y) { return this.map.boxFree(x, y, 0.3, 0.2) && (!this.collide || this.collide(x, y)); },
   isMoving() { return this.a && this.a.moving; },
 };
 

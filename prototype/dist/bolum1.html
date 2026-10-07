@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#05060f">
 <title>Kandil — Yıldızın Altında</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,8 +35,8 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 
 /* Hedef düşüncesi */
 #objective{position:absolute;left:calc(var(--fs)*.8);top:calc(var(--fs)*.6);max-width:55%;
-  font-style:italic;color:var(--ink-dim);font-size:calc(var(--fs)*.82);text-shadow:0 1px 0 #000,0 0 6px #000;opacity:.9}
-#usta{position:absolute;left:calc(var(--fs)*.8);top:calc(var(--fs)*2.2);font-size:calc(var(--fs)*.8);color:var(--ink-dim);
+  font-style:italic;color:var(--ink-dim);font-size:max(12px,calc(var(--fs)*.82));text-shadow:0 1px 0 #000,0 0 6px #000;opacity:.9}
+#usta{position:absolute;left:calc(var(--fs)*.8);top:calc(var(--fs)*2.2);font-size:max(12px,calc(var(--fs)*.8));color:var(--ink-dim);
   text-shadow:0 1px 0 #000}
 #usta .w{display:inline-block;margin-right:.35em;padding:0 .3em;border:1px solid #6b5a3a;border-radius:3px;background:rgba(10,12,30,.6)}
 #usta .w.used{opacity:.35;text-decoration:line-through}
@@ -51,12 +51,12 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 /* Etkileşim istemi */
 #prompt{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(var(--fs)*.7);
   background:rgba(8,10,24,.85);border:1px solid var(--panel-edge);border-radius:4px;padding:.25em .7em;white-space:nowrap;
-  font-size:calc(var(--fs)*.9)}
+  font-size:max(12px,calc(var(--fs)*.9))}
 #prompt .key{display:inline-block;min-width:1.4em;padding:0 .3em;margin-right:.45em;border:1px solid var(--gold);color:var(--gold);
   border-radius:3px;text-align:center}
 
 /* Diyalog */
-#dialog{position:absolute;left:3%;right:3%;bottom:calc(var(--fs)*.6);min-height:calc(var(--fs)*4.2);
+#dialog{position:absolute;left:3%;right:var(--dr,3%);bottom:calc(var(--fs)*.6);min-height:calc(var(--fs)*4.2);
   background:var(--panel);border:2px solid var(--panel-edge);border-radius:4px;padding:.55em .8em .55em .6em;
   display:flex;gap:.7em;align-items:flex-start;pointer-events:auto;cursor:pointer;
   box-shadow:0 0 0 2px #000, inset 0 0 0 1px rgba(232,198,106,.18)}
@@ -72,19 +72,20 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 #dialog.verse .text{font-family:var(--serif);font-size:calc(var(--fs)*1.05);color:#fbf3dc;letter-spacing:.01em}
 #dialog.verse{border-color:#b89a52;background:rgba(18,16,30,.94)}
 #dialog.narr .text{font-family:var(--serif);font-style:italic;color:#efe6d0}
-#dialog .verse{margin-top:.25em;font-size:calc(var(--fs)*.74);color:#c9b98a;letter-spacing:.02em;font-family:system-ui,-apple-system,'Segoe UI',Roboto,'DejaVu Sans',sans-serif}
+#dialog .verse{margin-top:.25em;font-size:max(12px,calc(var(--fs)*.74));color:#c9b98a;letter-spacing:.02em;font-family:system-ui,-apple-system,'Segoe UI',Roboto,'DejaVu Sans',sans-serif}
 #dialog .next{position:absolute;right:.6em;bottom:.2em;color:var(--gold);animation:blink 1.1s steps(2) infinite}
 #dialog.typing .next{visibility:hidden}
 @keyframes blink{50%{opacity:0}}
 
 /* Seçenekler */
-#choices{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(var(--fs)*5.6);display:flex;flex-direction:column;gap:.4em;
+#choices{position:absolute;left:50%;transform:translateX(-50%);transition:opacity .2s;bottom:calc(var(--fs)*5.6);display:flex;flex-direction:column;gap:.4em;
   min-width:55%;max-width:92%;pointer-events:auto}
 #choices button{pointer-events:auto;font:inherit;color:var(--ink);text-align:left;background:rgba(10,12,30,.94);border:2px solid #4a4030;
   border-radius:4px;padding:.45em .8em;cursor:pointer;min-height:2.6em}
 #choices button .n{color:var(--gold);margin-right:.6em}
 #choices button .tone{float:right;opacity:.7;margin-left:1em}
 #choices button.sel,#choices button:hover{border-color:var(--gold);background:rgba(40,34,30,.96)}
+#choices.arming button{opacity:.6;cursor:default}
 #choices .q{color:var(--ink-dim);font-style:italic;text-align:center;margin-bottom:.2em;text-shadow:0 1px 0 #000}
 
 /* Üç Işık */
@@ -96,9 +97,12 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 #hintpanel .h{font-size:calc(var(--fs)*.95)}
 #hintpanel .h.think{font-style:italic}
 #hintpanel .row{display:flex;gap:.5em;margin-top:.5em;flex-wrap:wrap}
+#hintpanel .keys{margin-top:.4em;font-size:max(12px,calc(var(--fs)*.72));color:var(--ink-dim)}
 #hintpanel button,#card button,#menu button{pointer-events:auto;font:inherit;color:var(--ink);background:#1d1a2a;border:2px solid #6b5a3a;border-radius:4px;
   padding:.35em .8em;cursor:pointer;min-height:2.4em}
-#hintpanel button:hover,#card button:hover,#menu button:hover,#menu button.sel,#card button.sel{border-color:var(--gold);background:#2a2436}
+#hintpanel button:hover,#card button:hover,#menu button:hover,#menu button.sel,#card button.sel,#hintpanel button.sel{border-color:var(--gold);background:#2a2436}
+button:focus{outline:none}
+button:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
 
 /* Üst düğmeler */
 #topbtns{position:absolute;right:calc(var(--fs)*.5);top:calc(var(--fs)*.5);display:flex;gap:.4em}
@@ -108,6 +112,8 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 .lampicon::before{content:"";position:absolute;left:0;right:0;bottom:0;height:.45em;background:#9a5a32;border-radius:40% 40% 50% 50%}
 .lampicon::after{content:"";position:absolute;left:.62em;bottom:.38em;width:.3em;height:.4em;background:#f0a040;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;box-shadow:0 0 5px #f0a040}
 #topbtns.off{display:none}
+#topbtns.sacred #btn-hint{opacity:0;pointer-events:none;visibility:hidden}
+#topbtns.sacred #btn-menu{opacity:.35}
 
 /* Tam ekran kart */
 #card{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:6% 8%;
@@ -115,8 +121,8 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 #card.clear{background:transparent}
 #card .t{font-size:calc(var(--fs)*1.15);max-width:34em;line-height:1.5}
 #card .t.serif{font-family:var(--serif)}
-#card .ref{margin-top:.8em;color:#c9b98a;font-size:calc(var(--fs)*.75);font-family:system-ui,-apple-system,'Segoe UI',Roboto,'DejaVu Sans',sans-serif}
-#card .tap{margin-top:1.6em;color:var(--ink-dim);font-size:calc(var(--fs)*.75);animation:blink 1.6s steps(2) infinite}
+#card .ref{margin-top:.8em;color:#c9b98a;font-size:max(12px,calc(var(--fs)*.75));font-family:system-ui,-apple-system,'Segoe UI',Roboto,'DejaVu Sans',sans-serif}
+#card .tap{margin-top:1.6em;color:var(--ink-dim);font-size:max(12px,calc(var(--fs)*.75));animation:blink 1.6s steps(2) infinite}
 #card h1{font-weight:600;font-size:calc(var(--fs)*2);margin:.1em 0 .1em;color:var(--gold);letter-spacing:.04em;text-shadow:0 2px 0 #000}
 #card h2{font-weight:400;font-size:calc(var(--fs)*1.2);margin:.1em 0 1em;color:var(--ink)}
 #card .summary{text-align:left;max-width:32em;font-size:calc(var(--fs)*.9);line-height:1.5;margin:.6em auto 1em;color:#e8dfca}
@@ -131,10 +137,10 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 #menu h1{margin:.1em 0 0;font-size:calc(var(--fs)*1.9);color:var(--gold);font-weight:600;letter-spacing:.05em;text-shadow:0 2px 0 #000}
 #menu h2{margin:.15em 0 .9em;font-size:calc(var(--fs)*1.05);font-weight:400}
 #menu .col{display:flex;flex-direction:column;gap:.45em;align-items:stretch}
-#menu table{margin:.4em auto;border-collapse:collapse;text-align:left;font-size:calc(var(--fs)*.85)}
+#menu table{margin:.4em auto;border-collapse:collapse;text-align:left;font-size:max(12px,calc(var(--fs)*.85))}
 #menu td{padding:.18em .6em;border-bottom:1px solid rgba(107,90,58,.35);vertical-align:top}
 #menu td:first-child{color:var(--gold);white-space:nowrap}
-#menu .small{font-size:calc(var(--fs)*.75);color:var(--ink-dim);margin-top:.6em}
+#menu .small{font-size:max(12px,calc(var(--fs)*.75));color:var(--ink-dim);margin-top:.6em}
 
 #fade{position:absolute;inset:0;background:#000;opacity:0;pointer-events:none}
 
@@ -149,7 +155,29 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
   background:rgba(14,16,36,.55);border:2px solid rgba(232,198,106,.45);display:flex;align-items:center;justify-content:center;padding:0;line-height:1.1}
 .tb.on{background:rgba(232,198,106,.35);border-color:#f3dc9a}
 .tb.ctx{border-color:#f0a040;box-shadow:0 0 10px rgba(240,160,64,.6)}
+#touch.sacred{opacity:.35}
+/* dokunmatik denetim kipleri: none (menü/kart) · etk (diyalog, kesit: yalnızca Etkileşim = devam) ·
+   joy (yalnızca çubuk) · joyetk (çubuk + Etkileşim) · full */
+#touch #joy,#touch .tb{transition:opacity .18s}
+#touch[data-m="none"] #joy,#touch[data-m="none"] .tb,
+#touch[data-m="etk"] #joy,#touch[data-m="etk"] #tb-bakis,#touch[data-m="etk"] #tb-gut,
+#touch[data-m="joy"] .tb,
+#touch[data-m="joyetk"] #tb-bakis,#touch[data-m="joyetk"] #tb-gut{opacity:0;pointer-events:none}
+.tb.off{border-color:#c06050;background:rgba(80,20,20,.45)}
 #dialog.locked{cursor:default}
+/* dokunmatik: en az 44 px dokunma hedefleri */
+@media (pointer:coarse){
+  #topbtns{gap:10px}
+  #topbtns .tbtn{width:max(44px,calc(var(--fs)*2.3));height:max(44px,calc(var(--fs)*2.3))}
+  #menu button,#card button,#hintpanel button,#choices button{min-height:44px}
+  #menu .col{gap:10px}
+  #choices{gap:10px}
+  #hintpanel .row{gap:10px}
+}
+@media (prefers-reduced-motion: reduce){
+  #dialog .next,#card .tap{animation:none}
+  #choices,#touch #joy,#touch .tb{transition:none}
+}
 #dialog.locked .next{display:none}
 
 </style>
@@ -728,6 +756,7 @@ const ICONS = {
   saman_taze: ['.g.g..g..', 'g.g.gg.g.', '.ggg.ggg.', 'g.g.g.g.g', '.ggggggg.', 'ggg.ggggg', '.g.g.g.g.', 'ggggggggg', '.........'],
   saman_eski: ['.........', '.........', '.........', '.........', 'CCCCCCCCC', 'C.C.C.C.C', 'CCCCCCCCC', '.........', '.........'],
   bagli: ['...kkk...', '..kTkTk..', '..kk.kk..', '..kTkTk..', '...kdk...', '...kdk...', '....kd...', '.....kd..', '......kk.'],
+  hayvan_ic: ['kkkkkkkkk', 'kdk...kdk', 'kdkx.xkdk', 'kdkxxxkdk', 'kdkwxwkdk', 'kdkxxxkdk', 'kkkkkkkkk', 'kdddddddk', 'kkkkkkkkk'],
   firin: ['.........', '...kkk...', '..kRRRk..', '.kRRRRRk.', 'kRRkkkRRk', 'kRkoOokRk', 'kRkoooRRk', 'kkkkkkkkk', '.........'],
 };
 
@@ -1243,9 +1272,9 @@ const KEYMAP = {
   KeyH: 'hint', Escape: 'menu', KeyP: 'menu', ControlLeft: 'sprint', ControlRight: 'sprint', Backspace: 'cancel',
   Digit1: 'n1', Digit2: 'n2', Digit3: 'n3', Digit4: 'n4', Numpad1: 'n1', Numpad2: 'n2', Numpad3: 'n3', Numpad4: 'n4',
 };
-const BUTTONS = ['up', 'down', 'left', 'right', 'bakis', 'gut', 'interact', 'confirm', 'hint', 'menu', 'sprint', 'cancel', 'lookup', 'n1', 'n2', 'n3', 'n4'];
+const BUTTONS = ['up', 'down', 'left', 'right', 'bakis', 'gut', 'interact', 'confirm', 'hint', 'menu', 'sprint', 'cancel', 'lookup', 'accept', 'n1', 'n2', 'n3', 'n4'];
 const Input = {
-  keys: {}, latch: {}, mouseR: false, virt: {}, sim: {}, cur: {}, prev: {}, held: {},
+  keys: {}, latch: {}, mouseR: false, gutOut: false, virt: {}, sim: {}, cur: {}, prev: {}, held: {},
   joy: { x: 0, y: 0, active: false, id: null }, pad: null, padCur: {},
   axisX: 0, axisY: 0, analog: 0,
   touchDevice: false, lastDevice: 'kb',
@@ -1253,6 +1282,8 @@ const Input = {
   init() {
     window.addEventListener('keydown', (e) => {
       const n = KEYMAP[e.code];
+      // Enter/Boşluk odaktaki bir düğmeye "click" üretmesin: bütün klavye seçimi tek yoldan (UI.update) geçer
+      if ((e.code === 'Enter' || e.code === 'NumpadEnter' || e.code === 'Space') && document.activeElement && document.activeElement.tagName === 'BUTTON') e.preventDefault();
       if (n) {
         if (!e.repeat) this.latch[n] = true;
         this.keys[n] = true; this.lastDevice = 'kb';
@@ -1265,12 +1296,16 @@ const Input = {
     window.addEventListener('keyup', (e) => {
       const n = KEYMAP[e.code];
       if (n) { this.keys[n] = false; if (n === 'interact') this.keys.confirm2 = false; if (n === 'gut') this.keys.confirm3 = false; }
+      if ((e.code === 'Enter' || e.code === 'NumpadEnter' || e.code === 'Space') && document.activeElement && document.activeElement.tagName === 'BUTTON') e.preventDefault();
     });
     window.addEventListener('blur', () => { this.keys = {}; this.mouseR = false; this.virt = {}; this.joy.active = false; this.joy.x = this.joy.y = 0; });
     window.addEventListener('contextmenu', (e) => e.preventDefault());
     window.addEventListener('mousedown', (e) => { if (e.button === 2) { this.mouseR = true; this.lastDevice = 'kb'; } Audio.init(); });
     window.addEventListener('mouseup', (e) => { if (e.button === 2) this.mouseR = false; });
     window.addEventListener('touchstart', () => { if (!this.touchDevice) { this.touchDevice = true; Bus.emit('touchdetected'); } this.lastDevice = 'touch'; Audio.init(); }, { passive: true });
+    // iOS: ses bağlamı bazen ancak parmak kalkınca (touchend/click) açılabilir
+    window.addEventListener('touchend', () => Audio.init(), { passive: true });
+    window.addEventListener('click', () => Audio.init());
     try { this.touchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0 && matchMedia('(pointer: coarse)').matches); } catch (e) {}
     if (this.touchDevice) this.lastDevice = 'touch';
     this.initTouch();
@@ -1291,10 +1326,18 @@ const Input = {
     const bind = (id, name) => {
       const el = document.getElementById(id);
       el.addEventListener('pointerdown', (e) => { e.preventDefault(); this.virt[name] = true; this.vlatch[name] = true; el.classList.add('on'); try { el.setPointerCapture(e.pointerId); } catch (er) {} this.lastDevice = 'touch'; Audio.init(); });
-      const up = (e) => { this.virt[name] = false; el.classList.remove('on'); };
+      const up = (e) => { this.virt[name] = false; el.classList.remove('on', 'off'); };
       el.addEventListener('pointerup', up); el.addEventListener('pointercancel', up);
-      // parmak düğmeden kayarsa: Güt'te ıslığı iptal eder
-      el.addEventListener('pointerleave', (e) => { if (name === 'gut' && this.virt.gut && e.pointerType === 'touch') { this.virt.cancelGut = true; } });
+      // parmak Güt düğmesinden kayarsa ıslık iptal edilir (düğme parmağı yakaladığı için
+      // pointerleave ancak parmak kalkınca gelir; bu yüzden konum her harekette denetlenir)
+      if (name === 'gut') el.addEventListener('pointermove', (e) => {
+        if (!this.virt.gut) return;
+        const r = el.getBoundingClientRect(), mx = r.width * 0.25, my = r.height * 0.25;
+        const out = e.clientX < r.left - mx || e.clientX > r.right + mx || e.clientY < r.top - my || e.clientY > r.bottom + my;
+        if (out && !this.gutOut) { this.gutOut = true; this.virt.cancelGut = true; el.classList.add('off'); }
+        if (!out && this.gutOut) { this.gutOut = false; el.classList.remove('off'); }
+      });
+      if (name === 'gut') el.addEventListener('pointerdown', () => { this.gutOut = false; });
     };
     bind('tb-bakis', 'bakis'); bind('tb-gut', 'gut'); bind('tb-etk', 'interact');
   },
@@ -1310,7 +1353,7 @@ const Input = {
       const P = this.padCur;
       P.ax = Math.abs(ax) > 0.2 ? ax : 0; P.ay = Math.abs(ay) > 0.2 ? ay : 0;
       P.up = b(12); P.down = b(13); P.left = b(14); P.right = b(15);
-      P.interact = b(0); P.confirm = b(0); P.cancel = b(1); P.gut = b(2); P.sprint = b(4); P.bakis = b(6); P.hint = b(8); P.menu = b(9);
+      P.interact = b(0); P.confirm = b(0); P.cancel = b(1); P.gut = b(2); P.accept = b(3); P.sprint = b(4); P.bakis = b(6); P.hint = b(8); P.menu = b(9);
       P.lookup = ry < -0.5;
       if (Object.keys(P).some((k) => P[k] === true) || P.ax || P.ay) this.lastDevice = 'pad';
       break;
@@ -1325,8 +1368,11 @@ const Input = {
     for (const n of BUTTONS) c[n] = !!(K[n] || P[n] || V[n] || simOn(n) || this.latch[n]);
     // dokunmatik düğmelerde de çok kısa dokunuşlar kaybolmasın
     for (const n in this.vlatch) c[n] = true;
+    if (this.vlatch.interact) c.confirm = true;
     this.vlatch = {};
     if (this.latch.interact || this.latch.gut) c.confirm = true;
+    // "accept": yalnızca Enter ve gamepad Y (Üç Işık panelinde "Hikâyeye devam")
+    c.accept = !!(K.confirm || P.accept || simOn('accept') || this.latch.confirm || this.latch.accept);
     this.latch = {};
     if (this.mouseR) c.bakis = true;
     // dokunmatik/klavye: Etkileşim ve Boşluk diyalogda "devam" da sayılır
@@ -1354,13 +1400,18 @@ const Input = {
   released(n) { return !this.cur[n] && !!this.prev[n]; },
   consume(n) { this.prev[n] = true; },
   locks: {}, vlatch: {},
-  lock(names) { (names || ['gut', 'interact', 'confirm', 'bakis', 'hint']).forEach((n) => { this.locks[n] = true; this.cur[n] = false; }); },
+  lock(names) { (names || ['gut', 'interact', 'confirm', 'bakis', 'hint', 'accept']).forEach((n) => { this.locks[n] = true; this.cur[n] = false; }); },
+  // dokunmatik denetim gizlenince basılı kalmış sanal girdiler bırakılır
+  releaseTouch(which) {
+    if (which.joy) { this.joy.active = false; this.joy.x = this.joy.y = 0; const k = document.getElementById('joy-knob'); if (k) k.style.transform = ''; }
+    (which.buttons || []).forEach((n) => { this.virt[n] = false; const el = document.getElementById({ bakis: 'tb-bakis', gut: 'tb-gut', interact: 'tb-etk' }[n]); if (el) el.classList.remove('on', 'off'); });
+  },
   simulate(name, ms) { this.sim[name] = performance.now() + (ms || 100); },
   keyLabel(action) {
     const t = this.lastDevice === 'touch' || (this.touchDevice && this.lastDevice !== 'kb' && this.lastDevice !== 'pad');
-    if (this.lastDevice === 'pad') return { interact: 'A', gut: 'X', bakis: 'LT', hint: 'View', look: 'LT+↑' }[action] || action;
-    if (t) return { interact: 'Etkileşim', gut: 'Güt', bakis: 'Bakış', hint: 'Işık', look: 'Bakış+↑' }[action] || action;
-    return { interact: 'E', gut: 'Boşluk', bakis: 'Shift', hint: 'H', look: 'Shift+↑' }[action] || action;
+    if (this.lastDevice === 'pad') return { interact: 'A', gut: 'X', bakis: 'LT', hint: 'View', look: 'LT+↑', up: '↑' }[action] || action;
+    if (t) return { interact: 'Etkileşim', gut: 'Güt', bakis: 'Bakış', hint: 'Işık', look: 'Bakış+↑', up: 'Çubuk ↑' }[action] || action;
+    return { interact: 'E', gut: 'Boşluk', bakis: 'Shift', hint: 'H', look: 'Shift+↑', up: '↑' }[action] || action;
   },
 };
 
@@ -1372,6 +1423,12 @@ const Input = {
 // ============================================================
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+// Dokunuş/tıklama: pointerdown hızlı tepki verir; "click" ise klavye odağı ve yardımcı
+// teknolojiler (ekran okuyucu, anahtar erişimi) içindir. Aynı basış iki kez sayılmaz.
+function onTap(el, fn) {
+  el.addEventListener('pointerdown', (e) => { e.preventDefault(); el._tapT = performance.now(); fn(e); });
+  el.addEventListener('click', (e) => { if (el._tapT && performance.now() - el._tapT < 800) return; fn(e); });
+}
 
 const UI = {
   scale: 1, portrait: false, stageRect: { x: 0, y: 0, w: 640, h: 360 },
@@ -1381,12 +1438,14 @@ const UI = {
   cardActive: false, cardResolve: null, cardWait: 0,
   fadeA: 0, fadeTarget: 0, fadeSpeed: 1,
   menuOpen: false, menuKind: null,
-  hint: { open: false },
+  hint: { open: false, sel: 0 },
+  pr: { scene: null, player: null, sig: null },
+  touchMode: null,
   init() {
     $('dialog').addEventListener('pointerdown', (e) => { e.preventDefault(); this.advance(); });
-    $('card').addEventListener('pointerdown', (e) => { if (e.target.tagName === 'BUTTON') return; e.preventDefault(); this.cardTap(); });
-    $('btn-hint').addEventListener('pointerdown', (e) => { e.preventDefault(); Audio.init(); Bus.emit('hintRequest'); });
-    $('btn-menu').addEventListener('pointerdown', (e) => { e.preventDefault(); Audio.init(); if (!this.menuOpen && State.started) this.openPause(); });
+    $('card').addEventListener('pointerdown', (e) => { if (e.target.closest && e.target.closest('button')) return; e.preventDefault(); this.cardTap(); });
+    onTap($('btn-hint'), () => { Audio.init(); Bus.emit('hintRequest'); });
+    onTap($('btn-menu'), () => { Audio.init(); if (!this.menuOpen && State.started) this.openPause(); });
     const re = () => this.layout();
     window.addEventListener('resize', re);
     window.addEventListener('orientationchange', () => setTimeout(re, 120));
@@ -1426,7 +1485,7 @@ const UI = {
     let uiH = cssH;
     if (portrait) uiH = Math.max(cssH, vh + sa0.t - ctrlH - y);
     ui.style.left = x + 'px'; ui.style.top = y + 'px'; ui.style.width = cssW + 'px'; ui.style.height = uiH + 'px';
-    const fs = Math.max(13, Math.min(22, cssW / 640 * 11.5));
+    const fs = Math.max(touch ? 15 : 13, Math.min(22, cssW / 640 * 11.5));
     ui.style.setProperty('--fs', fs + 'px');
     document.documentElement.style.setProperty('--fs', fs + 'px');
     // dokunmatik kontroller
@@ -1449,11 +1508,19 @@ const UI = {
         this.placeButtons(tb, vw + sa0.l, vh + sa0.t, Math.min(vh * 0.16, 70), false);
       }
     }
+    // yatay dokunmatikte diyalog ve seçenekler sağdaki Etkileşim düğmesinin altına girmesin
+    let dr = 0;
+    if (touch && !portrait) {
+      const e = $('tb-etk'), el = parseFloat(e.style.left) || 0, et = parseFloat(e.style.top) || 0, ew = parseFloat(e.style.width) || 0;
+      const stageBottom = y + cssH;
+      if (el < x + cssW && et + ew > stageBottom - cssH * 0.3) dr = Math.max(0, x + cssW - el + 6);
+    }
+    ui.style.setProperty('--dr', dr ? dr + 'px' : '3%');
   },
   placeButtons(tb, vw, h, size, portrait) {
     tb.style.left = '0'; tb.style.top = '0'; tb.style.width = vw + 'px'; tb.style.height = h + 'px';
     const right = vw - 16, bottom = portrait ? h / 2 + size * 0.9 : h - 18;
-    const place = (id, cx, cy, s) => { const el = $(id); el.style.width = s + 'px'; el.style.height = s + 'px'; el.style.left = (cx - s / 2) + 'px'; el.style.top = (cy - s / 2) + 'px'; el.style.right = 'auto'; };
+    const place = (id, cx, cy, s) => { const el = $(id); el.style.width = s + 'px'; el.style.height = s + 'px'; el.style.left = (cx - s / 2) + 'px'; el.style.top = (cy - s / 2) + 'px'; el.style.right = 'auto'; el.style.fontSize = Math.max(9, Math.min(13, s * 0.18)) + 'px'; };
     place('tb-etk', right - size * 0.55, bottom - size * 1.55, size * 1.05);
     place('tb-gut', right - size * 1.75, bottom - size * 0.6, size * 1.05);
     place('tb-bakis', right - size * 2.75, bottom - size * 1.75, size * 0.95);
@@ -1473,6 +1540,8 @@ const UI = {
     if (d.i >= d.lines.length) { d.active = false; $('dialog').classList.add('hidden'); Input.lock(); return; }
     let L = d.lines[d.i]; if (typeof L === 'string') L = { text: L };
     d.line = L; d.full = L.text; d.shown = 0; d.t = 0; d.autoT = 0;
+    // kilitli (kendiliğinden akan) satırlar okunabilsin: bekleme metin uzunluğuna göre uzar
+    d.autoHold = L.auto == null ? null : L.lock ? Math.max(L.auto, L.text.length / 18) : L.auto;
     const el = $('dialog');
     el.className = '';
     if (L.kind) el.classList.add(L.kind);
@@ -1505,14 +1574,30 @@ const UI = {
   },
   clearBark() { $('bark').classList.add('hidden'); this.bk.t = 0; },
   // ---------------- istem ----------------
-  prompt(action, text) {
+  // İki yuva: sahnenin kendi istemi (öğretim, Bakış daveti…) ve oyuncunun odaktaki etkileşimi.
+  // Oyuncu yuvası doluysa o görünür; boşalınca sahne istemi geri gelir. Diyalog/menü sırasında gizlenir.
+  prompt(action, text) { this.pr.scene = text ? { action, text } : null; this.renderPrompt(); },
+  playerPrompt(action, text) {
+    const cur = this.pr.player;
+    if (!text) { if (!cur) return; this.pr.player = null; }
+    else { if (cur && cur.action === action && cur.text === text) return; this.pr.player = { action, text }; }
+    this.renderPrompt();
+  },
+  clearPrompts() { this.pr.scene = null; this.pr.player = null; this.renderPrompt(); },
+  renderPrompt() {
     const el = $('prompt');
-    if (!text) { el.classList.add('hidden'); $('tb-etk').classList.remove('ctx'); this._prompt = null; return; }
-    const key = Input.keyLabel(action);
-    const sig = key + text;
-    if (this._prompt !== sig) { el.innerHTML = `<span class="key">${esc(key)}</span>${esc(text)}`; this._prompt = sig; }
-    el.classList.remove('hidden');
-    $('tb-etk').classList.toggle('ctx', action === 'interact');
+    const P = this.blocking() ? null : this.pr.player || this.pr.scene;
+    if (!P) { if (this.pr.sig !== null) { el.classList.add('hidden'); $('tb-etk').classList.remove('ctx'); this.pr.sig = null; } return; }
+    const key = Input.keyLabel(P.action);
+    let text = P.text;
+    // dokunmatikte düğme adı metnin başında yinelenmesin ("[Bakış] Bakış: …")
+    if (text.indexOf(key + ':') === 0) text = text.slice(key.length + 1).trim();
+    const sig = P.action + '|' + key + '|' + text;
+    if (this.pr.sig !== sig) {
+      el.innerHTML = `<span class="key">${esc(key)}</span>${esc(text)}`; this.pr.sig = sig;
+      el.classList.remove('hidden');
+      $('tb-etk').classList.toggle('ctx', P.action === 'interact');
+    }
   },
   objective(text) { const el = $('objective'); if (!text) { el.classList.add('hidden'); return; } el.textContent = text; el.classList.remove('hidden'); },
   usta(n, show) {
@@ -1527,12 +1612,16 @@ const UI = {
   // ---------------- seçenekler ----------------
   choose(opts, question) {
     const c = this.ch; c.active = true; c.opts = opts; c.sel = 0; c.result = -1;
+    // diyalogu hızla geçen oyuncu seçeneği okumadan seçmesin: kısa bekleme + tuş bırakma şartı;
+    // bekleme sırasında yeniden basılan onay tuşu süreyi baştan başlatır
+    c.armT = 0.8; c.needRelease = true;
     const el = $('choices'); el.innerHTML = '';
     if (question) { const q = document.createElement('div'); q.className = 'q'; q.textContent = question; el.appendChild(q); }
     opts.forEach((o, i) => {
       const b = document.createElement('button');
       b.innerHTML = `<span class="n">${i + 1}</span>${esc(o.text || o)}${o.tone ? `<span class="tone">${esc(o.tone)}</span>` : ''}`;
-      b.addEventListener('pointerdown', (e) => { e.preventDefault(); this.pick(i); });
+      onTap(b, () => this.pick(i));
+      b.addEventListener('focus', () => { c.sel = i; this.markSel(); });
       el.appendChild(b);
     });
     el.classList.remove('hidden');
@@ -1541,7 +1630,7 @@ const UI = {
     return { done: () => !c.active, value: () => c.result };
   },
   markSel() { const bs = $('choices').querySelectorAll('button'); bs.forEach((b, i) => b.classList.toggle('sel', i === this.ch.sel)); },
-  pick(i) { const c = this.ch; if (!c.active) return; c.result = i; c.active = false; $('choices').classList.add('hidden'); Audio.ui(); Input.lock(); },
+  pick(i, force) { const c = this.ch; if (!c.active) return; if (!force && (c.armT > 0 || c.needRelease)) return; c.result = i; c.active = false; $('choices').classList.add('hidden'); Audio.ui(); Input.lock(); },
   // ---------------- kart ----------------
   card(html, opts) {
     opts = opts || {};
@@ -1553,6 +1642,7 @@ const UI = {
     return { done: () => !this.cardActive };
   },
   cardTap() { if (!this.cardActive || this.cardNoTap || this.cardWait > 0) return; this.closeCard(); },
+  cardButton(sel, fn) { const b = $('card').querySelector(sel); if (b) onTap(b, () => { if (this.cardWait <= 0) fn(); }); return b; },
   closeCard() { this.cardActive = false; $('card').classList.add('hidden'); $('card').innerHTML = ''; Input.lock(); },
   // ---------------- karartma ----------------
   fade(to, dur) {
@@ -1568,16 +1658,24 @@ const UI = {
     h += '<div class="row">';
     if (level >= 3 && opts.onContinue) h += '<button data-a="cont">Hikâyeye devam</button>';
     h += '<button data-a="close">Kapat</button></div>';
+    if (level >= 3 && opts.onContinue) {
+      const k = Input.lastDevice === 'pad' ? 'Y' : Input.lastDevice === 'touch' ? '' : 'Enter';
+      if (k) h += `<div class="keys">${esc(k)}: Hikâyeye devam · ${Input.lastDevice === 'pad' ? 'B' : 'Backspace'}: Kapat</div>`;
+    }
     el.innerHTML = h;
     el.classList.remove('hidden');
-    this.hint.open = true; this.hint.t = 14; this.hint.onContinue = opts.onContinue;
-    el.querySelectorAll('button').forEach((b) => b.addEventListener('pointerdown', (e) => {
-      e.preventDefault();
-      if (b.dataset.a === 'cont' && this.hint.onContinue) { const f = this.hint.onContinue; this.closeHint(); f(); }
-      else this.closeHint();
-    }));
+    this.hint.open = true; this.hint.t = 14; this.hint.onContinue = opts.onContinue; this.hint.sel = 0;
+    this.hint.buttons = [...el.querySelectorAll('button')];
+    this.hint.buttons.forEach((b) => onTap(b, () => this.hintAction(b.dataset.a)));
+    this.markHint();
   },
-  closeHint() { $('hintpanel').classList.add('hidden'); this.hint.open = false; },
+  markHint() { (this.hint.buttons || []).forEach((b, i) => b.classList.toggle('sel', i === this.hint.sel)); },
+  hintAction(a) {
+    if (!this.hint.open) return;
+    if (a === 'cont' && this.hint.onContinue) { const f = this.hint.onContinue; this.closeHint(); Audio.ui(); f(); }
+    else this.closeHint();
+  },
+  closeHint() { $('hintpanel').classList.add('hidden'); this.hint.open = false; this.hint.buttons = []; },
   // ---------------- menüler ----------------
   controlsHTML() {
     return `<table>
@@ -1593,22 +1691,28 @@ const UI = {
       <tr><td>Menü</td><td>Esc · sağ üstteki ≡ · Menu</td></tr>
     </table>`;
   },
-  openStart() {
+  openStart(sel) {
     this.menuOpen = true; this.menuKind = 'start';
     const el = $('menu'); el.className = 'start';
     el.innerHTML = `<div class="box"><h1>Kandil — Yıldızdan Şafağa</h1><h2>Bölüm 1: Yıldızın Altında</h2>
       <div class="col"><button data-a="start">Başla</button><button data-a="sound">${State.muted ? 'Ses: kapalı' : 'Ses: açık'}</button><button data-a="controls">Kontroller</button></div>
       <div class="small">Oynanabilir prototip · Luka 2:1–20 · yaklaşık 12–15 dakika</div></div>`;
-    this.bindMenu(el);
+    this.bindMenu(el, sel);
     $('topbtns').classList.add('off');
   },
-  openPause() {
+  openPause(sel) {
     if (this.menuOpen) return;
     State.paused = true; this.menuOpen = true; this.menuKind = 'pause';
     const el = $('menu'); el.className = '';
     el.innerHTML = `<div class="box"><h1 style="font-size:calc(var(--fs)*1.4)">Duraklatıldı</h1><h2>${esc(Scenes.current ? Scenes.current.title : '')}</h2>
       <div class="col"><button data-a="resume">Devam</button><button data-a="controls">Kontroller</button><button data-a="sound">${State.muted ? 'Ses: kapalı' : 'Ses: açık'}</button><button data-a="restart">Bölümü yeniden başlat</button></div></div>`;
-    this.bindMenu(el);
+    this.bindMenu(el, sel);
+  },
+  openRestartConfirm() {
+    const el = $('menu'); el.className = '';
+    el.innerHTML = `<div class="box"><h1 style="font-size:calc(var(--fs)*1.3)">Bölümü yeniden başlat?</h1><h2>Bu bölümdeki seçimlerin ve ilerlemen silinir.</h2>
+      <div class="col"><button data-a="backpause3">Hayır, devam et</button><button data-a="restartyes">Evet, baştan başla</button></div></div>`;
+    this.bindMenu(el, 0);
   },
   openControls(back) {
     const el = $('menu');
@@ -1618,27 +1722,38 @@ const UI = {
       <div class="col" style="margin-top:.8em"><button data-a="${back}">Geri</button></div></div>`;
     this.bindMenu(el);
   },
-  bindMenu(el) {
+  bindMenu(el, sel) {
     const bs = [...el.querySelectorAll('button')];
-    this.menuButtons = bs; this.menuSel = 0; this.markMenu();
-    bs.forEach((b, i) => b.addEventListener('pointerdown', (e) => { e.preventDefault(); this.menuSel = i; this.menuAction(b.dataset.a); }));
+    this.menuButtons = bs; this.menuSel = clamp(sel || 0, 0, bs.length - 1);
+    bs.forEach((b, i) => {
+      onTap(b, () => { this.menuSel = i; this.menuAction(b.dataset.a); });
+      b.addEventListener('focus', () => { if (this.menuSel !== i) { this.menuSel = i; this.markMenu(true); } });
+    });
+    this.markMenu(Input.lastDevice !== 'touch');
   },
-  markMenu() { (this.menuButtons || []).forEach((b, i) => b.classList.toggle('sel', i === this.menuSel)); },
+  // klavye seçimi ile tarayıcı odağı aynı düğmede tutulur (Tab + Enter tutarlı çalışır)
+  markMenu(focus) {
+    const bs = this.menuButtons || [];
+    bs.forEach((b, i) => b.classList.toggle('sel', i === this.menuSel));
+    if (focus && bs[this.menuSel] && document.activeElement !== bs[this.menuSel]) { try { bs[this.menuSel].focus({ preventScroll: true }); } catch (e) {} }
+  },
   menuAction(a) {
     Audio.init(); Audio.ui();
     if (a === 'start') { this.closeMenu(); Bus.emit('start'); }
-    else if (a === 'sound') { Audio.setMuted(!State.muted); this.menuKind === 'start' ? this.openStartRefresh() : this.openPauseRefresh(); }
+    else if (a === 'sound') { const i = this.menuSel; Audio.setMuted(!State.muted); this.menuKind === 'start' ? this.openStartRefresh(i) : this.openPauseRefresh(i); }
     else if (a === 'controls') this.openControls(this.menuKind === 'start' ? 'backstart' : 'backpause');
-    else if (a === 'backstart') this.openStartRefresh();
-    else if (a === 'backpause') this.openPauseRefresh();
+    else if (a === 'backstart') this.openStartRefresh(2);
+    else if (a === 'backpause') this.openPauseRefresh(1);
+    else if (a === 'backpause3') this.openPauseRefresh(3);
     else if (a === 'resume') { this.closeMenu(); }
-    else if (a === 'restart') { this.closeMenu(); Bus.emit('restart'); }
+    else if (a === 'restart') this.openRestartConfirm();
+    else if (a === 'restartyes') { this.closeMenu(); Bus.emit('restart'); }
   },
-  openStartRefresh() { this.menuOpen = false; this.openStart(); },
-  openPauseRefresh() { this.menuOpen = false; State.paused = false; this.openPause(); },
+  openStartRefresh(sel) { this.menuOpen = false; this.openStart(sel); },
+  openPauseRefresh(sel) { this.menuOpen = false; State.paused = false; this.openPause(sel); },
   closeMenu() {
     $('menu').classList.add('hidden'); $('menu').innerHTML = '';
-    this.menuOpen = false; State.paused = false; $('topbtns').classList.remove('off');
+    this.menuOpen = false; State.paused = false; $('topbtns').classList.remove('off'); this.menuButtons = [];
     Input.lock();
   },
   // ---------------- kare güncellemesi ----------------
@@ -1648,12 +1763,13 @@ const UI = {
       this.fadeA = approach(this.fadeA, this.fadeTarget, this.fadeSpeed * dt);
       $('fade').style.opacity = this.fadeA.toFixed(3);
     }
+    this.updateTouchMode();
     if (this.menuOpen) {
       const bs = this.menuButtons || [];
-      if (Input.pressed('down')) { this.menuSel = (this.menuSel + 1) % bs.length; this.markMenu(); }
-      if (Input.pressed('up')) { this.menuSel = (this.menuSel + bs.length - 1) % bs.length; this.markMenu(); }
+      if (Input.pressed('down')) { this.menuSel = (this.menuSel + 1) % bs.length; this.markMenu(true); }
+      if (Input.pressed('up')) { this.menuSel = (this.menuSel + bs.length - 1) % bs.length; this.markMenu(true); }
       if ((Input.pressed('confirm') || Input.pressed('interact')) && bs[this.menuSel]) this.menuAction(bs[this.menuSel].dataset.a);
-      else if (Input.pressed('menu') && this.menuKind === 'pause') this.closeMenu();
+      else if ((Input.pressed('menu') || Input.pressed('cancel')) && this.menuKind === 'pause') this.closeMenu();
       return;
     }
     if (this.cardActive) {
@@ -1664,7 +1780,7 @@ const UI = {
         if (Input.pressed('right') || Input.pressed('down')) this.cardSel = (this.cardSel + 1) % bs.length;
         if (Input.pressed('left') || Input.pressed('up')) this.cardSel = (this.cardSel + bs.length - 1) % bs.length;
         bs.forEach((b, i) => b.classList.toggle('sel', i === this.cardSel));
-        if (Input.pressed('confirm') && this.cardWait <= 0) bs[this.cardSel].dispatchEvent(new Event('pointerdown'));
+        if (Input.pressed('confirm') && this.cardWait <= 0) bs[this.cardSel].click();
       } else if (Input.pressed('confirm') && this.cardWait <= 0 && !this.cardNoTap) this.closeCard();
       return;
     }
@@ -1672,6 +1788,11 @@ const UI = {
       const c = this.ch, n = c.opts.length;
       if (Input.pressed('down')) { c.sel = (c.sel + 1) % n; this.markSel(); }
       if (Input.pressed('up')) { c.sel = (c.sel + n - 1) % n; this.markSel(); }
+      let anyNum = false;
+      for (let i = 0; i < Math.min(4, n); i++) if (Input.down('n' + (i + 1))) anyNum = true;
+      if (c.needRelease && !Input.down('confirm') && !anyNum) c.needRelease = false;
+      if (c.armT > 0) { c.armT -= dt; if (Input.pressed('confirm')) c.armT = 0.8; $('choices').classList.toggle('arming', c.armT > 0); return; }
+      $('choices').classList.remove('arming');
       for (let i = 0; i < Math.min(4, n); i++) if (Input.pressed('n' + (i + 1))) { this.pick(i); return; }
       if (Input.pressed('confirm')) this.pick(c.sel);
       return;
@@ -1684,11 +1805,34 @@ const UI = {
         if (n !== d.shown) { d.shown = n; $('dialog').querySelector('.text').textContent = d.full.slice(0, n); }
         if (d.shown >= d.full.length) $('dialog').classList.remove('typing');
       }
-      if (d.line && d.line.auto != null && d.shown >= d.full.length) { d.autoT += dt; if (d.autoT >= d.line.auto) { this.nextLine(); return; } }
+      if (d.autoHold != null && d.shown >= d.full.length) { d.autoT += dt; if (d.autoT >= d.autoHold) { this.nextLine(); return; } }
       if (Input.pressed('confirm')) this.advance();
     }
     if (this.bk.t > 0) { this.bk.t -= dt; if (this.bk.t <= 0) this.clearBark(); }
-    if (this.hint.open) { this.hint.t -= dt; if (this.hint.t <= 0 && !this.hint.onContinue) this.closeHint(); }
+    if (this.hint.open) {
+      this.hint.t -= dt; if (this.hint.t <= 0 && !this.hint.onContinue) this.closeHint();
+      // klavye/gamepad: Enter ya da Y = "Hikâyeye devam" (varsa), Backspace ya da B = Kapat
+      if (this.hint.open && !this.dlg.active) {
+        if (Input.pressed('accept')) this.hintAction(this.hint.onContinue ? 'cont' : 'close');
+        else if (Input.pressed('cancel') && !Player.charging) this.hintAction('close');
+      }
+    }
+    this.renderPrompt();
+  },
+  // dokunmatik denetimlerin görünürlüğü: menü/kartta hiçbiri; diyalogda yalnızca Etkileşim (devam);
+  // sahne denetimi kısıtlıyorsa (dokunmama, kesit) sahnenin söylediği kadarı
+  updateTouchMode() {
+    if (!Input.touchDevice) return;
+    let m;
+    if (this.menuOpen || this.cardActive) m = 'none';
+    else if (this.dlg.active || this.ch.active) m = 'etk';
+    else { const sc = Scenes.current; m = sc && sc.touchMode ? sc.touchMode() : (Player.enabled ? 'full' : 'etk'); }
+    if (m === this.touchMode) return;
+    this.touchMode = m;
+    $('touch').dataset.m = m;
+    if (m === 'none' || m === 'etk') Input.releaseTouch({ joy: true });
+    if (m === 'none' || m === 'joy') Input.releaseTouch({ buttons: ['bakis', 'gut', 'interact'] });
+    else if (m !== 'full') Input.releaseTouch({ buttons: ['bakis', 'gut'] });
   },
   blocking() { return this.dlg.active || this.ch.active || this.cardActive || this.menuOpen; },
 };
@@ -1737,14 +1881,20 @@ const Gfx = {
     o = o || {};
     const top = o.top == null ? '#05061a' : o.top, bot = o.bot == null ? '#1a2350' : o.bot;
     const h = o.h == null ? VH : o.h, y0 = o.y0 || 0;
-    const gr = g.createLinearGradient(0, y0, 0, y0 + h);
-    gr.addColorStop(0, top); gr.addColorStop(1, bot);
-    g.fillStyle = gr; g.fillRect(0, y0, VW, h);
+    // degrade, renkler ve yükseklik değişmedikçe yeniden kurulmaz
+    const C = this._skyG || (this._skyG = { top: null, bot: null, h: -1, y0: -1, gr: null });
+    if (C.top !== top || C.bot !== bot || C.h !== h || C.y0 !== y0) {
+      C.gr = g.createLinearGradient(0, y0, 0, y0 + h); C.gr.addColorStop(0, top); C.gr.addColorStop(1, bot);
+      C.top = top; C.bot = bot; C.h = h; C.y0 = y0;
+    }
+    // fillH: yalnızca görünen gök şeridi doldurulur (altını harita örtüyorsa)
+    const fh = o.fillH == null ? h : Math.max(0, Math.min(h, o.fillH));
+    g.fillStyle = C.gr; g.fillRect(0, y0, VW, fh);
     const dim = o.dim == null ? 1 : o.dim, t = State.time;
     if (dim <= 0.01) return;
     for (const s of this.stars) {
       const x = Math.round(((s.x - ox * 0.12) % 1400 + 1400) % 1400 - 380), y = Math.round(s.y - oy * 0.12) + y0 - 30;
-      if (x < -2 || x > VW + 2 || y < y0 - 2 || y > y0 + h) continue;
+      if (x < -2 || x > VW + 2 || y < y0 - 2 || y > y0 + fh) continue;
       let a = dim * (s.b === 3 ? 1 : s.b === 2 ? 0.75 : 0.5);
       if (o.twinkle !== false && !REDUCED) a *= 0.7 + 0.3 * Math.sin(t * s.sp + s.ph);
       g.globalAlpha = clamp(a, 0, 1);
@@ -1763,22 +1913,38 @@ const Gfx = {
     g.globalAlpha = 1;
   },
   // uzak sırt (Beytlehem) ve birkaç pencere; zeytin siluetleri
+  // Sırt profili bir kez geniş bir şeride çizilir; her karede yalnızca kaydırılarak kopyalanır.
+  ridgeStrip(col, off) {
+    const W = 2048, H = 48;
+    let S = this._ridge;
+    if (!S || S.col !== col || off < S.base || off + VW > S.base + W) {
+      const base = Math.floor(off) - 400;
+      const c = (S && S.c) || makeCanvas(W, H), rg = c.getContext('2d');
+      rg.clearRect(0, 0, W, H); rg.fillStyle = col;
+      for (let x = 0; x < W; x += 2) {
+        const wx = x + base;
+        const h = 26 + Math.sin(wx * 0.011) * 10 + Math.sin(wx * 0.027 + 1.3) * 6 + Math.sin(wx * 0.063) * 2;
+        rg.fillRect(x, Math.round(H - h), 2, Math.ceil(h));
+      }
+      S = this._ridge = { c, col, base };
+    }
+    return S;
+  },
   drawRidge(g, ox, yBase, o) {
     o = o || {};
     const col = o.col || '#0e1230';
-    g.fillStyle = col;
     const off = ox * 0.3;
-    for (let x = 0; x < VW; x += 2) {
-      const wx = x + off;
-      const h = 26 + Math.sin(wx * 0.011) * 10 + Math.sin(wx * 0.027 + 1.3) * 6 + Math.sin(wx * 0.063) * 2;
-      g.fillRect(x, Math.round(yBase - h), 2, Math.ceil(h) + 400);
-    }
+    const S = this.ridgeStrip(col, off), sx = Math.floor(off) - S.base;
+    g.drawImage(S.c, sx, 0, VW, 48, 0, Math.round(yBase) - 48, VW, 48);
+    const maxY = o.maxY == null ? VH : o.maxY;
+    g.fillStyle = col;
+    if (maxY > yBase) g.fillRect(0, Math.round(yBase), VW, Math.ceil(maxY - yBase));
     if (o.windows !== false) {
       g.fillStyle = '#e09a48';
       [[180, 30], [196, 27], [214, 31], [233, 26], [520, 22]].forEach(([x, h], i) => {
         const sx = Math.round(((x - off) % 900 + 900) % 900 - 100);
         if (sx < 0 || sx > VW) return;
-        g.globalAlpha = 0.6 + 0.4 * Math.sin(State.time * 0.7 + i);
+        g.globalAlpha = REDUCED ? 0.8 : 0.6 + 0.4 * Math.sin(State.time * 0.7 + i);
         g.fillRect(sx, Math.round(yBase - h + 6), 1, 1);
       });
       g.globalAlpha = 1;
@@ -1829,7 +1995,7 @@ const Gfx = {
   dashedCircle(cx, cy, r, color, dash, gap, alpha) {
     const g = this.g; g.fillStyle = color; g.globalAlpha = alpha == null ? 1 : alpha;
     const n = Math.max(24, Math.floor(r * 6.28)), per = dash + gap;
-    const rot = State.time * 6;
+    const rot = REDUCED ? 0 : State.time * 6;
     for (let i = 0; i < n; i++) {
       if ((((i + rot) % per) + per) % per >= dash) continue;
       const a = (i / n) * 6.2832;
@@ -1903,7 +2069,7 @@ class TileMap {
   get(x, y) { const i = x - this.x0, j = y - this.y0; if (i < 0 || j < 0 || i >= this.w || j >= this.h) return T.VOID; return this.t[j * this.w + i]; }
   set(x, y, v) { const i = x - this.x0, j = y - this.y0; if (i < 0 || j < 0 || i >= this.w || j >= this.h) return; this.t[j * this.w + i] = v; }
   fill(x0, y0, x1, y1, v) { for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) this.set(x, y, v); }
-  solidAt(fx, fy) { const x = Math.round(fx), y = Math.round(fy); if (this.extraSolid.has(x + ',' + y)) return true; return SOLID.has(this.get(x, y)); }
+  solidAt(fx, fy) { const x = Math.round(fx), y = Math.round(fy); if (this.extraSolid.size && this.extraSolid.has(x + ',' + y)) return true; return SOLID.has(this.get(x, y)); }
   boxFree(x, y, rx, ry) {
     return !(this.solidAt(x - rx, y - ry) || this.solidAt(x + rx, y - ry) || this.solidAt(x - rx, y + ry) || this.solidAt(x + rx, y + ry));
   }
@@ -2147,7 +2313,9 @@ class Actor {
     else if (child) oy = -11;
     else oy = L.raised ? -31 : -16;
     if (!L.ground && !child && L.raised) ox = this.dir === 'left' ? -6 : 6;
-    return { x: sx + ox, y: sy + oy };
+    const o = this._lsp || (this._lsp = { x: 0, y: 0 });
+    o.x = sx + ox; o.y = sy + oy;
+    return o;
   }
   drawLamp(g, sx, sy) {
     const p = this.lampScreenPos(sx, sy);
@@ -2155,7 +2323,8 @@ class Actor {
     const f = ART.flame[Math.floor(State.time * 8) % 3];
     g.drawImage(f, p.x - 1, p.y - 4);
   }
-  lampWorld() { const p = this.lampScreenPos(this.x * TILE, this.y * TILE + 4); return { x: p.x / TILE, y: p.y / TILE }; }
+  // dönen nesne aktöre ait geçici bir kaptır (kare başına ayırma yapılmaz); hemen kullanılmalıdır
+  lampWorld() { const p = this.lampScreenPos(this.x * TILE, this.y * TILE + 4), o = this._lw || (this._lw = { x: 0, y: 0 }); o.x = p.x / TILE; o.y = p.y / TILE; return o; }
 }
 
 // ------------------------------------------------------------
@@ -2164,7 +2333,7 @@ class Actor {
 const Ripples = {
   list: [],
   add(x, y, kind) { this.list.push({ x, y, kind, t: 0 }); if (this.list.length > 24) this.list.shift(); },
-  update(dt) { for (const r of this.list) r.t += dt; this.list = this.list.filter((r) => r.t < 1.6); },
+  update(dt) { const L = this.list; let j = 0; for (let i = 0; i < L.length; i++) { const r = L[i]; r.t += dt; if (r.t < 1.6) L[j++] = r; } L.length = j; },
   clear() { this.list.length = 0; },
 };
 
@@ -2224,10 +2393,10 @@ function planPath(cx, cy, px, py) {
 }
 
 const Flock = {
-  sheep: [], map: null, night: false, lamp: null, lampId: 0, unit: null, slotsFor: null, slots: [], tamar: null,
+  sheep: [], map: null, night: false, lamp: null, lampId: 0, unit: null, slotsFor: null, slots: [], tamar: null, quiet: false,
   onMove: null, movedSinceRaise: false, raiseT: -1, raiseHandled: true,
   units: [],
-  reset(map, list) { this.map = map; this.sheep = list; this.units = []; this.lamp = null; this.lampId++; this.slots = []; this.slotsFor = null; },
+  reset(map, list) { this.map = map; this.sheep = list; this.units = []; this.lamp = null; this.lampId++; this.slots = []; this.slotsFor = null; this.quiet = false; },
   inLight(s) { const L = this.lamp; return !!(L && L.raised && dist(s.x, s.y, L.x, L.y) <= RING + 1e-6); },
   // halkadaki yuvalar (kandile 1,5–2,6 karo)
   makeSlots(P) {
@@ -2490,14 +2659,17 @@ const Flock = {
     }
     if (this.night) this.chain();
     // yürüyüş algısı (babanın "ışığım ulaşmıyor" sözü)
-    if (!this.movedSinceRaise && this.sheep.some((s) => s.mode === 'seek' || s.mode === 'unit')) this.movedSinceRaise = true;
+    if (!this.movedSinceRaise && this.units.length) this.movedSinceRaise = true;
+    if (!this.movedSinceRaise) for (const s of this.sheep) if (s.mode === 'seek' || s.mode === 'unit') { this.movedSinceRaise = true; break; }
   },
   bleat(s) {
     const kind = s.mother ? 'ana' : 'koyun';
     if (this.night && s.mode !== 'idle' && !s.stuck && Math.random() < 0.5) return;
     const vis = this.tamar ? dist(s.x, s.y, this.tamar.x, this.tamar.y) : 0;
-    Audio.bleat(kind, s.x, clamp(0.4 - vis * 0.015, 0.05, 0.4));
-    Ripples.add(s.x, s.y - 0.5, 'thick');
+    // Meleyen Ses'te yalnızca kuzu ve anasının karşılıklı sesi gösterge üretir; sürünün
+    // rastgele melemeleri kısık sesle duyulur ama dalga bırakmaz (bölüm §6.1)
+    Audio.bleat(kind, s.x, this.quiet ? clamp(0.16 - vis * 0.01, 0.03, 0.16) : clamp(0.4 - vis * 0.015, 0.05, 0.4));
+    if (!this.quiet) Ripples.add(s.x, s.y - 0.5, 'thick');
   },
   moveSheep(s, dt, goal, speed) {
     let dx = 0, dy = 0;
@@ -2519,17 +2691,13 @@ const Flock = {
     const sp = Math.hypot(s.vx, s.vy), maxS = Math.max(speed, 0.6) * 1.15 + 0.4;
     if (sp > maxS) { s.vx *= maxS / sp; s.vy *= maxS / sp; }
     const nx = s.x + s.vx * dt, ny = s.y + s.vy * dt;
-    const map = this.map, rx = 0.32, ry = 0.22;
-    const fold = s.inFold;
-    const free = (x, y) => map.boxFree(x, y, rx, ry) && (fold || s.mode === 'tofold' || s.mode === 'script' || this.sameZone(s, y));
-    if (free(nx, s.y)) s.x = nx; else s.vx = 0;
-    if (free(s.x, ny)) s.y = ny; else s.vy = 0;
+    if (this.map.boxFree(nx, s.y, 0.32, 0.22)) s.x = nx; else s.vx = 0;
+    if (this.map.boxFree(s.x, ny, 0.32, 0.22)) s.y = ny; else s.vy = 0;
     if (Math.abs(s.vx) > 0.05) s.faceR = s.vx > 0;
     const moving = sp > 0.12;
     s.animT += dt * (moving ? 6 : 0);
     s.moving = moving;
   },
-  sameZone(s, y) { return true; },
 };
 
 // ------------------------------------------------------------
@@ -2577,9 +2745,8 @@ const Player = {
     if (Math.abs(ax) + Math.abs(ay) > 0.01) {
       let sp = a.speed * this.speedMul * (Input.down('sprint') ? 1.35 : 1) * (this.bakis ? 0.5 : 1) * Math.max(0.35, Input.analog || 1);
       const nx = a.x + ax * sp * dt, ny = a.y + ay * sp * dt;
-      const free = (x, y) => this.map.boxFree(x, y, 0.3, 0.2) && (!this.collide || this.collide(x, y));
-      if (free(nx, a.y)) a.x = nx;
-      if (free(a.x, ny)) a.y = ny;
+      if (this.free(nx, a.y)) a.x = nx;
+      if (this.free(a.x, ny)) a.y = ny;
       a.face(ax, ay); moved = true;
       this.stepT -= dt * sp; if (this.stepT <= 0) { this.stepT = 0.85; Audio.step(a.x, true); }
     }
@@ -2616,10 +2783,11 @@ const Player = {
         if (d <= (it.r || 1.5) && d < bd) { bd = d; best = it; }
       }
       this.focus = best;
-      if (best) UI.prompt('interact', typeof best.label === 'function' ? best.label() : best.label); else UI.prompt(null);
+      if (best) UI.playerPrompt('interact', typeof best.label === 'function' ? best.label() : best.label); else UI.playerPrompt(null);
       if (best && Input.pressed('interact')) best.action();
-    } else UI.prompt(null);
+    } else UI.playerPrompt(null);
   },
+  free(x, y) { return this.map.boxFree(x, y, 0.3, 0.2) && (!this.collide || this.collide(x, y)); },
   isMoving() { return this.a && this.a.moving; },
 };
 
@@ -2653,7 +2821,7 @@ const Scenes = {
     if (!def) { console.warn('sahne yok: ' + id); return; }
     const doSwitch = () => {
       if (this.current && this.current.exit) { try { this.current.exit(); } catch (e) { console.error(e); } }
-      Scripts.killExcept('transition'); UI.closeHint(); UI.clearBark(); UI.prompt(null); UI.objective(null); UI.usta(0, false);
+      Scripts.killExcept('transition'); UI.closeHint(); UI.clearBark(); UI.clearPrompts(); UI.objective(null); UI.usta(0, false);
       if (UI.dlg.active) { UI.dlg.active = false; $('dialog').classList.add('hidden'); }
       if (UI.ch.active) { UI.ch.active = false; $('choices').classList.add('hidden'); }
       if (UI.cardActive) UI.closeCard();
@@ -2687,7 +2855,8 @@ const Hints = {
   reset() { this.level = 0; this.ctx = null; this.flash = 0; },
   request() {
     const sc = Scenes.current;
-    if (!sc || !sc.hint || UI.blocking()) { UI.bark('Şimdi bir ışığa gerek yok.', null, 2, true); return; }
+    // ipucu olmayan sahnelerde (çerçeve, dokunmama anları, tablolar) sessizce yok sayılır: bildirim yok
+    if (!sc || !sc.hint || sc.sacred || UI.blocking()) return;
     const h = sc.hint();
     if (!h) { UI.bark('Şimdi bir ışığa gerek yok.', null, 2, true); return; }
     if (h.ctx !== this.ctx) { this.ctx = h.ctx; this.level = 0; }
@@ -2696,7 +2865,8 @@ const Hints = {
     const L = h.levels[this.level - 1];
     if (L.fx) L.fx();
     this.flash = this.level === 2 ? 30 : this.flash;
-    UI.showHint(this.level, L.text, { think: L.think, who: L.who, onContinue: this.level >= 3 ? h.onContinue : null });
+    const cont = L.onContinue || h.onContinue;
+    UI.showHint(this.level, L.text, { think: L.think, who: L.who, onContinue: this.level >= 3 ? cont : null });
   },
   auto(level) { // kural gereği kendiliğinden gelen ışık (ör. ikinci yanlış kapı)
     const sc = Scenes.current; if (!sc || !sc.hint) return;
@@ -2749,12 +2919,14 @@ const KW = {
     f.pose = null; f.path = null; f.visible = true; f.carry = null;
     this.nahum.visible = true; this.yoas.visible = true; this.nahum.pose = null; this.yoas.pose = null; this.nahum.path = null; this.yoas.path = null;
     this.extras = []; this.skyLook = false; this.dipperGlow = 0; this.indicators = null; this.fireLit = false;
+    this.gateClosed = stage === 'yanki'; this.camFocus = null; this.rimTargets = null; this.lambWallConfuse = null; this.seatFX = 0; this.extraLights = null;
     this.showRingFX = this.showStonesFX = this.showGapsFX = this.showZoneFX = this.rimBushFX = 0; this.lambIndicatorBig = false; this.dawn = 0;
     Cam.bounds = { x0: -8, y0: -7.5, x1: 40, y1: 38 };
     Cam.minY = -0.5;
     this.lamb = { x: 18.5, y: -1.9, mode: 'stuck', visible: true, faceR: false, animT: 0 };
     if (stage === 'ogretim') {
       this.makeSheep(TEACH_LAYOUT); Flock.night = false;
+      this.lamb.visible = false; // kuzu öğretimde görünmez: Meleyen Ses'in araması bozulmasın
       t.x = 7; t.y = 6.5; t.dir = 'right'; f.x = 5; f.y = 6.4; f.dir = 'left'; f.lamp = null; f.stone = null;
       this.darkA = this.darkTarget = 0.4; this.darkCol = '#2a1640';
       this.nahum.x = 12; this.nahum.y = 32.5; this.yoas.x = 31; this.yoas.y = 4;
@@ -2825,6 +2997,7 @@ const KW = {
     if (this.showGapsFX > 0) this.showGapsFX -= dt;
     if (this.showZoneFX > 0) this.showZoneFX -= dt;
     if (this.rimBushFX > 0) this.rimBushFX -= dt;
+    if (this.seatFX > 0) this.seatFX -= dt;
   },
   updateLamb(dt) {
     const L = this.lamb; if (!L) return;
@@ -2850,8 +3023,8 @@ const KW = {
     // gök
     if (mapTop > 0) {
       const dawn = this.dawn;
-      Gfx.drawSky(g, cx, cy, { dim: dawn ? 0.3 : clamp((this.darkA - 0.15) * 1.6, 0.25, 1), top: dawn ? '#2a2c4a' : this.darkA < 0.5 ? '#1a1236' : '#04051a', bot: dawn ? '#9a8090' : this.darkA < 0.5 ? '#6a4a6a' : '#18204a', dipperGlow: this.dipperGlow });
-      Gfx.drawRidge(g, cx, mapTop + 10, { olives: true, col: dawn ? '#3a3a52' : '#0c1030' });
+      Gfx.drawSky(g, cx, cy, { dim: dawn ? 0.3 : clamp((this.darkA - 0.15) * 1.6, 0.25, 1), top: dawn ? '#2a2c4a' : this.darkA < 0.5 ? '#1a1236' : '#04051a', bot: dawn ? '#9a8090' : this.darkA < 0.5 ? '#6a4a6a' : '#18204a', dipperGlow: this.dipperGlow, fillH: mapTop + 2 });
+      Gfx.drawRidge(g, cx, mapTop + 10, { olives: true, col: dawn ? '#3a3a52' : '#0c1030', maxY: Math.min(VH, mapTop + 2) });
     } else { g.fillStyle = '#05060f'; g.fillRect(0, 0, VW, VH); }
     // harita
     const ix = (map.x0 - 0.5) * TILE, iy = (map.y0 - 0.5) * TILE;
@@ -2867,8 +3040,12 @@ const KW = {
       list.push(s);
     }
     if (this.lamb && this.lamb.visible && this.lamb.mode !== 'carried') list.push(this.lamb);
-    [this.father, this.nahum, this.yoas, this.tamar].concat(this.extras).forEach((a) => a.visible && list.push(a));
-    list.sort((a, b) => a.y - b.y);
+    if (this.father.visible) list.push(this.father);
+    if (this.nahum.visible) list.push(this.nahum);
+    if (this.yoas.visible) list.push(this.yoas);
+    if (this.tamar.visible) list.push(this.tamar);
+    for (let i = 0; i < this.extras.length; i++) if (this.extras[i].visible) list.push(this.extras[i]);
+    list.sort(BY_Y);
     for (const o of list) {
       if (o instanceof Actor) o.draw(g, cx, cy);
       else if (o instanceof Sheep) drawSheep(g, o, cx, cy);
@@ -2879,15 +3056,7 @@ const KW = {
     // ışık
     Gfx.resetLights();
     const f = this.father;
-    const lampOf = (a, raisedR) => {
-      if (!a.lamp) return;
-      const p = a.lampWorld(), sx = p.x * TILE - cx, sy = p.y * TILE - cy;
-      const r = a.kind === 'tamar' ? 80 : a.lamp.raised ? 160 : 32;
-      const flick = 1 + Math.sin(State.time * 13) * 0.015 + Math.sin(State.time * 7.3) * 0.02;
-      Gfx.light(sx, sy, r * flick, 1);
-      Gfx.glow(sx, sy, Math.min(64, r * 0.5), a.lamp.raised || a.kind === 'tamar' ? 0.5 : 0.35);
-    };
-    lampOf(f); lampOf(t);
+    this.lampOf(f, cx, cy); this.lampOf(t, cx, cy);
     if (this.fireLit) { const fx = FIRE.x * TILE - cx, fy = FIRE.y * TILE - cy, fl = 1 + Math.sin(State.time * 11) * 0.04 + Math.sin(State.time * 17) * 0.03; Gfx.light(fx, fy - 4, 96 * fl, 1); Gfx.glow(fx, fy - 4, 56, 0.55); }
     if (this.tamarEye && night) Gfx.light(t.x * TILE - cx, t.y * TILE - cy - 8, 96, 0.4);
     if (this.extraLights) this.extraLights(cx, cy);
@@ -2898,17 +3067,26 @@ const KW = {
     if (Player.charging) Gfx.dashedCircle(t.x * TILE - cx, t.y * TILE - cy, WHISTLE_R * TILE, '#cfe0ff', 2, 6, 0.55);
     if (t.staffT > 0) drawCone(g, t, cx, cy);
     if (this.showZoneFX > 0) {
-      g.globalAlpha = 0.5 + 0.3 * Math.sin(State.time * 5); g.strokeStyle = '#cfe0ff';
+      g.globalAlpha = REDUCED ? 0.7 : 0.5 + 0.3 * Math.sin(State.time * 5); g.strokeStyle = '#cfe0ff';
       for (let y = 5; y <= 9; y++) g.strokeRect(Math.round((21 - 0.5) * TILE - cx) + 0.5, Math.round((y - 0.5) * TILE - cy) + 0.5, 15, 15);
       g.globalAlpha = 1;
     }
     if (this.overlay) this.overlay(g, cx, cy);
-    if (Player.bakis || this.showStonesFX > 0 || this.showGapsFX > 0) drawRims(g, this, cx, cy);
+    if (Player.bakis || this.showStonesFX > 0 || this.showGapsFX > 0 || this.seatFX > 0 || this.rimBushFX > 0) drawRims(g, this, cx, cy);
     drawRipples(g, this, cx, cy);
     Gfx.drawParticles(cx, cy, 1);
     if (Player.bakis) Gfx.vignette(0.65);
   },
+  lampOf(a, cx, cy) {
+    if (!a.lamp) return;
+    const p = a.lampWorld(), sx = p.x * TILE - cx, sy = p.y * TILE - cy;
+    const r = a.kind === 'tamar' ? 80 : a.lamp.raised ? 160 : 32;
+    const flick = 1 + Math.sin(State.time * 13) * 0.015 + Math.sin(State.time * 7.3) * 0.02;
+    Gfx.light(sx, sy, r * flick, 1);
+    Gfx.glow(sx, sy, Math.min(64, r * 0.5), a.lamp.raised || a.kind === 'tamar' ? 0.5 : 0.35);
+  },
 };
+const BY_Y = (a, b) => a.y - b.y;
 function blitMap(g, img, sx, sy) {
   sx = Math.round(sx); sy = Math.round(sy);
   let dx = 0, dy = 0, w = VW, h = VH;
@@ -2988,7 +3166,7 @@ function drawCone(g, t, cx, cy) {
 }
 // Bakış: etkileşimli nesnelerde ince kenar ışığı
 function drawRims(g, w, cx, cy) {
-  const pulse = 0.6 + 0.4 * Math.sin(State.time * 4);
+  const pulse = REDUCED ? 0.85 : 0.6 + 0.4 * Math.sin(State.time * 4);
   const herding = Scenes.current && (Scenes.current.id === 'isigin_ardindan' || Scenes.current.id === 'yamac_ogretim');
   if (herding || w.showStonesFX > 0) {
     for (const o of w.objs) if (o.kind === 'stone') { g.globalAlpha = (w.showStonesFX > 0 ? 1 : 0.7) * pulse; g.drawImage(ART.stoneRim, Math.round(o.x * TILE - cx) - 6, Math.round(o.y * TILE - cy) + 4 - ART.stone.height - 1); }
@@ -3065,7 +3243,7 @@ Scenes.define('yamac_ogretim', {
     Audio.setAmbience({ wind: 0.1, crickets: true });
     Audio.setDrone(true, 110);
     const sc = this, t = KW.tamar, f = KW.father;
-    sc.step = 0; sc.lastPushT = 0;
+    sc.step = 0; sc.lastPushT = 0; sc.called = false; sc.arrived = false; sc.hintCtx = null; sc.skipStep = false;
     KW.skyLook = true;
     Player.enabled = false;
     Player.onStaff = (second) => {
@@ -3105,10 +3283,10 @@ Scenes.define('yamac_ogretim', {
     yield 0.6;
     yield UI.say([SAY.baba('Değneği yere vur, koyuna değil. Gündüz seni gözleriyle izlerler.')]);
     UI.prompt('gut', 'Güt: kısa bas — değnek');
-    sc.hintCtx = 'degnek';
+    sc.hintCtx = 'degnek'; sc.skipStep = false;
     const ok1 = () => K1.every((s) => dist(s.x, s.y, STONES.T2.x, STONES.T2.y) <= 3);
-    yield until(() => ok1() && K1.every((s) => s.mode === 'idle'));
-    sc.hintCtx = null;
+    yield until(() => sc.skipStep || (ok1() && K1.every((s) => s.mode === 'idle')));
+    sc.hintCtx = null; UI.prompt(null);
     Audio.chime();
     // Adım 2 — Islık
     sc.step = 2;
@@ -3116,9 +3294,10 @@ Scenes.define('yamac_ogretim', {
     yield until(() => !f.path);
     f.face(1, 0.4); f.pointT = 2;
     yield UI.say([SAY.baba('Görmediğini sesinle çağır.')]);
-    sc.hintCtx = 'islik';
-    yield until(() => dist(lone.x, lone.y, t.x, t.y) <= 3);
-    sc.hintCtx = null;
+    UI.prompt('gut', 'Güt: basılı tut — ıslık');
+    sc.hintCtx = 'islik'; sc.skipStep = false;
+    yield until(() => sc.skipStep || dist(lone.x, lone.y, t.x, t.y) <= 3);
+    sc.hintCtx = null; UI.prompt(null);
     Audio.chime();
     // Adım 3 — Çağrı
     sc.step = 3;
@@ -3127,6 +3306,9 @@ Scenes.define('yamac_ogretim', {
     f.dir = 'right';
     yield UI.say([SAY.baba('Beni Orta taşa çağır.')]);
     sc.hintCtx = 'cagri';
+    UI.prompt('interact', 'Orta taşta: “Baba, buraya!”');
+    yield until(() => sc.called);
+    UI.prompt(null);
     yield until(() => sc.arrived);
     sc.hintCtx = null;
     Audio.chime();
@@ -3135,10 +3317,10 @@ Scenes.define('yamac_ogretim', {
     yield 0.5;
     f.dir = 'up';
     yield UI.say([SAY.baba('Şu yedi yıldız gece boyu döner ama hep kuzeyde kalır. Döndükleri yerin ortası kuzeydir.')]);
-    sc.hintCtx = 'bas';
+    sc.hintCtx = 'bas'; sc.skipStep = false;
     UI.prompt('look', 'Başını kaldır');
     let held = 0;
-    yield (dt) => { if (Player.lookUp) held += dt; if (held > 0.25) { KW.skyLook = true; KW.dipperGlow = Math.min(1, KW.dipperGlow + dt); } return held >= 2.2; };
+    yield (dt) => { if (Player.lookUp || sc.skipStep) held += dt; if (held > 0.25) { KW.skyLook = true; KW.dipperGlow = Math.min(1, KW.dipperGlow + dt); } return held >= 2.2; };
     UI.prompt(null);
     sc.hintCtx = null;
     yield 1.4;
@@ -3147,11 +3329,14 @@ Scenes.define('yamac_ogretim', {
     // sürü toplanır, akşam duası
     Player.enabled = false;
     KW.sheep.forEach((s, i) => { const a = (i / 11) * 6.283; s.mode = 'script'; s.goal = { x: STONES.T2.x + Math.cos(a) * 2.2, y: STONES.T2.y + 0.4 + Math.sin(a) * 1.7 }; s.speed = 1.1; });
+    // akşam duası müziksizdir: yalnızca babanın sesi (bölüm §12)
+    Audio.setDrone(false);
     yield UI.say([SAY.baba('Dinle, ey İsrail! Tanrımız RAB tek RAB\'dir.', { kind: 'verse', ref: 'Yasa\'nın Tekrarı 6:4 · [yakın aktarım] · mırıldanarak' })]);
     yield until(() => KW.sheep.every((s) => !s.goal));
     f.dir = 'down';
     yield 0.8;
     yield UI.say([SAY.baba('On bir... Kuzu nerede?'), SAY.baba('Bırak otlasınlar; önce kuzuyu bul.')]);
+    Audio.setDrone(true, 98);
     // gece konumlarına dağılır, ışık kararır
     const night = [].concat(NIGHT_LAYOUT.K1, NIGHT_LAYOUT.K2, NIGHT_LAYOUT.K3);
     const order = ['K1', 'K1', 'K1', 'K1', 'K2', 'K2', 'K2', 'K2', 'K2', 'K3', 'K3'];
@@ -3175,10 +3360,10 @@ Scenes.define('yamac_ogretim', {
   skip() { Scripts.kill('scene'); KW.darkTarget = 0.8; Scenes.goto('meleyen_ses', { fadeOut: 0.3, fadeIn: 0.4 }); },
   hint() {
     const c = this.hintCtx;
-    if (c === 'degnek') return { ctx: c, levels: [{ text: 'Babam koyunların arkasına geçip vurmuştu. Ben de onların arkasına geçmeliyim.', think: true }, { text: 'Koyunların batısına geç, yüzünü Orta taşa çevir ve iki kez ritimle vur.', fx: () => (KW.showStonesFX = 6) }, { text: 'Arkalarından vur kızım; koyun değnekten uzaklaşır.', who: 'Baba', onContinue: () => { KW.sheep.filter((s) => s.group === 'K1').forEach((s, i) => { s.mode = 'push'; s.goal = { x: 11 + (i % 2), y: 4 + Math.floor(i / 2) }; s.speed = 1.2; }); } }] };
-    if (c === 'islik') return { ctx: c, levels: [{ text: 'Kayanın arkasındakini göremiyorum... ama sesimi duyar.', think: true }, { text: 'Güt\'ü basılı tut: ıslığın menzili yerde belirir. Kayaya 8 karodan yakın ol.' }, { text: 'Kayanın yanına git, Güt\'ü basılı tutup bırak.', who: 'Baba', onContinue: () => { const s = KW.sheep.find((q) => q.group === 'K3' && q.x < 20); Flock.sendWhistle(s, { x: KW.tamar.x, y: KW.tamar.y }); } }] };
-    if (c === 'cagri') return { ctx: c, levels: [{ text: 'Babam taşın başında durur. Orta taşa gidip onu çağırmalıyım.', think: true }, { text: 'Orta taş parlıyor.', fx: () => (KW.showStonesFX = 8) }, { text: 'Orta taşın yanına gel ve beni çağır.', who: 'Baba', onContinue: () => { const f = KW.father; f.walkTo(KW.map, STONES.T2.x + 0.7, STONES.T2.y, () => { f.stone = 'T2'; this.arrived = true; }); this.called = true; } }] };
-    if (c === 'bas') return { ctx: c, levels: [{ text: 'Babam göğü gösteriyor. Başımı kaldırmalıyım.', think: true }, { text: 'Bakış basılıyken yukarı: ' + Input.keyLabel('look') }, { text: 'Yukarı bak, Tamar.', who: 'Baba', onContinue: () => { KW.skyLook = true; KW.dipperGlow = 1; Input.simulate('bakis', 2600); Input.simulate('up', 2600); } }] };
+    if (c === 'degnek') return { ctx: c, levels: [{ text: 'Babam koyunların arkasına geçip vurmuştu. Ben de onların arkasına geçmeliyim.', think: true }, { text: 'Koyunların batısına geç, yüzünü Orta taşa çevir ve iki kez ritimle vur.', fx: () => (KW.showStonesFX = 6) }, { text: 'Arkalarından vur kızım; koyun değnekten uzaklaşır.', who: 'Baba', onContinue: () => { KW.sheep.filter((s) => s.group === 'K1').forEach((s, i) => { s.mode = 'push'; s.goal = { x: 11 + (i % 2), y: 4 + Math.floor(i / 2) }; s.speed = 1.2; }); this.skipStep = true; } }] };
+    if (c === 'islik') return { ctx: c, levels: [{ text: 'Kayanın arkasındakini göremiyorum... ama sesimi duyar.', think: true }, { text: 'Güt\'ü basılı tut: ıslığın menzili yerde belirir. Kayaya biraz daha yaklaş, sonra Güt\'ü basılı tut.' }, { text: 'Kayanın yanına git, Güt\'ü basılı tutup bırak.', who: 'Baba', onContinue: () => { const s = KW.sheep.find((q) => q.group === 'K3' && q.x < 20); if (s && sekiOf(KW.tamar.y) === sekiOf(s.y)) Flock.sendWhistle(s, { x: KW.tamar.x, y: KW.tamar.y }); Audio.whistle(KW.tamar.x); this.skipStep = true; } }] };
+    if (c === 'cagri') return { ctx: c, levels: [{ text: 'Babam taşın başında durur. Orta taşa gidip onu çağırmalıyım.', think: true }, { text: 'Orta taş parlıyor.', fx: () => (KW.showStonesFX = 8) }, { text: 'Orta taşın yanına gel ve beni çağır.', who: 'Baba', onContinue: () => { if (this.called) return; const f = KW.father; f.walkTo(KW.map, STONES.T2.x + 0.7, STONES.T2.y, () => { f.dir = 'down'; f.stone = 'T2'; this.arrived = true; }); this.called = true; } }] };
+    if (c === 'bas') return { ctx: c, levels: [{ text: 'Babam göğü gösteriyor. Başımı kaldırmalıyım.', think: true }, { text: 'Bakış basılıyken yukarı: ' + Input.keyLabel('look') }, { text: 'Yukarı bak, Tamar.', who: 'Baba', onContinue: () => { KW.skyLook = true; KW.dipperGlow = 1; this.skipStep = true; } }] };
     return null;
   },
 });
@@ -3193,7 +3378,8 @@ Scenes.define('meleyen_ses', {
     Audio.setAmbience({ wind: 0.14, crickets: true });
     Audio.setDrone(true, 98);
     const sc = this, t = KW.tamar, f = KW.father, L = KW.lamb;
-    sc.lookedUp = false; sc.climbed = false; sc.done = false; sc.motherSaid = 0; sc.cycle = 2.5; sc.answer = -1;
+    sc.lookedUp = false; sc.climbed = false; sc.done = false; sc.busy = false; sc.motherSaid = -99; sc.cycle = 2.5; sc.answer = -1; sc.wallSaid = false;
+    Flock.quiet = true;
     UI.objective('Kuzuyu bulmalıyım.');
     UI.bark('Kuzu ince meler, anası kalın...', 'Tamar', 3, true);
     sc.bakisPromptT = 9;
@@ -3210,7 +3396,9 @@ Scenes.define('meleyen_ses', {
       g.globalAlpha = 1;
     };
     Player.interactables = [
-      { x: 20, y: 1, r: 1.6, label: 'Basamak taşlarından tırman', enabled: () => !sc.climbed && !sc.busy, action: () => sc.climb() },
+      // basamaklar ancak başını kaldırıp gördükten sonra (ya da 2. ışık onları parlattıktan sonra) kullanılır:
+      // bulmacanın "aha"sı duvar dibinde Bakış'la yukarı bakmaktır (bölüm §6.1 çözüm adımı 2)
+      { x: 20, y: 1, r: 1.6, label: 'Basamak taşlarından tırman', enabled: () => !sc.climbed && !sc.busy && (sc.lookedUp || KW.rimBushFX > 0), action: () => sc.climb() },
       { x: 18.5, y: -1.2, r: 1.8, label: 'Dikenleri değnekle arala', enabled: () => sc.climbed && !sc.done && !sc.busy, action: () => sc.rescue() },
     ];
   },
@@ -3271,7 +3459,9 @@ Scenes.define('meleyen_ses', {
       if (sc.answer > 0) { sc.answer -= dt; if (sc.answer <= 0) { const m = KW.mother(); Audio.bleat('ana', m.x, clamp(0.45 - dist(m.x, m.y, t.x, t.y) * 0.015, 0.1, 0.45)); Ripples.add(m.x, m.y - 0.5, 'thick'); } }
     }
     if (sc.bakisPromptT > 0) { sc.bakisPromptT -= dt; if (!Player.focus) UI.prompt('bakis', 'Bakış: basılı tut — sesler belirginleşir'); if (Player.bakis) sc.bakisPromptT = 0; if (sc.bakisPromptT <= 0) UI.prompt(null); }
-    if (Player.lookUp && t.y < 3.5) sc.lookedUp = true;
+    if (Player.lookUp && t.y < 3.5 && !sc.lookedUp) { sc.lookedUp = true; if (Math.abs(t.x - 20) < 4) Audio.chime(); }
+    // duvar dibine ilk varış: kısa iç ses (yön kaybolur)
+    if (!sc.wallSaid && !sc.climbed && !sc.lookedUp && t.y <= 2.2 && Math.abs(t.x - 20) < 2.5) { sc.wallSaid = true; UI.bark('Ses duvarın içinden geliyor gibi... Kuzu duvarın içine giremez ki.', 'Tamar', 3.4, true); }
     // yanlış deneme: anaya varmak
     const m = KW.mother();
     if (m && dist(m.x, m.y, t.x, t.y) < 1.4 && State.time - sc.motherSaid > 8) {
@@ -3280,17 +3470,19 @@ Scenes.define('meleyen_ses', {
     }
   },
   draw(g) { KW.draw(g); },
-  exit() { KW.indicators = null; KW.lambWallConfuse = null; KW.rimTargets = null; KW.camFocus = null; },
+  exit() { KW.indicators = null; KW.lambWallConfuse = null; KW.rimTargets = null; KW.camFocus = null; Flock.quiet = false; },
   skip() { if (this.done) return; KW.tamar.x = 19.6; KW.tamar.y = -1.3; this.climbed = true; Cam.minY = -7.5; this.rescue(); },
   hint() {
     const t = KW.tamar, sc = this;
     if (sc.done) return null;
     const auto = () => { // Hikâye kipi: baba yukarıyı gösterir, sahne kendiliğinden ilerler; yün yine verilir
+      if (sc.done) return;
       KW.father.dir = 'up'; UI.bark('Yukarıda, çalının içinde!', 'Baba', 2.4);
+      if (sc.climbed) { if (!sc.busy) sc.rescue(); return; }
       Player.enabled = false; sc.busy = true;
       Scripts.run(function* () {
         t.walkTo(KW.map, 20, 1.3); yield until(() => !t.path);
-        sc.busy = false; sc.climb(); yield until(() => sc.climbed);
+        sc.busy = false; sc.climb(); yield until(() => sc.climbed && !sc.busy);
         sc.rescue();
       }, 'scene');
     };
@@ -3320,18 +3512,20 @@ Scenes.define('isigin_ardindan', {
     f.x = STONES.T2.x + 0.7; f.y = STONES.T2.y; f.dir = 'down';
     Flock.lamp = null; Flock.lampId++;
     Audio.setAmbience({ wind: 0.14, crickets: true });
-    sc.t = 0; sc.taps = 0; sc.whistles = 0; sc.saidStaff = false; sc.done = false; sc.auto = false; sc.checkT = -1;
-    State.stats.gece_islik = 0;
+    sc.t = 0; sc.taps = 0; sc.whistles = 0; sc.saidStaff = false; sc.done = false; sc.auto = false; sc.checkT = -1; sc.bakisPromptT = 0;
+    State.stats.gece_islik = 0; State.stats.suru_auto = false;
     UI.usta(0, true);
     UI.objective('Sürüyü ağıla indirmeliyiz.');
     KW.indicators = 'flock';
     Player.onStaff = (second) => {
+      if (sc.done || sc.auto) return;
       const r = Flock.staff(t, t.faceDX, t.faceDY, second);
       sc.taps++;
       if (r.dark > 0 && !sc.saidStaff) { sc.saidStaff = true; UI.bark('Beni görmüyorlar ki... Peki neyi görüyorlar?', 'Tamar', 3.4, true); }
       if (sc.taps >= 2 && !f.standing && !f.path) sc.standUp();
     };
     Player.onWhistle = (W) => {
+      if (sc.done || sc.auto) return; // bulmaca bittikten sonraki ıslıklar sayılmaz
       sc.whistles++; State.stats.gece_islik = sc.whistles; UI.usta(sc.whistles, true);
       Flock.whistle(W, sekiOf(t.y));
     };
@@ -3386,7 +3580,8 @@ Scenes.define('isigin_ardindan', {
     if (sc.done) return;
     sc.t += dt;
     if (!f.standing && !f.path && sc.t > 40) sc.standUp();
-    if (sc.startDelay > 0) { sc.startDelay -= dt; if (sc.startDelay <= 0) UI.prompt('bakis', 'Bakış: karanlıktaki koyunların sesleri'); }
+    if (sc.startDelay > 0) { sc.startDelay -= dt; if (sc.startDelay <= 0) { UI.prompt('bakis', 'Bakış: karanlıktaki koyunların sesleri'); sc.bakisPromptT = 9; } }
+    if (sc.bakisPromptT > 0) { sc.bakisPromptT -= dt; if (Player.bakis && sc.bakisPromptT > 1.5) sc.bakisPromptT = 1.5; if (sc.bakisPromptT <= 0) UI.prompt(null); }
     // 3 sn içinde hiçbir koyun yürümezse
     if (sc.checkT > 0) {
       sc.checkT -= dt;
@@ -3401,6 +3596,7 @@ Scenes.define('isigin_ardindan', {
     if (f.stone === 'T8' && !f.path && Flock.sheep.every((s) => s.gathered && !s.stuck && s.gatherAt && dist(s.gatherAt.x, s.gatherAt.y, K.x, K.y) < 0.01 && dist(s.x, s.y, K.x, K.y) < 3.4)) {
       sc.done = true;
       State.flags.usta_b01_iki_islik = !sc.auto && sc.whistles <= 2;
+      Player.enabled = false;
       UI.prompt(null); UI.objective(null);
       Audio.chime();
       Scripts.run(function* () { yield 1.2; Scenes.goto('agil_basinda', { arg: { keep: true } }); }, 'scene');
@@ -3416,54 +3612,82 @@ Scenes.define('isigin_ardindan', {
     Flock.sheep.forEach((s, i) => { const a = (i / 11) * 6.28; s.x = K.x + Math.cos(a) * 1.8; s.y = K.y - 0.3 + Math.sin(a) * 1.1; s.gathered = true; s.stuck = false; s.gatherAt = { x: K.x, y: K.y }; s.mode = 'arrive'; s.goal = null; });
     KW.tamar.x = 8; KW.tamar.y = 31.5;
   },
-  // "Babam halleder": baba zinciri kendisi yürür (Hikâye kipi)
+  // "Babam halleder": baba zinciri kendisi yürür (Hikâye kipi). Sürü hangi durumda olursa olsun
+  // (yürüyen birim, takılmış, karanlıkta, bölünmüş) her turda yeniden değerlendirilir; hiçbir zaman kilitlenmez.
   autoSolve() {
     const sc = this, t = KW.tamar, f = KW.father;
-    sc.auto = true; Player.enabled = false;
-    const gatheredAt = (id) => { const S = STONES[id]; return Flock.sheep.every((s) => s.gathered && !s.stuck && s.gatherAt && dist(s.gatherAt.x, s.gatherAt.y, S.x, S.y) < 0.01); };
+    if (sc.auto || sc.done) return;
+    sc.auto = true; Player.enabled = false; State.stats.suru_auto = true;
+    UI.usta(0, false);
+    const NEXT = { T2: 'T1', T1: 'T3', T3: 'T5', T4: 'T5', T5: 'T6', T6: 'T7', T7: 'T8' };
+    const out = () => Flock.sheep.filter((s) => !s.inFold);
+    const settled = () => !Flock.units.length && !f.path && Flock.sheep.every((s) => s.mode !== 'seek' && s.mode !== 'whistle' && s.mode !== 'unit');
+    const stoneAt = (p) => { for (const k in STONES) if (dist(STONES[k].x, STONES[k].y, p.x, p.y) < 0.01) return k; return null; };
+    const settle = function* (max) { let w = 0; yield (dt) => { w += dt; return (settled() && w > 0.5) || w > max; }; yield 0.3; };
     const go = function* (id) {
-      if (f.stone !== id) {
-        Flock.lampLowered(); f.lamp = { raised: false }; const S = STONES[id];
-        f.walkTo(KW.map, S.x + 0.7, S.y, () => { f.stone = id; });
-        yield until(() => !f.path && f.stone === id);
-        yield 0.3; f.lamp = { raised: true }; Flock.lampRaised(S);
+      const S = STONES[id];
+      Flock.lampLowered(); f.lamp = { raised: false }; f.standing = true; f.sitting = false;
+      if (dist(f.x, f.y, S.x + 0.7, S.y) > 0.1) { f.speed = 2.5; f.walkTo(KW.map, S.x + 0.7, S.y); yield until(() => !f.path); }
+      f.stone = id; f.dir = 'down';
+      yield 0.3; f.lamp = { raised: true }; Flock.lampRaised(S);
+      t.walkTo(KW.map, S.x - 1.2, S.y + 1.2);
+      yield* settle(14);
+    };
+    // karanlıkta kalan koyunları ıslıkla halkaya yaklaştırır (gerekirse birkaç adımda)
+    const whistleIn = function* (seki) {
+      for (let k = 0; k < 5; k++) {
+        const L = Flock.lamp; if (!L) return;
+        const dark = out().filter((s) => sekiOf(s.y) === seki && !s.gathered && !Flock.inLight(s));
+        if (!dark.length) return;
+        let far = dark[0], fd = 0;
+        for (const s of dark) { const d = dist(s.x, s.y, L.x, L.y); if (d > fd) { fd = d; far = s; } }
+        const ux = (far.x - L.x) / (fd || 1), uy = (far.y - L.y) / (fd || 1);
+        // ıslık noktası: olabildiğince halkanın içinde, en uzak koyuna ıslık menzilinden yakın
+        let along = Math.min(RING - 1, Math.max(0, fd - (WHISTLE_R - 1.5)));
+        if (fd - along > WHISTLE_R - 0.5) along = fd - (WHISTLE_R - 1.5); // gerekirse halka dışından bir ara ıslık
+        let W = null;
+        for (let a = along; a >= 0; a -= 0.5) {
+          const x = L.x + ux * a, y = L.y + uy * a;
+          if (sekiOf(y) === seki && KW.map.boxFree(x, y, 0.3, 0.2) && KW.map.findPath(t.x, t.y, x, y)) { W = { x, y }; break; }
+        }
+        if (!W) return;
+        t.walkTo(KW.map, W.x, W.y); yield until(() => !t.path);
+        yield 0.3; Audio.whistle(t.x); Flock.whistle({ x: t.x, y: t.y }, seki);
+        yield* settle(14);
       }
-      t.walkTo(KW.map, STONES[id].x - 1.2, STONES[id].y + 1.2);
-      yield until(() => gatheredAt(id) && !Flock.units.length);
-      yield 0.4;
     };
     Scripts.run(function* () {
       UI.bark('Babam halleder.', 'Tamar', 2, true);
-      // sürü bir taşta toplanmamışsa önce babanın taşında topla
       if (!f.standing) { sc.standUp(); yield 1; }
-      Flock.units = [];
-      const loose = Flock.sheep.filter((s) => !(s.gathered && !s.stuck));
-      if (loose.length) {
-        // takılmış ya da karanlıkta kalan koyunlar kendi sekilerinin geçide bakan taşına
-        const seki = sekiOf(loose[0].y);
-        const face = seki <= 1 ? 'T2' : seki === 2 ? 'T5' : seki === 3 ? 'T7' : 'T8';
-        if (seki <= 1) {
-          if (f.stone !== 'T2' || !(f.lamp && f.lamp.raised)) yield* go('T2');
-          if (Flock.sheep.some((s) => sekiOf(s.y) === 1 && !Flock.inLight(s))) {
-            t.walkTo(KW.map, 21, 7); yield until(() => !t.path);
-            Audio.whistle(t.x); Flock.whistle({ x: t.x, y: t.y }, 1);
-          }
-          yield until(() => gatheredAt('T2'));
-        } else {
-          Flock.sheep.forEach((s) => { if (!(s.gathered && !s.stuck)) { s.gathered = false; s.stuck = false; s.mode = 'idle'; s.evalId = -1; } });
-          yield* go(face);
+      yield* settle(14); // yürüyen birimler önce varır (birimler silinmez)
+      for (let turn = 0; turn < 24 && !sc.done; turn++) {
+        const list = out();
+        if (!list.length) break;
+        let top = 9; for (const s of list) top = Math.min(top, sekiOf(s.y));
+        const onTop = list.filter((s) => sekiOf(s.y) === top);
+        const c0 = onTop[0].gathered && !onTop[0].stuck && onTop[0].gatherAt ? stoneAt(onTop[0].gatherAt) : null;
+        const together = c0 && onTop.every((s) => s.gathered && !s.stuck && s.gatherAt && dist(s.gatherAt.x, s.gatherAt.y, STONES[c0].x, STONES[c0].y) < 0.01 && dist(s.x, s.y, STONES[c0].x, STONES[c0].y) <= RING);
+        if (together && c0 === 'T8') {
+          if (f.stone !== 'T8' || !(f.lamp && f.lamp.raised)) yield* go('T8'); else yield 0.5; // bitiş denetimi sahnenin update'inde
+          continue;
         }
+        if (together && NEXT[c0]) { yield* go(NEXT[c0]); continue; }
+        // toplama: sekinin geçide bakan taşı (Seki 1'de karanlıkta koyun varsa Orta taş + ıslık)
+        const darkTop = onTop.some((s) => !s.gathered && !Flock.inLight(s));
+        const collect = top <= 1 ? (darkTop ? 'T2' : 'T1') : top === 2 ? 'T5' : top === 3 ? 'T7' : 'T8';
+        onTop.forEach((s) => { if (!(s.gathered && !s.stuck)) { s.gathered = false; s.stuck = false; s.mode = 'idle'; s.goal = null; s.pts = null; s.evalId = -1; Flock.freeSlot(s); } });
+        yield* go(collect);
+        yield* whistleIn(top);
       }
-      const chain = ['T2', 'T1', 'T3', 'T5', 'T6', 'T7', 'T8'];
-      const cur = chain.indexOf(f.stone);
-      for (let i = Math.max(1, cur + 1); i < chain.length; i++) yield* go(chain[i]);
+      // güvenlik ağı: yine de bitmediyse sürü kapıda toplanmış sayılır
+      if (!sc.done) { yield 1; if (!sc.done) sc.skip(); }
     }, 'scene');
   },
   hint() {
     const f = KW.father, sc = this;
     if (sc.done) return null;
     const cont = () => sc.autoSolve();
-    const s1dark = Flock.sheep.some((s) => sekiOf(s.y) <= 1 && !s.gathered && !Flock.inLight(s));
+    const s1dark = Flock.sheep.some((s) => sekiOf(s.y) <= 1 && !s.gathered && s.mode !== 'unit' && s.mode !== 'seek' && !Flock.inLight(s));
     const stuck = Flock.sheep.some((s) => s.stuck) || (f.lamp && f.lamp.raised && Flock.sheep.some((s) => s.gathered && s.gatherAt && dist(s.gatherAt.x, s.gatherAt.y, STONES[f.stone].x, STONES[f.stone].y) > 0.01 && dist(s.x, s.y, STONES[f.stone].x, STONES[f.stone].y) > RING));
     if (!f.standing) return { ctx: 'isik', onContinue: cont, levels: [
       { text: 'Karanlıkta değneğimi görmüyorlar. Peki neye bakıyorlar?', think: true },
@@ -3471,7 +3695,7 @@ Scenes.define('isigin_ardindan', {
       { text: 'Ben ışığı taşırım, sen yerini seç. Hangi taşın başında durayım?', who: 'Baba' }] };
     if (s1dark) return { ctx: 'k2k3', onContinue: cont, levels: [
       { text: 'Işık onlara uzak. Sesim ışıktan daha uzağa gider.', think: true },
-      { text: 'Islık menzili ve tek ıslıklık bölgenin çekirdeği (x = 21, y 5–9) yerde belirdi.', fx: () => { KW.showZoneFX = 14; KW.showRingFX = 14; } },
+      { text: 'Islığımın yetiştiği yer ve ikisinin arası yerde belirdi.', fx: () => { KW.showZoneFX = 14; KW.showRingFX = 14; } },
       { text: 'İkisinin arasına geç ama babamın ışığından çıkma; oradan ıslık çal.', who: 'Yoaş' }] };
     // sürünün durumu: takıldı / karanlıkta / ilerliyor — geçide bakan taş ya da karşı taş
     const g0 = Flock.sheep.find((s) => s.gathered && s.gatherAt);
@@ -3481,8 +3705,10 @@ Scenes.define('isigin_ardindan', {
     const across = { T1: 'T3', T5: 'T6', T7: 'T8' }[facing];
     const atFacing = dist(C.x, C.y, STONES[facing].x, STONES[facing].y) < 0.05;
     const target = atFacing ? across : facing;
-    return { ctx: stuck ? 'duvar' : 'ilerle', onContinue: cont, levels: [
-      { text: 'Işığı görüyorlar ama duvarı aşamıyorlar. Işık geçidin tam karşısında olmalı.', think: true },
+    const dark = Flock.sheep.some((s) => !s.inFold && !s.gathered && s.mode !== 'unit' && s.mode !== 'seek' && !Flock.inLight(s));
+    return { ctx: stuck || dark ? 'duvar' : 'ilerle', onContinue: cont, levels: [
+      stuck || dark ? { text: 'Işığı görüyorlar ama duvarı aşamıyorlar. Işık geçidin tam karşısında olmalı.', think: true }
+        : { text: 'Toplandılar. Şimdi ışığı geçidin karşısına taşımalıyız.', think: true },
       { text: 'Geçitler ve sürünün sekisindeki geçide bakan taş parlıyor.', fx: () => { KW.showGapsFX = 12; KW.showStonesFX = 12; } },
       { text: target ? (STONES[target].ad + '\'na çağır beni, kızım.').replace("Kapı'na", 'Kapıya').replace("taşı'na", 'taşına') : 'Kapıya çağır beni.', who: 'Baba' }] };
   },
@@ -3500,6 +3726,13 @@ Scenes.define('agil_basinda', {
     Cam.minY = null;
     sc.counted = false; sc.ready = false; sc.sat = false;
     Player.enabled = false; Player.allowGut = false;
+    KW.seatFX = 0;
+    KW.rimTargets = (g, cx, cy, pulse) => {
+      if (!(KW.seatFX > 0) || sc.sat) return;
+      g.globalAlpha = pulse; g.strokeStyle = '#ffe9a8';
+      g.strokeRect(Math.round((FIRE.x - 1.5) * TILE - cx) + 0.5, Math.round((FIRE.y + 0.1) * TILE - cy) + 0.5, 19, 13);
+      g.globalAlpha = 1;
+    };
     Audio.setAmbience({ wind: 0.1, crickets: true });
     Player.interactables = [
       { x: 6.6, y: 33.2, r: 1.4, label: 'Çalı demetine bak', enabled: () => sc.ready && !State.flags.kol_b01_sapan, action: () => { State.flags.kol_b01_sapan = true; Audio.rustle(6.6); UI.bark('Sapanım! Akşam burada bırakmışım. Belime taktım.', 'Tamar', 3, true); } },
@@ -3555,9 +3788,9 @@ Scenes.define('agil_basinda', {
   },
   update(dt) { KW.update(dt); Player.update(dt); },
   draw(g) { KW.draw(g); },
-  exit() { KW.camFocus = null; Player.allowGut = true; },
+  exit() { KW.camFocus = null; KW.rimTargets = null; KW.seatFX = 0; Player.allowGut = true; },
   skip() { if (!this.ready) { Scripts.kill('scene'); this.ready = true; KW.fireLit = true; Flock.sheep.forEach((s) => { s.inFold = true; s.mode = 'idle'; s.goal = null; s.x = 2 + (s.id % 5) * 1.4; s.y = 35.2 + Math.floor(s.id / 5) * 0.6; }); KW.gateClosed = true; KW.father.lamp = null; KW.father.x = FIRE.x + 0.7; KW.father.y = FIRE.y - 0.9; Player.enabled = true; } this.sit(); },
-  hint() { if (!this.ready) return null; return { ctx: 'otur', levels: [{ text: 'Ateş yandı. Babamın yanına oturmalıyım.', think: true }, { text: 'Ateşin başı parlıyor.', fx: () => {} }, { text: 'Gel otur, kızım.', who: 'Baba', onContinue: () => this.sit() }] }; },
+  hint() { if (!this.ready) return null; return { ctx: 'otur', levels: [{ text: 'Ateş yandı. Babamın yanına oturmalıyım.', think: true }, { text: 'Ateşin başı parlıyor.', fx: () => { KW.seatFX = 10; } }, { text: 'Gel otur, kızım.', who: 'Baba', onContinue: () => this.sit() }] }; },
 });
 
 // ============================================================
@@ -3571,7 +3804,7 @@ Scenes.define('haydi_beytlehem', {
     KW.gateClosed = false;
     Audio.setAmbience({ wind: 0.08, crickets: true, fire: true });
     Audio.setDrone(false);
-    sc.phase = 0; sc.idle = 0; sc.result = null;
+    sc.phase = 0; sc.idle = 0; sc.result = null; sc.herded = false; sc.herdT = 0; sc.autoWalk = false;
     Player.enabled = false; Player.allowGut = true;
     f.dir = 'left'; KW.nahum.dir = 'left'; KW.yoas.dir = 'down';
     Player.onWhistle = (W) => { if (sc.phase === 1 && L.mode !== 'carried' && dist(L.x, L.y, W.x, W.y) < 8) { L.goal = { x: W.x + 0.8, y: W.y + 0.5 }; L.speed = 0.9; sc.herded = true; } };
@@ -3581,7 +3814,7 @@ Scenes.define('haydi_beytlehem', {
     ];
     Scripts.run(function* () {
       yield 1.2;
-      yield UI.say([{ who: 'Çobanlar', text: 'Haydi, Beytlehem\'e kadar gidelim de Rab\'bin bize bildirdiği bu olayı görelim.', kind: 'verse', ref: 'Luka 2:15 · [yakın aktarım; kanonik replik] · baba başlatır, Nahum ile Yoaş birlikte tamamlar' }]);
+      yield UI.say([{ who: 'Çobanlar', text: 'Haydi, Beytlehem\'e kadar gidelim de Rab\'bin bize bildirdiği bu olayı görelim.', kind: 'verse', ref: 'Luka 2:15 · [yakın aktarım; kanonik replik]' }]);
       yield 2.2; // kısa bir sessizlik
       f.walkTo(KW.map, t.x + 0.9, t.y - 0.3); yield until(() => !f.path);
       f.dir = 'left'; t.dir = 'right';
@@ -3625,12 +3858,17 @@ Scenes.define('haydi_beytlehem', {
       if (sc.herded && L.goal && dist(L.x, L.y, L.goal.x, L.goal.y) < 0.15) sc.herded = false;
       if (L.y > 34.5) { L.inFold = true; sc.finish('guderek'); return; }
     }
+    // kuzu kucaktayken 20 sn girdi yoksa: Tamar kendiliğinden ağıla yürür (oyuncu kuzuyu zaten kucağına aldı)
+    if (sc.idle > 20 && t.carry === 'lamb') {
+      if (!sc.autoWalk) { sc.autoWalk = true; Player.enabled = false; t.walkTo(KW.map, 5, 35); }
+      return;
+    }
     // 20 sn girdi yoksa baba kuzuyu ağıla koyar, değer yazılmaz
     if (sc.idle > 20) {
       sc.phase = 2; Player.enabled = false; UI.objective(null);
       Scripts.run(function* () {
         f.walkTo(KW.map, L.x + 0.6, L.y); yield until(() => !f.path);
-        L.visible = false; f.carry = 'lamb';
+        L.visible = false; L.mode = 'carried'; f.carry = 'lamb'; t.carry = null;
         f.walkTo(KW.map, 5, 34.8); yield until(() => !f.path);
         f.carry = null; L.visible = true; L.mode = 'script'; L.x = 4.4; L.y = 35.5; L.goal = null;
         KW.gateClosed = true; yield 1;
@@ -3654,22 +3892,25 @@ Scenes.define('haydi_beytlehem', {
 // ============================================================
 
 // ---------- ortak: izleyiciler (çobanlar Tamar'ın izinden yürür) ----------
-const Trail = {
-  pts: [], reset(x, y) { this.pts = [{ x, y }]; },
-  push(x, y) { const l = this.pts[this.pts.length - 1]; if (dist(l.x, l.y, x, y) > 0.15) { this.pts.push({ x, y }); if (this.pts.length > 400) this.pts.shift(); } },
-  at(back) { // izden "back" karo geride kalan nokta
-    let acc = 0;
+class TrailPath {
+  constructor() { this.pts = []; this.o = { x: 0, y: 0 }; }
+  reset(x, y) { this.pts = [{ x, y }]; }
+  push(x, y) { const l = this.pts[this.pts.length - 1]; if (dist(l.x, l.y, x, y) > 0.15) { this.pts.push({ x, y }); if (this.pts.length > 400) this.pts.shift(); } }
+  at(back) { // izden "back" karo geride kalan nokta (dönen nesne geçicidir)
+    let acc = 0; const o = this.o;
     for (let i = this.pts.length - 1; i > 0; i--) {
       const a = this.pts[i], b = this.pts[i - 1], d = dist(a.x, a.y, b.x, b.y);
-      if (acc + d >= back) { const k = (back - acc) / d; return { x: lerp(a.x, b.x, k), y: lerp(a.y, b.y, k) }; }
+      if (acc + d >= back) { const k = (back - acc) / d; o.x = lerp(a.x, b.x, k); o.y = lerp(a.y, b.y, k); return o; }
       acc += d;
     }
-    return this.pts[0];
-  },
-};
-function updateFollowers(list, dt, gaps) {
+    o.x = this.pts[0].x; o.y = this.pts[0].y; return o;
+  }
+}
+const Trail = new TrailPath();
+function updateFollowers(list, dt, gaps, trail) {
+  trail = trail || Trail;
   list.forEach((a, i) => {
-    const p = Trail.at(gaps[i]);
+    const p = trail.at(gaps[i]);
     const d = dist(a.x, a.y, p.x, p.y);
     if (d > 0.12) { const sp = Math.min(d * 2.2, 3.2) * dt; a.x += ((p.x - a.x) / d) * Math.min(sp, d); a.y += ((p.y - a.y) / d) * Math.min(sp, d); a.face(p.x - a.x, p.y - a.y); a.speed = 2.2; a.setMoving(true, dt); }
     else a.setMoving(false, dt);
@@ -3729,7 +3970,8 @@ Scenes.define('patika', {
     Trail.reset(sc.t.x, sc.t.y);
     Cam.bounds = { x0: -0.5, y0: 0.5, x1: 63.5, y1: 21.5 }; Cam.minY = null;
     Cam.follow(sc.t.x, sc.t.y, 0, true);
-    sc.said = 0; sc.idle = 0; sc.ahead = false; sc.end = false; sc.called = false;
+    sc.said = 0; sc.idle = 0; sc.ahead = false; sc.end = false; sc.called = false; sc.thoughtT = 0;
+    sc.ft = new TrailPath();
     Audio.setAmbience({ wind: 0.16, crickets: true });
     Audio.setDrone(true, 92);
     UI.bark('Tamar önde, kandil elinde. Çobanlar arkasından geliyor.', null, 3.2);
@@ -3737,9 +3979,16 @@ Scenes.define('patika', {
   update(dt) {
     const sc = this, t = sc.t;
     Player.update(dt);
-    if (sc.ahead && t.path) t.update(dt);
+    if (sc.ahead) {
+      // baba öne geçti: o yolu yürür, Tamar kandille hemen arkasından gelir
+      sc.f.update(dt); sc.ft.push(sc.f.x, sc.f.y);
+      const p = sc.ft.at(1.8), d = dist(t.x, t.y, p.x, p.y);
+      if (p.x > t.x - 0.05 && d > 0.12) { const st = Math.min(d, 2.4 * dt); t.x += ((p.x - t.x) / d) * st; t.y += ((p.y - t.y) / d) * st; t.face(p.x - t.x, p.y - t.y); t.setMoving(true, dt); }
+      else t.setMoving(false, dt);
+    }
     Trail.push(t.x, t.y);
-    updateFollowers([sc.f, sc.n, sc.y], dt, [3, 4.3, 5.6]);
+    if (sc.ahead) updateFollowers([sc.n, sc.y], dt, [3, 4.3]);
+    else updateFollowers([sc.f, sc.n, sc.y], dt, [3, 4.3, 5.6]);
     Cam.follow(t.x, t.y - 1, dt);
     Audio.listenerX = t.x;
     Gfx.updateParticles(dt);
@@ -3747,10 +3996,11 @@ Scenes.define('patika', {
     sc.idle = moving ? 0 : sc.idle + dt;
     if (sc.idle > 30 && !sc.called) { sc.called = true; UI.bark('Haydi kızım.', 'Baba', 2); }
     if (sc.idle > 60 && !sc.ahead) {
-      // baba öne geçer: yol kendiliğinden yürünür
+      // baba öne geçer (bölüm §7.3): yolu o yürür, Tamar ve ötekiler izler
       sc.ahead = true; Player.enabled = false;
-      const rest = PATIKA_PTS.filter(([x]) => x > t.x).map(([x, y]) => ({ x, y }));
-      t.path = rest; t.speed = 2.2;
+      const f = sc.f, rest = PATIKA_PTS.filter(([x]) => x > t.x + 0.5).map(([x, y]) => ({ x, y }));
+      f.path = [{ x: t.x + 0.8, y: t.y - 0.5 }].concat(rest); f.speed = 2.2; f.onArrive = null;
+      sc.ft.reset(f.x, f.y);
       UI.bark('Ben önden gideyim, sen ışığı tut.', 'Baba', 2.6);
     }
     // yolda üç söz (otomatik konuşma)
@@ -3761,15 +4011,18 @@ Scenes.define('patika', {
     ];
     if (sc.said < 3 && t.x > lines[sc.said][0]) { const L = lines[sc.said]; UI.bark(L[2], L[1], 5.5); sc.said++; if (sc.said === 3) sc.thoughtT = 6; }
     if (sc.thoughtT > 0) { sc.thoughtT -= dt; if (sc.thoughtT <= 0) { UI.objective('Hayvan bölmesi olan, konuk odası dolu, bu gece telaş görmüş bir ev.'); UI.bark('Hayvan bölmesi olan, konuk odası dolu, bu gece telaş görmüş bir ev.', 'Tamar', 4, true); } }
-    if (!sc.end && t.x > 60.5) { sc.end = true; Player.enabled = false; UI.objective('Hayvan bölmesi olan, konuk odası dolu, bu gece telaş görmüş bir ev.'); Scenes.goto('hangi_kapi'); }
+    if (!sc.end && (t.x > 60.5 || (sc.ahead && !sc.f.path))) { sc.end = true; Player.enabled = false; UI.objective('Hayvan bölmesi olan, konuk odası dolu, bu gece telaş görmüş bir ev.'); Scenes.goto('hangi_kapi'); }
   },
   draw(g) {
     const sc = this, cx = Cam.px(), cy = Cam.py(), map = sc.map;
-    Gfx.drawSky(g, cx, cy, { dim: 1 });
-    Gfx.drawRidge(g, cx, (map.y0 + 1.5) * TILE - cy + 14, { olives: true });
+    const mapTop = (map.y0 + 1.5) * TILE - cy; // gök satırlarının altı; bunun altını harita örter
+    if (mapTop > 0) { Gfx.drawSky(g, cx, cy, { dim: 1, fillH: mapTop + 2 }); Gfx.drawRidge(g, cx, mapTop + 14, { olives: true, maxY: Math.min(VH, mapTop + 2) }); }
     blitMap(g, map.img, cx + 8, cy + 8);
-    const list = sc.P.objs.filter((o) => Math.abs(o.x * TILE - cx - VW / 2) < VW / 2 + 40).concat([sc.t, sc.f, sc.n, sc.y]);
-    list.sort((a, b) => a.y - b.y);
+    const list = sc.list || (sc.list = []);
+    list.length = 0;
+    for (const o of sc.P.objs) if (Math.abs(o.x * TILE - cx - VW / 2) < VW / 2 + 40) list.push(o);
+    list.push(sc.t, sc.f, sc.n, sc.y);
+    list.sort(BY_Y);
     for (const o of list) { if (o instanceof Actor) o.draw(g, cx, cy); else drawObj(g, o, cx, cy, {}); }
     Gfx.resetLights();
     const p = sc.t.lampWorld();
@@ -3792,7 +4045,7 @@ const HOUSES = [
   { id: 3, x0: 28, x1: 33, row: 'up', door: 30, ad: 'Kalabalık ev', who: 'Kalabalık evin babası', skin: 'koylu2', reply: 'Hayvanlarım içeride, saman da dünkü. Bu gece kandil yakan olmadı.', miss: 'C2' },
   { id: 4, x0: 8, x1: 13, row: 'down', door: 10, ad: 'Dördüncü ev', who: 'Ev sahibi', skin: 'koylu1', reply: '', miss: null },
   { id: 5, x0: 21, x1: 26, row: 'down', door: 23, ad: 'Fırıncının evi', who: 'Fırıncı', skin: 'koylu2', reply: 'Benim altımda hayvan yok, fırın var.', miss: 'A' },
-  { id: 6, x0: 34, x1: 39, row: 'down', door: 36, ad: 'Kervan konuğunun evi', who: 'Kervan konuğu', skin: 'koylu1', reply: 'Eşekler konuklarımın, hepsi içeride. Bu gece kimse uyanmadı, kandil bile yakmadık.', miss: 'A' },
+  { id: 6, x0: 34, x1: 39, row: 'down', door: 36, ad: 'Kervan konuğunun evi', who: 'Kervan konuğu', skin: 'koylu1', reply: 'Eşekler konuklarımın, hepsi içeride. Bu gece kimse uyanmadı, kandil bile yakmadık.', miss: 'C3' },
 ];
 HOUSES.forEach((h) => { h.fy0 = h.row === 'up' ? 6 : 14; h.fy1 = h.row === 'up' ? 8 : 16; h.doorY = h.fy1; h.lit = false; });
 // ipucu hücreleri: A hayvan bölmesi, B konuk odası, C1 kapı aralığından ışık, C2 saman, C3 hayvanlar dışarıda
@@ -3816,6 +4069,8 @@ const CLUES = [
   { h: 6, c: 'A', icon: 'hayvan', x: 36, y: 16.7, txt: 'Konukların eşekleri içeride.' },
   { h: 6, c: 'B', icon: 'konuk', x: 39.7, y: 15.4, txt: 'Merdivende heybeler: konuk odası dolu.' },
   { h: 6, c: 'C2', icon: 'saman_taze', x: 36.6, y: 17.6, txt: 'Kapıda taze saman.' },
+  // Ev 6'nın eksik ipucu: hayvanlar içeride, dışarı bağlanan yok (C3 değil); yanlış kapıda bu işaretlenir
+  { h: 6, c: 'C3', icon: 'hayvan_ic', x: 38.4, y: 17.6, txt: 'Hayvanlar içeride; dışarı bağlanan yok.' },
 ];
 function buildVillage() {
   const m = new TileMap(48, 25, 0, 0);
@@ -3913,6 +4168,20 @@ function drawVillageProps(g, cx, cy, V) {
 const DONKEY = ['......kk......', '.....kxxk.....', 'kkkkkkxxxk....', 'kttttttttxk...', 'ktttttttttxk..', 'ktTTTTTTtttk..', '.kttttttttk...', '.kuk.kuk.kuk..', '.kuk.kuk.kuk..', '.kk..kk..kk...'];
 const GOAT = ['.k.....', 'kxk.kk.', '.kxxxxk', '.kxwxxk', '..kxxk.', '..kkkk.'];
 
+// Ev nesneleri için kalıcı çizim vekilleri (kare başına nesne ayrılmaz)
+const HOUSE_PROXIES = HOUSES.map((h) => ({ house: h, y: h.fy1 + 0.49 }));
+const VILLAGE_PROPS = [{ animals: true, y: 17.8 }, { pen: true, y: 10.7 }, { cistern: true, y: 21.4 }];
+function villageSky(g, cx, cy, map, o, ro) {
+  const mapTop = (map.y0 + 1.5) * TILE - cy;
+  if (mapTop <= 0) return;
+  const h = Math.min(VH, mapTop + 2);
+  o.fillH = h; ro.maxY = h;
+  Gfx.drawSky(g, cx, cy, o);
+  Gfx.drawRidge(g, cx, mapTop + 10, ro);
+}
+const SKY_V = { dim: 1, fillH: VH }, RIDGE_V = { olives: false, col: '#0c1030', maxY: VH };
+const SKY_A = { dim: 0.5, top: '#141a36', bot: '#4a4a6a', fillH: VH }, RIDGE_A = { olives: false, col: '#1a1e3a', windows: false, maxY: VH };
+
 Scenes.define('hangi_kapi', {
   title: 'Hangi Kapı?',
   enter() {
@@ -3924,7 +4193,7 @@ Scenes.define('hangi_kapi', {
       sc.goat = spriteFrom(GOAT, { x: '#5a4636', w: '#d8cdb4' });
     }
     HOUSES.forEach((h) => (h.lit = false));
-    sc.seen = {}; sc.marked = {}; sc.wrong = 0; sc.solved = false; sc.busy = false; sc.ahaSaid = false; sc.knocked = {};
+    sc.seen = {}; sc.marked = {}; sc.wrong = 0; sc.solved = false; sc.busy = false; sc.ahaSaid = false; sc.knocked = {}; sc.saidWake = false;
     sc.t = new Actor({ kind: 'tamar', x: 44, y: 22.6, dir: 'up', lamp: { child: true } });
     sc.f = new Actor({ kind: 'adult', skin: 'baba', x: 44.5, y: 24 });
     sc.n = new Actor({ kind: 'adult', skin: 'nahum', x: 43.5, y: 24.4 });
@@ -3985,7 +4254,7 @@ Scenes.define('hangi_kapi', {
     sc.villagers.forEach((v) => v.update(dt));
     Cam.follow(t.x, t.y - 1.2, dt);
     Audio.listenerX = t.x;
-    if (sc.bakisPrompt > 0) { sc.bakisPrompt -= dt; if (!Player.focus) UI.prompt('bakis', 'Bakış: çevreyi oku — ipuçları kenar ışığı alır'); if (Player.bakis) sc.bakisPrompt = 0; if (sc.bakisPrompt <= 0) UI.prompt(null); }
+    if (sc.bakisPrompt > 0) { sc.bakisPrompt -= dt; UI.prompt('bakis', 'Bakış: çevreyi oku — ipuçları kenar ışığı alır'); if (Player.bakis) sc.bakisPrompt = 0; if (sc.bakisPrompt <= 0) UI.prompt(null); }
     // Bakış ile ipucu görme
     if (Player.bakis) {
       for (const c of CLUES) {
@@ -3997,14 +4266,16 @@ Scenes.define('hangi_kapi', {
   },
   draw(g) {
     const sc = this, cx = Cam.px(), cy = Cam.py(), map = sc.map;
-    Gfx.drawSky(g, cx, cy, { dim: 1 });
-    Gfx.drawRidge(g, cx, (map.y0 + 1.5) * TILE - cy + 10, { olives: false, col: '#0c1030' });
+    villageSky(g, cx, cy, map, SKY_V, RIDGE_V);
     blitMap(g, map.img, cx + 8, cy + 8);
     drawVillageProps(g, cx, cy, sc);
-    const list = [sc.t, sc.f, sc.n, sc.y].concat(sc.villagers);
-    HOUSES.forEach((h) => list.push({ house: h, y: h.fy1 + 0.49 }));
-    list.push({ animals: true, y: 17.8 }, { pen: true, y: 10.7 }, { cistern: true, y: 21.4 });
-    list.sort((a, b) => a.y - b.y);
+    const list = sc.list || (sc.list = []);
+    list.length = 0;
+    list.push(sc.t, sc.f, sc.n, sc.y);
+    for (let i = 0; i < sc.villagers.length; i++) list.push(sc.villagers[i]);
+    for (let i = 0; i < HOUSE_PROXIES.length; i++) list.push(HOUSE_PROXIES[i]);
+    for (let i = 0; i < VILLAGE_PROPS.length; i++) list.push(VILLAGE_PROPS[i]);
+    list.sort(BY_Y);
     for (const o of list) {
       if (o instanceof Actor) o.draw(g, cx, cy);
       else if (o.house) { const h = o.house, sx = Math.round((h.x0 - 0.5) * TILE - cx), sy = Math.round((h.fy1 + 0.5) * TILE - cy); g.drawImage(h.spr, sx, sy - h.spr.height); drawHouseDetails(g, h, sx, sy); }
@@ -4025,7 +4296,7 @@ Scenes.define('hangi_kapi', {
     Gfx.applyDark('#03040f', 0.8);
     Gfx.dashedCircle(p.x * TILE - cx, p.y * TILE - cy + 6, 80, '#ffcf7a', 2, 5, 0.22);
     // Bakış: ipucu simgeleri (biçimle ayrışır)
-    const pulse = 0.65 + 0.35 * Math.sin(State.time * 4);
+    const pulse = REDUCED ? 0.85 : 0.65 + 0.35 * Math.sin(State.time * 4);
     const hintGlow = Hints.ctx === 'kapi' && Hints.level >= 2;
     for (const c of CLUES) {
       const seen = sc.seen[c.h] && sc.seen[c.h][c.c];
@@ -4092,7 +4363,7 @@ Scenes.define('avlu', {
       sc.stage = 1; Player.enabled = true;
       UI.objective('Şafak yaklaşıyor. Köy girişinden obaya dönülecek.');
       UI.prompt('bakis', 'Bakış: çevrene bak');
-      Scripts.run(function* () { yield 6; if (!Player.focus) UI.prompt(null); }, 'p');
+      Scripts.run(function* () { let w = 0; yield (dt) => { w += dt; return w > 7 || (Player.bakis && w > 1.5); }; UI.prompt(null); }, 'p');
     }, 'scene');
   },
   update(dt) {
@@ -4127,14 +4398,16 @@ Scenes.define('avlu', {
   },
   draw(g) {
     const sc = this, cx = Cam.px(), cy = Cam.py(), map = sc.map, V = sc.V;
-    Gfx.drawSky(g, cx, cy, { dim: 0.5, top: '#141a36', bot: '#4a4a6a' });
-    Gfx.drawRidge(g, cx, (map.y0 + 1.5) * TILE - cy + 10, { olives: false, col: '#1a1e3a', windows: false });
+    villageSky(g, cx, cy, map, SKY_A, RIDGE_A);
     blitMap(g, map.img, cx + 8, cy + 8);
     drawVillageProps(g, cx, cy, V);
-    const list = [sc.t, sc.f, sc.n, sc.y].concat(sc.listeners);
-    HOUSES.forEach((h) => list.push({ house: h, y: h.fy1 + 0.49 }));
-    list.push({ animals: true, y: 17.8 });
-    list.sort((a, b) => a.y - b.y);
+    const list = sc.list || (sc.list = []);
+    list.length = 0;
+    list.push(sc.t, sc.f, sc.n, sc.y);
+    for (let i = 0; i < sc.listeners.length; i++) list.push(sc.listeners[i]);
+    for (let i = 0; i < HOUSE_PROXIES.length; i++) list.push(HOUSE_PROXIES[i]);
+    list.push(VILLAGE_PROPS[0]);
+    list.sort(BY_Y);
     for (const o of list) {
       if (o instanceof Actor) o.draw(g, cx, cy);
       else if (o.house) { const h = o.house, sx = Math.round((h.x0 - 0.5) * TILE - cx), sy = Math.round((h.fy1 + 0.5) * TILE - cy); g.drawImage(h.spr, sx, sy - h.spr.height); drawHouseDetails(g, h, sx, sy); if (h.id === 4) drawLowDoorSilhouette(g, sx + h.doorPx, sy - 22); }
@@ -4144,7 +4417,7 @@ Scenes.define('avlu', {
     Gfx.light(10.6 * TILE - cx, 16 * TILE - cy, 40, 0.8);
     Gfx.applyDark('#1c2240', 0.55);
     if (Player.bakis) {
-      const pulse = 0.6 + 0.4 * Math.sin(State.time * 4);
+      const pulse = REDUCED ? 0.85 : 0.6 + 0.4 * Math.sin(State.time * 4);
       g.globalAlpha = pulse; g.strokeStyle = '#ffe9a8';
       const dx = Math.round((HOUSES[3].x0 - 0.5) * TILE - cx) + HOUSES[3].doorPx, dy = Math.round((HOUSES[3].fy1 + 0.5) * TILE - cy) - 22;
       g.strokeRect(dx - 1.5, dy - 1.5, 16, 24);
@@ -4214,6 +4487,7 @@ Scenes.define('yanki', {
     }, 'scene');
   },
   update(dt) { KW.update(dt); Player.update(dt); },
+  touchMode() { return 'etk'; },
   draw(g) {
     KW.extraLights = null;
     KW.draw(g);
@@ -4244,10 +4518,11 @@ function crispLayer(w, h, fn) {
 }
 function ell(g, x, y, rx, ry, col) { g.fillStyle = col; g.beginPath(); g.ellipse(x, y, rx, ry, 0, 0, 6.2832); g.fill(); }
 function poly(g, pts, col) { g.fillStyle = col; g.beginPath(); g.moveTo(pts[0], pts[1]); for (let i = 2; i < pts.length; i += 2) g.lineTo(pts[i], pts[i + 1]); g.closePath(); g.fill(); }
+// Dokunmama anları: ipucu düğmesi gerçekten kaybolur (görünmez ama dokunulabilir değil);
+// menü düğmesi soluk kalır ki oyuncu bilerek duraklatabilsin
 function sacredUI(on) {
-  $('topbtns').style.opacity = on ? '0' : '';
-  $('topbtns').style.pointerEvents = on ? 'none' : '';
-  $('touch').style.opacity = on ? '0.35' : '';
+  $('topbtns').classList.toggle('sacred', !!on);
+  $('touch').classList.toggle('sacred', !!on);
 }
 
 // ------------------------------------------------------------
@@ -4265,6 +4540,7 @@ Scenes.define('baslik', {
     UI.openStart();
     Audio.setAmbience({ wind: 0.1, crickets: true });
   },
+  touchMode() { return 'none'; },
   update(dt) { Gfx.updateParticles(dt); if (Math.random() < dt * 3) Gfx.spawn({ x: 318 + Math.random() * 6, y: 306, vx: (Math.random() - 0.5) * 4, vy: -10, t: 0, life: 1.2, c: '#ffcf7a' }); },
   draw(g) {
     Gfx.drawSky(g, State.time * 6, 0, { dim: 1 });
@@ -4295,6 +4571,7 @@ Scenes.define('acilis', {
     }, 'scene');
   },
   update() {},
+  touchMode() { return 'etk'; },
   draw(g) { g.fillStyle = '#05060f'; g.fillRect(0, 0, VW, VH); },
   skip() { Scripts.kill('scene'); UI.closeCard(); Scenes.goto('cerceve_giris', { instant: true }); },
 });
@@ -4381,6 +4658,7 @@ Scenes.define('cerceve_giris', {
     }, 'scene');
   },
   update() {},
+  touchMode() { return 'etk'; },
   draw(g) {
     Frame.draw(g, { dipper: this.dipper });
     if (this.wipe > 0) { g.fillStyle = '#000'; g.fillRect(0, 0, Math.round(VW * smooth(this.wipe)), VH); }
@@ -4395,6 +4673,8 @@ Scenes.define('cerceve_giris', {
 // ------------------------------------------------------------
 Scenes.define('mujde', {
   title: 'Müjde',
+  sacred: true,
+  touchMode() { return this.lookPrompt ? 'joy' : 'none'; },
   enter() {
     const sc = this;
     sc.camY = 280; sc.camTarget = 280; sc.flood = 0; sc.floodT = 0; sc.angel = 0; sc.host = []; sc.hostA = 0; sc.stars = 1; sc.dark = 0.8; sc.cine = 0;
@@ -4417,10 +4697,13 @@ Scenes.define('mujde', {
       yield (dt) => { sc.flood = Math.max(0.3, sc.flood - dt * 0.25); sc.huddle = Math.min(1, sc.huddle + dt * 0.6); return sc.flood <= 0.3; };
       yield 0.6;
       yield UI.say([{ who: 'Rab\'bin meleği', text: 'Korkmayın! İşte size bütün halkı çok sevindirecek bir müjde getiriyorum. Bugün Davut\'un kentinde sizin için bir Kurtarıcı doğdu. O, Rab Mesih\'tir. Size şu işaret olacak: Kundağa sarılmış, yemlikte yatan bir bebek bulacaksınız.', kind: 'verse', ref: 'Luka 2:10–12 · [yakın aktarım; kanonik replik]', auto: 7, lock: true }]);
-      // 2:13 — gök ordusu
+      // 2:13 — gök ordusu belirir (ışıklar ayet satırıyla birlikte yavaşça gelir)
       Audio.rise();
-      yield (dt) => { sc.hostA = Math.min(1, sc.hostA + dt * 0.35); return sc.hostA >= 1; };
-      sc.lookPrompt = true; UI.prompt('look', 'başını kaldır');
+      Scripts.run(function* () { yield (dt) => { sc.hostA = Math.min(1, sc.hostA + dt * 0.35); return sc.hostA >= 1; }; }, 'scene');
+      yield UI.say([{ text: 'Birden meleğin yanında Tanrı\'yı öven büyük bir gök ordusu belirdi.', kind: 'narr', ref: 'Luka 2:13 · [yakın aktarım]', auto: 2.5, lock: true }]);
+      yield until(() => sc.hostA >= 1);
+      // tek girdi: başını kaldırmak — dokunmama anında Bakış gerekmez, yalnızca yukarı (GDD §5.1a)
+      sc.lookPrompt = true; UI.prompt('up', 'başını kaldır');
       let waited = 0;
       yield (dt) => { waited += dt; const up = Input.down('up') || Input.down('lookup') || (Input.down('bakis') && Input.down('up')); if (up) sc.looked = true; return sc.looked || waited >= 8; };
       sc.lookPrompt = false; UI.prompt(null);
@@ -4475,15 +4758,15 @@ Scenes.define('mujde', {
     g.drawImage(sb.nahum, 352 - 8, base - 30);
     if (sc.bury) g.drawImage(ART.tamarCrouch, 285 - 8, base - 22 + 2); // Tamar yüzünü babasının abasına gömer
     else g.drawImage(ART.tamar.up[0], 280 - 8, base - 22);
-    // melek: dikey ışık biçimi (insan boyunu biraz aşar: ~44 px)
-    const ax = 320, ay = 560 - cy;
+    // melek: dikey ışık biçimi (insan boyunu biraz aşar: yetişkin sprite'ı ~29 px, melek ~35 px)
+    const ax = 320, ay = 560 - cy, AH = 35;
     if (sc.angel > 0) {
       const a = sc.angel;
-      for (let y = 0; y < 46; y++) {
-        const t = y / 46, w = Math.round(3 + Math.sin(t * Math.PI) * 6 + (t > 0.85 ? -2 : 0));
+      for (let y = 0; y < AH; y++) {
+        const t = y / AH, w = Math.round(3 + Math.sin(t * Math.PI) * 5 + (t > 0.85 ? -2 : 0));
         g.globalAlpha = a * (0.55 + 0.45 * Math.sin(t * Math.PI));
-        g.fillStyle = '#fff4cc'; g.fillRect(ax - w, ay - 46 + y, w * 2, 1);
-        g.globalAlpha = a; g.fillStyle = '#ffffff'; g.fillRect(ax - Math.max(1, w - 4), ay - 46 + y, Math.max(2, (w - 4) * 2), 1);
+        g.fillStyle = '#fff4cc'; g.fillRect(ax - w, ay - AH + y, w * 2, 1);
+        g.globalAlpha = a; g.fillStyle = '#ffffff'; g.fillRect(ax - Math.max(1, w - 4), ay - AH + y, Math.max(2, (w - 4) * 2), 1);
       }
       g.globalAlpha = 1;
     }
@@ -4501,7 +4784,7 @@ Scenes.define('mujde', {
     // ışık katmanı
     Gfx.resetLights();
     Gfx.light(fx, fy - 4, 90, 0.9); Gfx.glow(fx, fy - 4, 40, 0.4);
-    if (sc.angel > 0) { Gfx.light(ax, ay - 24, 160, sc.angel); Gfx.glow(ax, ay - 24, 64, 0.8 * sc.angel, ART.glow.gold); }
+    if (sc.angel > 0) { Gfx.light(ax, ay - 18, 160, sc.angel); Gfx.glow(ax, ay - 18, 56, 0.8 * sc.angel, ART.glow.gold); }
     Gfx.applyDark('#03040f', sc.dark);
     if (sc.flood > 0) { g.globalCompositeOperation = 'lighter'; const f = Math.min(1, sc.flood * 1.25); g.fillStyle = `rgb(${Math.round(255 * f)},${Math.round(226 * f)},${Math.round(150 * f)})`; g.fillRect(0, 0, VW, VH); g.globalCompositeOperation = 'source-over'; }
     Gfx.cinema(sc.cine);
@@ -4517,10 +4800,12 @@ Scenes.define('mujde', {
 // ------------------------------------------------------------
 Scenes.define('yemlik', {
   title: 'Yemlik',
+  sacred: true,
+  touchMode() { return this.phase === 1 && !this.crouched ? 'joyetk' : 'none'; },
   enter() {
     const sc = this;
     if (!sc.bg) sc.buildArt();
-    sc.tx = 186; sc.crouched = false; sc.quiet = 0; sc.idle = 0; sc.phase = 0; sc.walkT = 0; sc.dir = 'up';
+    sc.tx = 186; sc.crouched = false; sc.quiet = 0; sc.idle = 0; sc.phase = 0; sc.walkT = 0; sc.dir = 'up'; sc.ending = false; sc.autoT = false;
     sacredUI(true);
     Audio.setDrone(false); Audio.setAmbience({ wind: 0.03, crickets: false });
     Audio.setTone(true, 220, 0.06);
@@ -4564,8 +4849,9 @@ Scenes.define('yemlik', {
       g.fillStyle = '#7a7262'; g.fillRect(35, 117, 32, 12); g.fillStyle = '#958c78'; g.fillRect(35, 117, 32, 2);
       g.fillStyle = '#2a241c'; g.fillRect(38, 119, 26, 5);
       // bebek: kundak biçimi (bantlı), yüz pikseli yok — baş kundak gölgesinde
-      g.fillStyle = '#d8ccb0'; g.fillRect(42, 117, 18, 5); g.fillStyle = '#b8ac90'; g.fillRect(46, 117, 1, 5); g.fillRect(51, 117, 1, 5); g.fillRect(56, 117, 1, 5);
-      g.fillStyle = '#a89c80'; g.fillRect(57, 117, 4, 5);
+      // (kundak odadaki en parlak nesne olmasın diye koyu keten tonunda)
+      g.fillStyle = '#b8ac90'; g.fillRect(42, 117, 18, 5); g.fillStyle = '#9a8e74'; g.fillRect(46, 117, 1, 5); g.fillRect(51, 117, 1, 5); g.fillRect(56, 117, 1, 5);
+      g.fillStyle = '#8e8268'; g.fillRect(57, 117, 4, 5);
       // İsa'nın annesi Meryem: oturan, yemliğe eğik silüet; örtü gölgesi, yüz yok
       poly(g, [70, 132, 72, 112, 78, 102, 86, 96, 94, 100, 96, 114, 98, 132], '#1c1a2c');
       ell(g, 82, 98, 7, 7, '#1c1a2c'); poly(g, [74, 96, 82, 89, 90, 92, 92, 104, 84, 108, 76, 104], '#24223a');
@@ -4621,8 +4907,10 @@ Scenes.define('yemlik', {
     // evin kandili: tek ışık
     const lx = 250 + 111, ly = 126 + 60;
     g.drawImage(ART.lamp, lx - 3, ly); g.drawImage(ART.flame[Math.floor(State.time * 6) % 3], lx - 1, ly - 3);
+    // tek ışık evin kandilidir: bütün ışık düşüşü kandilden başlar; çocuğa odaklı ışık yok (GDD §11.6).
+    // Avludaki hafif ışık yalnızca çobanların durduğu yeri gösterir ve içeriye ulaşmaz.
     Gfx.resetLights();
-    Gfx.light(lx, ly, 96, 1); Gfx.light(lx - 40, ly + 50, 120, 0.7); Gfx.light(320, 300, 110, 0.35);
+    Gfx.light(lx, ly, 96, 1); Gfx.light(lx, ly, 160, 0.5); Gfx.light(230, 352, 118, 0.32);
     Gfx.glow(lx, ly, 34, 0.35);
     Gfx.applyDark('#020208', 0.86);
     Gfx.cinema(1);
@@ -4641,26 +4929,28 @@ Scenes.define('tablo1', {
     const sc = this;
     if (!sc.art) {
       const par = makeParchment(VW, VH, 21);
+      // kompozisyon diyalog kutusunun üstünde kalır (yer çizgisi y = 262): eğilen figürler ve armağan kapları görünür
+      const G = 262;
       sc.art = crispLayer(VW, VH, (g) => {
         // ev ve açık kapı (kapının açısı yüzünden içerisi görünmez)
-        poly(g, [300, 330, 300, 170, 500, 150, 520, 330], INK);
-        g.fillStyle = '#e8b060'; g.fillRect(352, 236, 34, 94);
-        poly(g, [352, 236, 386, 236, 404, 246, 404, 330, 386, 330], '#c88a40');
-        // eşikte, sayısı okunmayan bir grup yıldızbilimci (üst üste biner, bir kısmı çerçeve dışında)
+        poly(g, [360, G, 360, G - 150, 560, G - 170, 580, G], INK);
+        g.fillStyle = '#e8b060'; g.fillRect(410, G - 90, 34, 90);
+        poly(g, [410, G - 90, 444, G - 90, 462, G - 80, 462, G, 444, G], '#c88a40');
+        // eşikte, sayısı okunmayan bir grup yıldızbilimci: üst üste biner, en arkadakiler çerçeve dışına taşar
         const fig = (x, h, bow) => {
-          if (bow) { poly(g, [x - 18, 330, x - 14, 318, x + 2, 312, x + 14, 316, x + 18, 330], INK); ell(g, x + 16, 318, 5, 5, INK); }
-          else { poly(g, [x - 9, 330, x - 7, 330 - h * 0.7, x - 3, 330 - h * 0.9, x + 4, 330 - h * 0.9, x + 8, 330 - h * 0.7, x + 10, 330], INK); ell(g, x, 330 - h, 5.5, 6.5, INK); }
+          if (bow) { poly(g, [x - 18, G, x - 14, G - 12, x + 2, G - 18, x + 14, G - 14, x + 18, G], INK); ell(g, x + 16, G - 12, 5, 5, INK); }
+          else { poly(g, [x - 9, G, x - 7, G - h * 0.7, x - 3, G - h * 0.9, x + 4, G - h * 0.9, x + 8, G - h * 0.7, x + 10, G], INK); ell(g, x, G - h, 5.5, 6.5, INK); }
         };
-        fig(-4, 70); fig(18, 66); fig(44, 74); fig(70, 64); fig(150, 0, true); fig(200, 68); fig(232, 0, true); fig(268, 72); fig(292, 0, true);
-        // armağan kapları
-        [[176, 324], [258, 326], [318, 326]].forEach(([x, y]) => { poly(g, [x - 5, y + 6, x - 6, y - 2, x - 3, y - 6, x + 3, y - 6, x + 6, y - 2, x + 5, y + 6], INK); });
+        fig(244, 64); fig(260, 72); fig(276, 66); fig(294, 70); fig(310, 62); fig(330, 0, true); fig(348, 0, true); fig(366, 0, true);
+        // armağan kapları, eşiğin önünde
+        [[384, G - 6], [397, G - 6]].forEach(([x, y]) => { poly(g, [x - 5, y + 6, x - 6, y - 2, x - 3, y - 6, x + 3, y - 6, x + 6, y - 2, x + 5, y + 6], INK); });
         // yer
-        g.fillStyle = INK; g.fillRect(0, 330, VW, 4);
+        g.fillStyle = INK; g.fillRect(0, G, VW, 4);
       });
       sc.par = par;
     }
     Audio.setDrone(true, 98); Audio.setAmbience({ wind: 0.04 });
-    UI.objective('Tablo · Matta 2:1–12 · tanıklık iddiası yok');
+    UI.objective('Yıldızbilimciler ve yıldız · Matta 2:1–12');
     Scripts.run(function* () {
       yield 1.0;
       yield UI.say([SAY.yasli('Bunu ben görmedim. Aylar sonra anlattılar.')]);
@@ -4669,11 +4959,12 @@ Scenes.define('tablo1', {
     }, 'scene');
   },
   update() {},
+  touchMode() { return 'etk'; },
   draw(g) {
     g.drawImage(this.par, 0, 0);
     g.drawImage(this.art, 0, 0);
     // yıldız: tablodaki tek gök ışığı, yıldız altını
-    const x = 420, y = 70, a = 0.85 + 0.15 * Math.sin(State.time * 2);
+    const x = 470, y = 54, a = REDUCED ? 1 : 0.85 + 0.15 * Math.sin(State.time * 2);
     g.globalAlpha = a; g.fillStyle = '#e8c66a'; g.fillRect(x - 1, y - 6, 3, 13); g.fillRect(x - 6, y - 1, 13, 3); g.fillStyle = '#fff4cc'; g.fillRect(x - 1, y - 1, 3, 3); g.globalAlpha = 1;
   },
   skip() { Scripts.kill('scene'); Scenes.goto('tablo2', { fadeOut: 0.3 }); },
@@ -4710,7 +5001,7 @@ Scenes.define('tablo2', {
       });
     }
     sc.x = 0; sc.verse = false;
-    UI.objective('Tablo · Matta 2:13–18 · tanıklık iddiası yok');
+    UI.objective('Gece yola çıkan aile · Matta 2:13–18');
     Audio.setDrone(false); Audio.setAmbience({ wind: 0.12 });
     Scripts.run(function* () {
       yield 1.0;
@@ -4726,6 +5017,7 @@ Scenes.define('tablo2', {
     }, 'scene');
   },
   update() {},
+  touchMode() { return 'etk'; },
   draw(g) {
     const x = Math.round(this.x);
     g.drawImage(this.par, x, 0, VW, VH, 0, 0, VW, VH);
@@ -4786,6 +5078,7 @@ Scenes.define('cerceve_kapanis', {
     }, 'scene');
   },
   update(dt) { if (this.weave) this.rows = Math.min(24, this.rows + dt * 6); },
+  touchMode() { return 'etk'; },
   draw(g) {
     const sc = this;
     Frame.draw(g, { band: (gg) => drawBand(gg, 268, 148, 142, 24, Math.floor(sc.rows), State.flags.b01_haber) });
@@ -4823,7 +5116,8 @@ Scenes.define('son', {
     const F = State.flags, S = State.stats;
     const li = [];
     li.push(F.b01_ifade_kuzu === 'kucakta' ? 'Topal kuzuyu kucağında ağıla taşıdın.' : F.b01_ifade_kuzu === 'guderek' ? 'Topal kuzu kandilinin ışığını izleyerek ağıla girdi.' : 'Topal kuzuyu ağıla baban koydu.');
-    li.push(`Sürü gece ${S.gece_islik} ıslıkla ağıla indi.` + (F.usta_b01_iki_islik ? ' Usta işi: en fazla iki ıslık.' : ''));
+    const n = S.gece_islik || 0;
+    li.push(S.suru_auto ? 'Sürü, babanın kandilinin ardından ağıla indi.' : n === 0 ? 'Sürü gece ıslık çalmadan ağıla indi.' : n === 1 ? 'Sürü gece tek ıslıkla ağıla indi.' : `Sürü gece ${n} ıslıkla ağıla indi.`);
     li.push(F.b01_uyanan_ev === 0 ? 'Beytlehem\'de doğru kapıyı başka kimseyi uyandırmadan buldun.' : `Beytlehem'de ${F.b01_uyanan_ev} ev uyandı; kapılar nazikçe açıldı.`);
     li.push(F.b01_haber === 'koye' ? 'Şafakta gördüğünü obadakilere anlattın — çobanların anlatışının yankısı (Luka 2:17–18).' : F.b01_haber === 'babaya' ? 'Şafakta babana fısıldadın: “Annesi hiç konuşmadı. Hep baktı.”' : 'Şafakta gördüğünü kalbinde sakladın — “yüreğinde saklamak”ın yankısı (Luka 2:19).');
     const mem = [];
@@ -4837,16 +5131,16 @@ Scenes.define('son', {
     let html = `<h1>Bölüm 1 — Yıldızın Altında</h1><h2>Luka 2:1–20</h2><ul class="summary">${li.map((x) => `<li>${esc(x)}</li>`).join('')}`;
     if (mem.length) html += `<li>Hatıralar: ${esc(mem.join(', '))}.</li>`;
     tan.forEach((x) => (html += `<li><i>${esc(x)}</i></li>`));
-    html += `</ul><div class="t" style="font-size:.8em;color:#b9b2a0;margin-bottom:1em">Üç yol da tam ve saygın bir sondur. Seçimlerin İncil'deki olayları değiştirmez.</div><div class="btns"><button data-a="again">Yeniden oyna</button></div>`;
+    html += `</ul><div class="t" style="font-size:.8em;color:#b9b2a0;margin-bottom:1em">Seçimlerin İncil'deki olayları değiştirmez.</div><div class="btns"><button data-a="again">Yeniden oyna</button></div>`;
     Scripts.run(function* () {
       yield 0.6;
       UI.card(html, { noTap: true });
-      const b = $('card').querySelector('button[data-a="again"]');
-      if (b) b.addEventListener('pointerdown', (e) => { e.preventDefault(); UI.closeCard(); Bus.emit('restart'); });
+      UI.cardButton('button[data-a="again"]', () => { UI.closeCard(); Bus.emit('restart'); });
     }, 'scene');
     Audio.setDrone(false);
   },
   update() {},
+  touchMode() { return 'none'; },
   draw(g) { Frame.draw(g, { band: (gg) => drawBand(gg, 268, 148, 142, 24, 24, State.flags.b01_haber) }); },
 });
 
@@ -4891,11 +5185,22 @@ function boot() {
     resetGame();
     Scenes.goto('acilis');
   });
+  // Yeniden başlat: süren geçiş ve betikler zorla bitirilir, sahne anında değişir
+  // (menü bir karartmanın ortasında açılmış olsa bile eski geçiş geri gelmez)
   Bus.on('restart', () => {
+    Scripts.kill(); Scenes.busy = false;
+    UI.closeHint(); UI.clearBark(); UI.fade(1, 0);
     resetGame();
-    KW.built = false; KW.stage = null;
+    KW.built = false; KW.stage = null; KW.gateClosed = false;
     State.paused = false;
-    Scenes.goto('acilis');
+    Scenes.goto('acilis', { instant: true });
+  });
+  // sekme/uygulama arka plana geçince: ses susar ve oyun duraklar
+  document.addEventListener('visibilitychange', () => {
+    try {
+      if (document.hidden) { if (Audio.ctx) Audio.ctx.suspend().catch(() => {}); if (State.started && !UI.menuOpen) UI.openPause(); }
+      else if (Audio.ctx) Audio.ctx.resume().catch(() => {});
+    } catch (e) {}
   });
   Scenes.goto('baslik', { instant: true });
   requestAnimationFrame(frame);
@@ -4919,14 +5224,14 @@ window.KANDIL = {
     simulate(inputName, ms) { Input.simulate(inputName, ms); return true; },
     // yardımcılar (testler için)
     scene() { return State.sceneId; },
-    ui() { return { dialog: UI.dlg.active, choice: UI.ch.active, card: UI.cardActive, menu: UI.menuOpen, prompt: $('prompt').classList.contains('hidden') ? null : $('prompt').textContent, bark: UI.bk.t > 0 ? UI.bk.text : null, fade: UI.fadeA, busy: Scenes.busy }; },
+    ui() { return { dialog: UI.dlg.active, choice: UI.ch.active, choiceArmed: UI.ch.active && !(UI.ch.armT > 0) && !UI.ch.needRelease, card: UI.cardActive, menu: UI.menuOpen, menuKind: UI.menuKind, menuSel: UI.menuSel, prompt: $('prompt').classList.contains('hidden') ? null : $('prompt').textContent, bark: UI.bk.t > 0 ? UI.bk.text : null, fade: UI.fadeA, busy: Scenes.busy, hint: UI.hint.open ? $('hintpanel').innerText : null, touchMode: UI.touchMode }; },
     advance() {
-      if (UI.cardActive) { const b = $('card').querySelector('button'); if (b) b.dispatchEvent(new Event('pointerdown')); else UI.closeCard(); return 'card'; }
-      if (UI.ch.active) { UI.pick(0); return 'choice'; }
+      if (UI.cardActive) { const b = $('card').querySelector('button'); if (b) b.click(); else UI.closeCard(); return 'card'; }
+      if (UI.ch.active) { UI.pick(0, true); return 'choice'; }
       if (UI.dlg.active) { UI.advance(true); return 'dialog'; }
       return null;
     },
-    choose(i) { if (UI.ch.active) { UI.pick(i); return true; } return false; },
+    choose(i) { if (UI.ch.active) { UI.pick(i, true); return true; } return false; },
     world() {
       const id = State.sceneId;
       const P = Player.a;
@@ -4935,13 +5240,19 @@ window.KANDIL = {
         out.father = { x: +KW.father.x.toFixed(2), y: +KW.father.y.toFixed(2), stone: KW.father.stone, standing: !!KW.father.standing, walking: !!KW.father.path, lamp: KW.father.lamp };
         out.sheep = Flock.sheep.map((s) => ({ g: s.group, x: +s.x.toFixed(2), y: +s.y.toFixed(2), mode: s.mode, gathered: s.gathered, stuck: s.stuck, at: s.gatherAt, fold: s.inFold }));
         out.units = Flock.units.length;
-        out.lamb = KW.lamb ? { x: KW.lamb.x, y: KW.lamb.y, mode: KW.lamb.mode } : null;
+        out.lamb = KW.lamb ? { x: KW.lamb.x, y: KW.lamb.y, mode: KW.lamb.mode, visible: KW.lamb.visible } : null;
+        out.gate = !!KW.gateClosed;
+        out.carry = { tamar: KW.tamar.carry, father: KW.father.carry };
       }
       return out;
     },
     fps() { return State.fps; },
     path(x, y) { if (!Player.map || !Player.a) return null; return Player.map.findPath(Player.a.x, Player.a.y, x, y); },
     hint() { Hints.request(); return { level: Hints.level, ctx: Hints.ctx }; },
+    // testler için: geçerli sahnenin seçili alanları ve ekrandaki ses dalgaları
+    sceneState(keys) { const s = Scenes.current || {}, o = {}; (keys || []).forEach((k) => { o[k] = s[k]; }); return JSON.parse(JSON.stringify(o)); },
+    ripples() { return Ripples.list.map((r) => ({ x: +r.x.toFixed(2), y: +r.y.toFixed(2), kind: r.kind })); },
+    dialogIndex() { return UI.dlg.active ? UI.dlg.i : -1; },
   },
 };
 

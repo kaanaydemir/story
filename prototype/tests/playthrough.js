@@ -257,6 +257,7 @@ async function desktopRun(browser) {
   ok('Yankı', await pump(page, inScene(page, 'yanki'), 40000));
   // ---- Sahne 12: Yankı — seçim (Koşup anlat) ----
   await pump(page, async () => (await ui(page)).choice, 30000);
+  await waitFor(page, () => KANDIL.debug.ui().choiceArmed, null, 4000);
   await shot(page, 'yanki_secim');
   await tap(page, 'Digit1');
   ok('Tablo 1', await pump(page, inScene(page, 'tablo1'), 40000));
@@ -368,13 +369,19 @@ async function sandboxRun(browser) {
   await ctx.close();
 }
 
+const REG = require('./regressions.js')({ ok, sleep, W, scene, ui, shot, walkTo, waitFor, pump, inScene, tap, URL, watch });
+
 (async () => {
   const browser = await launch();
   const t0 = Date.now();
+  const only = process.env.ONLY || '';
   try {
-    await desktopRun(browser);
-    await portraitRun(browser);
-    await sandboxRun(browser);
+    if (!only || only === 'main') {
+      await desktopRun(browser);
+      await portraitRun(browser);
+      await sandboxRun(browser);
+    }
+    if (!only || only === 'reg' || only === 'regtouch') { if (only !== 'regtouch') await REG.desktop(browser); await REG.touch(browser); }
   } catch (e) {
     ok('test akışı hatasız', false, e && e.stack ? e.stack.split('\n').slice(0, 3).join(' | ') : String(e));
   } finally {

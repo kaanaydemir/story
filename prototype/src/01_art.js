@@ -412,6 +412,7 @@ const ICONS = {
   saman_taze: ['.g.g..g..', 'g.g.gg.g.', '.ggg.ggg.', 'g.g.g.g.g', '.ggggggg.', 'ggg.ggggg', '.g.g.g.g.', 'ggggggggg', '.........'],
   saman_eski: ['.........', '.........', '.........', '.........', 'CCCCCCCCC', 'C.C.C.C.C', 'CCCCCCCCC', '.........', '.........'],
   bagli: ['...kkk...', '..kTkTk..', '..kk.kk..', '..kTkTk..', '...kdk...', '...kdk...', '....kd...', '.....kd..', '......kk.'],
+  hayvan_ic: ['kkkkkkkkk', 'kdk...kdk', 'kdkx.xkdk', 'kdkxxxkdk', 'kdkwxwkdk', 'kdkxxxkdk', 'kkkkkkkkk', 'kdddddddk', 'kkkkkkkkk'],
   firin: ['.........', '...kkk...', '..kRRRk..', '.kRRRRRk.', 'kRRkkkRRk', 'kRkoOokRk', 'kRkoooRRk', 'kkkkkkkkk', '.........'],
 };
 

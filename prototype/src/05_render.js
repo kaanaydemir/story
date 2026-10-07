@@ -40,14 +40,20 @@ const Gfx = {
     o = o || {};
     const top = o.top == null ? '#05061a' : o.top, bot = o.bot == null ? '#1a2350' : o.bot;
     const h = o.h == null ? VH : o.h, y0 = o.y0 || 0;
-    const gr = g.createLinearGradient(0, y0, 0, y0 + h);
-    gr.addColorStop(0, top); gr.addColorStop(1, bot);
-    g.fillStyle = gr; g.fillRect(0, y0, VW, h);
+    // degrade, renkler ve yükseklik değişmedikçe yeniden kurulmaz
+    const C = this._skyG || (this._skyG = { top: null, bot: null, h: -1, y0: -1, gr: null });
+    if (C.top !== top || C.bot !== bot || C.h !== h || C.y0 !== y0) {
+      C.gr = g.createLinearGradient(0, y0, 0, y0 + h); C.gr.addColorStop(0, top); C.gr.addColorStop(1, bot);
+      C.top = top; C.bot = bot; C.h = h; C.y0 = y0;
+    }
+    // fillH: yalnızca görünen gök şeridi doldurulur (altını harita örtüyorsa)
+    const fh = o.fillH == null ? h : Math.max(0, Math.min(h, o.fillH));
+    g.fillStyle = C.gr; g.fillRect(0, y0, VW, fh);
     const dim = o.dim == null ? 1 : o.dim, t = State.time;
     if (dim <= 0.01) return;
     for (const s of this.stars) {
       const x = Math.round(((s.x - ox * 0.12) % 1400 + 1400) % 1400 - 380), y = Math.round(s.y - oy * 0.12) + y0 - 30;
-      if (x < -2 || x > VW + 2 || y < y0 - 2 || y > y0 + h) continue;
+      if (x < -2 || x > VW + 2 || y < y0 - 2 || y > y0 + fh) continue;
       let a = dim * (s.b === 3 ? 1 : s.b === 2 ? 0.75 : 0.5);
       if (o.twinkle !== false && !REDUCED) a *= 0.7 + 0.3 * Math.sin(t * s.sp + s.ph);
       g.globalAlpha = clamp(a, 0, 1);
@@ -66,22 +72,38 @@ const Gfx = {
     g.globalAlpha = 1;
   },
   // uzak sırt (Beytlehem) ve birkaç pencere; zeytin siluetleri
+  // Sırt profili bir kez geniş bir şeride çizilir; her karede yalnızca kaydırılarak kopyalanır.
+  ridgeStrip(col, off) {
+    const W = 2048, H = 48;
+    let S = this._ridge;
+    if (!S || S.col !== col || off < S.base || off + VW > S.base + W) {
+      const base = Math.floor(off) - 400;
+      const c = (S && S.c) || makeCanvas(W, H), rg = c.getContext('2d');
+      rg.clearRect(0, 0, W, H); rg.fillStyle = col;
+      for (let x = 0; x < W; x += 2) {
+        const wx = x + base;
+        const h = 26 + Math.sin(wx * 0.011) * 10 + Math.sin(wx * 0.027 + 1.3) * 6 + Math.sin(wx * 0.063) * 2;
+        rg.fillRect(x, Math.round(H - h), 2, Math.ceil(h));
+      }
+      S = this._ridge = { c, col, base };
+    }
+    return S;
+  },
   drawRidge(g, ox, yBase, o) {
     o = o || {};
     const col = o.col || '#0e1230';
-    g.fillStyle = col;
     const off = ox * 0.3;
-    for (let x = 0; x < VW; x += 2) {
-      const wx = x + off;
-      const h = 26 + Math.sin(wx * 0.011) * 10 + Math.sin(wx * 0.027 + 1.3) * 6 + Math.sin(wx * 0.063) * 2;
-      g.fillRect(x, Math.round(yBase - h), 2, Math.ceil(h) + 400);
-    }
+    const S = this.ridgeStrip(col, off), sx = Math.floor(off) - S.base;
+    g.drawImage(S.c, sx, 0, VW, 48, 0, Math.round(yBase) - 48, VW, 48);
+    const maxY = o.maxY == null ? VH : o.maxY;
+    g.fillStyle = col;
+    if (maxY > yBase) g.fillRect(0, Math.round(yBase), VW, Math.ceil(maxY - yBase));
     if (o.windows !== false) {
       g.fillStyle = '#e09a48';
       [[180, 30], [196, 27], [214, 31], [233, 26], [520, 22]].forEach(([x, h], i) => {
         const sx = Math.round(((x - off) % 900 + 900) % 900 - 100);
         if (sx < 0 || sx > VW) return;
-        g.globalAlpha = 0.6 + 0.4 * Math.sin(State.time * 0.7 + i);
+        g.globalAlpha = REDUCED ? 0.8 : 0.6 + 0.4 * Math.sin(State.time * 0.7 + i);
         g.fillRect(sx, Math.round(yBase - h + 6), 1, 1);
       });
       g.globalAlpha = 1;
@@ -132,7 +154,7 @@ const Gfx = {
   dashedCircle(cx, cy, r, color, dash, gap, alpha) {
     const g = this.g; g.fillStyle = color; g.globalAlpha = alpha == null ? 1 : alpha;
     const n = Math.max(24, Math.floor(r * 6.28)), per = dash + gap;
-    const rot = State.time * 6;
+    const rot = REDUCED ? 0 : State.time * 6;
     for (let i = 0; i < n; i++) {
       if ((((i + rot) % per) + per) % per >= dash) continue;
       const a = (i / n) * 6.2832;
