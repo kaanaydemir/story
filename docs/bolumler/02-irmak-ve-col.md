@@ -10,7 +10,7 @@
 | **Oynanabilir karakter** | Tamar (41), dul, gündelikçi aşçı |
 | **Yer, vakit, yıl** | Ürdün vadisi yolu (Perea, çöl kenarı); Şeria'nın ötesindeki Beytanya'da hacı kampı ve vaftiz geçidi. Kuru mevsimin başı (oyunun kararı). Yaklaşık MS 28 (Luka 3:1; *doğrulanmalı*) |
 | **Erişim düzeyi (§3.4)** | Kalabalıkta. Gökler, güvercin, ses ve Yahya'nın tanıklığı Anlatılan Sahne kartlarında; denenme Anlatılan Sahne kipinde bir tablo (triptik) |
-| **Yeni fiil / kıvrım** | **Taşı/Dök** / **Bekleyiş** (kırk günü dört adıma bölmek; GDD'deki "hafta" adımı oyunda *onluk*, §17) |
+| **Yeni fiil / kıvrım** | **Taşı/Dök** / **Bekleyiş** (kırk günü dört onluğa bölmek; GDD §5.1, §5.2) |
 | **Kullanılan mekanikler** | Bakış, Taşı/Dök, Bekleyiş, Söz, Seğirtme (Güt, Kandil, Kulak ve Kavrayış yok) |
 | **Zorluk** | 2 |
 | **Tahmini süre** | Ana yol 40 dk (keşif ve iş 13, bulmaca 11,5, katılım 10,5, yankı ve çerçeve 5); yan hikâye ile +6 dk |
@@ -49,7 +49,7 @@ Tamar'ın yolculuğu ve Dositeos'un kendiliğinden yardımı (§8.6); hacı kamp
 ### 1.3 Bu bölümün kırmızı çizgileri
 - Gökler, güvercin ve ses **Tamar'ın gözünden gösterilmez**; yalnızca Anlatılan Sahne'de, ayet metniyle verilir. Gök "boş" diye de gösterilmez: Tamar başını kaldırınca görüntü güneşin parlamasıyla beyaza kesilir.
 - İsa'nın yüzü, portresi, sesi ve halesi yoktur; sudaki ışık doğal yansımadır. Vaftiz uzak planda, sade giysiyle gösterilir.
-- **Yahya'ya da aynı yüz kuralı uygulanır:** göz pikseli, yakın plan ve portre yoktur; kompozisyon uzak plandan ya da 3/4 arkadan kurulur (GDD §11.6 ile aynı; Yahya İslam'da peygamberdir).
+- **Yahya'ya da aynı yüz kuralı uygulanır:** göz pikseli, yakın plan ve portre yoktur; kompozisyon uzak plandan ya da 3/4 arkadan kurulur (GDD §2.2-A, §11.6; Yahya İslam'da peygamberdir).
 - İsa'nın sözleri yalnızca Matta 3:15, 4:4, 4:7, 4:10 ve Yuhanna 1:38–39'dandır; Tamar'a hitap etmez. Yahya'nın Tamar'la kurgusal konuşması olmaz.
 - "Ey engerekler soyu!" (Matta 3:7; Luka 3:7) kullanılmaz; Ferisiler grup olarak hedef gösterilmez.
 - Ayartıcı yüzsüz bir gölge ve metindir: boynuz, kuyruk, korku efekti yok.
@@ -74,7 +74,7 @@ Tamar'ın yolculuğu ve Dositeos'un kendiliğinden yardımı (§8.6); hacı kamp
 | Tamar (41) | Kurgusal | Oynanabilir | — | 8 yön; portre; yeni Taşı/Dök seti |
 | Yaşlı Tamar, Sara | Kurgusal | Çerçeve | — | Sabit kompozisyon; portre |
 | İsa | Kanonik | Vaftiz olur, çöle gider, geçer | **Evet** (yalnızca ayet) | 4 yön; yüzsüz; portre yok (§11.6) |
-| Vaftizci Yahya | Kanonik | Vaaz, vaftiz, tanıklık | **Evet** | 4 yön; deve tüyü, deri kuşak. **Göz pikseli yok; yakın plan ve portre yok; uzak plan ya da 3/4 arkadan** (GDD §11.6 ile aynı kural; kurulun Müslüman ilahiyatçısının onayı) |
+| Vaftizci Yahya | Kanonik | Vaaz, vaftiz, tanıklık | **Evet** | 4 yön; deve tüyü, deri kuşak. **Göz pikseli yok; yakın plan ve portre yok; uzak plan ya da 3/4 arkadan** (GDD §2.2-A, §11.6; kurulun Müslüman ilahiyatçısının onayı) |
 | Andreas, öbür öğrenci | Kanonik | İsa'nın ardından gider | **Evet** (1:38) | 4 yön; kit varyantı; portre yok |
 | Dositeos | Kurgusal (ana kadro) | Samiriyeli tüccar; dingili onarır; tedarikçi adayı | — | 4 yön; portre (3 ifade) |
 | Yoram (19) | Kurgusal (ana kadro) | Kırk birinci gün annesini almaya gelir | — | 4 yön; portre; mevcut set |
@@ -83,7 +83,7 @@ Tamar'ın yolculuğu ve Dositeos'un kendiliğinden yardımı (§8.6); hacı kamp
 | Elyakim | Kurgusal | Pereyalı çoban; yan hikâye | — | Kit |
 | Mecdelli yaşlı çift | Kurgusal | Kervan ailesi; taşıyıcı değildir | — | Kalabalık kiti |
 | Asa (8) ve annesi | Kurgusal | Mecdel kervanıyla gelir; kamp sökülünce Eriha'daki dayısının evine gider; son ekmek | — | Çocuk kiti; **yamalı çivit külah** (4. bölüm için tekil kafa) |
-| Zenon | Kurgusal | Antipas'ın Beytharamfta'daki kâhyalarından | — | Kit. Yanında bir **Hirodes ordusu askeri**: kartal sancağı, lejyon kalkan amblemi ve segmentli zırh yok |
+| Zenon | Kurgusal | Antipas'ın Beytharamfta'daki kâhyalarından | — | Kit. Yanında bir **Hirodes ordusu askeri** (kalabalık kitinin asker varyantı, GDD §11.5): kartal sancağı, lejyon kalkan amblemi ve segmentli zırh yok |
 | Galileli balıkçı aile | Kurgusal | Kamp ailesi; kamp sökülünce Yahya'yı dinlemek için geçitte kalır | — | Kit |
 
 ## 4. Mekânlar
@@ -139,11 +139,11 @@ Bölüm iki harita kullanır. Uçtan uca yürüyüş Harita B'de 60 saniyeyi ge�
 
 **Dünyadaki sebep:** Kampın ilk sabahı. Mutfak küpü boştur ve Şifra hamur için su beklemektedir.
 
-**Kurulum:** Basamak taşında **büyük testi** (4 ölçü) ve **küçük testi** (2 ölçü, dar boyunlu). Pişmiş toprak suyu emdiği için testinin dolu kısmı dışarıdan koyulaşır; bu *ıslaklık bandı* doluluğu arayüzsüz gösterir. Büyük testinin üç kademesi vardır: yarım (2), omuz (3; gövdedeki okru bant), ağız (4). Küçük testinin iki kademesi vardır: yarım (1), ağız (2). Hedefler: mutfaktaki **büyük küp (8)** ve Peninna'nın çadırının yanındaki **hamur teknesi (2)**. Küp ve tekne yukarıdan görünür. Yol süreleri §4.2'dedir.
+**Kurulum:** Basamak taşında **büyük testi** (4 su ölçüsü) ve **küçük testi** (2 su ölçüsü, dar boyunlu). Pişmiş toprak suyu emdiği için testinin dolu kısmı dışarıdan koyulaşır; bu *ıslaklık bandı* doluluğu arayüzsüz gösterir. Büyük testinin üç kademesi vardır: yarım (2), omuz (3; gövdedeki okru bant), ağız (4). Küçük testinin iki kademesi vardır: yarım (1), ağız (2). Hedefler: mutfaktaki **büyük küp (8)** ve Peninna'nın çadırının yanındaki **hamur teknesi (2)**. Küp ve tekne yukarıdan görünür. Yol süreleri §4.2'de, kap kapasiteleri GDD §5.1c'dedir.
 
 **Kurallar:**
-1. **Doldurma (kademeli):** Kavra ile testi tutulur, eğme girdisiyle suya daldırılır (Taşı/Dök, GDD §5.1). Her daldırışta testi bir sonraki kademeye dolar ve orada durur; her kademe ayrı bir ses ve titreşimle işaretlenir. Ağız kademesinden sonra daldırış bir şey değiştirmez. Zamanlama gerekmez.
-2. **Taşıma:** *Kalçada* (tek kap; her yolda); *başta* (yalnızca büyük testi; keçi yolu ve düzlük); *başta ve elde* (büyük başta, küçük elde; keçi yolu ve düzlük). Başa alma ve indirme **"Başa al / İndir"** adlı ayrı bir bağlamsal eylemdir (önerilen varsayılan: gamepad'de sağ çubuk tıklaması, klavyede R; kesin atama bölümler arası kontrol geçişinde GDD §5.1'e işlenecek, §17). Taşırken sağ çubuk yalnızca Bakış'ındır.
+1. **Doldurma (kademeli):** Testi Taşı'nın kavrama biçimiyle tutulur, Dök eğimiyle suya daldırılır (GDD §5.1c). Her daldırışta testi bir sonraki kademeye dolar ve orada durur; her kademe ayrı bir ses ve titreşimle işaretlenir. Ağız kademesinden sonra daldırış bir şey değiştirmez. Zamanlama gerekmez.
+2. **Taşıma:** *Kalçada* (tek kap; her yolda); *başta* (yalnızca büyük testi; keçi yolu ve düzlük); *başta ve elde* (büyük başta, küçük elde; keçi yolu ve düzlük). Başa alma ve indirme **"Başa al / İndir"** adlı ayrı bir eylemdir (GDD §5.1a, §5.1c-4).
 3. **Dik yol (kapasite):** Dik yolda Tamar'ın bir eli kayadadır; yalnızca kalçada tek kap taşınır. Başta testiyle gelinirse Tamar onu kalçasına indirir: "Bu yokuşta başımda taşıyamam." İki testiyle gelinirse yolun ağzında durur: "İkisiyle bu yokuşa giremem." Elindeki küçük testiyi yolun ağzına dik olarak bırakır; testi orada alınmayı bekler (Kural 6). Dik yolda su dökülmez.
 4. **Ağırlık:** Dolu büyük testi kalçada yürüyüşü %25, başta %15 yavaşlatır; eldeki küçük testi buna %10 ekler. Yükle seğirtme kapalıdır. §4.2'deki süreler bu yavaşlamayı içerir.
 5. **Döküş:** Hedefin yanında eğme girdisiyle; eğim üç kademede akış hızıdır. Taşan su yere akar, ceza yoktur.
@@ -208,7 +208,7 @@ Bölüm iki harita kullanır. Uçtan uca yürüyüş Harita B'de 60 saniyeyi ge�
 
 **Geri bildirim (vakit panosudur, Kavrayış değildir):** Yalnızca o anda düzenlenen sütun anında güncellenir; önceki sütunlardan devreden un ve yedek su hesaba katılır. Öbür sütunların kaseleri noktalı çizgiyle "henüz bilinmez" durur; ancak o sütun düzenlenince ya da *Çeteleye işle* ile görünür. Taşıyıcı ve teslimat simgeleri her zaman görünür; ileriye doğru hesap oyuncunun aklındadır. Anlam hiçbir yerde yalnızca renkle verilmez: dolu ve boş yuvalar düz ya da noktalı çizgiyle ayrılır. **Rahat** ayarında öbür sütunlar soluk bir önizlemeyle anında hesaplanır.
 
-**Kontroller:** ←/→ sütun, ↑/↓ satır (kaseler, hasta suyu, yedek küp, kadran); A / E yerleştir ya da değiştir; B / Backspace geri al; fareyle sürükle-bırak; "Taslağa dön" ve "Temizle"; **"Çeteleye işle"** onay eylemi (tuş ataması bölümler arası kontrol geçişinde GDD §5.1'e işlenecek; Kandil/Kavrayış ile çakışan Y'ye bağlanmaz).
+**Kontroller:** Pano kipinin eylemleri (GDD §5.1a): sütun ve yuva seçimi (kaseler, hasta suyu, yedek küp, kadran); koy / al ile yerleştirme ya da değiştirme; geri al; fareyle sürükle-bırak; "Taslağa dön" ve "Temizle"; **"Çeteleye işle"** onay eylemi.
 
 **Başlangıç: Tamar'ın taslağı** (pano bununla açılır; yalnızca 1. sütun görünür): Bütün paylar tam; 1. onlukta artık testi yedek küpte; hasta suyu yok; kadranlar 3. Tamar: "Kervan gelince su yetmez. İlk onluğun artan testisi küpte dursun. Peninna'nın ateşi kendiliğinden düşer belki."
 - Su: 1. onlukta 4 + küp 1 = 5 ✓; 2. onlukta 5 + 1 = 6 ✓; **3. ve 4. onlukta 4 < 5**, birer kase susuz.
@@ -248,7 +248,7 @@ Bölüm iki harita kullanır. Uçtan uca yürüyüş Harita B'de 60 saniyeyi ge�
 
 ## 7. Katılım Anı — Vaftiz sırası
 
-**Kontroller:** Kavra (RT / sol tık; basılı tutma yerine aç/kapa seçeneği) + yürüyüş (sol çubuk / WASD). Başını kaldırmak: Bakış'ın baş kaldırma girdisi (sağ çubuk yukarı / fare yukarı / ↑); bu anda Bakış'ı basılı tutmak gerekmez.
+**Kontroller:** Taşı'nın kavrama biçimi (basılı tutma yerine aç/kapa seçeneği) + Yürü. Başını kaldırmak: dokunmama anlarının "Başını kaldır" girdisi (GDD §5.1a); bu anda Bakış'ı basılı tutmak gerekmez.
 
 **Adım adım:**
 1. Tamar sıradadır; sıra kendiliğinden ilerler (en çok 90 sn; §5.1).
@@ -271,9 +271,9 @@ Bölüm iki harita kullanır. Uçtan uca yürüyüş Harita B'de 60 saniyeyi ge�
 
 | Bağlam | Seçenekler | Anlık tepki | Bayrak / eksen / ilişki | Nerede okunur |
 |---|---|---|---|---|
-| Dingil onarıldı (Söz) | "Sağ ol, Dositeos." · "Sana ne borçluyum?" · "Bunu unutmayacağım." · *Sessiz kal* (başını eğer) | Dositeos: "Borç mu? Yolda tekerlek düşer, aşçı kadın." / gülümser / omuz silker | Her durumda `ilis_dositeos = temkinli` (öncesi: `uzak`). Seçenek yalnızca tondur | 5, 7, ep |
+| Dingil onarıldı (Söz) | "Sağ ol, Dositeos." · "Sana ne borçluyum?" · "Bunu unutmayacağım." · *Sessiz kal* (başını eğer) | Dositeos: "Borç mu? Yolda tekerlek düşer, tuzlamacı." / gülümser / omuz silker | Her durumda `ilis_dositeos = temkinli` (öncesi: `uzak`). Seçenek yalnızca tondur | 5, 6, 7, 10, ep |
 | Tedarikçi (Söz, Amram'la) | "Saray adamından alalım." · "Dositeos'tan alırım; ucuz ve sözünün eri." · *Sessiz kal* | Saray: Amram: "İyi. Bölge kralının kâhyası unu erken getirir." / Dositeos: Amram: "Peki. Ondalığını biz ayırırız." / Sessiz: Amram: "Öyleyse saray adamından alalım. Samiriyelinin ununun ondalığı ayrılmış mı, bilemeyiz." | `b02_tedarikci = saray_adami` (ilk seçenek ve sessizlik) / `dositeos`. `dositeos` ise `ilis_dositeos = yakin` | 3, 5; P2'nin un dalı |
-| Son ekmek (eylem). Kamp sökülürken Tamar yol için heybesini düzenler, son ekmeği eline alır; Asa yanında durur, ekmeğe bakar, bir şey istemez. Annesi az önce akşama Eriha'da olacaklarını söylemiştir | **Böl** (Kavra + Asa'ya doğru: ekmeği ikiye böl ve uzat) · **Geri koy** (Kavra + heybeye doğru: ekmeği heybeye geri koy). İki bağlamsal istem de Taşı'nın kavra girdisini kullanır | Asa yarımı iki eliyle alır / Asa annesinin yanına döner. Süre sınırı yoktur, sahne bekler; 20 saniye sonra Yoram bir kez "Anne?" der. Varsayılan değer yazılmaz; sahne bir eylem seçilmeden ilerlemediği için bayrak her yolda bir değer alır | `b02_ekmek = boldu` → `eks_el +1`; `sakladi` → `eks_el −1` | 4, ep; dokuma bandı |
+| Son ekmek (eylem). Kamp sökülürken Tamar yol için heybesini düzenler, son ekmeği eline alır; Asa yanında durur, ekmeğe bakar, bir şey istemez. Annesi az önce akşama Eriha'da olacaklarını söylemiştir | **Böl** (al-koy, Asa'ya doğru: ekmeği ikiye böl ve uzat) · **Geri koy** (al-koy, heybeye doğru: ekmeği heybeye geri koy). İki bağlamsal istem de Taşı'nın al-koy biçimini kullanır; ekmek birine verilen ya da yuvaya konan bir nesnedir (GDD §5.1c) | Asa yarımı iki eliyle alır / Asa annesinin yanına döner. Süre sınırı yoktur, sahne bekler; 20 saniye sonra Yoram bir kez "Anne?" der. Varsayılan değer yazılmaz; sahne bir eylem seçilmeden ilerlemediği için bayrak her yolda bir değer alır | `b02_ekmek = boldu` → `eks_el +1`; `sakladi` → `eks_el −1` | 4, ep; dokuma bandı |
 | Son ekmek, söz (Söz) | Böldüyse: "Al, yavrum." · "Annene de götür." · *Sessiz kal*. Sakladıysa: "Yolumuz uzun, Asa. Bağışla." · "Annen nerede?" · *Sessiz kal* | Böldüyse: Asa ısırmadan önce annesine bakar, annesi başıyla izin verir / Asa annesine koşar, ikisi başlarıyla teşekkür eder / Tamar başını eğer, Asa gülümser. Sakladıysa: Asa: "Akşama dayımın evindeyiz." Annesi elini onun omzuna koyar / Asa annesini gösterir; annesi: "Akşama Eriha'dayız. Sen yoluna bak, kardeşim." / Tamar heybenin ağzını bağlar; Asa bir an bekler, sonra annesine koşar. Ardından Yoram'ın yorumu (diyalog 10) | Yok | — |
 
 **Hiçbir seçenek kötü yazılmaz.** İki yolun da gerekçesi ve bedeli oyunda görünür. Asa'nın annesi seçimden önce akşama Eriha'da, ağabeyinin evinde olacaklarını söyler; Yoram'ın üç günlük yolu ve evde bekleyen Hulda da gerçektir. Bölen dönüş yolunda acıkır; saklayan eve ekmekle varır. Oyun sonucu yorumlamaz (diyalog 14 ve 15).
@@ -290,7 +290,7 @@ Bölüm iki harita kullanır. Uçtan uca yürüyüş Harita B'de 60 saniyeyi ge�
 ## 9. Diyalog Örnekleri
 
 1. **Yaşlı Tamar (çerçeve):** "Otuz iki yıl sonraydı, Sara. Önce bir arabanın dingili kırıldı. Sonra benim içimde bir şey."
-2. **Dositeos:** "Bizimkiler de Celileli hacıya kapı açmaz, bilirim. Ama tekerlek düşünce herkesin arabası aynı yana yatar, aşçı kadın. Tut şu eşeği."
+2. **Dositeos:** "Bizimkiler de Celileli hacıya kapı açmaz, bilirim. Ama tekerlek düşünce herkesin arabası aynı yana yatar, tuzlamacı. Tut şu eşeği."
 3. **Tamar (iç ses):** "Rakibime borçlandım. Hem de bir Samiriyeliye. Hangisi daha çok battı, bilmiyorum."
 4. **Şifra (küp dolunca):** "Artarsa yedek küpe koy kızım, ama bir onluktan fazla bekletme. Su da insan gibidir, bekleyince bozulur."
 5. **Ezra:** "Annemin ateşi düşse kampın suyunu ben de taşırım. Ama şimdi başından kalkamam."
@@ -355,7 +355,7 @@ Bulmaca bölümlerinde ayrıca üç Kodeks girdisi açılır: *Testi taşımak* 
 1. A'da Bakış 3 saniye tutulur. Suyunu içen bir arı kalkar; uçuşu duvarın cephesine soluk, noktalı bir iz olarak düşer (oyunun kolaylığı), vızıltı stereo olarak o yöne kayar. Etkileşimle Tamar oraya bir kamış diker; iz duvarda soluk kalır. **A çizgisi soldan sağa yükselir: Y2 → Y5 → Y7.**
 2. Tek çizgi yönü söyler, yeri değil. B'de aynısı yapılır: **B çizgisi soldan sağa iner: Y3 → Y5 → Y6.** İki çizginin kesiştiği tek yarık **Y5**'tir. Çizgilerin dışındaki yarıklar (Y1, Y4, Y8) her iki izden de en az bir katman uzaktadır.
 3. İki kamış dikilince Elyakim tüten bir tezekle gelir; daha önce gelmez. Tamar Bakış ile bir yarığı gösterir; Elyakim yalnızca o yarığa tırmanır (~6 sn). Yanlış yarıkta kırlangıç yuvası, kertenkele ya da boşluk vardır ("Burada yalnızca kırlangıç var, kızım."); Elyakim iner ve başka bir yarık gösterilebilir. Ceza yoktur.
-4. Y5'te Elyakim tütsüyü tutar ve Tamar'ı yanına çağırır. Bakış mühürlü sarı bal peteklerini soluk yavru peteklerinden ayırır; Tamar Taşı'nın kavra girdisiyle iki bal peteği alır. Yavru peteğine uzanırsa Elyakim: "Onu bırak, yavrular orada. Yoksa gelecek yıl bal olmaz." Tamar onu geri koyar.
+4. Y5'te Elyakim tütsüyü tutar ve Tamar'ı yanına çağırır. Bakış mühürlü sarı bal peteklerini soluk yavru peteklerinden ayırır; Tamar Taşı'nın al-koy biçimiyle iki bal peteği alır. Yavru peteğine uzanırsa Elyakim: "Onu bırak, yavrular orada. Yoksa gelecek yıl bal olmaz." Tamar onu geri koyar.
 5. Akşam bal paylaşılır; Tamar bir parça mum saklar (`kol_b02_bal_mumu`).
 
 **"Aha":** "İki çizgi bir noktada buluşur."
@@ -367,13 +367,13 @@ Bulmaca bölümlerinde ayrıca üç Kodeks girdisi açılır: *Testi taşımak* 
 - **Çalgılar:** Yolda kuru halil ve kaval; kamp akşamlarında yumuşak tof ve nevel; montajda nevel arpejleri.
 - **Sessizlik:** İsa sahnedeyken (Sahne 6, 7, 9, 11; kartlar ve triptik dahil) müzik çekilir, tek bir alçak uzun ton kalır; ırmak, rüzgâr ve kamış netleşir. Göklerden gelen ses yalnızca metindir: gürleme, koro ya da efekt yoktur. Şabat görüntüsünde tandırın çıtırtısı ve kamp uğultusu kesilir; yalnızca rüzgâr ve uzak ırmak kalır.
 - **Motif:** Enstrümantal Mezmur 23 bu bölümde çalınmaz. Sahne 11'in sonunda, İsa'nın gidişinden silmeyle ayrılan akşam ateşi vuruşunda Tamar ninninin ezgisini sözsüz mırıldanır; alt yazı yoktur. Bu Tamar'ın motifidir; İsa'ya bağlanmaz (GDD §2.2-A).
-- **Efektler:** Kama çatırtısı, eşek; testinin dalış gurultusu ve kademe sesleri, döküş şırıltısı (titreşimle); dik yolda ufalanan marn; hasıra düşen çakıllar; çetele bıçağı; arı vızıltısı; Aramice kamp uğultusu; askerin sandalet sesi (gerilim motifi, yumuşak).
+- **Efektler:** Kama çatırtısı, eşek; testinin dalış gurultusu ve kademe sesleri, döküş şırıltısı (titreşimle); dik yolda ufalanan marn; hasıra düşen çakıllar; çetele bıçağı; arı vızıltısı; Aramice kamp uğultusu; Zenon'un askerinin nötr adım ve donanım sesi (gerilim motifi, yumuşak; çivili sandalet sesi yalnızca Roma yardımcı birliklerine verilir, GDD §2.2-F, §12).
 
 ## 13. Sanat Notları
 
 - **Palet (32 renklik alt küme, GDD §11.3):** Okr (5), kireç ve marn beyazı (4), Şeria'nın kil ve zeytin yeşili (4; biri sığlıklardaki gök yansıması için açık turkuaz), ılgın ve kamış yeşili (4), ten ve kumaş (6), gölge morları (3), deve tüyü kahvesi (2), parşömen (4). Dokuma bandının turkuazı semboliktir ve çerçeve paletindendir.
 - **Işık:** Öğlen kısa, sert gölge; Sahne 11'de uzun gölge. En fazla 4 dinamik ışık (Şabat kandili dahil).
-- **Yahya'nın tasviri:** İsa'nınkiyle aynı kural (GDD §11.6): sprite ölçeğinde göz pikseli yok, yüz saç ve gölgeyle tek ton; yakın plan ve portre yok; vaaz ve vaftiz uzak plandan ya da 3/4 arkadan.
+- **Yahya'nın tasviri:** İsa'nınkiyle aynı kural (GDD §2.2-A, §11.6): sprite ölçeğinde göz pikseli yok, yüz saç ve gölgeyle tek ton; yakın plan ve portre yok; vaaz ve vaftiz uzak plandan ya da 3/4 arkadan.
 - **Özel animasyonlar:** Testinin ıslaklık bandı (boş, yarım, omuz, ağız; palet değişimi); dizlere ulaşan halkalar; vaftizde güneşe yükselen kamera ve beyaza kesme; montajda gün döngüsü LUT'u; arı izi (parçacık); yalnızca uzak katmanda, kapatılabilir sıcak titremesi.
 - **Set-piece:** Kullanılmaz; GDD §11.1'deki set-piece'lerden ve Anlatılan Sahne şeritlerinden hiçbiri bu bölüme düşmez.
 - **Tablo:** *Denenme triptiği* (§11.5). İsa küçük, arkadan silüet; ayartıcı yüzsüz, uzamış bir gölge. Panolar: taşlar ve ekmek, tapınağın tepesi, yüksek dağ.
@@ -404,24 +404,24 @@ Bulmaca bölümlerinde ayrıca üç Kodeks girdisi açılır: *Testi taşımak* 
 ## 16. Üretim Notları
 
 **Benzersiz varlıklar:**
-- **Haritalar:** 2 (A: yol; B: kamp, yamaç, kıyı). **Karo seti:** "Çöl ve ırmak" burada kurulur, 7. bölümde yeniden kullanılır; Anlatılan Sahne seti ortaktır.
-- **Karakterler:** 12 yeni (Yahya, Dositeos, Andreas, öbür öğrenci, Amram, Şifra, Peninna, Ezra, Elyakim, Asa, Asa'nın annesi, Zenon), çoğu kalabalık kiti ve palet değişimiyle; Mecdelli yaşlı çift, balıkçı aile ve Zenon'un askeri kalabalık kitinden. Yeni portre yalnızca Dositeos için (Yahya'ya portre verilmez); Asa'nın tekil kafası 4. bölümde de kullanılır.
-- **Animasyon dizileri: ~31.** Tamar 11 (kavra ve yere koy, kalçada yürüyüş, başta yürüyüş [64×64 aksiyon hücresi], daldırma, döküş, kol verme, sandalet tutma, baş kaldırma, çakıl dizme, ekmek bölme ve uzatma, çentik atma). "Başta ve elde" ayrı bir döngü değildir: başta yürüyüşün üstüne eldeki küçük testi, GDD §11.2'deki asimetrik ekipman katmanı olarak bağlantı noktalarıyla eklenir; aynı katman 3. bölümde de kullanılır. Montajdaki oturma ortak setten gelir. Dositeos 3; Yahya 3; İsa 2 yeni (sudan çıkış, uzak; dönüp bakma); Peninna 2; Şifra 2 (kol verilmiş yürüyüş, Şabat kandilini yakma); Asa 2; Elyakim 2 (tütsü uzatma, duvara tırmanma); eşek ve araba 2; arılar 2 (parçacık).
-- **Set-piece:** 0. **Tablo:** 1 (denenme triptiği). **Anlatılan Sahne kartı:** 3. **Ara sahne:** Oyun motorunda dingil kazası (20 sn) ve montaj (Şabat görüntüsü dahil).
+- **Haritalar:** 2 (A: yol; B: kamp, yamaç, kıyı). B'nin kıyısı 7. bölümde yeniden kullanılır ve orada sayılmaz (GDD §16.1). **Karo seti:** "Çöl ve ırmak" burada kurulur, 7. bölümde yeniden kullanılır. Anlatılan Sahne kartları ve triptik illüstrasyondur, karo seti değildir (GDD §16.1).
+- **Karakterler:** 12 yeni (Yahya, Dositeos, Andreas, öbür öğrenci, Amram, Şifra, Peninna, Ezra, Elyakim, Asa, Asa'nın annesi, Zenon). GDD §16.1'in adlandırılmış karakter tavanına yalnızca Yahya ve Dositeos girer; öbürleri kalabalık kitinden palet değişimiyle türetilir (adlı kit NPC: Andreas, Amram, Şifra, Peninna, Ezra, Elyakim, Asa, Zenon; Şifra 9. bölümde portre alınca orada sayılır). Mecdelli yaşlı çift, balıkçı aile ve Zenon'un askeri (Hirodes ordusu askeri varyantı, GDD §11.5) de kalabalık kitindendir. Yeni portre yalnızca Dositeos için (Yahya'ya portre verilmez); Asa'nın tekil kafası 4. bölümde de kullanılır.
+- **Animasyon dizileri: ~31.** Tamar 11 (kavra ve yere koy, kalçada yürüyüş, başta yürüyüş [64×64 aksiyon hücresi], daldırma, döküş, kol verme, sandalet tutma, baş kaldırma, çakıl dizme, ekmek bölme ve uzatma, çentik atma). "Başta ve elde" ayrı bir döngü değildir: başta yürüyüşün üstüne eldeki küçük testi, GDD §11.2'deki asimetrik ekipman katmanı olarak bağlantı noktalarıyla eklenir; aynı katman 3. bölümde de kullanılır. Montajdaki oturma ortak setten gelir. Ortak dizi kuralına göre (GDD §16.1) daldırma, döküş ve ekmek bölme ve uzatma bu bölümün sayımındadır; sonraki bölümler yeniden kullanır. Dositeos 3; Yahya 3; İsa 2 yeni (sudan çıkış, uzak; dönüp bakma); Peninna 2; Şifra 2 (kol verilmiş yürüyüş, Şabat kandilini yakma); Asa 2; Elyakim 2 (tütsü uzatma, duvara tırmanma); eşek ve araba 2; arılar 2 (parçacık).
+- **Set-piece:** 0. **Tablo:** 1 (denenme triptiği). **Anlatılan Sahne kartı:** 3. **Önceden çizilmiş kompozisyon:** 1 pano (çetele hasırı, §4.4). **Ara sahne:** Oyun motorunda dingil kazası (20 sn) ve montaj (Şabat görüntüsü dahil).
 
 **Riskler:** Gecikmeli geri bildirimli panonun 10 yaş için okunurluğu (kâğıt prototip; aha'ya varış süresi ölçülmeli, hedef medyan 6 dk; Rahat önizlemesi ayrıca test edilmeli). Vaftizin görselleştirilmesi (giysi, uzaklık, beyaza kesme) için kurul onayı. Yahya'nın tasvir kuralı için kurulun Müslüman ilahiyatçısının onayı. Samiriyeli temsili, Amram'ın Demai kaygısı ve Şabat uygulamaları için İkinci Tapınak uzmanı. Fiyatlar, "çuval" ölçeği ve tuzlu balığın ıslatılması için tarihçi onayı.
 
-**Kesme adayları:** Önce yan hikâye; sonra montajın 4. onluk görüntüsü ve 2. onluk görüntüsü (kesilirse Asa Sahne 10'da annesiyle tanıtılır); Anlatılan Sahne'nin Yuhanna 1:32 kartı (kesilirse Kodeks 6'ya taşınır); Zenon'un askeri. Şabat görüntüsü kesilmez (§2.2-E).
+**Kesme adayları:** Önce yan hikâye; sonra montajın 4. onluk görüntüsü ve 2. onluk görüntüsü (kesilirse Asa Sahne 10'da annesiyle tanıtılır); Anlatılan Sahne'nin Yuhanna 1:32 kartı (kesilirse Kodeks 6'ya taşınır); Zenon'un askeri. Şabat görüntüsü kesilmez (GDD §2.2-F, §16.4).
 
 ## 17. Açık Sorular
 
-1. GDD'deki "hafta" adımı yerine (4 × 10 = 40) **"onluk"** onaylanıyor mu? (GDD §5.1, §5.2, §14.1 düzeltmesi gerekir.)
+1. GDD'deki "hafta" adımı yerine (4 × 10 = 40) **"onluk"** onaylanıyor mu? **Kapandı:** GDD §4.1, §5.1, §5.2, §6.3 ve §14.1 artık "onluk" kullanır.
 2. Tamar'ın kendi vaftizi tek cümleyle mi anılsın, hiç mi anılmasın?
 3. Anlatılan Sahne kartları 12 tablo tavanına sayılıyor mu? **Kapandı:** Anlatılan Sahne kartları 12'lik tablo tavanına sayılmaz; ayrı bir kalemdir, en fazla 6 (GDD §11.5, §16.1). Bu bölümün 3 kartı bu kalemdedir.
-4. "Başa al / İndir" girdisi ve panonun "Çeteleye işle" onayı GDD §5.1'e adıyla eklenmeli; tuş atamaları Y (Kandil/Kavrayış) ve LT (Bakış/Kulak) çakışmalarıyla birlikte bölümler arası kontrol geçişinde kesinleşmeli.
-5. "Mecdelli" hitabı, Mecdelli Meryem'le karışmaması için bu bölümde "aşçı kadın"a çevrildi. 5. ve 6. bölümdeki Dositeos satırları ("Mecdelli…") bölümler arası geçişte buna göre düzeltilmeli.
-6. Peygamber kabul edilen kişiler (Yahya, Zekeriya) için tasvir kuralı GDD düzeyine taşınmalı; bu bölüm şimdilik İsa'nın yüz kuralını Yahya'ya uygular.
-7. Çok günlü Yahudi ortamlarında Şabat'ın görünür olması GDD §2.2-E/F'ye kural olarak eklenmeli (7. bölümün dört günü için de).
+4. "Başa al / İndir" girdisi ve panonun "Çeteleye işle" onayı GDD §5.1'e adıyla eklenmeli. **Kapandı:** İkisi de GDD §5.1a'da adıyla tanımlıdır (Başa al / İndir; pano kipinde Çeteleye işle). Bu belge tuş değil eylem adı kullanır (GDD §5.1a-3).
+5. "Mecdelli" hitabı. **Kapandı:** "Mecdelli" yalnızca betimleyici sıfattır; Dositeos'un mesafeli hitabı, 5. ve 6. bölümlerle aynı biçimde "tuzlamacı"dır (GDD §2.2-C, §15.1-5).
+6. Peygamber kabul edilen kişiler (Yahya, Zekeriya) için tasvir kuralı GDD düzeyine taşınmalı. **Kapandı (Yahya için):** GDD §2.2-A, Vaftizci Yahya'ya İsa'nın yüz kuralını uygular.
+7. Çok günlü Yahudi ortamlarında Şabat'ın görünür olması GDD'ye kural olarak eklenmeli (7. bölümün dört günü için de). **Kapandı:** GDD §2.2-F: "Birden çok güne yayılan Yahudi ortamlarında Şabat görünür olur."
 8. Tuzlu balığın ıslatılması kuralının tarihsel dayanağı tarihçiyle doğrulanmalı; doğrulanmazsa aynı işlev "kurutulmuş balığın haşlanması" ile korunabilir.
 
-*Kapanan sorular:* Asa adı 4. bölümde kullanılıyor. `b01_ifade_kuzu` değerleri 1. bölümle eşitlendi (`kucakta` / `guderek`; boşsa ek yok); GDD §8.4'e eklenmesi ayrıca istendi. Yahya'ya portre verilmez. Yuhanna 1:32 kartı metindeki yerinde, Sahne 11'in başında verilir.
+*Kapanan sorular:* Asa adı 4. bölümde kullanılıyor. `b01_ifade_kuzu` değerleri 1. bölümle eşitlendi (`kucakta` / `guderek`; boşsa ek yok); GDD §8.4'te de böyledir. Yahya'ya portre verilmez. Yuhanna 1:32 kartı metindeki yerinde, Sahne 11'in başında verilir.

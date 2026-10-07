@@ -212,8 +212,8 @@ const ADULT_TOP = {
     '.....kcccck.....',
     '....kcccccck....',
     '....kcccccck....',
-    '...kccCccCccK...',
-    '...kccccccccK...',
+    '...kccCccCcck...',
+    '...kcccccccck...',
     '...kCccccccCk...',
     '...kCccccccCk...',
     '....kCccccCk....',
@@ -412,7 +412,7 @@ const ICONS = {
   saman_taze: ['.g.g..g..', 'g.g.gg.g.', '.ggg.ggg.', 'g.g.g.g.g', '.ggggggg.', 'ggg.ggggg', '.g.g.g.g.', 'ggggggggg', '.........'],
   saman_eski: ['.........', '.........', '.........', '.........', 'CCCCCCCCC', 'C.C.C.C.C', 'CCCCCCCCC', '.........', '.........'],
   bagli: ['...kkk...', '..kTkTk..', '..kk.kk..', '..kTkTk..', '...kdk...', '...kdk...', '....kd...', '.....kd..', '......kk.'],
-  firin: ['.........', '...kkk...', '..kRRRk..', '.kRRRRRk.', 'kRRkkkRRk', 'kRkoOokRk', 'kRkoooKRk', 'kkkkkkkkk', '.........'],
+  firin: ['.........', '...kkk...', '..kRRRk..', '.kRRRRRk.', 'kRRkkkRRk', 'kRkoOokRk', 'kRkoooRRk', 'kkkkkkkkk', '.........'],
 };
 
 // Portreler (24×24): çocuk Tamar, baba, yaşlı Tamar, Sara

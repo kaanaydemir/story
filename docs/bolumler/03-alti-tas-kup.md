@@ -16,7 +16,7 @@
 | **Tahmini süre** | Ana yol 40 dk (keşif/iş 8, bulmaca 19, katılım 6, yankı ve çerçeve 7). Yan hikâye +6 dk |
 | **Duygusal yay** | Telaşlı iş gururu → yaklaşan utancın sessiz korkusu → tanıma ürpertisi → başkasıyla birlikte taşımanın hafifliği → şaşkın sevinç |
 | **Palet ve ışık** | Safran, keten beyazı, kireç taşı; tek vurgu rengi **nar kırmızısı** (yalnızca nar ağacında, gelinin örtüsünün nakışında ve yan hikâyedeki boncukta; kadehte ve kepçede asla). Gündüzden kandil ışığına geçiş |
-| **Kurulan bayraklar** | `b03_suc`, `b03_sir`, `b03_ifade_doldurma` (GDD §8.4'e eklenmeli; §17), `eks_soz`, `ilis_dositeos`, `usta_b03_dokuz_yolculuk`, `kol_b03_tulum_bagi`, `kol_b03_dugumlu_ip`, `kol_b03_kadeh_kirigi`, `kol_b03_nar_boncugu`, `tan_b03_cagrilmislardi`, `tan_b03_agizlarina_kadar`, `tan_b03_hizmetkarlar_biliyordu` |
+| **Kurulan bayraklar** | `b03_suc`, `b03_sir`, `b03_ifade_doldurma`, `eks_soz`, `ilis_dositeos`, `usta_b03_dokuz_yolculuk`, `kol_b03_tulum_bagi`, `kol_b03_dugumlu_ip`, `kol_b03_kadeh_kirigi`, `kol_b03_nar_boncugu`, `tan_b03_cagrilmislardi`, `tan_b03_agizlarina_kadar`, `tan_b03_hizmetkarlar_biliyordu` |
 | **Okunan bayraklar** | `b01_haber`, `b02_tedarikci`; isteğe bağlı `tan_b01_yureginde_sakladi`. Bölüm içinde: `b03_ifade_doldurma` (Sahne 10) |
 
 ## 1. Kaynak Metin ve Uyarlama Sınırları
@@ -107,7 +107,7 @@ Bölüm iki harita kullanır. Kuyudan küplere yürüyüş yüklü hâlde 45 san
 | 6 | **"Küpleri suyla doldurun"** | 3/4 | Yaşlı Tamar: "Avlunun batı duvarı boyunca altı taş küp dururdu; yemekten önce el yıkamak için." İsa 2:7'yi söyler. Hilkiya kalkar: "Ben kuyuya ineyim; ipi benden başkası çekemez." Elişeva testileri rafa dizer. **Bulmaca 3: Altı Küp** (imza) | 9 | `usta_b03_dokuz_yolculuk`, `b03_ifade_doldurma` |
 | 7 | **Kepçe** | **Yan görünüm set-piece** | Son küp ağzına kadar dolar; 2:8; Tamar kepçeyi dans arasından şölen başkanına taşır; **dokunmama** (2:9); 2:10 (§7) | 2,5 | `tan_b03_agizlarina_kadar` |
 | 8 | **İlk belirti** | 3/4 | Bakış geri gelir: hizmetkârların bakışları. Öğrenciler İsa'ya döner. 2:11 bir ayet kartı olarak belirir. Dans yeniden başlar | 1,5 | `tan_b03_hizmetkarlar_biliyordu` |
-| 9 | **Yankı: kilerde gece** | 3/4, Harita B | Tamar avluda kalan kâseleri toplar ve süpürür (etkileşimsiz kısa an). Süpürgenin ucunda bir kırık kalır; Bakış ile kenar ışığı alır, A ile alınır. Hilkiya düğümlü ipi getirir. Tirsa ve damat kilere gelir: **suç**, ardından **sır** (§8). `hizmetkarlarla` yolunda "Yolu biliyorum" geçişiyle kuyu başında kısa bir gece sahnesi | 4,5 | `kol_b03_kadeh_kirigi`, `kol_b03_dugumlu_ip`, `b03_suc`, `b03_sir`, `eks_soz`, `ilis_dositeos` |
+| 9 | **Yankı: kilerde gece** | 3/4, Harita B | Tamar avluda kalan kâseleri toplar ve süpürür (etkileşimsiz kısa an). Süpürgenin ucunda bir kırık kalır; Bakış ile kenar ışığı alır, Etkileşim ile alınır. Hilkiya düğümlü ipi getirir. Tirsa ve damat kilere gelir: **suç**, ardından **sır** (§8). `hizmetkarlarla` yolunda "Yolu biliyorum" geçişiyle kuyu başında kısa bir gece sahnesi | 4,5 | `kol_b03_kadeh_kirigi`, `kol_b03_dugumlu_ip`, `b03_suc`, `b03_sir`, `eks_soz`, `ilis_dositeos` |
 | 10 | **Çerçeve kapanışı** | Sabit kompozisyon, dokuma | Sara: "Peki o şarap nasıldı?" Yaşlı Tamar: "Tatmadım, Sara. Ben hizmet edenlerdendim. Ama başkanın yüzünü gördüm." Ardından `b03_ifade_doldurma` satırı: `zincir` ise "Suyu elden ele taşıdık. Kimse tek başına değildi."; `tek_basina` ise "Suyu tek başıma taşıdım; öyle alışmıştım. Ama küpleri dolduranlar arasındaydım." Safran bant dokunur; deseni `b03_sir`'e göre dalgalı, ortası düzleşen ya da düzdür. İsteğe bağlı Diğer Yollar ekranı | 1,5 | — |
 
 **Süre dağılımı:** keşif/iş 8 (Sahne 1–2) · bulmaca 19 (Sahne 3, 4 ve 6; Sahne 4'teki akşam söz toplaması dahil) · katılım 6 (Sahne 5, 7, 8) · yankı ve çerçeve 7 (Sahne 0, 9, 10). Toplam 40 dk.
@@ -134,7 +134,7 @@ Bölüm iki harita kullanır. Kuyudan küplere yürüyüş yüklü hâlde 45 san
 | Hilkiya | Sahne 2, kuyu | "Oğlumun düğününde bütün köy geldi, ihtiyarlar bile dans etti; beş tulum bir akşamda gitti. Kuyu uzak ama su bitmez, kızım." | *beş tulum* (sayı), *köyün ihtiyarları* (kişi), *kuyu uzak* (neden) |
 | Çalgıcı | Sahne 2, avlu | "Biz çalarken içmeyiz; ama bu sıcak boğaz kurutur." | *çalgıcılar* (kişi), *çalgıcılar içmez*, *sıcak bastırdı* (neden) |
 
-Kilerde Gad'ın sözü saklandıktan sonra iki tulumun gevşek ağız bağı Bakış ile kenar ışığı alır ve A ile alınır (`kol_b03_tulum_bagi`). Bağ, söz saklanmadan etkileşimli değildir. Böylece Kulak ve Bakış aynı noktada aynı anda hedef üretmez. Düşünce balonu kilerde, tulumların önünde "Kavrayış'ı aç" eylemiyle açılır (Tamar: "Konuklar gelmeden tulumları saymalıyım.").
+Kilerde Gad'ın sözü saklandıktan sonra iki tulumun gevşek ağız bağı Bakış ile kenar ışığı alır ve Etkileşim ile alınır (`kol_b03_tulum_bagi`). Bağ, söz saklanmadan etkileşimli değildir. Böylece Kulak ve Bakış aynı noktada aynı anda hedef üretmez. Düşünce balonu kilerde, tulumların önünde "Kavrayış'ı aç" eylemiyle açılır (Tamar: "Konuklar gelmeden tulumları saymalıyım.").
 
 **Düşünce cümlesi (3 boşluk):**
 > "Rafta altı tulum var ama **[neden]**. Bu akşam **[kişi]** geliyor; böyle akşamlarda **[sayı]** içilir."
@@ -216,7 +216,7 @@ Kilerde Gad'ın sözü saklandıktan sonra iki tulumun gevşek ağız bağı Bak
 
 **Kurulum:**
 - **Küpler:** K1–K3 (alçak) her biri 6 pay, K4–K6 (yüksek) her biri 9 pay; toplam **45 pay**. Doluluk arayüzsüz okunur. Kireçtaşının dışında suyun hizasında koyulaşan bir ıslaklık bandı belirir (sanatsal kolaylık). Döküş sesi küp doldukça yükselir. Küp ağzına kadar dolunca ağzın kenarında ince bir ışık çizgisi belirir. Küpün içi 3/4 görünümde de tek ton gölgedir; suyun yüzeyi ve rengi görünmez.
-- **Üç boy testi** (2:7'de küplerin önündeki rafta, boş): küçük ×2 (1 pay), büyük ×2 (2 pay), iki kulplu ×1 (3 pay). Küçük ve büyük testi 2. bölümdekilerle aynıdır (1 pay = 2. bölümün 2 ölçüsü); iki kulplu yenidir.
+- **Üç boy testi** (2:7'de küplerin önündeki rafta, boş): küçük ×2 (1 pay), büyük ×2 (2 pay), iki kulplu ×1 (3 pay). Küçük ve büyük testi 2. bölümdekilerle aynıdır (1 pay = 2 su ölçüsü); iki kulplu yenidir ve yalnızca omuzda taşınır. Testiler kavrama biçimiyle taşınır; taşıma konumları ve yükle hız düşüşleri GDD §5.1c'dedir.
 - **Aktarma yerleri** (Bakış ile kenar ışığı alır): **kuyu ağzı** · **kapı eşiği** · **küp önü** (raf). Kapı ile küpler arasında iki yol vardır: halka (kısa) ve revak (uzun) (§4.1).
 - **Kişiler:** Hilkiya (kuyuda sabit; atanmaz), Gad, Elişeva, Tamar.
 
@@ -225,8 +225,8 @@ Kilerde Gad'ın sözü saklandıktan sonra iki tulumun gevşek ağız bağı Bak
 | | Yokuşta (kuyu → kapı) | Düzlükte ve avluda (kapı → küpler) | Özel |
 |---|---|---|---|
 | **Gad** | En çok iki testi, toplam ≤ 5 pay; iki kulpluyu omzunda yalnızca o çıkarır | Aynı | Avluya her girişinde def sesine kapılır (Kural 5) |
-| **Elişeva** | Yalnızca bir küçük testi, elde | Başta bir (küçük ya da büyük), elde bir küçük; dolu iki kulpluyu kaldıramaz | Halkanın içinden dökmeden geçer |
-| **Tamar** | Kalçada tek testi (küçük ya da büyük) | Başta bir (iki kulplu dahil) ya da başta büyük ve elde küçük; iki kulpluyla birlikte elde testi taşımaz | Halkaya girmez ("Halka kol kola; revaktan dolaşırım."); yolu her zaman revaktır |
+| **Elişeva** | Yalnızca bir küçük testi, elde | Başta bir büyük, elde bir küçük (ya da yalnızca biri); dolu iki kulpluyu kaldıramaz | Halkanın içinden dökmeden geçer |
+| **Tamar** | Kalçada tek testi (küçük ya da büyük) | Omuzda iki kulplu ya da başta büyük ve elde küçük; tek testiyi kalçada da taşır; iki kulpluyla birlikte elde testi taşımaz | Halkaya girmez ("Halka kol kola; revaktan dolaşırım."); yolu her zaman revaktır |
 | **Hilkiya** | — | — | Ağza konan her boş testiyi doldurur, yarım testiyi tamamlar, her çıkışta ipine bir düğüm atar |
 
 **Özellik satırları** (Kulak ile duyulur; Heybe'nin "Sözler" sekmesine kişi notu olarak kaydedilir; Kavrayış adayı değildir):
@@ -243,9 +243,9 @@ Kilerde Gad'ın sözü saklandıktan sonra iki tulumun gevşek ağız bağı Bak
 Bulmaca 3'te Güt ile seçilen kişi kendi satırını kısaca yineler. Gad: "Yokuş benden, iki kulplu benden. Avluya sokma beni." Elişeva: "Halkadan ben geçerim; iki kulpluyu kaldıramam."
 
 **Kurallar:**
-1. **Atama (Güt insanlara):** Önce kişi seçilir. Sağ çubuğun çağrı konisine (60°, 6 karo; 4. bölümle aynı) giren kişi kenar ışığı alır ve onaylanınca seçilir. Koninin dışındaki biri de kişi listesinden seçilebilir. Sonra yer seçilir: seçili kişi varken üç aktarma yerinin listesi dünya içi simgelerle belirir (kova, kapı kanadı, raf); biri onaylanır. Yer görünürse koniyle de gösterilebilir. Atanan kişi oraya kendi yürür ve seslenir ("Kuyudayım!"). Her aktarma yerine en çok bir kişi atanır; yeni atama eskisini serbest bırakır. "Küp önü"ne atanmak serbest olmak demektir: kişi elindeki testiyi (doluysa sıradaki küpe dökerek) rafa bırakır ve bekler. Atama kalıcıdır; hiçbir sonuç kişinin o anda nerede durduğuna bağlı değildir.
+1. **Atama (Güt insanlara):** Önce kişi seçilir. Güt'ün çağrı konisine (60°, 6 karo; 4. bölümle aynı) giren kişi kenar ışığı alır ve onaylanınca seçilir. Koninin dışındaki biri de kişi listesinden seçilebilir. Sonra yer seçilir: seçili kişi varken üç aktarma yerinin listesi dünya içi simgelerle belirir (kova, kapı kanadı, raf); biri onaylanır. Yer görünürse koniyle de gösterilebilir. Atanan kişi oraya kendi yürür ve seslenir ("Kuyudayım!"). Her aktarma yerine en çok bir kişi atanır; yeni atama eskisini serbest bırakır. "Küp önü"ne atanmak serbest olmak demektir: kişi elindeki testiyi (doluysa sıradaki küpe dökerek) rafa bırakır ve bekler. Atama kalıcıdır; hiçbir sonuç kişinin o anda nerede durduğuna bağlı değildir.
 2. **Tamar'ın kendi ataması:** Kişi listesinde "Ben" de vardır; Tamar kendini yalnızca kapı eşiğine atayabilir. Böylece kapı, Tamar uzaktayken de tutulmuş sayılır. Tamar her durumda oyuncunun elindedir.
-3. **Testi döngüsü:** Rafta ve yolda olan testiler döngüdedir. Tamar'ın elindeki ya da yere bıraktığı testi döngü dışıdır. Tamar A ile raftan ya da eşikten testi alır, rafa ya da eşiğe koyar.
+3. **Testi döngüsü:** Rafta ve yolda olan testiler döngüdedir. Tamar'ın elindeki ya da yere bıraktığı testi döngü dışıdır. Tamar raftan ya da eşikten testiyi kavrayarak ya da Etkileşim ile alır; Etkileşim ile rafa ya da eşiğe koyar (kavrama biçimi, GDD §5.1c).
 4. **Durum tablosu:**
 
 | Kim | Atandığı yer | Ne yapar |
@@ -256,7 +256,7 @@ Bulmaca 3'te Güt ile seçilen kişi kendi satırını kısaca yineler. Gad: "Yo
 | Hilkiya | Kuyuda sabit | Kural 8. |
 
 5. **Gad ve def:** Gad avluya her girişinde def sesine kapılır. Testilerini halkanın kenarına bırakır; büyük ve iki kulplu testiler birer pay döker, küçük dökmez. Sonra dansa katılır. Bunun için Gad'ın kapı taşıyıcısı olması ya da kapısı atanmamış kuyu taşıyıcısı olarak avluya yürümesi yeter. Tamar Güt ile Gad'ı seçip bir yere atayınca Gad halkadan çıkar. Halka kenarındaki testileri alır, Kural 6'ya göre döker, sonra atandığı yere gider. Atanmış kapıya varan Gad avluya girmez; atanan kişi uzaktaysa eşikte bekler.
-6. **Dökme ve işaretleme:** Tamar Dök ile döker; çubuğu bırakınca durur, yarım döküş serbesttir, Tamar hiçbir zaman taşırmaz. Hizmetkârlar testiyi bütün olarak döker: işaretli küpe, işaret yoksa sıradaki ilk dolmamış küpe (K1'den K6'ya). Ağzı aşan kısım yere akar. **Küp işaretleme** yalnızca seçili kişi yokken çalışır: Tamar küplerin önünde Güt'ü bir küpe yöneltip onaylarsa küpe bez düğümü bağlanır, yeniden onaylarsa çözülür. Aynı anda en çok bir küp işaretlidir.
+6. **Dökme ve işaretleme:** Tamar Dök ile döker; Dök bırakılınca akış durur, yarım döküş serbesttir, Tamar hiçbir zaman taşırmaz. Hizmetkârlar testiyi bütün olarak döker: işaretli küpe, işaret yoksa sıradaki ilk dolmamış küpe (K1'den K6'ya). Ağzı aşan kısım yere akar. **Küp işaretleme** yalnızca seçili kişi yokken çalışır: Tamar küplerin önünde Güt'ü bir küpe yöneltip onaylarsa küpe bez düğümü bağlanır, yeniden onaylarsa çözülür. Aynı anda en çok bir küp işaretlidir.
 7. **Testi el değiştirir, su değil:** Testiden testiye su aktarılmaz. Tamar'ın yarım döktüğü testi içinde kalan suyla döngüye döner; Hilkiya onu kuyuda tamamlar.
 8. **Yolculuk:** Bir taşıyıcının kuyudan dolu testilerle yokuşa çıkışıdır. Hilkiya her yolculukta belindeki ipe bir düğüm atar. Düğümler Bakış ile okunur ve Tamar sayıyı düşünür ("Beşinci düğüm"). Boş testi indirmek yolculuk sayılmaz.
 9. **Bekleme:** Gad'ın kapıda beklediği testi boşaldıktan sonra eşiğe değil de rafa ya da yere bırakılırsa, ya da boş olarak 45 sn Tamar'ın elinde kalırsa Gad seslenir ("Teyze, iki kulplu sende kaldı!") ve eşikteki öbür boşlarla iner. Tamar'ın revaktan olağan dönüşü bu süreye sığar. Böylece döngü hiçbir zaman kilitlenmez.
@@ -266,14 +266,14 @@ Bulmaca 3'te Güt ile seçilen kişi kendi satırını kısaca yineler. Gad: "Yo
 **Doğru tur:** Kuyudan çıkan bir yolculuğun bütün testilerinin dansta ya da taşarak hiç dökülmeden küplere boşalmasıdır. Art arda üç doğru turdan sonra **"Zincir sürsün"** seçeneği belirir: kalan turlar 20 saniyelik montajla aynı düzende tamamlanır, düğümler aynı kurala göre sayılır (GDD §5.4-1).
 
 **Çözüm:** Altı küp ağzına kadar dolunca tamamlanır; bütün yollar kabul edilir.
-- **Zincir (en iyi):** Gad kuyuya, Elişeva kapıya atanır; Tamar serbest kalır ve kapı ile küpler arasında çalışır. Gad raftan en ağır seti, yani iki kulplu ve büyük testiyi (5) alıp iner, dolu olarak kapıya getirir. Elişeva büyük testiyi başına alır, halkadan geçer ve işaretsiz döker; K1–K3 üçer büyük testiyle tam dolar. İki kulplu eşikte kalır. Tamar onu başına alır, revaktan K4–K6'ya götürür ve döker (üçer iki kulplu = 9). Boşlar eşiğe döner, Gad onlarla iner. **9 × 5 = 45: dokuz yolculuk.**
+- **Zincir (en iyi):** Gad kuyuya, Elişeva kapıya atanır; Tamar serbest kalır ve kapı ile küpler arasında çalışır. Gad raftan en ağır seti, yani iki kulplu ve büyük testiyi (5) alıp iner, dolu olarak kapıya getirir. Elişeva büyük testiyi başına alır, halkadan geçer ve işaretsiz döker; K1–K3 üçer büyük testiyle tam dolar. İki kulplu eşikte kalır. Tamar onu omzuna alır, revaktan K4–K6'ya götürür ve döker (üçer iki kulplu = 9). Boşlar eşiğe döner, Gad onlarla iner. **9 × 5 = 45: dokuz yolculuk.**
 - **Zincir, iki kulpsuz:** İki kulplu döngüde değilse (Tamar onu elinde tutuyor ya da yere bırakmışsa) Gad iki büyük testiyle (4) çıkar → 12 yolculuk.
 - **Gad avluya girerse** (kapı atanmamışsa): her yolculukta 2 pay döker, dansa katılır ve her seferinde yeniden çağrılmayı bekler → 15 yolculuk.
 - **Elişeva kuyuda:** Her yolculukta 1 pay → 45 yolculuk. Zincir doğru işler; üç turdan sonra "Zincir sürsün" açılır. Hilkiya: "Bu kızın boynu kırk beş kez yorulur, kızım; Gad'ı yolla."
 - **Tek başına:** Tamar yokuşta en çok 2 pay taşır → 23 yolculuk. Üçüncü yolculuktan sonra "Tamar tek başına sürdürür" montajı önerilir.
 - **Neden dokuzdan azı yok?** Yokuşta 5 payı yalnızca Gad taşıyabilir; Elişeva 1, Tamar 2 taşır. Kuyu ağzına en çok bir taşıyıcı atanır; Tamar'ın kendi yolculukları da sayılır. 45 / 5 = 9.
 
-**"Aha" anı:** Gad'ın ilk yükü kapıya varır. Gad iki kulpluyu omzundan eşiğe indirir, Tamar onu başına alır. Zincirdeki herkesin kenar ışığı kuyudan küplere bir dalga gibi yanar, Hilkiya güler. Tamar: "Herkes kendi yolunu yürüsün; testi el değiştirsin."
+**"Aha" anı:** Gad'ın ilk yükü kapıya varır. Gad iki kulpluyu omzundan eşiğe indirir, Tamar onu omzuna alır. Zincirdeki herkesin kenar ışığı kuyudan küplere bir dalga gibi yanar, Hilkiya güler. Tamar: "Herkes kendi yolunu yürüsün; testi el değiştirsin."
 
 **Üç Işık:**
 1. "Babam sürüyü tek başına gütmezdi. Her birimizi bir sekiye koyardı; koyun sekiden sekiye inerdi."
@@ -294,14 +294,14 @@ Bulmaca 3'te Güt ile seçilen kişi kendi satırını kısaca yineler. Gad: "Yo
 
 GDD §7.2 doldurmayı ve kepçeyi tek bir katılım anı sayar. Bu belgede doldurma, Usta kısıtı taşıyan imza bulmacadır (§6.3; GDD §6.2). §7.2'nin "Hizmetkârlar sürdürür" yedeği orada Kural 10 olarak uygulanır. **Sürtünmesiz** kısım son küpten başlar.
 
-**Kontroller:** Sol çubuk ile yürüyüş (klavye A/D). A ile kepçeyi daldır, A ile uzat. Bakış yalnızca 1. adımda açıktır. **Kavrama girdisi yoktur:** Tamar kepçeyi daldırdıktan sonra iki eliyle, avucu üstte, kendiliğinden tutar. Çubuk bırakılınca Tamar durur ve kepçeyi göğsüne yaslar; kepçe hiçbir zaman yere konmaz. Seğirtme kapalıdır. Bulmaca 3'ün Taşı girdisi burada tekrarlanmaz (GDD §5.4-2).
+**Kontroller:** Yürü ile yalnızca sağa ve sola yürünür. Etkileşim ile kepçe daldırılır, yine Etkileşim ile uzatılır. Bakış yalnızca 1. adımda açıktır. **Kavrama girdisi yoktur** (kutsal taşıma anı, GDD §5.1c-5): Tamar kepçeyi daldırdıktan sonra iki eliyle, avucu üstte, kendiliğinden tutar. Yürü bırakılınca Tamar durur ve kepçeyi göğsüne yaslar; kepçe hiçbir zaman yere konmaz. Seğirtme kapalıdır. Bulmaca 3'ün Taşı girdisi burada tekrarlanmaz (GDD §5.4-2).
 
 **Adım adım:**
-1. **Son döküş (yan görünüm).** Kurgu kesmesiyle duvar boyunca dizili küpler görünür. Kamera küplerin ağzı hizasındadır; küplerin içi hiçbir zaman görünmez. Zincirin son testisini, hangi küpe giderse gitsin, Tamar döker; Elişeva testiyi ona uzatır. Ağzın kenarında ince ışık çizgisi belirir. Bakış ile `tan_b03_agizlarina_kadar`.
+1. **Son döküş (yan görünüm).** Kurgu kesmesiyle duvar boyunca dizili küpler görünür. Kamera küplerin ağzı hizasındadır; küplerin içi hiçbir zaman görünmez. Zincirin son testisini, hangi küpe giderse gitsin, Tamar döker; Elişeva testiyi küp önündeki rafa bırakır, Tamar raftan alır (farklı ölçekteki figürler elden ele nesne vermez, GDD §11.2). Ağzın kenarında ince ışık çizgisi belirir. Bakış ile `tan_b03_agizlarina_kadar`.
 2. **2:8.** Kadrajın sol kenarında İsa'nın duran silüeti belirir; söz yalnızca metin olarak görünür. Müzik tek uzun tona çekilir.
-3. **Kepçeyi daldırmak.** A ile Tamar derin, ağzı içe kıvrık kil kepçeyi küpe daldırır. Kepçe küpün ağzının arkasında kalır, içi görünmez. Kalkarken Tamar öbür avucunu kepçenin üstüne kapar.
+3. **Kepçeyi daldırmak.** Etkileşim ile Tamar derin, ağzı içe kıvrık kil kepçeyi küpe daldırır. Kepçe küpün ağzının arkasında kalır, içi görünmez. Kalkarken Tamar öbür avucunu kepçenin üstüne kapar.
 4. **Dans arasından geçiş.** Üç ekranlık yürüyüş (~40 sn). Elişeva orta katmanda önden yürür ve halkayı aralar. Orta katmandaki dans edenler kenara açılır, ön katmandaki koyu silüet şeridi Tamar yaklaşınca seyrekleşir. Hız kuralı, düşme ya da dökülme yoktur.
-5. **Dokunmama (2:9).** Baş sofrada A ile kepçe uzatılır. Başkan kadehine alır. Kontroller, Bakış ve arayüz çekilir. Kadraj Tamar'ın omzunun üstünden orta katmana bakar; başkan kameraya 3/4 arkasını döner, kadehin içi görünmez. Diyetik müzik uzaklaşır, tek ton kalır; 4 saniye sessizlik olur. Başkanın omuzları duraksar, başını kaldırır.
+5. **Dokunmama (2:9).** Baş sofrada Etkileşim ile kepçe uzatılır. Başkan kadehine alır. Kontroller, Bakış ve arayüz çekilir. Kadraj Tamar'ın omzunun üstünden orta katmana bakar; başkan kameraya 3/4 arkasını döner, kadehin içi görünmez. Diyetik müzik uzaklaşır, tek ton kalır; 4 saniye sessizlik olur. Başkanın omuzları duraksar, başını kaldırır.
 6. Başkan güveyi çağırır (jest) ve 2:10'u söyler. Damat şaşkın bakar, cevap vermez.
 7. Kontroller geri gelir; Sahne 8'e geçilir.
 
@@ -321,10 +321,10 @@ GDD §7.2 doldurmayı ve kepçeyi tek bir katılım anı sayar. Bu belgede doldu
 
 | Bağlam | Seçenekler | Anlık tepki | Bayrak / eksen / ilişki | Nerede okunur |
 |---|---|---|---|---|
-| **Suç.** Tirsa: "İki tulum ekşimiş. Kileri sen devraldın, tedarikçiyi sen önerdin. Bunun hesabı kime?" | "Benim kusurum. Gelir gelmez koklamam gerekirdi." · "Tulumları [Dositeos'un kervanı / Zenon'un adamları] getirdi; ağızları gevşekti. Bedelini o ödesin." · *Sessiz kal* | Üstlenirse: "Öyleyse iki tulumun parası ücretinden düşer." Tedarikçiye: "Haber gönderirim." (`saray_adami`: "Bölge kralının adamı karşılık verir mi, bilmem.") Susarsa: "Susuyorsun. Peki, ücretinden düşerim; tedarikçiye bir şey demem." | `b03_suc = ustlendi` (1. seçenek ve sessizlik) / `tedarikciye`. Yalnızca `b02_tedarikci = dositeos` ise: `tedarikciye` → `ilis_dositeos = temkinli`; `ustlendi` → değişmez (`yakin`). `saray_adami` yolunda ilişki değişmez | 5 (Dositeos'un ilk cümlesi), ep |
+| **Suç.** Tirsa: "İki tulum ekşimiş. Kileri sen devraldın, tedarikçiyi sen önerdin. Bunun hesabı kime?" | "Benim kusurum. Gelir gelmez koklamam gerekirdi." · "Tulumları [Dositeos'un kervanı / Zenon'un adamları] getirdi; ağızları gevşekti. Bedelini o ödesin." · *Sessiz kal* | Üstlenirse: "Öyleyse iki tulumun parası ücretinden düşer." Tedarikçiye: "Haber gönderirim." (`saray_adami`: "Bölge kralının adamı karşılık verir mi, bilmem.") Susarsa: "Susuyorsun. Peki, ücretinden düşerim; tedarikçiye bir şey demem." | `b03_suc = ustlendi` (1. seçenek ve sessizlik) / `tedarikciye`. Yalnızca `b02_tedarikci = dositeos` ise: `tedarikciye` → `ilis_dositeos = temkinli`; `ustlendi` → değişmez (`yakin`). `saray_adami` yolunda ilişki değişmez | `b03_suc`: 5 (Dositeos'un ilk cümlesi), ep · `ilis_dositeos`: 5, 6, 7, 10, ep |
 | **Sır.** Tirsa: "Oğlum övgüyü aldı. Ama o şarabı biz almadık. Bu şarap nereden geldi?" Damat kapıda durur | "Damada anlat" (Tamar: "Küpleri biz doldurduk. Suyla. Nasıralı konuğun sözüyle.") · "Hizmetkârlarla paylaş" (Tamar: "Bunu suyu benimle taşıyanlarla konuşmalıyım, hanım.") · *Sessiz kal* | Damada: damat küplere gider, taşa dokunur, revağa doğru uzun uzun bakar. Hizmetkârlarla: Tirsa: "Öyle olsun. Ben sormadım say." Damat başını eğip çıkar; **bu yolda Tirsa da damat da sırrı öğrenmez.** Gece kuyu başında Gad, Elişeva ve Hilkiya'yla oturulur; kimse kimseye "inan" demez. Sessiz: Tirsa iç çeker: "Bazı şeyler sorulmaz belki." | `b03_sir = damada` → `eks_soz +1` / `hizmetkarlarla` → `eks_soz 0` / `kalbinde` → `eks_soz −1` | 4 (Gad ve Elişeva kalabalıkta yardım eder), 10 (koşuda karşılaşma), dokuma bandı |
 
-**İfade bayrağı:** `b03_ifade_doldurma` (`zincir` / `tek_basina`) Sahne 10'da yaşlı Tamar'ın tek satırını belirler (§5). Epilog için öneri: "Kana'da suyu elden ele taşıdık." / "Kana'da suyu tek başıma taşıdım." (GDD §8.4'e eklenmeli; §17).
+**İfade bayrağı:** `b03_ifade_doldurma` (`zincir` / `tek_basina`) Sahne 10'da yaşlı Tamar'ın tek satırını belirler (§5). Epilog için öneri: "Kana'da suyu elden ele taşıdık." / "Kana'da suyu tek başıma taşıdım." (GDD §8.4: 3. bölümün çerçeve kapanışı ve epilog).
 
 Hiçbir seçenek kötü yazılmaz. Tamar'ın borcu gerçektir; tulumların ağzı da gerçekten gevşektir. Sır seçimi kanonik tanıklığı değiştirmez: hizmetkârlar her yolda bilir (2:9).
 
@@ -430,7 +430,7 @@ Hiçbir seçenek kötü yazılmaz. Tamar'ın borcu gerçektir; tulumların ağz�
 ## 14. Erişilebilirlik ve Zorluk Ayarları
 
 - **Kulak:** Konuşanın yönü görsel okla gösterilir; söz türleri biçimle ayrılır (figür, çentik, ev, düğüm), renk tek başına anlam taşımaz. Söz halkası metin okumayla okunur.
-- **Güt (insanlara):** Kişi ve yer D-pad listesinden seçilebilir; yer için liste varsayılandır. Koni yalnızca görünen kişiyi listede öne alır. Onay için basılı tutma gerekmez.
+- **Güt (insanlara):** Kişi ve yer listeden seçilebilir; yer için liste varsayılandır. Koni yalnızca görünen kişiyi listede öne alır. Onay için basılı tutma gerekmez.
 - **Altı Küp:** Rahat ayarında Gad'ın dansa kapılacağı avlu bölgesi ve dökülme simgesi görünür; atanmış yerlerin üstünde kişinin simgesi durur. Taşı ve dök için "otomatik" seçeneği vardır; "Zincir sürsün" her ayarda vardır.
 - **Kepçe:** Kavrama girdisi yoktur; hareket azaltma ayarında dans katmanları yavaşlar, ön katman saydamlaşır.
 - **Hikâye ayarı:** Üç bulmaca da otomatik çözülebilir.
@@ -455,10 +455,10 @@ Hiçbir seçenek kötü yazılmaz. Tamar'ın borcu gerçektir; tulumların ağz�
 
 **Benzersiz varlıklar:**
 - **Haritalar:** 2 (A: avlu, sokak, yokuş, kuyu; B: kiler ve mutfak). **Karo setleri:** "Celile köyü ve gölü" ve "iç mekân kiti" ilk kez burada kurulur.
-- **Karakterler:** Yeni 9 (Tirsa, Gad, Elişeva, Hilkiya, Şelamsiyon, yetişkin Meryem, şölen başkanı, damat, gelin). **Yeni portre:** Gad (3 ifade), Elişeva (3 ifade), Tirsa (2 ifade). Hilkiya portresizdir (kit ve ad etiketi). İsa ve Andreas yeniden kullanılır.
-- **3/4 animasyon dizileri: 24.** Tamar 5 (dinleme pozu, Güt el işareti, tulum koklama, söz düğümü, süpürme); Gad 4 (omuzda iki kulplu, eşiğe indirme, dans, grup taşıma); Elişeva 3 (başta ve elde taşıma, halkadan geçiş, dans); Hilkiya 3 (ip çekme, düğüm atma, mırıldanma); Tirsa 2; Meryem 2 (oturma, dönme); damat 1 (küpe dokunma, `damada`); dans halkası 1; çalgıcılar 2; Şelamsiyon 1.
+- **Karakterler:** Yeni 9. Adlandırılmış karakter tavanına (GDD §16.1) sayılan 4: İsa'nın annesi (yetişkin), Tirsa, Gad, Elişeva. Adlı kit NPC olarak ayrı sayılan 5: Hilkiya, Şelamsiyon, şölen başkanı, damat, gelin. **Yeni portre:** Gad (3 ifade), Elişeva (3 ifade), Tirsa (2 ifade). Hilkiya portresizdir (kit ve ad etiketi). İsa ve Andreas yeniden kullanılır.
+- **3/4 animasyon dizileri: 25.** Tamar 6 (dinleme pozu, Güt el işareti, tulum koklama, söz düğümü, süpürme, omuzda iki kulpluyla yürüyüş [GDD §5.1c; Tamar'ın omuz taşıması ilk kez burada çizilir]); Gad 4 (omuzda iki kulplu, eşiğe indirme, dans, grup taşıma); Elişeva 3 (başta ve elde taşıma, halkadan geçiş, dans); Hilkiya 3 (ip çekme, düğüm atma, mırıldanma); Tirsa 2; Meryem 2 (oturma, dönme); damat 1 (küpe dokunma, `damada`); dans halkası 1; çalgıcılar 2; Şelamsiyon 1.
 - **Yan görünüm dizileri (ayrı sayım): 12.** Büyük sprite (64×96): Tamar 5 (son döküş, kepçe daldırma, kepçeyle yürüyüş, durup göğse yaslama, sunma); İsa 1 (tek duruşlu silüet). Orta katman, standart ölçek: başkan 2 (tadışta duraksama, güveyi çağırma), damat 1 (şaşkın bakış), Elişeva 1 (önden yol açma). Dans 2 (orta katman döngüsü, ön katman silüet şeridi).
-- **Toplam animasyon dizisi: ~36.**
+- **Toplam animasyon dizisi: ~37** (GDD §16.1'de 36; fark §17-10'da).
 - **Set-piece:** 1. **Tablo:** 0. **Ara sahne:** Oyun motorunda gelinin onuruna meşaleli dans (15 sn).
 
 **Riskler:** Kavrayış'ın ilk sunumunda 10 yaş okunurluğu (kâğıt prototip; hedef medyan çözüm 4 dk); Altı Küp durum makinesinin bekleme ve atama durumlarının oyun testi; dans arasında ~30 ajanın yol bulması; İsa'nın annesinin görselleştirilmesi ve 2:4'ün çevirisi için kurul onayı; şarap temsili.
@@ -469,12 +469,14 @@ Hiçbir seçenek kötü yazılmaz. Tamar'ın borcu gerçektir; tulumların ağz�
 
 ## 17. Açık Sorular
 
-1. GDD §14.1 "O size ne derse onu yapın" der; aramada "Size ne derse onu yapın" çıktı. 2:3, 2:4, 2:6, 2:8 ve 2:9'un YC ifadeleri de doğrulanmalı.
-2. `b03_ifade_doldurma` (`zincir` / `tek_basina`) GDD §7.2'de kayıtlı ama §8.4'te yok. Okunduğu yer önerisi: 3. bölümün çerçeve kapanışı ve epilog. Ayrıca §8.4'teki `b03_suc` satırının 10. bölüme göndermesi kaldırılmalı.
+1. GDD §14.1 artık aramadaki "Size ne derse onu yapın" biçimini kullanıyor. 2:3, 2:4, 2:6, 2:8 ve 2:9'un YC ifadeleri de doğrulanmalı.
+2. Kapandı: `b03_ifade_doldurma` (`zincir` / `tek_basina`) GDD §8.4'te; okunduğu yer 3. bölümün çerçeve kapanışı ve epilog. `b03_suc` satırı artık 10. bölüme gönderme yapmıyor (5, ep).
 3. Suçta "Sessiz kal" → `ustlendi` eşlemesi onaylanıyor mu?
-4. Gad ve Elişeva adları 4. ve 10. bölüme (`b03_sir`) aktarılmalı. "Şelamsiyon" ve öbür kurgusal adlar tarihçi danışmana onaylatılmalı.
+4. Gad ve Elişeva GDD §3.3'teki bölümler arası kurgusal kişiler listesinde (3, 4, 10; `b03_sir`). "Şelamsiyon" ve öbür kurgusal adlar tarihçi danışmana onaylatılmalı.
 5. Oturma düzeni artık ikinci bir kısa Kavrayış cümlesiyle çözülüyor; minder takası yok, 4. bölümün takas aha'sı korunuyor. Uygun mu? GDD §5.4-2'nin Kavrayış gibi düşünme bulmacalarını kapsayıp kapsamadığı netleşmeli.
 6. Usta kısıtı kesin alt sınıra (9) eşit; bu sertlik kabul ediliyor mu?
 7. Stilize "pay" ölçüleri, küp boyları ve testi hacimleri tarihçi onayına sunulmalı.
 8. İsa'nın annesinin sprite yüzünde ne kadar ayrıntı olmalı?
 9. Kapandı: 6. bölüm küplerin yerini artık belirtmiyor (avlunun batı duvarı bu belgede esas); 2. bölümdeki koye iç sesi Luka 2:18 kapsamına uygun (GDD §8.4).
+10. GDD §5.1c iki kulpluyu yalnızca omuzda taşıttığı için Tamar'ın omuzda iki kulpluyla yürüyüşü bu bölümde yeni bir dizidir; bölüm sayımı 37 olur (GDD §16.1'de 36). 10. bölümün "omuz yüküyle yürüme" dizisi bu dizinin yeniden kullanımı sayılabilirse 10. bölüm bir dizi düşer ve genel toplam değişmez; sayılamazsa GDD §16.1'de 3. bölüm 37'ye çıkmalı.
+11. Kepçe adımında (§7, 5. adım) 64×96 Tamar'ın uzattığı kepçeden orta katmandaki başkanın kadehine alması, GDD §11.2'deki farklı ölçekler arası temas kuralına girer. Bu an önceden çizilmiş bir yakın planla mı verilecek, yoksa uzatma ve tadış kadrajı tek düzlemde 32×48 mi kurulacak? İki yol da §16.1'deki sayımları etkiler.

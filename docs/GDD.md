@@ -180,13 +180,16 @@ Beytlehemli bir çobanın kızıdır. Müjde gecesinden bir iki yıl sonra (Matt
 |---|---|---|
 | Tamar'ın babası | 1 | Adsız; sonra yalnızca anılır |
 | Nahum, Yoaş | 1 (Yoaş 10'da torunu Eliab'ın ağzından anılır) | Çobanlar |
+| Şelomit | 1 | Beytlehemli dul (kalabalık kitinden) |
 | Amram | 2 | Kefarnahumlu bazalt değirmen taşı ustası, kamp büyüğü; 9. bölümden önce ölmüştür |
 | Şifra | 2, 9, 10 | Amram'ın karısı, sonra dulu; "öbür kadınlar"dan; 9. bölümde portre alır |
 | Asa ve annesi | 2, 4, 9 | — |
 | Gad, Elişeva | 3, 4, 10 | Kana hizmetkârları (`b03_sir`) |
 | Abiezer | 4, 9 | Horazinli ihtiyar |
 | Yonatan | 5, 6 | — |
+| Rizpa | 6 | Menahem'in evinde mutfak (kit varyantı) |
 | Tobi | 7 | Dositeos'un kervancısı |
+| Hagit | 7 | Lazar'ın yaşlı halası (kit varyantı) |
 | Şimi, Yair | 7 (10'da anılır) | — |
 | Eldad, Atara | 8 | Testili adam (ad kurgusal); ev hanımı |
 | Mika ve annesi | 9, 10 | Ev sahibi aile |
@@ -335,8 +338,8 @@ Bulmaca sütunu oyun testi medyanıdır (düşünme, hatalı deneme ve ipucu dah
 
 1. **Kavrama** (RT / sol tık; basılı ya da aç/kapa): dökülecek kaplar (testi, kova, ibrik, yağ testisi) ve ağır nesneler (siper, binek taşı, leğen). Dök yalnızca kavranmış kapla yapılır. Kavrama nesnesi bir yuvadan A ile de alınabilir; o zaman aç/kapa kavramadaymış gibi tutulur. RT bırakılınca yük dik olarak yere konur, hiçbir şey kırılmaz.
 2. **Al-koy** (A / E): dökülmeden yuvaya konan ya da birine verilen nesneler (küfe yükü, hasır malı, tepsi, keçiboynuzu, sikke, duvar taşı). Tek basışla alınır, tek basışla yuvaya ya da yere konur. İki biçimde de A yükü yuvasına koyar.
-3. **Hız:** Tek elle taşınan hafif yük hızı değiştirmez; iki elle taşınan ya da ağır yük yürüyüşü %40 yavaşlatır (4, 5, 6, 7); su yükü kalçada %25, başta %15 yavaşlatır, eldeki küçük testi %10 ekler (2); omuz yükü %30 yavaşlatır (10); yükle seğirtme kapalıdır.
-4. **Taşıma konumları:** kalçada (tek kap), başta (büyük ya da iki kulplu testi), başta ve elde; Başa al / İndir ayrı bir eylemdir (§5.1a).
+3. **Hız:** Tek elle taşınan hafif yük hızı değiştirmez; iki elle taşınan ya da ağır yük yürüyüşü %40 yavaşlatır (4, 5, 6, 7); su yükü kalçada %25, başta %15 yavaşlatır, eldeki küçük testi %10 ekler (2); omuz yükü %30 yavaşlatır (3, 10); yükle seğirtme kapalıdır.
+4. **Taşıma konumları:** kalçada (tek kap), başta (büyük testi), omuzda (iki kulplu testi; başta ya da kalçada taşınmaz), başta ve elde; Başa al / İndir ayrı bir eylemdir (§5.1a).
 5. **Kutsal taşıma anları** (3. bölümde kepçe, 4. bölümde ilk sepet ve artanlar, 8. bölümde leğen ve ibrik): yük hiçbir zaman yere konmaz ve düşmez. Kavrama ya hiç istenmez (3) ya da tek basışla kilitlenir (4, 8). Çubuk bırakılınca Tamar durur ve yükü tutar; yük yalnızca hedefinde A ile bırakılır.
 
 | Kap | Kapasite | Kademeler | Bölüm |
@@ -450,7 +453,7 @@ Anlatılan Sahne'de (İsa anlatırken) 3. ışık ya yakındaki bir karakterin d
 ### 7.1 İlkeler
 
 1. **Oyuncu anı eşiğe kadar taşır; mucize İsa'nındır.** Oyuncu yalnızca metnin zaten birine yaptırdığı destek işini üstlenir: küpleri hizmet edenler doldurur (Yuhanna 2:7), artanları öğrenciler toplar (6:12–13), taşı başkaları kaldırır, Lazar'ı başkaları çözer (11:41–44).
-2. **Kanonik anlarda başarısızlık yoktur.** Oyuncu durursa dünya bekler ya da başkaları işi sürdürür. Basılı tutma mekaniklerinde bırakmak hiçbir şeyi düşürmez: Tamar diz çöker, soluklanır ve yeniden kalkar. Bir katılım anı aynı zamanda imza bulmacaysa (3. bölümde küpler), "girdi kesilirse" yedeği yalnızca hiç girdi gelmediğinde devreye girer. Dengeli ve Usta'da yalnızca teklif olarak gelir ve kabul edilmeden montaj başlamaz; Rahat ve Hikâye'de teklif kabul edilmezse 60 sn sonra montaj kendiliğinden başlar. Montaj Usta sayımını sürdürür.
+2. **Kanonik anlarda başarısızlık yoktur.** Oyuncu durursa dünya bekler ya da başkaları işi sürdürür. Basılı tutma mekaniklerinde bırakmak hiçbir şeyi düşürmez: Tamar diz çöker, soluklanır ve yeniden kalkar. Bir katılım anı aynı zamanda imza bulmacaysa (3. bölümde küpler), "girdi kesilirse" yedeği yalnızca 30 sn boyunca hiç girdi gelmediğinde devreye girer. Dengeli ve Usta'da yalnızca teklif olarak gelir ve kabul edilmeden montaj başlamaz; Rahat ve Hikâye'de teklif kabul edilmezse 60 sn daha girdi gelmediğinde montaj kendiliğinden başlar. Montaj Usta sayımını sürdürür.
 3. **Kanonun gerektirdiği başarısızlık mekaniğe yüklenir, oyuncuya değil.** Fırtınada su her durumda kazanır; bu oyuncunun hatası değil, sahnenin kendisidir. İsa'nın Petrus'a söylediği "Ey kıt imanlı" sözü (Matta 14:31) yalnızca Petrus'a yönelir ve oyuncunun performansıyla hiçbir bağı yoktur.
 4. **Girdi bir ifadedir, sınav değil.** Hız, sıra, süre ve "önce kime" bilgileri puanlanmadan `ifade_` bayraklarına kaydedilir ve sonradan diyaloglarda ve epilogda yankılanır (§8). Kutsal eşiklerde hiçbir şey kaydedilmez. **Kutsal eşik**, aşağıdaki listedeki dokunmama anları ile kanonik olayın kendisi ve hemen ardından gelen kanonik tepki anıdır; kontrollerin çekildiği andan kontrol geri gelene kadar sürer (ör. 2:9'daki tadış; horoz ötüşü ve Petrus'un ağlayışı, Luka 22:60–62; 23:46). Eşik boyunca nesne (`kol_`) verilmez, söz toplanmaz, hiçbir girdi ve `tan_` kaydedilmez. `tan_` pencereleri eşiğe bitişik olabilir, ama kontroller çekilmeden kapanır ve ancak kontrol döndükten sonra yeniden açılır. Benzetme içindeki girdiler, listedeki benzetme anları (6. bölümde babanın koşup sarılması ve 15:28b–32) dışında, kutsal eşik sayılmaz (ör. 5. bölümde `b05_ifade_sargi`).
 5. **Dokunmama anları:** En kutsal anlarda kontroller usulca geri çekilir. Bakış seçimi, koleksiyon sayacı ya da "kazandın" bildirimi yoktur. Bazı anlarda tek bir girdi kalır: başını kaldırmak.
@@ -533,7 +536,7 @@ Oyuncuya bayrak ya da eksen yazan ilk seçimden (1. bölüm, Sahne 12) hemen ön
 | `b05_dositeos` | `yuk_birakti` / `para_gonderdi` (Sessiz kal dahil) / `gecti` (`eks_el` +1 / 0 / −1) | 5 | 6, 7, 9, 10, ep | 6'da gümrükteki haber ve eşik iç sesi; 7'de `yuk_birakti` ve `para_gonderdi` eşek verir, `gecti` vermez; 9'da görünmez, yalnızca Şabat odasında testinin hatıra metni; 10'da koşuda kervan hanında (yuva 4); epilogda kurtarıcı tekne |
 | `b05_ifade_sargi` | `ozenli` / `cabuk` / boş | 5 | 7 | Yüz bezi çözülmeden önceki iç ses |
 | `kol_b05_civit_iplik` | boolean | 5 | 9 | Bilekte; öğle karanlığında renkli kalır; bantta çivit iplik |
-| `b06_esik` | `girdi` / `disarida_konustu` / `gitti` (`eks_kalp` +1 / 0 / −1) | 6 | 9, 10, ep | 9'da Natan'ın yeri; 10'da yuva 2 ve Sahne 13; epilogda Natan yuvası |
+| `b06_esik` | `girdi` / `disarida_konustu` / `gitti` (Sessiz kal → `disarida_konustu`; `eks_kalp` +1 / 0 / −1) | 6 | 9, 10, ep | 9'da Natan'ın yeri; 10'da yuva 2 ve Sahne 13; epilogda Natan yuvası |
 | `b07_kalp` | `acti` / `tasidi` (`eks_kalp` +1 / −1) | 7 | 8, 9 | 8'de Marta'nın pazardaki jesti; 9'daki iç ses |
 | `b07_ifade_cozme_hizi` | `yavas` / `olagan` / boş | 7 | ep | Yaşlı Tamar'ın bir cümlesi |
 | `b08_yahuda` | `kandil_uzatti` / `sordu` / `sustu` / `geri_cekildi` (`eks_kalp` +1 / +1 / 0 / −1) | 8 | 9, ep | Şabat odasındaki kandil metni |
@@ -543,7 +546,7 @@ Oyuncuya bayrak ya da eksen yazan ilk seçimden (1. bölüm, Sahne 12) hemen ön
 | `b10_tanik` | `anlatti` / `kalbinde` (`eks_soz`: anlat +1, bir gün 0, Sessiz kal −1) | 10 | ep | Son sahnenin biçimi; iki biçim de tam bir sondur |
 | `b10_ifade_kosu_ugrak` | `dogruca` / `birkacina` / `hepsine` / boş | 10 | ep, bant | Bant kenarında uğrak düğümleri; epilogda tek satır |
 | `eks_soz`, `eks_el`, `eks_kalp` | −4…+4 | Söz 1, 3, 8, 10 · El 2, 4, 5 · Kalp 6, 7, 8, 9 | dokuma bandı, 10 (Sahne 17), ep | Bant deseni ve yaşlı Tamar'ın tonu |
-| `ilis_dositeos` | `uzak` / `temkinli` / `yakin`; başlangıç `uzak` | 2 (dingilden sonra her yolda `temkinli`; `dositeos` seçimi `yakin`), 3 (yalnızca `dositeos` yolunda `tedarikciye` → `temkinli`), 5 (`yuk_birakti` → `yakin`; `para_gonderdi` değişmez; `gecti` bir kademe düşer) | 5, 7, 10, ep | Hitap, yuva 4'te kimin durduğu, epilog teknesi |
+| `ilis_dositeos` | `uzak` / `temkinli` / `yakin`; başlangıç `uzak` | 2 (dingilden sonra her yolda `temkinli`; `dositeos` seçimi `yakin`), 3 (yalnızca `dositeos` yolunda `tedarikciye` → `temkinli`), 5 (`yuk_birakti` → `yakin`; `para_gonderdi` değişmez; `gecti` bir kademe düşer) | 5, 6, 7, 10, ep | Hitap (6'da yalnızca hitap; Dositeos orada yalnızca `yuk_birakti` yolunda konuşur, değer her zaman `yakin`dır), yuva 4'te kimin durduğu, epilog teknesi |
 | `ilis_yoram` | `temkinli` / `yakin`; başlangıç `yakin` | 4 (`yasakladi` → `temkinli`, öbürleri `yakin`), 9 (`umut` ve `sessiz_yakinlik` bir kademe yakına; `ofke_paylasti` değiştirmez) | 9, 10 | 9'da Yoram'ın yeri; 10'da yalnızca `ofke_paylasti` yolunda Sahne 13 jesti |
 | `ilis_natan` | `uzak` / `temkinli` / `yakin`; başlangıç `uzak` | 6 (`girdi` → `yakin`, `disarida_konustu` → `temkinli`, `gitti` → `uzak`) | 10, ep | 10'da yuva 2'deki karşılama; epilogda Natan yuvasının tonu (§8.9) |
 | `ilis_hananya` | `temkinli` / `yakin`; başlangıç `temkinli` | 6 (Sahne 12: ilk iki yanıt `yakin`, öbürleri `temkinli`) | 9, 10, ep | 9'da testi ve selam; 10'da yuva 5; epilogda mektubu okuyan torunun satırı (§8.9) |
@@ -618,7 +621,7 @@ Seviye, tecrübe puanı ya da yetenek ağacı yoktur. İlerleme fiillerin birikm
     2. Ayet atıfları yalnızca ayetin gerçekten söylediğine verilir. Arkeolojik ve sahneleme kararları, tablo yorumları ve benzetmeye eklenen kurgusal ayrıntılar ("oyunun ya da Tamar'ın hayali") ayrıca işaretlenir; ayet etiketli metin arayüzde görsel olarak ayrılır.
     3. Bulmacalardaki stilize nicelikler (pay, yolculuk sayısı, yağ ölçüsü, kandil menzili) "oyun kısaltması" diye işaretlenir (§6.1).
     4. Mişna ya da Talmud'u kaynak gösteren her girdi yazıya geçiş tarihini bir kez belirtir (Mişna MS 200 dolayı; Kudüs Talmudu MS 400, Babil Talmudu MS 500 dolayı; *doğrulanmalı*).
-    5. Çarmıh ve diriliş için yıl verilmez; dönem ifadeleri "birinci yüzyıl" biçiminde yazılır. MS 30 ve 33 önerileri ile sinoptik–Yuhanna farkı yalnızca tarafsızca anılır (§2.3).
+    5. Çarmıh ve diriliş için yıl verilmez; dönem ifadeleri "birinci yüzyıl" biçiminde yazılır. Kişilerin görev yılları gibi başka tarihler kaynağıyla verilebilir. MS 30 ve 33 önerileri ile sinoptik–Yuhanna farkı yalnızca tarafsızca anılır (§2.3).
 
 ---
 
@@ -767,7 +770,7 @@ Her bölümün ayrıntılı tasarım belgesi `docs/bolumler/` altındadır; tabl
 
 **7. Dördüncü Gün** (Yuhanna 11:1–53). Lazar hastadır. Tamar haberi gece vakti Şeria'nın ötesine (10:40), yani 2. bölümdeki ırmağa götürür. Yol, babasının 1. bölümde öğrettiği yöntemle, yedi yıldızın döndüğü boş noktadan kuzey bulunarak aranır (ön iki yıldızdan çizgi uzatma dönem dışıdır); kandil yağı sınırlıdır. Dositeos 5. bölümde yardım gördüyse onun kervanı Tamar'a bir eşek verir. Tamar "Bu hastalık ölümle sonuçlanmayacak" (11:4) sözüyle döner, ama Lazar ölmüştür. Yas evinde dört gün sınırlı su, ekmek ve yerle geçer (Bekleyiş). Tamar zeytin işliğinde taş itmeyi öğrenir. Marta İsa'yı karşılamaya koşar ve kanonik sözlerini söyler; ikrarı (11:27) Marta'nın alıntısı olarak duyulur. Marta her durumda Beytanyalı Meryem'i çağırır. "Taşı kaldırın" (11:39), Marta itiraz eder ve ardından ip takımına ritim verilir (Güt ve Bağla). "Lazar, dışarı çık!" bir dokunmama anıdır. "Onu çözün" üzerine Tamar yüz örtüsünü sağ çubuğu yavaşça döndürerek açar. Yankı (dirilişten sonra, sarnıç başında, geriye bakan bir itiraf olarak): getirdiği söz boşa çıkmış gibi göründüğü dört gün boyunca yaşadığı öfkeyi ve yası Marta'ya açmak ya da içinde taşımak. Bölüm, Kayafa'nın kuruluna ait bir tabloyla kapanır (11:47–53).
 
-**8. Gece İdi** (Markos 14:12–26; Yuhanna 13:1–30; Luka 22:54–62). Tamar üst odalı evde gündelikçi aşçıdır; testi taşıyan uşak (Markos 14:13) onun iş arkadaşıdır. Maya araması kandil ışığında yapılır: sözlerden ekmeğin nerede yendiği çıkarılır ve kırıntının gölgesi ancak kandil yere yakın tutulunca görünür. Havanda haroset'in kuru harcı dövülür ve mayasız hamur yoğrulur (Ez/Karıştır tanıtımı); acı otlar pazardan seçilip yıkanır, ezilmez. On üç kişilik sofra, Nisan'ın 13'ünün ikindisinde, maya aramasından önce yaslanarak oturulacak biçimde düzenlenir; leğenin yeri o sırada hasırla işaretlenir. Hazırlık sırası vakitlere bölünür. Tamar leğeni ve havluyu kapıya getirir; hizmetkârın işini İsa üstlenir (13:4–5). Sofra sözleri bir tablodur. Merdivende kandille duran Tamar, dışarı çıkan Yahuda'yla karşılaşır: kandili uzatabilir, bir şey sorabilir, susabilir ya da geri çekilebilir. Yahuda her durumda gider. Damdan, Kidron'un ötesinde meşaleler uzak bir silüet olarak görünür. Şafakta kapıdaki soru sorulur (§8.5).
+**8. Gece İdi** (Markos 14:12–26; Yuhanna 13:1–30; Luka 22:54–62). Tamar üst odalı evde gündelikçi aşçıdır; testi taşıyan uşak (Markos 14:13) onun iş arkadaşıdır. Maya araması kandil ışığında yapılır: sözlerden ekmeğin nerede yendiği çıkarılır ve kırıntının gölgesi ancak kandil Alçak tutuşla yere yakın tutulunca görünür. Havanda haroset'in kuru harcı dövülür ve mayasız hamur yoğrulur (Ez/Karıştır tanıtımı); acı otlar pazardan seçilip yıkanır, ezilmez. On üç kişilik sofra, Nisan'ın 13'ünün ikindisinde, maya aramasından önce yaslanarak oturulacak biçimde düzenlenir; leğenin yeri o sırada hasırla işaretlenir. Hazırlık sırası vakitlere bölünür. Tamar leğeni ve havluyu kapıya getirir; hizmetkârın işini İsa üstlenir (13:4–5). Sofra sözleri bir tablodur. Merdivende kandille duran Tamar, dışarı çıkan Yahuda'yla karşılaşır: kandili uzatabilir, bir şey sorabilir, susabilir ya da geri çekilebilir. Yahuda her durumda gider. Damdan, Kidron'un ötesinde meşaleler uzak bir silüet olarak görünür. Şafakta kapıdaki soru sorulur (§8.5).
 
 **9. Uzaktan** (Luka 23:26–56; Markos 15:21). Bilinçli olarak bulmaca yoktur. Kalabalık Tamar'ı sürükler (4. bölümün tersine). Yeruşalim kızları arasında Tamar, İsa'nın onlara dönüp söylediği sözleri duyar (23:28) ve Kireneli Simun'u görür. Golgota'da kadınlarla birlikte uzakta durur. Çarmıha germe anında kalabalık görüşü kapatır, ardından gökyüzüne karşı üç silüet belirir. Öğle karanlığında renkler çekilir; yalnızca kadınların örtüleri ve varsa Tamar'ın bileğindeki çivit iplik renkli kalır. Oyuncunun tek eylemi **Kal** tutuşudur. Tuşu bırakmanın cezası yoktur ve hiçbir şey kaydedilmez. İsa'nın son sözleri yalnızca metin olarak verilir, ardından yüzbaşının sözü gelir (23:47). Kalabalıktaki Yüzler önceki seçimleri yansıtır. Mezarın yeri görülür (23:55) ve güneş batmadan baharat dövülür (23:56). **Şabat:** iş yapmak yasaktır. Oyuncu yalnızca evin tek odasında Hatıra nesneleri arasında dolaşır; metinler seçimlere göre değişir. Yankı: "Her şey bitti" diyen Yoram'a umut, sessiz yakınlık ya da paylaşılan öfke.
 
@@ -817,17 +820,17 @@ Her bölümün ayrıntılı tasarım belgesi `docs/bolumler/` altındadır; tabl
 | Kalem | Tahmin / tavan | Not |
 |---|---|---|
 | Haritalar | 24 (tavan 24) | Bölümlere göre 1: 2 · 2: 2 · 3: 2 · 4: 2 · 5: 1 · 6: 3 · 7: 5 · 8: 3 · 9: 3 · 10: 1. Yeniden kullanım: 6C ← 4B; 7'de 2B'nin kıyısı; 9'da 8C; 10'da 9C, 9D, 8A. Emmaus ve Antakya yok; çerçeve ve epilog sabit kompozisyondur |
-| Karo setleri | 6 | Yahudiye kırsalı (1. bölüm kurar); Celile köyü ve gölü ile iç mekân kiti (3. bölüm, dikey dilim); çöl ve ırmak (2); Anlatılan Sahne (5; 6'da da); Yeruşalim (8). 1. bölümün Ev 4 içi iç mekân kitine köy evi parçaları ekler |
+| Karo setleri | 6 | Yahudiye kırsalı (1. bölüm kurar); Celile köyü ve gölü ile iç mekân kiti (3. bölüm, dikey dilim); çöl ve ırmak (2); Anlatılan Sahne (5; 6'da da); Yeruşalim (8). 1. bölümün Ev 4 içi iç mekân kitine köy evi parçaları ekler (hayvan bölmesi, tabana oyulmuş taş yemlik, kaya oyuğu) |
 | Adlandırılmış karakter | 38 (tavan 40): bölümlerde 32, epilogda 6 portre varyantı | Kendine özgü sprite seti ya da portresi olanlar; yaş varyantları ayrı; adlı kit NPC ≈50 ayrı sayılır (bölüm başına en fazla 10); konuşan öğrenci en fazla 6 |
 | Kalabalık kiti | 12 yetişkin gövde + çocuk gövdeleri × 8 kafa × palet; 6 tekil kafa | 4 yönlü; kadın gövdelerinde örtü ayrı katman; asker varyantları (Hirodes ordusu, Roma yardımcı birliği); Anlatılan Sahne silüet kiti ayrı (32×48, tek tonlu); §11.5 |
-| Animasyon dizisi | **≈425, tavan 450** | Bölüm sayımları (ortak dizi, ilk çizen bölüme yazılır): 1: 48 · 2: 31 · 3: 36 · 4: 40 · 5: 41 · 6: 47 · 7: 50 · 8: 38 · 9: 38 · 10: 29 = ≈398; ortak temel setler ≈26 (yetişkin Tamar ≈8, İsa 2, Yoram 3, yaşlı Hulda 3, kalabalık kiti ≈10). Karakterlere göre: yetişkin Tamar ≈106 (3/4 ≈84, yan görünüm büyük sprite 14, temel set ≈8), çocuk Tamar 17, İsa ≈19, Yoram ≈16 (yan görünüm 10 dahil), NPC, kalabalık, hayvan ve silüetler ≈265 |
+| Animasyon dizisi | **≈425, tavan 450** | Bölüm sayımları (ortak dizi, ilk çizen bölüme yazılır): 1: 48 · 2: 31 · 3: 36 · 4: 40 · 5: 41 · 6: 47 · 7: 50 · 8: 38 · 9: 37 · 10: 29 = ≈397; ortak temel setler ≈26 (yetişkin Tamar ≈8, İsa 2, Yoram 3, yaşlı Hulda 3, kalabalık kiti ≈10). Karakterlere göre: yetişkin Tamar ≈106 (3/4 ≈84, yan görünüm büyük sprite 14, temel set ≈8), çocuk Tamar 17, İsa ≈19, Yoram ≈16 (yan görünüm 10 dahil), NPC, kalabalık, hayvan ve silüetler ≈265 |
 | Yan görünüm set-piece | 5 (tavan 6) | §11.1; altıncı yuva yedek |
 | Anlatılan Sahne şeridi | 2 | Eriha'ya iniş (5), eve dönen yol (6); set-piece tavanına sayılmaz |
 | Tablo | 8 (tavan 12) | §11.5 |
 | Anlatılan Sahne kartı | 3 (tavan 6) | 2. bölüm; tablo tavanına sayılmaz |
 | Önceden çizilmiş kompozisyon | yakın plan 3 · gök çizimi 10 · uzak kompozisyon 1 · pano 4 | 5. bölümde sargı panosu ve semer kenar çizimi; 7. bölümde yüz bezi; 7. bölümde 4 gök şeridi (1280×320); 10. bölümde 6 gök görünümü; 9. bölümde Golgota yamacının uzak çizimi; 2. bölümde çetele hasırı, 7. bölümde ev planı, 8. bölümde vakit panosu ve üst oda planı |
 | Hatıra nesnesi simgesi | 40 × 16×16 | Bölüm başına 4; tek atlas (9. bölümün Şabat odası); aynı simge Heybe'de kullanılır |
-| Portre | 24 (bölümlerde 18, epilogda 6 varyant) × 2–6 ifade | Yetişkin Tamar 6 ifade; epilog portreleri mevcut portrelerden türetilir, animasyon dizileri yoktur; İsa ve §10'daki portre kuralının kapsadığı kişiler için yok (bölümlerde hiçbir Meryem portreli değildir; Yahya için de yok, §2.2-A) |
+| Portre | 24 (bölümlerde 18, epilogda 6 varyant) × 2–6 ifade | Yetişkin Tamar 6 ifade; epilog portreleri mevcut portrelerden türetilir, animasyon dizileri yoktur; İsa ve kanonik Meryemler için yok (§10; bölümlerde hiçbir Meryem portreli değildir); Yahya için de yok (§2.2-A) |
 | Metin | 60–75 bin kelime | |
 | Seslendirme | ~8 bin kelime anlatıcı (TR + EN) | Metin kilidinden sonra kayıt |
 | Müzik | ~75 dk, ~30 parça | |
@@ -877,7 +880,7 @@ Metin bölüm bölüm kilitlenir. Kurulun inceleme süresi bölüm başına 3 ha
 | Öncelik | Kesilebilecekler |
 |---|---|
 | Önce | Yan hikâyeler 10 yerine 5; İbranice Hallel kaydı; İngilizce seslendirme (yalnızca altyazı) |
-| Sonra | Yoram'ın fırtınası Anlatılan Sahne şeridine çevrilir (dönüş girdisi korunur); 6. bölümün domuz bulmacası 20 sn'lik montaja iner; tablolar 8 yerine 7 (9. bölümün Pilatus köprü tablosu; aktarım kalır); 7. bölümde Eriha yolunun B3 bölmesi montaja (harita 24 → 23); 10. bölümün koşusundaki Kayafa kapısı bölümü; 9. bölümde Kalabalıktaki Yüzler tek varyanta; epilog yuvaları 6 yerine 4 |
+| Sonra | Yoram'ın fırtınası Anlatılan Sahne şeridine çevrilir (dönüş girdisi korunur); 6. bölümün domuz bulmacası 20 sn'lik montaja iner; tablolar 8 yerine 7 (9. bölümün Pilatus köprü tablosu; aktarım kalır); 7. bölümde Eriha yolunun B3 bölmesi montaja (harita 24 → 23); 10. bölümün koşusundaki başkâhinin dış kapısı bölümü; 9. bölümde Kalabalıktaki Yüzler tek varyanta; epilog yuvaları 8 yerine 6 (Son sahnenin biçimi, `b10_tanik`, kesilmez) |
 | Dokunulmaz | §2 kontrol listesi; 10 bölüm; Kana ve Lazar set-piece'leri; 9. bölümün ölçülülüğü, Kal'ı ve Şabat odası; 9. bölümde taşın kanaldan kayışı ve Cuma hatıraları (10. bölümün B2'si bunlara dayanır); 4. bölümün Kandil öğretimi (Sahne 11); 2. bölümün Şabat görüntüsü; erişilebilirlik çekirdeği (9. bölümün uzak kompozisyonu dahil) |
 
 ### 16.5 Riskler

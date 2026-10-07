@@ -11,12 +11,12 @@
 | **Yer, vakit, yıl** | Yahudiye kırsalında, kuzeydeki sırt yolu üstünde, Yeruşalim'e üç saatlik yol kala bir mola yeri. Güz başı, Çardak Bayramı'ndan birkaç gün önce. Mevsim oyunun kurgusudur: Luka mevsim vermez ve oyun İsa'nın bu yolculukta bayrama gittiğini ileri sürmez (Kodeks 11). Yaklaşık MS 29 (*doğrulanmalı*) |
 | **Erişim düzeyi (§3.4)** | Kalabalıkta; benzetme Anlatılan Sahne'de |
 | **Yeni fiil / kıvrım** | **Bağla/Çöz** (2. sahnede görev sayılmayan bir anda öğretilir, P2'de ilk kez gerçekten kullanılır) / **Anlatılan Sahne kipinde yan şerit** (§5.2) |
-| **Kullanılan mekanikler** | Bakış, Taşı (yük dengesi), Dök, Bağla/Çöz, Söz, Seğirtme |
+| **Kullanılan mekanikler** | Bakış, Taşı (yük dengesi al-koy ile; Dök'te kap kavranır, GDD §5.1c), Dök, Bağla/Çöz, Söz, Seğirtme |
 | **Zorluk** | 3 (P1 1,5 · P2 2, Usta kısıtıyla 3 · P3 3) |
-| **Tahmini süre** | Ana yol ≈39 dk (keşif/iş 8,5 · bulmaca 12 · katılım 10 · yankı ve çerçeve 8,5); yan hikâye +7 dk. Her görevin **temiz çözüm süresi** §5.4-1'in sınırı içindedir (P1 ≤2, P2 ≤3, P3 ≤3 dk). Sahne tablosundaki bulmaca dakikaları **oyun testi medyanı** hedefidir: düşünme, hatalı denemeler ve ipucu dahildir. Bütün bulmacaları El işi olan bu bölümde §4.1'in 14 dakikalık bulmaca payına 2 dakika eksik kalınır (§17-9) |
+| **Tahmini süre** | Ana yol ≈39 dk (keşif/iş 8,5 · bulmaca 12 · katılım 10 · yankı ve çerçeve 8,5); yan hikâye +7 dk. Her görevin **temiz çözüm süresi** §5.4-1'in sınırı içindedir (P1 ≤2, P2 ≤3, P3 ≤3 dk). Sahne tablosundaki bulmaca dakikaları **oyun testi medyanı** hedefidir: düşünme, hatalı denemeler ve ipucu dahildir. Bütün bulmacaları El işi olan bu bölümün dökümü GDD §4.1'in 5. bölüm satırıyla aynıdır (bulmaca 12, toplam 39 dk; §17-9) |
 | **Duygusal yay** | Yorgun bir güven → yerde yatanın çaresizliği → yabancının şefkati → gururla yüzleşme |
 | **Palet ve ışık anahtarı** | Parşömen sepyası, kuru okra, kireç taşı. Tek vurgu rengi **çivit**: benzetmede Samiriyelinin örtüsü ve ondan yırtılan sargı şeritleri; gerçek dünyada yalnızca Dositeos'un baş bezi. Benzetmede kandil gölgesi, dışarıda kuşluktan ikindi sonuna alçalan güneş |
-| **Kurulan bayraklar** | `b05_dositeos`, `b05_ifade_sargi` (yeni; §17), `ilis_dositeos`, `eks_el`, `usta_b05_artan_sarap`, `kol_b05_kup_muhru`, `kol_b05_menengic_yapragi`, `kol_b05_civit_iplik`, `kol_b05_kinnor_teli`, `tan_b05_kararli_yuruyus`, `tan_b05_ayaga_kalkti` |
+| **Kurulan bayraklar** | `b05_dositeos`, `b05_ifade_sargi`, `ilis_dositeos`, `eks_el`, `usta_b05_artan_sarap`, `kol_b05_kup_muhru`, `kol_b05_menengic_yapragi`, `kol_b05_civit_iplik`, `kol_b05_kinnor_teli`, `tan_b05_kararli_yuruyus`, `tan_b05_ayaga_kalkti` |
 | **Okunan bayraklar** | `b02_tedarikci`, `b03_suc`, `ilis_dositeos`; tek bir satırda `b04_yoram` |
 
 ## 1. Kaynak Metin ve Uyarlama Sınırları
@@ -122,22 +122,22 @@ Arkadan aydınlatılmış sıcak parşömen üzerinde, kandil gölgesi üslubund
 
 ## 6. Bulmacalar
 
-**§5.4 görev sırası (ana girdi biçimine göre):** P1 (Taşı: A ile al ve koy) → P2 (Dök: RT ve sol çubuk eğimi; Bağla: sağ çubukla daire) → P3 (Taşı: A ile yerleştirme; sol çubukla yan seçimi) → yan hikâye (Bağla: sağ çubukla çeyrek daire) → ilk yardım (görev değil; yalnızca A). Art arda gelen iki görev aynı ana girdi biçimini paylaşmaz. A ile onay, sol çubukla yürüme ve D-pad ile seçim arayüz girdisi sayılır; §5.4-2'nin bu okuması GDD'de netleşmelidir (§17-10). 2. sahnedeki yular bağlama ve 9. sahnedeki çözme görev değildir.
+**§5.4 görev sırası (ana girdi biçimine göre):** P1 (Taşı: al-koy) → P2 (Dök: kavranmış kapla eğim; Bağla: daire) → P3 (Taşı: al-koy; yan seçimi yürüyüşle) → yan hikâye (Bağla: çeyrek daire) → ilk yardım (görev değil; yalnızca Etkileşim). Art arda gelen iki görev aynı ana girdi biçimini paylaşmaz; onay, yürüme ve kip içi seçim sayılmaz (GDD §5.4-2; §17-10). 2. sahnedeki yular bağlama ve 9. sahnedeki çözme görev değildir.
 
-**Bağla öğretimi (2. sahne; görev değil, yazısız, ≈30 sn):** Tamar Boz'un yularını menengicin gövdesine kendisi bağlar. Sağ çubuğun saat yönündeki her tam dairesi bir tur sarar; her turda ipte bir çentik belirir ve gerginlik titreşimle artar. A düğüm atar; ters yöndeki daire turu çözer (Çöz). Elkana: "İki tur yeter, kızım; üçüncüsü fazla. Çözerken de sen uğraşırsın." Yanlış yoktur ve hiçbir şey kaydedilmez: üçüncü turda ip gıcırdar, Elkana güler. 9. sahnede Tamar yuları aynı girdinin tersiyle çözer.
+**Bağla öğretimi (2. sahne; görev değil, yazısız, ≈30 sn):** Tamar Boz'un yularını menengicin gövdesine kendisi bağlar. Bağla'nın saat yönündeki her tam dairesi bir tur sarar; her turda ipte bir çentik belirir ve gerginlik titreşimle artar. Etkileşim düğüm atar; ters yöndeki daire turu çözer (Çöz). Elkana: "İki tur yeter, kızım; üçüncüsü fazla. Çözerken de sen uğraşırsın." Yanlış yoktur ve hiçbir şey kaydedilmez: üçüncü turda ip gıcırdar, Elkana güler. 9. sahnede Tamar yuları aynı girdinin tersiyle çözer.
 
 **Yokebed'in gösterimi (2. sahne; izlenir, ≈45 sn):** Yokebed bir çocuğun dizindeki sıyrığa önce şarap, sonra yağ döker ve bezi sıkıca iki tur sarar: "Önce şarap; kir gitsin. Sonra yağ; acısı dinsin. En son bez: kanayan yeri sıkı sar, iki tur." Ardından yaşlı bir hacının şişmiş bileğine yalnızca yağ sürer ve bezi gevşek bir tur sarar: "Deri sağlam, şiş içeride; şarap ne yapsın? Yağ sürerim, gevşek sararım, bir tur. Sıkarsam parmakların morarır." Bu sözler P2'nin 3. ışığında Tamar'ın belleğinde yankılanır.
 
 ### 6.1 P1 — İki Küfe (günün işi)
 
-**Tür:** Taşı, yük dengesi (A ile al ve koy) · **Zorluk:** 1,5 · **Görev süresi:** ≤2 dk (oyun testi medyanı hedefi 3 dk)
+**Tür:** Taşı (al-koy), yük dengesi · **Zorluk:** 1,5 · **Görev süresi:** ≤2 dk (oyun testi medyanı hedefi 3 dk)
 
 **Dünyadaki sebep:** Tamar bayramdan önceki pazarda satacağı tuzlu balığın kazancıyla annesi Hulda'ya Eriha balsamıyla yapılmış küçük bir şişe merhem alacaktır. Boz'un yükü dengesizdir.
 
-**Kurulum:** İki küfe ve biçimleriyle ayrılan altı yük: **iki balık küpü**, **garum testisi** (ince boyunlu), **mercimek çuvalı**, **bohça**, **su tulumu**. Tasarım ağırlıkları: küpler ve çuval 2'şer, öbürleri 1'er. Ağırlık kaldırınca okunur: ağır yükü Tamar iki elle ve yavaş taşır (hız −%40; 4. ve 6. bölümlerle aynı uzlaşım), hafif yükü tek elle. Boz'un semerinin ön kaşından taşlı bir ip sarkar. Bu **çekül** iki küfe arasındaki farkı beş açıyla gösterir ve P3'teki kenar çiziminin habercisidir. Rahat ayarında çakıl rakamları da görünür.
+**Kurulum:** İki küfe ve biçimleriyle ayrılan altı yük: **iki balık küpü**, **garum testisi** (ince boyunlu), **mercimek çuvalı**, **bohça**, **su tulumu**. Tasarım ağırlıkları: küpler ve çuval 2'şer, öbürleri 1'er. Ağırlık kaldırınca okunur: ağır yükü Tamar iki elle ve yavaş taşır (hız −%40; GDD §5.1c), hafif yükü tek elle ve hız kaybı olmadan. Boz'un semerinin ön kaşından taşlı bir ip sarkar. Bu **çekül** iki küfe arasındaki farkı beş açıyla gösterir ve P3'teki kenar çiziminin habercisidir. Rahat ayarında çakıl rakamları da görünür.
 
 **Kurallar:**
-1. A ile yük alınıp bir küfeye bırakılır. Su tulumu taşınırken küfelerden uzakta A'ya basılırsa tulum Tamar'ın omzuna asılır. Bir küfeye en çok 3 yük girer.
+1. Yük al-koy ile alınıp bir küfeye bırakılır. Su tulumu taşınırken küfelerden uzakta koy eylemi yapılırsa tulum yere değil Tamar'ın omzuna asılır; omuzdaki tulum hafif yüktür ve hızı değiştirmez (GDD §5.1c'deki omuz yükü 10. bölümündür). Bir küfeye en çok 3 yük girer.
 2. Garum testisi bir küple aynı küfeye konamaz ("İnce testi kalın küpün yanında çatlar"); yerleştirme reddedilir, hiçbir şey kırılmaz.
 3. Boz yalnızca iki küfe arasındaki fark en çok 1 ise yürür; değilse çekül yatar ve Boz başını sallar.
 
@@ -167,14 +167,14 @@ Bu bulmacada dönemeç kuralı yoktur; dönemeçler ilk kez P3'te gelir.
 
 Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan okunur.
 
-**Kontroller:** D-pad ←/→ yarayı, ↑/↓ kabı seçer. RT kabı seçili yaranın üstünde tutar; sol çubuk 45°'yi geçip 0,8 sn tutulursa **bir dökme** akar (yarım dökme yok). Örtü seçiliyken A bir şerit yırtıp yaraya koyar. **Bağla:** Sağ çubuğun saat yönündeki her tam dairesi 1 tur sarar (bez gıcırdar, titreşim artar); ters yöndeki her daire 1 tur çözer (**Çöz**). A düğüm atar. Şerit yaraya konduktan sonra, düğüm kabul edilene ya da sargı tümden çözülene kadar yara seçimi kilitlidir; bu sırada D-pad ←/→ dönüşümlü basış Bağla'nın erişilebilir karşılığıdır. **Klavye:** yara 1–3 ya da fare tıklaması; kap W/S; dökme sol tık basılı + A/D; şerit ve düğüm E; Bağla fare dairesi ya da (yalnızca sargı sürerken) ←/→ dönüşümlü.
+**Kontroller** (eylem adlarıyla; tuşlar GDD §5.1a'dadır): El işi kipinde yatay seçim yarayı, dikey seçim kabı seçer; klavyede yara 1–3 kısayoluyla ya da fareyle de seçilir. Kavrama kabı seçili yaranın üstünde tutar; Dök eğimi 45°'yi geçip 0,8 sn tutulursa **bir dökme** akar (yarım dökme yok). Örtü seçiliyken Etkileşim bir şerit yırtıp yaraya koyar. **Bağla:** Saat yönündeki her tam daire 1 tur sarar (bez gıcırdar, titreşim artar); ters yöndeki her daire 1 tur çözer (**Çöz**). Etkileşim düğüm atar. Şerit yaraya konduktan sonra, düğüm kabul edilene ya da sargı tümden çözülene kadar yara seçimi kilitlidir; bu sırada ←/→ dönüşümlü basış Bağla'nın erişilebilir karşılığıdır.
 
 **Kurallar:**
 1. Açık yaraya dökülen her şarap 1 kir siler. Yaralı irkilir ve yarada **yanma** belirir (dalgalı çizgi).
 2. Kiri kalmamış yaraya ya da kapalı deriye dökülen şarap toprağa akar; o dökme boşa gider.
 3. Yağ yalnızca kiri silinmiş yaraya dökülür. Kirli yaraya yağ tutulursa Samiriyelinin eli durur, şişe eğilmez; Tamar: "Önce kir." Her yara tek bir yağ alır; ikinci yağ da aynı biçimde reddedilir. Bu yüzden yağ hiçbir zaman boşa gitmez.
 4. Yağ yanmayı, dizde de şişliğin sızısını yatıştırır.
-5. Düğüm atılınca sargı **kabul tablosuna** göre değerlendirilir. Eller kabul edilmeyen düğümü bırakmaz: oyuncu tur ekler ya da çözer ve yeniden A'ya basar, ya da sargıyı Çöz ile tümden açıp eksik adımı tamamlar. Şerit yeniden kullanılır.
+5. Düğüm atılınca sargı **kabul tablosuna** göre değerlendirilir. Eller kabul edilmeyen düğümü bırakmaz: oyuncu tur ekler ya da çözer ve yeniden düğüm atar, ya da sargıyı Çöz ile tümden açıp eksik adımı tamamlar. Şerit yeniden kullanılır.
 6. **Su:** Şarap bitene kadar kapalıdır ("Şarap varken yolun suyuna dokunmam"). Sonra sınırsızdır; her dökme 1 kir siler ve yanma yapmaz. Böylece şarap boşa gitse de bulmaca her durumda biter.
 7. **Bitiş:** Üç yarada da kabul edilmiş düğüm. Yaraların sırası serbesttir.
 
@@ -201,7 +201,7 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 
 ### 6.3 P3 — Kendi Hayvanına (imza bulmaca, 2. kısım; "aha")
 
-**Tür:** Taşı, yük dengesi (A ile yerleştirme; RT kullanılmaz) · **Zorluk:** 3 · **Görev süresi:** ≤3 dk (düzen 2 dk + iniş 1 dk; oyun testi medyanı hedefi 5,5 dk, çünkü ilk doğal deneme V1'de bozulacak biçimde tasarlandı)
+**Tür:** Taşı (al-koy; kavrama kullanılmaz), yük dengesi · **Zorluk:** 3 · **Görev süresi:** ≤3 dk (düzen 2 dk + iniş 1 dk; oyun testi medyanı hedefi 5,5 dk, çünkü ilk doğal deneme V1'de bozulacak biçimde tasarlandı)
 
 **Dünyadaki sebep:** 10:34b. Yarı ölü bir adam eşeğin üstünde kendi kendine oturamaz. Yol üç dönemeçle iner.
 
@@ -213,7 +213,7 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 - **Ekran 3:** Kısa bir sahanlık ve **V3** (V1 gibi; dış yan yakın), ardından han yolunun başı.
 - **Dünya içi işaret:** Her dönemecin dış yanında uçurum kenarı, iç yanında kaya duvarı bir ekran önceden görünür (V1'inki başlangıç düzlüğünden). Rahat ayarında dış yan ayrıca okla çizilir.
 
-**Kontroller:** Yaralının üstünde A 1 sn basılı tutulunca (aç/kapa seçeneği vardır) Samiriyeli onu yavaşça kaldırır ve semerin **ortasına** oturtur. Yaslamak ayrı bir eylemdir: oturan yaralı A ile seçilir; D-pad ←/→ ile **ortada**, **yakın yana yaslı**, **uzak yana yaslı** ve **yüzüstü** arasında dolaşılır; A ile onaylanır. Heybe ve tulum A ile alınır, D-pad ←/→ ile yuvalar arasında dolaşılır (heybe: yakın kanca, uzak kanca; tulum: yakın kanca, uzak kanca, Samiriyelinin **omzu**), A ile bırakılır. Sol çubuk sağa: yürü. **Sola girdi yok sayılır**; eşek yalnızca iner ya da durur, geri adım animasyonu yoktur. Sol çubuk aşağı/yukarı Samiriyeliyi yakın ya da uzak yana geçirir; bu, düzlüklerde ve bir dönemecin girişinde durmuş eşeğin yanında yapılabilir. **Klavye:** E seç/bırak (yaralıyı kaldırmak için basılı), ←/→ yuva, D yürü, S/W yakın/uzak yan.
+**Kontroller** (eylem adlarıyla): Yaralının üstünde Etkileşim 1 sn basılı tutulunca (aç/kapa seçeneği vardır) Samiriyeli onu yavaşça kaldırır ve semerin **ortasına** oturtur. Yaslamak ayrı bir eylemdir: oturan yaralı Etkileşim ile seçilir; yatay seçimle **ortada**, **yakın yana yaslı**, **uzak yana yaslı** ve **yüzüstü** arasında dolaşılır; Etkileşim ile onaylanır. Heybe ve tulum al-koy ile alınır, yatay seçimle yuvalar arasında dolaşılır (heybe: yakın kanca, uzak kanca; tulum: yakın kanca, uzak kanca, Samiriyelinin **omzu**), al-koy ile bırakılır. Yürü yalnızca sağa işler. **Sola girdi yok sayılır**; eşek yalnızca iner ya da durur, geri adım animasyonu yoktur. Yürü'nün aşağı/yukarı yönü Samiriyeliyi yakın ya da uzak yana geçirir; bu, düzlüklerde ve bir dönemecin girişinde durmuş eşeğin yanında yapılabilir.
 
 **Kurallar:**
 1. Düzlükte iki yan arasındaki fark en çok 1 olmalıdır; değilse eşek yola çıkmaz ve çekül yatar.
@@ -239,13 +239,13 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 
 ### 7.1 Yaralının bakışı ve han
 
-**Kontroller:** Ş1'de yalnızca yürümek; **sola girdi yok sayılır**, yolcu yalnızca iner ya da durur, geri adım animasyonu yoktur. Ş2'de yalnızca Bakış (sağ çubukla ±40°) ve A (zayıf bir el hareketi ve soluk).
+**Kontroller:** Ş1'de yalnızca yürümek; **sola girdi yok sayılır**, yolcu yalnızca iner ya da durur, geri adım animasyonu yoktur. Ş2'de yalnızca Bakış (bakış yönü ±40°) ve Etkileşim (zayıf bir el hareketi ve soluk).
 
 1. **Parşömen açılır ve Ş1 (≈35 sn):** Oyuncu yolcuyu yokuş aşağı yürütür; 10:30a üst satırda belirir. Dar boğazda ışık titrer, kayalardan iki gölge uzanır. **Kurgu kesmesi:** karanlık, 1,5 sn tam sessizlik ve 10:30b. Darbe, ses ya da kan yoktur.
-2. **Ş2, yalnız yatış (≈50 sn):** Yolcu yakın kenarda, iç giysisiyle yatar. Bakış göğe (tek bir kerkenez), yola ve kendi eline gider; Bakış tutulurken uzak ayak sesleri netleşir. A ile el birkaç piksel kalkar. **Bu ses kimseye ulaşmaz.**
+2. **Ş2, yalnız yatış (≈50 sn):** Yolcu yakın kenarda, iç giysisiyle yatar. Bakış göğe (tek bir kerkenez), yola ve kendi eline gider; Bakış tutulurken uzak ayak sesleri netleşir. Etkileşim ile el birkaç piksel kalkar. **Bu ses kimseye ulaşmaz.**
 3. **Kâhin (10:31; ≈30 sn) ve Levili (10:32; ≈35 sn):** Kâhin durur, eli göğsüne gider, uzak kenardan geçer. Levili daha yakına gelir, biraz daha uzun durur, o da geçer. Davranışları girdiden bağımsızdır. Yeniden yalnızlık (≈15 sn); Tamar'ın iç sesi anlatı satırlarının arasında belirir: "Neden geçtiler? Bunu söylemedi."
 4. **Samiriyeli (10:33; ≈40 sn):** Uzaktan yaklaşır; sepya dünyaya tek renk girer: çivit örtü. Samiriyeli diz çöker ve gölgesi yaralının yüzüne düşer. **Kısa sessizlik (4 sn):** Bütün girdiler çekilir. Kurgu kesmesiyle oyuncu Samiriyelinin omzunun üstünden bakmaya başlar.
-5. **Ş5 Han (10:34c–35; ≈1,5 dk):** Gece oyuncu yaralıya su verir (A). Yaralının eli Ş2'deki aynı hareketle kalkar ve Samiriyelinin eli onu karşılar. Duvar oyuğundaki kandile Bakış'la bakılabilir. Şafakta kesede başka sikkeler de görünür, ama yalnızca iki dinar parlar ve etkileşimlidir; A'ya iki kez basılınca iki dinar hancının avucuna düşer. Başka seçenek yoktur. 10:35 üst satırda akar.
+5. **Ş5 Han (10:34c–35; ≈1,5 dk):** Gece oyuncu yaralıya su verir (Etkileşim). Yaralının eli Ş2'deki aynı hareketle kalkar ve Samiriyelinin eli onu karşılar. Duvar oyuğundaki kandile Bakış'la bakılabilir. Şafakta kesede başka sikkeler de görünür, ama yalnızca iki dinar parlar ve etkileşimlidir; iki kez Etkileşim yapılınca iki dinar hancının avucuna düşer. Başka seçenek yoktur. 10:35 üst satırda akar.
 
 **Girdi yoksa:** Ş1'de yolcu 10 sn sonra kendiliğinden yürür. Ş2 hiçbir girdi gerektirmez. Han'da eller 8 sn sonra kendiliğinden davranır. **Kaydedilen ifade:** Yok.
 
@@ -265,15 +265,15 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 | Bağlam | Seçenekler | Anlık tepki | Bayrak / eksen / ilişki | Okunur |
 |---|---|---|---|---|
 | Zilpa (Söz, 2. sahne): "Yolun başında bir Samiriye köyü O'nu kabul etmemiş. İki öğrencisi gökten ateş yağsın istemiş; O onları azarlamış." | "Bizimkiler de onlara kapı açmaz." · "Bir Samiriyeli bir keresinde arabamı onardı." · *Sessiz kal* | "Öyle. İki yandan da kapı kapalı." / "Öyle mi? Hayret." / Omuz silker | Yok (yalnızca ton) | — |
-| **İfade:** P2'deki sargı hızı | Kabul edilen üç sargıda tur başına ortalama süre | — | Daire girdisinde (sağ çubuk ya da fare) tur başına ≥1,2 sn → `b05_ifade_sargi = ozenli`, altı → `cabuk`. Dönüşümlü basışta basışlar arası ortalama ≥0,3 sn → `ozenli`, altı → `cabuk`. "Otomatik sar" ve Hikâye kipinde boş | 7 |
-| **Yankı** (Söz). Dositeos: "Adamlarım develerle arkadan geliyor... akşama burada olurlar. Belki." | **"Yükü bırakıyorum. Boz'a bin; seni köye götüreyim."** · **"Kervanıma yetişmeliyim. Ama sana para bırakıp adamlarına haber salacağım."** · **"Adamların arkadan geliyorsa... Annemin ilacı bu pazara bağlı. Rab yardımcın olsun."** · *Sessiz kal* | Küpler arabanın gölgesine iner; Tamar Dositeos'u Boz'un üstünde bir yana yaslar, bohçasını öbür yana asar / Sikkeler çoban çocuğu Yonatan'a sayılır, çocuk koşar / "Git, tuzlamacı. Pazarın kaçmasın." / Tamar konuşmadan sikkeleri Dositeos'un avucuna kapar, Yonatan'a yolu işaret eder | `b05_dositeos = yuk_birakti` → `eks_el +1`, `ilis_dositeos = yakin` · `para_gonderdi` (ve *Sessiz kal*) → `eks_el 0`, ilişki değişmez · `gecti` → `eks_el −1`, ilişki bir kademe düşer (`yakin`→`temkinli`, `temkinli`→`uzak`) | 6, 7, 9, ep; bant |
+| **İfade:** P2'deki sargı hızı | Kabul edilen üç sargıda tur başına ortalama süre | — | Daire girdisinde tur başına ≥1,2 sn → `b05_ifade_sargi = ozenli`, altı → `cabuk`. Dönüşümlü basışta basışlar arası ortalama ≥0,3 sn → `ozenli`, altı → `cabuk`. "Otomatik sar" ve Hikâye kipinde boş | 7 |
+| **Yankı** (Söz). Dositeos: "Adamlarım develerle arkadan geliyor... akşama burada olurlar. Belki." | **"Yükü bırakıyorum. Boz'a bin; seni köye götüreyim."** · **"Kervanıma yetişmeliyim. Ama sana para bırakıp adamlarına haber salacağım."** · **"Adamların arkadan geliyorsa... Annemin ilacı bu pazara bağlı. Rab yardımcın olsun."** · *Sessiz kal* | Küpler arabanın gölgesine iner; Tamar Dositeos'u Boz'un üstünde bir yana yaslar, bohçasını öbür yana asar / Sikkeler çoban çocuğu Yonatan'a sayılır, çocuk koşar / "Git, tuzlamacı. Pazarın kaçmasın." / Tamar konuşmadan sikkeleri Dositeos'un avucuna kapar, Yonatan'a yolu işaret eder | `b05_dositeos = yuk_birakti` → `eks_el +1`, `ilis_dositeos = yakin` · `para_gonderdi` (ve *Sessiz kal*) → `eks_el 0`, ilişki değişmez · `gecti` → `eks_el −1`, ilişki bir kademe düşer (`yakin`→`temkinli`, `temkinli`→`uzak`) | 6, 7, 9, 10, ep; bant |
 
-**`b05_ifade_sargi`'nin 7. bölümdeki okunuşu.** Bayrak yalnızca yüz örtüsü çözülmeye başlamadan önceki tek iç sesi seçer. Çözme hızının kendisi `b07_ifade_cozme_hizi`'ne yazılır ve epilogda okunur; böylece iki bayrak aynı anı beslemez. Epilogda okunmaz, çünkü §8.9'da bu bayrağa ait bir yuva yoktur. Önerilen satırlar (7. bölüm tasarımcısına):
+**`b05_ifade_sargi`'nin 7. bölümdeki okunuşu.** Bayrak yalnızca yüz örtüsü çözülmeye başlamadan önceki tek iç sesi seçer. Çözme hızının kendisi `b07_ifade_cozme_hizi`'ne yazılır ve epilogda okunur; böylece iki bayrak aynı anı beslemez. Epilogda okunmaz: GDD §8.4 bu bayrağın okunduğu yer olarak yalnızca 7'yi verir ve §8.9'daki anı yuvası yalnızca `ep` bayraklarını okur. Önerilen satırlar (7. bölüm tasarımcısına):
 - `ozenli`: "Bir hikâyede yaraları tur tur, yavaş sarmıştım. Bu bezi de öyle çözeceğim."
 - `cabuk`: "Bir hikâyede yaraları çabuk sarmıştım; yara beklemez. Bu bez de beklemesin."
 - boş: "Bir hikâyede sargı bağlamıştım. Şimdi çözüyorum."
 
-**Yankıdan önce, her yolda (görev değil):** Tamar diz çöker, Dositeos'a yudum yudum su verir (A) ve ıslak bir bezi bağlamadan alnına koyar (A). İç ses: "Bu kez kan yok, ateş var. Sıkmamalı." Kolunu kaldırırken çivit baş bezinden bir iplik Tamar'a takılır (`kol_b05_civit_iplik`, Bakış ile).
+**Yankıdan önce, her yolda (görev değil):** Tamar diz çöker, Dositeos'a yudum yudum su verir (Etkileşim) ve ıslak bir bezi bağlamadan alnına koyar (Etkileşim). İç ses: "Bu kez kan yok, ateş var. Sıkmamalı." Kolunu kaldırırken çivit baş bezinden bir iplik Tamar'a takılır (`kol_b05_civit_iplik`, Bakış ile).
 
 **Yolun hesabı:** Yankı ikindi sonunda geçer. Tamar'ın kenti kapılar kapanmadan bulması için önünde yaklaşık üç saatlik yol vardır; pazar şafakta kurulur. `gecti` ve `para_gonderdi` yollarında Tamar kapıya güneş batarken yetişir. `yuk_birakti` yolunda o gece köyde kalır, şafak pazarını kaçırır.
 
@@ -345,10 +345,10 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 **Kurulum:** Kinnorun on telinden üçü gevşektir (Kodeks 10); Bakış gevşek telleri belirginleştirir. Üç tel kalınlıklarıyla ayrılır: ince, orta, kalın. Matanya ninninin ilk sesini mırıldanır ve orta teli gösterir: "İlk ses bu telde." Tamar'ın belleğinde ninninin ilk üç sesi kesik bir mürekkep çizgisi olarak durur: ikinci ses birinciden incedir, üçüncüsü en kalındır.
 
 **Kurallar:**
-1. Sağ çubuğun saat yönündeki her çeyrek dairesi seçili teli bir kademe sıkar ve sesini inceltir; ters yön gevşetir. A teli çeker.
+1. Bağla'nın saat yönündeki her çeyrek dairesi seçili teli bir kademe sıkar ve sesini inceltir; ters yön gevşetir. Etkileşim teli çeker.
 2. **Vuru yalnızca ilk ses içindir:** Orta tel Matanya'nın mırıldandığı sesle birlikte titrer; sesler yaklaştıkça halkalar ve titreşim yavaşlar, eşleşince durur. Bu ses Tamar'a babasının ninnisini hatırlatır; Tamar mırıldanır: "Rab çobanımdır..." (Mezmur 23:1, [yakın aktarım]).
 3. İkinci ve üçüncü sesin hangi telde çalınacağını oyuncu seçer: ince ses ince telden, kalın ses kalın telden çıkar. Kalın tel ince sese kadar sıkılmaya çalışılırsa Matanya uyarır: "Dur! Gerisi kopar." Tel hiçbir zaman kopmaz.
-4. **Toplu doğrulama:** İnce ve kalın tel için vuru yoktur. Oyuncu üç teli seçtiği sırayla A ile çalınca mürekkep bir çizgi melodiyi çizer. Çizgi Tamar'ın belleğindeki kesik çizgiyle örtüşürse akort tamamdır; örtüşmeyen nokta çizginin üstünde ya da altında kalır.
+4. **Toplu doğrulama:** İnce ve kalın tel için vuru yoktur. Oyuncu üç teli seçtiği sırayla Etkileşim ile çalınca mürekkep bir çizgi melodiyi çizer. Çizgi Tamar'ın belleğindeki kesik çizgiyle örtüşürse akort tamamdır; örtüşmeyen nokta çizginin üstünde ya da altında kalır.
 
 **Çözüm:** İlk ses orta tel (4 kademe), ikinci ses ince tel (3 kademe), üçüncü ses kalın tel (5 kademe). Ardından 1–2–3 çalınır ve çizgiler örtüşür.
 
@@ -377,7 +377,7 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 
 ## 14. Erişilebilirlik ve Zorluk Ayarları
 
-- **Bağla:** Daire girdisi (sağ çubuk ya da fare), sargı sürerken ←/→ dönüşümlü basış (gamepad'de D-pad) ya da "otomatik sar"; tur sayısı çentikle ve isteğe bağlı rakamla gösterilir. **Dök:** Her dökme ayrık bir ölçüdür; eğim tutma süresi 0,4–1,5 sn arasında ayarlanır; basılı tutma için aç/kapa seçeneği vardır. **P3:** Yaralıyı kaldırmak için basılı tutmanın aç/kapa seçeneği vardır.
+- **Bağla:** Daire girdisi, sargı sürerken ←/→ dönüşümlü basış ya da "otomatik sar"; tur sayısı çentikle ve isteğe bağlı rakamla gösterilir. **Dök:** Her dökme ayrık bir ölçüdür; eğim tutma süresi 0,4–1,5 sn arasında ayarlanır; basılı tutma için aç/kapa seçeneği vardır. **P3:** Yaralıyı kaldırmak için basılı tutmanın aç/kapa seçeneği vardır.
 - **Görsel:** Yara durumu biçimle, denge çekülle ve isteğe bağlı rakamla okunur; yanlar kanca biçimiyle ve dünya içi dönemeç işaretleriyle ayrılır; çivit örtünün saçak deseni vardır. Akort görsel ve dokunsal olarak da yapılabilir; "otomatik akort" vardır.
 - **Hareket ve içerik:** Şerit kaydırması ve paralaks azaltılabilir; kesmedeki ışık titremesi ışık yumuşatma ayarına bağlıdır. Bölüm başında not: "Bir saldırı ima edilir, gösterilmez."
 - **Zorluk:** Rahat ayarında çakıl rakamları açılır, dönemeçlerin dış yanı okla da çizilir, 60 sn takılınca 1. ışık kendiliğinden gelir. Dengeli ve Usta'da ipucu yalnızca istenince gelir (P3'teki üç duruş kuralı hariç). Hikâye kipinde P1–P3 ve akort kendiliğinden çözülür. Usta ayarında `usta_b05_artan_sarap` simgesi görünür.
@@ -394,7 +394,7 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 
 ## 16. Üretim Notları
 
-- **Haritalar:** 1 (Harita A, kuşluk ve ikindi LUT'larıyla). Eriha'ya iniş Anlatılan Sahne şeridi kalemindedir ve harita sayılmaz (GDD §16.1). **Karo setleri:** Yahudiye kırsalı ve Anlatılan Sahne (ikisi de §16.1'in altı setinde). **Önceden çizilmiş panel:** 2 (sargı panosu, semer kenar çizimi).
+- **Haritalar:** 1 (Harita A, kuşluk ve ikindi LUT'larıyla). Eriha'ya iniş Anlatılan Sahne şeridi kalemindedir ve harita sayılmaz (GDD §16.1). **Karo setleri:** Yahudiye kırsalı (1. bölümün kurduğu set; yeniden kullanım) ve Anlatılan Sahne (bu bölüm kurar, 6. bölüm de kullanır); ikisi de §16.1'in altı setindedir. **Önceden çizilmiş yakın plan:** 2 (sargı panosu, semer kenar çizimi; §16.1'deki 3 yakın planın ikisi).
 - **Anlatılan Sahne şeridinin elle betiklenmiş varlıkları:** 5 bölüm (Ş1–Ş5; Ş4 üç ekran), kenar çizimi, dönemeç işaretleri, kesme (3 sn), parşömen katlanması (mevcut silme geçişi).
 - **Sargı panosu durum matrisi (katman, animasyon değil):**
 
@@ -406,7 +406,7 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 
   Toplam ≈9 yara durumu, 9 sargı katmanı (tur başına 3 kare) ve 6 geri bildirim katmanı; ortak parçacıklar: boşa akan şarap, su. Mühürleme durumları tasarımdan çıkarıldı.
 - **Karakterler:** Yeni portre yok; Dositeos'a 1 ifade eklenir. Yeni NPC'ler kit varyantıdır. Benzetme siluetleri tek tonludur, normal harita kullanmaz.
-- **Animasyon dizileri ≈41:** Tamar 7 (yular bağlama ve çözme, küfeye koyma, tulumu omza asma, eşek yedme, su verme, bez koyma, küp indirme; iki elle yavaş taşıma mevcut setten); Dositeos 3; Boz 2; Elkana 1 (yün denkini yaslama); Yokebed 1 (sargı gösterimi; çocuk ve bilek aynı dizi); Matanya 2; uzman 2; İsa 1; kalabalık 1. Siluetler: yolcu 4, kâhin ve Levili 3, Samiriyeli 5, eşek 2, hancı 1, gölgeler 1. Sargı panosu elleri 5 (dökme [kap ayrı katmanda], şerit yırtma ve koyma, sarma turu, düğüm, eli durdurma; çözme sarmanın tersidir).
+- **Animasyon dizileri ≈41:** Tamar 7 (yular bağlama ve çözme, küfeye koyma, tulumu omza asma, eşek yedme, su verme, bez koyma, küp indirme; iki elle yavaş taşıma 4. bölümün ağır küp taşıma dizisinden, diz çökme 4. bölümden yeniden kullanılır ve sayılmaz); Dositeos 3; Boz 2; Elkana 1 (yün denkini yaslama); Yokebed 1 (sargı gösterimi; çocuk ve bilek aynı dizi); Matanya 2; uzman 2; İsa 1; kalabalık 1. Siluetler: yolcu 4, kâhin ve Levili 3, Samiriyeli 5, eşek 2, hancı 1, gölgeler 1. Sargı panosu elleri 5 (dökme [kap ayrı katmanda], şerit yırtma ve koyma, sarma turu, düğüm, eli durdurma; çözme sarmanın tersidir).
 - **Set-piece:** 0. **Anlatılan Sahne şeridi:** 1 (Eriha'ya iniş). **Tablo:** 0. **Ara sahne:** 1 kesme (3 sn) ve 3 sonuç montajı (mevcut animasyonlarla).
 - **Riskler:** Yakın/uzak yanın okunurluğu (kâğıt prototip; dünya içi işaretler; hedef medyan 5,5 dk); P2'nin 10 yaş için yükü (mühürleme kaldırıldı, kurallar 2. sahnede gösterilir); kurulun benzetmenin oynanmasına bakışı.
 - **Kesme adayları:** Yan hikâye; Zilpa satırı; Yokebed'in bilek gösterimi (o zaman dizin "aha"sı yalnızca P2'nin içinde keşfedilir); V2 kuralı (aha korunur, (b) çözümü genişler).
@@ -415,14 +415,14 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 
 1. **YC:** Lk 9:51–56 ve 10:25–37 karşılaştırılmalı. Özellikle 10:33 ("ona acıdı" mı, "yüreği sızladı" mı), 10:36 ("komşu oldu" mu, "komşu gibi davrandı" mı) ve 10:37a. 10:37a'da uzmanın yanıtı YC'nin basılı ifadesiyle verilir; doğrulanana kadar yer tutucu "Ona acıyan"dır (10:33'teki "ona acıdı" ile aynı sözlük). Metinde karşılığı olmayan bir ekleme ("yardım eden" gibi) kanonik replik kilidini çiğner ve kullanılmaz; Grekçedeki "merhamet gösteren (yapan)" vurgusu ve 10:25, 28, 37'deki "yapmak" bağı Kodeks 2'de ve Tamar'ın iç sesinde taşınır. Yuhanna 7:10 ve Lk 10:1'deki sayı da denetlenmeli.
 2. **Sargı sırası:** Metin "zeytinyağıyla şarap" der. "Önce şarap" kuralı kabul edilmezse karışım (Mişna Şabat 19:2) ikinci bir kabul yolu olur.
-3. **`b05_ifade_sargi`** GDD §8.4'e eklenmeli (değerler `ozenli` / `cabuk`; okunduğu yer yalnızca 7). Benzetme rolündeki bir el işinin ifade olarak kaydedilmesi §7.1-4'teki "kutsal eşik" kuralıyla uyumlu mu? 7. bölüm satırları §8.1'de önerildi.
-4. **`b05_dositeos`'un ilişki geçişleri** ve *Sessiz kal* → `para_gonderdi` eşlemesi GDD'de tanımlanmalı. 7. bölüm için öneri: eşek `yuk_birakti` ve `para_gonderdi` yollarında verilir.
+3. **`b05_ifade_sargi`:** Kapandı: bayrak GDD §8.4'te (`ozenli` / `cabuk` / boş; okunduğu yer yalnızca 7). GDD §7.1-4 benzetme içindeki girdileri kutsal eşik saymaz ve örnek olarak bu bayrağı verir. 7. bölüm satırları §8.1'de önerildi.
+4. **`b05_dositeos`'un ilişki geçişleri:** Kapandı: geçişler, *Sessiz kal* → `para_gonderdi` eşlemesi ve 7. bölümde eşeğin `yuk_birakti` ile `para_gonderdi` yollarında verilmesi GDD §8.4'te tanımlı.
 5. **Çivit kafiyesi:** Dositeos 2. bölümde de çivit baş beziyle mi çizilecek? Kurul bu kafiyeyi uygun buluyor mu?
 6. **Bağlam:** Lk 10:38–42 (Marta'nın evi) hemen ardından gelir. 7. bölümdeki ticaret dostluğu burada ekilsin mi? (Yoram'ın `kutsadi` satırındaki "bir köy" 10:38'le çelişmez, köyün adını vermez.)
-7. **`b04_yoram`** tek bir satırda okunur; §8.4'teki "Okunduğu yer" sütununa 5 eklenmeli.
+7. **`b04_yoram`:** Kapandı: tek bir satırda okunur; GDD §8.4'ün "Okunduğu yer" sütununda 5 yer alır.
 8. **Set-piece sayımı:** Kapandı: GDD §11.1 sayım kuralı; Anlatılan Sahne kipindeki yan görünüm şeritleri (bu bölümün Eriha şeridi ve 6. bölümün eve dönen yolu) set-piece tavanına sayılmaz, ayrı bir kalemdir.
-9. **Tempo bütçesi:** Bölümün bütün bulmacaları El işidir. §5.4-1'in 3 dakikalık görev tavanı temiz çözüm süresi olarak okunursa bulmaca payı medyanla 12 dk'ya ulaşır; GDD ya bu ayrımı yazmalı ya da 5. bölümün §4.1 satırını güncellemelidir.
-10. **§5.4-2'nin okunuşu:** Bu bölüm "girdi"yi görevin ana girdi biçimi olarak okur (A ile al-koy, RT ile dökme, sağ çubukla daire); A ile onay, sol çubukla yürüme ve D-pad ile seçim arayüz girdisidir. §5.1 Taşı ile Dök'ü tek satırda topladığı ve Taşı'yı "RT ile kavranır" diye tanımladığı için, 4–6. bölümlerin "A ile kavrama, ağır yük −%40" biçimi GDD'ye ayrı bir Taşı biçimi olarak işlenmelidir.
-11. **Yankının yeri:** GDD §14.1 Dositeos sahnesini "dönüş yolunda" verir; bu bölüm onu aynı gün, Yeruşalim'e giden yolun devamında kurar, çünkü §8.6'daki bedel bayram pazarına yetişmektir.
+9. **Tempo bütçesi:** Kapandı: GDD §5.4-1 görev tavanını temiz çözüm süresi, §4.1'in bulmaca sütununu oyun testi medyanı olarak tanımlar; §4.1'in 5. bölüm satırı bu belgenin dökümüyle aynıdır (bulmaca 12, toplam 39 dk).
+10. **§5.4-2'nin okunuşu:** Kapandı: GDD §5.4-2 ana girdi biçimlerini (kavrama, al-koy, Dök, daire, Kal) sayar; onay, yürüme ve seçim sayılmaz. GDD §5.1c Taşı'yı kavrama ve al-koy diye iki biçime ayırır ve ağır yükün −%40'ını 5. bölüm için de verir. P1 ve P3 al-koy, P2'deki kaplar kavramadır.
+11. **Yankının yeri:** Kapandı: GDD §14.1 de yankıyı aynı gün, Yeruşalim'e giden yolun devamında kurar; §8.6'daki bedel bayram pazarına yetişmektir.
 12. **"Mecdelli" hitabı:** Kapandı: Mecdelli hitabı kaldırıldı; mesafeli hitap tuzlamacı, yakın hitap Tamar (GDD §2.2-C). "Mecdelli" yalnızca betimleyici sıfat olarak kullanılır; Heybe'nin İnsanlar sekmesi "tuzlamacı" lakabını Tamar'ın kapattığı tuzlu balık atölyesiyle açıklar (bkz. `kol_b05_kup_muhru`).
-13. **6. bölümle süreklilik:** Kapandı: Mecdelli hitabı kaldırıldı; mesafeli hitap tuzlamacı, yakın hitap Tamar (GDD §2.2-C). 6. bölümdeki karşılama satırı da aynı ayrımı izler: `ilis_dositeos = yakin` yolunda Dositeos Tamar'a adıyla seslenir.
+13. **6. bölümle süreklilik:** Kapandı: §17-12'deki hitap kararı 6. bölüme de uygulanır. 6. bölümdeki karşılama satırı aynı ayrımı izler: `ilis_dositeos = yakin` yolunda Dositeos Tamar'a adıyla seslenir. `yuk_birakti` her yolda `ilis_dositeos = yakin` yazar ve 5. ile 6. bölüm arasında başka bölüm yoktur; bu yüzden 6. bölümün `yuk_birakti` satırındaki "tuzlamacı" dalına ulaşılmaz. Eşleme bilinçlidir (GDD §8.4); dal zararsız bir güvence olarak kalabilir.
