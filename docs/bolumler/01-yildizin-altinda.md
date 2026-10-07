@@ -6,10 +6,10 @@
 
 | Alan | Değer |
 |---|---|
-| **Kaynak** | Öncü: **Luka 2:1–20**. Tamamlayıcı: **Matta 2:1–18**, yalnızca iki tabloda (2:16 ima, 2:18 ayet metni). Luka ile Matta arasındaki fark Kodeks'te tarafsızca notlanır (§1.1, §10 "Doğum anlatıları"). Kodeks arka planı: Yaratılış 35:19; Çıkış 21:33–34; Levililer 12; 27:32; Sayılar 15:38–39; Yasanın Tekrarı 6:4; 1 Samuel 10:2; 16:11; 17:34–35; 2 Samuel 23:15; Eyüp 9:9; Mezmur 23:1; Yeremya 33:13; Hezekiel 16:4; Amos 5:8; Luka 10:34; 22:11; Yuhanna 18:3 |
+| **Kaynak** | Öncü: **Luka 2:1–20**. Tamamlayıcı: **Matta 2:1–18**, yalnızca iki tabloda (2:16 ima, 2:18 ayet metni). Luka ile Matta arasındaki fark Kodeks'te tarafsızca notlanır (§1.1, §10 "Doğum anlatıları"). Kodeks arka planı: Yaratılış 35:19; Mısır'dan Çıkış 21:33–34; Levililer 12; 27:32; Çölde Sayım 15:38–39; Yasa'nın Tekrarı 6:4; 1 Samuel 10:2; 16:11; 17:34–35; 2 Samuel 23:15; Eyüp 9:9; Mezmur 23:1; Yeremya 33:13; Hezekiel 16:4; Amos 5:8; Luka 10:34; 22:11; Yuhanna 18:3 |
 | **Oynanabilir karakter** | Çocuk Tamar (9), çoban kızı. Daraltılmış fiil seti: yürü, seğirt, güt, kandil taşı, çömel (GDD §11.2'deki "diz çök"; bu bölümde bir çocuğun topuklarının üstüne oturması olarak tanımlanır, §7) |
 | **Yer, vakit, yıl** | Beytlehem kırları ve Beytlehem köyü. Alacakaranlıktan şafağa tek gece. Kral Hirodes'in son yılları (MÖ 6–4 dolayı, *doğrulanmalı*). Luka mevsim belirtmez; oyun da belirtmez |
-| **Erişim düzeyi (§3.4)** | Doğrudan (çobanlar arasında, Luka 2:8–20). Müneccimler ve kaçış: tablo, tanıklık iddiası yok |
+| **Erişim düzeyi (§3.4)** | Doğrudan (çobanlar arasında, Luka 2:8–20). Yıldızbilimciler ve kaçış: tablo, tanıklık iddiası yok |
 | **Yeni fiil / kıvrım** | **Güt** (değnek: kısa basış; ıslık: uzun basış) / **Sürü kandili izler.** Kandil önce babanın elindedir, bölümün son kısmında Tamar taşır |
 | **Kullanılan mekanikler** | Güt, Bakış (baş kaldırma dahil), Söz, seğirtme. Kandil yalnızca taşınan ışıktır: yağ, rüzgâr koruması ve kandili kaldırma eylemi yoktur (tam sistem 4. bölümde). Babayı durak taşına çağırmak bağlamsal bir **Etkileşim**dir, Güt'ün parçası değildir. Bu belge tuş adlarını değil eylem adlarını kullanır; tuş eşlemesi bölümler arası kontrol geçişine bırakılır |
 | **Zorluk** | 1 (Usta kısıtıyla 2) |
@@ -38,9 +38,9 @@
 | 2:19 | Meryem bütün bunları yüreğinde saklar, derin derin düşünür | Tanıklık ayrıntısı; `kalbinde` ucunun ve `babaya` fısıltısının kaynağı |
 | 2:20 | Çobanlar Tanrı'yı yücelterek, överek döner. Her şey bildirildiği gibidir | Dönüş |
 
-**Matta 2:1–18 (tablolar):** Doğudan gelen müneccimler Yeruşalim'de doğan çocuğu sorar, Kral Hirodes telaşlanır (2:1–8). Yıldız çocuğun bulunduğu yerin üzerinde durur (2:9). Müneccimler eve girip çocuğu annesi Meryem'le birlikte görür, yere kapanıp tapınır ve armağanlarını (altın, günnük, mür) sunar (2:11). Rüyada uyarılıp başka yoldan dönerler (2:12). Yusuf gece çocukla annesini alıp Mısır'a gider (2:13–15). Hirodes'in buyruğu (2:16) yalnızca imayla anılır. Yeremya 31:15'teki Rama ağıdı alıntılanır (2:17–18).
+**Matta 2:1–18 (tablolar):** Doğudan gelen yıldızbilimciler Yeruşalim'de doğan çocuğu sorar, Kral Hirodes telaşlanır (2:1–8). Yıldız çocuğun bulunduğu yerin üzerinde durur (2:9). Yıldızbilimciler eve girip çocuğu annesi Meryem'le birlikte görür, yere kapanıp tapınır ve armağanlarını (altın, günnük, mür) sunar (2:11). Rüyada uyarılıp başka yoldan dönerler (2:12). Yusuf gece çocukla annesini alıp Mısır'a gider (2:13–15). Hirodes'in buyruğu (2:16) yalnızca imayla anılır. Yeremya 31:15'teki Rama ağıdı alıntılanır (2:17–18).
 
-**Luka ile Matta arasındaki fark (GDD §2.3):** Luka, çobanlardan sonra sünneti (2:21), arınma günleri dolunca tapınakta sunuluşu (2:22–38) ve ailenin Celile'ye, Nasıra'ya dönüşünü (2:39) anlatır. Matta ise müneccimleri, Mısır'a kaçışı ve dönüşte Nasıra'ya yerleşmeyi (2:19–23) anlatır. Öncü metin Luka'dır: bölüm, çobanların dönüşüyle (2:20) kapanır ve 2:21–39 oynanmaz. Matta'nın anlatısı yalnızca tablolarda, tanıklık iddiası olmadan ve Tamar'a "aylar sonra anlatılan" bir haber olarak verilir. Müneccimlerin ziyaretinin zamanı belirsiz bırakılır. Fark Kodeks'te tarafsızca notlanır (§10).
+**Luka ile Matta arasındaki fark (GDD §2.3):** Luka, çobanlardan sonra sünneti (2:21), arınma günleri dolunca tapınakta sunuluşu (2:22–38) ve ailenin Celile'ye, Nasıra'ya dönüşünü (2:39) anlatır. Matta ise yıldızbilimcileri, Mısır'a kaçışı ve dönüşte Nasıra'ya yerleşmeyi (2:19–23) anlatır. Öncü metin Luka'dır: bölüm, çobanların dönüşüyle (2:20) kapanır ve 2:21–39 oynanmaz. Matta'nın anlatısı yalnızca tablolarda, tanıklık iddiası olmadan ve Tamar'a "aylar sonra anlatılan" bir haber olarak verilir. Yıldızbilimcilerin ziyaretinin zamanı belirsiz bırakılır. Fark Kodeks'te tarafsızca notlanır (§10).
 
 ### 1.2 Oyunun eklediği kurgusal katman
 
@@ -49,7 +49,7 @@
 - Beytlehem'deki altı ev, sakinleri ve ipuçları. Evin hayvanlarının dışarı bağlanması bulmaca için kurgulanmış bir çıkarımdır; metinde geçmez.
 - Luka 2:15'teki ortak sözün üç çobana bölünmesi. Söz metinden alınır; kimin hangi parçayı söylediği kurgudur.
 - Tamar'ın kuzuyu ağıla nasıl koyduğu ve şafakta haberi kime anlattığı.
-- Tamar'ın ailesinin kaçışı (GDD §3.2). Kanonik olayın değil, kurgusal ailenin hikâyesidir.
+- Tamar'ın ailesinin kaçışı (GDD §3.2). Müjde gecesinden bir iki yıl sonradır; Tamar 10–11 yaşında, Natan iki yaşından küçüktür. Aile, Kral Hirodes'in askerlerinin Beytlehem'e geldiği gece (Matta 2:16) kaçar. Kanonik olayın değil, kurgusal ailenin hikâyesidir.
 
 ### 1.3 Bu bölümün kırmızı çizgileri
 
@@ -58,10 +58,10 @@
 - Meryem ve Yusuf konuşmaz. Metinde sözleri yoktur.
 - Kapıdan çeviren hancı yoktur (gelenek); köylüler naziktir.
 - Melekler şarkı söylemez (2:13 "Tanrı'yı öven"). Koro yoktur. Melekte kanat, hale ve yüz yoktur.
-- Çobanlara yıldız yol göstermez. Gök ordusunun ışıkları yıldızlardan ayrı çizilir ve 2:15'te tamamen söner. Patika yürüyüşünde Beytlehem'in üzerinde öne çıkan bir ışık yoktur. Matta'nın yıldızı yalnızca müneccim tablosundadır; babanın gösterdiği yedi yıldız sıradan bir kümedir.
-- Müneccimler yemlik başında gösterilmez; Matta'ya göre bir eve girerler (2:11). Sayıları vurgulanmaz, üç figür kullanılmaz. Taç ve deve yoktur.
+- Çobanlara yıldız yol göstermez. Gök ordusunun ışıkları yıldızlardan ayrı çizilir ve 2:15'te tamamen söner. Patika yürüyüşünde Beytlehem'in üzerinde öne çıkan bir ışık yoktur. Matta'nın yıldızı yalnızca yıldızbilimciler tablosundadır; babanın gösterdiği yedi yıldız sıradan bir kümedir.
+- Yıldızbilimciler yemlik başında gösterilmez; Matta'ya göre bir eve girerler (2:11). Sayıları vurgulanmaz, üç figür kullanılmaz. Taç ve deve yoktur.
 - Çobanlar armağan getirmez. Kuzu bir sunu değildir ve eve girmez.
-- Yemlik başında tapınma jesti yoktur. Tamar bir çocuğun doğal duruşuyla çömelir, çobanlar ayakta kalır (§7). Metin tapınmayı yalnızca müneccimlere atfeder (Matta 2:11).
+- Yemlik başında tapınma jesti yoktur. Tamar bir çocuğun doğal duruşuyla çömelir, çobanlar ayakta kalır (§7). Metin tapınmayı yalnızca yıldızbilimcilere atfeder (Matta 2:11).
 - Katliam gösterilmez: asker figürü ve şiddet yoktur. Yalnızca bir tablo, yaşlı Tamar'ın tek bir yas cümlesi, uzak bir ağıt sesi ve ekranda Matta 2:18 vardır.
 - Kar, Noel ağacı, Aralık göndermesi ve öküzle eşeğin yemlik başında durduğu ikonografi kullanılmaz.
 - Metal (Alaaddin tipi) kandil, camlı fener ve Beytlehem'de surlu bir kent kapısı yoktur.
@@ -79,7 +79,7 @@
 | Ad | Kanonik/kurgusal | Rol | Replik kilidi | Sprite notu |
 |---|---|---|---|---|
 | Tamar (9) | Kurgusal | Oynanabilir | — | 20×30 px, 8 yön, sağ ve sol ayrı çizilir. Portre var (3 ifade) |
-| Baba | Kurgusal | Usta, kandil taşıyıcı | 2:15'in açılışı (ortak çoban sözü) | 4 yön. Kandil ve kucaktaki kuzu ayrı katmanda. Abasının köşelerinde püsküller (Sayılar 15:38–39). Portre var (3 ifade) |
+| Baba | Kurgusal | Usta, kandil taşıyıcı. Ad verilmez; İnsanlar sekmesinde "Tamar'ın babası" diye anılır (GDD §3.3) | 2:15'in açılışı (ortak çoban sözü) | 4 yön. Kandil ve kucaktaki kuzu ayrı katmanda. Abasının köşelerinde püsküller (Çölde Sayım 15:38–39). Portre var (3 ifade) |
 | Nahum | Kurgusal | Yaşlı çoban, yan hikâye | 2:15'in kapanışı (ortak söz) | 4 yön, portre yok |
 | Yoaş | Kurgusal | Genç çoban | 2:15'in kapanışı (ortak söz) | 4 yön, portre yok |
 | Hulda (genç) | Kurgusal (GDD) | Anne, kucağında Natan | — | Bu bölüme özgü genç varyant: 4 yön sprite, 3 animasyon, isteğe bağlı 3 ifadeli portre. 4. ve 6. bölümlerdeki yaşlı Hulda ayrı bir varlıktır |
@@ -89,7 +89,7 @@
 | Yusuf | Kanonik | Yemlik başında | Konuşmaz | Tek ayakta poz, portre yok |
 | Bebek İsa | Kanonik | Yemlikte | Söz yok | Kundak biçimi. Göz pikseli yok, yüz kundak gölgesinde |
 | Beytlehem sakinleri (dul Şelomit, çömlekçi, fırıncı, kalabalık evin babası, kervan konuğu, Ev 4'ün ev sahibi ve karısı, uyanan üç komşu) | Kurgusal | Yanlış kapılar, 2:18'in dinleyicileri | — | Kalabalık kitinden, 4 yön, portre yok |
-| Obadaki kadın ve iki çocuk | Kurgusal | Yankı sahnesi | — | Kalabalık kiti. Kitte çocuk gövdesi yoksa çocuk Tamar gövdesinin palet varyantları kullanılır |
+| Obadaki kadın ve iki çocuk | Kurgusal | Yankı sahnesi | — | Kalabalık kiti. Çocuklar kalabalık kitinin çocuk gövdelerinden çizilir (GDD §11.5) |
 | Ninni | Kurgusal | Kör koyun, yan hikâye | — | Koyun setinden, soluk göz paleti |
 | Sara, yaşlı Tamar | Kurgusal | Çerçeve | — | Sabit kompozisyon, portre |
 
@@ -100,7 +100,7 @@
 - **Yerleşim:** Üç seki hâlinde inen bir yamaç (ölçüler §6.2'de). Seki 1'in kuzey duvarının üstünde yıkık bir seki (Seki 0) vardır. Dipte arkası sığ bir mağaraya açılan taş ağıl ve önünde ateş yeri bulunur; Nahum ateşi sayımdan sonra yakar (5. sahne). Doğuda Beytlehem sırtına çıkan basamaklı **çoban patikası**, güneydoğuda üç evlik **çoban obası** ve kuyusu. Patika iniş rotasından ayrıdır; hiçbir yol iki kez yürünmez.
 - **Koordinatlar:** Bulmaca koordinatlarına (§6) (8, 6) eklenince harita koordinatı bulunur. Bulmacadaki (0, 0) haritada (8, 6)'dır; Seki 0 haritada y 2–5, Kapı haritada (13, 39)'dadır.
 - **Kamera:** Kırlar kamerası normalde Seki 1'in kuzey duvarında kilitlidir; duvarın üstü ekranın üst kenarıdır. Bakış etkinken baş kaldırılınca kamera tam sayı adımlarla 6 karo kuzeye kayar ve Seki 0'ı açar. Girdi bırakılınca geri döner.
-- **Karo seti:** Yahudiye kırsalı: kuru taş seki duvarı, basamak taşları, dikenli çalı, zeytin, harnup, kaya, sarnıç ağzı.
+- **Karo seti:** Yahudiye kırsalı (bu bölümde kurulur, §16): kuru taş seki duvarı, basamak taşları, dikenli çalı, zeytin, harnup, kaya, sarnıç ağzı.
 - **Vakit ve ışık:** Alacakaranlık LUT'undan ay ışığı LUT'una geçilir. Seki yolları, duvarlar ve geçitler ay ışığında okunur kalır. Dinamik ışıklar: kandil, (5. sahneden sonra) ateş ve müjdenin tek büyük ışığı. Yankıda şafak öncesi gri.
 - **Etkileşimli nesneler:** Yedi durak taşı ve ağıl kapısı (çağrı noktaları), basamak taşları, çalı, ağıl kapısındaki dikenli çalı demeti, ateş ("Otur"), sapan.
 - **Paralaks:** (1) Yıldızlı gök; yedi yıldızlık küme (Büyükayı) doğru konumdadır. (2) Uzak Beytlehem sırtı ve birkaç yanan pencere. (3) Zeytin silüetleri. (4) Ön planda çalılar.
@@ -111,14 +111,14 @@
 - **Yerleşim:** Kuzeyde harman yeri ve saman yığını vardır. Batıdan doğuya inen yokuşun iki yanında altı ev dizilir. Güney ucunda köy girişi (harman yolunun ağzı) ve yanında bir sarnıç bulunur. Patika haritaya köy girişinden girer. Surlu bir kent kapısı yoktur.
 - **Ev modeli (altı evin hepsi için):** Evin kapısı sokak düzeyindeki hayvan bölmesine açılır. Aile birkaç basamak yüksekteki taş tabanda yaşar; yemlikler bu tabanın kenarına oyulmuştur. Konuk odası damdadır ve dış merdivenle çıkılır. Ev 1 (çömlekçi) ile Ev 5'in (fırıncı) alt düzeyi hayvan bölmesi değil iş yeridir.
 - **Ev 4'ün içi (yalnızca yemlik sahnesi):** Kapıdan girilen alt düzeyde hayvan bölmesi, birkaç basamak yukarıda aile tabanı ve onun kenarına oyulmuş taş yemlik vardır. Arka duvar kayaya yaslanır ve sığ bir oyuk oluşturur. Bu, mağara geleneğine saygılı bir uzlaşmadır.
-- **Karo seti:** Yahudiye kırsalı ve iç mekân kiti.
+- **Karo seti:** Yahudiye kırsalı ve iç mekân kiti (3. bölümde kurulur). Ev 4'ün içi kite köy evi parçaları ekler: hayvan bölmesi, tabana oyulmuş yemlik, kaya oyuğu (§16).
 - **Vakit ve ışık:** Gece. Tamar'ın kandili (çocuğun elinde 5 karo, §6.0) sıcak bir halka açar ama hiçbir ipucunu kendisi göstermez; ipuçlarını Bakış gösterir. Uyandırılan evlerin pencereleri yanar; ekranda en fazla 8 dinamik ışık vardır.
 - **Paralaks:** Gök, karanlık tepeler, ön planda dam saçakları.
 - **Tarihsel dayanak:** Altında hayvan bölmesi olan köy evi tipi arkeolojik bir dayanaktır (Yahudiye'ye özgü ayrıntılar *doğrulanmalı*). Konuk odasının dolu olması ise Luka 2:7'nin bir okumasıdır ve yorumsaldır (Kodeks). Köy girişindeki sarnıç, Davut'un özlediği "Beytlehem kapısının yanındaki sarnıç"a (2 Samuel 23:15) yerel bir göndermedir. Birinci yüzyıla kanıt olarak değil, yerel bellek olarak sunulur (*geleneksel*).
 
 ### 4.3 Tablolar ve çerçeve
 
-Tablolar Anlatılan Sahne kipinde, parşömen üzerinde silüetle çizilir (kompozisyonlar §13'te). Çerçeve, Mecdel'deki ortak sabit tezgâh sahnesidir.
+Tablolar Anlatılan Sahne kipinde, parşömen üzerinde silüetle çizilir (kompozisyonlar §13'te). Tablolar illüstrasyondur, karo seti değildir; Anlatılan Sahne karo seti 5. bölümde kurulur. Çerçeve, Mecdel'deki ortak sabit tezgâh sahnesidir.
 
 ## 5. Sahne Akışı
 
@@ -137,8 +137,8 @@ Tablolar Anlatılan Sahne kipinde, parşömen üzerinde silüetle çizilir (komp
 | 10 | **Yemlik** | 3/4, sinemaskop | Dokunmama (§7) | 1,5 | — |
 | 11 | **Avluda** | 3/4 | Çobanlar Ev 4'ün halkına ve uyanan komşulara anlatır (2:17–18). Bakış'la ayrıntılar fark edilir. Şafak grisinde dönüş (2:20) | 1,5 | `tan_` ×3 (kaçırılabilir) |
 | 12 | **Yankı: obada şafak** | 3/4 | Önce "Seçimlerin İncil'deki olayları değiştirmez" kartı. Obadaki kadın: "Bütün gece neredeydin, kızım?" Seçim (§8). Her yol Hulda'nın kucağındaki Natan'a bakan Tamar'la biter | 3 | `b01_haber`, `eks_soz` |
-| 13 | **Tablo 1: Müneccimler ve yıldız** | Tablo | Yaşlı Tamar: "Bunu ben görmedim. Aylar sonra anlattılar." | 0,5 | — |
-| 14 | **Tablo 2: Gece yola çıkan aile ve Rama'daki ağıt** | Tablo, geniş kaydırma | Kaydırma: Mısır yolundaki aile (Matta 2:14) → uzakta yas tutan kadınlar, ekranda Matta 2:18 → kuzeye kaçan Tamar'ın ailesi: postta Natan, Tamar'ın elinde kandil. Yaşlı Tamar'ın yas cümlesi | 1 | — |
+| 13 | **Tablo 1: Yıldızbilimciler ve yıldız** | Tablo | Yaşlı Tamar: "Bunu ben görmedim. Aylar sonra anlattılar." | 0,5 | — |
+| 14 | **Tablo 2: Gece yola çıkan aile ve Rama'daki ağıt** | Tablo, geniş kaydırma | Kaydırma: Mısır yolundaki aile (Matta 2:14) → uzakta yas tutan kadınlar, ekranda Matta 2:18 → kuzeye kaçan Tamar'ın ailesi: postta Natan, Tamar'ın elinde kandil. Kaçış müjde gecesinden bir iki yıl sonra, askerlerin Beytlehem'e geldiği gecedir; Tamar 10–11 yaşında, Natan iki yaşından küçüktür. Tablo, Tamar için çocuk Tamar sprite'ını kullanır. Yaşlı Tamar'ın yas cümlesi | 1 | — |
 | 15 | **Çerçeve kapanışı** | Sabit çerçeve | Dokuma bandı, ardından isteğe bağlı Diğer Yollar ekranı | 1 | — |
 
 **Süre dağılımı:** keşif/iş 8 (sahne 2, 5, 11) · bulmaca 12 (3, 4, 9) · katılım 8 (6, 7, 8, 10) · yankı ve çerçeve 7 (0, 1, 12, 13, 14, 15). Toplam 35 dk.
@@ -380,17 +380,17 @@ Yok: bu oyunun ilk bölümüdür. `eks_soz` burada sıfırdan başlar.
 
 ## 9. Diyalog Örnekleri
 
-İsa'nın bu bölümde sözü yoktur (yeni doğmuş bebek). Bütün ayet alıntıları **[yakın aktarım]**dır ve metin kilidinden önce YC ile tek tek karşılaştırılmalıdır (*doğrulanmalı*, GDD §15.1). Özellikle Luka 2:10–12, 2:14, 2:15, Matta 2:18, Yasanın Tekrarı 6:4 ve Mezmur 23:1 denetlenmelidir.
+İsa'nın bu bölümde sözü yoktur (yeni doğmuş bebek). Etiketler GDD §15.1'e göredir: anlatı metni ve Eski Antlaşma alıntıları **[yakın aktarım]**, İsa dışındaki kanonik konuşanların (Rab'bin meleği, gök ordusu, kanonik topluluk olarak çobanlar) satırları **[yakın aktarım; kanonik replik]** etiketini taşır. Her kanonik satırın ayet referansı vardır; YC lisansı alınınca "yakın aktarım" yerine "YC" yazılır. Bütün ayet alıntıları metin kilidinden önce basılı YC ile tek tek karşılaştırılmalıdır (*doğrulanmalı*, GDD §15.1). Özellikle Luka 2:10–12, 2:14, 2:15, Matta 2:18, Yasa'nın Tekrarı 6:4 ve Mezmur 23:1 denetlenmelidir.
 
 1. **Sara:** "Nine, kaçarken korkarsam ne yapayım?"
 2. **Yaşlı Tamar:** "Korkunca mı? Dokuz yaşındaydım. Babam bana önce rüzgâra bakmayı, sonra başımı kaldırmayı öğretti."
 3. **Baba (alacakaranlık):** "Değneği yere vur, koyuna değil. Gündüz seni gözleriyle izlerler."
-4. **Baba (sürü toplanırken, mırıldanarak):** "Dinle, ey İsrail! Tanrımız RAB tek RAB'dir." *(Yasanın Tekrarı 6:4) [yakın aktarım]*
+4. **Baba (sürü toplanırken, mırıldanarak):** "Dinle, ey İsrail! Tanrımız RAB tek RAB'dir." *(Yasa'nın Tekrarı 6:4) [yakın aktarım]*
 5. **Baba (yıldızlar):** "Şu yedi yıldız gece boyu döner ama hep kuzeyde kalır. Döndükleri yerin ortası kuzeydir."
 6. **Tamar (iç ses):** *"Beni görmüyorlar ki... Peki neyi görüyorlar?"*
-7. **Rab'bin meleği:** "Korkmayın! İşte size bütün halkı çok sevindirecek bir müjde getiriyorum. Bugün Davut'un kentinde sizin için bir Kurtarıcı doğdu. O, Rab Mesih'tir. Size şu işaret olacak: Kundağa sarılmış, yemlikte yatan bir bebek bulacaksınız." *(Luka 2:10–12) [yakın aktarım]*
-8. **Gök ordusu:** "En yücelerde Tanrı'ya yücelik olsun! Yeryüzünde O'nun hoşnut kaldığı insanlara esenlik olsun!" *(Luka 2:14) [yakın aktarım]*
-9. **Çobanlar** (ortak söz; baba başlatır, Nahum ile Yoaş birlikte tamamlar): "Haydi, Beytlehem'e kadar gidelim de Rab'bin bize bildirdiği bu olayı görelim." *(Luka 2:15) [yakın aktarım]*
+7. **Rab'bin meleği:** "Korkmayın! İşte size bütün halkı çok sevindirecek bir müjde getiriyorum. Bugün Davut'un kentinde sizin için bir Kurtarıcı doğdu. O, Rab Mesih'tir. Size şu işaret olacak: Kundağa sarılmış, yemlikte yatan bir bebek bulacaksınız." *(Luka 2:10–12) [yakın aktarım; kanonik replik]*
+8. **Gök ordusu:** "En yücelerde Tanrı'ya yücelik olsun! Yeryüzünde O'nun hoşnut kaldığı insanlara esenlik olsun!" *(Luka 2:14) [yakın aktarım; kanonik replik]*
+9. **Çobanlar** (ortak söz; baba başlatır, Nahum ile Yoaş birlikte tamamlar): "Haydi, Beytlehem'e kadar gidelim de Rab'bin bize bildirdiği bu olayı görelim." *(Luka 2:15) [yakın aktarım; kanonik replik]*
 10. **Baba** (ayrı vuruş, kurgusal; kandili uzatırken): "Önden sen git. Yolu sen aydınlat."
 11. **Dul Şelomit:** "Bu saatte bebek mi? Konuk odam bomboş, evladım. İsterseniz siz kalın."
 12. **Tamar (iç ses):** *"Hayvanlarını dışarı bağlamışlar... İçeride birine yer açmışlar!"*
@@ -423,17 +423,17 @@ Yok: bu oyunun ilk bölümüdür. `eks_soz` burada sıfırdan başlar.
 
 **Kodeks**
 
-- **Doğum anlatıları: Luka ve Matta.** Luka çobanları, sekizinci gündeki sünneti, arınma günleri dolunca (Levililer 12'ye göre kırkıncı gün dolayında) tapınakta sunuluşu ve ailenin Nasıra'ya dönüşünü anlatır (2:8–39). Matta müneccimleri, Mısır'a kaçışı ve dönüşte Nasıra'ya yerleşmeyi anlatır (2:1–23). Müneccimlerin ziyaretinin zamanı belirsizdir: Matta "ev" der (2:11), Hirodes de iki ve iki yaşından küçük çocukları hedef alır (2:16). Farklı uyumlaştırma önerileri vardır (*tartışmalıdır*). Oyun yalnızca Luka'nın çobanlar sahnesini oynatır; Matta'nın anlatısını tablolarla, tanıklık iddiası olmadan verir.
+- **Doğum anlatıları: Luka ve Matta.** Luka çobanları, sekizinci gündeki sünneti, arınma günleri dolunca (Levililer 12'ye göre kırkıncı gün dolayında) tapınakta sunuluşu ve ailenin Nasıra'ya dönüşünü anlatır (2:8–39). Matta yıldızbilimcileri, Mısır'a kaçışı ve dönüşte Nasıra'ya yerleşmeyi anlatır (2:1–23). Yıldızbilimcilerin ziyaretinin zamanı belirsizdir: Matta "ev" der (2:11), Hirodes de iki ve iki yaşından küçük çocukları hedef alır (2:16). Farklı uyumlaştırma önerileri vardır (*tartışmalıdır*). Oyun yalnızca Luka'nın çobanlar sahnesini oynatır; Matta'nın anlatısını tablolarla, tanıklık iddiası olmadan verir.
 - **Nüfus sayımı ve Kirinius:** Luka sayımı Avgustus'a ve Kirinius'un Suriye valiliğine bağlar (2:1–2). Yahudi tarihçi Josephus, Kirinius'un sayımını MS 6'ya yerleştirir. Hirodes'in ölümü genellikle MÖ 4'e tarihlenir. Bu fark için farklı çözümler önerilmiştir (*tartışmalıdır*).
 - **Köy evi ve konuk odası:** Birinci yüzyıl köylerinde girişi hayvan bölmesine açılan evler bilinir. Bu evlerde aile birkaç basamak yüksekteki bir tabanda yaşar, yemlikler de bu tabanın kenarına oyulurdu. Ev tipi arkeolojik bir dayanaktır (Yahudiye'ye özgü ayrıntılar *doğrulanmalı*). Konuk odasının dolu olması ise yorumsal bir okumadır. YC Luka 2:7'de "han" der. Aynı Grekçe sözcük (*katalyma*) 22:11'de "konuk odası" diye çevrilir. Luka ticari han için başka bir sözcük kullanır (*pandokheion*, 10:34). Bu yüzden bazı araştırmacılar bebeğin, konuk odası dolu bir köy evinin hayvan bölmesindeki yemliğe yatırıldığını düşünür. İki okuma da mümkündür. Doğumun bir mağarada olduğu anlatısı 2. yüzyıldan beri vardır (Justinus, *Trifon'la Söyleşi* 78; *Yakup'un Protoevangelium'u* 18): *geleneksel*.
 - **Kundak:** Hezekiel 16:4 yeni doğanın yıkanıp tuzla ovulduğunu ve kundağa sarıldığını anar; kundak özenin işaretiydi.
 - **Değneğin altından:** Çobanlar sürüyü değneğin altından geçirerek sayardı (Levililer 27:32; Yeremya 33:13). Taş duvarlı ağıllar çoğu zaman bir mağaraya yaslanırdı.
 - **Ana ile kuzu:** Koyun ve kuzusu birbirini doğumdan kısa süre sonra sesinden tanır; çoban kayıp kuzuyu ananın yanıtından bulur.
-- **Seki duvarları:** Yahudiye tepelerinde kuru taş setler yağmur suyunu ve toprağı tutar. Duvara gömülü çıkıntılı taşlar merdiven işi görür (birinci yüzyıla özgü ayrıntılar *doğrulanmalı*). Açık sarnıç ağzının tehlikesi Kutsal Yasa'da anılır (Çıkış 21:33–34).
+- **Seki duvarları:** Yahudiye tepelerinde kuru taş setler yağmur suyunu ve toprağı tutar. Duvara gömülü çıkıntılı taşlar merdiven işi görür (birinci yüzyıla özgü ayrıntılar *doğrulanmalı*). Açık sarnıç ağzının tehlikesi Kutsal Yasa'da anılır (Mısır'dan Çıkış 21:33–34).
 - **Kandil:** Hirodes döneminde Yahudiye'de çarkta yapılmış, burnu bıçakla düzeltilmiş (kazıma burunlu), süslemesiz pişmiş toprak kandiller yaygındı. Yakıt zeytinyağı, fitil ketendi. Açık havada alev avuçla ya da pişmiş toprak bir fenerin içinde korunurdu. Dönemde fener vardır (Yuhanna 18:3), camlı fener yoktur. *Tasarım notu:* Oyundaki geniş ışık halkası bir uzlaşmadır; gerçek bir yağ kandili bu kadar geniş bir alanı aydınlatmaz.
-- **Akşam duası ve püsküller:** "Dinle, ey İsrail! Tanrımız RAB tek RAB'dir" (Yasanın Tekrarı 6:4). Bu sözlerin akşam ve sabah okunması üzerine bilinen en eski kaynak Mişna'dır (Berakot 1:1). Mişna MS 200 dolayında yazıya geçmiştir; birinci yüzyıldaki uygulamanın ayrıntıları *doğrulanmalı*. Babanın abasının köşelerindeki püsküller Sayılar 15:38–39'daki buyruğa dayanır.
+- **Akşam duası ve püsküller:** "Dinle, ey İsrail! Tanrımız RAB tek RAB'dir" (Yasa'nın Tekrarı 6:4). Bu sözlerin akşam ve sabah okunması üzerine bilinen en eski kaynak Mişna'dır (Berakot 1:1). Mişna MS 200 dolayında yazıya geçmiştir; birinci yüzyıldaki uygulamanın ayrıntıları *doğrulanmalı*. Babanın abasının köşelerindeki püsküller Çölde Sayım 15:38–39'daki buyruğa dayanır.
 - **Yedi yıldız (Büyükayı):** Eyüp 9:9 ve Amos 5:8 Tanrı'yı yıldız kümelerinin yaratıcısı olarak anar. Türkçe çeviriler Eyüp 9:9'daki adı Büyükayı diye karşılar; İbranice adın hangi kümeye karşılık geldiği belirsizdir. "Ayı" adı Yunan ve Roma geleneğinden gelir; bu yüzden baba kümeye ad vermez. O çağda göğün kuzey kutbu bugünkü Kutup Yıldızı'na denk düşmüyordu. Kuzey, kutbun çevresinde dönen yıldızların ortasından yaklaşık olarak bulunurdu (*doğrulanmalı*).
-- **Müneccimler:** Matta sayılarını vermez. Grekçe metin *magoi* der; YC Matta 2'de "yıldızbilimciler" sözcüğünü kullanır. Oyun metni, GDD sözlüğünün kararına kadar "müneccimler" der (§17). Üç armağandan "üç kişi" geleneği, taçlar, adlar ve develer sonradan doğmuştur: *geleneksel*. Matta'ya göre yıldız çocuğun bulunduğu yerin üzerinde durur (2:9); müneccimler eve girip çocuğu annesiyle birlikte görür ve yere kapanıp tapınır (2:11).
+- **Yıldızbilimciler:** Geleneksel adı müneccimler; Grekçe *magoi*; YC Matta 2'de yıldızbilimciler der. Oyun metni YC'yi izler ve "yıldızbilimciler" der (GDD §15.1-5); "müneccimler" adı yalnızca bu girdide geleneksel ad olarak anılır. Matta sayılarını vermez. Üç armağandan "üç kişi" geleneği, taçlar, adlar ve develer sonradan doğmuştur: *geleneksel*. Matta'ya göre yıldız çocuğun bulunduğu yerin üzerinde durur (2:9); yıldızbilimciler eve girip çocuğu annesiyle birlikte görür ve yere kapanıp tapınır (2:11).
 - **Kral Hirodes ve Rama:** Büyük Hirodes Roma'ya bağlı Yahudiye kralıydı. Antipas'la ("bölge kralı Hirodes") karıştırılmamalıdır. Beytlehem'e gelen askerler Roma lejyonerleri değil, Kral Hirodes'in kendi ordusundandı; Josephus bu orduda yabancı paralı birlikler de sayar. Matta, Rahel'in ağıdını (Yeremya 31:15) anar. Yaratılış 35:19 Rahel'in Efrata (Beytlehem) yolunda gömüldüğünü söyler; 1 Samuel 10:2 ise mezarı Benyamin sınırında anar. Yeremya'nın Rama'sı Yeruşalim'in kuzeyindedir. Bugün Beytlehem girişinde gösterilen yapı gelenekseldir.
 - **Davut, Beytlehem'in çobanı** (yan hikâyenin ödülü): Davut Beytlehemli bir çobandı (1 Samuel 16:11) ve sürüsünü aslandan, ayıdan koruduğunu anlatır (17:34–35). 2 Samuel 23:15'te Beytlehem kapısının yanındaki sarnıcın suyunu özler. Bu Davut dönemine ait bir anıdır; birinci yüzyıl Beytlehem'inde surlu bir kapının varlığı belirsizdir (*doğrulanmalı*). Bugün Beytlehem'de "Davut'un kuyuları" diye gösterilen sarnıçlar gelenekseldir.
 
@@ -460,7 +460,7 @@ Yok: bu oyunun ilk bölümüdür. `eks_soz` burada sıfırdan başlar.
 - **Motif:** Ana tema Mezmur 23. Baba ateş başında mırıldanır ("RAB çobanımdır, eksiğim olmaz", Mezmur 23:1 *[yakın aktarım]*). Bu, temanın oyundaki ilk sunumudur. Alacakaranlıktaki Şema mırıltısı müziksizdir; yalnızca babanın sesi duyulur.
 - **Müjde:** Müzik tamamen kesilir. Geniş, parlak, sözsüz bir ton kümesi (nevel armonikleri) ve sürünün korkulu soluğu duyulur. Gök ordusunun belirişi ezgisiz bir ton yükselmesiyle verilir; ışıklar 2:15'te sönünce ses de kesilir. Koro ve ezgi yoktur.
 - **Yemlik:** İsa'nın sahnesi olduğu için müzik geri çekilir. Tek uzun ton, kandil fitilinin çıtırtısı ve eşeğin kıpırtısı kalır.
-- **Tablo 2:** Uzakta, belli belirsiz askerî ayak sesi ve tek bir ağıt sesi; çığlık yoktur. Ayak sesi için GDD §12'deki çivili sandalet motifi kullanılır. Bu tür sandaletin Kral Hirodes'in ordusunda kullanımı *doğrulanmalı*; doğrulanamazsa 9. bölümdeki Roma motifinden ayrı, nötr bir adım sesi kullanılır.
+- **Tablo 2:** Uzakta belli belirsiz, nötr bir askerî adım ve donanım sesi ile tek bir ağıt sesi; çığlık yoktur. Çivili sandalet (caliga) sesi 9. bölümdeki Roma yardımcı birliklerine aittir; Kral Hirodes'in ordusu için ancak tarihçi onaylarsa kullanılır.
 - **Temel ses efektleri:** Taşa değnek vuruşu, çocuk ıslığı, iki ayrı meleme (ince ve kalın), çalı hışırtısı, ateş, ahşap kapıya vurma, saman hışırtısı, koyun çanı (dönemde kullanımı *doğrulanmalı*).
 - **Seslendirme:** Yalnızca yaşlı Tamar; melek metni seslendirilmez.
 
@@ -468,13 +468,13 @@ Yok: bu oyunun ilk bölümüdür. `eks_soz` burada sıfırdan başlar.
 
 - **Palet (32 renk):** Çivit 6, gümüş 4, yıldız altını 3, müjde beyaz-altını 1, kandil turuncusu 4, toprak ve taş 7, yün beyazı 3, cilt 4. Müjde, beyaza yakın altına patlayan tek ışıktır; hacimsel ışık yerine LUT ve katkılı katman kullanılır. Gök ordusunun ışıkları da müjde beyaz-altınındadır ve yıldız altınından ayrı tutulur.
 - **Kandil:** Hirodes dönemi, çarkta yapılmış, kazıma burunlu, süslemesiz pişmiş toprak kandil; zeytinyağı ve keten fitil. Baba açık havada alevi avucuyla siper ederek taşır; kaldırırken alev avucunun gölgesinden çıkar. Metal kandil ve camlı fener yoktur. Kandil ayrı katmanda, kare başına bağlantı noktalarıyla çizilir (GDD §11.2).
-- **Giysi rehberi:** Çobanlar ve Beytlehem sakinleri keten ya da yün tunik, kuşak ve yün aba giyer; kadınlarda baş örtüsü vardır. Babanın abasının köşelerinde püsküller (Sayılar 15:38–39). Çobanlarda deri torba, değnek ve sapan.
+- **Giysi rehberi:** Çobanlar ve Beytlehem sakinleri keten ya da yün tunik, kuşak ve yün aba giyer; kadınlarda baş örtüsü vardır. Babanın abasının köşelerinde püsküller (Çölde Sayım 15:38–39). Çobanlarda deri torba, değnek ve sapan.
 - **Özel animasyonlar:** Değneğin altından sayım; ışığa dönen koyun kulakları; kandilin avuçla siper edilerek indirilip kaldırılması; kucakta kuzuyla kandil kaldırma; abaya yüz gömme; çömelip topuklarına oturma (yemlik); el tutma.
 - **İsa:** Kundak biçimi, yüz bölgesinde göz pikseli yok, ışık yalnızca evin kandilinden gelir.
 - **Melek ve gök ordusu:** Melek, insan boyunu biraz aşan dikey bir ışık biçimidir. Kanat, hale ve yüz yoktur; kompozisyon çobanların sırtından kurulur. Gök ordusu titreşmeyen, yavaşça hareket eden ve meleğin çevresinde toplanan beyaz-altın ışıklardır. Yıldızlarla karışmaz, 2:15'te tamamen söner.
-- **Tablo 1 kompozisyonu:** Yıldızın altında bir evin açık kapısı; kapıdan evin kandil ışığı taşar. Eşikte sayısı okunmayan bir grup müneccim silüeti durur: figürler üst üste biner, bir kısmı çerçevenin dışında kalır, üç figür kullanılmaz. Bazıları yere kapanmıştır (2:11), yanlarında armağan kapları vardır. Deve ve taç yoktur. Kapının açısı yüzünden içerisi görünmez; Meryem ve çocuk gösterilmez. Yıldız tablodaki tek gök ışığıdır ve yıldız altını tonundadır.
-- **Tablo 2 kompozisyonu:** 1280×360 geniş görsel, tam sayı adımlı kaydırma. Sol: gece yolunda bir eşek ve iki yetişkin silüeti; Meryem'in kucağında yüzsüz bir çocuk silüeti (GDD §11.6). Orta: uzakta yas tutan kadınların silüetleri; asker ve şiddet yoktur. Sağ: kuzeye kaçan Tamar'ın ailesi; babanın sırtındaki postun içinde Natan, Tamar'ın elinde kandil.
-- **GDD tavanlarından kullanılanlar:** Yan görünüm set-piece'i **yok**. Tablolar: **2** ("müneccimler ve yıldız"; "gece yola çıkan aile ve Rama'daki ağıt").
+- **Tablo 1 kompozisyonu:** Yıldızın altında bir evin açık kapısı; kapıdan evin kandil ışığı taşar. Eşikte sayısı okunmayan bir grup yıldızbilimci silüeti durur: figürler üst üste biner, bir kısmı çerçevenin dışında kalır, üç figür kullanılmaz. Bazıları yere kapanmıştır (2:11), yanlarında armağan kapları vardır. Deve ve taç yoktur. Kapının açısı yüzünden içerisi görünmez; Meryem ve çocuk gösterilmez. Yıldız tablodaki tek gök ışığıdır ve yıldız altını tonundadır.
+- **Tablo 2 kompozisyonu:** 1280×360 geniş görsel, tam sayı adımlı kaydırma. Sol: gece yolunda bir eşek ve iki yetişkin silüeti; Meryem'in kucağında yüzsüz bir çocuk silüeti (GDD §11.6). Orta: uzakta yas tutan kadınların silüetleri; asker ve şiddet yoktur. Sağ: kuzeye kaçan Tamar'ın ailesi; babanın sırtındaki postun içinde Natan, Tamar'ın elinde kandil. Kaçış müjde gecesinden bir iki yıl sonradır (Tamar 10–11 yaşında, Natan iki yaşından küçük); Tamar figürü için ayrı bir yaş varyantı çizilmez, çocuk Tamar sprite'ı (20×30) silüet olarak kullanılır.
+- **GDD tavanlarından kullanılanlar:** Yan görünüm set-piece'i **yok**. Tablolar: **2** ("yıldızbilimciler ve yıldız"; "gece yola çıkan aile ve Rama'daki ağıt").
 
 ## 14. Erişilebilirlik ve Zorluk Ayarları
 
@@ -491,7 +491,7 @@ Yok: bu oyunun ilk bölümüdür. `eks_soz` burada sıfırdan başlar.
 ## 15. Sadakat ve Hassasiyet Kontrolü
 
 - [x] **İsa yönetilmez, sözü yoktur.** Bebek kundak biçimindedir; yüz, hale ve ses yoktur. Müzik tek tona çekilir.
-- [x] **Kanonik sözler metinden, referanslı.** Melek, gök ordusu, 2:15 ve Yasanın Tekrarı 6:4 [yakın aktarım] olarak işaretlidir. 2:15 metnin dediği gibi ortak sözdür (altyazıda "Çobanlar"); babanın kurgusal satırı ayrı bir vuruştadır.
+- [x] **Kanonik sözler metinden, referanslı.** Rab'bin meleği (2:10–12), gök ordusu (2:14) ve çobanların ortak sözü (2:15) [yakın aktarım; kanonik replik] olarak işaretlidir. Yasa'nın Tekrarı 6:4, Mezmur 23:1 ve ekrandaki Matta 2:18 [yakın aktarım] olarak kalır. 2:15 metnin dediği gibi ortak sözdür (altyazıda "Çobanlar"); babanın kurgusal satırı ayrı bir vuruştadır.
 - [x] **Kanon değişmez.** Çobanlar her yolda gider, bulur ve anlatır (2:17). Seçim yalnızca Tamar'ın kişisel tanıklığıdır.
 - [x] **Uyumlaştırma (GDD §2.3).** Luka öncüdür. Matta yalnızca tablolardadır ve "aylar sonra anlatılan" bir haber olarak verilir. Fark Kodeks'teki "Doğum anlatıları" girdisinde tarafsızca notlanır.
 - [x] **Kanonik kişilere uydurma söz yok.** Meryem ve Yusuf konuşmaz; 2:19 yalnızca bakışla verilir.
@@ -501,7 +501,7 @@ Yok: bu oyunun ilk bölümüdür. `eks_soz` burada sıfırdan başlar.
 - [x] **Şiddet.** Katliam bir tablo, yaşlı Tamar'ın tek bir yas cümlesi, uzak bir ağıt sesi ve Matta 2:18 ile anılır; asker figürü ve şiddet gösterilmez. İçerik notu bunu doğru biçimde söyler.
 - [x] **Antisemitizme karşı.** Köylüler ve çobanlar Yahudidir, sıcak yazılır. Yahudi yaşamı görünürdür: akşam Şema'sı, abadaki püsküller, Mezmur 23. Kalabalık genellenmez; Hirodes bir hükümdar olarak anılır.
 - [x] **Müslüman oyuncular.** Açılış notu Sahne 0'dadır. Polemik yoktur. Yemlik başında secdeyi andıran bir duruş yoktur. Mezmur 23 ve Davut iki gelenekte de saygındır.
-- [x] **Anakronizm yok.** Roma askeri gösterilmez; askerler Kral Hirodes'in ordusundandır (Kodeks). Kandil Hirodes dönemi tipindedir. Beytlehem'de surlu kapı yoktur. Baba Kutup Yıldızı yöntemini değil, döneme uygun bir gözlemi öğretir. Sayım fermanı yalnızca anılır.
+- [x] **Anakronizm yok.** Roma askeri gösterilmez; askerler Kral Hirodes'in ordusundandır (Kodeks). Tablo 2'deki adım sesi nötrdür; Roma yardımcı birliklerinin çivili sandalet sesi kullanılmaz (§12). Kandil Hirodes dönemi tipindedir. Beytlehem'de surlu kapı yoktur. Baba Kutup Yıldızı yöntemini değil, döneme uygun bir gözlemi öğretir. Sayım fermanı yalnızca anılır.
 - [x] **Geleneksel ayrıntılar işaretli.** Mağara, develer, "üç kral", hancı, öküz ve eşek, "Davut'un kuyuları" ve Rahel'in mezarı *geleneksel* diye işaretlenir ya da kullanılmaz. Kutsal Yazı ile gelenek Kodeks'te ayrılır.
 - [x] **Okuryazarlık.** Tamar okuryazar değildir; hedefler düşünce olarak verilir.
 - [x] **Süslemeler.** Melekler şarkı söylemez. Çobanları yıldız yönlendirmez; gök ordusunun ışıkları yıldızlardan ayrıdır ve söner.
@@ -510,8 +510,8 @@ Yok: bu oyunun ilk bölümüdür. `eks_soz` burada sıfırdan başlar.
 ## 16. Üretim Notları
 
 - **Haritalar:** 2 (Kırlar, Beytlehem). Ev 4'ün içi Beytlehem haritasında bir odadır; oba Kırlar haritasındadır.
-- **Karo setleri:** Yeni set yok; Yahudiye kırsalı ve iç mekân kiti kullanılır.
-- **Karakterler:** Çocuk Tamar, baba (kucakta kuzu katmanıyla), Nahum, Yoaş, **genç Hulda** (bu bölüme özgü varyant; 4. ve 6. bölümlerdeki yaşlı Hulda'dan ayrı bir varlıktır), kundaktaki Natan, Meryem (oturan poz), Yusuf (ayakta poz), kundaktaki bebek, melek ve gök ordusu ışık biçimleri. Köylüler kalabalık kitinden 6 varyant ve uyanan komşulardır. Oba çocukları için kalabalık kitinde çocuk gövdesi yoksa çocuk Tamar gövdesinin palet varyantları kullanılır. Koyun seti (Ninni dahil) 6. bölümdeki kayıp koyun anısında yeniden kullanılır.
+- **Karo setleri:** Yahudiye kırsalı burada kurulur (GDD §16.1). Ev 4'ün içi, 3. bölümde (dikey dilim) kurulan iç mekân kitine köy evi parçaları ekler: sokak düzeyinde hayvan bölmesi, tabana oyulmuş taş yemlik, kayaya yaslanan arka duvar oyuğu.
+- **Karakterler:** Çocuk Tamar, baba (kucakta kuzu katmanıyla), Nahum, Yoaş, **genç Hulda** (bu bölüme özgü varyant; 4. ve 6. bölümlerdeki yaşlı Hulda'dan ayrı bir varlıktır), kundaktaki Natan, Meryem (oturan poz), Yusuf (ayakta poz), kundaktaki bebek, melek ve gök ordusu ışık biçimleri. Köylüler kalabalık kitinden 6 varyant ve uyanan komşulardır. Oba çocukları kalabalık kitinin çocuk gövdelerinden çizilir (GDD §11.5). Koyun seti (Ninni dahil) 6. bölümdeki kayıp koyun anısında yeniden kullanılır.
 - **Animasyon dizileri (~48):** Çocuk Tamar 17 (bekleme, yürüme, seğirtme, değnek, ıslık, baş kaldırma, tırmanma, çalı aralama, kuzuyu alma, kuzuyu bırakma, kucakta yürüme, kandille yürüme, oturma, abaya yüz gömme, çömelme, kapıyı gösterme, el tutma). Baba 9 (bekleme, yürüme, oturma, kandili avuçla siper edip kaldırma ve indirme, kucakta kuzuyla kandil kaldırma, değnek vurma, değneğin altından sayım, gösterme, kandili uzatma). Nahum ve Yoaş 4. Genç Hulda 3 (Natan'la bekleme, Natan'la yürüme, Natan'ı sallama). Koyun ve kuzu 12 (Ninni'nin donması dahil). Meryem, Yusuf ve bebek 2. Köylüler 1 (kapıyı açıp eşikte durma; kalabalık kitine eklenir). Çocuk Tamar'ın ~25'lik bütçesi ve 450 tavanı içindedir.
 - **Set-piece:** 0. **Tablo:** 2. **Motor içi ara sahne:** 2 (müjde, yemlik).
 - **Yeniden kullanılan kalıp:** 6.1'deki "meleme yönü + baş kaldırma + tırmanma" kalıbı yalnızca 6. bölümdeki kayıp koyun anısında yeniden kullanılır; başka bölümlerin yan hikâyelerinde tekrarlanmaz (§17).
@@ -521,12 +521,12 @@ Yok: bu oyunun ilk bölümüdür. `eks_soz` burada sıfırdan başlar.
 ## 17. Açık Sorular
 
 1. Melek tasviri (kanatsız ışık biçimi, beyaz-altın gök ordusu) uygun mu? GDD'de meleklere ilişkin bir stil kuralı yok.
-2. Baba bir ad alsın mı (öneri: Elazar)? 7. bölümle ortak karar gerekir.
+2. Kapandı: Tamar'ın babasına ad verilmez; İnsanlar sekmesinde Tamar'ın babası diye anılır (GDD §3.3).
 3. 7. bölüm, babanın öğrettiği yöntemi ("yedi yıldızın döndüğü yerin ortası kuzeydir") kullanacak mı? Bu bölüm artık "ön iki yıldızdan çizgi uzatma" yöntemini öğretmiyor.
-4. Natan'ın müjde gecesindeki yaşı (öneri: birkaç aylık) ve kaçışın zamanı (öneri: bir iki yıl sonra) GDD §3.2'ye işlensin mi?
+4. Kapandı: GDD §3.2 (Natan müjde gecesi birkaç aylık; kaçış bir iki yıl sonra).
 5. Luka 2:15'in üç çobana ortak söz olarak bölünmesi (altyazıda "Çobanlar") kurulca onaylanıyor mu?
 6. Ev 4'teki kaya oyuğu, mağara geleneğiyle köy evi modelini uzlaştırmaya yeter mi?
-7. 2. ve 3. bölümlerdeki `koye` replikleri ("bütün Beytlehem'e anlatmıştım… kimse inanmadı") bu bölümle ve Luka 2:18'le uyumlanmalı: "obadakilere anlatmıştım… şaştılar, sonra unuttular".
-8. Oyun metni "müneccimler" mi diyecek, YC'deki "yıldızbilimciler" mi? (GDD §15.1.5)
+7. Kapandı: 2. ve 3. bölümdeki `koye` replikleri Luka 2:18 kapsamına uygun (GDD §8.4).
+8. Kapandı: yıldızbilimciler (GDD §15.1-5; "müneccimler" yalnızca Kodeks'te geleneksel ad olarak anılır).
 9. `b01_uyanan_ev` gibi bölüm içi tam sayı sayaçları için GDD §8.3'e bir adlandırma ve tür kuralı gerekir.
 10. 3. bölümdeki "Güt insanlara" (koniyle kişi ve yer seçmek) ile bu bölümdeki durak taşı çağrısı (bağlamsal Etkileşim) farklı eylemlerdir. 3. bölüm bu ayrımı korumalıdır.

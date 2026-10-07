@@ -114,7 +114,7 @@ Bölüm iki harita kullanır. Kuyudan küplere yürüyüş yüklü hâlde 45 san
 
 ## 6. Bulmacalar
 
-**Söz halkasının iki biçimi:** Toplanan her söz için Tamar bileğindeki yün bileziğe bir düğüm atar. Bu dünya içi bir kayıttır (Heybe'deki "söz halkası" aleti; 1. bölümdeki kuzu yününün dönüşü). Kavrayış sırasında ise seçim halkası Tamar'ın çevresinde açılır (GDD §5.3); adaylar orada tür biçimli balonlar olarak durur. Söz halkasında yalnızca o cümlenin aday listesindeki sözler görünür (cümleye göre süzülür); öbür sözler Heybe'nin "Sözler" sekmesinde kayıtlı kalır. Balonun biçimi türünü gösterir: **kişi** (figür), **sayı** (çentik), **yer** (ev), **neden** (düğüm).
+**Düğüm bileziği ve söz halkası:** Toplanan her söz için Tamar bileğindeki yün bileziğe bir düğüm atar. Bu dünya içi bir kayıttır (Heybe'deki "düğüm bileziği" aleti; 1. bölümdeki kuzu yününün dönüşü). Kavrayış sırasında ise söz halkası Tamar'ın çevresinde açılır (GDD §5.3); adaylar orada tür biçimli balonlar olarak durur. Söz halkasında yalnızca o cümlenin aday listesindeki sözler görünür (cümleye göre süzülür); öbür sözler Heybe'nin "Sözler" sekmesinde kayıtlı kalır. Balonun biçimi türünü gösterir: **kişi** (figür), **sayı** (çentik), **yer** (ev), **neden** (düğüm).
 
 ### 6.1 Bulmaca 1 — Kiler Hesabı
 
@@ -148,7 +148,7 @@ Kilerde Gad'ın sözü saklandıktan sonra iki tulumun gevşek ağız bağı Bak
 
 **Kurallar:** Boşluklar yalnızca türüne uygun, toplanmış sözlerle doldurulur. Doğrulama toplu yapılır: "doğru" ya da "henüz değil". Tamar'ın başının üstündeki balon dışında oyun durmaz; çevre sesleri kısılır.
 
-**Eksik söz kuralı (bu bölümün iki cümlesinde; fiil öğrenildikten sonra, sonraki bölümlerde kalkar):** Balon açılınca üç zorunlu söz (*iki tulum ekşimiş*, *bütün köy*, *beş tulum*) denetlenir. Eksik olan her söz için Tamar kaynağı adlandırır, sözü söylemez: "Kilerde Gad bir şey kokluyordu…" · "Avluda Elişeva bugünü sayıyordu…" · "Kuyu başındaki ihtiyar bir düğünü anlatıyordu…" Eksik söz varken toplu doğrulama yapılmaz; Tamar "Önce dinlemeliyim" der. Böylece oyuncu eksik bilgiyle "henüz değil" döngüsüne girmez.
+**Eksik söz kuralı (GDD §5.3; her Kavrayış cümlesinde geçerlidir):** Balon açılınca üç zorunlu söz (*iki tulum ekşimiş*, *bütün köy*, *beş tulum*) denetlenir. Eksik olan her söz için Tamar kaynağı adlandırır, sözü söylemez: "Kilerde Gad bir şey kokluyordu…" · "Avluda Elişeva bugünü sayıyordu…" · "Kuyu başındaki ihtiyar bir düğünü anlatıyordu…" Eksik söz varken toplu doğrulama yapılmaz; Tamar "Önce dinlemeliyim" der. Böylece oyuncu eksik bilgiyle "henüz değil" döngüsüne girmez.
 
 **Çözüm (tek):** *iki tulum ekşimiş* · *bütün köy* · *beş tulum*.
 
@@ -156,14 +156,14 @@ Kilerde Gad'ın sözü saklandıktan sonra iki tulumun gevşek ağız bağı Bak
 
 **Üç Işık:**
 1. Eksik söz varsa: eksik sözün kaynağını anan düşünce ("Kuyu başındaki ihtiyar bir düğünü anlatıyordu…"). Yoksa: "Babam 'Saymak yetmez, koklayacaksın' derdi. Sütü bozulan koyunu kokusundan bulurdu."
-2. Eksik söz varsa: kaynağı olan kişi haritada kenar ışığı alır. Yoksa: her boşluğun yanında doğru ya da yanlış işareti belirir, ilgili balonlar seçim halkasında parlar.
+2. Eksik söz varsa: kaynağı olan kişi haritada kenar ışığı alır. Yoksa: her boşluğun yanında doğru ya da yanlış işareti belirir, ilgili balonlar söz halkasında parlar.
 3. Gad (kilerde, tulumları indirirken): "Rafta altı var ama ikisi sirke, teyze. Bu akşam bütün köy geliyor. Hilkiya dede her düğünde anlatır: oğlunun düğününde beş tulum bir akşamda gitmiş." → Hikâyeye devam (eksik sözler kendiliğinden saklanır).
 
 **Yanlış denemelerde:** Tamar başını iki yana sallar: "Henüz değil." Üç başarısız toplu denemeden sonra birinci ışık kendiliğinden söylenir. Ceza yoktur.
 
 **Usta kısıtı:** Yok. **Hikâye kipi:** Cümle kendiliğinden kurulur ve Tamar sonucu söyler.
 
-**Tarihsel bağ / Kodeks:** *Tulum ve şarap* (Kodeks 9); *düğün haftası* (Kodeks 3). Söz halkası okuryazarlık varsaymaz: Tamar hatırlamak için bileğine düğüm atar (§2.2-F).
+**Tarihsel bağ / Kodeks:** *Tulum ve şarap* (Kodeks 9); *düğün haftası* (Kodeks 3). Düğüm bileziği okuryazarlık varsaymaz: Tamar hatırlamak için bileğine düğüm atar (§2.2-F).
 
 ### 6.2 Bulmaca 2 — Sofra Düzeni
 
@@ -260,7 +260,7 @@ Bulmaca 3'te Güt ile seçilen kişi kendi satırını kısaca yineler. Gad: "Yo
 7. **Testi el değiştirir, su değil:** Testiden testiye su aktarılmaz. Tamar'ın yarım döktüğü testi içinde kalan suyla döngüye döner; Hilkiya onu kuyuda tamamlar.
 8. **Yolculuk:** Bir taşıyıcının kuyudan dolu testilerle yokuşa çıkışıdır. Hilkiya her yolculukta belindeki ipe bir düğüm atar. Düğümler Bakış ile okunur ve Tamar sayıyı düşünür ("Beşinci düğüm"). Boş testi indirmek yolculuk sayılmaz.
 9. **Bekleme:** Gad'ın kapıda beklediği testi boşaldıktan sonra eşiğe değil de rafa ya da yere bırakılırsa, ya da boş olarak 45 sn Tamar'ın elinde kalırsa Gad seslenir ("Teyze, iki kulplu sende kaldı!") ve eşikteki öbür boşlarla iner. Tamar'ın revaktan olağan dönüşü bu süreye sığar. Böylece döngü hiçbir zaman kilitlenmez.
-10. **Girdi kesilirse (GDD §7.2, "Hizmetkârlar sürdürür"):** 2:7'den sonra 30 sn boyunca hiçbir kişi atanmamışsa ya da hiç girdi gelmezse yakındaki hizmetkâr "Zincir sürsün"ü teklif eder: avluda Elişeva ("Teyze, biz sürdürelim mi?"), kuyuda Hilkiya. Oyuncu kabul ederse ya da 60 sn daha girdi gelmezse hizmetkârlar küpleri kendiliğinden doldurur (20 sn'lik montaj). Kurulu ve doğru işleyen bir zincir varsa o düzen sürer. Yoksa "iki kulpsuz" düzen kullanılır: Gad kuyuda iki büyük testiyle çalışır, Elişeva kapıdadır; iki kulpluyu taşıyacak Tamar olmadığı için kullanılmaz. Bu düzen yeni animasyon gerektirmez. Düğümler aynı kurala göre sayılır, Usta sayımı sürer.
+10. **Girdi kesilirse (GDD §7.1-2, §7.2):** 2:7'den sonra 30 sn boyunca hiç girdi gelmezse (kontrolcü bırakılmışsa) yakındaki hizmetkâr "Zincir sürsün"ü teklif eder: avluda Elişeva ("Teyze, biz sürdürelim mi?"), kuyuda Hilkiya. Dengeli ve Usta'da montaj yalnızca teklif kabul edilince başlar; dünya bekler. Rahat ve Hikâye'de teklif kabul edilmezse 60 sn daha girdi gelmediğinde hizmetkârlar küpleri kendiliğinden doldurur (20 sn'lik montaj). Kurulu ve doğru işleyen bir zincir varsa o düzen sürer. Yoksa "iki kulpsuz" düzen kullanılır: Gad kuyuda iki büyük testiyle çalışır, Elişeva kapıdadır; iki kulpluyu taşıyacak Tamar olmadığı için kullanılmaz. Bu düzen yeni animasyon gerektirmez. Düğümler aynı kurala göre sayılır, Usta sayımı sürer.
 11. Bırakılan testi kırılmaz, dökülen su yeniden çekilir. Süre sınırı ve zamanlama hatası yoktur (GDD §5.4-4).
 
 **Doğru tur:** Kuyudan çıkan bir yolculuğun bütün testilerinin dansta ya da taşarak hiç dökülmeden küplere boşalmasıdır. Art arda üç doğru turdan sonra **"Zincir sürsün"** seçeneği belirir: kalan turlar 20 saniyelik montajla aynı düzende tamamlanır, düğümler aynı kurala göre sayılır (GDD §5.4-1).
@@ -423,8 +423,8 @@ Hiçbir seçenek kötü yazılmaz. Tamar'ın borcu gerçektir; tulumların ağz�
 
 - **Palet (32 renk, GDD §11.3):** Safran ve okru sarılar (5), keten ve kireç beyazı (5), avlu taşı grileri (3), zeytin ve asma yeşili (4), pişmiş toprak testi tonları (4), ten ve kumaş (6), kandil kehribarı (3), gece laciverdi (1), **nar kırmızısı (1)**. Kırmızı yalnızca nar ağacında, gelinin örtüsünün nakışında ve boncukta kullanılır.
 - **Dönem biçimleri:** Küpler tornada yontulmuş kireçtaşıdır; alçak küpler yaklaşık 80 cm, yüksek küpler yaklaşık 100 cm boyundadır ve alçak bir taş sekinin üzerinde durur (*doğrulanmalı*). Testiler pişmiş topraktır: küçük testi yaklaşık 7 litre, büyük testi yaklaşık 14 litre, iki kulplu testi yaklaşık 20 litre alacak boyda çizilir. Bu litreler yalnızca sanat ölçüsüdür, oyun metninde geçmez. **Kadehler:** pişmiş toprak kâse ya da fincan ve taş maşrapa; ayaklı cam kadeh yoktur. Kırık, pişmiş toprak bir kadehin parçasıdır. **Kandiller:** Herodes tipi, kürek ağızlı; Bizans dönemi ya da "Alaaddin" biçimi yoktur. **Kepçe:** derin, ağzı içe kıvrık kil kepçe.
-- **Özel animasyonlar:** Küplerin palet kademeli ıslaklık bandı ve kenar ışık çizgisi; söz düğümü (bilekteki yünün düğümlenmesi) ve Tamar'ın çevresinde açılan seçim halkası; zincir dalgası (kenar ışığı); 12 kişilik dans halkası döngüsü (8 kare); gün ışığından kandile LUT geçişi.
-- **Yan görünüm set-piece:** "Kana'da küpler ve kepçe" (GDD §11.1'deki altı set-piece'ten biri). Büyük sprite (64×96) yalnızca Tamar ve İsa'dır. İsa kadraj kenarında tek duruşlu, yüzsüz silüettir. Başkan, damat, Elişeva ve dans edenler orta katmanda standart ölçekli figürlerdir; ön katmanda yalnızca koyu silüet şeridi vardır. Başkanın tadışı Tamar'ın omzunun üstünden, 3/4 arkadan kurulur.
+- **Özel animasyonlar:** Küplerin palet kademeli ıslaklık bandı ve kenar ışık çizgisi; söz düğümü (bilekteki yünün düğümlenmesi) ve Tamar'ın çevresinde açılan söz halkası; zincir dalgası (kenar ışığı); 12 kişilik dans halkası döngüsü (8 kare); gün ışığından kandile LUT geçişi.
+- **Yan görünüm set-piece:** "Kana'da küpler ve kepçe" (GDD §11.1'deki beş set-piece'ten biri; tavan 6). Büyük sprite (64×96) yalnızca Tamar ve İsa'dır. İsa kadraj kenarında tek duruşlu, yüzsüz silüettir. Başkan, damat, Elişeva ve dans edenler orta katmanda standart ölçekli figürlerdir; ön katmanda yalnızca koyu silüet şeridi vardır. Başkanın tadışı Tamar'ın omzunun üstünden, 3/4 arkadan kurulur.
 - **Tablolar:** Yok. 2:11 yalnızca ayet kartıdır.
 
 ## 14. Erişilebilirlik ve Zorluk Ayarları
@@ -465,6 +465,8 @@ Hiçbir seçenek kötü yazılmaz. Tamar'ın borcu gerçektir; tulumların ağz�
 
 **Kesme adayları:** Önce yan hikâye; sonra Bulmaca 2 (Elişeva düzeni kendisi kurar; GDD §14.1'deki oturma düzeni öğesi ara sahne olarak kalır); `hizmetkarlarla` kuyu sahnesi (yaşlı Tamar'ın tek cümlesine iner).
 
+**Dikey dilim kapsamı (GDD §16.3):** Harita A ve B; Kiler Hesabı ve Altı Küp (Usta kısıtıyla); "Küpler ve kepçe" set-piece'i (Tamar ve İsa'nın 64×96 sprite'ları ile 12 yan görünüm dizisi); ~30 ajanlık dans halkası; LUT geçişi; suç ve sır seçimleri. Sofra Düzeni (Bulmaca 2) ve yan hikâye dilim dışındadır; dilimde Elişeva düzeni kesme listesindeki biçimle kendisi kurar. Hedef süre ≈35 dk. Dilim "Celile köyü ve gölü" ile "iç mekân kiti"ni ilk kez kurar; İsa'nın ve İsa'nın annesinin tasvirleri kurulla burada doğrulanır. 1. ya da 4. bölümden cilalı bir vitrin eklenmez.
+
 ## 17. Açık Sorular
 
 1. GDD §14.1 "O size ne derse onu yapın" der; aramada "Size ne derse onu yapın" çıktı. 2:3, 2:4, 2:6, 2:8 ve 2:9'un YC ifadeleri de doğrulanmalı.
@@ -475,4 +477,4 @@ Hiçbir seçenek kötü yazılmaz. Tamar'ın borcu gerçektir; tulumların ağz�
 6. Usta kısıtı kesin alt sınıra (9) eşit; bu sertlik kabul ediliyor mu?
 7. Stilize "pay" ölçüleri, küp boyları ve testi hacimleri tarihçi onayına sunulmalı.
 8. İsa'nın annesinin sprite yüzünde ne kadar ayrıntı olmalı?
-9. Çapraz bölüm: 6. bölümdeki "Kana'da kapının yanında altı taş küp dururdu" satırı bu belgeyle eşitlenmeli ("avlunun batı duvarı boyunca"). 2. bölüm Sahne 11'deki `koye` iç sesi ("bütün Beytlehem'e anlatmıştım… Kimse inanmadı") Luka 2:18 ile ve 1. bölümle çelişiyor; bu belge "obadaki herkese… dinleyenler şaşıp kalmıştı" biçimini kullanıyor.
+9. Kapandı: 6. bölüm küplerin yerini artık belirtmiyor (avlunun batı duvarı bu belgede esas); 2. bölümdeki koye iç sesi Luka 2:18 kapsamına uygun (GDD §8.4).

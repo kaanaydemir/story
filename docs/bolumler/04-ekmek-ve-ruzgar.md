@@ -21,7 +21,7 @@
 
 ## 1. Kaynak Metin ve Uyarlama Sınırları
 
-Bütün alıntılar **[yakın aktarım]**dır (§15). Kutsal Kitap siteleri ağ politikasıyla kapalıydı. Matta 14:27'nin ifadesi aramayla teyit edildi. Sadakat incelemesinde şu ifadelerin de arama özetleriyle teyit edildiği bildirildi: Mt 14:16, Mk 6:38, Lk 10:13 ("Horazin"), Mezmur 23:2 ("Sakin suların"), Mt 14:34 ("Ginnesar") ve kitap adı "Çölde Sayım". Öbürleri, Mt 14:33 dahil, YC ile tek tek karşılaştırılmalıdır (*doğrulanmalı*).
+Bütün alıntılar **[yakın aktarım]**dır (§15). İsa'nın sözleri, anlatı metni ve Eski Antlaşma alıntıları [yakın aktarım], İsa dışındaki kanonik konuşanların (öğrenciler, Andreas, Petrus, teknedekiler) satırları [yakın aktarım; kanonik replik] etiketini taşır (GDD §15.1). Kutsal Kitap siteleri ağ politikasıyla kapalıydı. Matta 14:27'nin ifadesi aramayla teyit edildi. Sadakat incelemesinde şu ifadelerin de arama özetleriyle teyit edildiği bildirildi: Mt 14:16, Mk 6:38, Lk 10:13 ("Horazin"), Mezmur 23:2 ("Sakin suların"), Mt 14:34 ("Ginnesar") ve kitap adı "Çölde Sayım". Öbürleri, Mt 14:33 dahil, YC ile tek tek karşılaştırılmalıdır (*doğrulanmalı*).
 
 ### 1.1 Metnin anlattığı
 
@@ -61,10 +61,10 @@ Hulda; gruplar, tarhlar, Tamar'ın kesimi; Andreas'ın tarh çizmesi (jest); ço
 |---|---|---|---|---|
 | Tamar (42) | Kurgusal | Oynanabilir | — | 8 yön; portre; yeni kandil seti |
 | Yoram (19) | Kurgusal | Teknenin gündelikçisi; anlatıcı | — | 4 yön + yan görünüm büyük sprite (64×96); portre |
-| Hulda; yaşlı Tamar, Sara | Kurgusal | Anne, 3. ışık ve Kandil öğretimi ("Ustayı izle"); çerçeve | — | Portreli |
-| İsa | Kanonik | Kutsar; suyun üstünde yürür | **Evet** | 4 yön, uzak plan; yan görünümde silüet; yüzsüz; portre yok |
+| Hulda; yaşlı Tamar, Sara | Kurgusal | Anne, 3. ışık ve Kandil öğretimi ("Ustayı izle"); çerçeve | — | Portreli. Yaşlı Hulda'nın 4 yönlü sprite'ı ve portresi ortak temel varlıktır (GDD §16.1) ve ilk kez bu bölümde görünür; 1. bölümdeki genç Hulda ayrı bir yaş varyantıdır |
+| İsa | Kanonik | Kutsar; suyun üstünde yürür | **Evet** | 4 yön, uzak plan; yan görünümde orta ya da uzak katmanda standart ölçekte silüet (§4.3); yüzsüz; portre yok |
 | Andreas | Kanonik | Çocuğu götürür; tarh çizer; sepet verir | **Evet** (Yh 6:9); kurgusal satırı yok, yalnızca jest | Kit varyantı |
-| Petrus, Filipus, öbür öğrenciler | Kanonik | Yürür ve batar; dağıtır (Filipus kesimine yönlendirirken yalnızca jest yapar); kürek çeker | **Evet** (14:15, 26, 28, 30; Mk 6:37) | Kit; teknede silüet |
+| Petrus, Filipus, öbür öğrenciler | Kanonik | Yürür ve batar; dağıtır (Filipus kesimine yönlendirirken yalnızca jest yapar); kürek çeker | **Evet** (14:15, 26, 28, 30; Mk 6:37) | Kit; teknede orta katmanda standart ölçekte (32×48) silüet (§4.3) |
 | Çocuk (Yh 6:9) | Kanonik, adsız | Beş arpa ekmeği, iki balık | Konuşmaz | 4 yön; portre yok |
 | Asa (9) ve annesi; Gad ve Elişeva | Kurgusal (2. ve 3. bölüm) | `b02_ekmek`; `b03_sir` (Kana hizmetkârları) | — | Asa'nın yamalı çivit külahı; Gad portreli (3. bölüm) |
 | Keziya, Milka, Peleg; söz verenler ve grup başları (fırıncı kadın, balıkçı Yuda, Zakkur, Abiezer) | Kurgusal | Liman; Bulmaca 1–2 | — | Kalabalık kiti |
@@ -92,6 +92,8 @@ Solda Keziya'nın evi (x2–8, y4–10; ocak, yağ küpü, kapıda **yağ testis
 ### 4.3 Tekne (set-piece)
 
 Celile teknesi oranlarında (≈8 m), dört kürekli; kesit kamerası, 2:1 sinemaskop. Sintinede üç kademeli su çizgisi (bilek, baldır, diz). Yırtık bulutlar ve ay; ay diski hiçbir karede İsa'nın arkasına düşmez (§13).
+
+**Katman planı:** Ön katman: Yoram (64×96), küpeşte ve sintine. Orta katman (standart ölçek, 32×48): kürekçiler, Petrus ve öbür öğrenciler; suyun üstündeki İsa ve Petrus orta ya da uzak katmanda standart ölçekte silüettir. Yoram ile orta katmandaki figürler arasında temas çizilmez: kova bırakılınca omuz veren kürekçi orta katmanda kendi kovasıyla çalışır. 14:31'de uzanan el, Yoram'ın omzunun üstünden orta katmanda standart ölçekte görünür (GDD §11.2).
 
 ## 5. Sahne Akışı
 
@@ -270,7 +272,7 @@ Toplam 450 = 45 halka = tarhların toplamı. Dere kıyısındaki **kenardakiler*
 1. Andreas sepeti İsa'ya götürür; Tamar T1'in kenarında, Hulda'nın yanında oturur.
 2. **Eşikten önce (6 sn):** "Beş ekmekle iki balığı aldı." Bakış uzaktaki figüre tutulursa, figür yüzünü göğe kaldırırken `tan_b04_gogeyi_bakti` sessizce yazılır. Kayıt eşikten önce kapanır (GDD'de netleşmesi için bkz. §17).
 3. **Dokunmama (≈25 sn):** "Şükretti, ekmekleri böldü" (14:19). Arayüz, yürüyüş ve Bakış 1 sn içinde çekilir; kamera Tamar'ın omzunun üstünden uzak plana bakar; tek uzun ton ve otlarda rüzgâr. Hiçbir şey kaydedilmez.
-4. Andreas Tamar'a bir sepet uzatır (Taşı; aç/kapa). T2 ile T3'e Filipus dağıtır. Tamar oraya girmeye çalışırsa Filipus gülümseyip eliyle Tamar'ın kesimini gösterir (jest; replik yok).
+4. Andreas Tamar'a bir sepet uzatır (Taşı; kavrama bu anda tek basışla kilitlidir: RT bırakılsa da sepet yere konmaz; çubuk bırakılınca Tamar durur ve sepeti tutar; GDD §5.1c). T2 ile T3'e Filipus dağıtır. Tamar oraya girmeye çalışırsa Filipus gülümseyip eliyle Tamar'ın kesimini gösterir (jest; replik yok).
 5. **İlk sepet (ifade):** İlk sunum istemi yalnızca silüetleri birbirinden ayrılan dört alıcıda belirir; kayıt tarha değil alıcıya bağlıdır:
    - Horazinlilerin değnekli ihtiyarı Abiezer (T5) → `yaslilar`
    - T6'nın önünde birlikte oturan kervan çocukları (`boldu` yolunda Asa da aralarındadır) → `cocuklar`
@@ -282,7 +284,7 @@ Toplam 450 = 45 halka = tarhların toplamı. Dere kıyısındaki **kenardakiler*
 
 **Girdi kesilirse:** 30 sn sonra Andreas dağıtır; `b04_ifade_ilk_sepet = andreas_dagitti` yazılır (§8.1; GDD §8.4'e eklenmeli). Başka bir değer varsayılan olarak yazılmaz.
 
-**Artanlar (Yh 6:12) ve sepet yolları:** Toplayan öğrencilerdir; Tamar kendi kesiminde Andreas'ın sepetini taşır. Sepet yolları hafif bir rotadır: Tamar sepeti oturan sıraların arasındaki koridorlardan geçirerek altı tarhı dolaşır ve her tarhın ucunda Etkileşim ile artanları alır. Sıraların üstünden geçilmez. Bir koridor kapalıysa (değneğini uzatmış bir dede, uyuyakalmış bir çocuk) Tamar "Müsaadenizle" der ve oturan kişi yer açar. Başarısızlık, sayaç ve sıra kaydı yoktur.
+**Artanlar (Yh 6:12) ve sepet yolları:** Toplayan öğrencilerdir; Tamar kendi kesiminde Andreas'ın sepetini taşır. Andreas'ın sepeti de aynı kilitli kavramayla taşınır. Sepet yolları hafif bir rotadır: Tamar sepeti oturan sıraların arasındaki koridorlardan geçirerek altı tarhı dolaşır ve her tarhın ucunda Etkileşim ile artanları alır. Sıraların üstünden geçilmez. Bir koridor kapalıysa (değneğini uzatmış bir dede, uyuyakalmış bir çocuk) Tamar "Müsaadenizle" der ve oturan kişi yer açar. Başarısızlık, sayaç ve sıra kaydı yoktur.
 
 **Kanon güvencesi:** Hiçbir girdi dağıtımın, doymanın ya da on iki sepetin kapsamını değiştirmez.
 
@@ -294,11 +296,11 @@ Toplam 450 = 45 halka = tarhların toplamı. Dere kıyısındaki **kenardakiler*
 2. **Su ve denge (sabit 150 sn):** Rüzgâr pruvanın sağından, yani kuzeybatıdan eser. Yaklaşık 6 sn'de bir gelen sağanak tekneyi sola yatırır; su sol sintineye toplanır. Alçak (sol) yandan kepçelenen kova dolu, yüksek (sağ) yandan yarım gelir; ortadaki Yoram iki yana uzanır. Rüzgâraltına (sola) dökülen su gider, rüzgârüstüne (sağa) dökülenin yarısı geri gelir ("Rüzgâra karşı su dökülmez"). Sağ küpeştede oturmak yatmayı bir kademe azaltır, ama oradan yalnız sağa dökülür; sol küpeştede oturmak yatmayı bir kademe artırır. Önce denge mi, önce su mu?
    - **Sayılar (ayar başlangıcı):** Baldır çizgisi 100 birim, diz çizgisi 200 birim. Ortalama giriş (sağanak anlarında yığılır): sağ küpeştede (kademe 1) 0,9 birim/sn, ortada (kademe 2) 1,1, sol küpeştede (kademe 3) 1,4. Dolu kova 1,5 birim, yarım kova 0,75 birim boşaltır; bir kova döngüsü ≈5 sn sürer.
    - **Sonuç:** Hiç boşaltma yapılmazsa su ≈90. saniyede baldıra çıkar. En iyi oyunda, yani ortada dolu kovayla rüzgâraltına ya da sağ küpeştede yarım kovayla döküldüğünde, ≈120–125. saniyede çıkar. Seviye 130 birimde sabitlenir; diz çizgisine hiçbir yolda ulaşılmaz. 150. saniyede girdi kapanır.
-   - **Su her durumda kazanır.** Zamanlama hatası yoktur; kova bırakılırsa bir kürekçi omuz verir.
+   - **Su her durumda kazanır.** Zamanlama hatası yoktur; kova bırakılırsa bir kürekçi omuz verir (orta katmanda, kendi kovasıyla; Yoram'a dokunmaz, §4.3).
 3. **Sabaha karşı (14:25–27):** Girdi kapanır. "Bu bir hayalet!" → "Cesur olun, benim, korkmayın!" Müzik çekilir.
-4. **Petrus (14:28–31):** Sabit süreli sinematik (≈12 sn yürüyüş, sağanak, batış). **Tek girdi:** arkadan gelen çığlığa dönmek. Dönerse kamera Yoram'ın omzunun üstünden uzanan eli gösterir; 6 sn dönmezse sırtında kalır. 14:31 her durumda metindir, yalnızca Petrus'a yönelir.
+4. **Petrus (14:28–31):** Sabit süreli sinematik (≈12 sn yürüyüş, sağanak, batış). **Tek girdi:** arkadan gelen çığlığa dönmek. Dönerse kamera Yoram'ın omzunun üstünden, orta katmanda standart ölçekte uzanan eli gösterir (§4.3); 6 sn dönmezse sırtında kalır. 14:31 her durumda metindir, yalnızca Petrus'a yönelir.
 5. **Rüzgâr diner (14:32):** Dalgalar elle çizilmiş dört adımda düzleşir; kova Yoram'ın elinden sintineye kayar.
-6. **Teknedekiler (14:33):** Eğilen silüetler ve alıntı kartı: *Teknedekiler, "Sen gerçekten Tanrı'nın Oğlu'sun!" diyerek O'na tapındılar.* (Matta 14:33) [yakın aktarım; YC'deki tam ifade *doğrulanmalı*]. Önde Yoram sintinedeki suyun içinde diz çökmüş, susar; bu sözleri ağzına almaz.
+6. **Teknedekiler (14:33):** Eğilen silüetler ve alıntı kartı: *Teknedekiler, "Sen gerçekten Tanrı'nın Oğlu'sun!" diyerek O'na tapındılar.* (Matta 14:33) [yakın aktarım; kanonik replik; YC'deki tam ifade *doğrulanmalı*]. Önde Yoram sintinedeki suyun içinde diz çökmüş, susar; bu sözleri ağzına almaz.
 
 **Kaydedilen ifade:** Yok. **Kanon güvencesi:** Yürüyüş, batış, kurtarış ve diniş her yolda aynıdır; kıyıdaki nöbet sözle bu anla eşitlenmez.
 
@@ -330,13 +332,13 @@ Toplam 450 = 45 halka = tarhların toplamı. Dere kıyısındaki **kenardakiler*
 
 1. **Yaşlı Tamar:** "Çıkar, Sara. Bu göl rüzgârsız olmaz. Sana bir rüzgâr gecesi anlatayım; ama önce bir ekmek gününü."
 2. **Tamar (iç ses):** "Çobansız koyunlar gibiyiz. Babam bir sürüyü böyle dağınık bıraksaydı, kurt yemeden açlık yerdi."
-3. **Öğrenciler (Mt 14:15):** "Burası ıssız bir yer, vakit de geç oldu. Halkı salıver de köylere gidip kendilerine yiyecek satın alsınlar." [yakın aktarım]
+3. **Öğrenciler (Mt 14:15):** "Burası ıssız bir yer, vakit de geç oldu. Halkı salıver de köylere gidip kendilerine yiyecek satın alsınlar." [yakın aktarım; kanonik replik]
 4. **İsa (Mt 14:16):** "Gitmelerine gerek yok. Onlara siz yiyecek verin." [yakın aktarım]
 5. **Tamar (iç ses):** "İki yüz dinar... iki yüz günlük gündelik. Ben bir yılda o kadarını görmedim."
-6. **Andreas (Yh 6:9):** "Burada beş arpa ekmeğiyle iki balığı olan bir çocuk var. Ama bu kadar kişiye bunlar ne ki?" [yakın aktarım] — **İsa (Mt 14:18):** "Onları bana getirin." [yakın aktarım]
+6. **Andreas (Yh 6:9):** "Burada beş arpa ekmeğiyle iki balığı olan bir çocuk var. Ama bu kadar kişiye bunlar ne ki?" [yakın aktarım; kanonik replik] — **İsa (Mt 14:18):** "Onları bana getirin." [yakın aktarım]
 7. **İsa (Yh 6:12):** "Artan parçaları toplayın, hiçbir şey ziyan olmasın." [yakın aktarım]
-8. **Öğrenciler (Mt 14:26):** "Bu bir hayalet!" — **İsa (Mt 14:27):** "Cesur olun, benim, korkmayın!" [yakın aktarım; ifade aramayla teyit edildi]
-9. **Petrus (Mt 14:30):** "Ya Rab, kurtar beni!" — **İsa, Petrus'a (Mt 14:31):** "Ey kıt imanlı, neden kuşku duydun?" [yakın aktarım]
+8. **Öğrenciler (Mt 14:26):** "Bu bir hayalet!" [yakın aktarım; kanonik replik] — **İsa (Mt 14:27):** "Cesur olun, benim, korkmayın!" [yakın aktarım; ifade aramayla teyit edildi]
+9. **Petrus (Mt 14:30):** "Ya Rab, kurtar beni!" [yakın aktarım; kanonik replik] — **İsa, Petrus'a (Mt 14:31):** "Ey kıt imanlı, neden kuşku duydun?" [yakın aktarım]
 10. **Yoram:** "Kıyıyı göremiyorduk, anne. Sonra rüzgâr dindi, gün ağardı; senin kandilin hâlâ yanıyordu."
 11. **Yoram:** "Teknedekiler O'nun önünde eğildi. Ben bir şey diyemedim; kova çoktan elimden kaymıştı." (İkrarın kendisi yalnızca §7.2-6'daki alıntı kartındadır.)
 12. **Yaşlı Tamar (kapanış):** `kutsadi`: "Ellerimi başına koydum. O sabah oğlumu göle değil, yola verdim." · `yasakladi`: "Gitme dedim. Kaldı, benim için. Ağları birlikte onardık, borcu birlikte kapattık. Yolunu sonra kendisi buldu." · `erteledi`: "Fısıh'tan sonra dedim. Fısıh geldi, geçti. Bazı sözler bekler, Sara."
@@ -363,7 +365,7 @@ Toplam 450 = 45 halka = tarhların toplamı. Dere kıyısındaki **kenardakiler*
 8. **Testideki meşale.** Hâkimler 7:16–20'de Gidyon'un adamları meşalelerini boş testilerin içinde taşır.
 9. **Yahya'nın ölümü ve 14:33.** Mt 14:3–12 ve Josephus (*Yahudi Eski Eserleri* 18.116–119) Yahya'yı bölge kralı Hirodes'in (Antipas) öldürttüğünü bildirir; ayrıntı verilmez. Mt 14:33 farklı geleneklerde farklı yorumlanır; oyun yalnızca alıntılar (bkz. 10).
 10. **Dört anlatı, bir akşam.** Ekmeklerin çoğaltılmasını dört Müjde de anlatır; bu bölümün öncüsü Matta'dır (§2.3). (a) Mt 14:17'de beş ekmekle iki balık öğrencilerin yanındadır; Yh 6:9'da bir çocuğundur ve haberi Andreas verir. Oyun çocuğu ve Andreas'ın satırını Yuhanna'dan alır. (b) Yh 6:11'de ekmekleri İsa dağıtır; Mt 14:19'da İsa ekmekleri öğrencilere verir, onlar da halka dağıtır. Oyun Matta'yı izler. (c) Mt 14:33'te teknedekiler İsa'ya tapınır; Mk 6:51–52 onların şaşkınlığını anlatır ve yüreklerinin katılaştığını söyler (*YC ifadesi doğrulanmalı*). Oyun Matta'nın sözünü yalnızca alıntılar. (d) Yh 6:21'e göre İsa tekneye alınınca tekne hemen kıyıya varır; Matta bu ayrıntıyı vermez. (e) Petrus'un suyun üstünde yürümesini yalnızca Matta anlatır. Oyun bu farklara yorum eklemez.
-11. **Kandil.** Hirodes dönemi kandili çarkta biçimlenmiş, kürek biçimli burunlu bir kil kandildir ("Hirodes kandili"). Yakıtı zeytinyağı, fitili ketendir; fitil burundan bronz bir iğneyle çekilip itilerek ayarlanırdı. Ateş evden eve kor çömleğinde taşınırdı (*doğrulanmalı*). Çevrilerek ayarlanan fitil sonraki çağlara aittir; oyunda yer almaz.
+11. **Kandil (1. bölümdeki girdiye ek).** Tamar'ın kandili, 1. bölümdeki girdide anlatılan kazıma burunlu (burnu bıçakla düzeltilmiş, kürek biçimli) Hirodes kandilidir. Bu bölümün eki: Fitil burundan bronz bir iğneyle çekilip itilerek ayarlanırdı. Ateş evden eve kor çömleğinde taşınırdı (*doğrulanmalı*). Çevrilerek ayarlanan fitil sonraki çağlara aittir; oyunda yer almaz.
 
 ## 11. Yan Hikâye — Işığa Gelen Balıklar (6 dk, Harita B)
 
@@ -390,31 +392,33 @@ Toplam 450 = 45 halka = tarhların toplamı. Dere kıyısındaki **kenardakiler*
 
 - **Palet (32 renk):** Bahar yeşili, göl mavisi, arduvaz grisi ağırlıklı; kandil turuncusu ve ay gümüşü vurgu.
 - **Işık:** Küpteki kandil, ağız yönünde 90°lik ışık maskesiyle çizilir; suda ışık yolu bir şerittir.
-- **Kandil:** Tamar'ın el kandili kürek burunlu kil bir Hirodes kandilidir (Kodeks 11); fitil iğnesi kuşağında asılıdır.
-- **Özel animasyonlar:** Dört alev durumu (dik, eğik, pırpır, sönük); fitilin bronz iğneyle burundan içeri çekilmesi; teknenin üç kademeli yatması; dalgaların dört adımda düzleşmesi.
+- **Kandil:** Tamar'ın el kandili kazıma burunlu (burnu bıçakla düzeltilmiş, kürek biçimli) kil bir Hirodes kandilidir (Kodeks 11; 1. bölümdeki girdi); fitil iğnesi kuşağında asılıdır.
+- **Özel animasyonlar:** Dört alev durumu (dik, eğik, pırpır, sönük); fitilin bronz iğneyle burundan içeri çekilmesi; teknenin elle çizilmiş üç yatma kademesi ve ufuk eğimi (motor döndürmez, GDD §11.2); dalgaların dört adımda düzleşmesi.
 - **İsa:** 3/4'te uzak ve arkadan; set-piece'te yırtık bulutlardan gelen yayvan ay ışığına karşı silüet; göz pikseli ve hale yok. **Ay kuralı:** Ay diski hiçbir karede İsa'nın başının ya da gövdesinin arkasında yer almaz; ışık yırtık bulutlardan yayvan gelir. İsa'nın kenar ışığı Petrus ve teknedekilerle aynı yoğunluktadır; ayrı bir parlaklık taşımaz (GDD §2.2-A, §11.6).
+- **Set-piece katman planı:** Ön katman: Yoram (64×96), küpeşte ve sintine. Orta katman (standart ölçek, 32×48): kürekçiler, Petrus ve öbür öğrenciler; suyun üstündeki İsa ve Petrus orta ya da uzak katmanda standart ölçekte silüettir. Yoram ile orta katmandaki figürler arasında temas çizilmez: kova bırakılınca omuz veren kürekçi orta katmanda kendi kovasıyla çalışır. 14:31'de uzanan el, Yoram'ın omzunun üstünden orta katmanda standart ölçekte görünür (GDD §11.2).
 - **GDD tavanları:** Yan görünüm set-piece'i **1** ("Yoram'ın fırtınası"); tablo **0**; Anlatılan Sahne **0**.
 
 ## 14. Erişilebilirlik ve Zorluk Ayarları
 
 - **Güt:** Otomatik hedefleme; kaldırma için aç/kapa; değnek ve sedye biçimle ayrılır; çakıl rozetine isteğe bağlı rakam.
 - **Kavrayış ve Kandil:** Koku simgeleri biçimle ayrılır (su damlası, tuz tanesi); Koru için aç/kapa; rüzgâr gölgesine kesikli kenar; alev durumu ses ve titreşimle de verilir; rüzgâr yönü sazlarla ve kenardaki bir ok simgesiyle de gösterilir.
-- **Set-piece:** "Otomatik boşalt"; hareket azaltmada yatma yarıya iner, ufuk sabitlenebilir; dönme girdisi 6 sn sonra kendiliğinden geçer.
+- **Set-piece:** "Otomatik boşalt"; hareket azaltmada yatma tek kademeye iner ve ufuk sabit kalır; dönme girdisi 6 sn sonra kendiliğinden geçer.
 - **Ayarlar:** Rahat'ta simgeler belirginleşir, 60 sn sonra 1. ışık gelir; Dengeli ve Usta'da ipucu yalnızca istenince gelir (Kavrayış'ta üç yanlış denemeden sonraki 1. ışık hariç, GDD §5.3); Hikâye'de bulmacalar otomatik çözülür. Ay ışığı geçişleri ışık yumuşatma ayarına bağlıdır.
 
 ## 15. Sadakat ve Hassasiyet Kontrolü
 
 - [x] **A. İsa'nın temsili:** Girdi yok. Sözler yalnızca Mt 14:16, 18, 27, 29, 31; Mk 6:38; Yh 6:12'den, etiketli [yakın aktarım]; birleştirme yok. Yüz, ses, hale yok; ay diski arkasına düşmez; müzik çekilir; Tamar'a hitap yok.
 - [x] **B. Kanon ve mucize değişmez:** Çocuk gelir, öğrenciler dağıtır, on iki sepet artar; yürüyüş sabittir; su her durumda kazanır (en iyi oyunda bile baldıra çıkar). Kandil bulmacası dinişten önce tamamlanır.
-- [x] **C–D. Replik kilidi, ikrar, seçim etiği:** Kanonik kişiler yalnızca metni söyler; Andreas ve Filipus kurgusal anlarda yalnızca jest yapar; çocuk konuşmaz. 14:33 yalnızca "Teknedekiler" etiketli alıntı kartındadır, Yoram'ın ya da Tamar'ın ağzından çıkmaz. Karma çubuğu yok; her diyalogda "Sessiz kal"; ilk sepet puanlanmaz; `yasakladi` kapanışı korumayı onurlandırır.
+- [x] **C–D. Replik kilidi, ikrar, seçim etiği:** Kanonik kişiler yalnızca metni söyler ve satırları [yakın aktarım; kanonik replik] etiketlidir; Andreas ve Filipus kurgusal anlarda yalnızca jest yapar; çocuk konuşmaz. 14:33 yalnızca "Teknedekiler" etiketli alıntı kartındadır, Yoram'ın ya da Tamar'ın ağzından çıkmaz. Karma çubuğu yok; her diyalogda "Sessiz kal"; ilk sepet puanlanmaz; `yasakladi` kapanışı korumayı onurlandırır.
 - [x] **E. Hassasiyet:** Kalabalık sevgiyle çizilmiş Yahudi aileleridir, genelleme yok; iyileşmemiş hasta gösterilmez (sedyeler boştur); vergi görevlisi alaysız; 14:33 yorumsuz; şiddet yok; bölge adları dönemin adlarıyla verilir (Gavlanitis).
 - [x] **F ve §2.3:** Roma askeri yok; cinsiyet ayrımı mekanik değil; Tamar çakılla sayar. Şimşek, ışıma, görünür çoğalma yok. Kandil Hirodes dönemine uygundur. Müjdeler arası farklar Kodeks 10'da tarafsızca notlanır.
 - [ ] **Kurul onayı bekleyenler:** Yoram'ın teknede bulunması; dinişin kıyıda hissedilmesi; çocuğa tuzlamacı bir anne; suyun üstünde yürüyüş kompozisyonu; 14:33 alıntı kartının YC ifadesi.
 
 ## 16. Üretim Notları
 
-- **Haritalar:** 3 (yamaç; liman; tekne). **Karo seti:** Celile köyü ve gölü (ortak). Yeni NPC'ler kit varyantıdır; yeni portre yok.
-- **Animasyon dizileri ≈40:** Tamar 11 (Güt çağrısı, kandili kaldırma, Koru, fitili iğneyle itme, kandil doldurma, kora üfleyerek yakma, kandili kuşağa asma, ağır küp taşıma, sepet sunma, diz çökme, nöbet); Yoram yan görünüm 8; İsa 3; öbürleri 18.
+- **Haritalar:** 2 (yamaç, liman); tekne set-piece'tir ve harita sayılmaz (GDD §16.1). Harita B, 6. bölümde Mecdel'in kıyı sokağı (Harita C) olarak gece LUT'uyla yeniden giydirilir: batı yarısındaki iki ev (Keziya'nın ve Milka'nın evi) kapı, eşik taşı ve kazık gibi değiştirilebilir katmanlarla çizilir; devrik tekne katmanı salamura teknesine dönüştürülebilir. **Karo seti:** Celile köyü ve gölü (ortak).
+- **Karakterler:** Yeni NPC'ler kit varyantıdır; bu bölüme özgü yeni portre yok. Yaşlı Hulda'nın 4 yönlü sprite'ı ve portresi ortak temel varlıktır (GDD §16.1) ve ilk kez bu bölümde görünür; 1. bölümdeki genç Hulda ayrı bir yaş varyantıdır.
+- **Animasyon dizileri ≈40:** Tamar 11 (Güt çağrısı, kandili kaldırma, Koru, fitili iğneyle itme, kandil doldurma, kora üfleyerek yakma, kandili kuşağa asma, ağır küp taşıma, sepet sunma, diz çökme, nöbet); Yoram yan görünüm 8; İsa 3; öbürleri 18 (bunların 2'si yaşlı Hulda'nın bu bölüme özgü dizileridir: sırtını rüzgâra verme; sönmüş kandili göğse çekip avucuyla siper etme; kalan 16'sı kalabalık, öğrenciler ve liman NPC'leri içindir).
 - **Set-piece:** 1. **Tablo:** 0. **Ara sahne:** 2 (Sahne 10'da teknenin açılması ve sırttaki silüet, 20 sn; Sahne 14'te teknenin şafakta yanaşması, 20 sn).
 - **Riskler:** 145 ajanın grupça oturması; çakıl rozetinin okunurluğu; su gölgelendiricisi (§16.3); Bulmaca 2'nin 10 yaş için ağırlığı (kâğıt prototip, hedef medyan 7 dk); set-piece'teki su sayılarının ayarı (90 ve 120–125 sn hedefleri). Sayılar değişirse Bulmaca 2'nin tekliği ve Bulmaca 3'ün 7 düzeni yeniden taranmalı.
 - **Kesme adayları:** Önce yan hikâye; sonra Sahne 9'daki sepet yolları rotası (kısa montaja iner). Son çare (§16.4): fırtına Anlatılan Sahne'ye çevrilir, kepçe ve dönüş girdisi korunur. Sahne 11 (Kandil öğretimi) kesilemez.

@@ -21,7 +21,7 @@
 
 ## 1. Kaynak Metin ve Uyarlama Sınırları
 
-Bütün alıntılar tasarım referansıdır ve **[yakın aktarım]** olarak işaretlidir (YC lisansı bekleniyor, GDD §15). Metin kilidinden önce YC ile tek tek karşılaştırılmalıdır. Matta 3:4, 3:15, 3:17, 4:4 ve Yuhanna 1:39'un ifadesi aramayla teyit edildi; diğerleri bellekten aktarıldı (*doğrulanmalı*).
+Bütün alıntılar tasarım referansıdır ve **[yakın aktarım]** olarak işaretlidir (YC lisansı bekleniyor, GDD §15). İsa dışındaki kanonik konuşanların (Yahya, halk, askerler, iki öğrenci) satırları **[yakın aktarım; kanonik replik]** etiketini taşır; doğrulama notları noktalı virgülle sona eklenir (GDD §15.1). Metin kilidinden önce YC ile tek tek karşılaştırılmalıdır. Matta 3:4, 3:15, 3:17, 4:4 ve Yuhanna 1:39'un ifadesi aramayla teyit edildi; diğerleri bellekten aktarıldı (*doğrulanmalı*).
 
 ### 1.1 Metnin anlattığı
 
@@ -32,7 +32,7 @@ Bütün alıntılar tasarım referansıdır ve **[yakın aktarım]** olarak işa
 - **3:13–15:** İsa Celile'den Yahya'ya gelir. Yahya O'nu caydırmaya çalışır. İsa: «Şimdilik buna razı ol! Çünkü doğru olan her şeyi bu şekilde yerine getirmemiz gerekir.» (3:15). Bunun üzerine Yahya razı olur.
 - **3:16–17:** İsa sudan çıkar çıkmaz gökler açılır; Tanrı'nın Ruhu'nun güvercin gibi inip üzerine konduğunu görür. Göklerden bir ses: "Sevgili Oğlum budur, O'ndan hoşnudum."
 - **4:1–2:** Ruh O'nu çöle götürür. Kırk gün kırk gece oruç tutar, sonra acıkır.
-- **4:3–10:** Üç ayartma ve üç yanıt: taşlar ve ekmek (Yasanın Tekrarı 8:3), tapınağın tepesi (6:16), yüksek dağ ve krallıklar (6:13).
+- **4:3–10:** Üç ayartma ve üç yanıt: taşlar ve ekmek (Yasa'nın Tekrarı 8:3), tapınağın tepesi (6:16), yüksek dağ ve krallıklar (6:13).
 - **4:11:** İblis O'nu bırakır, melekler gelip hizmet eder.
 
 **Tamamlayıcılar**
@@ -78,7 +78,7 @@ Tamar'ın yolculuğu ve Dositeos'un kendiliğinden yardımı (§8.6); hacı kamp
 | Andreas, öbür öğrenci | Kanonik | İsa'nın ardından gider | **Evet** (1:38) | 4 yön; kit varyantı; portre yok |
 | Dositeos | Kurgusal (ana kadro) | Samiriyeli tüccar; dingili onarır; tedarikçi adayı | — | 4 yön; portre (3 ifade) |
 | Yoram (19) | Kurgusal (ana kadro) | Kırk birinci gün annesini almaya gelir | — | 4 yön; portre; mevcut set |
-| Amram, Şifra | Kurgusal | Kamp büyüğü ve karısı | — | Kit, özel palet |
+| Amram, Şifra | Kurgusal | Kamp büyüğü Amram (Kefarnahumlu bazalt değirmen taşı ustası) ve karısı Şifra (≈57). Şifra 9–10. bölümlerde Amram'ın dulu olarak döner (aynı kişi, GDD §3.3). | — | Kit, özel palet |
 | Peninna, Ezra | Kurgusal | Ateşli yaşlı kadın ve oğlu | — | Peninna: yatma, doğrulma |
 | Elyakim | Kurgusal | Pereyalı çoban; yan hikâye | — | Kit |
 | Mecdelli yaşlı çift | Kurgusal | Kervan ailesi; taşıyıcı değildir | — | Kalabalık kiti |
@@ -106,7 +106,7 @@ Bölüm iki harita kullanır. Uçtan uca yürüyüş Harita B'de 60 saniyeyi ge�
 |---|---|---|---|---|---|
 | 0 | **Çerçeve girişi** | Sabit kompozisyon, portreler | Sara: "Nine, o gece yemlikte gördüğün bebeği bir daha gördün mü?" Yaşlı Tamar: "Gördüm. Ama birinin bana göstermesi gerekti." | 1 | Silme |
 | 1 | **Kırık dingil** | 3/4, Harita A | Araba yalpalar, testi düşer, kulpu kırılır (ara sahne). Tamar kırık kamayı Bakış'la görür. Dositeos çağrılmadan durur, kirişle arabayı kaldırır, akasyadan kama yontar (diyalog 2). Söz (§8.1); Tamar yardımı reddedemez | 2,5 | `kol_b02_testi_kulpu`, `kol_b02_dingil_kamasi`, `ilis_dositeos` |
-| 2 | **Kamp ve Su Yolu** | 3/4, Harita B | Amram Tamar'ı kırk günlüğüne tutar: "Kırk gün kampın aşçısı ol. Ücretin ekmeğinle birlikte; kendi payın kendi heybende dursun." **Bulmaca 1.** Keçi yolunun ağzında Ezra annesi için su ister (isteğe bağlı döküş, §6.1) | 3,5 | — |
+| 2 | **Kamp ve Su Yolu** | 3/4, Harita B | Amram Tamar'ı kırk günlüğüne tutar: "Kırk gün kampın aşçısı ol. Ücretin ekmeğinle birlikte; kendi payın kendi heybende dursun." Amram: "Kefarnahum'da değirmen taşı keserim; kırk gün de bu kampın taşını ben taşırım." **Bulmaca 1.** Keçi yolunun ağzında Ezra annesi için su ister (isteğe bağlı döküş, §6.1) | 3,5 | — |
 | 3 | **"Ne yapalım?"** | 3/4, kıyı; ~40 ajan | Yahya'nın vaazı (Matta 3:2; Luka 3:9) ve Luka 3:10–14'ün üç sorusu; Matta 3:11. Serbest dolaşım (§5.1). Dositeos kalabalığın kenarında | 3 | `tan_b02_deve_kili_giysi` |
 | 4 | **Kampta keşif** | 3/4 | Dört konuşma pano kartlarını açar; Zenon gelir; tedarikçi seçimi; yan hikâye teklifi. Bitince hedef düşüncesi: "Akşam olunca çardakta planı kurmalıyım." | 3,5 | `b02_tedarikci`, `ilis_dositeos` |
 | 5 | **Çetele hasırı** | Sabit kompozisyon | Tamar mutfak çardağına gidince pano açılır. **Bulmaca 2** (imza); plan ilk çentikle işlenir | 9 | `usta_b02_israfsiz` |
@@ -126,7 +126,7 @@ Bölüm iki harita kullanır. Uçtan uca yürüyüş Harita B'de 60 saniyeyi ge�
 
 **Sahne 8 montajı** (her görüntü ~35 sn; yürüyüş ve konuşma, el işi yok). Oyuncu kampta serbesttir. Her görüntüde kenar ışığı alan kişiye (ya da nesneye) yürüyüp onunla konuşunca görüntü kapanır ve bir sonrakine geçilir.
 - **1. onluk:** Tamar hasta suyunu Peninna'ya götürür; ateş düşer. Ezra: "Ateşi tam düşsün, gelecek onluktan su benden." (İşaretli kişi: Ezra.)
-- **Şabat (1. onluğun sonunda):** Hazırlık Günü ikindisi Şifra ile Tamar iki kat ekmek pişirir; küpler güneş batmadan doldurulur (Çıkış 16:22–23; 35:3; Yeremya 17:21–22). Şifra: "Şabat'ın suyu bir gün önceden taşınır, kızım." Güneş batarken Şifra Şabat kandilini yakar. Şabat günü tandır soğuktur, kamp dinlenir; Amram ekmeği sözsüz bir jestle kutsar. Tamar kampa geldiğinden beri ilk kez oturur. Sonraki Şabatlar montajda yalnızca soğuk tandırla anılır. (İşaretli kişi: Hazırlık Günü'nde Şifra; Şabat'ta Tamar'ın oturacağı hasır.)
+- **Şabat (1. onluğun sonunda):** Hazırlık Günü ikindisi Şifra ile Tamar iki kat ekmek pişirir; küpler güneş batmadan doldurulur (Mısır'dan Çıkış 16:22–23; 35:3; Yeremya 17:21–22). Şifra: "Şabat'ın suyu bir gün önceden taşınır, kızım." Güneş batarken Şifra Şabat kandilini yakar. Şabat günü tandır soğuktur, kamp dinlenir; Amram ekmeği sözsüz bir jestle kutsar. Tamar kampa geldiğinden beri ilk kez oturur. Sonraki Şabatlar montajda yalnızca soğuk tandırla anılır. (İşaretli kişi: Hazırlık Günü'nde Şifra; Şabat'ta Tamar'ın oturacağı hasır.)
 - **2. onluk:** Mecdel kervanı gelir; Asa küçük bir testiyle Tamar'ın peşine takılır. `saray_adami` ise Zenon, unu getirir; yanındaki asker çuvalları kimse istemeden taşır (Luka 3:14'ün sessiz yankısı). (İşaretli kişi: Asa.)
 - **3. onluk:** Çobanlar sürülerine döner; Elyakim veda eder. `dositeos` ise Dositeos, unu getirir; Amram, Sahne 4'te söylediği gibi ondalığı ayırır (sözsüz jest; hesabı değiştirmez), Şifra Dositeos'a su uzatır. Amram, artan altı dinarla Peninna'ya bal, kampa zeytinyağı alır. (İşaretli kişi: Elyakim; `dositeos` dalında ardından Amram.)
 - **4. onluk:** Son çuval açılır; Tamar kırkıncı çentiği atar (`kol_b02_cetele`; işaretli nesne: çetele çubuğu). Ertesi sabah Yoram'ın gelişiyle Sahne 10 başlar.
@@ -294,13 +294,13 @@ Bölüm iki harita kullanır. Uçtan uca yürüyüş Harita B'de 60 saniyeyi ge�
 3. **Tamar (iç ses):** "Rakibime borçlandım. Hem de bir Samiriyeliye. Hangisi daha çok battı, bilmiyorum."
 4. **Şifra (küp dolunca):** "Artarsa yedek küpe koy kızım, ama bir onluktan fazla bekletme. Su da insan gibidir, bekleyince bozulur."
 5. **Ezra:** "Annemin ateşi düşse kampın suyunu ben de taşırım. Ama şimdi başından kalkamam."
-6. **Yahya (Luka 3:9):** "Balta ağaçların köküne dayanmış bile. İyi meyve vermeyen her ağaç kesilip ateşe atılacak." — **Halk (Luka 3:10):** "Öyleyse ne yapalım?" — **Yahya (Luka 3:11):** "İki mintanı olan, hiç olmayana versin. Yiyeceği olan da aynı şeyi yapsın." — **Askerler (Luka 3:14):** "Ya biz ne yapalım?" — **Yahya (Luka 3:14):** "Kimseden zorla para almayın, kimseye kara çalmayın, ücretinizle yetinin." [yakın aktarım; *doğrulanmalı*]
+6. **Yahya (Luka 3:9):** "Balta ağaçların köküne dayanmış bile. İyi meyve vermeyen her ağaç kesilip ateşe atılacak." [yakın aktarım; kanonik replik; *doğrulanmalı*] — **Halk (Luka 3:10):** "Öyleyse ne yapalım?" [yakın aktarım; kanonik replik; *doğrulanmalı*] — **Yahya (Luka 3:11):** "İki mintanı olan, hiç olmayana versin. Yiyeceği olan da aynı şeyi yapsın." [yakın aktarım; kanonik replik; *doğrulanmalı*] — **Askerler (Luka 3:14):** "Ya biz ne yapalım?" [yakın aktarım; kanonik replik; *doğrulanmalı*] — **Yahya (Luka 3:14):** "Kimseden zorla para almayın, kimseye kara çalmayın, ücretinizle yetinin." [yakın aktarım; kanonik replik; *doğrulanmalı*]
 7. **Tamar (aha):** "Ezra kalkarsa kervanın suyunu o taşır. Önce Peninna'nın suyu."
-8. **Yahya (Matta 3:14):** "Benim senin tarafından vaftiz edilmem gerekirken sen mi bana geliyorsun?" [yakın aktarım]
+8. **Yahya (Matta 3:14):** "Benim senin tarafından vaftiz edilmem gerekirken sen mi bana geliyorsun?" [yakın aktarım; kanonik replik]
 9. **İsa (Matta 3:15):** «Şimdilik buna razı ol! Çünkü doğru olan her şeyi bu şekilde yerine getirmemiz gerekir.» [yakın aktarım; Matta 3:15]
 10. **Asa'nın annesi (seçimden önce):** "Akşama Eriha'da, ağabeyimin evinde oluruz." — **Yoram (böldüyse):** "Üç günlük yol dediğin ne ki anne? Irmakta balık tutarız belki." — **(sakladıysa):** "Haklısın. Yol uzun; nineme ekmekle varırız."
-11. **Yahya (Yuhanna 1:36):** "İşte Tanrı Kuzusu!" [yakın aktarım]
-12. **İsa (Yuhanna 1:38):** "Ne istiyorsunuz?" [yakın aktarım] — **İki öğrenci:** "Rabbi, nerede kalıyorsun?" — **İsa (1:39):** "Gelin, görün." [yakın aktarım]
+11. **Yahya (Yuhanna 1:36):** "İşte Tanrı Kuzusu!" [yakın aktarım; kanonik replik]
+12. **İsa (Yuhanna 1:38):** "Ne istiyorsunuz?" [yakın aktarım] — **İki öğrenci (Yuhanna 1:38):** "Rabbi, nerede kalıyorsun?" [yakın aktarım; kanonik replik] — **İsa (1:39):** "Gelin, görün." [yakın aktarım]
 13. **Yoram (tanıklık penceresinden sonra):** "Anne… o giden Andreas'tı. Simun'un kardeşi. Kefarnahum'da ağlarını onarırken görmüştüm."
 14. **Yaşlı Tamar (kapanış, `boldu`):** "O ekmeğin yarısını Asa yedi. Dönüş yolunun ikinci günü ırmak bize tek balık vermedi; Yoram'la ikimiz de acıktık. Yine de o yarımı geri istemedim."
 15. **Yaşlı Tamar (kapanış, `sakladi`):** "Ekmeği sakladım; Yoram'la evimize vardık. Asa'nın Eriha'ya vardığını sonra duydum. Belki doğrusu buydu, belki değil."
@@ -325,12 +325,12 @@ Bölüm iki harita kullanır. Uçtan uca yürüyüş Harita B'de 60 saniyeyi ge�
 1. **Şeria'nın ötesindeki Beytanya (Yuhanna 1:28).** Yeri tartışmalıdır; en çok kabul gören aday Eriha'nın karşısındaki Vadi el-Harrar'dır (el-Maghtas; UNESCO Dünya Mirası, 2015). Bazı el yazmaları "Beytabara" okur (Origenes; *doğrulanmalı*). Lazar'ın Beytanya'sından (7. bölüm) farklıdır. Matta 3:1 Yahya'nın çağrısını "Yahudiye çölü"ne, Yuhanna 1:28 olayları "Şeria'nın karşı yakasındaki Beytanya"ya yerleştirir; oyun geçidi doğu yakaya koyar ve farkı burada not eder.
 2. **Yahya'nın giysisi ve yiyeceği (Matta 3:4).** Deve tüyü ve deri kuşak İlyas'ı anımsatır (2. Krallar 1:8). Çekirge Kutsal Yasa'ya göre yenebilir (Levililer 11:22). "Yaban balı" çoğunlukla yabani arı balı diye anlaşılır; ağaç özsuyu yorumu da vardır (*tartışmalı*).
 3. **Perea, Antipas ve Josephus.** Doğu yaka bölge kralı Hirodes'in (Antipas) yönetimindeydi. Luka 3:14'teki askerler lejyoner değildi; Antipas'ın askerleri ya da Yahudiye valisinin Sebaste ve Sezariye'den toplanan yardımcı birliklerinden olabilirler (*tartışmalı*). Josephus (*Yahudi Eski Eserleri* 18.116–119) Yahya'yı halkı doğruluğa ve vaftize çağıran iyi bir adam olarak anar ve Antipas'ın onu Makheros'ta öldürttüğünü yazar. Matta 4:12 tutuklanmayı bildirir.
-4. **Samiriyeliler ve ondalık.** Gerizim'de tapınan, Musa'nın beş kitabını kutsal sayan topluluk. Yahudilerle ilişkileri iki yandan da gergindi (Yuhanna 4:9): Hasmoni Yuhanna Hirkanos Gerizim'deki tapınağı yıktırmıştı (MÖ 2. yüzyılın sonu); Josephus, Samiriyelilerin bir Fısıh'ta Tapınak'ın revaklarına kemik saçtığını anlatır (*Yahudi Eski Eserleri* 18.29–30; *doğrulanmalı*). Yine de gündelik alışveriş sürerdi: İsa'nın öğrencileri yiyecek almak için bir Samiriye kentine gider (Yuhanna 4:8). Amram'ın kaygısı dinsel ve hukukidir: Mişna'nın *Demai* bölümü, ondalığının ayrıldığından emin olunmayan ürünü ele alır; böyle bir ürünü alan, ondalığı kendisi ayırabilir (Demai 3:4; 5:9; *doğrulanmalı*). Oyun gerginliği kimseyi kötülemeden, kişiler üzerinden gösterir.
-5. **Kırk gün ve üç yanıt (Matta 4:1–11).** Üç yanıt da Yasanın Tekrarı'ndan alıntıdır (8:3; 6:16; 6:13). Kırk sayısı Musa'yı (Çıkış 34:28), İlyas'ı (1. Krallar 19:8) ve çöldeki kırk yılı anımsatır. Metin çölün yerini belirtmez; Eriha'nın üstündeki "Kırk Gün Dağı" (Karantal) geleneği sonraki yüzyıllardandır (*geleneksel*).
+4. **Samiriyeliler ve ondalık.** Gerizim'de tapınan, Musa'nın beş kitabını kutsal sayan topluluk. Yahudilerle ilişkileri iki yandan da gergindi (Yuhanna 4:9): Hasmoni Yuhanna Hirkanos Gerizim'deki tapınağı yıktırmıştı (MÖ 2. yüzyılın sonu); Josephus, Samiriyelilerin bir Fısıh'ta Tapınak'ın revaklarına kemik saçtığını anlatır (*Yahudi Eski Eserleri* 18.29–30; *doğrulanmalı*). Yine de gündelik alışveriş sürerdi: İsa'nın öğrencileri yiyecek almak için bir Samiriye kentine gider (Yuhanna 4:8). Amram'ın kaygısı dinsel ve hukukidir: Mişna'nın *Demai* bölümü (Mişna MS 200 dolayında yazıya geçmiştir; birinci yüzyıl uygulaması doğrulanmalı), ondalığının ayrıldığından emin olunmayan ürünü ele alır; böyle bir ürünü alan, ondalığı kendisi ayırabilir (Demai 3:4; 5:9; *doğrulanmalı*). Oyun gerginliği kimseyi kötülemeden, kişiler üzerinden gösterir.
+5. **Kırk gün ve üç yanıt (Matta 4:1–11).** Üç yanıt da Yasa'nın Tekrarı'ndan alıntıdır (8:3; 6:16; 6:13). Kırk sayısı Musa'yı (Mısır'dan Çıkış 34:28), İlyas'ı (1. Krallar 19:8) ve çöldeki kırk yılı anımsatır. Metin çölün yerini belirtmez; Eriha'nın üstündeki "Kırk Gün Dağı" (Karantal) geleneği sonraki yüzyıllardandır (*geleneksel*).
 6. **Vaftiz ve göklerden gelen ses.** Matta 3:17 "Sevgili Oğlum budur, O'ndan hoşnudum" der; Markos 1:11 ve Luka 3:22 sesi ikinci kişiyle verir: "Sevgili Oğlum sensin, senden hoşnudum" (*doğrulanmalı*). Oyun öncü Matta'yı izler. Matta 3:16'da gökleri ve güvercini gören İsa'dır; Yuhanna 1:32'de Yahya, Ruh'un inişine sonraki bir günde tanıklık eder. Matta 3:15'teki "doğru olan her şey" (Grekçe *dikaiosynē*) geleneklerde farklı vurgularla yorumlanır; oyun yorum eklemez.
 7. **Tanrı Kuzusu ve saat dört (Yuhanna 1:29, 36, 39).** İfadenin hangi imgelere (Fısıh kuzusu, Yeşaya 53:7 vb.) gönderme yaptığı geleneklerde farklı vurgulanır. "Öbür öğrenci" gelenekte çoğunlukla Zebedi oğlu Yuhanna sayılır (*geleneksel*). Yuhanna 1:39'daki "saat dört", özgün metinde gün doğumundan sayılan "onuncu saat"tir.
 8. **Sıralama ve iki çağrı.** Oyun Matta'nın sırasını izler (vaftiz, ardından çöl: 3:13–4:11) ve Yuhanna 1:35–40'ı kırk günün sonrasına koyar; bu geleneksel bir uyumlaştırmadır. Yuhanna denenmeyi anlatmaz; 1:29–34'te Yahya vaftize geriye dönük tanıklık eder. Matta 4:18–20 Andreas'ın çağrılışını Celile Gölü kıyısında anlatır, Yuhanna 1:35–40 ise ilk karşılaşmayı Şeria'da verir. Gelenek çoğunlukla Şeria'daki karşılaşmayı ilk tanışma, göl kıyısındaki çağrıyı sonraki bir an diye okur. Oyun Sahne 11'e gün numarası vermez.
-9. **Şabat ve Hazırlık Günü.** Şabat'ta iş yapılmaz; altıncı gün iki kat hazırlanır (Çıkış 16:22–23), Şabat'ta ateş yakılmaz (35:3), yük taşınmaz (Yeremya 17:21–22). Şabat'tan önceki güne Hazırlık Günü denir (Markos 15:42). Şabat kandilinin güneş batmadan yakılması ve yasak işlerin ayrıntısı Mişna'nın *Şabat* bölümünde ele alınır (2:6–7; 7:2; *doğrulanmalı*). 9. bölümdeki Şabat'a bağlanır.
+9. **Şabat ve Hazırlık Günü.** Şabat'ta iş yapılmaz; altıncı gün iki kat hazırlanır (Mısır'dan Çıkış 16:22–23), Şabat'ta ateş yakılmaz (35:3), yük taşınmaz (Yeremya 17:21–22). Şabat'tan önceki güne Hazırlık Günü denir (Markos 15:42). Şabat kandilinin güneş batmadan yakılması ve yasak işlerin ayrıntısı Mişna'nın *Şabat* bölümünde (2:6–7; 7:2; *doğrulanmalı*) ele alınır (Mişna MS 200 dolayında yazıya geçmiştir; birinci yüzyıl uygulaması doğrulanmalı). 9. bölümdeki Şabat'a bağlanır.
 
 Bulmaca bölümlerinde ayrıca üç Kodeks girdisi açılır: *Testi taşımak* (§6.1), *Çakılla hesap ve çetele* ve *Tuzlu balık* (§6.2).
 
@@ -375,9 +375,9 @@ Bulmaca bölümlerinde ayrıca üç Kodeks girdisi açılır: *Testi taşımak* 
 - **Işık:** Öğlen kısa, sert gölge; Sahne 11'de uzun gölge. En fazla 4 dinamik ışık (Şabat kandili dahil).
 - **Yahya'nın tasviri:** İsa'nınkiyle aynı kural (GDD §11.6): sprite ölçeğinde göz pikseli yok, yüz saç ve gölgeyle tek ton; yakın plan ve portre yok; vaaz ve vaftiz uzak plandan ya da 3/4 arkadan.
 - **Özel animasyonlar:** Testinin ıslaklık bandı (boş, yarım, omuz, ağız; palet değişimi); dizlere ulaşan halkalar; vaftizde güneşe yükselen kamera ve beyaza kesme; montajda gün döngüsü LUT'u; arı izi (parçacık); yalnızca uzak katmanda, kapatılabilir sıcak titremesi.
-- **Set-piece:** Kullanılmaz; GDD'nin altı set-piece'inden hiçbiri bu bölüme düşmez.
+- **Set-piece:** Kullanılmaz; GDD §11.1'deki set-piece'lerden ve Anlatılan Sahne şeritlerinden hiçbiri bu bölüme düşmez.
 - **Tablo:** *Denenme triptiği* (§11.5). İsa küçük, arkadan silüet; ayartıcı yüzsüz, uzamış bir gölge. Panolar: taşlar ve ekmek, tapınağın tepesi, yüksek dağ.
-- **Anlatılan Sahne kartları:** Kart 1 (Matta 3:16–17): sudan yükselen silüet, ayrılan parşömen çizgileri, güvercin silüeti; ses yalnızca metin. Kart 2 (Matta 4:1): çöle doğru yürüyen küçük silüet; çölün yeri belirtilmez. Kart 3 (Yuhanna 1:32, Sahne 11'in başında): kıyıda duran Yahya'nın silüeti; metin: «Yahya şöyle tanıklık etti: "Ruh'un gökten güvercin gibi inip O'nun üzerinde durduğunu gördüm."» [yakın aktarım; *doğrulanmalı*]. Işıma ya da hale yoktur.
+- **Anlatılan Sahne kartları:** Kart 1 (Matta 3:16–17): sudan yükselen silüet, ayrılan parşömen çizgileri, güvercin silüeti; ses yalnızca metin. Kart 2 (Matta 4:1): çöle doğru yürüyen küçük silüet; çölün yeri belirtilmez. Kart 3 (Yuhanna 1:32, Sahne 11'in başında): kıyıda duran Yahya'nın silüeti; metin: «Yahya şöyle tanıklık etti: "Ruh'un gökten güvercin gibi inip O'nun üzerinde durduğunu gördüm."» [yakın aktarım; kanonik replik; *doğrulanmalı*]. Işıma ya da hale yoktur.
 
 ## 14. Erişilebilirlik ve Zorluk Ayarları
 
@@ -417,7 +417,7 @@ Bulmaca bölümlerinde ayrıca üç Kodeks girdisi açılır: *Testi taşımak* 
 
 1. GDD'deki "hafta" adımı yerine (4 × 10 = 40) **"onluk"** onaylanıyor mu? (GDD §5.1, §5.2, §14.1 düzeltmesi gerekir.)
 2. Tamar'ın kendi vaftizi tek cümleyle mi anılsın, hiç mi anılmasın?
-3. Anlatılan Sahne kartları 12 tablo tavanına sayılıyor mu?
+3. Anlatılan Sahne kartları 12 tablo tavanına sayılıyor mu? **Kapandı:** Anlatılan Sahne kartları 12'lik tablo tavanına sayılmaz; ayrı bir kalemdir, en fazla 6 (GDD §11.5, §16.1). Bu bölümün 3 kartı bu kalemdedir.
 4. "Başa al / İndir" girdisi ve panonun "Çeteleye işle" onayı GDD §5.1'e adıyla eklenmeli; tuş atamaları Y (Kandil/Kavrayış) ve LT (Bakış/Kulak) çakışmalarıyla birlikte bölümler arası kontrol geçişinde kesinleşmeli.
 5. "Mecdelli" hitabı, Mecdelli Meryem'le karışmaması için bu bölümde "aşçı kadın"a çevrildi. 5. ve 6. bölümdeki Dositeos satırları ("Mecdelli…") bölümler arası geçişte buna göre düzeltilmeli.
 6. Peygamber kabul edilen kişiler (Yahya, Zekeriya) için tasvir kuralı GDD düzeyine taşınmalı; bu bölüm şimdilik İsa'nın yüz kuralını Yahya'ya uygular.
