@@ -6,9 +6,9 @@
 
 | Alan | Değer |
 |---|---|
-| **Kaynak** | **Öncü:** Markos 14:12–26. **GDD'nin sahneye atadığı:** Yuhanna 13:1–30 (ayak yıkama, Yahuda); Matta 26:26–28 (tablo); Luka 22:54–62 (kapı, §8.5). **Tamamlayıcı:** Lk 22:8, 10, 12; Yh 18:3, 18. **Kodeks:** Çıkış 12; Mişna, Pesahim ve Bava Kamma 7:7 |
+| **Kaynak** | **Öncü:** Markos 14:12–26. **GDD'nin sahneye atadığı:** Yuhanna 13:1–30 (ayak yıkama, Yahuda); Matta 26:26–28 (tablo); Luka 22:54–62 (kapı, §8.5). **Tamamlayıcı:** Lk 22:8, 10, 12; Yh 18:3, 18. **Kodeks:** Mısır'dan Çıkış 12; Mişna, Pesahim ve Bava Kamma 7:7 |
 | **Oynanabilir karakter** | Tamar (44), gündelikçi aşçı |
-| **Yer, vakit, yıl** | Yeruşalim: Yukarı Kent'te bir konak, sokaklar, başkâhinin dış kapısı. İbrani Nisan ayının 13'ü ikindisinden 15'inin şafağına; Yahudi günü gün batımında başlar (sinoptik çerçeve, §2.3). Yaklaşık MS 30 (*doğrulanmalı*) |
+| **Yer, vakit, yıl** | Yeruşalim: Yukarı Kent'te bir konak, sokaklar, başkâhinin dış kapısı. İbrani Nisan ayının 13'ü ikindisinden 15'inin şafağına; Yahudi günü gün batımında başlar (sinoptik çerçeve, §2.3). Yıl ekranda, Kodeks'te ve tasarım belgelerinde verilmez (GDD §2.3) |
 | **Erişim düzeyi** | Doğrudan (mutfak, üst oda kapısı, merdiven, kapı eşiği); sofra sözleri tabloyla; Getsemani yalnızca damdan, uzak meşaleler olarak; avluya girilmez |
 | **Yeni fiil / kıvrım** | **Ez/Karıştır** / Kandil ile Kavrayış birleşir: arama (yeni Kandil tutuşu: Alçak) |
 | **Mekanikler** | Kandil, Kulak ve Kavrayış, Ez/Karıştır, Bekleyiş (vakit panosu; sofra yerleşiminde pano arayüzü), Taşı, Söz, Bakış; yan hikâyede Güt, Bağla/Çöz |
@@ -21,7 +21,7 @@
 
 ## 1. Kaynak Metin ve Uyarlama Sınırları
 
-Bütün alıntılar **[yakın aktarım]**dır (§15). Kutsal Kitap sitelerine ağdan erişilemedi; aramaya göre Yuhanna 13:30 bir Türkçe çeviride "Gece olmuştu" diye bitiyor (§17-1). Bütün ayetler YC ile karşılaştırılmalıdır.
+Bütün alıntılar **[yakın aktarım]**dır; İsa dışındaki kanonik konuşanların satırları **[yakın aktarım; kanonik replik]** etiketini taşır (GDD §15.1). Kutsal Kitap sitelerine ağdan erişilemedi; aramaya göre Yuhanna 13:30 bir Türkçe çeviride "Gece olmuştu" diye bitiyor (§17-1). Bütün ayetler YC ile karşılaştırılmalıdır.
 
 ### 1.1 Metnin anlattığı (Markos 14:12–26)
 
@@ -78,7 +78,7 @@ Ev halkı; testili adamın adı (Eldad), kişiliği ve Tamar'la çalışması; h
 **A. Üst odalı ev (üç katman).** *Dayanak:* Yukarı Kent'in Hirodes dönemi konakları. *Işık:* Gece en çok 6 dinamik ışık; ay avluya ve dama düşer.
 - **Zemin (30×20):** 12×10 avlu: taş seki, ahşap kapaklı sarnıç, sokak kapısının binek taşı. Kuzeyde mutfak (tandır, ahşap hamur teknesi, bakır ayak leğeni ve ibriği, havan, yağ küpü); batıda kiler (arka duvarda, yüksekte eski kandil oyuğu) ve Nehuşta'nın odası; doğuda arınma havuzu; güneyde sokak kapısı. Doğu duvarında 12 basamaklı dış merdiven: ortada girintili dönemeç sahanlığı (girintilerde bayram kandilleri), altında Eldad'ın köşesi.
 - **Üst kat:** Sahanlık (8×2), üst oda (13×10, plan §6.1), yatak odası, dama tahta merdiven.
-- **Dam (14×12):** Korkuluk (Yasanın Tekrarı 22:8), güvercinlik, Tamar'ın hasırı. *Paralaks:* Tapınak, Kidron, Zeytin Dağı.
+- **Dam (14×12):** Korkuluk (Yasa'nın Tekrarı 22:8), güvercinlik, Tamar'ın hasırı. *Paralaks:* Tapınak, Kidron, Zeytin Dağı.
 
 **B. Sokaklar ve pazar (40×24).** Basamaklı sokak, Marta'nın tezgâhı; şafaktan önce kepenkler kapalı.
 
@@ -193,13 +193,13 @@ y9   .....LG......   G kapı (6,9); L leğen hasırı (5,9)
 
 **Cümle doğrulanınca:** Arama listesi Tamar'ın düşüncesine yazılır: avlu, merdiven altı, kiler, ninenin odası, dış merdiven ve sahanlık, dam. "Üst odaya ve mutfağa ekmek girmedi." Atara kandili küpten doldurur; bu dolum Tamar'ın dönüşü sayılmaz. Çıkarım böylece aramanın planı olur; Usta kısıtı da bu planın verimini ölçer.
 
-**Kandil** (bu bölümün değerleri; 7. bölümün durum tablosuyla uyumludur; gece rüzgârsızdır, Koru gerekmez):
+**Kandil** (GDD §5.1b'deki kanonik değerler; Kaldırılmış'ın 4 karosu yerleşim içi değeridir; gece rüzgârsızdır, Koru gerekmez):
 
 | Durum | Girdi | Işık | Yağ | Bu bulmacada |
 |---|---|---|---|---|
 | Kısık | Kandil eylemine kısa dokunuş | Kor | Yakmaz | **Kapalı.** Atara: "Maya ışıkla aranır; fitili kısma." Yan hikâyede açıktır |
 | Açık | Kısa dokunuş | 2 karo | Yürürken 240 karoda 1 ölçü; dururken fitil geri itilir, yakmaz | Yollar; kırıntı göstermez |
-| Kaldırılmış | Basılı tutmak | 4 karo; oyuk ve girintiler görünür | Yürürken Açık'ın 2 katı; dururken 5 sn'de ¼ ölçü | Kilerdeki oyuk; kırıntı göstermez |
+| Kaldırılmış | Basılı tutmak | 4 karo; oyuk ve girintiler görünür | Yürürken Açık ile aynı; dururken 5 sn'de ¼ ölçü | Kilerdeki oyuk; kırıntı göstermez |
 | **Alçak** (yeni tutuş) | Bağlam göstergesi "Alçalt"; basılı tutmak ya da aç/kapa | Yere yatık 2 karoluk halka; halkadaki kırıntılar uzun gölgeleriyle belirir, A ile beze toplanır | Fitil biraz çekilir: yürürken Açık'ın 1,5 katı; dururken yakmaz | Arama; yürüyüş normal hızın %70'i |
 
 Kandil en çok 1 ölçü alır; yalnızca mutfaktaki küpten, durup A ile 3 sn'de dolar. Alçak tutuş, arama başlarken öbür Kandil eylemlerinin yanında bağlam göstergesi olarak açılır: eylemin varlığı görünür, neden işe yaradığı aha anı olarak kalır. Kırıntılar yalnızca Alçak halkanın içinde etkileşimlidir; Bakış halkanın dışındaki kırıntılara kenar ışığı vermez. Taranan zemin sayaç olmadan, ince bir izle ve hafif bir ton farkıyla görünür.
@@ -222,12 +222,14 @@ Boş bölgeler: mutfak 24, arınma havuzu 14, üst oda 44, yatak odası 16. **Yo
 - Altı bölgenin 720 sırasından **96'sı** tek dönüşle biter ve bunlar tam olarak katları bölmeyen sıralardır: zemindeki dört bölge art arda, dış merdiven-sahanlık ile dam art arda (hangi kat önce gelirse gelsin; 4! × 2 × 2). Öbür 624 sıra en az iki dönüş ister. Örneğin yol üstündeki avlu üst turla aynı dolumda aranırsa 54 + 210 = 264 eder; kandil damda söner ve dama ikinci kez çıkmak gerekir.
 - **Bütün ev** (boş bölgeler dahil) en az iki dönüş ister: taramalar tek başına 471, yollar en az 100 karoluk yağ tutar.
 
+Kaldırılmış kandilin yürürken yaktığı yağın kanonik değere (Açık ile aynı) çekilmesi bu değişmezleri ve başvuru çözümünü etkilemez, çünkü kaldırılmış kandil yalnızca kilerde dururken kullanılır; oyun testinde yeniden doğrulanır.
+
 **Başvuru çözümü:** Cümle → Atara kandili doldurur → avlu → merdiven altı → kiler (yeri tara, kandili kaldır, oyuktan bezi al) → ninenin odası → mutfağa dön, küpten doldur (tek dönüş) → dış merdiveni ve sahanlığı Alçak tutuşla tara → dam. Yürüyüş: Alçak tutuşla 200 karo (%70 hızla), Açık yollarda 122 karo.
 
 **"Aha" anı:** Ekmeğin bölündüğü taşların dibinde kaldırılmış kandil hiçbir şey göstermez; alçaltılınca taşların arasında uzun gölgeler belirir. Tamar: "Işık yatınca küçük şey büyük gölge verir." İkinci an kilerdedir: yer boştur, kaldırılan kandil yüksekteki oyuğu gösterir (S9).
 
 **Üç Işık:**
-- *Kavrayış:* (1) "Biri 'yiyeceğim' dedi, biri 'yedi' dedi. Birinin 'yedim' dediğine de başkası 'girmedi' diyor." (2) İlk yanlış boşluğun doğru olmadığı söylenir; o boşluğu çözen söz (S3, S4, S5 ya da S8) parlar. (3) Nehuşta: "Uzzi merdivenin başından öteye gitmez; dama hamallar çıktı. Dina benim gibi saklar: duvar oyuğuna, yükseğe." → Hikâyeye devam.
+- *Kavrayış:* (1) "Biri 'yiyeceğim' dedi, biri 'yedi' dedi. Birinin 'yedim' dediğine de başkası 'girmedi' diyor." (2) Her boşluğun doğru ya da yanlış olduğu işaretlenir (doğru aday söylenmez); ilk yanlış boşluğu çözen söz (S3, S4, S5 ya da S8) parlar. (3) Nehuşta: "Uzzi merdivenin başından öteye gitmez; dama hamallar çıktı. Dina benim gibi saklar: duvar oyuğuna, yükseğe." → Hikâyeye devam.
 - *Arama:* (1) "Kayıp parayı arayan kadın evi nasıl aradı?" (6. bölümün tablosu; bkz. §9-2). (2) Ekmeğin bölündüğü üç taş ve korkuluğun dibi parlar, Alçak göstergesi bir kez nabız atar; kilerde oyuğun hatları parlar. (3) Atara: "Havada tutarsan kırıntı kendi gölgesine saklanır; yere eğ." Kilerde Eldad: "Arka duvarda, yüksekte eski bir oyuk var." → Hikâyeye devam.
 
 **Yanlış denemelerde:** Kavrayış'ta "Henüz değil"; üç denemeden sonra 1. ışık. Yağ biterse kandil söner; Tamar ay ışığında küpe yürür ya da "Yolu biliyorum" ile geçer. Bu bir dönüş sayılır; ceza yoktur, taranan zemin işaretli kalır.
@@ -257,7 +259,7 @@ Boş bölgeler: mutfak 24, arınma havuzu 14, üst oda 44, yatak odası 16. **Yo
 | Acı otları yıka | Tamar, Dina | Pazardan sonra | 1 |
 | Leğeni ov, ibriği doldur | Tamar, Eldad | Taze su: öğle suyundan sonra ("Konuğun ayağına bayat su dökülmez") | 2 |
 
-**Kurallar:** Kişi ve tandır başına vakitte tek iş. Küpte başta 1 su vardır; Eldad'ın öğle suyu (+3) İkindi başında küpe girer; su eksiye düşmez. "Günü başlat" denince bozuk bir kural varsa Tamar ilkini adlandırır ("Akşamüstü tandır kuzunundur").
+**Kurallar:** Kişi ve tandır başına vakitte tek iş. Küpte başta 1 su vardır; Eldad'ın öğle suyu (+3) İkindi başında küpe girer; su eksiye düşmez. "Günü başlat" denince bozuk bir kural varsa Tamar ilkini adlandırır ("Akşamüstü tandır kuzunundur"). **Geri bildirim (GDD §5.1, Bekleyiş):** Dengeli ve Usta'da yalnızca o anda düzenlenen sütunun tandır durumu ve küpteki su anında güncellenir; öbür sütunlar "Günü başlat" oynatmasına dek "henüz bilinmez" durur. Rahat'ta öbür sütunlar soluk önizlemeyle hesaplanır. "Günü başlat", GDD'deki "Çeteleye işle" onay eyleminin bu bölümdeki dünya içi etiketidir.
 
 **Çözüm** (tam taramayla 18 düzen; hepsi kabul edilir): Sabah Tamar pazarda, Eldad tandırı kızdırır. Öğle Tamar ekmeği pişirir. İkindi tandırını Tamar ya da Eldad kızdırır. Otlar (Tamar ya da Dina) ve leğen (Tamar ya da Eldad) İkindi ya da Akşamüstü'ne, kişi başına vakitte tek iş kuralıyla dağılır.
 
@@ -267,7 +269,7 @@ Boş bölgeler: mutfak 24, arınma havuzu 14, üst oda 44, yatak odası 16. **Yo
 
 **Pazar (Sabah, ≈1 dk, oynanır):** Marta'nın tezgâhında beş demet acı ot vardır; hepsi Mişna'nın saydığı türlerdendir (Pesahim 2:6). Tamar Nehuşta'nın tarifine göre iki demet seçer; yanlış seçim yoktur. Marta'nın jesti §8.2'deki bayraklara bağlıdır.
 
-**El işi — mayasız ekmek (Öğle, 2 dk, Karıştır):** Mutfakta ahşap bir hamur teknesi vardır (Çıkış 12:34); bakır ayak leğeni ayrı bir kaptır ve hamura değmez. Bir yufka bir ölçek un ister; sofraya altı yufka gerekir; tandır bir seferde üç yufka alır. Atara'ya göre üç ölçek una bir ölçek su gerekir. **Akış:** Un ve su teknede ölçekle ölçülür → Ez/Karıştır girdisiyle dört tur yoğrulur; kıvam simgesi çatlak, pürüzsüz ya da yapışkan görünür (su az, doğru, fazla) → A ile "Tandıra yapıştır". **Karar:** Hamuru iki partide yoğurmak: her partide üç ölçek un, bir ölçek su. Altı ölçeği birden yoğuran oyuncunun hamurunun yarısı tandır doluyken bekler; Tamar onu kullanmaz ("Bekleyen hamur bayram ekmeği olmaz"), hamur avlu ateşine atılır ve un yeniden ölçülür. Panodaki bir su birimi iki partinin iki ölçeğini karşılar. Bu bir oran ve parti kararıdır; hız sonucu değiştirmez. Otomatik seçeneği vardır.
+**El işi — mayasız ekmek (Öğle, 2 dk, Karıştır):** Mutfakta ahşap bir hamur teknesi vardır (Mısır'dan Çıkış 12:34); bakır ayak leğeni ayrı bir kaptır ve hamura değmez. Bir yufka bir ölçek un ister; sofraya altı yufka gerekir; tandır bir seferde üç yufka alır. Atara'ya göre üç ölçek una bir ölçek su gerekir. **Akış:** Un ve su teknede ölçekle ölçülür → Ez/Karıştır girdisiyle dört tur yoğrulur; kıvam simgesi çatlak, pürüzsüz ya da yapışkan görünür (su az, doğru, fazla) → A ile "Tandıra yapıştır". **Karar:** Hamuru iki partide yoğurmak: her partide üç ölçek un, bir ölçek su. Altı ölçeği birden yoğuran oyuncunun hamurunun yarısı tandır doluyken bekler; Tamar onu kullanmaz ("Bekleyen hamur bayram ekmeği olmaz"), hamur avlu ateşine atılır ve un yeniden ölçülür. Panodaki bir su birimi iki partinin iki ölçeğini karşılar. Bu bir oran ve parti kararıdır; hız sonucu değiştirmez. Otomatik seçeneği vardır.
 
 **Üç Işık:** (1) "Babam ağıla önce en zor koyunu sokardı. Akşam tandırı kuzu tutacak." (2) Kilitli taşlar ve ekmeğin girebileceği tek sütun parlar. (3) Atara: "Ekmeği öğlene koy. Sabah tandırını Eldad yaksın, sen pazara git. Otla leğen öğle suyunu bekler." → Hikâyeye devam.
 
@@ -277,13 +279,13 @@ Boş bölgeler: mutfak 24, arınma havuzu 14, üst oda 44, yatak odası 16. **Yo
 
 ### 7.1 Leğen
 
-**Kontroller:** Taşı (kavra ve yürü; aç/kapa), A ile bırak, Bakış. Seğirtme kapalı.
+**Kontroller:** Taşı (kavrama bu anda tek basışla kilitlidir: RT bırakılsa da ibrik ve leğen yere konmaz; çubuk bırakılınca Tamar durur ve yükü tutar; GDD §5.1c), A ile hasıra bırak, Bakış. Seğirtme kapalı.
 
 1. **Mutfak:** Tamar dolu ibriği kavrar; boş leğen kolunun altında, havlu omzundadır. Yük ağırdır, hız düşer; hiçbir şey dökülmez.
 2. **Merdiven:** On iki basamak; girintilerde bayram kandilleri yanar.
 3. **Kapı:** Tamar leğeni ve ibriği Bulmaca 1'de serilen hasıra (5,9) bırakır, havluyu leğenin kenarına koyar. Kapının dışında, eşikte diz çöker: kandil ışığı, yaslanmış silüetler, uğultu. Bundan sonra tek girdisi Bakış'tır.
 4. **Eşikten önce (≈8 sn):** İsa sofradan kalkar (13:4), kapının içindeki leğen köşesine gelir, dış giysisini bırakır, havluyu alıp beline dolar. Bakış bu sırada tutulursa `tan_b08_havluyu_kusandi` yazılır. Kamera uzak ve arkadandır.
-5. **Dokunmama (≈40 sn):** İsa ibriği eğerken kontroller ve arayüz 1 sn içinde çekilir; Tamar başını eğip eşikten geri çekilir. İsa leğene su döker (13:5) ve Tamar'ın açtığı ayak yolunda ilerler. Kamera kapıdan, arkadan, uzaktan; iki ayak görünür, sonra kararır. 13:6–8 metin olarak akar.
+5. **Dokunmama (≈40 sn):** İsa ibriği eğerken kontroller ve arayüz 1 sn içinde çekilir; Tamar başını eğip eşikten geri çekilir. İsa leğene su döker (13:5) ve Tamar'ın açtığı ayak yolunda ilerler. Kamera kapıdan, arkadan, uzaktan; iki ayak görünür, sonra kararır. 13:6–8 metin olarak akar (Petrus'un satırları [yakın aktarım; kanonik replik], İsa'nın satırları [yakın aktarım]).
 6. **Kararmadan sonra:** Kontroller döner. Tamar leğeni ve ibriği kapı aralığından kendisi alır ve sahanlıkta bekler. 13:14 metin olarak akar.
 
 **İfade:** Kaydedilmez. **Girdi kesilirse:** Dünya bekler. Tamar mutfakta 45 sn kalırsa leğeni Eldad yüklenir; Tamar kendiliğinden ardından çıkar ve eşikte diz çöker; sahne aynı biçimde sürer. **Kanon güvencesi:** Ayak yıkama her yolda aynıdır.
@@ -294,7 +296,7 @@ Tam ekran, kandil gölgesi üslubu: ekmek ve kâse; İsa arkadan, yüzsüz. Matt
 
 ### 7.3 Merdivende Yahuda
 
-Tamar boş leğeni dönemeç sahanlığına indirip Eldad'a verir, ondan yağ testisini alır; kendi kandiliyle orada durup girintilerdeki bayram kandillerini doldurur. Yukarıda üst kapının sürgüsü çekilir, ayak sesi gelir. Tamar: "Biri iniyor." **Seçim burada, kimse görünmeden belirir ve süresizdir:** Tamar nasıl duracağını seçer (§8.1). Seçimden sonra kapı açılır; Yahuda girdiden bağımsız, sabit süreli (≈6 sn) bir animasyonla basamakları iner, avluyu geçer ve sokak kapısından çıkar. Hiç durmaz, hiç bekletilmez; seçilen duruş yalnızca Tamar'ın jestini ve repliğinin zamanlamasını belirler. İniş boyunca yürüme kapalı, Bakış açıktır. Yahuda sokak kapısını açarken 3 sn'lik bir Bakış penceresi açılır: `tan_b08_gece_idi`. Kart: "Yahuda lokmayı alır almaz dışarı çıktı. Gece olmuştu." (Yh 13:30, [yakın aktarım], *doğrulanmalı*). Durduran ya da geciktiren girdi yoktur.
+Tamar boş leğeni dönemeç sahanlığına indirip Eldad'a verir, ondan yağ testisini alır; kendi kandiliyle orada durup girintilerdeki bayram kandillerini doldurur. Yukarıda üst kapının sürgüsü çekilir, ayak sesi gelir. Tamar: "Biri iniyor." **Seçim burada, kimse görünmeden belirir ve süresizdir:** Tamar nasıl duracağını seçer (§8.1). Seçimden sonra kapı açılır; Yahuda girdiden bağımsız, sabit süreli (≈6 sn) bir animasyonla basamakları iner, avluyu geçer ve sokak kapısından çıkar. Hiç durmaz, hiç bekletilmez; seçilen duruş yalnızca Tamar'ın jestini ve repliğinin zamanlamasını belirler. İniş boyunca yürüme kapalı, Bakış açıktır. Yahuda sokak kapısını açarken 3 sn'lik bir Bakış penceresi açılır: `tan_b08_gece_idi`. Kart: "Yahuda lokmayı alır almaz dışarı çıktı. Gece olmuştu." (Yh 13:30) [yakın aktarım; *doğrulanmalı*]. Durduran ya da geciktiren girdi yoktur.
 
 **Çizim:** Yahuda öbür öğrencilerle aynı kit kafasıyla ve olağan kandil ışığında çizilir; özel gölge, özel ışık, renk filtresi ya da para kesesi gibi ayırt edici bir simge yoktur. `kandil_uzatti` ve `sordu` yollarında Tamar'ın kandili yüzünü sıradan biçimde aydınlatır; öbür yollarda girintilerdeki bayram kandillerinin olağan ışığı düşer. Giysi rengi ve silüeti İsa'nınkinden açıkça ayrılır.
 
@@ -302,7 +304,7 @@ Tamar boş leğeni dönemeç sahanlığına indirip Eldad'a verir, ondan yağ te
 
 Tamar ile Eldad muhafızın mangalının yanında bekler. Kapı aralığından avluda yakılmış ateş ve çevresindeki silüetler görünür; Bakış ile bakılabilir (Lk 22:55). Avluya giriş girdisi yoktur. Muhafız ellerini ısıtıp sorar (§9-9). **Seçim süresizdir:** Girdi gelmezse muhafız soruyu bir kez yineler, sonra mangalına dönüp ellerini ısıtır; soru ekranda bekler. *Sessiz kal* yalnızca açıkça seçildiğinde kaydedilir.
 
-Seçimden sonra tepki gelir (§8.1), ardından kontroller 10 sn çekilir: horoz öter (Lk 22:60), Petrus kapıdan çıkıp acı acı ağlar (22:62). Ağlayıştan sonra ayet etiketli bir metin kartı belirir: "Rab dönüp Petrus'a baktı. Petrus, Rab'bin kendisine, 'Bugün horoz ötmeden beni üç kez inkâr edeceksin' dediğini anımsadı. Dışarı çıkıp acı acı ağladı." (Lk 22:61–62, [yakın aktarım], *doğrulanmalı*). Kart yalnızca metindir; İsa ve bakış gösterilmez, söz Tamar'ın sözü gibi sunulmaz.
+Seçimden sonra tepki gelir (§8.1), ardından kontroller 10 sn çekilir: horoz öter (Lk 22:60), Petrus kapıdan çıkıp acı acı ağlar (22:62). Ağlayıştan sonra ayet etiketli bir metin kartı belirir: "Rab dönüp Petrus'a baktı. Petrus, Rab'bin kendisine, 'Bugün horoz ötmeden beni üç kez inkâr edeceksin' dediğini anımsadı. Dışarı çıkıp acı acı ağladı." (Lk 22:61–62) [yakın aktarım; *doğrulanmalı*]. Kart yalnızca metindir; İsa ve bakış gösterilmez, söz Tamar'ın sözü gibi sunulmaz.
 
 Değişen yalnızca Tamar'ın yeri ve iç sesidir: `itiraf` sokağın köşesi, `inkar` kapının önü, `sessiz` karşı duvarın dibi. 9. bölüm bu yerlerden başlar.
 
@@ -331,14 +333,13 @@ Değişen yalnızca Tamar'ın yeri ve iç sesidir: `itiraf` sokağın köşesi, 
 | | `tasidi` | Marta, Tamar'ın seçtiği otları kendisi sepete koyar, gözünü Tamar'dan ayırmaz. İç ses: "Yükümü görüyor, sormuyor." |
 | `ilis_marta` | `yakin` | Marta sözsüzce küçük bir yağ şişesi bırakır. Merdivende yaşlı Tamar: "Kandilimde Marta'nın yağı yanıyordu." (Yağ hesabına girmez) |
 | | `temkinli` | Yalnızca `b07_kalp` jesti |
-| | `uzak` | 7. bölüm kurmaz (yedek): Marta uzaktan el kaldırır, otları çocuk satar |
 
 ## 9. Diyalog Örnekleri
 
 1. **Eldad:** "Testiyi erkek taşıyınca herkes bakar. Bırak baksınlar; su yine su."
 2. **Tamar (iç ses, arama):** "Kayıp parayı arayan kadın kandil yakıp evi süpürmüştü. Süpürge yerde gezer; ışık da oraya inmeli."
-3. **Öğrenciler, kapıda (Mk 14:14):** "Öğretmen, 'Öğrencilerimle Fısıh yemeğini yiyeceğim konuk odası nerede?' diye soruyor." [yakın aktarım]
-4. **Petrus (Yh 13:6):** "Ya Rab, sen mi benim ayaklarımı yıkayacaksın?" [yakın aktarım]
+3. **Öğrenciler, kapıda (Mk 14:14):** "Öğretmen, 'Öğrencilerimle Fısıh yemeğini yiyeceğim konuk odası nerede?' diye soruyor." [yakın aktarım; kanonik replik]
+4. **Petrus (Yh 13:6):** "Ya Rab, sen mi benim ayaklarımı yıkayacaksın?" [yakın aktarım; kanonik replik]
 5. **İsa, Petrus'a (Yh 13:7):** "Ne yaptığımı şimdi anlamıyorsun, ama sonra anlayacaksın." [yakın aktarım]
 6. **İsa, öğrencilere (Yh 13:14):** "Ben Rab ve Öğretmen olduğum hâlde ayaklarınızı yıkadığıma göre, siz de birbirinizin ayaklarını yıkamalısınız." [yakın aktarım]
 7. **Tamar (iç ses):** "Ayak yolunu bir hizmetkâr için açmıştım."
@@ -358,9 +359,9 @@ Değişen yalnızca Tamar'ın yeri ve iç sesidir: `itiraf` sokağın köşesi, 
 **Tanıklık ayrıntıları** (Bakış ile): `tan_b08_testili_adam` (Mk 14:13; Öğle, sokak kapısına bakan 5 sn'lik an): "Eldad'ın testisinin ardından iki adam yürüyordu." · `tan_b08_havluyu_kusandi` (Yh 13:4; eşikten önce): "Dış giysisini bıraktı, havluyu beline doladı." · `tan_b08_gece_idi` (Yh 13:30; sokak kapısı açılırken 3 sn): "Kapıyı açtığında dışarısı karanlıktı." · `tan_b08_ilahi` (Mk 14:26; damdan merdivene): "İlahiyi söylediler, sonra çıktılar." · `tan_b08_mesaleler` (Yh 18:3): "Kidron'un ötesinde meşaleler bahçeye doğru gidiyordu."
 
 **Kodeks:**
-1. **Fısıh.** Kuzu İbrani Nisan ayının 14'ünde akşamüstü kesilir (Çıkış 12:6); birinci yüzyılda bu öğleden sonraya denk geliyordu (Mişna Pesahim 5:1; Josephus, *Yahudi Savaşı* 6.423; *doğrulanmalı*). Kuzu gece yenir (Çıkış 12:8). Yahudi günü gün batımında başlar: "Nisan'ın 14'üne giren gece", 13'ünün gündüzünü izleyen gecedir. Sinoptiklerde yemek Fısıh yemeğidir (Mk 14:12); Yuhanna'da Fısıh henüz gelmemiştir (18:28; 19:14). Oyun sinoptikleri izler.
+1. **Fısıh.** Kuzu İbrani Nisan ayının 14'ünde akşamüstü kesilir (Mısır'dan Çıkış 12:6); birinci yüzyılda bu öğleden sonraya denk geliyordu (Mişna Pesahim 5:1; Josephus, *Yahudi Savaşı* 6.423; *doğrulanmalı*). Kuzu gece yenir (Mısır'dan Çıkış 12:8). Yahudi günü gün batımında başlar: "Nisan'ın 14'üne giren gece", 13'ünün gündüzünü izleyen gecedir. Sinoptiklerde yemek Fısıh yemeğidir (Mk 14:12); Yuhanna'da Fısıh henüz gelmemiştir (18:28; 19:14). Oyun sinoptikleri izler.
 2. **Maya araması ve kandil.** Maya, Nisan'ın 14'üne giren gece, yani 13'ünün akşamı kandil ışığında aranır; mayanın girmediği yer aranmaz (Mişna, Pesahim 1:1). Gelinciğin sürüklediği kırıntı dert edilmez (1:2); maya ertesi sabah yakılır (1:4). Mişna MS 200 dolaylarında derlenmiştir; birinci yüzyıl uygulaması *doğrulanmalı*. Küçük "Hirodes kandili" kazılarda yaygındır; fitili bronz bir iğneyle çekilip itilerek ayarlanırdı (4. bölüm). Luka 15:8'deki kadın kandil yakar, evi süpürür ve dikkatle arar; 6. bölüm tablosundaki alçak tutuş bir tablo yorumudur.
-3. **Sofranın yiyecekleri ve kapları.** Acı ot türleri (Pesahim 2:6); kuzunun nar dalında kızartılması (7:1–2); batırma ezmesi *haroset* (10:3; birinci yüzyıldaki yeri *doğrulanmalı*). Hamur teknede yoğrulur (Çıkış 12:34); ayak leğeni ayrı bir kaptır. Mişna, üç kadının sırayla yoğurup aynı tandırda pişirebileceğini anar (Pesahim 3:4, *doğrulanmalı*); hamurun bekletilmemesi kuralının ayrıntısı sonraki kaynaklardadır. Markos 14:20'deki sahanın içeriğini metin söylemez.
+3. **Sofranın yiyecekleri ve kapları.** Acı ot türleri (Pesahim 2:6); kuzunun nar dalında kızartılması (7:1–2); batırma ezmesi *haroset* (10:3; birinci yüzyıldaki yeri *doğrulanmalı*). Hamur teknede yoğrulur (Mısır'dan Çıkış 12:34); ayak leğeni ayrı bir kaptır. Mişna, üç kadının sırayla yoğurup aynı tandırda pişirebileceğini anar (Pesahim 3:4, *doğrulanmalı*); hamurun bekletilmemesi kuralının ayrıntısı sonraki kaynaklardadır. Markos 14:20'deki sahanın içeriğini metin söylemez.
 4. **Yaslanmak ve ayak yıkamak.** Markos 14:18 "sofrada yaslanmışlarken" der; ayrıca Yuhanna 13:23. Pesahim 10:1 yoksulun bile yaslanarak yemesini ister (*doğrulanmalı*). Yaslananın ayakları arkada kalır (Lk 7:38). Konuğa ayak suyu sunmak konukseverliktir (Yaratılış 18:4; Lk 7:44); ayağı yıkamak hizmetkâr işidir (1. Samuel 25:41).
 5. **Testili adam.** Markos 14:13 ve Luka 22:10 testiyle su taşıyan bir adamı işaret eder. Su taşımanın çoğunlukla kadın işi olduğu ve bu yüzden adamın göze çarptığı yaygın bir yorumdur (bkz. 2. bölüm).
 6. **Üst oda.** "Döşenmiş" halı ve minderleri anlatır (*doğrulanmalı*). Markos 14:15 ev sahibinin odayı döşenmiş ve hazır gösterdiğini söyler; oyunda oda önceki akşam ev halkınca döşenir. Yukarı Kent konakları: arınma havuzları, taş kaplar (Wohl Müzesi, "Yanık Ev"). Senakl *geleneksel*dir.
@@ -408,14 +409,14 @@ Değişen yalnızca Tamar'ın yeri ve iç sesidir: `itiraf` sokağın köşesi, 
 - [x] **C. Replik kilidi:** Kanonik kişiler metni söyler ya da susar; ev sahibi ve Marta yalnızca jestle; Marta'ya söz atfedilmez; ikrar yok.
 - [x] **D. Seçim etiği:** Karma çubuğu yok; her diyalogda *Sessiz kal*; zaman aşımı yok, boşta kalmak bayrak yazmaz; inkâr cezasız, itiraf ödülsüz.
 - [x] **E. Hassasiyet:** Herkes bireydir; Mt 27:25 yok; Yahuda öbür öğrenciler gibi, olağan ışıkta, karikatürsüz ve gizemsiz çizilir; İsa ile Yahuda'nın görünüşü açıkça ayrıdır, ikame çağrışımı yok; şiddet ve Mk 14:51–52 yok, Yoram tutuklamayı görmez; Efkaristiya sözleri yorumsuz tabloda; hamur teknesi ile ayak leğeni ayrı kaplardır.
-- [x] **F. Tarihsellik:** Roma askeri yok; Mişna ayrıntıları ve yorumlar notlu (Hallel, testili adam, horoz); tarih "İbrani Nisan ayı" ve gün batımı kuralıyla verilir; Tamar okumaz (düğümler, resimli pano); cinsiyet ayrımı mekanik değil.
+- [x] **F. Tarihsellik:** Roma askeri yok; Mişna ayrıntıları ve yorumlar notlu (Hallel, testili adam, horoz); tarih "İbrani Nisan ayı" ve gün batımı kuralıyla verilir, yıl verilmez; Tamar okumaz (düğümler, resimli pano); cinsiyet ayrımı mekanik değil.
 - [ ] **Kurul onayı bekleyenler:** Testili adamın adı ve kişiliği; odanın önceki akşam ev halkınca döşenmesi; ayak yolunun Tamar'ın düzeni olması; tablonun çerçeve arası olması; Lk 22:61–62 metin kartı; Eldad'ın testi ipi; Hallel kaydı; Yahuda'nın görünüş rehberi.
 
 ## 16. Üretim Notları
 
 - **Haritalar:** 3 (üç katmanlı A, iki ışıklı B, C); A 10. bölümde, C 9. bölümde yeniden kullanılır. **Karo setleri:** Yeruşalim, iç mekân kiti.
 - **Karakterler:** Yeni portre 2 (Eldad, Atara); öbür yeniler kit varyantı. Akkub'un oğlu adsızdır (kadro bütçesi, GDD §16.1).
-- **Animasyon dizileri ≈38:** Tamar 12, Eldad 4, İsa 3, Nehuşta 3, çocuklar 4, Yahuda 2, Petrus 2, öbürleri 8. **Set-piece:** 0. **Tablo:** 1. **Ara sahne:** 3 (toplam ≈50 sn).
+- **Animasyon dizileri ≈38:** Tamar 12 yeni (havanda ezme: avuç atma ve tokmağı dairesel çevirme; teknede yoğurma; yufkayı tandıra yapıştırma; kandili alçaltma; Alçak tutuşta yürüyüş; kırıntıyı beze toplama; Eldad'la ikili sedir taşıma; ibrik ve leğenle yürüyüş; kandili kancaya asma; eşikte başını eğip geri çekilme; kandili basamaklara uzatma; girintiye çekilme), Eldad 4, İsa 3, Nehuşta 3, çocuklar 4, Yahuda 2, Petrus 2, öbürleri 8. **Yeniden kullanım (bu bölümün sayımına girmez):** kandili kaldırma, fitili iğneyle itme (Kısık), kandil doldurma, diz çökme ve Güt çağrısı (yan hikâyede sesli çağrı) 4. bölümden; kandili yere koyup alma 7. bölümden (yan hikâye); kavra ve yere koy, küçük testiyi elde taşıma ve döküş (girintilerdeki kandilleri doldurma), ekmek bölme ve uzatma 2. bölümden; dinleme pozu 3. bölümden; yular bağlama ve çözme (sarnıç kapağının ipi) 5. bölümden. Koru ile 6. bölümün değnek ve ıslık dizileri bu bölümde kullanılmaz. Ortak temel setler (bekleme, yürüyüş, seğirtme, oturma, uzanıp alma ve verme, konuşma jesti) GDD §16.1'de ayrıca sayılır. **Set-piece:** 0. **Tablo:** 1. **Ara sahne:** 3 (toplam ≈50 sn).
 - **Riskler:** Kırıntı gölgesinin okunurluğu. Rota değişmezleri dar paylara dayanır (zemin turu 236/240): uzunluklar ya da yağ değerleri değişirse yeniden taranmalı.
 - **Kesme adayları:** Yan hikâye; havan öğretimi panoya katılabilir; Bulmaca 1 yalnızca leğen hasırının yerine inebilir.
 
@@ -424,7 +425,7 @@ Değişen yalnızca Tamar'ın yeri ve iç sesidir: `itiraf` sokağın köşesi, 
 1. YC Yuhanna 13:30'da "Gece olmuştu" diyorsa başlık "Gece İdi" mi kalmalı? Eski çevirinin ifadesi de *doğrulanmalı*.
 2. §2.3 tek öncü Müjde ister; §2.2-E sofra sözleri için Matta'yı, §8.5 kapı için Luka'yı belirler. "Sahne bazında öncü" kuralı yazılsın mı?
 3. `b08_yahuda` ve `b08_kapi` eksen eşlemesi (§8.1) GDD §8.4'e işlensin mi?
-4. "Alçak tutuş" ve bu bölümün Kandil durum tablosu §5.1'e kanonik değerler olarak eklensin mi? Tuş çakışması çözülene dek eylemler adlarıyla anılıyor.
+4. Çözüldü: "Alçak tutuş" ve Kandil durum değerleri GDD §5.1b'deki kanonik tabloya işlendi; §6.2'deki tablo o değerleri kullanır (Kaldırılmış yürürken Açık ile aynı yağı yakar). Tuş çakışması çözülene dek eylemler adlarıyla anılıyor.
 5. §14.1 "Mayasız hamur ve acı otlar hazırlanır (Ez/Karıştır)" der; burada Ez havanda batırma ezmesi ve hamur yoğurmada kullanılır, otlar yıkanır. Sofra düzeni de artık maya aramasından önce, 13'ünün ikindisindedir. Metin eşitlensin mi?
-6. Eldad 9. ya da 10. bölümde görünsün mü? 10. bölüm belgesi evin hanımını hâlâ "Şifra" diye anıyor; bu bölümde evin hanımı Atara'dır. Kadro sözlüğü eşitlenmeli.
-7. GDD §8.5 ve §14 kapı sahnesini "Kayafa'nın konağı" diye adlandırıyor; öncü Luka 22:54 adsızdır. Bölüm "başkâhin" der.
+6. Eldad 9. ya da 10. bölümde görünsün mü? Evin hanımı Atara'dır (GDD §3.3 kaydı).
+7. Kapı sahnesinin adı (öncü Luka 22:54 adsızdır). Kapandı: başkâhinin konağı; Kayafa adı yalnızca Kodeks 8'de (GDD §8.5, §15.1-5).

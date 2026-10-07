@@ -6,22 +6,22 @@
 
 | Alan | Değer |
 |---|---|
-| **Kaynak** | **Öncü:** Luka 15:1–32. **Tamamlayıcı:** Yasanın Tekrarı 21:17 (ilk oğulun iki payı). **Yalnızca Kodeks:** Matta 18:12–14; Markos 2:14; 5:11; Luka 5:29–30; 7:36; 14:1; 17:11; Yuhanna 2:6; Elçilerin İşleri 4:37; Yaratılış 41:6, 42; Levililer 11:7; 25:23–25; Sayılar 27:8; Yasanın Tekrarı 24:14–15; Rut 4:3; 1 Krallar 21:3; Ester 8:2; Yeremya 32:7–9; Sirak 33:20–24. Mişna ve Talmud yalnızca Kodeks'te ve yazıya geçiş tarihleriyle anılır |
+| **Kaynak** | **Öncü:** Luka 15:1–32. **Tamamlayıcı:** Yasa'nın Tekrarı 21:17 (ilk oğulun iki payı). **Yalnızca Kodeks:** Matta 18:12–14; Markos 2:14; 5:11; Luka 5:29–30; 7:36; 14:1; 17:11; Yuhanna 2:6; Elçilerin İşleri 4:37; Yaratılış 41:6, 42; Levililer 11:7; 25:23–25; Çölde Sayım 27:8; Yasa'nın Tekrarı 24:14–15; Rut 4:3; 1 Krallar 21:3; Ester 8:2; Yeremya 32:7–9; Sirak 33:20–24. Mişna ve Talmud yalnızca Kodeks'te ve yazıya geçiş tarihleriyle anılır |
 | **Oynanabilir karakter** | Tamar (43). Anlatılan Sahne'de önce küçük oğul, sonra büyük oğul (4 yönlü silüet) |
 | **Yer, vakit, yıl** | Mecdel'in kuzeyinde, göl yolunda vergi görevlisi Menahem'in avlusu (ikindiden akşama); benzetmede baba evi ve uzak diyar; gece Mecdel'de Tamar'ın kapısı. Yaz sonu (oyunun kararı); yaklaşık MS 30 (*doğrulanmalı*) |
 | **Erişim düzeyi (§3.4)** | Kalabalıkta: sofranın yakın uçlarına ve mutfağa hizmet eden gündelikçi (15:1). İsa'nın bulunduğu uca hiç gitmez; 15:3'te Hananya'nın yanında, eşiktedir. Benzetmeler Anlatılan Sahne'dir ve tanıklık iddiası taşımaz |
 | **Yeni fiil / kıvrım** | Yeni fiil yok. **Kıvrım (§5.2):** Güt tersine döner (domuzlar değneğe aldırmaz, ıslıktan kaçar, kokuya gelir) ve Kavrayış cümlesi lütufla kesilir. İkisi tek fikrin iki yüzüdür: araçlar dünyaya söz geçiremez |
-| **Kullanılan mekanikler** | Bakış; Kulak ve Kavrayış (hesap zinciri, Anlatılan Sahne'de imge toplama, konuşma kurma); Güt (değnek ve ıslık önce olağan, sonra ıslık tersine); hafif yük için A ile al/bırak; Söz; Seğirtme |
+| **Kullanılan mekanikler** | Bakış; Kulak ve Kavrayış (hesap zinciri, Anlatılan Sahne'de imge toplama, konuşma kurma); Güt (değnek ve ıslık önce olağan: B1'de küçük oğulun payını yola çıkarmak; sonra ıslık tersine); al-koy biçiminde taşıma (A); Söz; Seğirtme |
 | **Zorluk** | 3,5 (Usta kısıtıyla 4) |
 | **Tahmini süre** | Ana yol ≈55 dk (keşif/iş 10, bulmaca 20, katılım 12, yankı ve çerçeve 13; sahne toplamı 54); yan hikâye +6 dk |
 | **Duygusal yay** | Hizmetin yorgunluğu → başkasının sofrasını kıskanmak → lütfun sarsıcılığı (kesilen cümle) → büyük oğulun öfkesinde kendini tanımak → kendi kapısında açık bir soru |
 | **Palet ve ışık** | Avlu: ikindi okru, bazalt grisi. Benzetme: uzak diyarda soğuk mor, baba evinde sıcak kehribar (palet ikiye bölünür). Mecdel: gece çividi, kapıdan kehribar |
 | **Kurulan bayraklar** | `b06_esik`, `ilis_natan`, `ilis_hananya`, `eks_kalp`, `usta_b06_tek_deneme`, `kol_b06_keciboynuzu`, `kol_b06_ucret_sikkesi`, `kol_b06_oglak_cani`, `kol_b06_deri_bileklik`, `tan_b06_sokulanlar`, `tan_b06_ortak_sofra`, `tan_b06_kapidakilere`. Yerel (bölümler arası taşınmaz): `b06_natan_sozu` |
-| **Okunan bayraklar** | `b01_haber`, `b05_dositeos`; isteğe bağlı `b01_ifade_kuzu` (1. bölümün ifade bayrağı, §17) |
+| **Okunan bayraklar** | `b01_haber`, `b05_dositeos`, `ilis_dositeos` (yalnızca Dositeos'un hitabı); isteğe bağlı `b01_ifade_kuzu` (1. bölümün ifade bayrağı, §17) |
 
 ## 1. Kaynak Metin ve Uyarlama Sınırları
 
-Bütün alıntılar **[yakın aktarım]**dır (§15). Kutsal Kitap siteleri ağ politikasıyla kapalıydı. Aramada 15:2'nin, 15:19'un ("Beni işçilerinden biri gibi kabul et") ve 15:32'nin ("ölmüştü, yaşama döndü") Türkçe ifadesi teyit edildi; öbür ayetlerin YC ifadesi *doğrulanmalı*. Yasanın Tekrarı 21:17'deki "iki pay"ın anlamı (ilk oğula öbürlerinin her birinin iki katı) teyit edildi. İki oğulda malın üçe bölünmesi bu yasadan yapılan bir çıkarımdır; Luka payların oranını vermez (Kodeks 3).
+Bütün alıntılar **[yakın aktarım]**dır (§15). İsa'nın sözleri (benzetme kişilerinin satırları dahil) ve Eski Antlaşma alıntıları **[yakın aktarım]**, İsa dışındaki kanonik konuşanların satırları (burada Ferisilerle din bilginlerinin 15:2'deki topluluk sözü) **[yakın aktarım; kanonik replik]** etiketini taşır (GDD §15.1). Kutsal Kitap siteleri ağ politikasıyla kapalıydı. Aramada 15:2'nin, 15:19'un ("Beni işçilerinden biri gibi kabul et") ve 15:32'nin ("ölmüştü, yaşama döndü") Türkçe ifadesi teyit edildi; öbür ayetlerin YC ifadesi *doğrulanmalı*. Yasa'nın Tekrarı 21:17'deki "iki pay"ın anlamı (ilk oğula öbürlerinin her birinin iki katı) teyit edildi. İki oğulda malın üçe bölünmesi bu yasadan yapılan bir çıkarımdır; Luka payların oranını vermez (Kodeks 3).
 
 ### 1.1 Metnin anlattığı
 
@@ -30,10 +30,10 @@ Bütün alıntılar **[yakın aktarım]**dır (§15). Kutsal Kitap siteleri ağ 
 | 15:1–2 | Vergi görevlileri ve günahkârlar İsa'yı dinlemek için yanına sokulur; Ferisilerle din bilginleri söylenir | Avlu; Hananya ile iki din bilgini kapının dışında |
 | 15:3–7 | İsa onlara bir benzetme anlatır: kaybolan koyun bulunup sevinçle omuza alınır; tövbe eden tek günahkâr için gökte sevinç olur | Tamar eşikte, Hananya'nın yanında; 30 sn'lik anı |
 | 15:8–10 | Kaybolan gümüş para kandille aranır, bulununca komşularla sevinilir; Tanrı'nın melekleri önünde sevinç | Tablo |
-| 15:11–12 | Küçük oğul payını ister; baba malını ikisi arasında paylaştırır | 15:12 bütünüyle akar; ardından Bulmaca 2 (Tamar babanın paylaştırdığını hesaplar) |
-| 15:13–16 | Uzak ülkede malını çarçur eder; kıtlık; domuz güder, keçiboynuzunu ister, kimse vermez | Montaj; Bulmaca 3; 15:16 animasyon |
+| 15:11–12 | Küçük oğul payını ister; baba malını ikisi arasında paylaştırır | 15:12 bütünüyle akar; ardından Bulmaca 2 (Tamar babanın paylaştırdığını hesaplar; payları hasırlara baba ve köleler yerleştirir) |
+| 15:13–16 | Uzak ülkede malını çarçur eder; kıtlık; domuz güder, keçiboynuzunu ister, kimse vermez | 15:13a: oyuncu küçük oğulun payını yol kapısından çıkarır (olağan Güt); montaj; Bulmaca 3; 15:16 animasyon |
 | 15:17–19 | Aklı başına gelir; işçilerin ekmeğini hatırlar; babasına söyleyeceklerini kurar | Bulmaca 4 |
-| 15:20–24 | Baba onu uzaktan görür, acır, koşup sarılır. 15:21'de oğul yalnızca ilk iki cümleyi söyler; baba kölelere döner (15:22): kaftan, yüzük, çarık, besili dana | Set-piece, dokunmama |
+| 15:20–24 | Baba onu uzaktan görür, acır, koşup sarılır. 15:21'de oğul yalnızca ilk iki cümleyi söyler; baba kölelere döner (15:22): kaftan, yüzük, çarık, besili dana | Anlatılan Sahne şeridi, dokunmama |
 | 15:25–28a | Büyük oğul çalgıyı duyar, uşağa sorar, öfkelenir, içeri girmek istemez | Oynanır (kilitli adımlar, §7.2) |
 | 15:28b–32 | Baba dışarı çıkar; büyük oğulun yakınması; babanın yanıtı | Girdi yok. Açık son |
 
@@ -41,7 +41,7 @@ Bütün alıntılar **[yakın aktarım]**dır (§15). Kutsal Kitap siteleri ağ 
 
 ### 1.2 Oyunun eklediği kurgusal katman
 
-Menahem, Şelomit, Hizkiya, Pinhas, Talmay; Tamar'ın aşçılığı ve teslim rotası; Menahem'in sofrası (15:2 sofra paylaşımını genel olarak anar, belirli bir ev ya da ev sahibi anmaz; krş. Luka 5:29–30); Hananya ve taş ölçek. Benzetme Tamar'ın hayalinde, onun bildikleriyle canlanır. Metinde olmayan her ayrıntı Kodeks 8'de "Tamar'ın hayali" başlığıyla listelenir: hasırlar ve sayım taşı, koyun birimli değerler, uzak diyarın Dekapolis gibi çizilmesi, doğu rüzgârı, ağıl ve domuzların davranışı, imgeler, söylenmeyen cümlenin ipliğe dönmesi. Mecdel'de Natan'ın dönüşü, oğlak, eşik.
+Menahem, Rizpa, Hizkiya, Pinhas, Talmay; Tamar'ın aşçılığı ve teslim rotası; Menahem'in sofrası (15:2 sofra paylaşımını genel olarak anar, belirli bir ev ya da ev sahibi anmaz; krş. Luka 5:29–30); Hananya ve taş ölçek. Benzetme Tamar'ın hayalinde, onun bildikleriyle canlanır. Metinde olmayan her ayrıntı Kodeks 8'de "Tamar'ın hayali" başlığıyla listelenir: hasırlar ve sayım taşı, koyun birimli değerler, uzak diyarın Dekapolis gibi çizilmesi, doğu rüzgârı, ağıl ve domuzların davranışı, imgeler, söylenmeyen cümlenin ipliğe dönmesi. Mecdel'de Natan'ın dönüşü, oğlak, eşik.
 
 **Ses kuralı (Anlatılan Sahne):** Benzetme kişileri yalnızca metni söyler. Metnin dışında duyulan her ses **Tamar'ın iç sesidir** ve Tamar'ın balon çerçevesiyle gösterilir: dokuma kenarlı, kendi iplik renginde, ayet etiketi taşımaz. Ayet etiketli metin ekranın üstünde, serif piksel yazı tipiyle akar. "Henüz değil" gibi geri bildirimler konuşmacısız sistem metnidir.
 
@@ -59,8 +59,8 @@ Menahem, Şelomit, Hizkiya, Pinhas, Talmay; Tamar'ın aşçılığı ve teslim r
 **Tez:** Başkalarının sofrasında hizmet eden bir gündelikçi, benzetmede önce payları sayan, sonra kurduğu cümleyi babasına söyleyemeyen oğulu hayal eder; akşam ise kendi kapısında büyük oğulun yerinde durur.
 
 - **Hissetmek:** Payları saymanın soğukluğu, açlığın aşağılanması, kesilen cümlenin sarsıntısı, kapı önündeki öfkenin dürüstlüğü.
-- **Yapmak:** Söz toplamak, değerleri birbirine bağlayıp mirası hesaplamak, payları yerine götürmek, domuzları kokuyla yönlendirmek, imgelerden bir konuşma kurmak, kendi kapısında karar vermek.
-- **Öğrenmek:** İlk oğulun iki payı (Yasanın Tekrarı 21:17; Luka oranı vermez), atalık toprağın kalıcı satış yasağı ve geri alma hakkı, taş kaplar ve suyun kaynağı, gündelikçinin güneş batmadan ödenen ücreti.
+- **Yapmak:** Söz toplamak, değerleri birbirine bağlayıp mirası hesaplamak, küçük oğulun payını yola çıkarmak, domuzları kokuyla yönlendirmek, imgelerden bir konuşma kurmak, kendi kapısında karar vermek.
+- **Öğrenmek:** İlk oğulun iki payı (Yasa'nın Tekrarı 21:17; Luka oranı vermez), atalık toprağın kalıcı satış yasağı ve geri alma hakkı, taş kaplar ve suyun kaynağı, gündelikçinin güneş batmadan ödenen ücreti.
 
 ## 3. Karakterler
 
@@ -70,7 +70,7 @@ Menahem, Şelomit, Hizkiya, Pinhas, Talmay; Tamar'ın aşçılığı ve teslim r
 | İsa | Kanonik | Benzetmeleri anlatır | **Evet** (Luka 15:4–32) | 4 yön, uzak, arkadan; yüzsüz; portre yok |
 | Ferisiler ve din bilginleri | Kanonik grup | Kapının dışında söylenirler | **Evet** (15:2) | Kit |
 | Hananya (≈50) | Kurgusal (GDD) | Mecdelli Ferisi komşu | 15:2'yi grupla söyler | 4 yön; portre |
-| Menahem; Şelomit; Hizkiya ve Pinhas (8); Talmay | Kurgusal | Vergi görevlisi ev sahibi; mutfak; debbağ ve oğlu; katırcı | — | Kit varyantları; portre yok |
+| Menahem; Rizpa; Hizkiya ve Pinhas (8); Talmay | Kurgusal | Vergi görevlisi ev sahibi; mutfak; debbağ ve oğlu; katırcı | — | Kit varyantları; portre yok |
 | Dositeos ya da kervancı | Kurgusal (2, 5) | `b05_dositeos` | — | Dositeos portreli |
 | Küçük oğul, büyük oğul | İsa'nın anlatımındaki kişiler | Oynanabilir | **Evet:** küçük oğul 15:12, 18–19, 21; büyük oğul 15:29–30 | Silüet kiti, 4 yön; yan görünümde de 32×48 (§11.2) |
 | Baba | İsa'nın anlatımında | Paylaştırır, koşar, dışarı çıkar | **Evet** (15:22–24, 31–32) | Silüet; yan görünüm koşusu; portre yok |
@@ -88,9 +88,9 @@ Hayvanlar: domuz ve öküz çifti (yeni); eşek, kuzulu koyun, oğlak (eski setl
 
 **B2. Uzak diyar: yurttaşın tarlası (Anlatılan Sahne, 26×16).** Soğuk mor; doğu rüzgârı bezleri ve dikenleri batıya sürükler. *Paralaks:* Kavrulmuş tepeler; uzakta Grek sütunları. Metin yalnızca "uzak bir ülke" der; Tamar onu Natan'dan duyduğu Dekapolis gibi hayal eder (Kodeks 8). Yerleşim ve etkileşimli nesneler §6.3'tedir.
 
-**B3. Eve dönen yol (yan görünüm set-piece).** Üç ekranlık parşömen kaydırması (1920 px = 120 karo); tepeler, kuru bir dere, sağ uçta düz damlı ev. Zemin soldan sağa mordan kehribara döner. Hız ve adımlar §7.1'dedir.
+**B3. Eve dönen yol (Anlatılan Sahne şeridi, yan görünüm).** Üç ekranlık parşömen kaydırması (1920 px = 120 karo); tepeler, kuru bir dere, sağ uçta düz damlı ev. Zemin soldan sağa mordan kehribara döner. Hız ve adımlar §7.1'dedir.
 
-**C. Mecdel: Tamar'ın kapısı (24×14, gece).** Yeni harita değildir: 4. bölümün Gennesaret limanı (Harita B) gece LUT'uyla birlikte Mecdel'in kıyı sokağı olarak yeniden giydirilir. Batı yarısındaki iki evden biri Tamar'ın evi olur (kapı, eşik taşı, boş ipiyle oğlak kazığı), öbürü Hananya'nın evi. Devrik tekne, kapatılmış tuzlama atölyesinin devrik salamura teknesine döner; uzakta 4. bölümün mendireği görünür. *Işık:* Gece; iki dinamik ışık (kapı aralığındaki kehribar, komşu damındaki kandil). *Etkileşim:* Çan, kapı, eşik taşı, Natan. *Paralaks:* Gece gölü, Arbel. *Dayanak:* Mecdel'in tuzlama havuzları (4. bölüm Kodeks'i).
+**C. Mecdel: Tamar'ın kapısı (24×14, gece).** Yeni harita değildir: 4. bölümün Ginnesar limanı (Harita B) gece LUT'uyla birlikte Mecdel'in kıyı sokağı olarak yeniden giydirilir. Batı yarısındaki iki evden biri Tamar'ın evi olur (kapı, eşik taşı, boş ipiyle oğlak kazığı), öbürü Hananya'nın evi. Devrik tekne, kapatılmış tuzlama atölyesinin devrik salamura teknesine döner; uzakta 4. bölümün mendireği görünür. *Işık:* Gece; iki dinamik ışık (kapı aralığındaki kehribar, komşu damındaki kandil). *Etkileşim:* Çan, kapı, eşik taşı, Natan. *Paralaks:* Gece gölü, Arbel. *Dayanak:* Mecdel'in tuzlama havuzları (4. bölüm Kodeks'i).
 
 ## 5. Sahne Akışı
 
@@ -100,12 +100,12 @@ Hayvanlar: domuz ve öküz çifti (yeni); eşek, kuzulu koyun, oğlak (eski setl
 | 1 | **Göl yolu** | 3/4 | Tamar ile Hananya aynı yolda. Gümrükte Menahem Tamar'ı işe alır; Kulak açıkken S1 duyulur | 1,5 | — |
 | 2 | **Avluda iş** | 3/4 | Teslim rotası (§5.1): dört teslim, S2–S4 ve S6; yoldan Samiriyeli kervan geçer (`b05_dositeos`). **Bulmaca 1** | 8 | `tan_b06_sokulanlar`, `kol_b06_keciboynuzu` |
 | 3 | **"Bu adam günahkârları kabul ediyor"** | 3/4 | 15:1–2; Hananya'ya Söz (ton). 15:2 akarken uzak uçtaki sofraya Bakış. 15:3'te Tamar taş ölçeği geri almak için eşikte, Hananya'nın yanındadır; İsa kapıdakilere döner; Kulak kapanır | 2 | `tan_b06_ortak_sofra`, `tan_b06_kapidakilere` |
-| 4 | **Kayıp koyun, kayıp para** | Anı + tablo | 1. bölümün yamacı soluk renklerle: çalıdaki kuzu; tek girdi meleyişe Bakış (30 sn). 10 sn girdi gelmezse kamera kuzuya kendiliğinden döner; her iki yolda 15:4–7 akar, hiçbir şey kaydedilmez. Tablo: kandili yere yakın tutup süpüren kadın (15:8–10; 8. bölümün habercisi) | 3 | — |
-| 5 | **"Adamın birinin iki oğlu vardı"** | Anlatılan Sahne, B1 | 15:11–12 bütünüyle akar ("Baba da malını ikisi arasında paylaştırdı"). Kulak ile imge toplamanın öğretimi (§6.4). **Bulmaca 2 (imza)** | 8 | `usta_b06_tek_deneme` |
+| 4 | **Kayıp koyun, kayıp para** | Anı + tablo | 1. bölümün yamacı soluk renklerle: çalıdaki kuzu; tek girdi meleyişe Bakış (30 sn). 10 sn girdi gelmezse kamera kuzuya kendiliğinden döner; her iki yolda 15:4–7 akar, hiçbir şey kaydedilmez. Tablo: kandil yakıp evi süpüren kadın (15:8–10); kandilin yere yakın tutuluşu bir tablo yorumudur ve 8. bölümün habercisidir | 3 | — |
+| 5 | **"Adamın birinin iki oğlu vardı"** | Anlatılan Sahne, B1 | 15:11–12 bütünüyle akar ("Baba da malını ikisi arasında paylaştırdı"). Kulak ile imge toplamanın öğretimi (§6.4). **Bulmaca 2 (imza)**; baba payları paylaştırır, oyuncu küçük oğulun payını yol kapısından çıkarır (15:13a) | 8 | `usta_b06_tek_deneme` |
 | 6 | **Uzak diyar** | Montaj | 15:13–14 (40 sn): akan sikkeler, boş kadehler, kavrulan başaklar, boş kese; kadın figürü yok | 1 | İmgeler kendiliğinden |
 | 7 | **Domuzlar** | Anlatılan Sahne, B2 | 15:15. **Bulmaca 3**; ardından 15:16 (animasyon). Alınmamış B2 imgeleri sahne sonunda kendiliğinden eklenir | 6,5 | — |
 | 8 | **Aklı başına gelince** | Anlatılan Sahne, B2 | 15:17. **Bulmaca 4**; 15:18–19 | 3,5 | Kesmeyle yola |
-| 9 | **Eve dönüş** | Yan görünüm set-piece | §7.1 | 4 | — |
+| 9 | **Eve dönüş** | Anlatılan Sahne şeridi (yan görünüm) | §7.1 | 4 | — |
 | 10 | **Büyük oğul** | Anlatılan Sahne, B4 | §7.2 (kilitli adımlar); açık son | 4 | Parşömen avluya çözülür |
 | 11 | **Avluda sessizlik** | 3/4 | Menahem ücreti güneş batmadan sayar: "Güneş batmadan, Yasa'nın dediği gibi." Yan hikâye açılır | 1,5 | `kol_b06_ucret_sikkesi` |
 | 12 | **Mecdel yolu** | 3/4 montaj, alacakaranlık | Hananya'nın sorusu (§8.1) | 2 | `ilis_hananya` |
@@ -114,13 +114,13 @@ Hayvanlar: domuz ve öküz çifti (yeni); eşek, kuzulu koyun, oğlak (eski setl
 
 ### 5.1 Sahne 2 — Teslim rotası (8 dk)
 
-**Girdi:** Hafif yük A ile alınır, yavaş taşınır (−%40), A ile bırakılır (4. ve 5. bölümdeki düzen). Başarısızlık yoktur. Rota tek bir döngüdür ve hiçbir yol iki kez yürünmez (GDD §4.1). Tamar İsa'nın bulunduğu uca, U'nun doğudaki tabanına hiç gitmez; yalnızca kolların batı uçlarına, mutfağa ve kapıya hizmet eder.
+**Girdi:** Tepsi ve testi A ile alınır ve A ile bırakılır (al-koy biçimi, GDD §5.1c); iki elle taşındıkları için yürüyüş %40 yavaşlar. Başarısızlık yoktur. Rota tek bir döngüdür ve hiçbir yol iki kez yürünmez (GDD §4.1). Tamar İsa'nın bulunduğu uca, U'nun doğudaki tabanına hiç gitmez; yalnızca kolların batı uçlarına, mutfağa ve kapıya hizmet eder.
 
 | Durak | Yük ve iş | Söz ve ayrıntı |
 |---|---|---|
-| Mutfak (güneybatı) | Şelomit ekmek ve tuzlu balık tepsisini verir | S3 (Şelomit) |
+| Mutfak (güneybatı) | Rizpa ekmek ve tuzlu balık tepsisini verir | S3 (Rizpa) |
 | **Teslim 1:** kuzey kolun batı ucu | Ekmek. **Önce kime:** çocuklu sofra (Hizkiya ve Pinhas), yaşlı balıkçılar ya da Menahem'in konukları. Puanlanmaz, kaydedilmez | S4 (Hizkiya). Yol üstünde keçiboynuzu ağacının dibi: `kol_b06_keciboynuzu` (Bakış). Uzak uçta öne eğilmiş yüzlere Bakış: `tan_b06_sokulanlar` |
-| **Teslim 2:** güney kolun batı ucu | Balık. Menahem boş toprak testiyi uzatır: "Su da kalmadı, Mecdelli." | S2 (Menahem) |
+| **Teslim 2:** güney kolun batı ucu | Balık. Menahem boş toprak testiyi uzatır: "Su da kalmadı, tuzlamacı." | S2 (Menahem) |
 | Göl basamakları | Testi göle daldırılarak doldurulur. Yoldan Samiriyeli kervan geçer (§8.2) | — |
 | **Teslim 3:** kapının içindeki katırcılar | Su | S6 (Talmay) |
 | **Teslim 4:** kapının dışındaki Hananya | **Bulmaca 1** | Ödül: S5 |
@@ -152,9 +152,9 @@ S1, Sahne 1'de gümrükte Kulak açıkken duyulur. Teslim 4 ve Bulmaca 1 bitince
 
 ### 6.2 Bulmaca 2 — Payına Düşen (imza bulmaca)
 
-**Tür:** Kavrayış (hesap zinciri; aynı türden iki boşluk ilk kez) ve olağan Güt uygulaması · **Zorluk:** 3,5 (oyun testinde bu hedefe göre ayarlanır) · **Süre:** 7–9 dk (hesap 5–7, yerleştirme 1–2)
+**Tür:** Kavrayış (hesap zinciri; aynı türden iki boşluk ilk kez) ve olağan Güt ile payı yola çıkarmak · **Zorluk:** 3,5 (oyun testinde bu hedefe göre ayarlanır) · **Süre:** 7–9 dk (hesap 5–7, payı yola çıkarma 1–2)
 
-**Dünyadaki sebep:** 15:12 bütünüyle akar: "Baba da malını ikisi arasında paylaştırdı." Paylaştıran babadır. Baba iki hasırın arasında durup her birini eliyle gösterir: batıdaki küçük hasır küçük oğulun, tarlanın sınır taşının durduğu büyük hasır ağabeyinindir. Tamar, babanın nasıl paylaştırdığını Yasa'ya göre hesaplar; hesap onun düşüncesidir, oğulun değil. Oyuncunun işi, babanın belirlediği payları yerine taşımaktır.
+**Dünyadaki sebep:** 15:12 bütünüyle akar: "Baba da malını ikisi arasında paylaştırdı." Paylaştıran babadır. Baba iki hasırın arasında durup her birini eliyle gösterir: batıdaki küçük hasır küçük oğulun, tarlanın sınır taşının durduğu büyük hasır ağabeyinindir. Tamar, babanın nasıl paylaştırdığını Yasa'ya göre hesaplar; hesap onun düşüncesidir, oğulun değil. Payları hasırlara baba ve köleler yerleştirir (15:12); oyuncunun işi, ardından küçük oğulun payını yol kapısından çıkarmaktır (15:13a).
 
 **Sözler** (avluda Kulak ile duyulur, A ile saklanır; Heybe'de kayıt; B1'deki rozetlerde rakam yoktur):
 
@@ -162,9 +162,9 @@ S1, Sahne 1'de gümrükte Kulak açıkken duyulur. Teslim 4 ve Bulmaca 1 bitince
 |---|---|---|---|
 | S1 | Menahem; Sahne 1, gümrük | "Tahtama her malı dinarla yazarım. Ama sen çoban kızısın, koyunla söyleyeyim: bir çift öküz, bir eşekle üç koyun eder." | öküz çifti = eşek + 3 koyun |
 | S2 | Menahem; Teslim 2, sofra | "Atalık tarla kalıcı olarak satılmaz, derler; babalar onu evde tutar. Değer biçmek gerekse iyi bir tarla on yedi koyun eder." | tarla 17; tarla evde kalır |
-| S3 | Şelomit; mutfak | "Bu bakır kazan bir kuzulu koyun parasına geldi, şu yağ küpü de öyle. İkisini satsan bir eşek alırsın." | kazan = küp = kuzulu koyun; eşek = kazan + küp |
+| S3 | Rizpa; mutfak | "Bu bakır kazan bir kuzulu koyun parasına geldi, şu yağ küpü de öyle. İkisini satsan bir eşek alırsın." | kazan = küp = kuzulu koyun; eşek = kazan + küp |
 | S4 | Debbağ Hizkiya; Teslim 1 | "Kuzulu koyun iki koyun sayılır. Kuzuyu anasından ayıran ikisini de kaybeder." | kuzulu koyun 2; bölünmez |
-| S5 | Hananya; Bulmaca 1'den sonra | "Yasa açıktır: ilk oğul, babasının bütün malından iki pay alır." (Yasanın Tekrarı 21:17'nin özeti, [yakın aktarım]) | ağabeyin payı küçüğün iki katı |
+| S5 | Hananya; Bulmaca 1'den sonra | "Yasa açıktır: ilk oğul, babasının bütün malından iki pay alır." (Yasa'nın Tekrarı 21:17'nin özeti, [yakın aktarım]) | ağabeyin payı küçüğün iki katı |
 | S6 | Katırcı Talmay; Teslim 3 | "Gerasa'da domuzcuları gördüm. Hiçbiri önden yürümez: yalağı doldurup beklerler, sonra arkadan bağırırlar." | Bulmaca 3 |
 
 Kaçırılan söz B1'de ilgili nesneye Bakış yapılınca hatırlanır. Tamar (iç ses): "Avluda biri söylemişti... Menahem!" Eşleme: S1 öküz çifti, S2 sınır taşı, S3 kazan ya da küp, S4 kuzulu koyun, S5 büyük hasır ya da büyük oğul. S6 B2'de yalağa Bakış ile hatırlanır.
@@ -180,24 +180,22 @@ Kaçırılan söz B1'de ilgili nesneye Bakış yapılınca hatırlanır. Tamar (
 
 **Mantık zinciri:** (1) Kuzulu koyun 2 (S4); kazan ve küp de 2'şer (S3). (2) Eşek kazanla küp eder: 4 (S3). (3) Öküz çifti, bir eşekle üç koyun eder: 7 (S1). (4) Tarla 17 (S2). (5) Bütün mal: 17 + 7 + 4 + 2 + 2 + 2 + 2 = 36. (6) Ağabeyin payı küçüğün iki katıdır (S5): mal üçe bölünür, küçüğe 12, ağabeye 24 düşer (Yasa'ya dayanan çıkarım; Kodeks 3). (7) Tarla ağabeyin hasırındadır ve evde kalır (S2); 24'e yedi eksik. (8) Yedi eden tek mal öküz çiftidir; öbür malların hiçbiri ve hiçbir birleşimi yedi etmez. Çeldiriciler: 18 eşit bölüşümdür, 19 bütün taşınırlardır, 17 tarladır, 24 ağabeyin payıdır.
 
-**Yerleştirme** (cümle doğrulandıktan sonra, 1–2 dk). Bu adım, 3. bulmacadaki tersine dönüşten önce olağan Güt'ü hatırlatır:
-1. **Değnek (kısa basış):** Koninin (60°, 4 karo) içindeki eşek ve koyunlar oğuldan uzaklaşan yönde 3 karo yürür.
-2. **Islık (uzun basış, bırak):** 8 karo içindeki kuzulu koyunlar ıslığın çalındığı noktaya yürür; kuzu anasını izler. Eşek ıslığa gelmez, yalnızca değnekle yürür.
-3. Kazan ve küp A ile alınır, yavaş taşınır (−%40), A ile bırakılır (Taşı/Dök kullanılmaz).
-4. Hasırın sınırına giren hayvan kendiliğinden çöker. Bir mal, kapladığı karelerin yarısından fazlası hasırdaysa o hasırda sayılır.
-5. Öküz çifti oğulun Güt'üne tepki vermez. Küçük oğulun malları küçük hasıra varınca baba boyunduruğu kendi eliyle tutar ve öküzleri tarlanın yanına, büyük hasıra götürür; son malı baba koyar.
-6. Sınır taşı oynamaz. A ile Tamar (iç ses): "Atalık tarla babanın evinde kalır."
-7. **Sayım:** Öküzler yerleşince çakıllar hasırlara yığılır; büyük hasır küçüğün tam iki katıdır ve baba başını eğer. Bir mal yanlış hasırdaysa ya da ağılda kalmışsa o malın rozeti parlar ve "Henüz değil" (sistem metni) belirir. Bu bir Usta denemesi sayılmaz.
+**Paylaştırma ve payı yola çıkarmak** (cümle doğrulandıktan sonra, 1–2 dk; bu adım 3. bulmacadaki tersine dönüşten önce olağan Güt'ü hatırlatır):
+1. Baba payları kendi eliyle paylaştırır (≈20 sn'lik montaj; 15:12). Köleler kazanı, küpü ve hayvanları babanın gösterdiği hasırlara dizer, öküzleri baba büyük hasıra götürür. Sınır taşı oynamaz. Çakıllar hasırlara yığılır; büyük hasır küçüğün tam iki katıdır ve baba başını eğer.
+2. Ardından oyuncu küçük oğulun payını yol kapısından çıkarır (15:13a). Eşek yalnızca değnekle yürür (koni 60°, 4 karo; 3 karo iter). Kuzulu koyunlar ıslıkla gelir (8 karo; kuzu anasını izler). Kazan ve küp eşeğin semerindedir (köleler yükler); yeni bir A taşıması yoktur.
+3. Bütün pay yol kapısının önündeki işaretli alana varınca küçük oğul payıyla yola çıkar. Başarısızlık yoktur.
+
+**Girdi sırası (GDD §5.4):** B1'de A ile taşıma yoktur; al-koy taşıması 2. sahnede (teslim rotası ve taş ölçek) kalır. Olağan Güt ile 3. bulmacadaki tersine Güt arasına 15:13–14 montajı girer; ikisinin ardışıklığı kıvrımın kendisidir (önce hatırlatır, sonra bozar).
 
 **Deneme:** Her toplu doğrulama bir denemedir; üç başarısız denemeden sonra 1. ışık kendiliğinden gelir.
 
 **"Aha" anı:** Doğal ilk tahmin ya eşit bölüşümdür (18) ya da bütün taşınırların küçüğe gitmesidir (19); ikisi de Yasa'nın iki payını tutturmaz. Değerler birbirine bağlanınca tek bir mal yerini bulur. Tamar (iç ses): "Ağabeyine yedi koyunluk daha lazım; yediyi tutan tek şey öküzler. Tarlayı süren öküz tarlanın yanında kalır." Ardından: "Babam ölünce sürüsü Natan'ın oldu. Erkek kardeşi olan kıza pay düşmez. Ben hiç saymamıştım."
 
-**Üç Işık:** (1) "Babam sürüyü sayarken bildiğinden başlardı. Önce bir malın değerini bul; öbürleri ona bağlı." (2) Hangi boşluğun doğru olduğu söylenir; S5, sınır taşı ve toplam boşluğu parlar (öküz parlamaz). (3) Avluya kısa kesme; Menahem parmaklarıyla sayar: "Otuz altının üçte biri on iki eder, Mecdelli. Tarla on yedi; ağabeye yedi daha lazım. Yedi eden ne? Öküzler!" → Hikâyeye devam (köleler malları dizer).
+**Üç Işık:** (1) "Babam sürüyü sayarken bildiğinden başlardı. Önce bir malın değerini bul; öbürleri ona bağlı." (2) Hangi boşluğun doğru olduğu söylenir; S5, sınır taşı ve toplam boşluğu parlar (öküz parlamaz). (3) Avluya kısa kesme; Menahem parmaklarıyla sayar: "Otuz altının üçte biri on iki eder, tuzlamacı. Tarla on yedi; ağabeye yedi daha lazım. Yedi eden ne? Öküzler!" → Hikâyeye devam (köleler malları dizer).
 
 **Usta kısıtı — `usta_b06_tek_deneme` ("Tek sayım"):** İlk toplu doğrulama doğru çıkmalı. Usta ayarında sayım taşının yanında tek bir çakıl durur, yanlış doğrulamada düşer.
 
-**Hikâye kipi:** Cümle kendiliğinden kurulur, köleler malları dizer. **Sonra (15:13a, animasyon):** Küçük oğul payını yol kapısından çıkarır; koyunlar ona uyar. **Kodeks:** 3.
+**Hikâye kipi:** Cümle kendiliğinden kurulur; köleler malları dizer ve hayvanları yol kapısına götürür. **Sonra (15:13a):** Oynanan kısım bitince küçük oğul payıyla yoldan uzaklaşır; koyunlar ona uyar. **Kodeks:** 3.
 
 ### 6.3 Bulmaca 3 — Domuzlar Dinlemez
 
@@ -282,13 +280,13 @@ Rüzgâr hep doğudan batıya eser (bez, yuvarlanan dikenler, toz).
 
 **"Aha" anı:** Son boşluk. Tamar (iç ses): "İşçi... gündelikçi. Benim gibi."
 
-**Üç Işık:** (1) Birinci boşluk yanlışsa: "Anlatan, gökte de sevinç olur demişti. Oğul yalnızca babasına mı karşı geldi?" Değilse: "Aç bir adam, babasının evinde kimin karnının doyduğunu hatırlar." (2) Boşlukların doğruluğu gösterilir, 15:17 satırı parlar. (3) Avluya kısa kesme. Yardımı, 2. ışıkta yanlış çıkan ilk boşluğa göre yakındaki biri verir. 1. boşluk için Şelomit: "Bir oğul yalnızca babasına mı karşı gelir, Mecdelli? Gök de görür." 2. boşluk için Hizkiya: "Kaçan oğul da oğuldur; ama dönerken o adı kendine yakıştıramaz." 3. boşluk için Şelomit: "Gündelikçinin ekmeği her akşam avucundadır. Aç bir adam önce onu hatırlar." → Hikâyeye devam.
+**Üç Işık:** (1) Birinci boşluk yanlışsa: "Anlatan, gökte de sevinç olur demişti. Oğul yalnızca babasına mı karşı geldi?" Değilse: "Aç bir adam, babasının evinde kimin karnının doyduğunu hatırlar." (2) Boşlukların doğruluğu gösterilir, 15:17 satırı parlar. (3) Avluya kısa kesme. Yardımı, 2. ışıkta yanlış çıkan ilk boşluğa göre yakındaki biri verir. 1. boşluk için Rizpa: "Bir oğul yalnızca babasına mı karşı gelir, tuzlamacı? Gök de görür." 2. boşluk için Hizkiya: "Kaçan oğul da oğuldur; ama dönerken o adı kendine yakıştıramaz." 3. boşluk için Rizpa: "Gündelikçinin ekmeği her akşam avucundadır. Aç bir adam önce onu hatırlar." → Hikâyeye devam.
 
 **Yanlış denemelerde:** "Henüz değil" (sistem metni); üç denemeden sonra 1. ışık. **Usta:** Yok. **Hikâye kipi:** Cümle kendiliğinden kurulur. **Kıvrım:** Doğrulanan cümle yol boyunca oğulun başında kalır; son cümlesi hiç söylenmeyecektir (§7.1).
 
 ## 7. Katılım Anı
 
-### 7.1 Eve dönüş (yan görünüm set-piece, Anlatılan Sahne üslubu)
+### 7.1 Eve dönüş (Anlatılan Sahne şeridi, yan görünüm)
 
 **Kontroller:** Sol çubuk sağa ya da D: eve doğru yürümek; bırakınca oğul durur. Geri dönüş girdisi yoktur (§2.2-B). A: isteğe bağlı prova; balondaki sıradaki cümle 1 sn parlar ve söner, oğulun dudakları kıpırdar. Bakış: uzaktaki eve.
 
@@ -332,12 +330,12 @@ Eksen: + uç *Açan*, − uç *Taşıyan*. `gitti` saygıyla yazılır: Tamar ö
 | `b01_haber` | `koye` | Natan'ın balonundaki ikinci cümle: "Çocukken bana melekleri anlatırdın. Dekapolis'te bir handa ben de anlattım; güldüler. Sustum, sonra seni de unuttum." |
 | | `babaya` | "Annem anlattı: o gece her şeyi babama fısıldamışsın. Ben yıllarca kimsenin elini tutmadım." |
 | | `kalbinde` | "Annem der ki o gece bir şey görmüşsün. Bana hiç anlatmadın; ben de sana hiç haber göndermedim." |
-| `b05_dositeos` | `yuk_birakti` | Sahne 2: Dositeos gümrükte durur: "Ayaktayım, Mecdelli. Yolda beni bırakmadın." Sahne 13, iç ses: "Bir yabancı için yükümü bırakmıştım. Kardeşimin kapısında ise duruyorum." |
+| `b05_dositeos` | `yuk_birakti` | Sahne 2: Dositeos gümrükte durur. `ilis_dositeos = yakin` ise: "Ayaktayım, Tamar. Yolda beni bırakmadın." Değilse: "Ayaktayım, tuzlamacı. Yolda beni bırakmadın." Sahne 13, iç ses: "Bir yabancı için yükümü bırakmıştım. Kardeşimin kapısında ise duruyorum." |
 | | `para_gonderdi` | Sahne 2, Samiriyeli kervancı: "Dositeos iyileşti. Yonatan adında bir çoban çocuğu adamlarına haberi vaktinde ulaştırmış." Sahne 13, iç ses: "O gün elimden gelen paraydı. Bu kapıda ne verebileceğimi bilmiyorum." |
 | | `gecti` | Sahne 2, kervancı: "Dositeos mu? İyileşti, Şekem'de." Sahne 13, iç ses: "O gün kervanıma yetişmiştim; Dositeos'u adamları bulmuş. Bu kapıda yetişilecek bir kervan yok." |
 | `b01_ifade_kuzu` (isteğe bağlı) | `kucakta` / `guderek` / boş | Kayıp koyun anısında yaşlı Tamar: "Babam olsa omzuna alırdı; ben kucağıma almıştım, omzuma yetişemezdim." / "Ben ışıkla gütmüştüm; omuz sonra geldi." / satır yok |
 
-`ilis_dositeos` bu bölümde değişmez. Üç `b05_dositeos` satırı da yargısız birer anıdır (GDD §8.8).
+`ilis_dositeos` bu bölümde yalnızca Dositeos'un hitabını seçmek için okunur, değişmez. Üç `b05_dositeos` satırı da yargısız birer anıdır (GDD §8.8).
 
 ### 8.3 İlişkilerin görünür etkisi
 
@@ -347,7 +345,7 @@ Eksen: + uç *Açan*, − uç *Taşıyan*. `gitti` saygıyla yazılır: Tamar ö
 ## 9. Diyalog Örnekleri
 
 1. **Sara:** "Nine, sen hiç kıskandın mı?" — **Yaşlı Tamar:** "Kıskanmak mı? Bir gece kendi kapımın önünde durdum, Sara. Elimde bir oğlağın çanı vardı."
-2. **Ferisilerle din bilginleri (Luka 15:2):** "Bu adam günahkârları kabul ediyor, onlarla birlikte yemek yiyor." [yakın aktarım]
+2. **Ferisilerle din bilginleri (Luka 15:2):** "Bu adam günahkârları kabul ediyor, onlarla birlikte yemek yiyor." [yakın aktarım; kanonik replik]
 3. **İsa (Luka 15:4):** "Aranızda yüz koyunu olan birinin koyunlarından biri kaybolsa, doksan dokuzunu kırda bırakıp kaybolan koyunu buluncaya dek aramaz mı?" [yakın aktarım]
 4. **İsa'nın anlatımında küçük oğul (Luka 15:12):** "Baba, mirastan payıma düşeni bana ver." [yakın aktarım]
 5. **Tamar (iç ses):** "İki pay... Mal üçe bölünür demek. Babamın sürüsünden bana hiç pay düşmemişti."
@@ -373,12 +371,12 @@ Eksen: + uç *Açan*, − uç *Taşıyan*. `gitti` saygıyla yazılır: Tamar ö
 **Kodeks:**
 1. **Vergi görevlileri ve "günahkârlar".** Celile'de vergi ve gümrük bölge kralı Hirodes (Antipas) adına toplanırdı. Tarihçilerin genel görüşüne göre bu işi üstlenen yerel kişiler vardı. Markos 2:14, Levi'yi Kefarnahum'da gümrük yerinde oturur gösterir. Yahudi kaynakları vergi görevlilerine kuşkuyla bakar: Mişna, vergi görevlilerinin girdiği evi kirli sayar (Tohorot 7:6); Babil Talmudu onları tanıklıktan men edilenler arasında anar (Sanhedrin 25b; daha geç bir kaynak). "Günahkârlar"ı metin tanımlamaz. Mişna zarla kumar oynayanları ve faizcileri tanıklıktan men eder (Sanhedrin 3:3). Mişna MS 200 dolayında yazıya geçmiştir; birinci yüzyıla ne ölçüde uyduğu tartışmalıdır (*doğrulanmalı*).
 2. **Ferisiler, taş kaplar ve su.** Ferisiler Yasa'ya bağlılığı gündelik sofraya taşıyan bir halk hareketiydi; Luka İsa'yı Ferisi sofralarında da gösterir (7:36; 14:1). Taş kapların kirlenmediği kabul edilirdi (Mişna, Kelim 10:1); Kana'daki taş küpler de arınma içindi (Yuhanna 2:6). Sıvılar ise dokunuşla kolayca kirlenir. Mişna, vergi görevlilerinin girdiği evi kirli sayar (Tohorot 7:6). Arınma kurallarına titizlikle uymayı üstlenen birinin (haver) bu kurallara uymayan birinin evinde konuk olmayacağını da söyler (Demai 2:3). Hananya'nın kaygısı kapta değil, suyun nereden geldiğindedir. Mişna MS 200 dolayında yazıya geçmiştir. Ferisilerle haverlerin ilişkisi ve bu kuralların birinci yüzyıldaki uygulaması tartışmalıdır (*doğrulanmalı*; uzman onayı).
-3. **İki pay, miras ve toprak.** İlk oğul öbürlerinin her birinin iki katını alır (Yasanın Tekrarı 21:17). Luka payların oranını söylemez; iki oğulda küçüğe üçte bir düşmesi bu yasaya dayanan bir çıkarımdır. Yasa toprağın kalıcı olarak satılmasını yasaklar ve akrabaya geri alma hakkı tanır (Levililer 25:23–25; krş. Rut 4:3; Yeremya 32:7–9; Nabot'un sözü, 1 Krallar 21:3). Uygulamada ise tarla alınıp satılırdı (Elçilerin İşleri 4:37). Sirak, sağken malı dağıtmaya karşı öğüt verir (Sirak 33:20–24, deuterokanonik; numaralama baskıya göre değişir, Grekçede 30:28–32). Mişna ise mülkü sağken devredip kullanım hakkını ölene dek saklama yolunu anlatır (Bava Batra 8:7; MS 200 dolayında yazıya geçti). Bazı yorumcular babanın 15:31'deki "neyim varsa hepsi senindir" sözünü böyle bir düzenle okur (*doğrulanmalı*). Erkek kardeşi olan kız miras almazdı (Sayılar 27:8). Oyundaki koyun birimli değerler sadeleştirilmiştir, dönemin fiyatları değildir (krş. Mişna Menahot 13:8).
+3. **İki pay, miras ve toprak.** İlk oğul öbürlerinin her birinin iki katını alır (Yasa'nın Tekrarı 21:17). Luka payların oranını söylemez; iki oğulda küçüğe üçte bir düşmesi bu yasaya dayanan bir çıkarımdır. Yasa toprağın kalıcı olarak satılmasını yasaklar ve akrabaya geri alma hakkı tanır (Levililer 25:23–25; krş. Rut 4:3; Yeremya 32:7–9; Nabot'un sözü, 1 Krallar 21:3). Uygulamada ise tarla alınıp satılırdı (Elçilerin İşleri 4:37). Sirak, sağken malı dağıtmaya karşı öğüt verir (Sirak 33:20–24, deuterokanonik; numaralama baskıya göre değişir, Grekçede 30:28–32). Mişna ise mülkü sağken devredip kullanım hakkını ölene dek saklama yolunu anlatır (Bava Batra 8:7; MS 200 dolayında yazıya geçti). Bazı yorumcular babanın 15:31'deki "neyim varsa hepsi senindir" sözünü böyle bir düzenle okur (*doğrulanmalı*). Erkek kardeşi olan kız miras almazdı (Çölde Sayım 27:8). Oyundaki koyun birimli değerler sadeleştirilmiştir, dönemin fiyatları değildir (krş. Mişna Menahot 13:8).
 4. **Keçiboynuzu ve domuz.** 15:16'daki *keratia* keçiboynuzudur: hayvan yemi, kıtlıkta yoksulun yiyeceği. Domuz murdardı (Levililer 11:7). Dekapolis'in Grek kentlerinin çevresinde beslenirdi (Markos 5:11). Yahudi dinleyici için domuz gütmek düşüşün dibidir.
-5. **İşçi.** Grekçe *misthios* gündelik ücretle çalışandır; ücreti aynı gün, güneş batmadan ödenmeliydi (Yasanın Tekrarı 24:14–15). Yaygın yoruma göre ev kölelerinden daha az güvenceliydi. Tamar da bir gündelikçidir; Menahem ücretini güneş batmadan sayar.
+5. **İşçi.** Grekçe *misthios* gündelik ücretle çalışandır; ücreti aynı gün, güneş batmadan ödenmeliydi (Yasa'nın Tekrarı 24:14–15). Yaygın yoruma göre ev kölelerinden daha az güvenceliydi. Tamar da bir gündelikçidir; Menahem ücretini güneş batmadan sayar.
 6. **Kaftan, yüzük, çarık; drahmi.** Metin bunları açıklamaz. Yorumcular kaftanı onur, yüzüğü yetki, çarığı köle değil oğul olmak diye okur (krş. Yaratılış 41:42; Ester 8:2). Drahmi aşağı yukarı bir günlük ücretti; gelinlerin paralı başlığı sonraki dönemin halk geleneğidir (*geleneksel*).
 7. **Luka 15 nerede, hangi sofrada?** Luka yer ve ev sahibi vermez. Olay yolculuk anlatısının (9:51–19:28) içindedir; yol Samiriye ile Celile arasından geçer (17:11). 15:2 sofra paylaşımını genel olarak anar (krş. 5:29–30). Menahem'in sofrası ve avlunun Mecdel yakınında oluşu oyunun sahnelemesidir. Matta 18:12–14 kayıp koyunu başka bağlamda anlatır.
-8. **Benzetmede metinde olmayanlar (Tamar'ın hayali).** Hasırlar, sayım taşı ve koyun birimli değerler; malların türü (tarla, öküz çifti, eşek, kuzulu koyunlar, kazan, küp); büyük oğulun sabanın yanında tarlaya dönük durması; uzak diyarın Grek sütunlarıyla çizilmesi (metin yalnızca "uzak bir ülke" der; Tamar onu Natan'dan duyduğu Dekapolis gibi hayal eder); doğu rüzgârı (imge Yaratılış 41:6'dan); arpa tarlası, keçiboynuzu ambarı, ağıl, yalak ve domuzların davranışı; imgeler ve Tamar'ın kurduğu cümle; yolun ucunda beliren figür; cümlenin mor ipliklere çözülmesi; avluya düşen ışık şeridi ve babanın uzanmış eli. Arayüzde ayet etiketli metin üstte ve serif yazı tipiyle, Tamar'ın hayali ise etiketsiz ve onun çerçevesiyle gösterilir.
+8. **Benzetmede metinde olmayanlar (Tamar'ın hayali).** Hasırlar, sayım taşı ve koyun birimli değerler; malların türü (tarla, öküz çifti, eşek, kuzulu koyunlar, kazan, küp); büyük oğulun sabanın yanında tarlaya dönük durması; uzak diyarın Grek sütunlarıyla çizilmesi (metin yalnızca "uzak bir ülke" der; Tamar onu Natan'dan duyduğu Dekapolis gibi hayal eder); doğu rüzgârı (imge Yaratılış 41:6'dan); arpa tarlası, keçiboynuzu ambarı, ağıl, yalak ve domuzların davranışı; imgeler ve Tamar'ın kurduğu cümle; yolun ucunda beliren figür; cümlenin mor ipliklere çözülmesi; avluya düşen ışık şeridi ve babanın uzanmış eli; kayıp para tablosundaki alçak kandil tutuşu (Luka 15:8 kandil yakmayı, süpürmeyi ve dikkatle aramayı anar). Arayüzde ayet etiketli metin üstte ve serif yazı tipiyle, Tamar'ın hayali ise etiketsiz ve onun çerçevesiyle gösterilir.
 9. **Kesilen cümle bir okumadır.** 15:19'da oğul üç cümle kurar; 15:21'de yalnızca ilk ikisini söyler ve baba kölelere döner. Metin babanın sözü kestiğini söylemez. Bazı eski elyazmaları (Sinaiticus, Vaticanus, Bezae) 15:21'e "Beni işçilerinden biri gibi kabul et" cümlesini de ekler; çağdaş eleştirel metinler ve çoğu çeviri bu cümleyi almaz. YC'nin bu ayete dipnot düşüp düşmediği *doğrulanmalı*.
 
 ## 11. Yan Hikâye — Pinhas'ın Oğlağı (6 dk, Harita A)
@@ -406,14 +404,14 @@ Eksen: + uç *Açan*, − uç *Taşıyan*. `gitti` saygıyla yazılır: Tamar ö
 - **Özel animasyonlar:** Babanın koşusu (8 kare) ve sarılma; babanın öküzleri boyunduruktan götürmesi; harflerin mor ipliklere çözülmesi; oğulun bitkin yürüyüşü (8 kare); domuzun dört durumu (yerinde döner, kaçar, izler, yer); koku zerreleri; büyük oğulun 15:28a'daki sırt dönüşü ve babaya **geri dönüş** karesi; kapanışta iki profil.
 - **Tamar'ın çerçevesi:** Anlatılan Sahne'deki iç ses, imge ve düşünce balonları dokuma kenarlı ve Tamar'ın iplik rengindedir; ayet etiketli metin serif yazı tipiyle üstte akar.
 - **İsa:** Uzak ve arkadan; kapıya dönüşü omuz ve baş hareketidir; göz pikseli ve hale yok.
-- **GDD tavanları:** Yan görünüm set-piece'i **1** ("kayıp oğulun eve dönüşü"); tablo **1** (kayıp para); Anlatılan Sahne kipi kullanılır.
+- **GDD tavanları:** Yan görünüm set-piece'i **0**; Anlatılan Sahne şeridi **1** (eve dönen yol); tablo **1** (kayıp para); Anlatılan Sahne kipi kullanılır.
 
 ## 14. Erişilebilirlik ve Zorluk Ayarları
 
 - **Güt:** Değnek ve ıslık ayrı tuşlara atanabilir; ıslığın basılı tutulması için aç/kapa seçeneği vardır (GDD §13). Islık konisinde itme okları; domuz durumları simgeyle (burun, kâse, ok); koku şeridi kesikli kenar ve zerre deseniyle, renkten bağımsız.
 - **Hesap:** Rahat'ta, değeri toplanan sözlerden çıkarılabilir hâle gelen malın rozetinde soluk çakıllar belirir. Çakıl yığınlarına rakam seçeneği.
 - **İmgeler ve sözler:** Balon biçimi türü renkten bağımsız gösterir (çentik, çuval, ok, kuşak, üç figür).
-- **Set-piece ve eşik:** Otomatik yürüme; hareket azaltmada sabit kamera. Natan'ın balonunun dolma hızı ayarlanabilir; konuştuktan sonra seçim süresiz bekler.
+- **Eve dönüş şeridi ve eşik:** Otomatik yürüme; hareket azaltmada sabit kamera. Natan'ın balonunun dolma hızı ayarlanabilir; konuştuktan sonra seçim süresiz bekler.
 - **Ayarlar:** Rahat'ta 60 sn sonra 1. ışık; Hikâye'de otomatik çözüm; balonlarda metin okuma.
 
 ## 15. Sadakat ve Hassasiyet Kontrolü
@@ -428,11 +426,11 @@ Eksen: + uç *Açan*, − uç *Taşıyan*. `gitti` saygıyla yazılır: Tamar ö
 
 ## 16. Üretim Notları
 
-- **Haritalar:** 3 yeni (A; iki ışıklı B1/B4; B2). C, 4. bölümün Harita B'sinden yeniden giydirilerek türetilir ve harita sayısına eklenmez. Set-piece B3. **Karo setleri:** Celile köyü ve gölü; Anlatılan Sahne (ortak).
+- **Haritalar:** 3 yeni (A; iki ışıklı B1/B4; B2). C, 4. bölümün Harita B'sinden (Ginnesar limanı) yeniden giydirilerek türetilir ve harita sayısına eklenmez (GDD §16.1). Anlatılan Sahne şeridi B3. **Karo setleri:** Celile köyü ve gölü; Anlatılan Sahne (ortak).
 - **Karakterler:** Yeni portre 2 (Hananya, Natan); öbürleri kit varyantı ve Anlatılan Sahne silüet kiti.
-- **Animasyon dizileri ≈46:** Tamar 7 (göl basamağında daldırma dahil), küçük oğul 9 (bitkin yürüyüş dahil), büyük oğul 3 (sırt dönüşü ve geri dönüş karesi tek dizide), baba 5 (öküzleri götürme dahil), domuz 4, öküz 2, Natan 4, Hananya 3, öbürleri 9 (Talmay'ın gösterme jesti ve basamaktan inen oğlak dahil).
-- **Set-piece:** 1. **Tablo:** 1. **Ara sahne:** 2 (uzak diyar montajı 40 sn, Mecdel yolu montajı 30 sn).
-- **Riskler:** Domuz davranışı §6.3'teki kurallarla belirlenimcidir. Eşiklerden biri değişirse (koni 5, kaçış 3, şerit 10/6, hızlar 2,5/1,5/1,67) başvuru tablosu yeniden doğrulanmalıdır. Hesap zincirinin zorluğu oyun testinde 3,5'e göre ölçülür; kolay gelirse S2 de ilişkisel yapılır ("Bir tarla, iki çift öküzle üç koyun eder"; değerler değişmez). Kesilen cümlenin okunurluğu (oyun testinde oyuncuların %80'i "cümle yarıda kaldı" diyebilmeli). "Büyük oğul" alegorisinin yanlış okunması. C'nin türetilmesi 4. bölümle eşgüdüm ister.
+- **Animasyon dizileri ≈47:** Tamar 8 (tepsiyle sofraya eğilip bırakma, eşikte taş ölçeği iki elle uzatma, kapının önünde duraksama, diz çöküp eşikten çanı alma, Natan'ın elini tutup kaldırma, salamura teknesine yaslanma, değnek, ıslık; göl basamağındaki daldırma 2. bölümün testiyi suya daldırma dizisinin yeniden kullanımıdır ve sayılmaz), küçük oğul 9 (bitkin yürüyüş dahil), büyük oğul 3 (sırt dönüşü ve geri dönüş karesi tek dizide), baba 5 (öküzleri götürme dahil), domuz 4, öküz 2, Natan 4, Hananya 3, öbürleri 9 (Talmay'ın gösterme jesti ve basamaktan inen oğlak dahil). Benzetmedeki değnek ve ıslık küçük oğulun silüet kitindedir; yetişkin Tamar'ın değnek ve ıslığı bu bölümde (yan hikâyede ilk kullanım) çizilir, 10. bölüm yeniden kullanır.
+- **Set-piece:** 0. **Anlatılan Sahne şeridi:** 1. **Tablo:** 1. **Ara sahne:** 2 (uzak diyar montajı 40 sn, Mecdel yolu montajı 30 sn).
+- **Riskler:** Domuz davranışı §6.3'teki kurallarla belirlenimcidir. Eşiklerden biri değişirse (koni 5, kaçış 3, şerit 10/6, hızlar 2,5/1,5/1,67) başvuru tablosu yeniden doğrulanmalıdır. Hesap zincirinin zorluğu oyun testinde 3,5'e göre ölçülür; kolay gelirse S2 de ilişkisel yapılır ("Bir tarla, iki çift öküzle üç koyun eder"; değerler değişmez). Kesilen cümlenin okunurluğu (oyun testinde oyuncuların %80'i "cümle yarıda kaldı" diyebilmeli). "Büyük oğul" alegorisinin yanlış okunması. C'nin türetilmesi, 4. bölümün iki evi değiştirilebilir katmanlarla çizmesine bağlıdır (§17-8).
 - **Kesme adayları:** Yan hikâye; Bulmaca 1 (S5 diyalogla verilir); Natan'ın sözünü kesme seçeneği. Son çare (§16.4): domuz bulmacası 20 sn'lik montaja döner, tersine Güt tek bir ıslıkla gösterilir.
 
 ## 17. Açık Sorular
@@ -440,9 +438,9 @@ Eksen: + uç *Açan*, − uç *Taşıyan*. `gitti` saygıyla yazılır: Tamar ö
 1. YC 15:19'daki "işçilerinden" ve 15:32'deki "yaşama döndü" arama özetiyle teyit edildi; GDD §14.1'deki "gündelikçilerinden" eşitlenmeli. Öbür ayetler ve YC'nin 15:21 için dipnotu YC ile karşılaştırılmalı.
 2. Anlatılan Sahne'de Kulak ile imge toplamak ve 3. ışığı avluya kesmeyle gerçek dünyadan birine verdirmek GDD'ye genel kural olarak işlenmeli mi (§5.3, §6.4)?
 3. Hesap cümlesinin sayı adayları Tamar'ın çakıl kesesinden gelir, söz olarak toplanmaz. Bu, GDD §5.3'ün "yalnızca toplanmış sözler" kuralına uygun bir istisna mı? Ayrıca *nesne* türü ile kişi alt türleri (*kime karşı*, *unvan*, *zümre*) GDD'nin tür listesine eklenmeli mi?
-4. GDD §8.4'e işlenmeli: `ilis_natan` (`uzak`) ve `ilis_hananya` (`temkinli`) başlangıçları; `b01_haber` ile `b05_dositeos`'un burada okunması; `ilis_hananya`'nın 9. bölümde de okunması; `disarida_konustu`'nun sessiz oturmayı da kapsaması; yeni tanıklık adları.
-5. Natan'ın yaşı (≈34) ve mirası (Sayılar 27:8) GDD §3.3'e işlensin mi?
+4. GDD §8.4'e işlenmeli: `ilis_natan` (`uzak`) ve `ilis_hananya` (`temkinli`) başlangıçları; `b01_haber`, `b05_dositeos` ve `ilis_dositeos`'un (yalnızca hitap) burada okunması; `ilis_hananya`'nın 9. bölümde de okunması; `disarida_konustu`'nun sessiz oturmayı da kapsaması; yeni tanıklık adları.
+5. Natan'ın yaşı (≈34) ve mirası (Çölde Sayım 27:8) GDD §3.3'e işlensin mi?
 6. 1. bölümün `b01_ifade_kuzu` bayrağı GDD §8.4'e eklenmeli mi? GDD §7.2'de 6. bölüm satırı eksik.
 7. Avlunun Mecdel yakınında olması kabul ediliyor mu (Kodeks 7)?
-8. Harita C'nin 4. bölümün Gennesaret limanından türetilmesi (iki evin Tamar'ın ve Hananya'nın evi olarak yeniden giydirilmesi) 4. bölümün tasarımıyla uyumlu mu? O liman Mecdel'in kıyısı sayılabilir mi?
+8. **Kapandı:** Harita C'nin 4. bölümün Harita B'sinin (Ginnesar limanı) batı yarısından gece LUT'uyla yeniden giydirilmesi onaylandı; harita sayısına eklenmez (GDD §16.1). 4. bölüm iki evi değiştirilebilir katmanlarla çizer.
 9. Bölüm içi yerel değişkenler (`b06_natan_sozu`, 1. bölümün `b01_uyanan_ev`'i) için GDD §8.3'te bir adlandırma kuralı gerekli mi?

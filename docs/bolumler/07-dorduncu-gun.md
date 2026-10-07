@@ -6,11 +6,11 @@
 
 | Alan | Değer |
 |---|---|
-| **Kaynak** | Öncü: **Yuhanna 11:1–53**; bağlam 10:40–42. Yalnızca Kodeks: Yeşu 15:7; Yasanın Tekrarı 34:3; Yeremya 9:17, 16:7; Eyüp 2:13, 9:9; Matta 9:23; Luka 10:30; Yuhanna 10:22, 12:1. Ninni: Mezmur 23:3 |
+| **Kaynak** | Öncü: **Yuhanna 11:1–53**; bağlam 10:40–42. Yalnızca Kodeks: Yeşu 15:7; Yasa'nın Tekrarı 34:3; Yeremya 9:17, 16:7; Eyüp 2:13, 9:9; Matta 9:23; Luka 10:30; Yuhanna 10:22, 12:1. Ninni: Mezmur 23:3 |
 | **Oynanabilir karakter ve yaş** | Tamar (43), Marta'nın ticaret dostu |
 | **Yer, vakit, yıl** | Beytanya; Yeruşalim–Eriha yolu (gece); Şeria'nın ötesindeki geçit (şafak). Kışın sonu, Tapınağın Açılışını Anma Bayramı (Hanuka) ile Fısıh arası (Yh 10:22; 11:55); 6. bölümden birkaç ay sonra (*doğrulanmalı*). Gece yolu ve dört günün hiçbiri Şabat değildir (oyunun kararı; Yuhanna gün vermez) |
 | **Erişim düzeyi (§3.4)** | Doğrudan: 11:4'te haberci, 11:19–44'te yas tutan komşular arasında. 11:5–16 görülmez (11:16 yalnızca `kutsadi` yolunda Yoram'dan, Aktarılmış). 11:45–53 tablodur (11:51–52 Kodeks'te) |
-| **Yeni fiil / kıvrım** | Yeni fiil yok / **Güt ile Bağla birleşir: ip takımı.** Kal tutuşu ilk kez girdi seçeneği olarak kullanılır (önce Taşın Dili'nde, sonra mezarda). Kandil yeni bir durum almaz: 4. bölümün sabitleri, 10. bölümün göz kamaşması kuralı ve Üfle eylemi kullanılır |
+| **Yeni fiil / kıvrım** | Yeni fiil yok / **Güt ile Bağla birleşir: ip takımı.** Kal tutuşu ilk kez girdi seçeneği olarak kullanılır (önce Taşın Dili'nde, sonra mezarda). Kandil yeni bir durum almaz: 4. bölümün sabitleri, GDD §5.1b'deki göz kamaşması kuralı ve Üfle eylemi kullanılır |
 | **Kullanılan mekanikler** | Bakış, Kandil (Üfle, kavla yakma, kaldırma, yere koyma, Koru), Bekleyiş, Güt, Bağla/Çöz, Kal, Kulak (yas evinde yalnızca ihtiyaç simgesi; gece yolunda kapalı), Taşı, Dök, Söz, Seğirtme. Belge tuş adlarını değil eylem adlarını kullanır |
 | **Zorluk** | 4 (Usta 4,5) |
 | **Tahmini süre** | Ana yol 50 dk (eşekle 48). Türlere göre: keşif/iş 13,5 · bulmaca 18 · katılım 11 · yankı ve çerçeve 7,5 (§5). Yan hikâye +6 dk |
@@ -39,7 +39,7 @@ Bütün alıntılar **[yakın aktarım]**dır (§15). 11:4, 11:18, 11:33, 11:38 
 
 ### 1.2 Oyunun eklediği kurgusal katman
 
-Haberin Tamar'la gitmesi, Şimi'nin karşı çıkışı ve gece yolu; eşek, konak, han, çoban, bekçi ve dönüşteki kervan; Tamar'ın 11:4'ten hemen sonra dönüşü; Şimi'nin işliği ve düzeneği; yas evinin dört günü (Hala, ağıtçı kadın, Yeruşalimli taziyeci çift, yağmur, oluk, Yair, konuk yerleşimi); Lazar'ın hastalanmadan önce yarım bıraktığı seki duvarı ve Yair'in onu tamamlaması; taşın ip takımıyla çekilmesi ve yüz bezini Tamar'ın çözmesi; Tamar'ın öfkesi. Kanonik kişilere ait jestler (11:3'te Beytanyalı Meryem'in sözsüz onayı; Yankı'da Lazar'ın başlık taşına el koyması ve bir taziyecinin onun önünde başını eğmesi) kurul onayına bağlıdır (§15).
+Haberin Tamar'la gitmesi, Şimi'nin karşı çıkışı ve gece yolu; eşek, konak, han, çoban, bekçi ve dönüşteki kervan; Tamar'ın 11:4'ten hemen sonra dönüşü; Şimi'nin işliği ve düzeneği; yas evinin dört günü (Hagit, ağıtçı kadın, Yeruşalimli taziyeci çift, yağmur, oluk, Yair, konuk yerleşimi); Lazar'ın hastalanmadan önce yarım bıraktığı seki duvarı ve Yair'in onu tamamlaması; taşın ip takımıyla çekilmesi ve yüz bezini Tamar'ın çözmesi; Tamar'ın öfkesi. Kanonik kişilere ait jestler (11:3'te Beytanyalı Meryem'in sözsüz onayı; Yankı'da Lazar'ın başlık taşına el koyması ve bir taziyecinin onun önünde başını eğmesi) kurul onayına bağlıdır (§15).
 
 ### 1.3 Bu bölümün kırmızı çizgileri
 
@@ -67,7 +67,7 @@ Haberin Tamar'la gitmesi, Şimi'nin karşı çıkışı ve gece yolu; eşek, kon
 | Tamar (43) | Kurgusal | Oynanabilir | — | 8 yön, portre; yan görünüm büyük sprite |
 | İsa | Kanonik | 11:4; Beytanya | **Evet** | 4 yön, uzak ve arkadan; yüzsüz silüet; portre yok; mezarda orta katmanda standart ölçek |
 | Marta | Kanonik | Haber, karşılama, itiraz | **Evet** | 4 yön; portre (3 ifade) |
-| Beytanyalı Meryem (etiketlerde ilk geçişte böyle, sonra "Meryem (Beytanya)") | Kanonik | Evde, yas yerinde oturur; ayaklara kapanır | **Evet** (11:32) | 4 yön; portre yok |
+| Beytanyalı Meryem (ekrandaki konuşmacı etiketi her zaman böyle) | Kanonik | Evde, yas yerinde oturur; ayaklara kapanır | **Evet** (11:32) | 4 yön; portre yok |
 | Lazar | Kanonik | Hasta, ölü, dirilen | Konuşmaz | Yatan poz, çıkış; portre yok |
 | Andreas | Kanonik | Haberi iletir | Söz yok | Kit |
 | Yoram (20) | Kurgusal | Yalnızca `kutsadi` | — | Mevcut set |
@@ -75,7 +75,7 @@ Haberin Tamar'la gitmesi, Şimi'nin karşı çıkışı ve gece yolu; eşek, kon
 | Şimi | Kurgusal | İşlik ustası, yol tarifi, kandil öğretimi | — | 4 yön; portre yok |
 | Naama; Elnatan, Şallum; Bukki, Hogla | Kurgusal | Şimi'nin karısı, oğulları; komşular (ip takımı; Hogla komşu kadın) | — | Kit |
 | Yair (10) | Kurgusal | Şimi'nin torunu; yan hikâye | — | Çocuk kiti, tekil kafa |
-| Hala, ağıtçı kadın, Yeruşalimli taziyeci çift; kervancı, hancı, çoban ve oğlu, bekçi, kavalcı | Kurgusal | Pano konukları; gece yolunun insanları (3. ışık) | — | Kit |
+| Hagit, ağıtçı kadın, Yeruşalimli taziyeci çift; kervancı, hancı, çoban ve oğlu, bekçi, kavalcı | Kurgusal | Pano konukları; gece yolunun insanları (3. ışık) | — | Kit |
 | Kayafa ve kurul | Kanonik | Tablo | 11:47–50 (Kayafa 11:49–50) | Silüet; §13'teki görsel kural |
 
 ## 4. Mekânlar
@@ -134,28 +134,28 @@ Haberin Tamar'la gitmesi, Şimi'nin karşı çıkışı ve gece yolu; eşek, kon
 **Kurallar:**
 1. **Yol okuma duruşu:** Ayrım taşında Etkileşim ile Tamar duruşa girer. Duruşta sol çubuk Tamar'ı yürütmeden üç kolun yönüne çevirir; İptal duruştan çıkarır. Tamar hangi kola dönük çıkarsa yürümeye başlayınca o kola girer. Dengeli ayarda onay yoktur. Kulak bu bulmacada kapalıdır.
 2. **Gök şeridi:** Duruşta Bakış basılı tutulunca baş kalkar ve Tamar'ın döndüğü kolu ortalayan 180°'lik şerit açılır. Kenarları örtünün saçaklarıdır: sol kenar sol omuz (90°), sağ kenar sağ omuz. Saçak bandı her kenarın son 36 pikselidir (80–90°); "tam sol omuz" bu bant demektir. Sağ çubuk şeridin üstünde serbestçe gezen bir nişangâhı oynatır. Ölçüler §13'tedir.
-3. **Göz alışması:** 3 karo içinde yanan bir kandil varken yalnızca en parlak birkaç yıldız görünür, yedi yıldız görünmez (10. bölümle aynı kural). Kandil söndürülünce (Üfle) ya da yere konup 3 karo uzaklaşılınca bütün yıldızlar 3 sn içinde belirir. İlk denemede Tamar: "Kandil gözümü alıyor." Duruşta kandil yanıyorsa Etkileşim istemi "Üfle"dir; kandil sönükken "Halka koy"dur.
+3. **Göz alışması:** 3 karo içinde yanan bir kandil varken yalnızca en parlak birkaç yıldız görünür, yedi yıldız görünmez (GDD §5.1b; 10. bölümün şafak göğü bu kuraldan etkilenmez). Kandil söndürülünce (Üfle) ya da yere konup 3 karo uzaklaşılınca bütün yıldızlar 3 sn içinde belirir. İlk denemede Tamar: "Kandil gözümü alıyor." Duruşta kandil yanıyorsa Etkileşim istemi "Üfle"dir; kandil sönükken "Halka koy"dur.
 4. **Yedi yıldız ve iz:** Bakış açıkken yedi yıldız ince bir kenar ışığı alır; öbür yıldızlar seçilemez. Nişangâh yedi yıldızdan birinde 0,5 sn durunca küme çizgilenir ve bir önceki okumadaki yerleri soluk bir iz olarak belirir: B1'de Sahne 2'nin alacakaranlık bakışı, B2'de B1, B4'te B2 (B3'te gök okunmaz). Her yıldızı iziyle birleştiren ince bir yay çizilir. Yaylar ortak bir merkezin çevresinde kıvrılır.
 5. **Halka:** Nişangâh yıldızsız bir noktadayken Etkileşim halkayı koyar; yeniden konursa eski halka kalkar. Halka bir yıldızın üstüne konamaz; Tamar: "Orada yıldız var; babam boşluk dedi." Halka konunca iki **sınama dairesi** çizilir. Daireler halkayı merkez alır ve kümenin iki ucundaki yıldızdan geçer (kasenin dış ucu, kulpun ucu). Halka dönme merkezindeyse (≈3°; Rahat'ta 5°) her daire o yıldızın izinden de geçer ve halka düz çizgiye döner. Değilse izler dairenin içinde ya da dışında kalır, halka kesik çizgili durur ve Tamar: "Yıldızlar bu noktanın çevresinde dönmüyor." Doğru halka ayrımdan ayrılana dek işaretli kalır; kol değiştirilince şeritteki yeri de değişir.
 6. **Kol seçimi:** Halkanın şeritteki yeri kolun yönünü verir. Tarife göre doğru kolda kuzey sol omuzla burun arasında, hurmalıkta (B4) tam sol omuzdadır.
-7. **Kandil** (4. bölümün sabitleri; yeni durum yoktur):
+7. **Kandil** (GDD §5.1b'deki kanonik tablo ve 4. bölümün sabitleri; yeni durum yoktur):
 
 | Durum | Nasıl | Işık | Yağ | Rüzgârlı açıklıkta (B2, B3) |
 |---|---|---|---|---|
 | Sönük | Üfle (Etkileşim; 10. bölümle ortak eylem) | Yok; 3 sn'de göz alışır | Yanmaz | — |
 | Elde | Sönük kandilde Kandil eylemi kavla yakar: kaya gölgesinde 6 sn, taşlıkta Tamar çömelip 8 sn'de yakar; yağ harcanmaz | 2 karo | Yürürken 240 karoda 1 ölçü. Dururken yağ yanmaz, ışık değişmez (4. bölüm) | Korunmazsa 2 karo yürüyüşte ya da 2 sn beklemede söner (4. bölüm) |
-| Kaldırılmış | Kandil eylemi basılı | Durgun havada 10, rüzgârda 4 karo; iz ve girinti görünür (4. bölüm) | Eldeki gibi | 1 karoda söner (4. bölüm) |
-| Yerde | Yere koy (4. bölüm) | 4. bölümdeki gibi | Yanmaz | Açıkta 2 sn'de söner; rüzgâr gölgesinde sönmez (4. bölüm) |
+| Kaldırılmış | Kandil eylemi basılı | Açık arazide durgun havada 10, rüzgârda ve yerleşim içinde 4 karo; iz ve girinti görünür (4. bölüm) | Yürürken eldeki gibi (240 karoda 1 ölçü); dururken 5 sn'de ¼ ölçü | 1 karoda söner (4. bölüm) |
+| Yerde | Yere koy (4. bölüm) | 2 karo (4. bölüm) | Yanmaz | Açıkta 2 sn'de söner; rüzgâr gölgesinde sönmez (4. bölüm) |
 
    Kandil en fazla 1 ölçü alır. Tamar'ın kuşak çömleği de 1 ölçü alır (4. bölümdeki 2 ölçülük yağ testisinden küçük bir kaptır); durup Etkileşim ile 3 sn'de kandile boşaltılır.
-8. **Rüzgâr (B2, B3):** Koru alevi korur (4. bölümdeki Koru hızıyla). Kaya gölgesinde (2 karo) alev diktir. Sönme yağ harcatmadığı için yağ güvencesi devreye girmez; bu yüzden B3'te kandil bir açıklıkta ikinci kez sönerse 1. ışık kendiliğinden gelir ve Tamar söndür-yak döngüsünde kalmaz.
+8. **Rüzgâr (B2, B3):** Koru alevi korur (GDD §5.1b: 1 karo ışık, yürüyüş hızının %40'ı; yağı Elde gibi yakar). Kaya gölgesinde (2 karo) alev diktir. Sönme yağ harcatmadığı için yağ güvencesi devreye girmez; bu yüzden B3'te kandil bir açıklıkta ikinci kez sönerse 1. ışık kendiliğinden gelir ve Tamar söndür-yak döngüsünde kalmaz.
 9. **Karanlık:** Soluk kireç taşı yol yıldız ışığında görünür; sönük kandille yolda tam hız, yol dışında %50. Taşlıkta ışıksız adım atılmaz.
-10. **İz okuma:** Kaldırılmış kandil izleri ve girintileri gösterir. Bir izin ne olduğu ancak kolun ilk 15 karosu ışıkla yürününce anlaşılır; Tamar izi adlandırır ("Deve izi, tezek: kervan yolu."). Üç kolu okumak gidiş ve dönüşle ≈90 karo, yani ≈0,4 ölçü tutar. B2'de bu kesim yamacın rüzgâr gölgesindedir.
+10. **İz okuma:** Kaldırılmış kandil izleri ve girintileri gösterir. Bir izin ne olduğu ancak kolun ilk 15 karosu ışıkla yürününce anlaşılır; Tamar izi adlandırır ("Deve izi, tezek: kervan yolu."). Üç kolu okumak gidiş ve dönüşle ≈90 karo, yani ≈0,4 ölçü tutar. Bu hesap kandilin yalnızca yürürken kaldırıldığını varsayar: kaldırılmış kandil dururken 5 sn'de ¼ ölçü yakar (GDD §5.1b), kolların ucunda kandil kaldırılı beklemek her saniye 0,05 ölçü ekler. B2'de bu kesim yamacın rüzgâr gölgesindedir.
 11. **Yanlış kol:** İlk 20 karo soluk yoldur, sonraki 25–30 karo taşlıktır; çıkmaz 45–50. karoda gelir ve Tamar onu adlandırır. "Geri dön" yalnızca çıkmazda açılır; kararma Tamar'ı ayrıma getirir ve taşlıktan dönüşün yağını da düşer. Yanlış kol başına ≈0,25 ölçü ve ≈40 sn kaybedilir.
 12. **Eşek** (`yuk_birakti` / `para_gonderdi`): B3 yerine 20 sn'lik binek montajı gelir. Ayrımlarda Tamar iner: "Eşeğin sırtında gök sallanıyor."
 13. **Güvenceler:** B3 girişinde yağ 0,6'nın altındaysa çoban kandili doldurur. Taşlıkta yağ biterse çobanın oğlu meşaleyle Tamar'ı vadinin ağzına götürür. B4'te yağ 0,3'ün altındaysa bekçi yarım ölçü verir. Yağ biterse soluk yolda yürünmeye devam edilir, yalnızca yanlış kolların taşlığına girilemez. Yol kilitlenmez.
 
-**Veriler** (MS 30 göğü; devinim ve özdevinim hesaba katıldı; 31,8° K, Şubat ortası, yerel ortalama saat; "kase" yedi yıldızın dört yıldızlık gövdesidir; hesap dosyası astronom onayına gider, *doğrulanmalı*). Halka hedefi her bölmede göğün kutbudur (az. 0°, yük. ≈32°). Kutbun ≈6° çevresinde şeride çizilecek parlaklıkta yıldız yoktur (Kodeks 4).
+**Veriler** (MS 30 dolayı göğü (hesap parametresidir; birkaç yıllık fark gökte ölçülemez; ekranda ve Kodeks'te yıl verilmez); devinim ve özdevinim hesaba katıldı; 31,8° K, Şubat ortası, yerel ortalama saat; "kase" yedi yıldızın dört yıldızlık gövdesidir; hesap dosyası astronom onayına gider, *doğrulanmalı*). Halka hedefi her bölmede göğün kutbudur (az. 0°, yük. ≈32°). Kutbun ≈6° çevresinde şeride çizilecek parlaklıkta yıldız yoktur (Kodeks 4).
 
 | Bölme | Yol (karo) | Kollar | Doğru | Kaldırılmış kandille izler | Gök |
 |---|---|---|---|---|---|
@@ -165,8 +165,8 @@ Haberin Tamar'la gitmesi, Şimi'nin karşı çıkışı ve gece yolu; eşek, kon
 | B4 (04:30) | 60 + 70 | 40° · 85° · 130° | **85°**: halka sol saçak bandında | Her kolda iz var · 40°: su arkı · 130°: tuzlu toprak | Kase KKB'de (≈333°, 38°), kulpu yukarıda. İz B2'den; dönüş 90°. Okuma 40° koluna dönükken yapılır; 85°'e dönülünce yedi yıldız şeridin dışında kalır, halka saçak bandındadır. Arktürüs batıda, başının neredeyse üstünde (az. ≈270°, yük. ≈73°); Vega ≈66°'de (yük. ≈48°) |
 
 **Çözüm:**
-1. **B1:** Tamar kandili üfler ya da yere koyup uzaklaşır; göz alışır. Yedi yıldız ve alacakaranlıktaki izi bulunur; yayların ortasındaki yıldızsız noktaya halka konur. Halka 330°'de sağ yarıda kalır, 105°'te görünmez, 60°'de sol yarıdadır: 60°. *Öbür yol:* Kandili kaldırıp kolların başındaki izleri okumak (≈0,4 ölçü).
-2. **B2:** Kızıl taş girintisi, yamacın rüzgâr gölgesinde kaldırılmış kandille bulunur (`kol_b07_kizil_tas`, ≈0,05 ölçü). İzler hana çeker; doğruyu (55°) gök ya da tarifteki uyarı verir.
+1. **B1:** Tamar kandili üfler ya da yere koyup uzaklaşır; göz alışır. Yedi yıldız ve alacakaranlıktaki izi bulunur; yayların ortasındaki yıldızsız noktaya halka konur. Halka 330°'de sağ yarıda kalır, 105°'te görünmez, 60°'de sol yarıdadır: 60°. *Öbür yol:* Kandili kaldırıp kolların başındaki izleri okumak (yürürken ≈0,4 ölçü; Kural 10).
+2. **B2:** Kızıl taş girintisi, yamacın rüzgâr gölgesinde kaldırılmış kandille bulunur (`kol_b07_kizil_tas`, ≈0,05 ölçü: ≈12 karo kaldırılmış yürüyüş; taş kandil indirilip alınır, kandil kaldırılı durulursa her saniye 0,05 ölçü eklenir). İzler hana çeker; doğruyu (55°) gök ya da tarifteki uyarı verir.
 3. **B3:** Çoban: "Vadiye iniyorsan rüzgâr arkandan eser; alevi göğsünde tut." Kanalda açıklıklar Koru ile geçilir (0,33 ölçü) ya da dere yürünür (0,58).
 4. **B4:** Halka 40° koluna dönükken konur. Tarifin ikinci yarısıyla, halkanın saçak bandına düştüğü 85° seçilir. Zor'da Bakış ırmağın sesini belirginleştirir (yön göstergesi); sönük kandille karşı kıyıdaki ateş seçilir.
 
@@ -183,7 +183,7 @@ Haberin Tamar'la gitmesi, Şimi'nin karşı çıkışı ve gece yolu; eşek, kon
 
 **Yanlış denemelerde:** Ceza yoktur. Tamar çıkmazı adlandırır: "Yeruşalim'in ışıkları önümde; ters dönmüşüm." · "Ağıl köpekleri... Bu çoban yolu." · "Kervan handa uyuyor; yol bu değil." · "Taşlık uçurumda bitiyor." Kaybedilen yalnızca yağ ve zamandır.
 
-**Usta kısıtı — `usta_b07_yarim_yag` ("Yarım yağ"):** Marta'nın verdiği 2 ölçüden en fazla 1 ölçü harcanır. Çobanın ya da bekçinin yağını almak Usta ayarında kısıtı düşürür; çömlek simgesindeki yarım çizgisi kesikli olur. Eşekli yolda B3 kanalının payı (0,33) düşülür ve eşik 0,67 ölçüdür. *Başvuru çözümü:* Yol sönük kandille yürünür, üç ayrımda gök okunur, kanal seçilir: 0,33 ölçü. *Pay:* Bir ayrımı kandille okumak ≈0,4, yanlış bir kol ≈0,25 ölçüdür; pratikte en fazla bir ayrımda kandil okunabilir (0,33 + 0,4 + 0,25 = 0,98).
+**Usta kısıtı — `usta_b07_yarim_yag` ("Yarım yağ"):** Marta'nın verdiği 2 ölçüden en fazla 1 ölçü harcanır. Çobanın ya da bekçinin yağını almak Usta ayarında kısıtı düşürür; çömlek simgesindeki yarım çizgisi kesikli olur. Eşekli yolda B3 kanalının payı (0,33) düşülür ve eşik 0,67 ölçüdür. *Başvuru çözümü:* Yol sönük kandille yürünür, üç ayrımda gök okunur, kanal seçilir: 0,33 ölçü. *Pay* (kaldırılmış kandilin dururken yaktığı yağ hesaba katıldı: 5 sn'de ¼, yani saniyede 0,05 ölçü): Bir ayrımı yürürken kandille okumak ≈0,4, yanlış bir kol ≈0,25, kızıl taş ≈0,05 ölçüdür (taş kandil indirilip alınırsa). Başvuru çözümü, bir ayrımı okumak ve bir yanlış kol 0,98 eder (0,33 + 0,4 + 0,25); bu yolda ne kızıl taşa ne de kandili kaldırılı tutup durmaya pay kalır. Kızıl taşı alıp bir ayrımı okuyan oyuncunun elinde 0,22 ölçü, yani kaldırılı kandille ≈4 sn duruş kalır; yanlış bir kola girmeye yetmez. Pratikte en fazla bir ayrımda kandil okunabilir ve kandil yalnızca yürürken kaldırılır. Eşekli yolda kanalın 0,33'ü hem harcamadan hem eşikten düştüğü için pay aynıdır.
 
 **Hikâye kipi:** "Şimi'nin tarifiyle": Tamar doğru kolu söyler, yağ azalmaz. **Kodeks:** 2, 3, 4, 11.
 
@@ -193,17 +193,17 @@ Haberin Tamar'la gitmesi, Şimi'nin karşı çıkışı ve gece yolu; eşek, kon
 
 **Dünyadaki sebep:** Yas evinde kimse kendi ekmeğini pişirmez. Konuklar gelir, sarnıç dibe inmiştir, yağmur yakındır.
 
-**Bilgi (Sahne 6; pano bunlarla açılır):** Yas evinde söz toplanmaz (GDD §5.3). Kulak konuşmayı balona çevirmez; kişilerin üstünde yalnızca su, ekmek, hasır (yatacak yer), ateş (sıcak yer) ya da ev (akşam evine döner) simgesi belirir. **Hala** (Lazar'ın yaşlı halası): su, ekmek, hasır, ateş. **Ağıtçı kadın:** su, ekmek, hasır. Şimi: "Şafaktan önce kalkar; yan odaya ana odadan geçilir." Ağıtçı kadın: "Dördüncü sabah yola çıkarım; testimi sarnıçtan doldururum." **Yeruşalimli taziyeci çift:** su, ev. "Ekmekle gelir, akşam döneriz; yağmurda ikimiz kalırız." **Yair:** "Ben her gün pınardan bir testi getiririm." **Şimi:** "Öbür gece yağmur var. Ezme taşına iki el ver; işlik senin, üç kişi yatar. Naama da o akşam ekmek verir." Sarnıçta Etkileşim ve Bakış: "Dibinde iki testilik su... Oluk tıkalı; yağmur suyu sokağa akar."
+**Bilgi (Sahne 6; pano bunlarla açılır):** Yas evinde söz toplanmaz (GDD §5.3). Kulak konuşmayı balona çevirmez; kişilerin üstünde yalnızca su, ekmek, hasır (yatacak yer), ateş (sıcak yer) ya da ev (akşam evine döner) simgesi belirir. **Hagit** (Lazar'ın yaşlı halası): su, ekmek, hasır, ateş. **Ağıtçı kadın:** su, ekmek, hasır. Şimi: "Şafaktan önce kalkar; yan odaya ana odadan geçilir." Ağıtçı kadın: "Dördüncü sabah yola çıkarım; testimi sarnıçtan doldururum." **Yeruşalimli taziyeci çift:** su, ev. "Ekmekle gelir, akşam döneriz; yağmurda ikimiz kalırız." **Yair:** "Ben her gün pınardan bir testi getiririm." **Şimi:** "Öbür gece yağmur var. Ezme taşına iki el ver; işlik senin, üç kişi yatar. Naama da o akşam ekmek verir." Sarnıçta Etkileşim ve Bakış: "Dibinde iki testilik su... Oluk tıkalı; yağmur suyu sokağa akar."
 
-**Kurulum:** 2. bölümün çakıl panosu dilini kullanan bir **ev planı** kilerin eşiğine çakılla çizilir: sarnıç ve oluk, tandır, yan oda, sundurma, dam ve Şimi'nin işliği. Üstte üç gün sekmesi vardır (2. gün, 3. gün, 4. sabah); 1. gün yaşanmış ve soluktur. Her sekmede Tamar'ın el çakılları, iş yuvaları, su ve ekmek kâseleri ve gecenin yer yuvaları bulunur. Konuk kâseleri (Hala 1, ağıtçı kadın 1, taziyeci çift 2) yer yuvalarına konur.
+**Kurulum:** 2. bölümün çakıl panosu dilini kullanan bir **ev planı** kilerin eşiğine çakılla çizilir: sarnıç ve oluk, tandır, yan oda, sundurma, dam ve Şimi'nin işliği. Üstte üç gün sekmesi vardır (2. gün, 3. gün, 4. sabah); 1. gün yaşanmış ve soluktur. Her sekmede Tamar'ın el çakılları, iş yuvaları, su ve ekmek kâseleri ve gecenin yer yuvaları bulunur. Konuk kâseleri (Hagit 1, ağıtçı kadın 1, taziyeci çift 2) yer yuvalarına konur.
 
 | | 2. gün | 3. gün (gece yağmur) | 4. gün sabahı |
 |---|---|---|---|
 | Tamar'ın eli | 3 | 3 | 0 (konuklara hizmet) |
 | Su / ekmek ihtiyacı | 4 / 3 | 4 / 3 | 4 / 2 |
-| Kimin ihtiyacı | Hala 1/1, ağıtçı kadın 1/1, çift 2/1 | Aynı | Hala 1/1, çift 2/1, ağıtçı kadın yalnızca testisini doldurur (1/0) |
+| Kimin ihtiyacı | Hagit 1/1, ağıtçı kadın 1/1, çift 2/1 | Aynı | Hagit 1/1, çift 2/1, ağıtçı kadın yalnızca testisini doldurur (1/0) |
 | Kendiliğinden | Yair 1 su; çift 1 ekmek | Aynı | Aynı; oluk açıksa yağmur 4 su |
-| Gece kalanlar | Hala, ağıtçı kadın | + taziyeci çift | — |
+| Gece kalanlar | Hagit, ağıtçı kadın | + taziyeci çift | — |
 
 Başlangıç: sarnıçta 2 su; 1 ekmek (dünden; yalnız 2. gün yenir).
 
@@ -214,7 +214,7 @@ Başlangıç: sarnıçta 2 su; 1 ekmek (dünden; yalnız 2. gün yenir).
 2. **Su** sarnıçta devreder. **Ekmek** bir gece durur: piştiği gün ya da ertesi gün yenir; önce eskisi yenir.
 3. **Naama'nın ekmeği** işliğin boşaltıldığı günün akşamına sayılır ve bir kez verilir.
 4. **Yerler** yatak sayısıyla verilir: yan oda 1 (sıcak, kuru) · sundurma 1 (soğuk, kuru) · dam 2 (soğuk; yağmurda kullanılmaz) · işlik 3 (sıcak, kuru; boşaltıldığı geceden başlayarak). Ana oda ev halkınındır (Marta, Meryem, Tamar); panoda yer sayılmaz.
-5. **Konuklar:** Hala sıcak yer ister. Ağıtçı kadın yan odada yatmaz. Taziyeci çift birlikte yatar ve yalnızca 3. gece kalır.
+5. **Konuklar:** Hagit sıcak yer ister. Ağıtçı kadın yan odada yatmaz. Taziyeci çift birlikte yatar ve yalnızca 3. gece kalır.
 6. **Oluk** 3. geceden önce açıldıysa 3. gecenin yağmuru 4. sabaha 4 su olarak sarnıca girer.
 
 **Kontroller** (eylem adlarıyla; tuşlar bölümler arası kontrol geçişine bırakılır): Yön ile gün sekmeleri ve yuvalar arasında gezilir. Etkileşim bir el çakılını iş yuvasına koyar ya da alır. Etkileşim bir konuk kâsesini seçer, ikinci Etkileşim onu bir yer yuvasına koyar. İptal geri alır. "Taslağa dön" ve "Temizle" vardır; "Çeteleye işle" onay eylemidir. Fareyle sürükle-bırak yapılabilir.
@@ -223,7 +223,7 @@ Başlangıç: sarnıçta 2 su; 1 ekmek (dünden; yalnız 2. gün yenir).
 
 **Çeteleye işle (gece oynatması):** Günler sırayla oynar (gün başına ≈2 sn, atlanabilir): kâseler dolar, konuklar yerlerine yatar. 3. geceye gelince yağmur başlar ve damdaki hasırlar ıslanır; oluk açıksa çakıllar oluk boyunca sarnıca tıp tıp düşer. İlk eksikte oynatma durur, eksik kâse ya da hasır titrer ve Tamar sorunu adıyla söyler. Plan eksiksizse günler yaşanır (Sahne 8).
 
-**Tamar'ın taslağı** (pano bununla açılır): 2. ve 3. gün "Su taşı 2, Ekmek pişir 1"; 2. gece Hala yan odada, ağıtçı kadın sundurmada; 3. gece çift damda. Oynatma 3. gecede durur: "Üçüncü gece Yeruşalimlilere kuru yer yok."
+**Tamar'ın taslağı** (pano bununla açılır): 2. ve 3. gün "Su taşı 2, Ekmek pişir 1"; 2. gece Hagit yan odada, ağıtçı kadın sundurmada; 3. gece çift damda. Oynatma 3. gecede durur: "Üçüncü gece Yeruşalimlilere kuru yer yok."
 
 **Çözüm:** Bu kurallarla tam taramayla denetlendi. Gün başına 20 iş dağılımı vardır (boş el dahil); oluk ve işlik birer kez kuralıyla 336 birleşim kalır. Bunların yalnızca üçü tutar; üçü de altı elin altısını kullanır ve 4. sabaha 1 su artırır. Öbür birleşimlerin ilk bozulduğu yer: su 202, ekmek 106, yer 25.
 
@@ -233,7 +233,7 @@ Başlangıç: sarnıçta 2 su; 1 ekmek (dünden; yalnız 2. gün yenir).
 | B | Su 1, Ekmek 1, Oluk 1 | Su 1, İşlik 2 | 3. akşam |
 | C | Su 2, Ekmek 1 | Oluk 1, İşlik 2 | 3. akşam |
 
-**Yerleşimler:** 2. gece işlik kapalıyken 2 yerleşim tutar (Hala yan odada; ağıtçı kadın sundurmada ya da damda), açıkken 6. Yağmur gecesi işlik açıkken 3 yerleşim tutar: Hala yan odada ya da işlikte, ağıtçı kadın sundurmada ya da işlikte, çift işlikte. İşlik kapalıyken hiçbiri tutmaz.
+**Yerleşimler:** 2. gece işlik kapalıyken 2 yerleşim tutar (Hagit yan odada; ağıtçı kadın sundurmada ya da damda), açıkken 6. Yağmur gecesi işlik açıkken 3 yerleşim tutar: Hagit yan odada ya da işlikte, ağıtçı kadın sundurmada ya da işlikte, çift işlikte. İşlik kapalıyken hiçbiri tutmaz.
 
 **Neden başka yol yok?** İşliksiz yağmur gecesinde dört kişiye iki kuru yer düşer. Oluk açılmazsa 4. sabahın suyu dört taşıma eli ister; işliğin iki eliyle altı el dolar ve ekmeğe el kalmaz. **Kuralın duyarlılığı:** Naama'nın ekmeği ertesi güne sayılsaydı hiçbir plan tutmazdı; her gün verilseydi altı plan tutardı. Kural 3 bu yüzden yazılıdır. **Keşif zinciri:** Taslak yerden bozulur. İşlik bir güne konunca 4. sabahın suyu eksilir (oynatmada görünür). Çözüm, oluğa bir el vermek ve eksilen ekmeği Naama'nın ekmeğiyle kapatmaktır.
 
@@ -322,7 +322,7 @@ Yan hikâyeli ve yan hikâyesiz altı dizinin hiçbirinde aynı girdi art arda i
 |---|---|---|---|---|
 | Kervan (Söz; eşekli yollar) | "Sağ ol." · "Borcum olsun." · *Sessiz kal* | Gülümser / "Yolda tekerlek düşer." / Omuz silker | Yok (ton) | — |
 | Geçit, `kutsadi`: "Ben burada kalıyorum, anne." | "Kal, oğlum." · *Sessiz kal* | Sarılır / Elini omzuna koyar | Yok (ton) | — |
-| Dönüş (eylem) | Marta'ya yürüyüp Etkileşim · geride durmak (20 sn) | Marta Tamar'ın ellerini tutar / başıyla selamlar | `ilis_marta = yakin` / `temkinli` (başlangıç `temkinli`) | 8 |
+| Dönüş (eylem) | Marta'ya yürüyüp Etkileşim · beklemek | Marta Tamar'ın ellerini tutar / 20 sn sonra başıyla selamlar | `ilis_marta = yakin` (Etkileşim); beklemek değer yazmaz, başlangıç değeri `temkinli` korunur | 8 |
 | **Yankı** (Söz): Marta testisini Tamar'ın yanına koyup oturur | **"O söz dört gün boğazımda kaldı, Marta. Kızdım; O'na da, kendime de."** · **"Dört gün ağladım, kimseye söylemedim. Şimdi söylüyorum."** · **"Kardeşin yaşıyor. Gerisinin önemi yok."** · *Sessiz kal* (suyu birlikte çekerler) | Marta başını Tamar'ın omzuna yaslar / ağlamasına izin verir / testiyi uzatır / omuz omuza susarlar | İlk ikisi `b07_kalp = acti`, `eks_kalp +1`, `ilis_marta` `yakin`a çıkar. Son ikisi `tasidi`, `eks_kalp −1` | 8, 9, bant |
 
 İki uç da tam bir sondur. Yaşlı Tamar: `acti`: "Söyledim, Sara. Bağırdım, ağladım. Marta da O'na aynı şeyi söylemişti: 'Burada olsaydın.'" · `tasidi`: "Söylemedim. Kardeşi yaşıyordu; öfkemi yanıma alıp Mecdel'e döndüm. Belki doğrusu buydu, belki değil."
@@ -335,7 +335,7 @@ Yan hikâyeli ve yan hikâyesiz altı dizinin hiçbirinde aynı girdi art arda i
 | | `yasakladi` | Geçit iç sesi: "Bunlar Yoram'ın yaşında. 'Gidemezsin' demiştim." K6: "Yoram olsaydı kamaları o koyardı." |
 | | `erteledi` | "'Fısıh'tan sonra' demiştim. Fısıh yaklaşıyor." |
 | `b05_dositeos` + `ilis_dositeos` | `yuk_birakti` | En-Şemeş konağında Dositeos: "Tamar! Eriha'ya mı? Al şu eşeği; adı Kara." |
-| | `para_gonderdi` | Tobi: "Sikkeleri gönderen Mecdelli sen misin? Al eşeği." `ilis_dositeos = yakin` ise "Tamar", değilse "Mecdelli" der |
+| | `para_gonderdi` | Tobi: "Sikkeleri gönderen tuzlamacı sen misin? Al eşeği." `ilis_dositeos = yakin` ise "Tamar", değilse "tuzlamacı" der |
 | | `gecti` | Tobi: "Eşekler sabaha yük taşıyacak; veremem. Rab yolunu açsın." Eşek yok; yargı yok. Dönüşte Tamar'ı Yeruşalim'e çıkan başka bir kervan bindirir |
 | `b05_ifade_sargi` | `ozenli` / `cabuk` / boş | K8 iç sesi |
 
@@ -372,8 +372,8 @@ Mezar sahnesinde ve dokunmama sırasında nesne bulunmaz.
 **Kodeks:**
 1. **Beytanya:** Yeruşalim'e üç kilometre kadar (Grekçe: on beş stadion; Yh 11:18). El-Azariye adı Lazar'dan gelir; bugünkü mezar *geleneksel*dir.
 2. **Eriha yolu:** ≈25 km, 1000 metreyi aşan iniş (*doğrulanmalı*). Adummim (Yeşu 15:7) "kızıl" demektir. Yolun haydutlarla ünü Luka 10:30'daki benzetmede de yankılanır (5. bölüm); kervanlar geceyi handa geçirirdi. "İyi Samiriyeli Hanı" *geleneksel*dir.
-3. **Eriha:** "Hurma ağaçları kenti" (Yasanın Tekrarı 34:3); vadinin ağzında Kral Hirodes'in (Büyük Hirodes) kış sarayları ve kanalları (*doğrulanmalı*).
-4. **Yedi yıldız ve kuzey:** MS 30 dolayında göğün kuzey kutbu bugünkü Kutup Yıldızı'ndan ≈12° uzaktaydı. Kutbun ≈6° çevresinde çıplak gözle kolayca seçilen bir yıldız yoktu; en yakın parlak yıldız ≈8° ötedeydi (oyunun hesabı, *doğrulanmalı*). Kuzey, kutbun çevresinde dönen yıldızların ortasından yaklaşık olarak bulunurdu; Tamar bunu babasından öğrenmiştir (1. bölüm). Aratos yön bulmayı yıldız kümeleriyle anar (*Phainomena* 37–44); Hipparkhos, Pytheas'tan aktararak kutbu yıldızsız bir yer olarak tarif eder (*doğrulanmalı*). "Ön iki yıldızdan çizgi uzatma" yöntemi dönem kaynaklarında belgelenmediği için oyunda kullanılmaz. Oyunda halka kutbun kendisine sabitlenmiştir. "Ayı" adı Yunan ve Roma geleneğindendir; Tamar kümeye "yedi yıldız" der. Bkz. Eyüp 9:9.
+3. **Eriha:** "Hurma ağaçları kenti" (Yasa'nın Tekrarı 34:3); vadinin ağzında Kral Hirodes'in (Büyük Hirodes) kış sarayları ve kanalları (*doğrulanmalı*).
+4. **Yedi yıldız ve kuzey:** Birinci yüzyılda göğün kuzey kutbu bugünkü Kutup Yıldızı'ndan ≈12° uzaktaydı. Kutbun ≈6° çevresinde çıplak gözle kolayca seçilen bir yıldız yoktu; en yakın parlak yıldız ≈8° ötedeydi (oyunun hesabı, *doğrulanmalı*). Kuzey, kutbun çevresinde dönen yıldızların ortasından yaklaşık olarak bulunurdu; Tamar bunu babasından öğrenmiştir (1. bölüm). Aratos yön bulmayı yıldız kümeleriyle anar (*Phainomena* 37–44); Hipparkhos, Pytheas'tan aktararak kutbu yıldızsız bir yer olarak tarif eder (*doğrulanmalı*). "Ön iki yıldızdan çizgi uzatma" yöntemi dönem kaynaklarında belgelenmediği için oyunda kullanılmaz. Oyunda halka kutbun kendisine sabitlenmiştir. "Ayı" adı Yunan ve Roma geleneğindendir; Tamar kümeye "yedi yıldız" der. Bkz. Eyüp 9:9.
 5. **Yas:** Aynı gün gömme; ağıtçı kadınlar (Yeremya 9:17) ve kavalcılar (Matta 9:23); yas yerinde, yerde oturmak (Eyüp 2:13; Beytanyalı Meryem'in evde oturuşu, Yh 11:20); komşuların ekmek ve avuntu kâsesi getirmesi (Yeremya 16:7). "Üçüncü günden sonra" inancı geç bir rabbi kaynağındadır (*doğrulanmalı*).
 6. **Sarnıç ve oluk:** Damdan akan yağmur kil borularla sıvalı sarnıçta toplanırdı.
 7. **Tıkaç taşı:** Mezarların çoğu kare taşla kapanırdı; yuvarlak taş azdır (*doğrulanmalı*).
@@ -436,7 +436,7 @@ Mezar sahnesinde ve dokunmama sırasında nesne bulunmaz.
 ## 16. Üretim Notları
 
 - **Haritalar:** 5 yeni: Beytanya (A) ve Eriha yolunun dört bölmesi (B1–B4; her bölme ayrı bir ortam çizimi olarak sayılır). 2. bölümün kıyısı yeniden kullanılır. Bu sayımla proje toplamı 26'ya çıkar (GDD §16.1: 22–24). B3'ün montaja çevrilmesi bölümü 4'e indirir; sayım birimi GDD'ye bırakılır (§17). **Karo seti:** Yeni yok.
-- **Karakterler:** Yeni sprite Marta, Beytanyalı Meryem, Lazar, Şimi, Yair; yeni portre yalnızca Marta. Hogla, Hala, ağıtçı kadın ve taziyeci çift kit varyantıdır. Eşek 5. bölümün Boz setinden palet değişimiyle.
+- **Karakterler:** Yeni sprite Marta, Beytanyalı Meryem, Lazar, Şimi, Yair; yeni portre yalnızca Marta. Hogla, Hagit, ağıtçı kadın ve taziyeci çift kit varyantıdır. Eşek 5. bölümün Boz setinden palet değişimiyle.
 - **Animasyon dizileri (≈50):**
   - **Tamar 3/4 (9):** kandili üfleme (10. bölümle ortak; ilk kez burada çizilir), kavla yakma (ayakta), kavla yakma (çömelerek), kandili yere koyup alma, yol okuma duruşu, arşınlama (10. bölümle ortak; ilk kez burada), oluk borusunu eğip boşaltma, sarnıçtan kova çekme, ipe asılma (işlik; "ip çekme" aksiyon hücresinden).
   - **Tamar yan görünüm, büyük sprite (6):** heybeden ip çıkarıp düğümleme, ritim çağrısı, ipe asılma, diz çökme ve kalkma, karanlığa bakma, yürüyüş.

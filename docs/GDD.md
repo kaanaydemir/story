@@ -168,7 +168,7 @@ Beytlehemli bir çobanın kızıdır. Kral Hirodes'in askerlerinin geldiği gece
 
 **Bölüm döngüsü (35–55 dk):**
 1. **Çerçeve girişi:** Sara'nın sorusu (1 dk).
-2. **Günün işi:** Bölümün fiili öğretilir ya da derinleşir (5–10 dk).
+2. **Günün işi:** Yeni fiil ilk kez baskısız bir anda öğretilir: görev sayılmayan kısa bir an ya da başarısızlığı olmayan tek kararlı bir günün işi. Günün işi o fiili ya da önceki bir fiili derinleştirebilir (5–10 dk).
 3. **Keşif ve söz toplama** (5–10 dk).
 4. **2–3 bulmacalık zincir:** En az biri bir "aha" anı içerir (10–20 dk).
 5. **Katılım anı:** Kanonik olay (5–10 dk).
@@ -181,54 +181,138 @@ Beytlehemli bir çobanın kızıdır. Kral Hirodes'in askerlerinin geldiği gece
 
 | Bölüm | Keşif/iş | Bulmaca | Katılım | Yankı + çerçeve | Toplam | Not |
 |---|---|---|---|---|---|---|
-| 1 | 8 | 12 | 8 | 7 | 35 | Müneccimler ve kaçış bir tablo |
-| 2 | 10 | 15 | 8 | 7 | 40 | Kırk gün dört adıma sıkıştırılır |
-| 3 | 8 | 18 | 7 | 7 | 40 | Dikey dilim |
-| 4 | 10 | 20 | 15 | 10 | 55 | Gündüz ve gece ayrı bütçelenir |
-| 5 | 8 | 14 | 10 | 8 | 40 | Yan şerit, sessiz el işi |
-| 6 | 10 | 20 | 12 | 13 | 55 | Kayıp koyun ve kayıp para toplam 3 dk |
-| 7 | 8 | 20 | 12 | 10 | 50 | En zor düşünme bölümü |
-| 8 | 10 | 22 | 13 | 10 | 55 | Gerçek bulmacalar korunur |
+| 1 | 8 | 12 | 8 | 7 | 35 | Müneccimler ve kaçış iki tablo |
+| 2 | 13 | 11,5 | 10,5 | 5 | 40 | Kırk gün dört onluğa sıkıştırılır |
+| 3 | 8 | 19 | 6 | 7 | 40 | Dikey dilim |
+| 4 | 13,5 | 17 | 15,5 | 8,5 | 54,5 ≈ 55 | Gündüz (Sahne 0–10) 31,5 dk, gece ve sabah (Sahne 11–17) 23 dk; 3 dk bulmaca payı gecenin Kandil öğretimine aktarıldı |
+| 5 | 8,5 | 12 | 10 | 8,5 | 39 | Yan şerit, sessiz el işi |
+| 6 | 10 | 20 | 12 | 13 | 55 | Kayıp koyun ve kayıp para toplam 3 dk (sahne toplamı 54) |
+| 7 | 13,5 | 18 | 11 | 7,5 | 50 | En zor düşünme bölümü; eşekli yolda 48 |
+| 8 | 11,5 | 23,5 | 10,5 | 6,5 | 52 | Gerçek bulmacalar korunur |
 | 9 | 10 | 0 | 18 | 7 | 35 | Bilinçli olarak bulmacasız |
-| 10 | 8 | 15 | 14 | 8 | 45 | Koşu ve final |
-| **Toplam** | | | | | **450 dk ≈ 7,5 sa** | Yan hikâyeler +60 dk |
+| 10 | 9 | 15 | 14 | 7 | 45 | Koşu ve final |
+| **Toplam** | **105** | **148** | **115,5** | **77** | **445,5 dk ≈ 7,4 sa** | Yan hikâyeler +60 dk (5'te 7, 9'da 5, öbürlerinde 6) |
 
-**Yürüme ve geri dönüş kuralları:** Koşu 10. bölüme kadar kapalıdır. Onun yerine her zaman kullanılabilen bir **seğirtme** vardır (yürüyüşten %35 hızlı, LB/Ctrl basılı tutulur). Bir bölüm haritasının bir ucundan öbürüne yürümek 90 saniyeyi geçmez. Görev zincirleri aynı yolu ikinci kez yürütmeyecek biçimde dizilir. Ziyaret edilen noktalara Tamar'ın "Yolu biliyorum" düşüncesiyle kısa geçiş yapılabilir.
+Bulmaca sütunu oyun testi medyanıdır (düşünme, hatalı deneme ve ipucu dahil); §5.4-1'deki sınır temiz el işi süresidir.
+
+**Yürüme ve geri dönüş kuralları:** Koşu 10. bölüme kadar kapalıdır. Onun yerine her zaman kullanılabilen bir **seğirtme** vardır (yürüyüşten %35 hızlı, LB/Ctrl basılı tutulur). Bir bölüm haritasının bir ucundan öbürüne yürümek 90 saniyeyi geçmez. Görev zincirleri aynı yolu ikinci kez yürütmeyecek biçimde dizilir. Tekrarlı taşıma görevlerinde (2. bölümde Su Yolu, 3. bölümde Altı Küp) ilk doğru teslimattan ya da art arda üç doğru turdan sonra kalan seferleri bitiren montaj seçeneği her ayarda açılır; montaja kadar geçen temiz süre §5.4-1 sınırına sayılır. Ziyaret edilen noktalara Tamar'ın "Yolu biliyorum" düşüncesiyle kısa geçiş yapılabilir.
+
+**Hız sabitleri:** Tamar'ın 3/4 yürüyüşü 2,5 karo/sn'dir (40 px/sn); seğirtme %35 hızlıdır; koşu yürüyüşün 2,5 katıdır. Yan görünüm set-piece'lerinde büyük sprite ölçeği nedeniyle aynı oranlar 80 / 108 / 200 px/sn'dir. Yükle hız düşüşleri §5.1c'dedir. Koşu 10. bölümün şafak koşusunda açılır ve bölüm sonuna dek Sokaklar haritasında açık kalır; ev içlerinde ve sinemaskop sahnelerde kapalıdır. Epilogda koşu yoktur (yaşlı Tamar'ın yürüyüş seti yoktur, §3.1); bölüm seçimiyle yeniden oynanan 1–9. bölümlerde de açılmaz.
 
 ---
 
 ## 5. Mekanik Araç Kutusu
 
-**Kural:** Beş temel sistem vardır: **Bakış**, **Güt**, **El** (Taşı/Dök, Bağla/Çöz, Ez/Karıştır), **Kulak ve Kavrayış**, **Kandil ve Vakit**. Bir bölüm en fazla bir yeni fiil ve bir kıvrım getirir. Adaptif tetik ve HD titreşim yalnızca cila katmanıdır: her girdinin klavye karşılığı, ileride dokunmatik karşılığı ve "otomatik/değiştir" seçeneği girdi mimarisine baştan dahil edilir.
+**Kural:** Beş temel sistem vardır: **Bakış**, **Güt**, **El** (Taşı/Dök, Bağla/Çöz, Ez/Karıştır), **Kulak ve Kavrayış**, **Kandil ve Vakit**. Bir bölüm en fazla bir yeni fiil ve bir kıvrım getirir. Adaptif tetik ve HD titreşim yalnızca cila katmanıdır: her girdinin klavye karşılığı, ileride dokunmatik karşılığı ve "otomatik/değiştir" seçeneği girdi mimarisine baştan dahil edilir. Analog güç eşiğine dayanan girdiler (dökme eğimi, bastırma) dijital girdide basış başına bir kademeye ya da sabit bir hıza dönüşür; analog ve dijital girdi aynı sonucu verir.
 
 ### 5.1 Araç tablosu
 
 | Mekanik | Nasıl çalışır | Kontrol (Gamepad / Klavye) | İlk bölüm | Kullanıldığı bölümler | Derinleşme |
 |---|---|---|---|---|---|
-| **Bakış** | Basılı tutulunca yürüyüş yavaşlar, ekranın kenarları kararır, ayrıntılar ve uzaktaki sesler belirginleşir. Etkileşimli nesneler ince bir kenar ışığı alır. Sağ çubukla baş kaldırılabilir | LT + sağ çubuk / Fare sağ tuş + fare | 1 (temel kontrol olarak, yıldıza bakarken) | Tümü | Ömür boyu geri çağırma: 1'de yıldıza, 2'de ışığa, 7'de yön yıldızlarına, 10'da "Size esenlik olsun" anında |
-| **Güt** | Sağ çubuk bir "çağrı konisi" açar; X ıslık ya da değnek vuruşudur. Sürü, insan grubu ya da ip takımı bu koniye ve ritme göre akar | Sağ çubuk + X / Fare yönü + Boşluk | 1 | 1, 3, 4, 6, 7, 9 | 1: sürü kandili izler → 3: hizmetkâr zinciri → 4: kalabalık grupları → 6: tersine döner (domuzlar dinlemez) → 7: ip takımına ritim → 9: kalabalık seni sürükler |
-| **Taşı / Dök** | RT ile kavranır. Ağırlık hızı ve dengeyi belirler; sol çubuk eğilerek dökülür. Bırakmak hiçbir şeyi kırmaz, Tamar yükü yere koyar | RT + sol çubuk / Sol tık basılı + A/D | 2 | 2–5, 7, 8, 10 | 2: ölçü ve pay → 3: zincirle aktarma → 4: teknede su boşaltma → 5: yük dengesi |
-| **Kulak ve Kavrayış** | LT basılıyken çevredeki konuşmalar simgeli balonlara dönüşür; A ile bir **söz** saklanır. Kavrayış'ta Tamar'ın başının üstünde boşluklu bir **düşünce cümlesi** belirir ve boşluklar toplanan sözlerle doldurulur (§5.3) | LT + A; Y ile düşünce halkası / Sağ tık + E; Tab | 3 | 3, 4, 6, 7, 8, 10 | 3: hesap → 4: kalabalıkta kişi bulma → 6: konuşma kurma (lütufla kesilir) → 8: kanıttan yer çıkarma → 10: tanıklık cümlesi |
-| **Kandil** | Y ile kaldırılır. Işık izleri, gölgeleri ve girintileri gösterir; hayvanlar ışığı izler. Yağı sınırlıdır ve evlerdeki küplerden doldurulur. RB basılı tutulunca Tamar alevi gövdesiyle rüzgârdan korur | Y, RB / Q, F | 1'de basit kıvrım olarak; tam sistem 4'te | 1, 4, 7, 8, 10 | 4: rüzgâr → 7: yıldızlarla birlikte yön bulma → 8: gölge okuyarak arama → 10: şafak kandili gereksiz kılar |
-| **Bağla / Çöz** | Sağ çubuk dairesel çevrilince düğüm atılır, ters yönde çözülür. Gerginlik dokunsal olarak hissedilir. Hız ve özen "ifade" olarak kaydedilir | Sağ çubuk daire / Fare daire ya da ←/→ dönüşümlü | 5 | 5, 7, 10 | 5: sargı → 7: ip takımı ve yüz örtüsü → 10: kaldıraç düzeneği |
-| **Ez / Karıştır** | Havan ve tokmakla çalışılır, oranlar dengelenir: hamur, acı otlar, baharat | Sağ çubuk daire + RT / Fare daire + sol tık | 8 | 8, 9 | 9: güneş batmadan baharat hazırlığı |
-| **Bekleyiş** (Kandil ve Vakit'in alt sistemi) | Bölüm 3–5 "vakte" ayrılır. Sınırlı kaynaklar (un, su, yer, yağ) vakitlere paylaştırılır. Zaman gerçek saatle değil, anlatı adımlarıyla ilerler; süre baskısı yoktur | Vakit panosunda yön tuşları / Fare | 2 (kıvrım olarak) | 2, 7, 8 | 7: yas evinde dört gün → 8: Fısıh hazırlığı |
-| **Kal** (tutuş) | Tek tuş basılı tutulur. Bırakmak hiçbir şeyi düşürmez; Tamar diz çöker, soluklanır ve yeniden kalkar ya da gözlerini kapatır. Kutsal anlarda hiçbir şey kaydedilmez | A basılı / Boşluk basılı (her zaman "değiştir" seçeneğiyle) | 7 | 7, 9 | 9: Golgota |
+| **Bakış** | Basılı tutulunca yürüyüş yavaşlar, ekranın kenarları kararır, ayrıntılar ve uzaktaki sesler belirginleşir. Etkileşimli nesneler ince bir kenar ışığı alır; odak tektir. 3. bölümden itibaren Kulak bu tutuşun işitsel katmanıdır. Basılıyken sağ çubuk bakış yönünü çevirir; dokunmama anlarında baş kaldırmak için Bakış gerekmez (§5.1a) | LT basılı + sağ çubuk / Fare sağ tuş basılı + fare | 1 (temel kontrol olarak, yıldıza bakarken) | Tümü | Ömür boyu geri çağırma: 1'de yıldıza ve meleme yönüne, 2'de ışığa, 7'de yedi yıldızın döndüğü boş noktaya, 10'da ağaran gökte kuleleri okumaya ve "Size esenlik olsun" anında baş kaldırmaya |
+| **Güt** | Sağ çubuk (Bakış kapalıyken) 60°lik bir çağrı konisi açar; X kısa ya da uzun basılır. *Hayvanlara:* kısa basış değnektir (koni 4 karo; içindekiler Tamar'dan uzaklaşan yönde 3 karo yürür; 1 sn içindeki ikinci vuruşla toplam 5 karo; fazla vuruşun cezası yoktur). Uzun basış ıslıktır (yönsüz 8 karo menzil; bırakınca hayvanlar ıslık noktasına yürür; basılıyken İptal ile vazgeçilir; ışık halkasındaki hayvanlar ıslığa yalnızca kulak kabartır). *İnsan ve gruplara:* kısa basış çağrıdır (koni 6 karo; kişiyi ya da grubu seçer, bir yere atar, ardına takar, yerine oturtur ya da ritim komutu verir). Uzun basış (1 sn) atanmış ya da oturmuş olanı kaldırır. Ritim, art arda verilen çağrıların sırasıdır; zamanlama penceresi yoktur (tek istisna değneğin çift vuruşu). Işığa yürüme yalnızca hayvanlara uygulanır. Durak taşı çağrısı gibi bağlamsal komutlar Güt değil Etkileşim'dir | Sağ çubuk (koni) + X / Fare yönü + Boşluk | 1 | 1, 3, 4, 6, 7, 9 (yan hikâyelerde 8, 10) | 1: sürü kandili izler → 3: hizmetkâr zinciri (kişi ve yer ataması) → 4: kalabalık grupları → 6: tersine döner (domuzlar değneğe aldırmaz, ıslıktan kaçar, kokuya gelir; ıslık yalnızca bu bulmacada 60°/5 karoluk koniyle hedeflenir) → 7: ip takımına ritim → 9: kalabalık seni sürükler |
+| **Taşı / Dök** | İki biçimlidir (§5.1c): **kavrama** dökülecek kaplar ve ağır nesneler içindir, **al-koy** dökülmeden yuvaya konan ya da birine verilen nesneler içindir. Ağırlık hızı ve dengeyi belirler; yalnızca kavranmış kap sol çubuk eğilerek dökülür. Bırakmak hiçbir şeyi kırmaz, Tamar yükü yere koyar (kutsal taşıma anları hariç, §5.1c). Kaplar ve kapasiteler §5.1c'dedir | Kavrama: RT basılı; al-koy: A; Dök: RT + sol çubuk; Başa al / İndir: R3 / Sol tık basılı; E; sol tık + A/D; R | 2 | 2–10 (6'da yalnızca al-koy) | 2: ölçü ve pay → 3: zincirle aktarma → 4: siper ve teknede su boşaltma → 5: yük dengesi → 8: kutsal taşıma (leğen) → 9: yağ payı → 10: omuz yükü |
+| **Kulak ve Kavrayış** | Kulak, Bakış'ın 3. bölümden itibaren açılan işitsel katmanıdır: Bakış basılıyken çevredeki konuşmalar simgeli balonlara dönüşür; Söz sakla ile odaktaki bir **söz** saklanır. Kavrayış'ta Tamar'ın başının üstünde boşluklu bir **düşünce cümlesi** belirir ve boşluklar toplanan sözlerle doldurulur (§5.3) | Söz sakla: LT + A; Kavrayış: D-pad ↑ / Sağ tuş + E; Tab | 3 | 3, 4, 6, 7 (yalnızca ihtiyaç simgeleri), 8, 10 (9'da yalnızca susan hâl) | 3: kiler hesabı → 4: kalabalıkta kişi bulma → 6: hesap zinciri ve konuşma kurma (lütufla kesilir) → 8: kanıttan yer çıkarma → 10: plan cümlesi ve tanıklık cümlesi |
+| **Kandil** | Kısa dokunuşla yakılır ya da Açık↔Kısık arasında geçer; basılı tutulunca kaldırılır. Işık izleri, gölgeleri ve girintileri gösterir; hayvanlar ışığı izler. Koru basılıyken Tamar alevi gövdesiyle rüzgârdan korur. Işık yarıçapları, yağ, rüzgâr ve doldurma kuralları §5.1b'dedir. Kandili yere yakın tutma (Alçak) yalnızca 8. bölümde öğretilir | Kandil: Y; Koru: RB; Alçalt: D-pad ↓ / Q, F, C | 1'de basit kıvrım olarak; tam sistem 4'te | 1, 4, 7, 8, 9 (yalnızca yakma), 10 | 4: rüzgâr, Koru ve yağ → 7: Üfle ve göz alışmasıyla yıldızlardan yön bulma → 8: Alçak tutuşla arama → 10: şafak kandili gereksiz kılar |
+| **Bağla / Çöz** | Sağ çubuk saat yönünde dairesel çevrilince sarılır, ters yönde çözülür; her tam daire bir turdur, düğüm A ile atılır. Gerginlik dokunsal olarak hissedilir. Hız ve özen "ifade" olarak kaydedilir | Sağ çubuk daire + A / Fare daire ya da ←/→ dönüşümlü + E | 5 | 5, 7, 10 (8'de yan hikâye) | 5: sargı → 7: kiriş düğümü ve yüz bezi → 10: ip ulama ve kaldıraç düzeneği |
+| **Ez / Karıştır** | Havan ve tokmakla çalışılır, oranlar dengelenir: hamur, acı otlar, baharat | Ez: sağ çubuk daire + RT; Karıştır: yalnızca daire / Ez: fare daire + sol tık; Karıştır: yalnızca fare dairesi | 8 | 8, 9 | 8: oran ve parti kararı → 9: güneş batmadan baharat, tek karar |
+| **Bekleyiş** (Kandil ve Vakit'in alt sistemi) | Bir Bekleyiş panosu 3–5 vakte (sütuna) ayrılır. Sınırlı kaynaklar (un, su, yer, yağ) vakitlere paylaştırılır. Zaman gerçek saatle değil, anlatı adımlarıyla ilerler; süre baskısı yoktur. Geri bildirim: Dengeli ve Usta'da yalnızca o anda düzenlenen sütun anında güncellenir; öbür sütunlar "Çeteleye işle" oynatmasına dek "henüz bilinmez" durur. Rahat'ta öbür sütunlar soluk önizlemeyle hesaplanır. Onay eylemi "Çeteleye işle"dir; bölüm dünya içi bir etiket kullanabilir (8. bölümde "Günü başlat"). Oynatma ilk eksikte durur ve Tamar sorunu adıyla söyler | Pano kipi (§5.1a) / Oklar, fare sürükle-bırak, Enter | 2 (kıvrım olarak) | 2, 7, 8 | 2: kırk gün dört onluğa → 7: yas evinde dört gün (ev planı) → 8: Fısıh hazırlığı (dört vakit) |
+| **Kal** (tutuş) | Tek tuş basılı tutulur. Bırakmak hiçbir şeyi düşürmez; Tamar diz çöker, soluklanır ve yeniden kalkar ya da gözlerini kapatır. Kutsal anlarda hiçbir şey kaydedilmez | A basılı / E basılı (her zaman aç/kapa) | 7 | 7, 9 | 7: ip takımında yerini almak → 9: Golgota |
 | **Söz** (diyalog) | 2–4 seçenek ve her zaman geçerli "Sessiz kal". Seçenekler ton simgeleri taşır; süre sınırı yoktur | Sağ çubuk/D-pad + A / Fare ya da 1–4 | 1 | Tümü | 6 ve 10'da Kavrayış'la birleşir |
-| **Seğirtme / Koşu** | Seğirtme her zaman açıktır. Gerçek koşu (nefes sesi, müzik katmanı) yalnızca 10. bölümde açılır | LB / Ctrl; koşu: L3 / Shift | Seğirtme 1; **koşu 10** | — | Diriliş sabahında bedenle hissedilen bir özgürlük |
+| **Seğirtme / Koşu** | Seğirtme her zaman açıktır. Gerçek koşu (nefes sesi, müzik katmanı) yalnızca 10. bölümde açılır | LB / Ctrl; koşu: L3 / Shift | Seğirtme 1; **koşu 10** | Seğirtme tümü; koşu 10 (§4.1) | Diriliş sabahında bedenle hissedilen bir özgürlük |
+
+### 5.1a Kontrol eşlemesi
+
+| Eylem | Gamepad | Klavye / fare | Not |
+|---|---|---|---|
+| Yürü | Sol çubuk | WASD | Dökme hedefinde sol çubuk ve A/D eğme girdisine döner (Dök) |
+| Seğirtme | LB basılı | Ctrl basılı | Yükle kapalı |
+| Koşu (yalnızca 10) | L3 (aç/kapa) | Shift (basılı ya da aç/kapa) | §4.1 |
+| Bakış (Kulak dahil) | LT basılı | Fare sağ tuş basılı | 3. bölümden itibaren konuşmalar balona dönüşür |
+| Bakış yönü / baş kaldırma | LT basılıyken sağ çubuk | Sağ tuş basılıyken fare | Dokunmama anlarındaki "Başını kaldır": sağ çubuk yukarı ya da fare yukarı / ↑; LT gerekmez |
+| Söz sakla | LT basılıyken A | Sağ tuş basılıyken E | Bakış'ta odak tektir; söz balonu ile nesne çakışırsa sağ çubuk ya da fare odağı kaydırır; odak türü balon çerçevesiyle ya da kenar ışığıyla gösterilir |
+| Etkileşim | A | E | Al, koy, konuş, aç, durak taşı çağrısı, Uğra; hedef yokken kandil eldeyse istem "Yere koy", kandil yerdeyse "Al"; tanımlı anlarda "Üfle"; Bakış basılıyken odaktaki nesneye uygulanır |
+| İptal | B | Esc | Basılı ıslığı iptal eder, kipten ya da duruştan çıkar, son yerleştirmeyi geri alır |
+| Güt | Sağ çubuk (koni) + X | Fare yönü + Boşluk | Kısa basış değnek (hayvan) ya da çağrı (insan, grup); uzun basış ıslık (hayvan) ya da kaldır (insan, grup) |
+| Taşı — kavrama | RT basılı | Sol tık basılı | Aç/kapa seçeneği; bırakınca yük yere konur (kutsal taşıma anlarında kilitli, §5.1c) |
+| Taşı — al-koy | A | E | Yuvadan al, yuvaya koy |
+| Dök | RT tutulurken dökme hedefinde sol çubuk eğimi | Sol tık basılıyken A / D | Üç kademeli akış; bırakınca durur |
+| Başa al / İndir | R3 | R | 2. bölümden itibaren testi |
+| Kandil | Y | Q | Kısa dokunuş: sönükse yak, yanıyorsa Açık↔Kısık; basılı: Kaldır |
+| Koru | RB basılı | F basılı | §5.1b |
+| Alçalt | D-pad ↓ (basılı ya da aç/kapa) | C | 8. bölümden itibaren, bağlam göstergesiyle |
+| Bağla / Çöz | Sağ çubuk saat yönünde daire / ters daire; A düğüm | Fare dairesi ya da ← / → dönüşümlü; E düğüm | Her tam daire bir tur |
+| Ez / Karıştır | Sağ çubuk dairesi + RT (Ez, bastırarak) / yalnızca daire (Karıştır) | Fare dairesi + sol tık / yalnızca fare dairesi | — |
+| Kal | A basılı | E basılı | Yalnızca Kal anlarında; her zaman aç/kapa seçeneği |
+| Söz (diyalog) | Sağ çubuk ya da D-pad + A | Fare ya da 1–4 | Süre sınırı yok; "Sessiz kal" her zaman listede |
+| Kavrayış (düşünce balonu) | D-pad ↑ (aç/kapa) | Tab | Düşünce istemi olan nesnede Etkileşim ile de açılır |
+| Kavrayış kipi | Sağ çubuk ya da D-pad: söz halkası · LB/RB: boşluk · A: koy · X: boşalt · Y: Doğrula · B: kapat | Fareyle seç ve sürükle · Enter: Doğrula · Backspace: boşalt · Esc: kapat | Doğrula yalnızca bütün boşluklar doluyken etkin |
+| Pano kipi (Bekleyiş) | D-pad ya da sol çubuk: yuva · LB/RB: sütun · A: koy / al · B: geri al · X: Taslağa dön (1 sn basılı: Temizle) · Y: Çeteleye işle | Oklar ya da fareyle sürükle-bırak · Enter: Çeteleye işle · Backspace: geri al | — |
+| İpucu (Üç Işık) | View | H | — |
+| Heybe (duraklatma) | Menu | I (açık kip yokken Esc de) | — |
+
+1. Söz, Kavrayış, pano, liste ve el işi kiplerinde D-pad ve yüz tuşları o kipe aittir; kip dışında D-pad ↑ Kavrayış'ı açar, D-pad ↓ Alçalt'tır.
+2. Etkileşim ile Söz sakla ayrı yeniden atanabilir; Bakış, kavrama, Koru, Alçalt, Kal ve Koşu için aç/kapa seçeneği vardır.
+3. Bölüm belgeleri tuş değil eylem adı kullanır.
+
+### 5.1b Kandil sabitleri
+
+| Durum | Girdi | Işık | Yağ | Rüzgârda |
+|---|---|---|---|---|
+| Sönük | Üfle ya da rüzgâr | Yok; 3 sn'de göz alışır | Yanmaz | — |
+| Yakma | Kandil kısa dokunuş (sönükken) | — | Harcanmaz | Kaynak ocak, köz ya da kor çömleği ya da yanan kandil; kaynak yoksa kavla (kaya gölgesinde 6 sn, açıkta çömelerek 8 sn) |
+| Kısık | Kandil kısa dokunuş (yanarken, Açık↔Kısık) | Kor; halka yok | Yakmaz | — |
+| Açık (elde, göğüste) | Varsayılan | 2 karo (çocuk Tamar 5 karo) | Yürürken 240 karoda 1 ölçü; dururken yakmaz (fitil iğneyle geri itilir) | Korunmazsa açık karede 2 karo yürüyüşte ya da 2 sn beklemede söner |
+| Kaldırılmış | Kandil basılı | Açık arazide durgun havada 10 karo; rüzgârda (kısa fitil) ve yerleşim içinde (ev, avlu, dam, sokak) 4 karo; iz ve girintiler görünür | Yürürken Açık ile aynı; dururken 5 sn'de ¼ ölçü | 1 karo yürüyüşte söner |
+| Alçak (8'den itibaren) | Alçalt | Yere yatık 2 karoluk halka; kırıntı gibi küçük izler yalnızca bu halkada etkileşimlidir; yürüyüş %70 | Yürürken Açık'ın 1,5 katı; dururken yakmaz | — |
+| Koru | Koru basılı | 1 karo; alev sönmez ama alev okuma bilgisi vermez | Açık gibi | Sönmez; yürüyüş hızının %40'ı; elle başka iş yapılamaz |
+| Kuşakta | Kavrama biçiminde iki elle yük taşınırken kendiliğinden | 1 karo, en kısık alev | Yakmaz | Sönmez |
+| Omuz yükü (10) | Omuzda yük varken | 2 karo; kaldırılamaz | Açık gibi | Açık gibi |
+| Yerde | Etkileşim ile konur ve alınır | 2 karo | Yakmaz | Açıkta 2 sn'de söner; rüzgâr gölgesinde sönmez |
+
+- **Rüzgâr gölgesi** nesnenin rüzgâraltındadır: ev 4 karo; devrik tekne, direk, sütun ve kaya 2 karo; gölgede alev diktir.
+- El kandili en çok 1 ölçü alır; öbür kapların yağ kapasitesi nesneye özgüdür (§5.1c).
+- Doldurma küpten, sahibinin izniyle, durup Etkileşim ile 3 sn'de yapılır; yağ alevin boyuyla gösterilir.
+- Sönme yağ harcatmaz ve hiçbir şey kaybettirmez.
+- **Göz alışması:** 3 karo içinde yanan bir kandil varken yalnızca en parlak birkaç yıldız görünür; kandil söndürülünce ya da yere konup 3 karo uzaklaşılınca bütün yıldızlar 3 sn'de belirir (7). 10. bölümün şafak göğü bu kuraldan etkilenmez.
+- Işığa yürüme yalnızca hayvanlar içindir; insanlar ve kanonik kişiler ışığı izlemez.
+- **Bölüm sapmaları:** 1. bölümde kandil yalnızca taşınan ışıktır (yağ, rüzgâr ve kaldırma yok); 9. bölümde yalnızca yakılır; 10. bölümde yağ tükenmez.
+
+### 5.1c Taşı biçimleri ve kaplar
+
+1. **Kavrama** (RT / sol tık; basılı ya da aç/kapa): dökülecek kaplar (testi, kova, ibrik, yağ testisi) ve ağır nesneler (siper, binek taşı, leğen). Dök yalnızca kavranmış kapla yapılır. Kavrama nesnesi bir yuvadan A ile de alınabilir; o zaman aç/kapa kavramadaymış gibi tutulur. RT bırakılınca yük dik olarak yere konur, hiçbir şey kırılmaz.
+2. **Al-koy** (A / E): dökülmeden yuvaya konan ya da birine verilen nesneler (küfe yükü, hasır malı, tepsi, keçiboynuzu, sikke, duvar taşı). Tek basışla alınır, tek basışla yuvaya ya da yere konur. İki biçimde de A yükü yuvasına koyar.
+3. **Hız:** Tek elle taşınan hafif yük hızı değiştirmez; iki elle taşınan ya da ağır yük yürüyüşü %40 yavaşlatır (4, 5, 6, 7); su yükü kalçada %25, başta %15 yavaşlatır, eldeki küçük testi %10 ekler (2); omuz yükü %30 yavaşlatır (10); yükle seğirtme kapalıdır.
+4. **Taşıma konumları:** kalçada (tek kap), başta (büyük ya da iki kulplu testi), başta ve elde; Başa al / İndir ayrı bir eylemdir (§5.1a).
+5. **Kutsal taşıma anları** (3. bölümde kepçe, 4. bölümde ilk sepet ve artanlar, 8. bölümde leğen ve ibrik): yük hiçbir zaman yere konmaz ve düşmez. Kavrama ya hiç istenmez (3) ya da tek basışla kilitlenir (4, 8). Çubuk bırakılınca Tamar durur ve yükü tutar; yük yalnızca hedefinde A ile bırakılır.
+
+| Kap | Kapasite | Kademeler | Bölüm |
+|---|---|---|---|
+| Küçük testi | 2 su ölçüsü = 1 pay | yarım, ağız | 2, 3 |
+| Büyük testi | 4 su ölçüsü = 2 pay | yarım, omuz, ağız | 2, 3 |
+| İki kulplu testi | 6 su ölçüsü = 3 pay (yalnızca omuzda) | — | 3 |
+| Mutfak küpü | 8 su ölçüsü | — | 2 |
+| Kana küpleri | alçak 6 pay, yüksek 9 pay | ıslaklık bandı | 3 |
+| El kandili | 1 yağ ölçüsü | alev boyu | 4–10 |
+| Kuşak çömleği | 1 yağ ölçüsü | — | 7 |
+| Yağ testisi | 2 yağ ölçüsü (4, Keziya'nın) / 3 yağ ölçüsü (9, Tamar'ın üç çentikli testisi) | çentik | 4, 9 |
+| İşaret çanağı | 2 yağ ölçüsü | — | 4 |
+| Şabat kandili | 2 yağ ölçüsü | — | 9 |
+
+Su ölçüsü ile yağ ölçüsü ayrı soyut birimlerdir; 1 pay = 2 su ölçüsü yalnızca su için geçerlidir.
 
 ### 5.2 Öğretim yükünün dağılımı
 
 | Bölüm | Yeni fiil | Kıvrım |
 |---|---|---|
-| 1 | Güt | Sürü kandili izler (kandil babanın elindedir, Tamar son bölümde taşır) |
-| 2 | Taşı / Dök | Bekleyiş: erzakı haftalara bölmek |
+| 1 | Güt | Sürü kandili izler (kandil babanın elindedir; bölümün son kısmında Tamar taşır) |
+| 2 | Taşı / Dök | Bekleyiş: kırk günlük erzakı dört onluğa bölmek |
 | 3 | Kulak ve Kavrayış | Güt insanlara uygulanır: hizmetkâr zinciri |
 | 4 | Kandil (tam sistem) | Güt kalabalık gruplarına uygulanır; teknede Taşı/Dök |
-| 5 | Bağla / Çöz | Anlatılan Sahne kipinde yan şerit |
-| 6 | — | Güt tersine döner; Kavrayış cümlesi lütufla kesilir |
-| 7 | — (Kal tutuşu bir girdi seçeneğidir, ayrı bir fiil değildir) | Güt ve Bağla birleşir: ip takımı |
-| 8 | Ez / Karıştır | Kandil ile Kavrayış birleşir: arama |
+| 5 | Bağla / Çöz (2. sahnede görev sayılmayan bir anda öğretilir) | Anlatılan Sahne kipinde oynanan yan şerit |
+| 6 | — | Güt tersine döner (domuzlar ıslıktan kaçar, kokuya gelir); Kavrayış cümlesi lütufla kesilir |
+| 7 | — (Kal tutuşu bir girdi seçeneğidir, ayrı bir fiil değildir) | Güt ve Bağla birleşir: ip takımı; Kandil'e Üfle ve göz alışması eklenir |
+| 8 | Ez / Karıştır | Kandil ile Kavrayış birleşir: arama (yeni Kandil tutuşu: Alçak) |
 | 9 | — | Mekanikler susar |
 | 10 | Koşu | Kandil yerini şafağa bırakır; 7. bölümün düzeneği boşa çıkar |
 
@@ -236,16 +320,19 @@ Beytlehemli bir çobanın kızıdır. Kral Hirodes'in askerlerinin geldiği gece
 
 ### 5.3 Kavrayış: kaba kuvvete kapalı, dünyanın içinde
 
-- **Dünyanın içinde:** Düşünce cümlesi ayrı bir menü ekranında değil, Tamar'ın başının üstünde bir balon olarak belirir. Boşluklar, karakterin çevresinde açılan bir **söz halkası**ndan seçilir. Oyun durmaz; çevredeki sesler kısılır. Heybe'deki "Sözler" sekmesi yalnızca bir kayıttır, oyun orada oynanmaz.
-- **Tipli boşluklar:** Her boşluk bir türe aittir (kişi, sayı, yer, neden). Yalnızca o türden ve **toplanmış** sözler seçilebilir.
+- **Dünyanın içinde:** Düşünce cümlesi ayrı bir menü ekranında değil, Tamar'ın başının üstünde bir balon olarak belirir. Boşluklar, karakterin çevresinde açılan bir **söz halkası**ndan seçilir. Oyun durmaz; çevredeki sesler kısılır. Heybe'deki "Sözler" sekmesi yalnızca bir kayıttır, oyun orada oynanmaz. "Söz halkası" yalnızca bu seçim halkasının adıdır.
+- **Tipli boşluklar:** Her boşluk bir türe aittir: kişi, sayı, yer, neden, nesne (balon biçimleri figür, çentik, ev, düğüm, çuval). Unvan, zümre ya da "kime karşı" gibi alt türler kişi türünün alt etiketidir. Yalnızca o türden ve **toplanmış** sözler seçilebilir. Sayı adayları sabit bir havuzdan (6. bölümde Tamar'ın çakıl kesesi) gelebilir; doğru değer yalnızca toplanmış sözlerden çıkarılabilir olmalıdır.
 - **Toplu doğrulama:** Cümle ancak tüm boşluklar dolunca doğrulanır ve yanıt yalnızca "doğru" ya da "henüz değil" olur. Kısmi geri bildirim yalnızca ipucu katmanı 2'de verilir.
-- **Rastgele denemenin getirisi yok:** Tipik bir cümlede 3 boşluk ve 5–7 aday vardır (100'ü aşkın kombinasyon). Üç başarısız toplu denemeden sonra Tamar kendiliğinden ipucu katmanı 1'i söyler; bu bir ceza değildir, oyun ilerlemeye devam eder.
-- **Ton:** Yas evlerinde ve kutsal anlarda söz toplanmaz. 7. bölümde Kavrayış yas tutanların gündelik ihtiyaçlarıyla sınırlı kalır (kimin suya, kimin yere ihtiyacı var).
+- **Rastgele denemenin getirisi yok:** Tipik bir cümlede 3–4 boşluk ve 5–7 aday vardır (100'ü aşkın kombinasyon). Zorunlu bir söz toplanmamışken cümle doğrulanmaz ve deneme sayılmaz; Tamar sözün kaynağını anar, sözü söylemez (her bölümde geçerlidir). Üç başarısız toplu denemeden sonra (her ayarda, §6.2) Tamar kendiliğinden ipucu katmanı 1'i söyler; bu bir ceza değildir, oyun ilerlemeye devam eder.
+- **Ton:** Yas evlerinde ve kutsal anlarda söz toplanmaz. Yas evi, yasın sürdüğü evdir (7. bölümde Marta'nın evi, 9–10. bölümlerde Şabat evi). Yas evinde söz saklanmaz: pratik ihtiyaçlar ihtiyaç simgesi olarak görünür (7) ya da tanıklık sözleri halkaya bildirimsiz düşer (10). 7. bölümde Kavrayış yas tutanların gündelik ihtiyaçlarıyla sınırlı kalır (kimin suya, kimin yere ihtiyacı var).
+- **Anlatılan Sahne:** Söz yerine imge toplanır (girdi Söz sakla'dır; alınmayan imgeler sahne sonunda kendiliğinden eklenir). Metin dışında duyulan her ses Tamar'ın iç sesidir ve onun balon çerçevesiyle gösterilir.
 
 ### 5.4 El işi kuralları (mini oyun derlemesine karşı)
 
-1. Her görev en fazla 2–3 dakika sürer.
-2. Aynı girdi art arda iki görevde kullanılmaz.
+Bu kurallar ana girdisi bir El fiili (Taşı/Dök, Bağla/Çöz, Ez/Karıştır) ya da Kal olan görevleri kapsar: günün işi, bulmacaların el işi kısımları, katılım anlarındaki el işleri ve yan hikâyeler. Güt, Bakış ve Kavrayış bulmacaları kapsam dışıdır; onların çeşitliliği §6.3'teki karar türü sütunuyla izlenir.
+
+1. Her görevin temiz çözüm süresi (çözümü bilen oyuncunun el işine harcadığı süre) en fazla 2–3 dakikadır; düşünme, hatalı deneme ve ipucu süresi buna dahil değildir. §4.1'deki bulmaca sütunu oyun testi medyanıdır.
+2. Aynı ana girdi biçimi (RT ile kavrama, A ile al-koy, Dök, sağ çubuk dairesi, Kal) art arda iki görevde kullanılmaz. A ile onay, yürüme, D-pad ve pano seçimi sayılmaz. Aralarında oynanır bir anlatı sahnesi ya da başka bir görev bulunan iki görev art arda sayılmaz.
 3. Her görevde çubuk çevirmenin ötesinde bir karar vardır: **oran** (yağ ve şarap), **sıra** (temizle, yatıştır, sar), **öncelik** (önce kime).
 4. Hızlı tuş dizisi (QTE) ve zamanlama hatası yoktur.
 5. El işi hiçbir zaman anlatıyı kilitlemez; "otomatik" seçeneği her zaman vardır.
@@ -256,7 +343,7 @@ Beytlehemli bir çobanın kızıdır. Kral Hirodes'in askerlerinin geldiği gece
 
 ### 6.1 İlkeler
 
-- **Dünyaya ait:** Her bulmacanın sebebi dünyanın içindedir: şarap bitecek, kalabalık aç, taş ağır, bayram yaklaşıyor. Sürgülü bulmaca ya da şifreli kapı yoktur.
+- **Dünyaya ait:** Her bulmacanın sebebi dünyanın içindedir: şarap bitecek, kalabalık aç, taş ağır, bayram yaklaşıyor. Sürgülü bulmaca ya da şifreli kapı yoktur. Bulmacalardaki stilize nicelikler (pay, su ve yağ ölçüsü, yolculuk sayısı, 240 karoda bir ölçü yağ, karo cinsinden ışık yarıçapı) Kodeks'te "oyun kısaltması" diye işaretlenir; oyuncu tarihi bu kısaltmalardan öğrenmez.
 - **Adil:** Gereken bütün bilgi ekranda, diyalogda ya da toplanan sözlerdedir. Piksel avı yoktur; Bakış etkileşimli nesneleri belirginleştirir.
 - **Kalıcı başarısızlık yok:** Dökülen su yeniden doldurulur, çözülen ip yeniden bağlanır.
 - **Mucize asla bulmaca olmaz:** Bulmacalar kutsal anın *çevresindedir*.
@@ -267,35 +354,39 @@ Beytlehemli bir çobanın kızıdır. Kral Hirodes'in askerlerinin geldiği gece
 | Ayar | Bulmacalar | İpucu |
 |---|---|---|
 | **Hikâye** | İstenirse otomatik çözülür | Her zaman açık |
-| **Rahat** | Ek görsel işaretler (kısıt simgeleri daha belirgin) | 60 sn takılınca ilk katman kendiliğinden gelir |
-| **Dengeli** (varsayılan) | Tasarlandığı gibi | Yalnızca istenince |
-| **Usta** | Usta kısıtları görünür ve izlenir | Yalnızca istenince |
+| **Rahat** | Ek görsel işaretler (kısıt simgeleri daha belirgin) | 60 sn takılınca 1. ışık kendiliğinden gelir; üç başarısız deneme kuralı |
+| **Dengeli** (varsayılan) | Tasarlandığı gibi | İstenince; üç başarısız deneme kuralı |
+| **Usta** | Usta kısıtları görünür ve izlenir | İstenince; üç başarısız deneme kuralı |
 
-**Usta kısıtları** (her imza bulmacada bir tane): örneğin Kana'daki altı küpü en fazla 9 yolculukla doldurmak, kalabalığı hiçbir grubu bozmadan oturtmak, 7. bölümdeki gece yolunu kandil yağının yarısıyla bulmak. Başarılan kısıt Heybe'de bir "Usta işi" damgası olarak görünür. Kutsal anlarla hiçbir bağı yoktur, hikâyeyi etkilemez.
+**Üç başarısız deneme kuralı:** Her ayarda, sınanan bir denemenin üç kez başarısız olmasından sonra 1. ışık kendiliğinden gelir. Deneme Kavrayış toplu doğrulaması, pano oynatması, düzenek sınaması ya da bölüm belgesinin açıkça deneme saydığı görünür bir başarısızlıktır (5. bölümde dönemeçte duran yük, 6. bölümde devrilen sepet). Bölüm bu eşiği düşürebilir (1. bölümde ikinci yanlış kapı), yükseltemez. Döngüye kilitlenmeyi önleyen bağlamsal ipuçları (7. bölümde kandilin ikinci kez sönmesi) her ayarda gelebilir.
+
+**Usta kısıtları** imza bulmaca başına birdir: iki kısımlı imza bulmaca (5. bölümde Yağ ve Şarap ile Kendi Hayvanına) tek kısıt taşır; iki imza bulmacalı bölüm (7) iki kısıt taşır; 9. bölümde kısıt yoktur. Toplam 10 "Usta işi" damgası vardır. Örnekler: Kana'daki altı küpü en fazla 9 yolculukla doldurmak; kalabalığı hiçbir grubu yerinden kaldırmadan oturtmak; 7. bölümdeki gece yolunda Marta'nın verdiği 2 ölçü yağın en fazla yarısını harcamak (çobanın ve bekçinin yağı alınmadan). Başarılan kısıt Heybe'de bir "Usta işi" damgası olarak görünür. Kutsal anlarla hiçbir bağı yoktur, hikâyeyi etkilemez.
 
 ### 6.3 Zorluk eğrisi
 
-| Bölüm | Temel bulmacalar | "Aha" anı | Birleşen fiiller | Zorluk (1–5) |
-|---|---|---|---|---|
-| 1 | Teraslı yamaçta sürü; Beytlehem'de yemliği bulmak | Koyunlar ışığı izler, değneği değil | Güt + Bakış | 1 |
-| 2 | Irmaktan kampa su rotası; kırk günlük erzak | Hasta hacının suyu önce gider, yoksa kamp yürümez | Taşı + Bekleyiş | 2 |
-| 3 | Kiler hesabı (Kavrayış); hizmetkâr zinciriyle altı küp | Testiyi taşımak yerine zincirde aktarmak | Kavrayış + Taşı + Güt | 2,5 |
-| 4 | Kalabalık grupları; sepet yolları; kıyıda kandil | İki aileyi takas edince bütün kısıtlar çözülür | Güt + Taşı + Kandil + Kavrayış | 3 |
-| 5 | Sargı sırası ve oranı; virajlarda yük dengesi | Yaralıyı ve heybeyi birbirine karşı dengelemek | El (Dök + Bağla) + Taşı | 3 |
-| 6 | Miras paylaşımı; domuzlar; konuşma kurma | Domuzlar ıslığa değil keçiboynuzu kokusuna gider | Kavrayış + Güt (tersine) | 3,5 |
-| 7 | Yıldızlarla gece yolu; yas evinde dört gün; ip takımı | Babanın 1. bölümde gösterdiği yıldız | Bakış + Kandil + Bekleyiş + Güt + Bağla | 4 |
-| 8 | Kandille maya araması; sofra düzeni; hazırlık sırası | Kırıntının gölgesi ancak kandil yere yakın tutulunca görünür | Kandil + Kavrayış + Ez + Bekleyiş | 4 |
-| 9 | — (bilinçli olarak yok) | — | Kal, tersine Güt | 1 |
-| 10 | Uyuyan evde kaldıraç düzeneği; kapıları kapalı sokaklarda bahçeye yol | Taş çoktan yuvarlanmıştır: öğrenilen beceri mucizenin önünde boşa çıkar | Bağla + Kandil + Bakış + Kavrayış | 3 |
+| Bölüm | Temel bulmacalar | "Aha" anı | Birleşen fiiller | Baskın karar türü | Zorluk (1–5) |
+|---|---|---|---|---|---|
+| 1 | Meleyen ses; teraslı yamaçta gece sürüsü (imza); Beytlehem'de doğru kapı | Koyunlar değneği değil ışığı izler: koyunları değil ışığı taşı | Güt + Bakış (+ taşınan kandil) | Işıkla yönlendirme; çevre okuyarak eleme | 1 |
+| 2 | Irmaktan kampa su yolu; kırk günün payı (imza, dört onluk) | Hasta hacının suyu önce gider, yoksa kamp yürümez | Taşı/Dök + Bekleyiş | Kaynak planlama (gecikmeli geri bildirimli pano) | 2 |
+| 3 | Kiler hesabı ve sofra düzeni (Kavrayış); hizmetkâr zinciriyle altı küp (imza) | Testiyi taşımak yerine zincirde el değiştirmek | Kavrayış + Taşı/Dök + Güt (insanlara) | Söz çıkarımı; lojistik zincir | 2,5 |
+| 4 | Beş arpa ekmeği (kalabalıkta kişi bulma); yüzer ve ellişer (imza); küpteki ışık | Önce dar ağılı doldur: iki aileyi takas edince (B ↔ D) bütün kısıtlar çözülür | Güt (gruplar) + Kulak/Kavrayış + Taşı + Kandil | Kısıtlı yerleşim; rüzgâr siperi | 3 |
+| 5 | İki küfe (günün işi); yağ ve şarap (imza 1: sıra ve oran); kendi hayvanına (imza 2: dönemeçlerde yük dengesi) | Yaralının kendisini bir ağırlık gibi kullanmak | Taşı + Dök + Bağla | Sıra ve oran; fiziksel denge | 3 |
+| 6 | Taş ölçek; payına düşen (imza: miras hesabı); domuzlar dinlemez; yoldaki cümle | Yediyi tutan tek mal öküzler; domuzlar ıslıktan kaçar, keçiboynuzu kokusuna gelir | Kavrayış (hesap zinciri) + Güt (olağan ve tersine) | İlişkisel çıkarım; tersine yönlendirme | 3,5 |
+| 7 | Babamın yıldızı (imza); dört gün (imza); taşın dili | Halka yıldızın üstünde değil boşlukta oturur: babanın 1. bölümde öğrettiği, yedi yıldızın döndüğü boş nokta | Bakış + Kandil + Bekleyiş + Güt + Bağla (+ Kal) | Gök okuyarak yön bulma; mekânsal emek planı | 4 |
+| 8 | Havan (Ez öğretimi); sofra düzeni; kandil ışığında maya araması (imza); hazırlık sırası | Kırıntının gölgesi ancak kandil Alçak tutuşla yere yakın tutulunca görünür | Kandil + Kavrayış + Ez/Karıştır + Bekleyiş | Kanıttan yer çıkarma ve arama; zaman çizelgesi | 4 |
+| 9 | — (bilinçli olarak yok) | — | Kal, tersine Güt, Ez (tek karar: yağ oranı) | — | 1 |
+| 10 | Uyuyan ev; taşı kim yuvarlayacak (imza: plan cümlesi ve ip ulama); kapalı kapılar | Taş çoktan yuvarlanmıştır: öğrenilen beceri mucizenin önünde boşa çıkar | Bağla + Kandil + Bakış + Kavrayış + Taşı | Mekanik plan çıkarımı; alev ve ağaran gökle yol bulma | 3 |
 
-8, 9 ve 10. bölümler pasif bir blok oluşturmaz: 8 ve 10'da gerçek bulmacalar vardır, 9 ise kasıtlı bir nefes durağıdır.
+8, 9 ve 10. bölümler pasif bir blok oluşturmaz: 8 ve 10'da gerçek bulmacalar vardır, 9 ise kasıtlı bir nefes durağıdır. 4–6. bölümlerde baskın karar türü yinelenmez: 4 kısıtlı yerleşim, 5 fiziksel denge, 6 ilişkisel çıkarım. 6. bölümde payları hasırlara baba yerleştirir; oyuncu yalnızca payı yola çıkarır.
 
 ### 6.4 "Üç Işık" ipucu sistemi
 
 İpucu View/H tuşuyla istenir. Rahat ayarında köşede üç küçük kandil belirir.
 1. **Birinci ışık:** Tamar'ın bir düşüncesi ya da hatırladığı bir söz ("Babam, önce rüzgâra bak derdi").
-2. **İkinci ışık:** İlgili nesne ya da sözler parlar. Kavrayış'ta bir boşluğun doğru olup olmadığı söylenir.
+2. **İkinci ışık:** İlgili nesne ya da sözler parlar. Kavrayış'ta her boşluğun doğru ya da yanlış olduğu işaretlenir; doğru aday söylenmez.
 3. **Üçüncü ışık:** Yakındaki bir karakter bir sonraki adımı gösterir ya da yapmayı teklif eder. Ardından "Hikâyeye devam" seçeneği gelir.
+
+Anlatılan Sahne'de (İsa anlatırken) 3. ışık ya yakındaki bir karakterin daha önce söylediği sözün Tamar'ın belleğindeki yankısıdır (5) ya da gerçek dünyaya kısa bir kesmeyle yakındaki bir karakterin yardımıdır (6). Benzetme sürerken kimse benzetmenin içine konuşmaz.
 
 İpucu kullanımı hiçbir yerde kayda geçmez ve hiçbir başarımı engellemez.
 
@@ -306,26 +397,28 @@ Beytlehemli bir çobanın kızıdır. Kral Hirodes'in askerlerinin geldiği gece
 ### 7.1 İlkeler
 
 1. **Oyuncu anı eşiğe kadar taşır; mucize İsa'nındır.** Oyuncu yalnızca metnin zaten birine yaptırdığı destek işini üstlenir: küpleri hizmet edenler doldurur (Yuhanna 2:7), artanları öğrenciler toplar (6:12–13), taşı başkaları kaldırır, Lazar'ı başkaları çözer (11:41–44).
-2. **Kanonik anlarda başarısızlık yoktur.** Oyuncu durursa dünya bekler ya da başkaları işi sürdürür. Basılı tutma mekaniklerinde bırakmak hiçbir şeyi düşürmez: Tamar diz çöker, soluklanır ve yeniden kalkar.
+2. **Kanonik anlarda başarısızlık yoktur.** Oyuncu durursa dünya bekler ya da başkaları işi sürdürür. Basılı tutma mekaniklerinde bırakmak hiçbir şeyi düşürmez: Tamar diz çöker, soluklanır ve yeniden kalkar. Bir katılım anı aynı zamanda imza bulmacaysa (3. bölümde küpler), "girdi kesilirse" yedeği yalnızca hiç girdi gelmediğinde devreye girer. Dengeli ve Usta'da yalnızca teklif olarak gelir ve kabul edilmeden montaj başlamaz; Rahat ve Hikâye'de teklif kabul edilmezse 60 sn sonra montaj kendiliğinden başlar. Montaj Usta sayımını sürdürür.
 3. **Kanonun gerektirdiği başarısızlık mekaniğe yüklenir, oyuncuya değil.** Fırtınada su her durumda kazanır; bu oyuncunun hatası değil, sahnenin kendisidir. İsa'nın Petrus'a söylediği "Ey kıt imanlı" sözü (Matta 14:31) yalnızca Petrus'a yönelir ve oyuncunun performansıyla hiçbir bağı yoktur.
-4. **Girdi bir ifadedir, sınav değil.** Hız, sıra, süre ve "önce kime" bilgileri puanlanmadan `ifade_` bayraklarına kaydedilir ve sonradan diyaloglarda ve epilogda yankılanır (§8). Kutsal eşiklerde hiçbir şey kaydedilmez.
+4. **Girdi bir ifadedir, sınav değil.** Hız, sıra, süre ve "önce kime" bilgileri puanlanmadan `ifade_` bayraklarına kaydedilir ve sonradan diyaloglarda ve epilogda yankılanır (§8). Kutsal eşiklerde hiçbir şey kaydedilmez. Kutsal eşik, kontrollerin çekildiği kanonik an ile kontrol geri gelene kadarki süredir (ör. 2:9'daki tadış, horoz ve Petrus'un ağlayışı, 23:46). Bu sürede `kol_` verilmez, `tan_` yazılmaz, söz toplanmaz. `tan_` pencereleri eşik başlamadan kapanır ya da kontrol döndükten sonra açılır. Benzetmenin içindeki el işi girdisi kutsal eşik sayılmaz (5. bölümde `b05_ifade_sargi`).
 5. **Dokunmama anları:** En kutsal anlarda kontroller usulca geri çekilir. Bakış seçimi, koleksiyon sayacı ya da "kazandın" bildirimi yoktur. Bazı anlarda tek bir girdi kalır: başını kaldırmak.
 
-**Dokunmama anlarının listesi:** meleklerin müjdesi, yemlik (1) · İsa'nın sudan çıkışı (2) · şölen başkanının tadışı (3) · ekmeğin kutsanması (4) · babanın oğluna koşup sarılması (6) · "Lazar, dışarı çık!" (7) · ayak yıkama ve sofra sözleri (8) · çarmıh ve İsa'nın son sözleri (9) · boş mezar ve "Size esenlik olsun" (10).
+**Dokunmama anlarının listesi:** meleklerin müjdesi, yemlik (1) · İsa'nın sudan çıkışı (2) · şölen başkanının tadışı (3) · ekmeğin kutsanması (4) · babanın oğluna koşup sarılması ve 15:28b–32 (6) · "Lazar, dışarı çık!" (7) · ayak yıkama ve sofra sözleri (8) · İsa'nın son sözü, 23:46 (9; 23:34 ve 23:43 sırasında Kal açık kalır) · boş mezar ve "Size esenlik olsun" (10). 5. bölümde dokunmama anı yoktur.
 
 ### 7.2 Katılım anları tablosu
 
 | Bölüm | İnsanın işi (oyuncu) | Kanonik ve ilahi olan | Kaydedilen ifade | Girdi kesilirse |
 |---|---|---|---|---|
-| 1 | Kandille çobanlara yol açmak | Müjde; yemlikte bebek (dokunmama) | Kuzuyu nasıl taşıdığı (kucakta ya da güderek) | Babası sürüyü toplar |
-| 2 | Sırada beklemek, yaşlı bir hacıyı suya indirmek | Vaftiz; tek girdi başını kaldırmak | — | Sıra kendiliğinden ilerler |
-| 3 | Küpleri zincirle doldurmak, kepçeyi taşımak | Su şarap olur (gösterilmez, tadışta anlaşılır) | Doldurma yöntemi (zincir ya da tek başına) | Hizmetkârlar sürdürür |
-| 4 | Ekmek dağıtmak, artanları toplamak; kandili korumak | Çoğalma (efektsiz, sessizce hissedilir) | İlk sepeti kime uzattığı | Öğrenciler dağıtır |
-| 4 (Yoram) | Su boşaltmak, tekneyi dengede tutmak | Suda yürüme, Petrus'un batması, rüzgârın dinmesi (14:32) | — | Su her durumda kazanır; tek girdi çığlığa dönmek |
-| 7 | İp takımına ritim vermek; yüz örtüsünü çözmek | Lazar'ın dirilişi (dokunmama) | Çözme hızı | Adamlar ipi tutar; Tamar soluklanır |
-| 8 | Leğeni ve havluyu getirmek | Hizmetkârın işini İsa üstlenir (13:4–5) | — | Leğen kapıda bekler |
-| 9 | Kalmak (Kal tutuşu) | Çarmıh (silüet, ses) | **Hiçbir şey** | Tamar gözlerini kapar, ses sürer |
-| 10 | Kaldıraç ve ip hazırlamak; koşmak | Taş yuvarlanmıştır; dirilmiş İsa (dokunmama) | Koşu sırasında kimlere uğradığı | — |
+| 1 | Kuzuyu ağıla koymak; kandille çobanlara yol açmak | Müjde; yemlikte bebek (dokunmama) | `b01_ifade_kuzu` | 20 sn sonra babası kuzuyu ağıla koyar, değer yazılmaz; yolda 30 sn'de baba seslenir, 60 sn'de öne geçer |
+| 2 | Sırada beklemek; yaşlı Şifra'yı kaygan taşlardan suya indirmek | Vaftiz; tek girdi başını kaldırmak | — | 20 sn sonra Amram Şifra'nın öbür koluna girer, Tamar onları izler |
+| 3 | Son küpü dökmek; kepçeyi daldırıp şölen başkanına taşımak (doldurma imza bulmacadır) | Su şarap olur (gösterilmez, tadışta anlaşılır; dokunmama) | `b03_ifade_doldurma` (bulmacada kaydedilir; kepçede hiçbir şey) | Bulmacada §7.1-2'deki imza bulmaca yedeği; kepçe yürüyüşünde 20 sn'de Elişeva seslenir, baş sofrada 20 sn'de Tamar kepçeyi kendiliğinden uzatır |
+| 4 | İlk sepeti uzatmak, ekmek dağıtmak, artanları toplamak | Ekmeğin kutsanması (dokunmama); çoğalma efektsiz, sessizce hissedilir | `b04_ifade_ilk_sepet` | 30 sn sonra Andreas dağıtır; `andreas_dagitti` yazılır |
+| 4 (Yoram) | Su boşaltmak, tekneyi dengede tutmak | Suda yürüme, Petrus'un batması, rüzgârın dinmesi (14:32) | — | Su her durumda kazanır; kova bırakılırsa bir kürekçi omuz verir; tek girdi çığlığa dönmek |
+| 5 | Yaralı olarak bakmak ve zayıfça el kaldırmak; Samiriyelinin elleri olarak sarmak, yüklemek, handa su vermek ve iki dinar ödemek | Benzetme İsa'nın anlatımıdır; kâhin ve Levili her durumda geçer, Samiriyeli her durumda sarar, taşır ve öder | `b05_ifade_sargi` (yalnızca P2'deki sargı hızı) | Yolcu 10 sn sonra kendiliğinden yürür; handa eller 8 sn sonra kendiliğinden davranır; bulmacalarda "Hikâyeye devam" ve otomatik |
+| 6 | Küçük oğul olarak eve dönüş yürüyüşü; büyük oğul olarak tarladan eve yürümek | Babanın koşup sarılması ve 15:28b–32 (dokunmama) | **Hiçbir şey** | Dünya bekler; otomatik yürüme seçeneği; büyük oğulda 20 sn sonra baba dışarı çıkar |
+| 7 | Kiriş düğümü, ip takımına ritim, ipi tutmak (Kal), yüz bezini çözmek | Lazar'ın dirilişi (dokunmama) | `b07_ifade_cozme_hizi` | Şimi 20 sn sonra bağlar, 15 sn sonra kendisi çağırır; Kal bırakılırsa Şallum ipi tutar; çözmede 20 sn sonra Hogla çözer, değer yazılmaz |
+| 8 | Leğeni, ibriği ve havluyu kapıya getirmek | Hizmetkârın işini İsa üstlenir (13:4–5; dokunmama); sofra sözleri tablo | — | Dünya bekler; mutfakta 45 sn sonra leğeni Eldad yüklenir |
+| 9 | Kalmak (Kal tutuşu) | Çarmıh (silüet, ses); dokunmama yalnızca 23:46 | **Hiçbir şey** | Tamar diz çöker, gözlerini kapar; ses ve metin sürer |
+| 10 | Kaldıraç ve ip hazırlamak; yolu aydınlatmak; koşmak ve uğramak | Taş yuvarlanmıştır; dirilmiş İsa (dokunmama) | `b10_ifade_kosu_ugrak` | 20 sn'de Şifra seslenir, 40 sn'de Tamar kendiliğinden yürür; kendiliğinden geçilen yuvalar ifadeye yazılmaz |
 
 ---
 
@@ -333,9 +426,15 @@ Beytlehemli bir çobanın kızıdır. Kral Hirodes'in askerlerinin geldiği gece
 
 ### 8.1 Ne değişir, ne değişmez?
 
-Oyuncuya 1. bölümdeki ilk seçimden önce ve Heybe'de her zaman şu kart gösterilir:
+Oyuncuya bayrak ya da eksen yazan ilk seçimden (1. bölüm, Sahne 12) hemen önce ve Heybe'de her zaman şu kart gösterilir:
 
 > **Seçimlerin İncil'deki olayları değiştirmez.** Değiştirdiğin şey Tamar'ın iç dünyası, ilişkileri, neye nasıl tanıklık ettiği ve hikâyeyi Sara'ya nasıl anlattığıdır.
+
+**Seçim girdisi kuralları:**
+1. İfade girdileri (`bNN_ifade_`) ve yalnızca ton seçimleri bu kuralda seçim sayılmaz.
+2. Seçimlerde süre sınırı ve zaman aşımı yoktur; sahne bekler; en çok tek bir zorlamayan ortam repliği söylenebilir (ör. 2. bölümde 20 sn'de Yoram'ın "Anne?" demesi).
+3. Pasiflik (beklemek, girdi vermemek, uzakta durmak) hiçbir zaman seçim olarak kaydedilmez, değer ve eksen yazmaz; "Sessiz kal" yalnızca açıkça seçildiğinde kaydedilir. Eylem türündeki seçimlerde sahne bir eylem seçilmeden ilerlemez ya da beklemek yalnızca başlangıç değerini korur.
+4. Kanonik bir hareketin yanındaki seçim hareketten önce ya da sonra sunulur, hareket sürerken sunulmaz (8. bölümde merdiven).
 
 ### 8.2 Takip modeli
 
@@ -354,13 +453,15 @@ Oyuncuya 1. bölümdeki ilk seçimden önce ve Heybe'de her zaman şu kart göst
 - **Önekler:**
   - `bNN_` bölüm bayrağı (`b01_`…`b10_`), iki haneli bölüm numarasıyla.
   - `bNN_ifade_` girdi ifadesi.
-  - `eks_` eksen; tam sayı, −3…+3, oyuncuya hiçbir zaman gösterilmez.
+  - `eks_` eksen; tam sayı, −4…+4; her bölüm bir eksene en çok ±1 ekler (Söz 1, 3, 8, 10; El 2, 4, 5; Kalp 6, 7, 8, 9); oyuncuya hiçbir zaman gösterilmez.
   - `ilis_` ilişki; `uzak` | `temkinli` | `yakin`.
   - `kol_bNN_` Hatıra nesnesi.
   - `tan_bNN_` tanıklık ayrıntısı.
   - `usta_bNN_` Usta kısıtı.
   - `ep_` epilogda hesaplanan değer (yalnızca okunur).
-- **Tür:** Boolean bayraklar `_var` ya da fiil kökü taşımaz; sonuçları adlandırılmış seçenek listeleri (enum) olarak tutmak tercih edilir. Örnek: `b06_esik = girdi | disarida_konustu | gitti`.
+- **Tür:** `kol_`, `tan_` ve `usta_` bayrakları boolean'dır (`true` / varsayılan `false`) ve `_var` eki almaz. `tan_` adı tanık olunan kanonik ifadeyi adlandırdığı için fiil içerebilir (`tan_b07_isa_agladi`). Bölüm bayraklarının sonuçları adlandırılmış seçenek listeleri (enum) olarak tutulur. Örnek: `b06_esik = girdi | disarida_konustu | gitti`.
+- **Yerel değişkenler** `bNN_` önekini taşır, belgede "yerel" diye işaretlenir, bölüm dışında okunmaz ve §8.4'e girmez; tam sayı sayaçlarda aralık yazılır (ör. `b01_uyanan_ev`: 0–5).
+- **Boş ifade:** İfade bayrağı girdi kesildiğinde, otomatik seçenekte ya da Hikâye kipinde yazılmaz (boş kalır); okuyan her bölüm boş hâl için nötr bir varyant tanımlar. Yedek eylemin kendisi anlatıda görünen bir olaysa bayrağa özgü açık değer yazılır: `b04_ifade_ilk_sepet = andreas_dagitti`, hizmetkâr yedeğinde `b03_ifade_doldurma = zincir`.
 
 ### 8.4 Bölümler arası bayrak tablosu
 

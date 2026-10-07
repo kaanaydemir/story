@@ -6,7 +6,7 @@
 
 | Alan | Değer |
 |---|---|
-| **Kaynak** | **Öncü:** Luka 10:25–37. **Bağlam:** Luka 9:51–56 (9:51 tanıklık ayrıntısı; 9:52–55 yalnızca Zilpa'nın aktarımıyla). **Oyun içinde başka metin:** Yasanın Tekrarı 6:5 ve Levililer 19:18 (uzmanın 10:27'deki alıntısı içinde); Mezmur 23:1 (yan hikâye). **Yalnızca Kodeks:** Levililer 19:34, 21:1–3, 23:33–43; Sayılar 19:11–16, 29:12, 35; Yasanın Tekrarı 16:16; Yeşu 15:7; 1. Tarihler 25; 2. Tarihler 28:8–15; Nehemya 10:31; Yeşaya 1:6; Matta 20:2; Markos 12:28–31; Luka 2:7, 9:57–10:24, 13:22, 17:11–19, 18:31, 19:28–45; Yuhanna 7:10; Mişna (Şabat 19:2, Sukka 5:4, Moed Katan 2:4); Josephus (*Yahudi Eski Eserleri* 7.306, 20.118); Plinius (*Doğa Tarihi* 12.111–123); Hipokrat geleneği |
+| **Kaynak** | **Öncü:** Luka 10:25–37. **Bağlam:** Luka 9:51–56 (9:51 tanıklık ayrıntısı; 9:52–55 yalnızca Zilpa'nın aktarımıyla). **Oyun içinde başka metin:** Yasa'nın Tekrarı 6:5 ve Levililer 19:18 (uzmanın 10:27'deki alıntısı içinde); Mezmur 23:1 (yan hikâye). **Yalnızca Kodeks:** Levililer 19:34, 21:1–3, 23:33–43; Çölde Sayım 19:11–16, 29:12, 35; Yasa'nın Tekrarı 16:16; Yeşu 15:7; 1. Tarihler 25; 2. Tarihler 28:8–15; Nehemya 10:31; Yeşaya 1:6; Matta 20:2; Markos 12:28–31; Luka 2:7, 9:57–10:24, 13:22, 17:11–19, 18:31, 19:28–45; Yuhanna 7:10; Mişna (Şabat 19:2, Sukka 5:4, Moed Katan 2:4); Josephus (*Yahudi Eski Eserleri* 7.306, 20.118); Plinius (*Doğa Tarihi* 12.111–123); Hipokrat geleneği |
 | **Oynanabilir karakter ve yaş** | Tamar (42). Benzetmede önce yaralı yolcu, sonra Samiriyeli (Anlatılan Sahne) |
 | **Yer, vakit, yıl** | Yahudiye kırsalında, kuzeydeki sırt yolu üstünde, Yeruşalim'e üç saatlik yol kala bir mola yeri. Güz başı, Çardak Bayramı'ndan birkaç gün önce. Mevsim oyunun kurgusudur: Luka mevsim vermez ve oyun İsa'nın bu yolculukta bayrama gittiğini ileri sürmez (Kodeks 11). Yaklaşık MS 29 (*doğrulanmalı*) |
 | **Erişim düzeyi (§3.4)** | Kalabalıkta; benzetme Anlatılan Sahne'de |
@@ -21,7 +21,7 @@
 
 ## 1. Kaynak Metin ve Uyarlama Sınırları
 
-Bütün alıntılar **[yakın aktarım]**dır (§15). Kutsal Kitap siteleri ağ politikasıyla kapalı olduğu için YC'nin ifadeleri doğrulanamadı. Metin kilidinden önce her satır YC ile karşılaştırılmalıdır (*doğrulanmalı*).
+Bütün alıntılar **[yakın aktarım]**dır (§15). İsa dışındaki kanonik konuşanın, yani Kutsal Yasa uzmanının satırları **[yakın aktarım; kanonik replik]** etiketini taşır; doğrulama notları noktalı virgülle sona eklenir. Kutsal Kitap siteleri ağ politikasıyla kapalı olduğu için YC'nin ifadeleri doğrulanamadı. Metin kilidinden önce her satır YC ile karşılaştırılmalıdır (*doğrulanmalı*).
 
 ### 1.1 Metnin anlattığı
 
@@ -30,7 +30,7 @@ Bütün alıntılar **[yakın aktarım]**dır (§15). Kutsal Kitap siteleri ağ 
 - **10:29:** Uzman kendini haklı çıkarmak isteyerek sorar: "Peki, komşum kim?"
 - **10:30–32:** Eriha'ya inen bir adam soyulur, dövülür, yarı ölü bırakılır. Bir kâhin, sonra bir Levili onu görür ve öbür yandan geçip gider.
 - **10:33–35:** Yolculuk eden bir Samiriyeli ona acır: yaralarına zeytinyağıyla şarap döküp sarar, onu kendi hayvanıyla bir hana götürür, onunla ilgilenir. Ertesi gün hancıya iki dinar verir.
-- **10:36–37:** "Hangisi komşu oldu?" Uzman: "Ona acıyıp yardım eden." İsa: "Git, sen de öyle yap." (10:37a'nın aktarımı YC karşılaştırmasına kadar geçicidir; Grekçe metin eylemi vurgular, §17-1.)
+- **10:36–37:** "Hangisi komşu oldu?" Uzman: "Ona acıyan." İsa: "Git, sen de öyle yap." (10:37a'nın aktarımı YC karşılaştırmasına kadar geçicidir; Grekçe metin eylemi vurgular, §17-1.)
 
 ### 1.2 Oyunun eklediği kurgusal katman
 
@@ -112,7 +112,7 @@ Arkadan aydınlatılmış sıcak parşömen üzerinde, kandil gölgesi üslubund
 | 5 | **Ş3: Yağ ve şarap** | Anlatılan Sahne, yakın pano | 10:34a; **P2** | 4 (P2 medyanı 3,5) | `b05_ifade_sargi`, `usta_b05_artan_sarap` |
 | 6 | **Ş4: Kendi hayvanına** | Anlatılan Sahne | 10:34b; **P3** | 6 (P3 medyanı 5,5) | — |
 | 7 | **Ş5: Han** | Anlatılan Sahne | Su, iki elin buluşması, iki dinar (§7.1); 10:34c–35 | 1,5 | Parşömen kapanır · benzetme Kodeks'leri sessizce açılır (§10) |
-| 8 | **"Ona acıyıp yardım eden"** | 3/4 uzak | Katılım 2 (§7.2): 10:36–37. İsa ve öğrencileri yola koyulur | 1,5 | — |
+| 8 | **"Ona acıyan"** | 3/4 uzak | Katılım 2 (§7.2): 10:36–37. İsa ve öğrencileri yola koyulur | 1,5 | — |
 | 9 | **Yol ayrımı** | 3/4 | Kalabalık dağılır. Elkana: "Kervan önden gider; develer Boz'dan hızlı yürür. Sen arkadan gel. Güneş batmadan Yeruşalim kapısında ol; pazar şafakta kurulur." Tamar yuları çözer (Çöz; görev değil). Yan hikâye teklifi. Patikadan alt yola iniş | 2 | — |
 | 10 | **Yankı: dönemeçteki araba** | 3/4, Harita A güney, ikindi sonu | Uzakta tek renkli bir leke: çivit baş bezi. İlk yardım ve Söz (§8) | 5 | `kol_b05_civit_iplik`, `b05_dositeos`, `eks_el`, `ilis_dositeos` |
 | 11 | **Sonuç** | 3/4 montaj | Seçime göre (§8.1) | 1 | — |
@@ -233,7 +233,7 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 
 **Üç Işık:** (1) "Ortada oturan adam her dönemeçte kayıyor. Bu yük ikiye bölünmüyor; bir yana yaslanmalı. Ama hangi yana?" (2) Yaralının sargısız yakın yanı ile uzak kanca parlar; V2'de sorun çıktıysa yakın kanca ve omuz parlar. (3) Elkana'nın sabahki sözü Tamar'ın belleğinde yankılanır: "Ağır yük bölünmüyorsa bir yana yasla, karşısına denk as; küçüğünü de sen omuzla." Ardından Tamar: "Sargısız yanına." → Hikâyeye devam.
 
-**Yanlış denemelerde:** Başarısızlık yoktur. Dengeli ve Usta ayarlarında ipucu yalnızca istenince gelir; Rahat'ta 60 sn takılınca ya da üç duruştan sonra 1. ışık kendiliğinden gelir (§6.2). **Usta:** Yok (imza kısıtı P2'dedir). **Hikâye kipi:** Düzen (a) kendiliğinden kurulur. **Kodeks:** 3, 7.
+**Yanlış denemelerde:** Başarısızlık yoktur. Her ayarda üç duruştan sonra 1. ışık kendiliğinden gelir (GDD §6.2); Rahat'ta ayrıca 60 sn takılınca gelir. Bunun dışında Dengeli ve Usta'da ipucu yalnızca istenince gelir. **Usta:** Yok (imza kısıtı P2'dedir). **Hikâye kipi:** Düzen (a) kendiliğinden kurulur. **Kodeks:** 3, 7.
 
 ## 7. Katılım Anı
 
@@ -249,10 +249,10 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 
 **Girdi yoksa:** Ş1'de yolcu 10 sn sonra kendiliğinden yürür. Ş2 hiçbir girdi gerektirmez. Han'da eller 8 sn sonra kendiliğinden davranır. **Kaydedilen ifade:** Yok.
 
-### 7.2 "Ona acıyıp yardım eden" ve "Git, sen de öyle yap"
+### 7.2 "Ona acıyan" ve "Git, sen de öyle yap"
 
 1. Parşömen dürülür, ikindi ışığı geri gelir. İsa (uzak, arkadan) 10:36'yı sorar; kamera uzmandadır.
-2. Uzman (10:37a): "Ona acıyıp yardım eden." Tamar'ın iç sesi: "'Ne yapmalıyım?' diye sormuştu. Yanıtı da yapılan bir işti."
+2. Uzman (10:37a): "Ona acıyan." Tamar'ın iç sesi: "'Ne yapmalıyım?' diye sormuştu. Yanıtı da yapılan bir işti."
 3. İsa (10:37b): "Git, sen de öyle yap." Girdi 6 sn çekilir; tek uzun ton, rüzgâr ve sarnıçta damlayan su duyulur.
 4. Kontroller hiçbir gösterge çıkmadan geri gelir. Kalabalık kalkar; İsa ve öğrencileri yola koyulur, Bakış'la uzaklaşmaları izlenebilir. Tamar'ın ilk adımı bölümü ilerletir; adımın yönü kaydedilmez.
 
@@ -266,7 +266,7 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 |---|---|---|---|---|
 | Zilpa (Söz, 2. sahne): "Yolun başında bir Samiriye köyü O'nu kabul etmemiş. İki öğrencisi gökten ateş yağsın istemiş; O onları azarlamış." | "Bizimkiler de onlara kapı açmaz." · "Bir Samiriyeli bir keresinde arabamı onardı." · *Sessiz kal* | "Öyle. İki yandan da kapı kapalı." / "Öyle mi? Hayret." / Omuz silker | Yok (yalnızca ton) | — |
 | **İfade:** P2'deki sargı hızı | Kabul edilen üç sargıda tur başına ortalama süre | — | Daire girdisinde (sağ çubuk ya da fare) tur başına ≥1,2 sn → `b05_ifade_sargi = ozenli`, altı → `cabuk`. Dönüşümlü basışta basışlar arası ortalama ≥0,3 sn → `ozenli`, altı → `cabuk`. "Otomatik sar" ve Hikâye kipinde boş | 7 |
-| **Yankı** (Söz). Dositeos: "Adamlarım develerle arkadan geliyor... akşama burada olurlar. Belki." | **"Yükü bırakıyorum. Boz'a bin; seni köye götüreyim."** · **"Kervanıma yetişmeliyim. Ama sana para bırakıp adamlarına haber salacağım."** · **"Adamların arkadan geliyorsa... Annemin ilacı bu pazara bağlı. Rab yardımcın olsun."** · *Sessiz kal* | Küpler arabanın gölgesine iner; Tamar Dositeos'u Boz'un üstünde bir yana yaslar, bohçasını öbür yana asar / Sikkeler çoban çocuğu Yonatan'a sayılır, çocuk koşar / "Git, Mecdelli. Pazarın kaçmasın." / Tamar konuşmadan sikkeleri Dositeos'un avucuna kapar, Yonatan'a yolu işaret eder | `b05_dositeos = yuk_birakti` → `eks_el +1`, `ilis_dositeos = yakin` · `para_gonderdi` (ve *Sessiz kal*) → `eks_el 0`, ilişki değişmez · `gecti` → `eks_el −1`, ilişki bir kademe düşer (`yakin`→`temkinli`, `temkinli`→`uzak`) | 6, 7, 9, ep; bant |
+| **Yankı** (Söz). Dositeos: "Adamlarım develerle arkadan geliyor... akşama burada olurlar. Belki." | **"Yükü bırakıyorum. Boz'a bin; seni köye götüreyim."** · **"Kervanıma yetişmeliyim. Ama sana para bırakıp adamlarına haber salacağım."** · **"Adamların arkadan geliyorsa... Annemin ilacı bu pazara bağlı. Rab yardımcın olsun."** · *Sessiz kal* | Küpler arabanın gölgesine iner; Tamar Dositeos'u Boz'un üstünde bir yana yaslar, bohçasını öbür yana asar / Sikkeler çoban çocuğu Yonatan'a sayılır, çocuk koşar / "Git, tuzlamacı. Pazarın kaçmasın." / Tamar konuşmadan sikkeleri Dositeos'un avucuna kapar, Yonatan'a yolu işaret eder | `b05_dositeos = yuk_birakti` → `eks_el +1`, `ilis_dositeos = yakin` · `para_gonderdi` (ve *Sessiz kal*) → `eks_el 0`, ilişki değişmez · `gecti` → `eks_el −1`, ilişki bir kademe düşer (`yakin`→`temkinli`, `temkinli`→`uzak`) | 6, 7, 9, ep; bant |
 
 **`b05_ifade_sargi`'nin 7. bölümdeki okunuşu.** Bayrak yalnızca yüz örtüsü çözülmeye başlamadan önceki tek iç sesi seçer. Çözme hızının kendisi `b07_ifade_cozme_hizi`'ne yazılır ve epilogda okunur; böylece iki bayrak aynı anı beslemez. Epilogda okunmaz, çünkü §8.9'da bu bayrağa ait bir yuva yoktur. Önerilen satırlar (7. bölüm tasarımcısına):
 - `ozenli`: "Bir hikâyede yaraları tur tur, yavaş sarmıştım. Bu bezi de öyle çözeceğim."
@@ -283,10 +283,10 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 
 | Bayrak | Değer | Bu bölümde değişen |
 |---|---|---|
-| `b02_tedarikci` + `b03_suc` | `saray_adami` (her `b03_suc`) | Dositeos'un ilk cümlesi: "Mecdelli... Yine bir dingil. Bu kez benimki." İç ses: "Kampın ununu ondan almamıştık; saray adamı seçilmişti." |
+| `b02_tedarikci` + `b03_suc` | `saray_adami` (her `b03_suc`) | Dositeos'un ilk cümlesi: "Tuzlamacı... Yine bir dingil. Bu kez benimki." İç ses: "Kampın ununu ondan almamıştık; saray adamı seçilmişti." |
 | | `dositeos` + `ustlendi` | "Kana'daki ekşi tulumların hesabını sen üstlenmişsin, duydum. Borç bende kaldı." |
 | | `dositeos` + `tedarikciye` | "Kana'da iki tulumun hesabı bana yazılmış, duydum. Olabilir. Bugün hesap soracak halim yok." |
-| `ilis_dositeos` | `yakin` / `temkinli` | Dositeos Tamar'ı adıyla çağırır ("Tamar, sen misin?") / "Mecdelli" der, gözünü kaçırır. İç ses: "Dingilimi onaran adam." / "Rakibim. Bir Samiriyeli. Yine de..." · Kapanış satırı da bölüme giriş değerine göre ayrılır (§9, diyalog 15) |
+| `ilis_dositeos` | `yakin` / `temkinli` | Dositeos Tamar'ı adıyla çağırır ("Tamar, sen misin?") / "Tuzlamacı" der, gözünü kaçırır. İç ses: "Dingilimi onaran adam." / "Rakibim. Bir Samiriyeli. Yine de..." · Kapanış satırı da bölüme giriş değerine göre ayrılır (§9, diyalog 15) |
 | `b04_yoram` (yalnızca 1. sahne) | `kutsadi` / `yasakladi` / `erteledi` | Yoram uzaktaki yolda, İsa'nın ardından gelenlerin arasından el sallar: "Anne! O'nunla gidiyoruz. Bu gece bir köyde kalacağız." / Yaşlı Tamar: "Yoram Mecdel'de, teknelerde kalmıştı. Benim için." / Yoram kervanın develerini çeker: "Fısıh geçti, anne. Bayramdan sonra konuşur muyuz?" ve kervanla önden gider |
 
 ## 9. Diyalog Örnekleri
@@ -295,18 +295,18 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 2. **Elkana (sabah, yün denkini yaslarken):** "Ağır yük bölünmüyorsa bir yana yasla, karşısına denk as; küçüğünü de sen omuzla."
 3. **Elkana (menengiçte, yular):** "İki tur yeter, kızım; üçüncüsü fazla. Çözerken de sen uğraşırsın."
 4. **Yokebed (gösterim):** "Önce şarap; kir gitsin. Sonra yağ; acısı dinsin. En son bez: kanayan yeri sıkı sar, iki tur." · (bileğe) "Deri sağlam, şiş içeride; şarap ne yapsın? Yağ sürerim, gevşek sararım, bir tur. Sıkarsam parmakların morarır."
-5. **Uzman (Lk 10:25):** "Öğretmenim, sonsuz yaşamı miras almak için ne yapmalıyım?" [yakın aktarım] — **İsa (10:26):** "Kutsal Yasa'da ne yazılı? Orada ne okuyorsun?" [yakın aktarım]
-6. **Uzman (Lk 10:27):** "'Tanrın Rab'bi bütün yüreğinle, bütün canınla, bütün gücünle ve bütün aklınla seveceksin' ve 'Komşunu kendin gibi seveceksin.'" [yakın aktarım] — **İsa (10:28):** "Doğru yanıt verdin. Bunu yap, yaşayacaksın." [yakın aktarım]
-7. **Uzman (Lk 10:29):** "Peki, komşum kim?" [yakın aktarım] — **Tamar (iç ses):** "Mecdel'de bunu herkes bilir: aynı kuyudan su çeken."
+5. **Uzman (Lk 10:25):** "Öğretmenim, sonsuz yaşamı miras almak için ne yapmalıyım?" [yakın aktarım; kanonik replik] — **İsa (10:26):** "Kutsal Yasa'da ne yazılı? Orada ne okuyorsun?" [yakın aktarım]
+6. **Uzman (Lk 10:27):** "'Tanrın Rab'bi bütün yüreğinle, bütün canınla, bütün gücünle ve bütün aklınla seveceksin' ve 'Komşunu kendin gibi seveceksin.'" [yakın aktarım; kanonik replik] — **İsa (10:28):** "Doğru yanıt verdin. Bunu yap, yaşayacaksın." [yakın aktarım]
+7. **Uzman (Lk 10:29):** "Peki, komşum kim?" [yakın aktarım; kanonik replik] — **Tamar (iç ses):** "Mecdel'de bunu herkes bilir: aynı kuyudan su çeken."
 8. **İsa (Lk 10:30, üst satır):** "Bir adam Yeruşalim'den Eriha'ya iniyordu. Haydutların eline düştü. Onu soyup dövdüler, yarı ölü bırakıp gittiler." [yakın aktarım]
 9. **İsa (Lk 10:33):** "Ama yolculuk eden bir Samiriyeli adamın bulunduğu yere geldi; onu görünce ona acıdı." [yakın aktarım; *doğrulanmalı*]
 10. **İsa (Lk 10:34, üst satır; P2 ve P3'ün başında):** "Yanına gidip yaralarına zeytinyağıyla şarap döktü ve onları sardı. Sonra onu kendi hayvanına bindirip bir hana götürdü ve onunla ilgilendi." [yakın aktarım]
 11. **İsa (Lk 10:35, anlatı içinde):** "'Ona iyi bak,' dedi. 'Bundan fazla ne harcarsan, dönüşümde öderim.'" [yakın aktarım]
-12. **İsa (Lk 10:36):** "Sence bu üç kişiden hangisi haydutların eline düşen adama komşu oldu?" [yakın aktarım; *doğrulanmalı*] — **Uzman (10:37a):** "Ona acıyıp yardım eden." [yakın aktarım; geçici, *doğrulanmalı*] — **İsa (10:37b):** "Git, sen de öyle yap." [yakın aktarım]
+12. **İsa (Lk 10:36):** "Sence bu üç kişiden hangisi haydutların eline düşen adama komşu oldu?" [yakın aktarım; *doğrulanmalı*] — **Uzman (10:37a):** "Ona acıyan." [yakın aktarım; kanonik replik; YC ile doğrulanmalı] — **İsa (10:37b):** "Git, sen de öyle yap." [yakın aktarım]
 13. **Tamar (iç ses, çivit lekeyi görünce):** "O renk... Hikâyedeki örtü. Hayır. Dositeos."
-14. **Dositeos (`gecti`):** "Git, Mecdelli. Pazarın kaçmasın. Yol kenarında yatmayı bilirim."
+14. **Dositeos (`gecti`):** "Git, tuzlamacı. Pazarın kaçmasın. Yol kenarında yatmayı bilirim."
 15. **Yaşlı Tamar (kapanış):**
-    - `yuk_birakti`: "Balığı bayramın ara günlerinden birinde yarı fiyatına sattım; annemin merhemi küçük bir şişeye sığdı." Ardından bölüme giriş değerine göre: `temkinli` → "O geceden sonra bana yine 'Mecdelli' dedi, ama gözünü kaçırmadan." · `yakin` → "O geceden sonra beni kervanının sofrasına çağırdı."
+    - `yuk_birakti`: "Balığı bayramın ara günlerinden birinde yarı fiyatına sattım; annemin merhemi küçük bir şişeye sığdı." Ardından bölüme giriş değerine göre: `temkinli` → "O geceden sonra bana yine 'tuzlamacı' dedi, ama gözünü kaçırmadan." · `yakin` → "O geceden sonra beni kervanının sofrasına çağırdı."
     - `para_gonderdi`: "Sikkelerimi bir çocuğun avucuna saydım, pazarıma yetiştim. Bütün gece o sikkelerin yolunu düşündüm."
     - `gecti`: "Geçtim, Sara. Annemin ilacı, kervan, onun adamları; hepsi doğruydu. Adamları akşam gelmiş, öyle duydum. Belki doğrusu buydu, belki değil."
 
@@ -322,16 +322,16 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 **Tanıklık ayrıntıları** (Bakış ile, sayaçsız): `tan_b05_kararli_yuruyus` (Lk 9:51; 1. sahne): "Yeruşalim'e gitmeye kararlıydı. Biz hep arkadan geldik; yüzü o yöne dönüktü." · `tan_b05_ayaga_kalkti` (Lk 10:25; 3. sahne): "Soruyu sormak için ayağa kalktı. Sorduğu, hepimizin sorusuydu."
 
 **Kodeks:**
-1. **İki buyruk.** Uzman Yasanın Tekrarı 6:5'i (Şema'nın parçası) ve Levililer 19:18'i anar; İsa onaylar. Markos 12:28–31'de aynı buyrukları İsa kendisi söyler; fark tarafsızca not edilir.
-2. **Komşu kimdir?** Levililer 19:18 komşuyu, 19:34 aranızda yaşayan yabancıyı sevmeyi buyurur; "komşu"nun kapsamı dönemde tartışılırdı (*doğrulanmalı*). İsa "Komşum kim?" (10:29) sorusunu "Kim komşu oldu?" (10:36) sorusuna çevirir. Uzmanın yanıtı (10:37a) eylemi öne çıkarır: Samiriyelinin kimliğini değil, ne yaptığını söyler. Grekçede "yapmak" fiili 10:25'i ("ne yapmalıyım"), 10:28'i ("bunu yap") ve 10:37'yi ("merhamet gösteren", "sen de öyle yap") birbirine bağlar (*doğrulanmalı*).
+1. **İki buyruk.** Uzman Yasa'nın Tekrarı 6:5'i (Şema'nın parçası) ve Levililer 19:18'i anar; İsa onaylar. Markos 12:28–31'de aynı buyrukları İsa kendisi söyler; fark tarafsızca not edilir.
+2. **Komşu kimdir?** Levililer 19:18 komşuyu, 19:34 aranızda yaşayan yabancıyı sevmeyi buyurur; "komşu"nun kapsamı dönemde tartışılırdı (*doğrulanmalı*). İsa "Komşum kim?" (10:29) sorusunu "Kim komşu oldu?" (10:36) sorusuna çevirir. Uzmanın yanıtı (10:37a) eylemi öne çıkarır: Samiriyelinin kimliğini değil, ne yaptığını söyler. Grekçe metin uzmanın yanıtını ona merhamet gösteren (yapan) diye verir; yapmak fiili 10:25, 28 ve 37'yi birbirine bağlar. Bağ "ne yapmalıyım", "bunu yap" ve "sen de öyle yap" sözlerinde duyulur (*doğrulanmalı*). Oyundaki yer tutucu "Ona acıyan" (10:37a), 10:33'teki "ona acıdı" ile aynı sözlüktedir; YC'nin basılı ifadesi gelince o kullanılır.
 3. **Yeruşalim–Eriha yolu.** Yaklaşık 27 km'de 1000 metreye yakın iner, Adummim yokuşundan geçer (Yeşu 15:7; *ölçüler doğrulanmalı*). Han el-Hatrura'daki "İyi Samiriyeli Hanı" *geleneksel*dir.
-4. **Kâhin, Levili ve temizlik.** Kâhinler ve Levililer Tapınak'ta sırayla hizmet ederdi; Kutsal Yasa kâhinin ölüye dokunmasını sınırlar (Levililer 21:1–3; Sayılar 19:11–16). **Metin gerekçe vermez;** yorumcular temizlik kaygısı, korku ve başka nedenler önerir.
+4. **Kâhin, Levili ve temizlik.** Kâhinler ve Levililer Tapınak'ta sırayla hizmet ederdi; Kutsal Yasa kâhinin ölüye dokunmasını sınırlar (Levililer 21:1–3; Çölde Sayım 19:11–16). **Metin gerekçe vermez;** yorumcular temizlik kaygısı, korku ve başka nedenler önerir.
 5. **Samiriyeliler ve hacılar.** Lk 9:52–55'te bir Samiriye köyü İsa'yı kabul etmez; İsa, gökten ateş yağdırmak isteyen öğrencilerini azarlar. Luka başka bir yerde, iyileşen on cüzamlıdan yalnızca Samiriyeli olanın dönüp şükrettiğini anlatır (17:11–19). Josephus Celileli hacıların bayramlarda Samiriye'den geçtiğini yazar (*Yahudi Eski Eserleri* 20.118; *doğrulanmalı*). Samiriyeliler bugün de Gerizim Dağı'nda ve Holon'da yaşar.
-6. **Yağ ve şarap.** Metin uygulama sırası vermez ("zeytinyağıyla şarap döküp"). Mişna (Şabat 19:2), sünnet yarasının bakımında şarapla yağın karıştırılmasını, karıştırılmamışsa ayrı ayrı sürülmesini anar; Hipokrat geleneği şarabı yara temizliğinde kullanır (*doğrulanmalı*). Yeşaya 1:6 "yağla yumuşatılmamış" yaralardan söz eder. "Önce şarap, sonra yağ" oyunun iş kuralıdır.
+6. **Yağ ve şarap.** Metin uygulama sırası vermez ("zeytinyağıyla şarap döküp"). Mişna (Şabat 19:2), sünnet yarasının bakımında şarapla yağın karıştırılmasını, karıştırılmamışsa ayrı ayrı sürülmesini anar (Mişna MS 200 dolayında yazıya geçmiştir; birinci yüzyıl uygulaması *doğrulanmalı*); Hipokrat geleneği şarabı yara temizliğinde kullanır (*doğrulanmalı*). Yeşaya 1:6 "yağla yumuşatılmamış" yaralardan söz eder. "Önce şarap, sonra yağ" oyunun iş kuralıdır.
 7. **Eşek ve 2. Tarihler 28:15.** Samiriye'ye dönen Efrayimli önderler (28:12–15) Yahudalı tutsakları giydirir, yağla ovar, güçsüzleri eşeklere bindirip Eriha'ya götürür; bazı yorumcular benzetmeyle bağ kurar. Bu önderler Kuzey İsrail'dendir; birinci yüzyılın Samiriyeli topluluğuyla özdeşleştirilmemelidir. Luka hayvanın türünü belirtmez.
 8. **İki dinar ve han.** Bir dinar bir günlük gündelikti (Matta 20:2). Luka burada *pandokheion* (han) der; 2:7'deki *katalyma* başka bir sözcüktür. İki dinarın kaç gün yettiği tartışılır (*doğrulanmalı*).
-9. **Çardak Bayramı, pazar ve Eriha balsamı.** Çardak Bayramı yedi gün sürer ve sekizinci günle kapanır (Levililer 23:33–43; Sayılar 29:12, 35); hac yükümlülüğü Yasanın Tekrarı 16:16'dadır. İlk ve sekizinci gün "kutsal toplantı" günleridir: o günlerde gündelik iş yapılmaz (Levililer 23:35–36, 39), kutsal günlerde alım satım da yapılmazdı (Nehemya 10:31). Ara günlerde bayram ihtiyacı için sınırlı alışverişe Mişna işaret eder (Moed Katan 2:4; *doğrulanmalı*). Bu yüzden kervanın pazarı bayramdan öncedir; bölümün bu mevsime konması kurgudur. Eriha balsamının saf özsuyu çok pahalıydı; ağacın odunundan ve tohumundan elde edilen ucuz türevler de satılırdı (Plinius, *Doğa Tarihi* 12.111–123; Josephus; *doğrulanmalı*). Tamar'ın alabileceği, bu türevlerle yapılmış küçük bir şişe merhemdir.
-10. **Levili ezgiciler.** Levililer Tapınak'ta ezgi söyler, çalgı çalardı (1. Tarihler 25); Mişna (Sukka 5:4) bayramdaki su şenliğinde lir ve arp çaldıklarını anlatır (*doğrulanmalı*). Josephus kinnoru on telli bir çalgı olarak anar (*Yahudi Eski Eserleri* 7.306; *doğrulanmalı*).
+9. **Çardak Bayramı, pazar ve Eriha balsamı.** Çardak Bayramı yedi gün sürer ve sekizinci günle kapanır (Levililer 23:33–43; Çölde Sayım 29:12, 35); hac yükümlülüğü Yasa'nın Tekrarı 16:16'dadır. İlk ve sekizinci gün "kutsal toplantı" günleridir: o günlerde gündelik iş yapılmaz (Levililer 23:35–36, 39), kutsal günlerde alım satım da yapılmazdı (Nehemya 10:31). Ara günlerde bayram ihtiyacı için sınırlı alışverişe Mişna (Moed Katan 2:4) işaret eder (Mişna MS 200 dolayında yazıya geçmiştir; birinci yüzyıl uygulaması *doğrulanmalı*). Bu yüzden kervanın pazarı bayramdan öncedir; bölümün bu mevsime konması kurgudur. Eriha balsamının saf özsuyu çok pahalıydı; ağacın odunundan ve tohumundan elde edilen ucuz türevler de satılırdı (Plinius, *Doğa Tarihi* 12.111–123; Josephus; *doğrulanmalı*). Tamar'ın alabileceği, bu türevlerle yapılmış küçük bir şişe merhemdir.
+10. **Levili ezgiciler.** Levililer Tapınak'ta ezgi söyler, çalgı çalardı (1. Tarihler 25); Mişna (Sukka 5:4) bayramdaki su şenliğinde lir ve arp çaldıklarını anlatır (Mişna MS 200 dolayında yazıya geçmiştir; birinci yüzyıl uygulaması *doğrulanmalı*). Josephus kinnoru on telli bir çalgı olarak anar (*Yahudi Eski Eserleri* 7.306; *doğrulanmalı*).
 11. **Luka'nın yolculuk anlatısı.** Luka 9:51'den 19:28'e uzanan bölümde İsa Yeruşalim'e doğru yoldadır (13:22; 17:11; 18:31), ama anlatı süre ve güzergâh vermez. 9:56 ile 10:25 arasında başka olaylar yer alır (9:57–62; yetmiş iki öğrencinin gönderilip dönmesi, 10:1–24; *sayı doğrulanmalı*). İsa kente ancak 19:28–45'te girer. 9:51'deki Grekçe deyim kelimesi kelimesine "yüzünü sabitledi" demektir (*doğrulanmalı*). Yuhanna 7:10, İsa'nın Çardak Bayramı'na "açıkça değil, gizlice" gittiğini anlatır (*doğrulanmalı*); Luka bu yolculuğu bir bayrama bağlamaz. Oyun da İsa'nın bu yolculukta bayrama gittiğini ileri sürmez; bayram yalnızca Tamar'ın kervanının takvimidir.
 
 **Kodeks açılışları:** 1 (3. sahne), 5 (2. sahne, Zilpa), 9 (P1), 10 (yan hikâye), 11 (1. sahne, tanıklık). Benzetmede kazanılan girdiler (2, 3, 4, 6, 7, 8) bildirim göstermez; parşömen kapandıktan sonra Heybe'de sessizce belirir.
@@ -373,20 +373,20 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 - **Yanların okunurluğu:** Yakın kanca halka, uzak kanca çengel; kenar çiziminde ve şeritte aynı biçim. Dönemeç işaretleri: dış yanda uçurum kenarı, iç yanda kaya duvarı. Boz'un semerinde taşlı ip çekülü.
 - **Özel animasyonlar:** Kandil titremesiyle gelen kesme; ayrı katmanda sargı turları (tur başına 3 kare); 5 açılı çekül (semer ve kenar çizimi); yaralının oturma, yaslanma, kayma ve tutulma kareleri; iki elin buluşması.
 - **İsa:** 3/4'te uzak ve arkadan; göz pikseli ve hale yoktur. Benzetmede görünmez; anlatımı yalnızca serif yazı tipi ve ayet etiketiyle verilir.
-- **GDD tavanları:** Tablo **0**. Anlatılan Sahne şeridi **1** (kip 3). Yan görünüm set-piece: Eriha şeridinin bu tavana sayılıp sayılmadığı **beklemede** (§17-8); GDD kararına kadar bütçede "beklemede" satırıyla izlenir.
+- **GDD tavanları:** Tablo **0**. Anlatılan Sahne şeridi **1** (kip 3). Yan görünüm set-piece: **0**. Eriha şeridi GDD §11.1'in sayım kuralına göre set-piece değil, Anlatılan Sahne şerididir (iki şeritten biri).
 
 ## 14. Erişilebilirlik ve Zorluk Ayarları
 
 - **Bağla:** Daire girdisi (sağ çubuk ya da fare), sargı sürerken ←/→ dönüşümlü basış (gamepad'de D-pad) ya da "otomatik sar"; tur sayısı çentikle ve isteğe bağlı rakamla gösterilir. **Dök:** Her dökme ayrık bir ölçüdür; eğim tutma süresi 0,4–1,5 sn arasında ayarlanır; basılı tutma için aç/kapa seçeneği vardır. **P3:** Yaralıyı kaldırmak için basılı tutmanın aç/kapa seçeneği vardır.
 - **Görsel:** Yara durumu biçimle, denge çekülle ve isteğe bağlı rakamla okunur; yanlar kanca biçimiyle ve dünya içi dönemeç işaretleriyle ayrılır; çivit örtünün saçak deseni vardır. Akort görsel ve dokunsal olarak da yapılabilir; "otomatik akort" vardır.
 - **Hareket ve içerik:** Şerit kaydırması ve paralaks azaltılabilir; kesmedeki ışık titremesi ışık yumuşatma ayarına bağlıdır. Bölüm başında not: "Bir saldırı ima edilir, gösterilmez."
-- **Zorluk:** Rahat ayarında çakıl rakamları açılır, dönemeçlerin dış yanı okla da çizilir, 60 sn takılınca 1. ışık kendiliğinden gelir. Dengeli ve Usta'da ipucu yalnızca istenince gelir. Hikâye kipinde P1–P3 ve akort kendiliğinden çözülür. Usta ayarında `usta_b05_artan_sarap` simgesi görünür.
+- **Zorluk:** Rahat ayarında çakıl rakamları açılır, dönemeçlerin dış yanı okla da çizilir, 60 sn takılınca 1. ışık kendiliğinden gelir. Dengeli ve Usta'da ipucu yalnızca istenince gelir (P3'teki üç duruş kuralı hariç). Hikâye kipinde P1–P3 ve akort kendiliğinden çözülür. Usta ayarında `usta_b05_artan_sarap` simgesi görünür.
 
 ## 15. Sadakat ve Hassasiyet Kontrolü
 
 - [x] **A. İsa'nın temsili:** Oyuncu İsa'yı yönetmez. Sözler yalnızca Lk 10:26, 28, 30–36 ve 37b'den alınır, etiketli [yakın aktarım]dır, birleştirme yapılmaz. Yüz, ses ve hale yoktur; müzik çekilir. 10:37b uzmana söylenir; Tamar'a hitap yoktur. Benzetmeye söz eklenmez; görsel ayrıntılar 1.2'de listelenir. Benzetme sürerken kimse konuşmaz.
 - [x] **B. Kanon:** Benzetmede seçim ve "geçip gitme" girdisi yoktur. Kâhin ve Levili girdiden bağımsız olarak geçer. İki dinar sabittir; kesede başka sikkeler de görünür. Şeritte geri yürüme girdisi yoktur. Hiçbir hata anlatıyı değiştirmez.
-- [x] **C. Replik kilidi:** Uzman yalnızca metindeki sözlerini söyler (10:25, 27, 29, 37a; hepsi etiketli). 9:54'teki öğrenci isteği yalnızca Zilpa'nın "bir Samiriye köyü" diye başlayan özetiyle geçer; özet kronoloji kurmaz.
+- [x] **C. Replik kilidi:** Uzman yalnızca metindeki sözlerini söyler (10:25, 27, 29, 37a; hepsi [yakın aktarım; kanonik replik] etiketli; 10:37a'ya YC'de karşılığı olmayan bir sözcük eklenmez). 9:54'teki öğrenci isteği yalnızca Zilpa'nın "bir Samiriye köyü" diye başlayan özetiyle geçer; özet kronoloji kurmaz.
 - [x] **D. Seçim etiği:** Karma çubuğu yoktur. Her diyalogda *Sessiz kal* vardır. `gecti` saygıyla yazılmıştır ve Dositeos her yolda iyileşir. İç sesler oyuncunun seçmediği gerekçeleri Tamar'a yüklemez.
 - [x] **E. Hassasiyet:** Kâhin ve Levili karikatürsüz; davranışlarına gerekçe uydurulmaz. Uzman ciddi bir bilgindir; iç ses onun niyetini okumaz. Kodeks iki buyruğun Kutsal Yasa'dan geldiğini vurgular. Yan hikâyedeki Levili ve Samiriyeliler saygıyla yazılmıştır. Genelleme, polemik ve gösterilen şiddet yoktur.
 - [x] **F. Tarihsellik:** Roma askeri ve mil taşı yok; Tamar okuryazar değildir; geleneksel yerler işaretlidir. Bayramın kutsal toplantı günlerinde ticaret gösterilmez. Oyun İsa'nın bu yolculukta bayrama gittiğini ya da Yeruşalim'e vardığını ileri sürmez (Kodeks 11).
@@ -394,7 +394,7 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
 
 ## 16. Üretim Notları
 
-- **Haritalar:** 2 (Harita A, kuşluk ve ikindi LUT'larıyla; Anlatılan Sahne şeridi). **Karo setleri:** Yahudiye kırsalı ve Anlatılan Sahne (ikisi de §16.1'in altı setinde). **Önceden çizilmiş panel:** 2 (sargı panosu, semer kenar çizimi).
+- **Haritalar:** 1 (Harita A, kuşluk ve ikindi LUT'larıyla). Eriha'ya iniş Anlatılan Sahne şeridi kalemindedir ve harita sayılmaz (GDD §16.1). **Karo setleri:** Yahudiye kırsalı ve Anlatılan Sahne (ikisi de §16.1'in altı setinde). **Önceden çizilmiş panel:** 2 (sargı panosu, semer kenar çizimi).
 - **Anlatılan Sahne şeridinin elle betiklenmiş varlıkları:** 5 bölüm (Ş1–Ş5; Ş4 üç ekran), kenar çizimi, dönemeç işaretleri, kesme (3 sn), parşömen katlanması (mevcut silme geçişi).
 - **Sargı panosu durum matrisi (katman, animasyon değil):**
 
@@ -407,22 +407,22 @@ Kol ve diz bilerek aynı yandadır: P3'te yaralının sargılı yanı buradan ok
   Toplam ≈9 yara durumu, 9 sargı katmanı (tur başına 3 kare) ve 6 geri bildirim katmanı; ortak parçacıklar: boşa akan şarap, su. Mühürleme durumları tasarımdan çıkarıldı.
 - **Karakterler:** Yeni portre yok; Dositeos'a 1 ifade eklenir. Yeni NPC'ler kit varyantıdır. Benzetme siluetleri tek tonludur, normal harita kullanmaz.
 - **Animasyon dizileri ≈41:** Tamar 7 (yular bağlama ve çözme, küfeye koyma, tulumu omza asma, eşek yedme, su verme, bez koyma, küp indirme; iki elle yavaş taşıma mevcut setten); Dositeos 3; Boz 2; Elkana 1 (yün denkini yaslama); Yokebed 1 (sargı gösterimi; çocuk ve bilek aynı dizi); Matanya 2; uzman 2; İsa 1; kalabalık 1. Siluetler: yolcu 4, kâhin ve Levili 3, Samiriyeli 5, eşek 2, hancı 1, gölgeler 1. Sargı panosu elleri 5 (dökme [kap ayrı katmanda], şerit yırtma ve koyma, sarma turu, düğüm, eli durdurma; çözme sarmanın tersidir).
-- **Set-piece:** Beklemede (§17-8). **Tablo:** 0. **Ara sahne:** 1 kesme (3 sn) ve 3 sonuç montajı (mevcut animasyonlarla).
+- **Set-piece:** 0. **Anlatılan Sahne şeridi:** 1 (Eriha'ya iniş). **Tablo:** 0. **Ara sahne:** 1 kesme (3 sn) ve 3 sonuç montajı (mevcut animasyonlarla).
 - **Riskler:** Yakın/uzak yanın okunurluğu (kâğıt prototip; dünya içi işaretler; hedef medyan 5,5 dk); P2'nin 10 yaş için yükü (mühürleme kaldırıldı, kurallar 2. sahnede gösterilir); kurulun benzetmenin oynanmasına bakışı.
 - **Kesme adayları:** Yan hikâye; Zilpa satırı; Yokebed'in bilek gösterimi (o zaman dizin "aha"sı yalnızca P2'nin içinde keşfedilir); V2 kuralı (aha korunur, (b) çözümü genişler).
 
 ## 17. Açık Sorular
 
-1. **YC:** Lk 9:51–56 ve 10:25–37 karşılaştırılmalı. Özellikle 10:33 ("ona acıdı" mı, "yüreği sızladı" mı), 10:36 ("komşu oldu" mu, "komşu gibi davrandı" mı) ve 10:37a. "Ona acıyıp yardım eden" geçicidir; seçilecek ifade "yapmak" fiilinin taşıdığı eylemi korumalıdır. Yuhanna 7:10 ve Lk 10:1'deki sayı da denetlenmeli.
+1. **YC:** Lk 9:51–56 ve 10:25–37 karşılaştırılmalı. Özellikle 10:33 ("ona acıdı" mı, "yüreği sızladı" mı), 10:36 ("komşu oldu" mu, "komşu gibi davrandı" mı) ve 10:37a. 10:37a'da uzmanın yanıtı YC'nin basılı ifadesiyle verilir; doğrulanana kadar yer tutucu "Ona acıyan"dır (10:33'teki "ona acıdı" ile aynı sözlük). Metinde karşılığı olmayan bir ekleme ("yardım eden" gibi) kanonik replik kilidini çiğner ve kullanılmaz; Grekçedeki "merhamet gösteren (yapan)" vurgusu ve 10:25, 28, 37'deki "yapmak" bağı Kodeks 2'de ve Tamar'ın iç sesinde taşınır. Yuhanna 7:10 ve Lk 10:1'deki sayı da denetlenmeli.
 2. **Sargı sırası:** Metin "zeytinyağıyla şarap" der. "Önce şarap" kuralı kabul edilmezse karışım (Mişna Şabat 19:2) ikinci bir kabul yolu olur.
 3. **`b05_ifade_sargi`** GDD §8.4'e eklenmeli (değerler `ozenli` / `cabuk`; okunduğu yer yalnızca 7). Benzetme rolündeki bir el işinin ifade olarak kaydedilmesi §7.1-4'teki "kutsal eşik" kuralıyla uyumlu mu? 7. bölüm satırları §8.1'de önerildi.
 4. **`b05_dositeos`'un ilişki geçişleri** ve *Sessiz kal* → `para_gonderdi` eşlemesi GDD'de tanımlanmalı. 7. bölüm için öneri: eşek `yuk_birakti` ve `para_gonderdi` yollarında verilir.
 5. **Çivit kafiyesi:** Dositeos 2. bölümde de çivit baş beziyle mi çizilecek? Kurul bu kafiyeyi uygun buluyor mu?
 6. **Bağlam:** Lk 10:38–42 (Marta'nın evi) hemen ardından gelir. 7. bölümdeki ticaret dostluğu burada ekilsin mi? (Yoram'ın `kutsadi` satırındaki "bir köy" 10:38'le çelişmez, köyün adını vermez.)
 7. **`b04_yoram`** tek bir satırda okunur; §8.4'teki "Okunduğu yer" sütununa 5 eklenmeli.
-8. **Set-piece sayımı:** Oynanışlı, yan görünümlü bir Anlatılan Sahne şeridi §11.1'in altı set-piece tavanına sayılıyor mu? 6. bölümün eve dönüşü sayılıyor; iki bölüm aynı ölçütle sayılmalı.
+8. **Set-piece sayımı:** Kapandı: GDD §11.1 sayım kuralı; Anlatılan Sahne kipindeki yan görünüm şeritleri (bu bölümün Eriha şeridi ve 6. bölümün eve dönen yolu) set-piece tavanına sayılmaz, ayrı bir kalemdir.
 9. **Tempo bütçesi:** Bölümün bütün bulmacaları El işidir. §5.4-1'in 3 dakikalık görev tavanı temiz çözüm süresi olarak okunursa bulmaca payı medyanla 12 dk'ya ulaşır; GDD ya bu ayrımı yazmalı ya da 5. bölümün §4.1 satırını güncellemelidir.
 10. **§5.4-2'nin okunuşu:** Bu bölüm "girdi"yi görevin ana girdi biçimi olarak okur (A ile al-koy, RT ile dökme, sağ çubukla daire); A ile onay, sol çubukla yürüme ve D-pad ile seçim arayüz girdisidir. §5.1 Taşı ile Dök'ü tek satırda topladığı ve Taşı'yı "RT ile kavranır" diye tanımladığı için, 4–6. bölümlerin "A ile kavrama, ağır yük −%40" biçimi GDD'ye ayrı bir Taşı biçimi olarak işlenmelidir.
 11. **Yankının yeri:** GDD §14.1 Dositeos sahnesini "dönüş yolunda" verir; bu bölüm onu aynı gün, Yeruşalim'e giden yolun devamında kurar, çünkü §8.6'daki bedel bayram pazarına yetişmektir.
-12. **"Mecdelli" hitabı:** Dositeos Tamar'a 2. bölümden beri "Mecdelli" der. Oyuncunun Tamar'ı Mecdelli Meryem'le karıştırma riski kurulla ve GDD düzeyinde ele alınmalı (İnsanlar sekmesinde bir açıklama ya da "Mecdelli kadın" gibi bir biçim).
-13. **6. bölümle süreklilik:** Kapanış satırı artık 6. bölümdeki "Ayaktayım, Mecdelli." ile çelişmiyor. Yine de `ilis_dositeos = yakin` yolunda Dositeos 5. bölümde Tamar'a adıyla seslendiği için 6. bölümün aynı satırı bu yolda "Ayaktayım, Tamar." olabilir (çapraz bölüm geçişine öneri).
+12. **"Mecdelli" hitabı:** Kapandı: Mecdelli hitabı kaldırıldı; mesafeli hitap tuzlamacı, yakın hitap Tamar (GDD §2.2-C). "Mecdelli" yalnızca betimleyici sıfat olarak kullanılır; Heybe'nin İnsanlar sekmesi "tuzlamacı" lakabını Tamar'ın kapattığı tuzlu balık atölyesiyle açıklar (bkz. `kol_b05_kup_muhru`).
+13. **6. bölümle süreklilik:** Kapandı: Mecdelli hitabı kaldırıldı; mesafeli hitap tuzlamacı, yakın hitap Tamar (GDD §2.2-C). 6. bölümdeki karşılama satırı da aynı ayrımı izler: `ilis_dositeos = yakin` yolunda Dositeos Tamar'a adıyla seslenir.

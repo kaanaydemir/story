@@ -6,7 +6,7 @@
 
 | Alan | Değer |
 |---|---|
-| **Kaynak** | **Öncü:** Luka 23:26–56. **Köprü tablosu:** Luka 23:1–25 (yalnızca 23:4 alıntılanır). **Tamamlayıcı (Luka ile çelişmeyen görsel ayrıntılar):** Yuhanna 19:17 (Simun'dan önce kirişi İsa taşır; yalnızca görsel), Markos 15:46 (taşın kanalda yuvarlanması; görsel, iç ses ve 10. bölüme Cuma hatırası), Yuhanna 19:41 (bahçe ve yeni mezar; görsel ve tanıklık etiketi). **Oyun içinde başka metin:** Mezmur 23:4. **Yalnızca Kodeks:** Luka 8:1–3; 13:1; 23:6–12, 14, 22, 35b–41; 24:2, 10; Matta 27:33; Markos 15:21 (Simun'un oğulları), 15:22, 25, 34, 39–41; 16:1; Yuhanna 19:14, 20, 25–30, 39; Elçilerin İşleri 2:10; 6:9; Romalılar 16:13; İbraniler 13:12; Çıkış 35:3; Levililer 23:6–7; Yasanın Tekrarı 21:22–23; Mezmur 31:5; 45:8; Ezgiler Ezgisi 4:14; Yeremya 9:17–20; 17:21–22; Hoşea 10:8; Mişna Şabat 1:1, 2:5, 2:7, 7:2, 15:1–2; Mişna Sukka 5:5; Babil Talmudu Şabat 35b; Kudüs Talmudu Berakot 1:1; Josephus, *Yahudi Savaşı* 2.301, 4.317, 4.582, 5.146; Josephus, *Yahudi Eski Eserleri* 18.55–62, 18.85–89, 19.365, 20.176; Philon, *Gaius'a Elçilik* 299–305 |
+| **Kaynak** | **Öncü:** Luka 23:26–56. **Köprü tablosu:** Luka 23:1–25 (yalnızca 23:4 alıntılanır). **Tamamlayıcı (Luka ile çelişmeyen görsel ayrıntılar):** Yuhanna 19:17 (Simun'dan önce kirişi İsa taşır; yalnızca görsel), Markos 15:46 (taşın kanalda yuvarlanması; görsel, iç ses ve 10. bölüme Cuma hatırası), Yuhanna 19:41 (bahçe ve yeni mezar; görsel ve tanıklık etiketi). **Oyun içinde başka metin:** Mezmur 23:4. **Yalnızca Kodeks:** Luka 8:1–3; 13:1; 23:6–12, 14, 22, 35b–41; 24:2, 10; Matta 27:33; Markos 15:21 (Simun'un oğulları), 15:22, 25, 34, 39–41; 16:1; Yuhanna 19:14, 20, 25–30, 39; Elçilerin İşleri 2:10; 6:9; Romalılar 16:13; İbraniler 13:12; Mısır'dan Çıkış 35:3; Levililer 23:6–7; Yasa'nın Tekrarı 21:22–23; Mezmur 31:5; 45:8; Ezgiler Ezgisi 4:14; Yeremya 9:17–20; 17:21–22; Hoşea 10:8; Mişna Şabat 1:1, 2:5, 2:7, 7:2, 15:1–2; Mişna Sukka 5:5; Babil Talmudu Şabat 35b; Kudüs Talmudu Berakot 1:1; Josephus, *Yahudi Savaşı* 2.301, 4.317, 4.582, 5.146; Josephus, *Yahudi Eski Eserleri* 18.55–62, 18.85–89, 19.365, 20.176; Philon, *Gaius'a Elçilik* 299–305 |
 | **Oynanabilir karakter ve yaş** | Tamar (44) |
 | **Yer, vakit, yıl** | Yeruşalim: 8. bölümün dış kapı sokağı, aşağı kentten Bahçe Kapısı'na inen çarmıh yolu, surun dışında Golgota'ya bakan yamaç, mezar bahçesi, Mika ve annesinin avlulu evi (Tamar'ın bayram için tuttuğu oda, avlu, dam). Hazırlık Günü sabahından Şabat akşamına (23:54–56). Yıl ekranda ve Kodeks'te verilmez (§17) |
 | **Erişim düzeyi (§3.4)** | **Uzaktan** (23:49). Yolda kalabalıkta; 23:28'de Yeruşalim kızları arasında. Pilatus'un önü ve çarmıhta söylenenler tanıklık iddiası taşımaz: tablo ve ayet metni |
@@ -21,7 +21,7 @@
 
 ## 1. Kaynak Metin ve Uyarlama Sınırları
 
-Bütün alıntılar **[yakın aktarım]**dır (§15). Kutsal Kitap siteleri ağ politikasıyla kapalıydı. Aramada YC'den yalnızca parçalar görüldü: 23:26 ("kırdan gelmekte olan... Kireneli"), 23:46 ("son nefesini verdi"), 23:47 ("Tanrı'yı yüceltmeye başladı", "gerçekten doğru"), 23:48 ("göğüslerini döve döve"), Mezmur 23:4 ("Karanlık ölüm vadisinden geçsem bile... Çomağın, değneğin güven verir bana"). Tam ifadeler *doğrulanmalı*.
+Bütün alıntılar **[yakın aktarım]**dır (§15); İsa dışındaki kanonik konuşanların (Pilatus, suçlu, yüzbaşı) satırları **[yakın aktarım; kanonik replik]** etiketini taşır. Kutsal Kitap siteleri ağ politikasıyla kapalıydı. Aramada YC'den yalnızca parçalar görüldü: 23:26 ("kırdan gelmekte olan... Kireneli"), 23:46 ("son nefesini verdi"), 23:47 ("Tanrı'yı yüceltmeye başladı", "gerçekten doğru"), 23:48 ("göğüslerini döve döve"), Mezmur 23:4 ("Karanlık ölüm vadisinden geçsem bile... Çomağın, değneğin güven verir bana"). Tam ifadeler *doğrulanmalı*.
 
 ### 1.1 Metnin anlattığı
 
@@ -44,7 +44,7 @@ Bütün alıntılar **[yakın aktarım]**dır (§15). Kutsal Kitap siteleri ağ 
 
 ### 1.2 Oyunun eklediği kurgusal katman
 
-Tamar'ın sabahı; akıntı gibi davranan kalabalık; kil düdük; Şifra (2. bölümdeki kamp büyüğü Amram'ın dulu, Kefarnahumlu; Luka 8:3'teki kadınlardan biri olarak kurgulanmıştır); yakınlarının yamaçtaki yerleri ve Kalabalıktaki Yüzler; aşağıdaki yolda konaklamış Samiriyeli kervan; Tamar'ın bileğindeki çivit iplik; Hananya'nın testisi; Mika ve annesinin avlulu evi, Tamar'ın odası ve dam; baharatların cinsi; yağın paylaşımı; taşın, kanalın ve avlucuğun ölçüleri; Şabat odasındaki metinler; Yoram'la konuşma; Mika ve üç yıldız.
+Tamar'ın sabahı; akıntı gibi davranan kalabalık; kil düdük; Şifra (2. bölümdeki kamp büyüğü Amram'ın dulu, Kefarnahumlu; Luka 8:3'teki kadınlardan biri olarak kurgulanmıştır); yakınlarının yamaçtaki yerleri ve Kalabalıktaki Yüzler; Tamar'ın bileğindeki çivit iplik; Hananya'nın testisi; Mika ve annesinin avlulu evi, Tamar'ın odası ve dam; baharatların cinsi; yağın paylaşımı; taşın, kanalın ve avlucuğun ölçüleri; Şabat odasındaki metinler; Yoram'la konuşma; Mika ve üç yıldız.
 
 ### 1.3 Bu bölümün kırmızı çizgileri
 
@@ -77,7 +77,7 @@ Tamar'ın sabahı; akıntı gibi davranan kalabalık; kil düdük; Şifra (2. b�
 | İki suçlu; yüzbaşı ve askerler | Kanonik | İnfaz | 23:42, 23:47 yalnızca metin | Roma yardımcı birlik kiti (1 gövde, 2 kafa): miğfer, zincir zırh, oval kalkan, çivili sandalet; Tapınak muhafızlarıyla karışmaz |
 | Arimatyalı Yusuf; Pilatus | Kanonik | Gömme; köprü tablosu | Yusuf'un sözü yok; Pilatus 23:4 | Kit varyantı; tablolarda |
 | Şifra (≈60) | Kurgusal (2. bölümden) | Yoldaş; 3. ışık. Amram'ın dulu, Kefarnahumlu; Celile'den gelen kadınlardan | — | 4 yön; yeni portre (3 ifade); 10. bölümle ortak |
-| Yoram, Natan, Dositeos, Hananya | Kurgusal (ana kadro) | Önceki seçimlerin yüzleri | — | Mevcut sprite ve portreler |
+| Yoram, Natan, Hananya | Kurgusal (ana kadro) | Önceki seçimlerin yüzleri | — | Mevcut sprite ve portreler |
 | Abiezer, Asa, vergi görevlisi ve karısı, iki Mecdelli komşu | Kurgusal (4. bölüm) | Kalabalıktaki Yüzler | — | Mevcut kit |
 | Mika (7) ve annesi | Kurgusal | Ev sahibi aile; yan hikâye | — | Mika 4 yön, portre yok; annesi kit varyantı; 10. bölümle ortak |
 
@@ -93,11 +93,11 @@ Tamar'ın sabahı; akıntı gibi davranan kalabalık; kil düdük; Şifra (2. b�
                 |                          | (x40–50), ağıt yakanlar   |
 ```
 
-A (x0–14) 8. bölümün dış kapı sokağından inen ara sokaktır. B (x15–35) 8 karoluk caddedir; kuzeyde beş kapı girintisi (G1 x18, G2 x22, G3 x27, G4 x32, G5 x35), güneyde sundurmalar, x30'da güneyden kır yolu. C (x36–52) 5 karoya daralır; kuzeyde duvara bitişik kemerli su teknesi (x44–46), güneyde basamaklı cephede (x40–50) ağıt yakan kadınlar. D (x53–72) Bahçe Kapısı ve yamacın başı; kapının dış yüzü 10. bölümün Sokaklar haritasındaki kapıyla aynı çizimdir. *Karo seti:* Yeruşalim (ortak). *Işık:* Geç sabah, %30 solmuş LUT, toz; dinamik ışık yok. *Paralaks:* Yukarı kent, Hirodes sarayının kuleleri. *Dayanak:* Valinin Yeruşalim'de Hirodes sarayında kalması (Philon, *Gaius'a Elçilik* 299; Josephus, *Yahudi Savaşı* 2.301); ikinci surun başladığı Gennat (Bahçe) Kapısı (Josephus, *Yahudi Savaşı* 5.146); kentin dışındaki infaz yeri (Yh 19:20; İbraniler 13:12). Josephus ve Philon gönderimleri *doğrulanmalı*.
+A (x0–14) 8. bölümün dış kapı sokağından inen ara sokaktır. B (x15–35) 8 karoluk caddedir; kuzeyde beş kapı girintisi (G1 x18, G2 x22, G3 x27, G4 x32, G5 x35), güneyde sundurmalar, x30'da güneyden kır yolu. C (x36–52) 5 karoya daralır; kuzeyde duvara bitişik kemerli su teknesi (x44–46), güneyde basamaklı cephede (x40–50) ağıt yakan kadınlar. D (x53–72) Bahçe Kapısı ve yamacın başı; kapının dış yüzü 10. bölümün Sokaklar haritasındaki kapıyla aynı çizimdir. *Karo seti:* Yeruşalim (ortak). *Işık:* Geç sabah, %30 solmuş LUT, toz; dinamik ışık yok. *Paralaks:* Yukarı kent, Hirodes sarayının kuleleri. *Dayanak:* Valinin Yeruşalim'de Hirodes sarayında kalması (Philon, *Gaius'a Elçilik* 299; Josephus, *Yahudi Savaşı* 2.301); ikinci surun başladığı Gennat (Bahçe) Kapısı (Josephus, *Yahudi Savaşı* 5.146); kentin dışındaki infaz yeri (Yh 19:20; İbraniler 13:12). Josephus ve Philon gönderimleri *doğrulanmalı*. Harita rotanın gidişine göre çizilir (7. bölümdeki Eriha bölmeleri gibi): +x ekseni ve kuzey/güney yaka adları pusula yönü değildir. Bahçe Kapısı'nın çizimi 10. bölümle ortaktır: kapı kuzey surdadır ve kentten çıkış kuzeye doğrudur. D kesiminin paralaksında Kral Hirodes'in üç kulesi kapının batı yanında (çıkarken solda) durur; Sahne 8'in ilk karesinde (dönüş) kuleler sağdadır.
 
 ### 4.2 Set-piece B — Golgota'ya bakan yamaç (yan görünüm)
 
-Katmanlar: ön plan kaya ve çalı; **taşlık sırt** (tek düzlem, 32×48: Tamar, yakınları ve Celile'den gelen kadınlar; kanonik üç kadın Tamar'ın bir adım sağında, tümseğe daha yakın); taş ocağı çukuru ve aşağıdaki yol (konaklamış kervanın çadırları); kayalık tümsek ve üç silüet; sur ve damlar; gök (LUT). Hacimsel ışık yalnızca K6'da. 64×96 büyük sprite bu set-piece'te kullanılmaz; omza el koyma gibi temaslar aynı ölçekte çizilir. **Uzak kompozisyon** (erişilebilirlik, §14): tümsek, silüet, sur ve gök katmanları daha uzak bir ölçekte elle yeniden çizilir; sırt dizisi aynı kalır (motor ölçeklemez, GDD §11.2). *Dayanak:* Kutsal Kabir bölgesindeki eski taş ocağı (*doğrulanmalı*).
+Katmanlar: ön plan kaya ve çalı; **taşlık sırt** (tek düzlem, 32×48: Tamar, yakınları ve Celile'den gelen kadınlar; kanonik üç kadın Tamar'ın bir adım sağında, tümseğe daha yakın); taş ocağı çukuru ve aşağıdaki yol; kayalık tümsek ve üç silüet; sur ve damlar; gök (LUT). Hacimsel ışık yalnızca K6'da. K6'da dönen soluk ışık tümseğin arkasından değil, yandan ve yukarıdan gelir; ışık demeti ya da açılan gök parçası İsa'nın silüetinin hemen arkasında toplanmaz; silüetlerin kenar ışığı sırttaki figürlerinkiyle aynı yoğunluktadır (GDD §11.6). 64×96 büyük sprite bu set-piece'te kullanılmaz; omza el koyma gibi temaslar aynı ölçekte çizilir. **Uzak kompozisyon** (erişilebilirlik, §14): tümsek, silüet, sur ve gök katmanları daha uzak bir ölçekte elle yeniden çizilir; sırt dizisi aynı kalır (motor ölçeklemez, GDD §11.2). *Dayanak:* Kutsal Kabir bölgesindeki eski taş ocağı (*doğrulanmalı*).
 
 ### 4.3 Harita C — Mezar bahçesi (30×22 karo; 10. bölümde yeniden kullanılır)
 
@@ -111,7 +111,7 @@ Aşağı kentte avlulu bir ev. Ev sahibesi Mika'nın annesidir; bayramda odalar�
 
 ### 4.5 Yeniden kullanım — 8. bölümün Harita C'si
 
-Kayafa'nın konağının dış kapısı ve sokağı; yalnızca Sahne 1'de, gri şafak LUT'uyla (8. bölümün Sahne 15'i buradan devredilir).
+başkâhinin konağının dış kapısı ve sokağı; yalnızca Sahne 1'de, gri şafak LUT'uyla (8. bölümün Sahne 15'i buradan devredilir).
 
 ## 5. Sahne Akışı
 
@@ -206,7 +206,7 @@ Yürümek, Bakış, nesnelere Etkileşim ile bakmak, oturmak ve Söz açıktır.
 
 | Fiil | Tepki | Neden |
 |---|---|---|
-| Kandil | "Şabat'ta ateş yakılmaz; kandil yerinde kalsın." | Şabat (Çıkış 35:3; Mişna Şabat 2:5) |
+| Kandil | "Şabat'ta ateş yakılmaz; kandil yerinde kalsın." | Şabat (Mısır'dan Çıkış 35:3; Mişna Şabat 2:5) |
 | Taşı / Dök | Oda içinde testiden su içmek serbesttir: Tamar içer. Testiyle kapıya yürünürse eşikte durur: "Bugün evden dışarı yük çıkarmam." | Şabat (Yeremya 17:22; Mişna Şabat 1:1) |
 | Ez / Karıştır | "Havan bugün dinlenir." | Şabat (öğütmek; Mişna Şabat 7:2) |
 | Bağla / Çöz | İpe uzanınca: "Bu düğümler kalıcı; Şabat'tan sonra." | Şabat (kalıcı düğüm; Mişna Şabat 7:2, 15:1–2) |
@@ -219,7 +219,7 @@ Yürümek, Bakış, nesnelere Etkileşim ile bakmak, oturmak ve Söz açıktır.
 | Nesne | Koşul | İç ses |
 |---|---|---|
 | Değnek (1) | — | "Babamın değneği. 'Karanlık ölüm vadisinden geçsem bile kötülükten korkmam' diye mırıldanırdı. Dün o vadiden geçtim. Korktum." (Mezmur 23:4, [yakın aktarım]) |
-| Testi (2) | `b05_dositeos`, `kol_b05_civit_iplik` | "Bu testinin kulpu kırıldığı gün Dositeos arabamı kaldırmıştı." + `yuk_birakti`: "Dün yolun aşağısından elini kaldırdı; yukarı çıkmadı, ben de inmedim. 'Komşum kim?' diye artık sormuyorum." · `para_gonderdi`: "Dün yolun aşağısından başını eğdi. Ben de eğdim; o kadar." · `gecti`: "Dün aşağıda kervanının çadırlarını gördüm; kendisini görmedim. Yollar böyle kesişip ayrılıyor." + `kol_b05_civit_iplik` varsa: "Baş bezinden bileğime takılan iplik dün karanlıkta tek renkli şeydi." |
+| Testi (2) | `b05_dositeos`, `kol_b05_civit_iplik` | "Bu testinin kulpu kırıldığı gün Dositeos arabamı kaldırmıştı." + `yuk_birakti`: "Yolda onun için yükümü bırakmıştım. Komşum kim diye artık sormuyorum." · `para_gonderdi`: "Ona para ve haber göndermiştim. O gün elimden gelen oydu." · `gecti`: "O gün yoluma gitmiştim; o da kendi yolunu bulmuş. Yollar böyle kesişip ayrılıyor." + `kol_b05_civit_iplik` varsa: "Baş bezinden bileğime takılan iplik dün karanlıkta tek renkli şeydi." |
 | Söz halkası (3) | `b08_kapi` | "Bu bileziğe her sözü bir düğümle bağladım." + `itiraf`: "Kapıda 'Onlardanım' dedim; o söz tenime yazıldı." · `inkar`: "Kapıda 'Tanımıyorum' dedim. Düğümünü atmadım, ama çözemiyorum da." · `sessiz`: "Kapıda hiçbir şey demedim. Bir düğümün yeri boş." |
 | Kandil (4) | `b08_yahuda` | `kandil_uzatti`: "Merdivende bunu ona uzatmıştım. Almadı." · `sordu`: "Ona bir şey sormuştum; yanıt vermedi. Bu ışıkta yüzünü gördüm, o kadar." · `sustu`: "Kandilim yanıyordu, dilim yanmıyordu." · `geri_cekildi`: "Geri çekildim, kandili de kendime çektim. Dışarısı geceydi." + her yolda: "Kandilim kimseyi durdurmadı; durdurmak için yakılmamıştı." |
 | İp (5) | — | "Beytanya'da bu iple bir taşı çektik. Dün bir taşın kanaldan kayıp mezarın ağzına oturduğunu gördüm. Şabat bitmeden bu ipe düğüm atmam." |
@@ -252,7 +252,7 @@ Yürümek, Bakış, nesnelere Etkileşim ile bakmak, oturmak ve Söz açıktır.
 
 | Adım | Süre | Ekranda | Metin / ses |
 |---|---|---|---|
-| Kg | 60 sn | Kadınlar Bahçe Kapısı'ndan çıkıp yamaca tırmanır (otomatik); sırta yerleşirler. Aşağıdaki yolda konaklamış kervan (§8.2) | Uğultu, ağıt; Kal simgesi henüz yok |
+| Kg | 60 sn | Kadınlar Bahçe Kapısı'ndan çıkıp yamaca tırmanır (otomatik); sırta yerleşirler | Uğultu, ağıt; Kal simgesi henüz yok |
 | K0 | 40 sn | Kalabalık tümseği kapatır; dağılınca göğe karşı üç silüet | 23:33; Kal simgesi belirir |
 | K1 | 60 sn | Çömelmiş askerler (kura sesi yok) | §9-5, ardından 23:34a ve 23:34b (§9-6) |
 | K2 | 50 sn | Okunmayan soluk bir levha | 23:35a; anlaşılmayan uzak sesler |
@@ -264,7 +264,7 @@ Yürümek, Bakış, nesnelere Etkileşim ile bakmak, oturmak ve Söz açıktır.
 
 Toplam ≈475 sn (≈8 dk).
 
-**Yerleşim (sırtta, soldan sağa tümseğe doğru):** Şifra Tamar'ın solunda; kanonik üç kadın Tamar'ın bir adım sağında, tümseğe daha yakın. Yoram `yasakladi` Tamar ile Şifra'nın arasında; `erteledi` K4'te gelip aynı yere geçer ("Seni her yerde aradım"); `kutsadi` bir adım yukarıda, Celile'den gelen erkeklerle. Natan `girdi` Tamar'ın hemen arkasında, bir adım yukarıda; `disarida_konustu` K2'de üç adım uzakta, K7'de yanına gelir. Dositeos yalnızca Kg'de, aşağıdaki yolda görünür (§8.2). Tamar ilk kez diz çökünce yanındaki ilk kişi (Yoram, yoksa Şifra) elini omzuna koyar; aynı 32×48 düzlemde çizilir (senaryo, kayıt yok).
+**Yerleşim (sırtta, soldan sağa tümseğe doğru):** Şifra Tamar'ın solunda; kanonik üç kadın Tamar'ın bir adım sağında, tümseğe daha yakın. Yoram `yasakladi` Tamar ile Şifra'nın arasında; `erteledi` K4'te gelip aynı yere geçer ("Seni her yerde aradım"); `kutsadi` bir adım yukarıda, Celile'den gelen erkeklerle. Natan `girdi` Tamar'ın hemen arkasında, bir adım yukarıda; `disarida_konustu` K2'de üç adım uzakta, K7'de yanına gelir. Tamar ilk kez diz çökünce yanındaki ilk kişi (Yoram, yoksa Şifra) elini omzuna koyar; aynı 32×48 düzlemde çizilir (senaryo, kayıt yok).
 
 **Kanon güvencesi:** Bütün metinler her yolda belirir; hiçbir girdi olayların süresini, sırasını ya da biçimini değiştirmez. Gözleri kapatmak K0–K5'te hiçbir metni ya da sesi kaçırtmaz; görsel olaylar metinle de verilir (23:33, 23:34b). K6'da gözler kendiliğinden açılır; K7'nin görsel sonuçları (Kalabalıktaki Yüzler, Simun'un geçişi) her yolda görülür.
 
@@ -290,15 +290,12 @@ Toplam ≈475 sn (≈8 dk).
 |---|---|---|
 | `b08_kapi` | `itiraf` / `inkar` / `sessiz` | Sahne 1 başlangıcı (8. bölümün Harita C'si) ve iç ses: sokağın köşesinde, "Köşeye itildim. Oradan kalkmadım; güneş doğdu." / kapının önünde, "'Tanımıyorum' dedim; güneş doğdu, ben hâlâ kapıdaydım." / duvarın dibinde, "Hiçbir şey demedim. Ben de bir duvar gibi durdum." Söz halkası metni (§6.3) |
 | `b04_yoram` | `kutsadi` | Öğrencilerle birliktedir; yamaçta bir adım yukarıda, Celile'den gelen erkeklerle durur. Sahne 12'de kentin içinden yürüyüp gelir: §9-14 |
-| | `yasakladi` | Tamar onu Mecdel'de sanır (8. bölüm); oysa Yoram bayram için Mecdelli komşularla gelmiş, hacıların kaldığı Aşağı Kent'te kalmıştır. Sahne 2'de ara sokakta Tamar'ı bulur: "Anne! Komşularla bayrama geldim; hangi evde çalıştığını bilmiyordum. Sabahtan beri seni arıyorum. Buradan çıkalım." Tamar (iç ses): "Çıkamayız. Kalabalık bizi taşıyor." K7'de sessizce kente döner. Sahne 12: "Gitmeme izin vermedin. Belki iyi ki. Gitseydim ne değişecekti? Her şey bitti." |
+| | `yasakladi` | Yoram bayram için Yeruşalim'e gelmiş, kent dışındaki hacı kampında Zebedi'nin işçileriyle kalmıştır (8. bölüm). Sabah kente iner; Sahne 2'de ara sokakta Tamar'ı bulur: "Anne! Kamptan indim; hangi evde çalıştığını bilmiyordum. Sabahtan beri seni arıyorum. Buradan çıkalım." Tamar (iç ses): "Çıkamayız. Kalabalık bizi taşıyor." K7'de sessizce kente döner. Sahne 12: "Gitmeme izin vermedin. Belki iyi ki. Gitseydim ne değişecekti? Her şey bitti." |
 | | `erteledi` | Kentte hamaldır (8. bölüm). K4'te gelir. Sahne 12: "Fısıh'tan sonra konuşacaktık, anne. Fısıh geldi. Her şey bitti." |
 | `b06_esik` | `girdi` | Bayrama Tamar'la gelmiştir; Sahne 2'de onu bulur, baştan yanındadır; K7'de §9-11; odada duvara yaslanmış |
 | | `disarida_konustu` | K2'de birkaç adım ötede; K7'de yanına gelip su uzatır; odada eşikte oturur |
 | | `gitti` | Yok. K7 iç sesi: "Natan... O gece annem onu bir postun içine saklamıştı. Burada olsaydı ne derdi?" |
-| `b05_dositeos` | her değer | Samiriyeli kervan bayram ve Şabat boyunca aşağıdaki yolda konaklamıştır; yük taşınmaz. Dositeos sırta çıkmaz, Tamar'a dokunmaz; yalnızca Kg'de, tırmanış sırasında uzaktan görünür (gözler henüz kapatılamaz) |
-| | `yuk_birakti` | Çadırının önünden sırttaki kadınlara doğru elini kaldırır. Testi metni (§6.3) |
-| | `para_gonderdi` | Çadırının önünde durup bir an yukarı bakar, başını eğer. Testi metni |
-| | `gecti` | Yalnızca çadırlar görünür. Testi metni |
+| `b05_dositeos` | her değer | Dositeos bu bölümde görünmez (GDD §8.6). Yalnızca Şabat odasında testinin hatıra metni okunur (§6.3). |
 | `kol_b05_civit_iplik` | toplandıysa | İplik Tamar'ın bileğine bağlıdır; K4'te maske onu renkli tutar (5. bölümün çivit kafiyesi). Testi metnine bir cümle eklenir; dokuma bandında kenarda tek çivit iplik. Toplanmadıysa K4'te yalnızca örtüler renklidir |
 | `b04_ifade_ilk_sepet` | `yaslilar` | K7: Horazinli Abiezer başını eğer: "Yamaçta ilk ekmeği bize sen uzatmıştın, kızım." |
 | | `cocuklar` | Asa koşup bir an Tamar'ın elini tutar, sözsüz döner |
@@ -314,7 +311,7 @@ Toplam ≈475 sn (≈8 dk).
 ## 9. Diyalog Örnekleri
 
 1. **Sara:** "Nine, yarın yola çıkınca dönüp arkamıza bakabilecek miyiz?" — **Yaşlı Tamar:** "Bakabilirsin. Ben bir kez çok uzaktan baktım, Sara. Gözümü ayıramadım; kapattığım da oldu."
-2. **Pilatus (Luka 23:4, tablo):** "Bu adamda hiçbir suç bulmuyorum." [yakın aktarım] — **Yaşlı Tamar:** "Valinin kapısında olanları görmedim; sonradan anlattılar. Kararı o verdi, askerler O'nu aldı."
+2. **Pilatus (Luka 23:4, tablo):** "Bu adamda hiçbir suç bulmuyorum." [yakın aktarım; kanonik replik] — **Yaşlı Tamar:** "Valinin kapısında olanları görmedim; sonradan anlattılar. Kararı o verdi, askerler O'nu aldı."
 3. **Tamar (iç ses):** "Kimse beni duymuyor. Bu sürü benim değil; ben sürünün içindeyim."
 4. **İsa (Luka 23:28–31; tek konuşma, art arda):**
    - 23:28: "Ey Yeruşalim kızları, benim için ağlamayın; kendiniz ve çocuklarınız için ağlayın."
@@ -324,10 +321,10 @@ Toplam ≈475 sn (≈8 dk).
    [yakın aktarım; tam ifade *doğrulanmalı*] — **Yaşlı Tamar:** "Kendi acısının ortasında dönüp bizim gözyaşımızı gördü, Sara."
 5. **Yaşlı Tamar:** "Orada söylenenleri duymadım, Sara. Uzaktaydık. Sözler bize sonradan, ağızdan ağıza ulaştı."
 6. **İsa (Luka 23:34a):** "Baba, onları bağışla, çünkü ne yaptıklarını bilmiyorlar." [yakın aktarım; Kodeks 5] — **Anlatı metni (Luka 23:34b):** "Askerler kura çekerek O'nun giysilerini aralarında paylaştılar." [yakın aktarım]
-7. **Suçlu (Luka 23:42):** "İsa, egemenliğine kavuştuğun zaman beni anımsa!" — **İsa (Luka 23:43):** "Sana doğrusunu söyleyeyim, sen bugün benimle birlikte cennette olacaksın." [yakın aktarım]
+7. **Suçlu (Luka 23:42):** "İsa, egemenliğine kavuştuğun zaman beni anımsa!" [yakın aktarım; kanonik replik] — **İsa (Luka 23:43):** "Sana doğrusunu söyleyeyim, sen bugün benimle birlikte cennette olacaksın." [yakın aktarım]
 8. **Yaşlı Tamar (K4):** "Babamın ninnisi geldi aklıma: 'Karanlık ölüm vadisinden geçsem bile...' Sonunu getiremedim." (Mezmur 23:4, [yakın aktarım])
 9. **Anlatı metni (Luka 23:46):** "İsa yüksek sesle, 'Baba, ruhumu ellerine bırakıyorum!' diye haykırdı. Bunu söyleyince son nefesini verdi." [yakın aktarım]
-10. **Yüzbaşı (Luka 23:47):** "Bu adam gerçekten doğru biriydi." [yakın aktarım]
+10. **Yüzbaşı (Luka 23:47):** "Bu adam gerçekten doğru biriydi." [yakın aktarım; kanonik replik]
 11. **Natan (`girdi`):** "O gece askerler gelince beni bir postun içine sakladınız. Bugün kimseyi saklayamadık, abla."
 12. **Hananya (`yakin`):** "Şabat'a az kaldı, komşu. Ölüye hazırlık mı? Al şu testiyi; benim kandilim dolu."
 13. **Şifra:** "Şabat kapıda, kızım. Baharatı döv, yağı böl; kandili de unutma, gece uzun."
@@ -358,11 +355,11 @@ Golgota'da ve Şabat günü nesne bulunmaz.
 5. **Luka'nın aktardığı sözler.** 23:34a bazı eski elyazmalarında yoktur (YC'deki sunuluşu *doğrulanmalı*). 23:46, Mezmur 31:5'i anımsatır (İbranice metinde 31:6). Markos 15:34 ve Yuhanna 19:26–30'daki sözler §2.3 gereği kullanılmaz.
 6. **Saatler ve gün.** YC saatleri günümüze çevirir (*doğrulanmalı*); Markos 15:25 ve Yuhanna 19:14 farklıdır. Karanlık için doğa olayı açıklaması önerilmez. Sinoptik İncillerde bu Cuma bayramın ilk günüdür (Levililer 23:6–7); Yuhanna'da Fısıh'tan önceki Hazırlık Günü'dür (19:14). Yusuf'un keten bez alması (Mk 15:46) ve baharat hazırlığı bu farkla birlikte tartışılır. Oyun yıl vermez.
 7. **Yazıt ve askerler.** 23:38'deki yazıt valinin siyasal suçlamasıdır, bir halkı anlatmaz; Tamar okuyamaz. Valinin askerleri Roma yardımcı birlikleriydi; çoğu Sebaste ve Sezariye'nin Yahudi olmayan halkından toplanmıştı (Josephus, *Yahudi Eski Eserleri* 19.365; 20.176; *doğrulanmalı*). Yüzbaşının sözü Luka 23:47'dendir; Markos 15:39 farklıdır.
-8. **Uzakta duran kadınlar ve Yusuf.** Luka 8:1–3; 23:49, 55. Luka bu kadınlardan üçünün adını 24:10'da verir: Mecdelli Meryem, Yohanna, Yakup'un annesi Meryem. Listeler Markos 15:40–41 ve Yuhanna 19:25'te farklıdır. Asılan gün batmadan gömülür (Yasanın Tekrarı 21:22–23); Josephus da çarmıha gerilenlerin gün batmadan indirilip gömüldüğünü yazar (*Yahudi Savaşı* 4.317; *doğrulanmalı*). Givat ha-Mivtar'da (1968) bulunan bir kemik sandığı, çarmıha gerilen birinin aile mezarına gömülebildiğini gösterir (*doğrulanmalı*).
+8. **Uzakta duran kadınlar ve Yusuf.** Luka 8:1–3; 23:49, 55. Luka bu kadınlardan üçünün adını 24:10'da verir: Mecdelli Meryem, Yohanna, Yakup'un annesi Meryem. Listeler Markos 15:40–41 ve Yuhanna 19:25'te farklıdır. Asılan gün batmadan gömülür (Yasa'nın Tekrarı 21:22–23); Josephus da çarmıha gerilenlerin gün batmadan indirilip gömüldüğünü yazar (*Yahudi Savaşı* 4.317; *doğrulanmalı*). Givat ha-Mivtar'da (1968) bulunan bir kemik sandığı, çarmıha gerilen birinin aile mezarına gömülebildiğini gösterir (*doğrulanmalı*).
 9. **Kaya mezarlar.** Cesetler sekilere yatırılırdı. Kapama taşlarının çoğu kare tıkaçtı; yuvarlak taşlar azdı ve varlıklı aile mezarlarında görülür (Amos Kloner; *doğrulanmalı*). Bu mezarın taşı yuvarlaktır ve kanalda yuvarlanır (Markos 15:46; 10. bölüm Kodeks 1). Luka 24:2; Yuhanna 19:41 (bahçe, yeni mezar).
 10. **Baharat.** Luka'da Şabat'tan önce hazırlanır (23:56), Markos 16:1'de Şabat'tan sonra satın alınır. Mür, öd ağacı ve tarçın birlikte anılır (Ezgiler Ezgisi 4:14; Mezmur 45:8; *doğrulanmalı*). Yuhanna 19:39'da Nikodim mür ve öd ağacı getirir; Luka'da Nikodim yoktur.
-11. **Şabat'ın girişi.** Bir kâhin Tapınak'tan boruyla Şabat'ın başını ve sonunu duyururdu (Josephus, *Yahudi Savaşı* 4.582). Mişna, Şabat arifesinde halkı işten çekmek için çalınan borulardan söz eder (Sukka 5:5; *doğrulanmalı*). Güneybatı köşesindeki "boru çalma yeri" yazıtı bununla ilişkilendirilir (*doğrulanmalı*). Kandil evde, karanlıktan önce yakılır (Mişna Şabat 2:7).
-12. **Şabat'ta dinlenme.** Ateş yakılmaz (Çıkış 35:3; Mişna Şabat 2:5). Yük evden dışarı ve kapılardan taşınmaz (Yeremya 17:21–22; Mişna Şabat 1:1); ev içinde su içmek gibi gündelik işler serbesttir. Öğütmek ve kalıcı düğüm atıp çözmek yasak işler arasındadır (Mişna Şabat 7:2); giysi, sandalet ve tulum düğümleri serbesttir (15:1–2; *doğrulanmalı*). Şabat'ın üç orta boy yıldızla bittiği, gündüz de görünen büyük yıldızın sayılmadığı geç kaynaklarda geçer (Babil Talmudu Şabat 35b; Kudüs Talmudu Berakot 1:1; *geleneksel*).
+11. **Şabat'ın girişi.** Bir kâhin Tapınak'tan boruyla Şabat'ın başını ve sonunu duyururdu (Josephus, *Yahudi Savaşı* 4.582). Mişna, Şabat arifesinde halkı işten çekmek için çalınan borulardan söz eder (Sukka 5:5; *doğrulanmalı*) (Mişna MS 200 dolayında yazıya geçmiştir; birinci yüzyıl uygulaması doğrulanmalı). Güneybatı köşesindeki "boru çalma yeri" yazıtı bununla ilişkilendirilir (*doğrulanmalı*). Kandil evde, karanlıktan önce yakılır (Mişna Şabat 2:7).
+12. **Şabat'ta dinlenme.** Şabat'ta yasak işleri Mişna sayar (Mişna MS 200 dolayında yazıya geçmiştir; birinci yüzyıl uygulaması doğrulanmalı). Ateş yakılmaz (Mısır'dan Çıkış 35:3; Mişna Şabat 2:5). Yük evden dışarı ve kapılardan taşınmaz (Yeremya 17:21–22; Mişna Şabat 1:1); ev içinde su içmek gibi gündelik işler serbesttir. Öğütmek ve kalıcı düğüm atıp çözmek yasak işler arasındadır (Mişna Şabat 7:2); giysi, sandalet ve tulum düğümleri serbesttir (15:1–2; *doğrulanmalı*). Şabat'ın üç orta boy yıldızla bittiği, gündüz de görünen büyük yıldızın sayılmadığı geç kaynaklarda geçer (Babil Talmudu Şabat 35b; Kudüs Talmudu Berakot 1:1; *geleneksel*) (Kudüs Talmudu MS 400, Babil Talmudu MS 500 dolayında yazıya geçmiştir; doğrulanmalı).
 
 ## 11. Yan Hikâye — Üç Yıldız (≈5 dk, Harita D: avlu ve dam)
 
@@ -396,9 +393,9 @@ Golgota'da ve Şabat günü nesne bulunmaz.
 - **Tablo "Mezara konuluş":** Beden baştan ayağa keten beze sarılı, baş örtülü; yara, el ve ayak ayrıntısı yoktur. Kompozisyon kadınların arkasından mezar ağzına doğrudur; Yusuf ve adamları yanda. Yuvarlak kapama taşı kanalın yukarı ucunda, takozla durur; henüz kapatılmamıştır.
 - **Ölçek:** Set-piece B'de sırttaki dizi Tamar dahil tek düzlemde 32×48'dir; 64×96 büyük sprite bu bölümde kullanılmaz. Uzak kompozisyon tümsek, silüet, sur ve gök katmanlarının elle çizilmiş ikinci bir sürümüdür.
 - **Özel animasyonlar:** Kal'ın dört durumu (32×48); sendeleme; İsa'nın kirişle yürüyüşü; kirişin Simun'a aktarımı; Simun'un taşıması ve omuz ovması; çömelmiş askerler; ağıt; göğsünü döven kalabalık; yüzbaşının geri çekilişi; omza el koyma; takozun çekilmesi ve taşın kanaldan kayışı (elle çizilmiş kareler, GDD §11.2); hasırda yatış; el tutarak oturma; işaret etme; Şabat jest seti.
-- **İsa:** Yolda 4 yönlü, uzak, arkadan; Simun olayına dek kiriş omzunda; 23:28'de yalnızca baş ve omuz dönüşü; Golgota'da kımıldamayan arka plan silüeti. Göz pikseli, hale yok (§11.6).
+- **İsa:** Yolda 4 yönlü, uzak, arkadan; Simun olayına dek kiriş omzunda; 23:28'de yalnızca baş ve omuz dönüşü; Golgota'da kımıldamayan arka plan silüeti. Göz pikseli, hale yok (§11.6). K6'da dönen soluk ışık tümseğin arkasından değil, yandan ve yukarıdan gelir; ışık demeti ya da açılan gök parçası İsa'nın silüetinin hemen arkasında toplanmaz; silüetlerin kenar ışığı sırttaki figürlerinkiyle aynı yoğunluktadır (GDD §11.6).
 - **Simun ve askerler:** Simun boyasız yün gömlek ve kahverengi kuşakla İsa'dan her ölçekte ayrılır. Askerler açık Roma işaretleri taşır (miğfer, zincir zırh, oval kalkan, çivili sandalet).
-- **GDD tavanları:** Yan görünüm set-piece'i **1** ("Golgota silüeti"); tablo **2** ("Pilatus'un önünde (Luka 23)", "mezara konuluş (Luka 23:53)"); Anlatılan Sahne yalnızca tablolarda.
+- **GDD tavanları:** Yan görünüm set-piece'i **1** ("Golgota silüeti"); tablo **2** ("Pilatus'un önünde (Luka 23)", köprü tablosu; "mezara konuluş (Luka 23:53)"; oyun genelindeki 8 tablonun ikisi, tavan 12); Anlatılan Sahne yalnızca tablolarda. §14'teki "Tablolarla özet" set-piece karelerinden türetilir, yeni tablo üretmez ve tavana sayılmaz.
 
 ## 14. Erişilebilirlik ve Zorluk Ayarları
 
@@ -415,20 +412,20 @@ Golgota'da ve Şabat günü nesne bulunmaz.
 - [x] **D.** Karma çubuğu yok; her diyalogda *Sessiz kal*; öfke saygıyla yazılır; ilişki hiçbir yolda kötüleşmez; gözleri kapatmak kaydedilmez.
 - [x] **E.** Kalabalık genellenmez; Pilatus tablosunda bağıran yüz, kâhin karikatürü, "Çarmıha ger!" yok; alay sözleri sahnede yok; Matta 27:25 yok; karar valinin, infaz Roma'nın; askerlerin Yahudi olmayan yardımcı birlikler olduğu Kodeks'te; Hananya ve Yusuf ölüye saygıyı yaşayan Yahudilerdir; Şabat yasakları doğru kaynakla verilir, serbest olanlar açıktır; Simun açıkça ayrıdır; çivi, kan, çekiç yok. İçerik kartı farklı yorumları anar.
 - [x] **F ve §2.3.** Yardımcı birlik; Tamar okuyamaz; tartışmalı yerler "geleneksel"; Luka öncü; öbür Müjdeler Kodeks'te ya da işaretli tamamlayıcı görsellerde (Yh 19:17, 41; Mk 15:46); dönem dışı terim ve nesne yok.
-- [ ] **Kurul onayı bekleyenler:** 23:29–31'in tam metni; Mezmur 23:4'ün Golgota'da anlatıcı sesiyle söylenmesi; köprü tablosunun metni ve kompozisyonu; Simun'dan önce kirişi İsa'nın taşıması (Yh 19:17); kanonik üç kadının adsız görsel temsili; mezara konuluşta bedenin temsili; Samiriyeli kervanın uzaktan görünüşü; Natan'ın K7 cümlesi; Hananya'nın testisi.
+- [ ] **Kurul onayı bekleyenler:** 23:29–31'in tam metni; Mezmur 23:4'ün Golgota'da anlatıcı sesiyle söylenmesi; köprü tablosunun metni ve kompozisyonu; Simun'dan önce kirişi İsa'nın taşıması (Yh 19:17); kanonik üç kadının adsız görsel temsili; mezara konuluşta bedenin temsili; Natan'ın K7 cümlesi; Hananya'nın testisi.
 
 ## 16. Üretim Notları
 
 - **Haritalar:** 3 yeni (A; C ve D, 10. bölümde yeniden kullanılır) + 1 yeniden kullanım (8. bölümün Harita C'si, Sahne 1) + set-piece B. **Karo setleri:** Yeruşalim, iç mekân kiti, Yahudiye kırsalı (ortak).
 - **Karakterler:** Yeni portre 1 (Şifra, 3 ifade); Tamar'ın portresine 1 yeni ifade ("yorgun"). Yeni kit: Roma yardımcı birlik askerleri (1 gövde, 2 kafa), Simun varyantı, kanonik üç kadın (4 yön, portresiz; 10. bölümle ortak), Mika (4 yön; 10. bölümle ortak), Mika'nın annesi ve Yusuf (kit varyantı).
-- **Animasyon dizileri ≈38:** Tamar 15 (Kal'ın dört durumu, sendeleme, yamaç tırmanışı, hasırda yatış, el tutarak oturma, işaret etme, kepçe, çıra; Şabat jest seti 4: tek bir "uzanıp durma" dizisinin testi-eşik, havan, düğüm ve dudak kıpırtısı varyantları; testiden su içme ortak setten); İsa 2 (kirişle yürüyüş, baş ve omuz dönüşü); Simun 2 (taşıma, omuz ovma); kirişin aktarımı 1; askerler 2 (yürüyüş, çömelme); kadınlar 2 (ağıt, diz çökme); kanonik kadınlar 1 (sırtta duruş; yürüyüş ortak kitten); dönen kalabalık 1; Şifra 2 (el tutma, omza el); Yoram 2; Mika 2 (ağlama, işaret ve düdük); Natan, Hananya, Dositeos (el kaldırma), yüzbaşı, Yusuf'un adamları (takozu çekme) birer; taşın kanaldan kayışı 1 (elle çizilmiş kareler).
+- **Animasyon dizileri ≈37:** Tamar 15 (Kal'ın dört durumu, sendeleme, yamaç tırmanışı, hasırda yatış, el tutarak oturma, işaret etme, kepçe, çıra; Şabat jest seti 4: tek bir "uzanıp durma" dizisinin testi-eşik, havan, düğüm ve dudak kıpırtısı varyantları; testiden su içme ortak setten); İsa 2 (kirişle yürüyüş, baş ve omuz dönüşü); Simun 2 (taşıma, omuz ovma); kirişin aktarımı 1; askerler 2 (yürüyüş, çömelme); kadınlar 2 (ağıt, diz çökme); kanonik kadınlar 1 (sırtta duruş; yürüyüş ortak kitten); dönen kalabalık 1; Şifra 2 (el tutma, omza el); Yoram 2; Mika 2 (ağlama, işaret ve düdük); Natan, Hananya, yüzbaşı, Yusuf'un adamları (takozu çekme) birer; taşın kanaldan kayışı 1 (elle çizilmiş kareler).
 - **Set-piece:** 1 + **uzak kompozisyon** (tümsek, silüet, sur ve gök katmanları ikinci kez elle çizilir; GDD §13'ün zorunlu "daha uzak kamera" seçeneği için). **Tablo:** 2. **Ara sahne:** 2 montaj (Sahne 1 haber, Sahne 8 dönüş; 30'ar sn). **Ek:** ~35 adet 16×16 `kol_` dünya simgesi (tek atlas, Şabat odası).
-- **Riskler:** Tonun gösteriye kayması (karma inanç testleri); Pilatus tablosunun ve Simun aktarımının kuruldan geçmesi; örtü maskesinin kitte katman ayrımı gerektirmesi (teknik keşif; bilek ipliği de maske katmanı ister); 120 ajanlık akıntının ve Tamar'a bağlı kafile temposunun belirlenimciliği; Kal'ın "doğru tutma" sınavı sanılması (hedef: test oyuncularının %80'i "bırakmak da serbestti" diyebilmeli); Samiriyeli kervanın tarihsel inandırıcılığı (tarihçi).
-- **Kesme adayları:** Yan hikâye; köprü tablosu (aktarım kalır); Kalabalıktaki Yüzler tek varyanta; yağ paylaşımı (kandile sabit 2 ölçü); Dositeos'un uzak görünüşü (testi metni kalır). **Dokunulmaz:** Ölçülülük, Kal, Şabat odası (§16.4); taşın kanaldan kayışı ve Cuma hatıraları (10. bölümün B2'si bunlara dayanır).
+- **Riskler:** Tonun gösteriye kayması (karma inanç testleri); Pilatus tablosunun ve Simun aktarımının kuruldan geçmesi; örtü maskesinin kitte katman ayrımı gerektirmesi (teknik keşif; bilek ipliği de maske katmanı ister); 120 ajanlık akıntının ve Tamar'a bağlı kafile temposunun belirlenimciliği; Kal'ın "doğru tutma" sınavı sanılması (hedef: test oyuncularının %80'i "bırakmak da serbestti" diyebilmeli).
+- **Kesme adayları:** Yan hikâye; köprü tablosu (aktarım kalır); Kalabalıktaki Yüzler tek varyanta; yağ paylaşımı (kandile sabit 2 ölçü). **Dokunulmaz:** Ölçülülük, Kal, Şabat odası (§16.4); taşın kanaldan kayışı ve Cuma hatıraları (10. bölümün B2'si bunlara dayanır).
 
 ## 17. Açık Sorular
 
-1. "Pilatus'un önünde" tablosu 9. bölümde mi, 8. bölümde mi?
+1. Kapandı: "Pilatus'un önünde" bu bölümün köprü tablosudur (GDD §11.5); 8. bölümün tek tablosu sofra sözleridir. Köprü tablosu GDD §16.4'teki kesme listesindedir (aktarım kalır).
 2. YC ifadeleri: 23:26'nın başı, 23:29–31, 23:34a'nın dipnotu, 23:44'teki saatler, 23:49 ve 23:56 (*doğrulanmalı*).
 3. **Kadro kaydı (GDD §3.3):** Şifra tek kişidir: 2. bölümdeki kamp büyüğü Amram'ın karısı, bu bölümde onun dulu (Kefarnahumlu; 10. bölümdeki "değirmen taşı kesen ustanın dulu" ile aynı). 2. bölüme Amram'ın Kefarnahumlu bir değirmen taşı ustası olduğunu söyleyen bir satır eklenebilir; 2. bölüm farklı karar verirse yalnızca §1.2 ve §3'teki tanım değişir. 8. bölümün ev hanımı Atara adını almıştır. Mika ve annesi ev sahibi aile olarak 10. bölümle ortaktır.
 4. GDD §8.4'e işlenmeli: `b09_yoram_soz`'un `eks_kalp` eşlemesi (umut +1, öfke +1, "Buradayım" 0, *Sessiz kal* −1); `ilis_yoram` kuralı (umut ve sessiz yakınlık bir kademe yakına, öfke değiştirmez); 9'da `b08_kapi`, `ilis_hananya` ve `kol_b05_civit_iplik` okunur; `b04_ifade_ilk_sepet` değerlerine `andreas_dagitti`; yerel `b09_sabat_kandili` ve `b09_duduk`.
@@ -436,6 +433,6 @@ Golgota'da ve Şabat günü nesne bulunmaz.
 6. GDD §12 Mezmur 23'ün "Golgota'da döndüğünü", §2.2-A müziğin çekilmesini söylüyor; bu bölümün çözümü: Golgota'da yalnızca yaşlı Tamar'ın sesiyle söz, ezgi Şabat gecesinde.
 7. Yoram'ın "Her şey bitti"si Yuhanna 19:30 ("Tamamlandı") ile karışmamalı (*doğrulanmalı*).
 8. Kronoloji: GDD'nin sinoptik kararıyla bu Cuma 15 Nisan'dır (bayramın ilk günü); önerilen yıllar (MS 30, 33) ise Cuma'nın 14 Nisan'a düştüğü, Yuhanna'ya uyan yıllardır. Tamar'ın yaş çizelgesi (4. bölümde 42 yaş, MS 29) çarmıhı MS 31'e düşürüyor. Bölüm ekranda ve Kodeks'te yıl vermez; karar GDD düzeyinde.
-9. Samiriyeli Dositeos'un bayramda Yeruşalim yolunda bulunması zayıf kalıyor (Josephus, *Yahudi Eski Eserleri* 18.29–30). GDD §8.4 "9'da kalabalıkta" dediği için bölüm onu yalnızca aşağıdaki yolda, konaklamış kervanında, uzaktan gösterir. Tarihçi görüşüyle tamamen hatıraya indirilebilir (kesme adayı).
+9. Kapandı: Dositeos 9. bölümde görünmez; yalnızca testinin hatırası (GDD §8.6).
 10. Kal, Söz ve Kulak varsayılan olarak aynı tuşu paylaşıyor; Golgota'da başka girdi olmadığından çakışma yok, ama tuş denetiminde not edilmeli (bilinen Y ve LT çakışmalarıyla birlikte).
-11. 8. bölümdeki "Yoram'ı Mecdel'de bıraktığıma o gece sevindim" satırı korunabilir: Yoram'ın komşularla bayrama geldiğini Tamar 9. bölümün sabahında öğrenir.
+11. Kapandı: 8. bölüm Yoram'ı hacı kampına koyar ve Tamar bunu bilir; bu bölüm buna uyar.
