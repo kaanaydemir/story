@@ -23,7 +23,7 @@
 
 **Kısa tanıtım.** *Kandil*, İncil'deki on olayı birinci yüzyıl Celile'si ve Yahudiye'sinde yaşamış kurgusal bir tanığın gözünden anlatır. Oyuncu İsa'yı hiçbir zaman yönetmez, O'nun sözlerini seçmez. Olayların çevresindeki *insan işini* yapar: sürü güder, su taşır, ip bağlar, kandili rüzgâra karşı korur, duyduklarını birleştirip bir sonuca varır. Beş temel sistem on bölüm boyunca birbirine eklenerek derinleşir. Seçimler kanonu değiştirmez; Tamar'ın ilişkilerini, anlayışını ve sonunda nasıl tanıklık edeceğini şekillendirir. Görsel dil yıldız ışığıyla başlar, kandil ışığıyla sürer, öğle karanlığından geçer ve şafakta oyunun ilk tam renkli paletine açılır.
 
-**Neden PEGI 12?** Varsayılan hedef 7–12 aralığıydı. Beytlehem'deki çocukların öldürülmesine yapılan ima (yalnızca bir yas cümlesi ve bir tablo) ile çarmıh bölümü, en ölçülü anlatımla bile 7 etiketinin sınırlarını zorlar. Bu yüzden 12'yi hedefliyoruz; derecelendirme kuruluşlarının ön değerlendirmesi *doğrulanmalı*. Ailelere yönelik "birlikte oynanabilir" mesajı pazarlama üzerinden verilir.
+**Neden PEGI 12?** Varsayılan hedef 7–12 aralığıydı. Beytlehem'deki çocukların öldürülmesine yapılan ima (bir tablo, bir yas cümlesi, uzaktan bir ağıt sesi ve ayet metni; şiddet gösterilmez) ile çarmıh bölümü, en ölçülü anlatımla bile 7 etiketinin sınırlarını zorlar. Bu yüzden 12'yi hedefliyoruz; derecelendirme kuruluşlarının ön değerlendirmesi *doğrulanmalı*. Ailelere yönelik "birlikte oynanabilir" mesajı pazarlama üzerinden verilir.
 
 **Referans oyunlar**
 
@@ -58,24 +58,34 @@ Her sahne betiği, metin kilidinden önce bu listeyle denetlenir. Listedeki bir 
 - [ ] Oyuncu İsa'yı hiçbir zaman yönetmez ve O'nun sözlerini ya da eylemlerini seçmez.
 - [ ] İsa'nın sözleri yalnızca İncil'den alınır: lisanslı alıntı ya da kurulun onayladığı yakın aktarım, her zaman ayet referansıyla (§15).
 - [ ] **Seslendirme yok, portre yok, hiçbir ölçekte yüz ayrıntısı yok, hale ya da parıltı yok.** Kutsallık kompozisyonla ve insanların tepkileriyle anlatılır.
+- [ ] **Melekler ve göksel haberciler** metnin betimlediği biçimde gösterilir: kanat, hale ve yüz ayrıntısı yoktur, şarkı söylemezler. Luka 2'deki melek insan boyunu biraz aşan dikey bir ışık biçimidir; gök ordusunun ışıkları yıldızlardan ayrı çizilir ve 2:15'te söner. Luka 24:4'teki iki adam insan biçimindedir, parlaklık yalnızca giysilerindedir.
+- [ ] **Vaftizci Yahya:** İslam'da peygamber sayılan Vaftizci Yahya'ya İsa'nın yüz kuralı uygulanır: göz pikseli, yakın plan ve portre yoktur; uzak plan ya da 3/4 arkadan çizilir.
+- [ ] **İsa'nın annesi:** İsa'nın annesi Meryem'in portresi yoktur; sprite'ında yüz örtü gölgesiyle yarı kapalıdır. Bu tasvir kuralları (melekler, Yahya, İsa'nın annesi) kurulun, Müslüman ilahiyatçı dahil, onayına bağlıdır.
 - [ ] İsa'nın kişisel bir müzik motifi yoktur. O sahnedeyken müzik geri çekilir ve geriye tek bir uzun ton kalır.
-- [ ] İsa, Tamar'a yalnızca metnin Tamar'ın içinde bulunduğu gruba söylediği sözlerle hitap eder: "Yeruşalim kızları" (Luka 23:28), toplanmış olanlara "Size esenlik olsun!" (Luka 24:36). Bunların dışında ilgisi jestle gösterilir: bir bakış, bir duraksama, uzatılan bir el.
+- [ ] İsa, Tamar'ın içinde bulunduğu gruba yalnızca metnin o gruba söylediği sözlerle hitap eder; örneğin hizmet edenlere Yuhanna 2:7–8, Yeruşalim kızlarına Luka 23:28, toplananlara Luka 24:36, 38–39, 41. Bunların dışında ilgisi jestle gösterilir: bir bakış, bir duraksama, uzatılan bir el.
 - [ ] Kaydedilmemiş öğretiler somutlaştırılmaz. Örneğin Emmaus yolundaki açıklamanın içeriği (Luka 24:27) oyunda yer almaz.
 - [ ] Yedek plan: Türkiye'deki danışmalar gerektirirse "yalnızca ışık ve gölge" biçiminde daha soyut bir temsil kipi hazır tutulur (§11.6).
 
 **B. Kanon ve sıralama kilitleri**
 - [ ] Kanonik olaylar hiçbir seçimle değişmez. Kanonu bozabilecek bir girdi oyunda **hiç yer almaz**: Yahuda'yı durduracak bir düğme yoktur. Oyuncuyu geri çeken yollar ve sahte seçimler de yasaktır.
 - [ ] Küpler ancak "Küpleri suyla doldurun" (Yuhanna 2:7) buyruğundan sonra dolar. Şölen başkanı 2:9–10 boyunca habersiz kalır. Sırla ilgili seçim 2:10'dan sonra gelir.
-- [ ] Taş, "Taşı kaldırın" (11:39) sözünden ve Marta'nın itirazından sonra kaldırılır. Marta her durumda Meryem'i çağırır (11:28).
+- [ ] Taş, "Taşı kaldırın" (11:39) sözünden ve Marta'nın itirazından sonra kaldırılır. Marta her durumda Beytanyalı Meryem'i çağırır (11:28).
 - [ ] Yahuda her durumda gider. Petrus'un suda yürüyüşünün süresi sabittir ve oyuncunun girdisine bağlı değildir.
+- [ ] Kanonik bir hareketin (ör. Yahuda'nın merdivenden inişi) yanındaki seçimler hareketten önce ya da sonra sunulur, hareket sürerken sunulmaz; süresiz seçim kanonik kişiyi bekletmez.
 - [ ] Kadınlar her durumda boş mezarın haberini elçilere götürür (Luka 24:9–10). Tamar'ın kişisel sessizliği bu kanonik haberi engellemez.
 - [ ] Oyuncunun girdisi hiçbir mucizenin kapsamını, süresini ya da biçimini değiştirmez.
 
 **C. Kanonik kişiler**
-- [ ] Meryem, Marta, Petrus, Mecdelli Meryem ve diğer kanonik kişiler kanonik anlarda yalnızca metindeki sözlerini söyler (kanonik replik kilidi).
-- [ ] Kanonik bir kişi için yazılan her kurgusal satır (örneğin Marta'nın gündelik ticaret konuşması) kurul onayından geçer ve en aza indirilir. Meryem için kurgusal diyalog yazılmaz.
-- [ ] İnanç ikrarları (Yuhanna 11:27; Matta 14:33) oyuncunun karakterinin ağzından çıkmaz, ne seçimle ne otomatik olarak. Bu sözler her zaman kanonik konuşanın alıntısı olarak duyulur.
+- [ ] İsa'nın annesi Meryem, Marta, Beytanyalı Meryem, Petrus, Mecdelli Meryem ve diğer kanonik kişiler kanonik anlarda yalnızca metindeki sözlerini söyler (kanonik replik kilidi).
+- [ ] Kanonik bir kişi için yazılan her kurgusal satır (örneğin Marta'nın gündelik ticaret konuşması) kurul onayından geçer ve en aza indirilir. Oyundaki kanonik Meryemlerin hiçbiri için (İsa'nın annesi, Beytanyalı Meryem, Mecdelli Meryem, Yakup'un annesi Meryem) kurgusal diyalog yazılmaz; portre yasağı da hepsini kapsar (§10).
+- [ ] **Konuşmacı etiketleri** her zaman tam biçimdedir: "İsa'nın annesi", "Beytanyalı Meryem", "Mecdelli Meryem", "Yakup'un annesi Meryem". Tek başına "Meryem" etiketi kullanılmaz.
+- [ ] İnanç ikrarları ve ilahi duyurular (Yuhanna 11:27; Matta 14:33; Luka 2:11; Luka 24:5–7; Luka 24:34) oyuncunun karakterinin ağzından ne seçimle ne otomatik olarak çıkar; Tamar bunları ancak "… dedi" biçiminde aktarabilir. Matta 14:33 ve Luka 24:34 ona hiç verilmez. Bu sözler her zaman kanonik konuşanın alıntısı olarak duyulur.
+- [ ] **Topluluk sözleri:** Kanonik ama adsız topluluk sözleri (Luka 2:15, 3:10, 15:2; Markos 16:3; Luka 24:34) metni değiştirilmeden kurgusal konuşanlara bölünebilir ya da grupça söylenir. Altyazıda grup etiketi (Çobanlar, Halk…) ve ayet etiketi bulunur; kurgusal ekler ayrı bir vuruşa konur.
+- [ ] **Benzetmeler:** Benzetmelerde (Anlatılan Sahne) ayet metni dışındaki her söz Tamar'ın iç sesidir ve onun çerçevesiyle gösterilir. Benzetme sürerken kalabalıktan kimse konuşmaz.
+- [ ] **Yönlendirme mekanikleri:** Güt, ışık izleme ve benzeri yönlendirme mekanikleri İsa'ya ve kanonik kişilere uygulanmaz.
+- [ ] **Kanonik kadınlar:** Luka 24:10'daki kanonik kadınlar (Mecdelli Meryem, Yohanna, Yakup'un annesi Meryem) 9. ve 10. bölümlerde portresiz, kurgusal satırsız, ayırt edilir kit varyantlarıyla görünür; 9. bölümde adsız, 10. bölümde adlarıyla anılırlar. Tamar onların yerini almaz ve önlerine geçmez; haberi elçilere götüren her durumda onlardır.
 - [ ] Mecdelli Meryem, Luka 7:37'deki "günahkâr kadın" ile ya da fahişe kalıbıyla asla karıştırılmaz.
+- [ ] **"Mecdelli" sözcüğü** yalnızca betimleyici sıfattır (Mecdelli komşular, Mecdelli Ferisi); tek başına hitap ya da Tamar'ın lakabı olarak kullanılmaz. Tamar'a mesafeli hitap "tuzlamacı" (kapattığı tuzlu balık atölyesinden), yakın hitap "Tamar"dır. 9. ve 10. bölümlerde Tamar için "Mecdelli" sözcüğü hiç geçmez; Mecdelli Meryem her zaman tam adıyla anılır.
 
 **D. Seçim etiği**
 - [ ] Sayısal bir iyilik/kötülük çubuğu yoktur. Eksenlerin iki ucu da metinden meşruiyet alır (§8).
@@ -86,12 +96,17 @@ Her sahne betiği, metin kilidinden önce bu listeyle denetlenir. Listedeki bir 
 **E. Hassasiyet**
 - [ ] **Antisemitizme karşı:** İsa, Meryem, öğrenciler ve Tamar Yahudidir; Yahudi gelenekleri sevgiyle ve doğru biçimde gösterilir. Kalabalık hiçbir zaman "Yahudiler" diye genellenmez. Ferisiler, kâhinler ve Kayafa kendi kaygıları olan bireyler olarak yazılır (Yuhanna 11:48). İnfazı Roma gerçekleştirir. **Matta 27:25 oyunda kullanılmaz.** Yuhanna'dan yapılan alıntılarda "Yahudiler" ifadesi geçiyorsa bağlamı Kodeks'te açıklanır; ana sahnelerde Luka öncü metin olarak seçilmiştir (§2.3).
 - [ ] **Müslüman oyuncular:** Açılış notu farklı yorumları anar: "Bu oyun İncillerdeki anlatıyı izler; farklı inanç gelenekleri bu olayları farklı yorumlar." Oyun polemiğe girmez. Kireneli Simun ya da Yahuda etrafında, ikame (şebbihe) tartışmasına malzeme olabilecek bir gizem kurulmaz.
-- [ ] **Şiddet:** Beytlehem'deki katliam yalnızca bir yas cümlesi ve bir tabloyla anılır (Matta 2:18). Çarmıh silüet, ses ve tepkilerle anlatılır; çivi ve kan gösterilmez. Markos 14:51–52 oyunda yer almaz.
+- [ ] **Şiddet:** Beytlehem'deki katliam bir tablo, yaşlı Tamar'ın tek yas cümlesi, uzaktan tek bir ağıt sesi ve ekranda Matta 2:18 ile anılır; asker ve şiddet gösterilmez. Katliam her yerde (§1, 1. bölüm, §17.10) bu biçimde anılır. Çarmıh silüet, ses ve tepkilerle anlatılır; çivi ve kan gösterilmez. Markos 14:51–52 oyunda yer almaz.
+- [ ] **Tutku görselleri** (kalabalık, kâhinler, Pilatus) ABD Katolik Piskoposlar Konferansı'nın Tutku canlandırmalarını değerlendirme ölçütlerini (1988) ve kurulun İkinci Tapınak dönemi uzmanının onayını izler: kalabalık ayrışmamış uzak bir silüettir, bağıran yüz ve kâhin karikatürü yoktur; karar valinin, infaz Roma'nındır. "Pilatus'un önünde" tablosu bu ölçüte bağlıdır ve tasvirli sancak içermez (Josephus, Yahudi Eski Eserleri 18.55–59).
+- [ ] **Yahuda** öbür öğrenciler gibi olağan ışıkta çizilir; özel gölge, ışık, renk filtresi ya da para kesesi gibi ayırt edici bir simge yoktur ve görünüşü İsa'nınkinden açıkça ayrılır.
+- [ ] **Açılış notu** oyunun ilk ekranıdır ve 1. bölümün içerik bilgilendirmesinden ayrı, ondan önce gösterilir; son metni §17.9'daki karara bağlıdır.
 - [ ] **Efkaristiya sözleri** (Matta 26:26–28) kelimesi kelimesine ve bir tablo içinde verilir. Hiçbir geleneğin Efkaristiya teolojisini öne çıkaran bir yorum eklenmez; sahne "gizlice dinleme" biçiminde kurgulanmaz.
 
 **F. Tarihsellik**
-- [ ] Anakronizm yoktur. MS 44'ten önce Celile'de Roma lejyonerleri değil, bölge kralı Hirodes'in (Antipas) askerleri bulunur.
-- [ ] Yalnızca gelenekte geçen ayrıntılar (müneccimlerin develeri gibi) Kodeks'te "geleneksel" diye işaretlenir. Mayalı ekmeği kandille arama geleneğinin kaynağı Mişna'dır (Pesahim 1:1); bu da notlanır.
+- [ ] **Askerler bölgeye ve döneme göre gösterilir:** Büyük Hirodes dönemi Yahudiye'sinde (1. bölüm) Kral Hirodes'in kendi ordusu (yabancı paralı birlikler dahil); Celile ve Perea'da bölge kralı Hirodes'in (Antipas) askerleri; MS 6 sonrası Yahudiye'de Roma valisinin yardımcı birlikleri (çoğu Sebaste ve Sezariye'den). Hiçbir bölümde lejyon sancağı ya da lejyon kalkan amblemi yoktur. Çivili sandalet (caliga) sesi yalnızca Roma yardımcı birliklerine verilir; Kral Hirodes'in askerleri için, tarihçi aksini onaylamadıkça nötr bir askerî adım ve donanım sesi kullanılır.
+- [ ] **Şabat ve bayram günleri:** Şabat'ta ve bayramların kutsal toplantı günlerinde (Fısıh'ın 1. ve 7., Çardak Bayramı'nın 1. ve 8. günü) iş ve ticaret gösterilmez. Yasaklar kaynağıyla verilir (Mısır'dan Çıkış 16:22–30, 35:3; Levililer 23; Yeremya 17:21–22; Nehemya 10:31, 13:15–19; Mişna Şabat 7:2, Mişna MS 200 dolayında yazıya geçmiştir); izinli olanlar açık kalır ve gelenek olduğundan katı gösterilmez. Birden çok güne yayılan Yahudi ortamlarında Şabat görünür olur. Kanonik metnin açıkça anlattığı eylemler (Luka 23:56; Markos 15:46) bu kuralla düzeltilmez; sinoptik çerçevedeki gerilim Kodeks'te tarafsızca notlanır (§2.3).
+- [ ] **Gün başlangıcı ve Nisan:** Yahudi günü gün batımında başlar. Miladi ayla karışmaması için ekranda ve Kodeks'te "İbrani Nisan ayının 14'ü" ya da "Nisan'ın 14'üne giren gece" biçimi kullanılır.
+- [ ] Yalnızca gelenekte geçen ayrıntılar (yıldızbilimcilerin develeri gibi) Kodeks'te "geleneksel" diye işaretlenir. Mayalı ekmeği kandille arama geleneğinin kaynağı Mişna'dır (Pesahim 1:1; Mişna MS 200 dolayında yazıya geçmiştir; birinci yüzyıl uygulaması doğrulanmalı); bu da notlanır.
 - [ ] Kadınlarla erkeklerin ayrı alanlarda bulunması abartılmaz ve bir bulmaca mekaniğine dönüştürülmez.
 - [ ] Köylü bir kadının okuryazar olduğu varsayılmaz: Tamar'ın tanıklığı sözlü olarak aktarılır.
 
@@ -101,17 +116,22 @@ Her sahne betiği, metin kilidinden önce bu listeyle denetlenir. Listedeki bir 
 
 ### 2.3 Müjdeler arası farklar için uyumlaştırma politikası
 
-**Kural:** Her bölümün bir **öncü Müjdesi** vardır. Öncü Müjde ile çelişmeyen tamamlayıcı ayrıntılar başka Müjdelerden alınabilir. Çelişen ayrıntılarda (isim listeleri, saatler, kimin neyi önce gördüğü) yalnızca öncü Müjde izlenir. Farklılıklar Kodeks'te tarafsız notlarla açıklanır.
+**Kural:** Her bölümün bir **öncü Müjdesi** vardır. Öncü Müjde ile çelişmeyen tamamlayıcı ayrıntılar başka Müjdelerden alınabilir. Çelişen ayrıntılarda (isim listeleri, saatler, kimin neyi önce gördüğü) yalnızca öncü Müjde izlenir. Farklılıklar Kodeks'te tarafsız notlarla açıklanır. Öncü Müjde bölüm künyesinde yazılır. Bir sahne başka bir Müjde'yi öncü alıyorsa (8. bölümde öncü Markos'tur, ama sofra sözleri Matta 26:26–28'i, kapı sahnesi Luka 22:54–62'yi izler) bu istisna gerekçesiyle bölüm belgesinde yazılır.
 
 | Konu | Farklılık | Oyundaki karar |
 |---|---|---|
-| Son Akşam Yemeği'nin tarihi | Sinoptik İnciller: Fısıh yemeği (Markos 14:12). Yuhanna: Fısıh'tan önceki hazırlık günü (19:14) | 8. bölüm sinoptik çerçeveyi izler; fark Kodeks'te açıklanır |
+| Son Akşam Yemeği'nin tarihi | Sinoptik İnciller: Fısıh yemeği (Markos 14:12). Yuhanna: Fısıh'tan önceki hazırlık günü (19:14) | 8. bölüm sinoptik çerçeveyi izler (öncü Markos). Yan etkisi: çarmıh Cuması bayramın ilk günüdür (İbrani Nisan ayının 15'i; Levililer 23:6–7). Yusuf'un bez alması (Markos 15:46) ve baharat hazırlığı (Luka 23:56) bu farkla birlikte Kodeks'te tarafsızca notlanır. MS 30 ve 33 önerileri Yuhanna'nın kronolojisine uyan yıllardır; oyun çarmıh ve diriliş için hiçbir yerde yıl vermez |
 | Çarmıhın saatleri | Markos 15:25 ve Yuhanna 19:14 farklı saatler verir | 9. bölümde Luka öncüdür. Yeni Çeviri saatleri günümüz saatine çevirdiği için bölüm başlıkları "altıncı saat" gibi ifadeler kullanmaz |
 | Yüzbaşının sözü | Luka 23:47 ile Markos 15:39 farklıdır | Luka 23:47 kullanılır |
 | Mezara giden kadınlar | Her Müjde farklı bir liste verir | Luka 24:10 izlenir; Tamar "öbür kadınlar" arasındadır |
 | İsa'nın ilk görünmesi | Matta 28:9, Yuhanna 20:14 ve Luka 24:13 vd. | Tamar dirilmiş İsa'yı mezarda görmez. Onunla Luka 24:33–36'daki toplantıda, "onlarla birlikte olanlar" arasında karşılaşır |
-| Vaftizde gökleri kimin gördüğü | Matta 3:16 ve Markos 1:10: İsa gördü. Yuhanna 1:32: Yahya tanıklık etti | Tamar suyun çevresindeki ışığı görür. Gökler, güvercin ve ses, Yahya'nın tanıklığı olarak Anlatılan Sahne kipinde verilir |
-| Doğum anlatıları | Çobanlar Luka'da, müneccimler Matta'da | Çobanlar oynanır; müneccimler ve kaçış bir tablo olarak verilir |
+| Vaftizde gökleri kimin gördüğü | Matta 3:16 ve Markos 1:10: İsa gördü. Yuhanna 1:32: Yahya tanıklık etti | Tamar suyun çevresindeki ışığı görür. Açılan gökler, güvercin ve ses Matta 3:16–17'nin anlatımıyla bir Anlatılan Sahne kartında verilir. Yahya'nın tanıklığı (Yuhanna 1:32: Ruh'un güvercin gibi inişi; ses ve açılan gök yoktur) metindeki yerinde, Tanrı Kuzusu sahnesinin başında ayrı bir kartta verilir |
+| Doğum anlatıları | Çobanlar, sünnet, sunuluş ve Nasıra'ya dönüş Luka'da (2:8–39); yıldızbilimciler, Mısır'a kaçış ve Nasıra'ya yerleşme Matta'da (2:1–23). Ziyaretin zamanı belirsizdir (Matta 2:11 ev, 2:16 iki yaş) | Yalnızca Luka'nın çobanlar sahnesi oynanır; Luka 2:21–39 oynanmaz. Matta'nın anlatısı iki tabloda, tanıklık iddiası olmadan ve Tamar'a aylar sonra anlatılan bir haber olarak verilir. Tamar'ın ailesinin kaçışı bir iki yıl sonradır |
+| Ekmeklerin dağıtımı | Matta 14:19'da öğrenciler dağıtır; Yuhanna 6:11'de İsa dağıtır, 6:5–7'de Filipus sınanır | 4. bölüm Matta'yı izler. Yuhanna'dan yalnızca çelişmeyen ayrıntılar alınır (6:4, 6:8–9, 6:12–13); fark Kodeks'te notlanır |
+| Luka'nın yolculuk anlatısı | Luka 9:51–19:28 süre ve güzergâh vermez; İsa kente 19:28–45'te girer; Yuhanna 7:10 gizli bayram gidişini anar | 5. bölüm varış ya da bayrama katılım ima etmez; Yuhanna 7:10 Kodeks'te tarafsızca notlanır |
+| Başkâhin | Luka 22:54 adsızdır; Matta 26:57 Kayafa der; Yuhanna 18:13 önce Hanan'ı anar | Oyun "başkâhinin konağı" der; Kayafa adı yalnızca Kodeks'te tamamlayıcı ayrıntıdır |
+| Kadınların mezardan dönüşü | Matta 28:8 ve Yuhanna 20:2 koşudan söz eder, Luka biçim vermez | 10. bölüm koşuyu çelişmeyen tamamlayıcı ayrıntı olarak kullanır |
+| Luka 24:34'ün konuşanı | On Birler ve onlarla birlikte olanlar; Codex Bezae'de iki yolcu | Söz toplananlardan bir sese verilir, Tamar söylemez; fark Kodeks'te |
 | Metinde olmayan süslemeler | Fırtınada şimşek, suyun gözle görülür biçimde renk değiştirmesi, meleklerin "şarkı söylemesi" | Hiçbiri kullanılmaz. Fırtına rüzgâr ve dalgadır (Matta 14:24), melekler "Tanrı'yı övüyordu" (Luka 2:13), şarabın rengi gösterilmez |
 
 ---
@@ -124,7 +144,7 @@ Roma ordusu Celile'ye ilerlemektedir; Mecdel (Tarichea) MS 67'de düşecektir (K
 
 ### 3.2 Tamar
 
-Beytlehemli bir çobanın kızıdır. Kral Hirodes'in askerlerinin geldiği gece ailesi bebek kardeşi Natan'ı bir postun içine saklayıp Celile'ye kaçar. Babası yolun yorgunluğuyla birkaç yıl içinde ölür.
+Beytlehemli bir çobanın kızıdır. Müjde gecesinden bir iki yıl sonra (Matta 2:16), Kral Hirodes'in askerlerinin Beytlehem'e geldiği gece ailesi, iki yaşından küçük kardeşi Natan'ı bir postun içine saklayıp Celile'ye kaçar; Tamar o sırada 10–11 yaşındadır. Babası yolun yorgunluğuyla birkaç yıl içinde ölür.
 
 - **Yarası:** Tamar'ın kendi sözleriyle: "Melekler Tanrı'yı övdü, sonra askerler geldi." Kocası 2. bölümden bir yıl önce ateşli bir hastalıktan ölmüştür. Mecdel'deki tuzlu balık atölyesinin borcunu ödemek için atölyeyi kapatmış, gündelikçi aşçı ve hizmetli olarak çalışmaya başlamıştır.
 - **İsteği:** Elinde kalanı korumak: oğlu Yoram, kardeşi Natan ve yaşlı annesi Hulda. Bunun yanında içine gömdüğü bir soru taşır: "O gece gördüğüm neydi?"
@@ -136,12 +156,32 @@ Beytlehemli bir çobanın kızıdır. Kral Hirodes'in askerlerinin geldiği gece
 | Karakter | Kim? | Uzun yay |
 |---|---|---|
 | **Yoram** | Tamar'ın 19 yaşındaki oğlu; Zebedi'nin teknelerinde gündelikçi (Markos 1:20) | 4. bölümde İsa'nın ardından gitmek ister; 8–10. bölümlerde yanıt bulur |
-| **Natan** | Tamar'ın küçük kardeşi; mirasını alıp Dekapolis'e gitmiştir | 6. bölümde döner, eşikte bekler; 9. bölümde ve epilogda yankılanır |
+| **Natan** | Tamar'ın dokuz yaş küçük kardeşi (müjde gecesi birkaç aylık; 6. bölümde ≈34). Babalarının tek oğlu olarak mirasın tamamı ona düşmüştür (Çölde Sayım 27:8); payını alıp Dekapolis'e gitmiştir | 6. bölümde döner, eşikte bekler; 9. ve 10. bölümlerde ve epilogda yankılanır (§8.6) |
 | **Dositeos** | Samiriyeli bir tüccar; Tamar'ın rakibi | 2. bölümde Tamar'a kendiliğinden yardım eder; 5. bölümde kendisi yardıma muhtaçtır; epilogda torunu ortaya çıkar |
-| **Hananya** | Mecdelli bir Ferisi; komşu ve dürüst bir adam | 6. bölümde büyük oğulun sorusunu taşır; epilogda torunu yeniden belirir |
+| **Hananya** | Mecdelli bir Ferisi; komşu ve dürüst bir adam | 6. bölümde benzetmenin açık sorusunu Tamar'a geri sorar (büyük oğulun yerinde Tamar durur); 9. bölümde Yeruşalim'dedir; 10. bölümde koşudaki yüzlerdendir; epilogda torunu Natan'ın mektubunu okur |
 | **Hulda** | Tamar'ın annesi | 6. bölümde Natan için sofrayı kurar |
 | **Sara** | Torun; çerçevenin dinleyicisi | Epilogda hikâyeyi nasıl taşıyacağı belirlenir |
 | **Marta** | Kanonik; Beytanyalı. Tamar onunla ticaret yapar | Replik kilidi geçerlidir; kurgusal satırları kurul onayından geçer |
+
+**Bölümler arası kurgusal kişiler**
+
+| Kişi | Bölümler | Not |
+|---|---|---|
+| Tamar'ın babası | 1 | Adsız; sonra yalnızca anılır |
+| Nahum, Yoaş | 1 (Yoaş 10'da torunu Eliab'ın ağzından anılır) | Çobanlar |
+| Amram | 2 | Kefarnahumlu bazalt değirmen taşı ustası, kamp büyüğü; 9. bölümden önce ölmüştür |
+| Şifra | 2, 9, 10 | Amram'ın karısı, sonra dulu; "öbür kadınlar"dan; 9. bölümde portre alır |
+| Asa ve annesi | 2, 4, 9 | — |
+| Gad, Elişeva | 3, 4, 10 | Kana hizmetkârları (`b03_sir`) |
+| Abiezer | 4, 9 | Horazinli ihtiyar |
+| Yonatan | 5, 6 | — |
+| Tobi | 7 | Dositeos'un kervancısı |
+| Şimi, Yair | 7 (10'da anılır) | — |
+| Eldad, Atara | 8 | Testili adam (ad kurgusal); ev hanımı |
+| Mika ve annesi | 9, 10 | Ev sahibi aile |
+| Eliab | 10 | Yoaş'ın torunu |
+
+**Adlandırma kuralı:** Bir ad oyunun tamamında yalnızca bir kişiye verilir. Şifra tek kişidir; 8. bölümün ev hanımı Atara'dır, 9–10. bölümlerin ev sahibi ailesi Mika ve annesidir. Tamar'ın babasına ad verilmez. Kit NPC adları dönemin Yahudi (Samiriyeli için Samiriyeli ya da Grek) ad havuzundan seçilir; kanonik kişilerin ve ana kadronun adları ile Türkçede gündelik bir sözcükle karışan adlar (ör. "Hala") kurgusal NPC'lere verilmez. Bu kurala göre 6. bölümdeki Şelomit "Rizpa", 7. bölümdeki Hala "Hagit" olur. Adlandırılmış karakter tavanına nasıl sayıldıkları §16.1'de belirlenir.
 
 ### 3.4 On bölümde Tamar: neden orada, ne kadar yakın?
 
@@ -149,16 +189,18 @@ Beytlehemli bir çobanın kızıdır. Kral Hirodes'in askerlerinin geldiği gece
 
 | # | Yaş | Neden orada? | Erişim | İç yolculuk |
 |---|---|---|---|---|
-| 1 | 9 | Çobanlardan birinin kızıdır (Luka 2:8) | Doğrudan; müneccimler ve kaçış tabloyla | Hayret, ardından kayıp |
-| 2 | 41 | Tövbe vaftizi için Şeria'ya gelir, hacı kampında aşçılık yapar | Kalabalıkta; gökler ve denenme Anlatılan Sahne'de | Kırgınlık |
-| 3 | 41 | Kana'daki düğüne aşçı ve hizmetli olarak tutulmuştur | Doğrudan (hizmet edenler arasında, 2:9) | Meryem'in yüzünü tanır |
-| 4 | 42 | Kalabalıkta yardım eden kadınlardandır (Matta 14:21) | Kalabalıkta; fırtına Yoram'ın anlatısından (Aktarılmış) | Korku ve bırakmak |
-| 5 | 42 | Yeruşalim'e giden yolda İsa'yı izleyen kalabalıktadır (Luka 9:51; 10:25) | Kalabalıkta; benzetme Anlatılan Sahne'de | "Komşum kim?" |
-| 6 | 43 | Vergi görevlileri ve günahkârlarla birlikte dinler (Luka 15:1) | Kalabalıkta; benzetme Anlatılan Sahne'de | Kıskançlık ve lütuf |
+| 1 | 9 | Çobanlardan birinin kızıdır (Luka 2:8) | Doğrudan; yıldızbilimciler (Tamar'a aylar sonra anlatılan haber) ve bir iki yıl sonraki kaçış iki tabloyla | Hayret, ardından kayıp |
+| 2 | 41 | Tövbe vaftizi için Şeria'ya gelir, hacı kampında aşçılık yapar | Kalabalıkta; gökler, güvercin ve ses (Matta 3:16–17) ile Yahya'nın tanıklığı (Yuhanna 1:32) Anlatılan Sahne kartlarında; denenme Anlatılan Sahne kipinde bir triptik tablo | Kırgınlık |
+| 3 | 41 | Düğünün son günleri için tutulmuş ek aşçı ve hizmetlidir; Şeria'dan, Yuhanna 1:35–2:1'in gün sayımına uygun olarak düğünün dördüncü gününe (oyunun kararı) yetişir | Doğrudan (hizmet edenler arasında, 2:9) | İsa'nın annesi Meryem'i tanır (yüzünü değil, eğik başını ve bakışını) |
+| 4 | 42 | Matta 14:21'de sayılmayan kadınlar ve çocuklar arasındadır; kalabalığa yardım eder | Kalabalıkta; fırtına Yoram'ın anlatısından (Aktarılmış) | Korku ve bırakmak |
+| 5 | 42 | Yeruşalim'e giden yolda İsa'yı izleyen kalabalıktadır (Luka 9:51; 10:25); varış ya da bayrama katılım ima edilmez (İsa kente ancak Luka 19:28–45'te girer) | Kalabalıkta; benzetme Anlatılan Sahne'de | "Komşum kim?" |
+| 6 | 43 | Vergi görevlileri ve günahkârlarla birlikte dinler (Luka 15:1) | Kalabalıkta; benzetme Anlatılan Sahne'de; sofranın yakın uçlarına ve mutfağa hizmet eder, İsa'nın bulunduğu uca gitmez; 15:3'te eşiktedir | Kıskançlık ve lütuf |
 | 7 | 43 | Marta'nın ticaret dostudur; hastalık haberini İsa'ya götürür (Yuhanna 11:3) | Doğrudan (yas tutan komşular arasında, 11:19) | Yas ve öfke |
 | 8 | 44 | Üst odalı evde gündelikçi aşçıdır (Markos 14:14–15) | Doğrudan (mutfak, merdiven); sofra sözleri tabloyla; Getsemani uzaktan; avlunun içine girmez | Yakınlık ve utanç |
 | 9 | 44 | Uzakta duran kadınlarla birliktedir (Luka 23:49) | Uzaktan | Sadakat ve yas |
 | 10 | 44 | Baharatlarla mezara giden "öbür kadınlar"dandır (24:10); akşam toplananlar arasındadır (24:33) | Doğrudan | Tanıklık |
+
+Yaşlar göreli bir kronolojidir. Çarmıh ve diriliş için ekranda, Kodeks'te ve tasarım belgelerinde yıl verilmez (§2.3).
 
 ---
 
@@ -181,7 +223,7 @@ Beytlehemli bir çobanın kızıdır. Kral Hirodes'in askerlerinin geldiği gece
 
 | Bölüm | Keşif/iş | Bulmaca | Katılım | Yankı + çerçeve | Toplam | Not |
 |---|---|---|---|---|---|---|
-| 1 | 8 | 12 | 8 | 7 | 35 | Müneccimler ve kaçış iki tablo |
+| 1 | 8 | 12 | 8 | 7 | 35 | Yıldızbilimciler ve kaçış iki tablo |
 | 2 | 13 | 11,5 | 10,5 | 5 | 40 | Kırk gün dört onluğa sıkıştırılır |
 | 3 | 8 | 19 | 6 | 7 | 40 | Dikey dilim |
 | 4 | 13,5 | 17 | 15,5 | 8,5 | 54,5 ≈ 55 | Gündüz (Sahne 0–10) 31,5 dk, gece ve sabah (Sahne 11–17) 23 dk; 3 dk bulmaca payı gecenin Kandil öğretimine aktarıldı |
@@ -215,7 +257,7 @@ Bulmaca sütunu oyun testi medyanıdır (düşünme, hatalı deneme ve ipucu dah
 | **Kulak ve Kavrayış** | Kulak, Bakış'ın 3. bölümden itibaren açılan işitsel katmanıdır: Bakış basılıyken çevredeki konuşmalar simgeli balonlara dönüşür; Söz sakla ile odaktaki bir **söz** saklanır. Kavrayış'ta Tamar'ın başının üstünde boşluklu bir **düşünce cümlesi** belirir ve boşluklar toplanan sözlerle doldurulur (§5.3) | Söz sakla: LT + A; Kavrayış: D-pad ↑ / Sağ tuş + E; Tab | 3 | 3, 4, 6, 7 (yalnızca ihtiyaç simgeleri), 8, 10 (9'da yalnızca susan hâl) | 3: kiler hesabı → 4: kalabalıkta kişi bulma → 6: hesap zinciri ve konuşma kurma (lütufla kesilir) → 8: kanıttan yer çıkarma → 10: plan cümlesi ve tanıklık cümlesi |
 | **Kandil** | Kısa dokunuşla yakılır ya da Açık↔Kısık arasında geçer; basılı tutulunca kaldırılır. Işık izleri, gölgeleri ve girintileri gösterir; hayvanlar ışığı izler. Koru basılıyken Tamar alevi gövdesiyle rüzgârdan korur. Işık yarıçapları, yağ, rüzgâr ve doldurma kuralları §5.1b'dedir. Kandili yere yakın tutma (Alçak) yalnızca 8. bölümde öğretilir | Kandil: Y; Koru: RB; Alçalt: D-pad ↓ / Q, F, C | 1'de basit kıvrım olarak; tam sistem 4'te | 1, 4, 7, 8, 9 (yalnızca yakma), 10 | 4: rüzgâr, Koru ve yağ → 7: Üfle ve göz alışmasıyla yıldızlardan yön bulma → 8: Alçak tutuşla arama → 10: şafak kandili gereksiz kılar |
 | **Bağla / Çöz** | Sağ çubuk saat yönünde dairesel çevrilince sarılır, ters yönde çözülür; her tam daire bir turdur, düğüm A ile atılır. Gerginlik dokunsal olarak hissedilir. Hız ve özen "ifade" olarak kaydedilir | Sağ çubuk daire + A / Fare daire ya da ←/→ dönüşümlü + E | 5 | 5, 7, 10 (8'de yan hikâye) | 5: sargı → 7: kiriş düğümü ve yüz bezi → 10: ip ulama ve kaldıraç düzeneği |
-| **Ez / Karıştır** | Havan ve tokmakla çalışılır, oranlar dengelenir: hamur, acı otlar, baharat | Ez: sağ çubuk daire + RT; Karıştır: yalnızca daire / Ez: fare daire + sol tık; Karıştır: yalnızca fare dairesi | 8 | 8, 9 | 8: oran ve parti kararı → 9: güneş batmadan baharat, tek karar |
+| **Ez / Karıştır** | Havan ve tokmakla çalışılır, oranlar dengelenir: mayasız hamur, batırma ezmesi (haroset) harcı, baharat ve mür; acı otlar ezilmez | Ez: sağ çubuk daire + RT; Karıştır: yalnızca daire / Ez: fare daire + sol tık; Karıştır: yalnızca fare dairesi | 8 | 8, 9 | 8: oran ve parti kararı → 9: güneş batmadan baharat, tek karar |
 | **Bekleyiş** (Kandil ve Vakit'in alt sistemi) | Bir Bekleyiş panosu 3–5 vakte (sütuna) ayrılır. Sınırlı kaynaklar (un, su, yer, yağ) vakitlere paylaştırılır. Zaman gerçek saatle değil, anlatı adımlarıyla ilerler; süre baskısı yoktur. Geri bildirim: Dengeli ve Usta'da yalnızca o anda düzenlenen sütun anında güncellenir; öbür sütunlar "Çeteleye işle" oynatmasına dek "henüz bilinmez" durur. Rahat'ta öbür sütunlar soluk önizlemeyle hesaplanır. Onay eylemi "Çeteleye işle"dir; bölüm dünya içi bir etiket kullanabilir (8. bölümde "Günü başlat"). Oynatma ilk eksikte durur ve Tamar sorunu adıyla söyler | Pano kipi (§5.1a) / Oklar, fare sürükle-bırak, Enter | 2 (kıvrım olarak) | 2, 7, 8 | 2: kırk gün dört onluğa → 7: yas evinde dört gün (ev planı) → 8: Fısıh hazırlığı (dört vakit) |
 | **Kal** (tutuş) | Tek tuş basılı tutulur. Bırakmak hiçbir şeyi düşürmez; Tamar diz çöker, soluklanır ve yeniden kalkar ya da gözlerini kapatır. Kutsal anlarda hiçbir şey kaydedilmez | A basılı / E basılı (her zaman aç/kapa) | 7 | 7, 9 | 7: ip takımında yerini almak → 9: Golgota |
 | **Söz** (diyalog) | 2–4 seçenek ve her zaman geçerli "Sessiz kal". Seçenekler ton simgeleri taşır; süre sınırı yoktur | Sağ çubuk/D-pad + A / Fare ya da 1–4 | 1 | Tümü | 6 ve 10'da Kavrayış'la birleşir |
@@ -324,7 +366,7 @@ Su ölçüsü ile yağ ölçüsü ayrı soyut birimlerdir; 1 pay = 2 su ölçüs
 - **Tipli boşluklar:** Her boşluk bir türe aittir: kişi, sayı, yer, neden, nesne (balon biçimleri figür, çentik, ev, düğüm, çuval). Unvan, zümre ya da "kime karşı" gibi alt türler kişi türünün alt etiketidir. Yalnızca o türden ve **toplanmış** sözler seçilebilir. Sayı adayları sabit bir havuzdan (6. bölümde Tamar'ın çakıl kesesi) gelebilir; doğru değer yalnızca toplanmış sözlerden çıkarılabilir olmalıdır.
 - **Toplu doğrulama:** Cümle ancak tüm boşluklar dolunca doğrulanır ve yanıt yalnızca "doğru" ya da "henüz değil" olur. Kısmi geri bildirim yalnızca ipucu katmanı 2'de verilir.
 - **Rastgele denemenin getirisi yok:** Tipik bir cümlede 3–4 boşluk ve 5–7 aday vardır (100'ü aşkın kombinasyon). Zorunlu bir söz toplanmamışken cümle doğrulanmaz ve deneme sayılmaz; Tamar sözün kaynağını anar, sözü söylemez (her bölümde geçerlidir). Üç başarısız toplu denemeden sonra (her ayarda, §6.2) Tamar kendiliğinden ipucu katmanı 1'i söyler; bu bir ceza değildir, oyun ilerlemeye devam eder.
-- **Ton:** Yas evlerinde ve kutsal anlarda söz toplanmaz. Yas evi, yasın sürdüğü evdir (7. bölümde Marta'nın evi, 9–10. bölümlerde Şabat evi). Yas evinde söz saklanmaz: pratik ihtiyaçlar ihtiyaç simgesi olarak görünür (7) ya da tanıklık sözleri halkaya bildirimsiz düşer (10). 7. bölümde Kavrayış yas tutanların gündelik ihtiyaçlarıyla sınırlı kalır (kimin suya, kimin yere ihtiyacı var).
+- **Ton:** Yas evlerinde ve kutsal anlarda söz toplanmaz. **Yas evi**, gömmeden sonraki yas günlerinde yas tutanların bulunduğu evdir (7. bölümde Lazar'ın evi; 9. bölümün Şabat odası; 10. bölümün şafaktan önceki evi). Orada Kulak ile konuşma toplanmaz, söz saklanmaz; yalnızca pratik ihtiyaç simgeleri okunur (7) ya da gerekli sözler halkaya kendiliğinden, bildirimsiz düşer (10). 7. bölümde Kavrayış yas tutanların gündelik ihtiyaçlarıyla sınırlı kalır (kimin suya, kimin yere ihtiyacı var).
 - **Anlatılan Sahne:** Söz yerine imge toplanır (girdi Söz sakla'dır; alınmayan imgeler sahne sonunda kendiliğinden eklenir). Metin dışında duyulan her ses Tamar'ın iç sesidir ve onun balon çerçevesiyle gösterilir.
 
 ### 5.4 El işi kuralları (mini oyun derlemesine karşı)
@@ -399,10 +441,10 @@ Anlatılan Sahne'de (İsa anlatırken) 3. ışık ya yakındaki bir karakterin d
 1. **Oyuncu anı eşiğe kadar taşır; mucize İsa'nındır.** Oyuncu yalnızca metnin zaten birine yaptırdığı destek işini üstlenir: küpleri hizmet edenler doldurur (Yuhanna 2:7), artanları öğrenciler toplar (6:12–13), taşı başkaları kaldırır, Lazar'ı başkaları çözer (11:41–44).
 2. **Kanonik anlarda başarısızlık yoktur.** Oyuncu durursa dünya bekler ya da başkaları işi sürdürür. Basılı tutma mekaniklerinde bırakmak hiçbir şeyi düşürmez: Tamar diz çöker, soluklanır ve yeniden kalkar. Bir katılım anı aynı zamanda imza bulmacaysa (3. bölümde küpler), "girdi kesilirse" yedeği yalnızca hiç girdi gelmediğinde devreye girer. Dengeli ve Usta'da yalnızca teklif olarak gelir ve kabul edilmeden montaj başlamaz; Rahat ve Hikâye'de teklif kabul edilmezse 60 sn sonra montaj kendiliğinden başlar. Montaj Usta sayımını sürdürür.
 3. **Kanonun gerektirdiği başarısızlık mekaniğe yüklenir, oyuncuya değil.** Fırtınada su her durumda kazanır; bu oyuncunun hatası değil, sahnenin kendisidir. İsa'nın Petrus'a söylediği "Ey kıt imanlı" sözü (Matta 14:31) yalnızca Petrus'a yönelir ve oyuncunun performansıyla hiçbir bağı yoktur.
-4. **Girdi bir ifadedir, sınav değil.** Hız, sıra, süre ve "önce kime" bilgileri puanlanmadan `ifade_` bayraklarına kaydedilir ve sonradan diyaloglarda ve epilogda yankılanır (§8). Kutsal eşiklerde hiçbir şey kaydedilmez. Kutsal eşik, kontrollerin çekildiği kanonik an ile kontrol geri gelene kadarki süredir (ör. 2:9'daki tadış, horoz ve Petrus'un ağlayışı, 23:46). Bu sürede `kol_` verilmez, `tan_` yazılmaz, söz toplanmaz. `tan_` pencereleri eşik başlamadan kapanır ya da kontrol döndükten sonra açılır. Benzetmenin içindeki el işi girdisi kutsal eşik sayılmaz (5. bölümde `b05_ifade_sargi`).
+4. **Girdi bir ifadedir, sınav değil.** Hız, sıra, süre ve "önce kime" bilgileri puanlanmadan `ifade_` bayraklarına kaydedilir ve sonradan diyaloglarda ve epilogda yankılanır (§8). Kutsal eşiklerde hiçbir şey kaydedilmez. **Kutsal eşik**, aşağıdaki listedeki dokunmama anları ile kanonik olayın kendisi ve hemen ardından gelen kanonik tepki anıdır; kontrollerin çekildiği andan kontrol geri gelene kadar sürer (ör. 2:9'daki tadış; horoz ötüşü ve Petrus'un ağlayışı, Luka 22:60–62; 23:46). Eşik boyunca nesne (`kol_`) verilmez, söz toplanmaz, hiçbir girdi ve `tan_` kaydedilmez. `tan_` pencereleri eşiğe bitişik olabilir, ama kontroller çekilmeden kapanır ve ancak kontrol döndükten sonra yeniden açılır. Benzetme içindeki girdiler, listedeki benzetme anları (6. bölümde babanın koşup sarılması ve 15:28b–32) dışında, kutsal eşik sayılmaz (ör. 5. bölümde `b05_ifade_sargi`).
 5. **Dokunmama anları:** En kutsal anlarda kontroller usulca geri çekilir. Bakış seçimi, koleksiyon sayacı ya da "kazandın" bildirimi yoktur. Bazı anlarda tek bir girdi kalır: başını kaldırmak.
 
-**Dokunmama anlarının listesi:** meleklerin müjdesi, yemlik (1) · İsa'nın sudan çıkışı (2) · şölen başkanının tadışı (3) · ekmeğin kutsanması (4) · babanın oğluna koşup sarılması ve 15:28b–32 (6) · "Lazar, dışarı çık!" (7) · ayak yıkama ve sofra sözleri (8) · İsa'nın son sözü, 23:46 (9; 23:34 ve 23:43 sırasında Kal açık kalır) · boş mezar ve "Size esenlik olsun" (10). 5. bölümde dokunmama anı yoktur.
+**Dokunmama anlarının listesi:** meleklerin müjdesi, yemlik (1) · İsa'nın sudan çıkışı (2) · şölen başkanının tadışı (3) · ekmeğin kutsanması (4) · babanın oğluna koşup sarılması ve 15:28b–32 (6) · "Lazar, dışarı çık!" (7) · ayak yıkama ve sofra sözleri (8) · çarmıhta İsa'nın son sözü ve son nefesi, Luka 23:46 (9; 23:34 ve 23:43 sırasında Kal açık kalır, hiçbir şey kaydedilmez) · açık mezar ve iki adamın sözü, 24:2–8, ve "Size esenlik olsun" (10). 5. bölümde dokunmama anı yoktur.
 
 ### 7.2 Katılım anları tablosu
 
@@ -417,8 +459,8 @@ Anlatılan Sahne'de (İsa anlatırken) 3. ışık ya yakındaki bir karakterin d
 | 6 | Küçük oğul olarak eve dönüş yürüyüşü; büyük oğul olarak tarladan eve yürümek | Babanın koşup sarılması ve 15:28b–32 (dokunmama) | **Hiçbir şey** | Dünya bekler; otomatik yürüme seçeneği; büyük oğulda 20 sn sonra baba dışarı çıkar |
 | 7 | Kiriş düğümü, ip takımına ritim, ipi tutmak (Kal), yüz bezini çözmek | Lazar'ın dirilişi (dokunmama) | `b07_ifade_cozme_hizi` | Şimi 20 sn sonra bağlar, 15 sn sonra kendisi çağırır; Kal bırakılırsa Şallum ipi tutar; çözmede 20 sn sonra Hogla çözer, değer yazılmaz |
 | 8 | Leğeni, ibriği ve havluyu kapıya getirmek | Hizmetkârın işini İsa üstlenir (13:4–5; dokunmama); sofra sözleri tablo | — | Dünya bekler; mutfakta 45 sn sonra leğeni Eldad yüklenir |
-| 9 | Kalmak (Kal tutuşu) | Çarmıh (silüet, ses); dokunmama yalnızca 23:46 | **Hiçbir şey** | Tamar diz çöker, gözlerini kapar; ses ve metin sürer |
-| 10 | Kaldıraç ve ip hazırlamak; yolu aydınlatmak; koşmak ve uğramak | Taş yuvarlanmıştır; dirilmiş İsa (dokunmama) | `b10_ifade_kosu_ugrak` | 20 sn'de Şifra seslenir, 40 sn'de Tamar kendiliğinden yürür; kendiliğinden geçilen yuvalar ifadeye yazılmaz |
+| 9 | Kalmak (Kal tutuşu) | Çarmıh (silüet, ses); dokunmama yalnızca 23:46 (son söz ve son nefes) | **Hiçbir şey** | Tamar diz çöker, gözlerini kapar; ses ve metin sürer |
+| 10 | Kaldıraç ve ip hazırlamak; yolu aydınlatmak; koşmak ve uğramak | Taş yuvarlanmıştır; açık mezar ve iki adamın sözü (24:2–8) ile dirilmiş İsa (dokunmama) | `b10_ifade_kosu_ugrak` | 20 sn'de Şifra seslenir, 40 sn'de Tamar kendiliğinden yürür; kendiliğinden geçilen yuvalar ifadeye yazılmaz |
 
 ---
 
@@ -439,9 +481,9 @@ Oyuncuya bayrak ya da eksen yazan ilk seçimden (1. bölüm, Sahne 12) hemen ön
 ### 8.2 Takip modeli
 
 1. **Üç eksen (iki ucu da değerli):**
-   - **Söz:** *Anlatan ↔ Kalbinde Saklayan.* Çobanlar gördüklerini herkese anlattı (Luka 2:17–18); Meryem yüreğinde sakladı (2:19). Boş mezar sabahında da iki uç kanoniktir: Luka 24:9 ve Markos 16:8.
+   - **Söz:** *Anlatan ↔ Kalbinde Saklayan.* Çobanlar gördüklerini herkese anlattı (Luka 2:17–18); İsa'nın annesi Meryem yüreğinde sakladı (2:19). Boş mezar sabahında da iki uç kanoniktir: Luka 24:9 ve Markos 16:8.
    - **El:** *Veren ↔ Koruyan.* Ailesini korumak da meşru bir yoldur.
-   - **Kalp:** *Açan ↔ Taşıyan.* Yası ve öfkeyi dürüstçe taşımak da bir yoldur.
+   - **Kalp:** *Açan ↔ Taşıyan.* **Açan (+)** duygusunu (sevgi, yas, öfke) söze ya da jeste döküp bir başkasına açar, ona uzanır; öfkeyi açmak da Açan'dır. **Ortada (0)** duygusunu söze dökmeden yanında kalır (sözsüz yakınlık). **Taşıyan (−)** duygusunu içinde taşır, geri çekilir ya da uzaklaşır. Ara değeri olmayan ikili seçimlerde (7. bölüm) sözsüz yakınlık Taşıyan'a yazılır. İki ucun metinden dayanağı: Marta İsa'yı karşılamaya koşup içini döker, Beytanyalı Meryem evde oturur (Yuhanna 11:20–21). Yası ve öfkeyi dürüstçe taşımak da bir yoldur.
 2. **İlişkiler:** Yoram, Natan, Dositeos, Hananya ve Marta için tutulur. Oyuncuya sayı olarak değil, *uzak*, *temkinli* ya da *yakın* sözcükleriyle gösterilir.
 3. **Bölüm bayrakları:** Kişisel seçimler.
 4. **İfade bayrakları:** Katılım anlarındaki girdi biçimi.
@@ -467,7 +509,7 @@ Oyuncuya bayrak ya da eksen yazan ilk seçimden (1. bölüm, Sahne 12) hemen ön
 
 | Bayrak | Değerler | Kurulduğu yer | Okunduğu yer | Sahnede nasıl görünür |
 |---|---|---|---|---|
-| `b01_haber` | `koye` / `babaya` / `kalbinde` (`eks_soz` +1 / 0 / −1) | 1, yankı | 2, 3, 6, 10, ep | `koye`: Tamar yalnızca obadakilere anlatır, dinleyenler şaşar (Luka 2:18); `babaya`: babasına yalnızca kendi fark ettiğini fısıldar. 2'de "Tanrı Kuzusu" iç sesi; 3'te tanıma cümlesi; 6'da Natan'ın cümlesi; 10'da tanıklığın ilk cümlesi |
+| `b01_haber` | `koye` / `babaya` / `kalbinde` (`eks_soz` +1 / 0 / −1) | 1, yankı | 2, 3, 6, 10, ep | Kapsam: `koye` = obadakilere anlatır, dinleyenler şaşar (Luka 2:18); "bütün Beytlehem'e anlattım" ya da "kimse inanmadı" ifadeleri kullanılmaz; "Rab Mesih" yalnızca meleğin sözünün aktarımıdır. `babaya` = babasına yalnızca kendi fark ettiğini fısıldar ("Annesi hiç konuşmadı. Hep baktı."). 2'de "Tanrı Kuzusu" iç sesi; 3'te tanıma cümlesi; 6'da Natan'ın cümlesi; 10'da tanıklığın ilk cümlesi |
 | `b01_ifade_kuzu` | `kucakta` / `guderek` / boş | 1 | 2, 6, ep | 2'de iç sese yarım cümle; 6'da kayıp koyun anısı; boşsa satır yok |
 | `tan_b01_yureginde_sakladi` | boolean | 1 | 3 | Tanıma cümlesine ek |
 | `b02_ekmek` | `boldu` / `sakladi` (`eks_el` +1 / −1) | 2 | 4, ep | 4'te Asa yer açar ya da uzak durur |
@@ -477,7 +519,7 @@ Oyuncuya bayrak ya da eksen yazan ilk seçimden (1. bölüm, Sahne 12) hemen ön
 | `b03_ifade_doldurma` | `zincir` / `tek_basina` | 3 | 3 (çerçeve kapanışı), ep | Yaşlı Tamar'ın tek satırı |
 | `b04_yoram` | `kutsadi` / `yasakladi` / `erteledi` (Sessiz kal → `erteledi`; `eks_el` +1 / −1 / 0) | 4 | 5, 7, 8, 9, 10, ep | 5'te 1. sahnedeki tek satır; 7'de geçit ve K6'daki kamalar; 8'de Yoram'ın yeri; 9'da durduğu yer ve Sahne 12'nin girişi; 10'da akşam; epilogda kürek. Yoram her yolda Fısıh için Yeruşalim'dedir |
 | `b04_ifade_ilk_sepet` | `yaslilar` / `cocuklar` / `dislananlar` / `ailesi` / `andreas_dagitti` | 4 | 9, ep | 9'da K7'deki uzak yüzler; epilogdaki tek satır |
-| `b05_dositeos` | `yuk_birakti` / `para_gonderdi` (Sessiz kal dahil) / `gecti` (`eks_el` +1 / 0 / −1) | 5 | 6, 7, 9, 10, ep | 6'da gümrükteki haber ve eşik iç sesi; 7'de `yuk_birakti` ve `para_gonderdi` eşek verir, `gecti` vermez; 9'da Şabat odasındaki testi metni (yoldaki uzak görünüş §8.6 kararına bağlıdır); 10'da yuva 4; epilogda kurtarıcı tekne |
+| `b05_dositeos` | `yuk_birakti` / `para_gonderdi` (Sessiz kal dahil) / `gecti` (`eks_el` +1 / 0 / −1) | 5 | 6, 7, 9, 10, ep | 6'da gümrükteki haber ve eşik iç sesi; 7'de `yuk_birakti` ve `para_gonderdi` eşek verir, `gecti` vermez; 9'da görünmez, yalnızca Şabat odasında testinin hatıra metni; 10'da koşuda kervan hanında (yuva 4); epilogda kurtarıcı tekne |
 | `b05_ifade_sargi` | `ozenli` / `cabuk` / boş | 5 | 7 | Yüz bezi çözülmeden önceki iç ses |
 | `kol_b05_civit_iplik` | boolean | 5 | 9 | Bilekte; öğle karanlığında renkli kalır; bantta çivit iplik |
 | `b06_esik` | `girdi` / `disarida_konustu` / `gitti` (`eks_kalp` +1 / 0 / −1) | 6 | 9, 10, ep | 9'da Natan'ın yeri; 10'da yuva 2 ve Sahne 13; epilogda Natan yuvası |
@@ -492,15 +534,15 @@ Oyuncuya bayrak ya da eksen yazan ilk seçimden (1. bölüm, Sahne 12) hemen ön
 | `eks_soz`, `eks_el`, `eks_kalp` | −4…+4 | Söz 1, 3, 8, 10 · El 2, 4, 5 · Kalp 6, 7, 8, 9 | dokuma bandı, 10 (Sahne 17), ep | Bant deseni ve yaşlı Tamar'ın tonu |
 | `ilis_dositeos` | `uzak` / `temkinli` / `yakin`; başlangıç `uzak` | 2 (dingilden sonra her yolda `temkinli`; `dositeos` seçimi `yakin`), 3 (yalnızca `dositeos` yolunda `tedarikciye` → `temkinli`), 5 (`yuk_birakti` → `yakin`; `para_gonderdi` değişmez; `gecti` bir kademe düşer) | 5, 7, 10, ep | Hitap, yuva 4'te kimin durduğu, epilog teknesi |
 | `ilis_yoram` | `temkinli` / `yakin`; başlangıç `yakin` | 4 (`yasakladi` → `temkinli`, öbürleri `yakin`), 9 (`umut` ve `sessiz_yakinlik` bir kademe yakına; `ofke_paylasti` değiştirmez) | 9, 10 | 9'da Yoram'ın yeri; 10'da yalnızca `ofke_paylasti` yolunda Sahne 13 jesti |
-| `ilis_natan` | `uzak` / `temkinli` / `yakin`; başlangıç `uzak` | 6 (`girdi` → `yakin`, `disarida_konustu` → `temkinli`, `gitti` → `uzak`) | 10, ep | 10'da yuva 2'deki karşılama; epilogda Natan yuvasının tonu (§8.9 kararına bağlı) |
-| `ilis_hananya` | `temkinli` / `yakin`; başlangıç `temkinli` | 6 (Sahne 12: ilk iki yanıt `yakin`, öbürleri `temkinli`) | 9, 10, ep | 9'da testi ve selam; 10'da yuva 5; epilogda mektubu okuyan torun (§8.9 kararına bağlı) |
+| `ilis_natan` | `uzak` / `temkinli` / `yakin`; başlangıç `uzak` | 6 (`girdi` → `yakin`, `disarida_konustu` → `temkinli`, `gitti` → `uzak`) | 10, ep | 10'da yuva 2'deki karşılama; epilogda Natan yuvasının tonu (§8.9) |
+| `ilis_hananya` | `temkinli` / `yakin`; başlangıç `temkinli` | 6 (Sahne 12: ilk iki yanıt `yakin`, öbürleri `temkinli`) | 9, 10, ep | 9'da testi ve selam; 10'da yuva 5; epilogda mektubu okuyan torunun satırı (§8.9) |
 | `ilis_marta` | `temkinli` / `yakin`; başlangıç `temkinli` | 7 (dönüşte Marta'ya yürüyüp Etkileşim ya da `acti` → `yakin`; beklemek değer yazmaz) | 8 | Marta'nın yağ şişesi |
 
 Okunan her değer daha önce kurulabilir olmalıdır; `ilis_hananya` ve `ilis_marta` için `uzak` dalı tanımlanmaz. Bütün `kol_` nesneleri ayrıca 9. bölümün Şabat odasında ve çerçevede okunur. Yerel değişkenler (`b01_uyanan_ev`, `b06_natan_sozu`, `b09_sabat_kandili`, `b09_duduk`, `b10_mika_gece`, `b10_yanki`, `b10_balik`, `b10_tanik_cumlesi`) bu tabloya girmez.
 
 ### 8.5 Eşit tanıklık ilkesi: kapıdaki soru
 
-8. bölümde şafak sökerken Tamar, ev sahibinin testi taşıyan uşağıyla birlikte haber almak için Kayafa'nın konağının *dış kapısına* gelir; avluya girmez. Kapıdaki muhafız sorar: "Sen de onlardan değil misin?"
+8. bölümde şafak sökerken Tamar, ev sahibinin testi taşıyan uşağıyla birlikte haber almak için başkâhinin konağının *dış kapısına* (Kodeks: Matta 26:57'ye göre Kayafa) gelir; avluya girmez. Kapıdaki muhafız sorar: "Sen de onlardan değil misin?"
 - **İtiraf:** Muhafız Tamar'ı kapıdan sokağın köşesine iter.
 - **İnkâr:** Tamar kapıda kalır.
 - **Sessiz kal:** Muhafız omuz silker.
@@ -509,11 +551,11 @@ Okunan her değer daha önce kurulabilir olmalıdır; `ilis_hananya` ve `ilis_ma
 
 ### 8.6 Uzun yaylar (sahne farkı üretenler)
 
-1. **Dositeos (2 → 5 → 7 → 9 → epilog):** Benzetmenin ters köşesi korunur. *Önce Samiriyeli Tamar'a komşu olur:* 2. bölümün açılışında Tamar'ın arabasının dingili kırılınca Dositeos kendiliğinden yardım eder ve Tamar bunu reddedemez. 5. bölümde İsa'nın "Git, sen de öyle yap" sözünden sonra sıra Tamar'a gelir; yardım etmenin gerçek bir bedeli vardır (bayram pazarına yetişmesi gereken yük). Epilogda yaşlı Tamar'ı her durumda bir Samiriyeli kurtarır: Dositeos'un torunu ya da Tamar'ın tanımadığı bir kayıkçı. Böylece "komşu"nun kim olduğunu Tamar her yolda anlar.
-2. **Yoram (4 → 7 → 8 → 9 → 10 → epilog).**
-3. **Natan (1 → 6 → 9 → epilog):** Natan, 1. bölümde kurtarılan bebektir.
+1. **Dositeos (2 → 3 → 5 → 6 → 7 → 9'da yalnızca hatıra → 10 → epilog):** Benzetmenin ters köşesi korunur. *Önce Samiriyeli Tamar'a komşu olur:* 2. bölümün açılışında Tamar'ın arabasının dingili kırılınca Dositeos kendiliğinden yardım eder ve Tamar bunu reddedemez. 5. bölümde İsa'nın "Git, sen de öyle yap" sözünden sonra sıra Tamar'a gelir; yardım etmenin gerçek bir bedeli vardır (bayram pazarına yetişmesi gereken yük). Epilogda yaşlı Tamar'ı her durumda bir Samiriyeli kurtarır: Dositeos'un torunu ya da Tamar'ın tanımadığı bir kayıkçı. Böylece "komşu"nun kim olduğunu Tamar her yolda anlar. 9. bölümde Dositeos görünmez; bayram ve Şabat günü Golgota'nın dibinde bir Samiriyeli kervan tarihsel olarak zayıftır (Josephus, Yahudi Eski Eserleri 18.29–30). 9. bölümdeki halkası yalnızca Şabat odasındaki testinin hatıra metnidir. 10. bölümde koşudaki kervan hanı yüzü korunur: kervanın Şabat çıktıktan sonra, bayram haftasının ara gününde kente geldiği bir satırla belirtilir ve Kodeks'te sahneleme kararı olarak işaretlenir.
+2. **Yoram (4 → 7 → 8 → 9 → 10 → epilog).** Yoram her `b04_yoram` yolunda Fısıh için Yeruşalim'dedir: `kutsadi` ise öğrencilerle, `erteledi` ise kentte Akkub'la hamal olarak, `yasakladi` ise kent dışındaki hacı kampında Zebedi'nin işçileriyle (Tamar bunu bilir; 8. bölümün kapı iç sesi). 9. bölüm `yasakladi` yolunda Yoram'ı sabah kamptan kente inmiş olarak getirir; "Tamar onu Mecdel'de sanır" ve "Mecdelli komşularla gelmiş" ifadeleri kullanılmaz.
+3. **Natan (1 → 6 → 9 → 10 → epilog):** Natan, 1. bölümde kurtarılan bebektir.
 4. **Kapıdaki soru (8 → 10 → epilog).**
-5. **Hananya (6 → epilog):** Kısa bir yay.
+5. **Hananya (6 → 9 → 10 → epilog):** 6. bölümde benzetmenin açık sorusunu Tamar'a geri sorar; 9. bölümde `ilis_hananya` `yakin` ise Şabat'tan önce yağ testisini bırakır; 10. bölümde koşudaki yüzlerdendir; epilogda torunu Natan'ın mektubunu okur.
 
 ### 8.7 Sonuçlar oyuncuya nasıl gösterilir?
 
@@ -536,9 +578,11 @@ Epilog tek bir sahne düzenidir: kaçış gecesi, göl kıyısı, tekne. Varyasy
 |---|---|---|
 | Kurtarıcı tekne | Dositeos'un torunu / tanımadığı bir Samiriyeli kayıkçı | `b05_dositeos`, `ilis_dositeos` |
 | Kürekte kim var? | Yoram / Yoram'dan gelen haber (uzak kentlerde anlatmaktadır) / Yoram'ın oğlu | `b04_yoram`, `b09_yoram_soz` |
-| Natan | Torunları yükleri taşır / ondan kalan bir mektup okunur (Hananya'nın torunu okur) | `b06_esik` |
+| Natan | Torunları yükleri taşır / ondan kalan bir mektup okunur (Hananya'nın torunu okur) | `b06_esik` (varyant), `ilis_natan` (ton), `ilis_hananya` (mektubu okuyan torunun satırı) |
 | Sara hikâyeyi nasıl taşır? | Tamar'ın sözlerini ezberler / Mezmur 23'ü mırıldanarak dinler | `eks_soz` |
 | Kapıdaki soru | Tamar inkârı Sara'ya anlatır mı? (Yalnızca `inkar` yolunda son bir seçim) / itiraf hatırası / sessizlik hatırası | `b08_kapi` |
+| Son sahnenin biçimi | Tamar anlatır / kalbinde saklar (ikisi de tam son) | `b10_tanik` |
+| Yaşlı Tamar'ın tek cümlelik anıları | §8.4'te okunduğu yer sütununda `ep` bulunan her bölüm ve ifade bayrağı için en çok bir cümle; değer yazılmamışsa nötr cümle ya da hiç cümle | İlgili bayraklar |
 | Son halı | On bandın oyuncuya özel kompozisyonu | Tüm eksenler |
 
 Kaçış gecesi her yolda güvenle biter, çünkü lütuf temasında ceza yoktur.
@@ -551,13 +595,19 @@ Seviye, tecrübe puanı ya da yetenek ağacı yoktur. İlerleme fiillerin birikm
 
 - **Heybe (alet çantası):** Değnek (1), testi (2), düğüm bileziği (3; bilekteki yün, dünya içi söz kaydı), kandil (4), ip (5), havan (8). Aletler hikâyeyle gelir, satın alınmaz.
 - **Hatıra nesneleri (`kol_`):** Her bölümde 3–4 tane, toplam yaklaşık 35 (sapan, düğün kadehinin kırığı, sepetten bir saz parçası...). Çerçevede yaşlı Tamar her biri için tek cümlelik bir anı anlatır. Kutsal eşiklerde nesne bulunmaz (tanım: §7.1-4).
-- **Tanıklık ayrıntıları (`tan_`):** Örneğin İsa'nın ekmeği kutsarken göğe bakması (Markos 6:41) ya da "İsa ağladı" (Yuhanna 11:35). Sayaç, bildirim ya da "kaçırdın" uyarısı yoktur. Hatıralar sekmesinde düzyazı olarak sessizce belirir.
+- **Tanıklık ayrıntıları (`tan_`):** Örneğin İsa'nın ekmeği kutsarken göğe bakması (Markos 6:41) ya da "İsa ağladı" (Yuhanna 11:35). Sayaç, bildirim ya da "kaçırdın" uyarısı yoktur. Hatıralar sekmesinde düzyazı olarak sessizce belirir. Pencere bir dokunmama anına bitişik olabilir; kontroller çekilmeden kapanır (§7.1-4).
 - **Yan hikâyeler:** Her bölümde mevcut haritayı kullanan, 5–8 dakikalık isteğe bağlı bir hikâye vardır. Örnekler: yaşlı çobanın kör koyunu (1), Kana'da gelinin kardeşinin kayıp bileziği (3), Beytanya'da yas tutan bir çocuğa eşlik etmek (7).
 - **Ezgiler:** Duyulan müziklerden oluşan bir galeri.
 - **Kodeks (yaklaşık 120 girdi):**
-  - *Dönem:* Roma ve Hirodes yönetimi, sikkeler (dinar, lepton), taş arınma küpleri, düğün haftası, tuzlu balık ticareti, yas ve gömme gelenekleri, kaya mezarlar, Fısıh. Arkeolojik dayanaklar: alt katında hayvan bölmesi bulunan köy evi ve dolu misafir odası (Luka 2:7), Sezariye'deki Pilatus yazıtı, Kayafa'nın kemik sandığı, Celile teknesi, sofraya yaslanarak oturma (Yuhanna 13:23).
+  - *Dönem:* Roma ve Hirodes yönetimi, sikkeler (dinar, lepton), taş arınma küpleri, düğün haftası, tuzlu balık ticareti, yas ve gömme gelenekleri, kaya mezarlar, Fısıh. Arkeolojik dayanaklar: alt katında hayvan bölmesi bulunan köy evi (ev tipi arkeolojiktir; Luka 2:7'deki katalyma'nın "konuk odası" diye okunması yorumsaldır, YC 2:7'de "han" der), Sezariye'deki Pilatus yazıtı, Kayafa'nın kemik sandığı, Celile teknesi, sofraya yaslanarak oturma (Markos 14:18; ayrıca Yuhanna 13:23).
   - *Kutsal Metin:* Karşılaşılan her alıntı ayet referansıyla; Müjdeler arası farklar tarafsız notlarla (§2.3).
   - *Yerler ve Kişiler.* Kodeks tarihçilerin ve kurulun denetiminden geçer.
+  - **Kodeks kuralları:**
+    1. Bir konu Kodeks'te tek girdidir: ilk geçtiği bölümde açılır, sonraki bölümler aynı girdiye ek yazar ve sayı ile tarihleri o girdiden alır.
+    2. Ayet atıfları yalnızca ayetin gerçekten söylediğine verilir. Arkeolojik ve sahneleme kararları, tablo yorumları ve benzetmeye eklenen kurgusal ayrıntılar ("oyunun ya da Tamar'ın hayali") ayrıca işaretlenir; ayet etiketli metin arayüzde görsel olarak ayrılır.
+    3. Bulmacalardaki stilize nicelikler (pay, yolculuk sayısı, yağ ölçüsü, kandil menzili) "oyun kısaltması" diye işaretlenir (§6.1).
+    4. Mişna ya da Talmud'u kaynak gösteren her girdi yazıya geçiş tarihini bir kez belirtir (Mişna MS 200 dolayı; Kudüs Talmudu MS 400, Babil Talmudu MS 500 dolayı; *doğrulanmalı*).
+    5. Çarmıh ve diriliş için yıl verilmez; dönem ifadeleri "birinci yüzyıl" biçiminde yazılır. MS 30 ve 33 önerileri ile sinoptik–Yuhanna farkı yalnızca tarafsızca anılır (§2.3).
 
 ---
 
