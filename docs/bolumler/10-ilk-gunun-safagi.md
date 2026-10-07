@@ -37,7 +37,7 @@ Bütün alıntılar **[yakın aktarım]**dır (GDD §15). Ağ erişimi kısıtl�
 
 ### 1.2 Oyunun eklediği kurgusal katman
 
-"Öbür kadınlar"dan Şifra (9. bölümün Kefarnahumlu dulu); Şabat evinin avlusunda uyuyan Mika (9. bölüm) ve annesi; kaldıraç düzeneğinin bu mezara uyarlanması ve taşın kanalı (arkeolojik sahneleme); rüzgârla ve ağaran gökle yol bulma; kent kapılarının gün ağarınca açılması ve Bahçe Kapısı bekçisi (sahneleme kararı, Kodeks 4); koşuda rastlanan yüzler; öğlen Mika'nın sorusu; akşam ızgaradaki balığı Tamar'ın çevirebilmesi (kurul onayına bağlı).
+"Öbür kadınlar"dan Şifra (9. bölümün Kefarnahumlu dulu); Şabat evinin avlusunda uyuyan Mika (9. bölüm) ve annesi; kaldıraç düzeneğinin bu mezara uyarlanması ve taşın kanalı (arkeolojik sahneleme); rüzgârla ve ağaran gökle yol bulma; kent kapılarının gün ağarınca açılması ve Bahçe Kapısı bekçisi (sahneleme kararı, Kodeks 4); koşuda rastlanan yüzler (kervan hanındaki Samiriyeli kervan da bir sahneleme kararıdır, Kodeks 4); öğlen Mika'nın sorusu; akşam ızgaradaki balığı Tamar'ın çevirebilmesi (kurul onayına bağlı).
 
 ### 1.3 Bu bölümün kırmızı çizgileri
 
@@ -421,7 +421,7 @@ Neden: *taş yuvarlanmıştı*, *ceset yoktu*, *ipim boşa gitti*, *taş çok b�
 - [x] **C.** Kanonik kişiler yalnızca metin sözleri söyler (24:5–7; Markos 16:3 ortak; 24:34 ortak). İkrar niteliğindeki 24:34 Tamar'dan çıkmaz; iki adamın duyurusu tanıklık cümlesinde yalnızca aktarımdır. Kanonik kadınlar sürü mekaniğine indirgenmez; Tamar'la grup olarak yürür ve koşarlar. Kleopas'a ve arkadaşına uydurma jest ya da söz yüklenmez. Mecdelli Meryem hiçbir kalıpla karıştırılmaz.
 - [x] **D.** Sayısal çubuk yok; her diyalogda "Sessiz kal"; `kalbinde` tam bir sondur ve cümle Sara'ya ulaşır; uğraklar puanlanmaz.
 - [x] **E.** Kalabalık genellenmez; Hananya sabah duasına giden saygın komşudur; bekçi ve muhafız bireydir; elçilerin inanmazlığı alaysızdır. Polemik ve ikame gizemi yok. Yara, çivi, kan yok; Golgota boş. Ekmeğin bölünüşü bir jestle öne çıkarılmaz; yalnızca 24:35'in metniyle anılır.
-- [x] **F.** Roma askeri yok; kent kapısı bekçisi sivil giysili bir Yahudi'dir. Çeşme yerine dönemin havuz ve sarnıçları. Tamar okuryazar değil, tanıklığı sözlü. Geleneksel ve tartışmalı ayrıntılar işaretli; Kodeks atıfları yalnızca ayetin söylediğine verilir, sahneleme kararları (kanal, kapının açılış saati) ayrıca işaretlidir.
+- [x] **F.** Roma askeri yok; kent kapısı bekçisi sivil giysili bir Yahudi'dir. Çeşme yerine dönemin havuz ve sarnıçları. Tamar okuryazar değil, tanıklığı sözlü. Geleneksel ve tartışmalı ayrıntılar işaretli; Kodeks atıfları yalnızca ayetin söylediğine verilir, sahneleme kararları (kanal, kapının açılış saati, kervanın handa bulunuşu) ayrıca işaretlidir.
 - [x] **Süslemeler:** Şimşek, kanat, ışık hüzmesi, beliriş efekti yok.
 - [ ] **Kurul onayı bekleyenler:** 24:37–43 ve 24:40'taki jest; tabağın Tamar'dan geçmesi ve Tamar'ın balığı çevirebilmesi; iki adamın tasviri; üst odalı evin toplantı yeri sayılması; kadınların koşusunun Luka sahnesine tamamlayıcı olarak eklenmesi; Kodeks 5'in metni.
 

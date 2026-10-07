@@ -21,7 +21,7 @@
 
 ## 1. Kaynak Metin ve Uyarlama Sınırları
 
-Bütün alıntılar **[yakın aktarım]**dır (§15). 11:4, 11:18, 11:33, 11:38 ve Mezmur 23:3 YC ile arama özetleri üzerinden karşılaştırıldı; geri kalanı bellekten aktarıldı. Metin kilidinden önce hepsi basılı YC ile tek tek karşılaştırılmalıdır (*doğrulanmalı*).
+Bütün alıntılar **[yakın aktarım]**dır (§15); İsa dışındaki kanonik konuşanların (Marta, Beytanyalı Meryem, Kayafa) satırları **[yakın aktarım; kanonik replik]** etiketini taşır. 11:4, 11:18, 11:33, 11:38 ve Mezmur 23:3 YC ile arama özetleri üzerinden karşılaştırıldı; geri kalanı bellekten aktarıldı. Metin kilidinden önce hepsi basılı YC ile tek tek karşılaştırılmalıdır (*doğrulanmalı*).
 
 ### 1.1 Metnin anlattığı
 
@@ -166,7 +166,7 @@ Haberin Tamar'la gitmesi, Şimi'nin karşı çıkışı ve gece yolu; eşek, kon
 
 **Çözüm:**
 1. **B1:** Tamar kandili üfler ya da yere koyup uzaklaşır; göz alışır. Yedi yıldız ve alacakaranlıktaki izi bulunur; yayların ortasındaki yıldızsız noktaya halka konur. Halka 330°'de sağ yarıda kalır, 105°'te görünmez, 60°'de sol yarıdadır: 60°. *Öbür yol:* Kandili kaldırıp kolların başındaki izleri okumak (yürürken ≈0,4 ölçü; Kural 10).
-2. **B2:** Kızıl taş girintisi, yamacın rüzgâr gölgesinde kaldırılmış kandille bulunur (`kol_b07_kizil_tas`, ≈0,05 ölçü: ≈12 karo kaldırılmış yürüyüş; taş kandil indirilip alınır, kandil kaldırılı durulursa her saniye 0,05 ölçü eklenir). İzler hana çeker; doğruyu (55°) gök ya da tarifteki uyarı verir.
+2. **B2:** Kızıl taş girintisi, yamacın rüzgâr gölgesinde kaldırılmış kandille bulunur (`kol_b07_kizil_tas`, ≈0,05 ölçü: ≈12 karo kaldırılmış yürüyüş; Tamar kandili indirip taşı alır, kandil kaldırılı durulursa her saniye 0,05 ölçü eklenir). İzler hana çeker; doğruyu (55°) gök ya da tarifteki uyarı verir.
 3. **B3:** Çoban: "Vadiye iniyorsan rüzgâr arkandan eser; alevi göğsünde tut." Kanalda açıklıklar Koru ile geçilir (0,33 ölçü) ya da dere yürünür (0,58).
 4. **B4:** Halka 40° koluna dönükken konur. Tarifin ikinci yarısıyla, halkanın saçak bandına düştüğü 85° seçilir. Zor'da Bakış ırmağın sesini belirginleştirir (yön göstergesi); sönük kandille karşı kıyıdaki ateş seçilir.
 
@@ -183,7 +183,7 @@ Haberin Tamar'la gitmesi, Şimi'nin karşı çıkışı ve gece yolu; eşek, kon
 
 **Yanlış denemelerde:** Ceza yoktur. Tamar çıkmazı adlandırır: "Yeruşalim'in ışıkları önümde; ters dönmüşüm." · "Ağıl köpekleri... Bu çoban yolu." · "Kervan handa uyuyor; yol bu değil." · "Taşlık uçurumda bitiyor." Kaybedilen yalnızca yağ ve zamandır.
 
-**Usta kısıtı — `usta_b07_yarim_yag` ("Yarım yağ"):** Marta'nın verdiği 2 ölçüden en fazla 1 ölçü harcanır. Çobanın ya da bekçinin yağını almak Usta ayarında kısıtı düşürür; çömlek simgesindeki yarım çizgisi kesikli olur. Eşekli yolda B3 kanalının payı (0,33) düşülür ve eşik 0,67 ölçüdür. *Başvuru çözümü:* Yol sönük kandille yürünür, üç ayrımda gök okunur, kanal seçilir: 0,33 ölçü. *Pay* (kaldırılmış kandilin dururken yaktığı yağ hesaba katıldı: 5 sn'de ¼, yani saniyede 0,05 ölçü): Bir ayrımı yürürken kandille okumak ≈0,4, yanlış bir kol ≈0,25, kızıl taş ≈0,05 ölçüdür (taş kandil indirilip alınırsa). Başvuru çözümü, bir ayrımı okumak ve bir yanlış kol 0,98 eder (0,33 + 0,4 + 0,25); bu yolda ne kızıl taşa ne de kandili kaldırılı tutup durmaya pay kalır. Kızıl taşı alıp bir ayrımı okuyan oyuncunun elinde 0,22 ölçü, yani kaldırılı kandille ≈4 sn duruş kalır; yanlış bir kola girmeye yetmez. Pratikte en fazla bir ayrımda kandil okunabilir ve kandil yalnızca yürürken kaldırılır. Eşekli yolda kanalın 0,33'ü hem harcamadan hem eşikten düştüğü için pay aynıdır.
+**Usta kısıtı — `usta_b07_yarim_yag` ("Yarım yağ"):** Marta'nın verdiği 2 ölçüden en fazla 1 ölçü harcanır. Çobanın ya da bekçinin yağını almak Usta ayarında kısıtı düşürür; çömlek simgesindeki yarım çizgisi kesikli olur. Eşekli yolda B3 kanalının payı (0,33) düşülür ve eşik 0,67 ölçüdür. *Başvuru çözümü:* Yol sönük kandille yürünür, üç ayrımda gök okunur, kanal seçilir: 0,33 ölçü. *Pay* (kaldırılmış kandilin dururken yaktığı yağ hesaba katıldı: 5 sn'de ¼, yani saniyede 0,05 ölçü): Bir ayrımı yürürken kandille okumak ≈0,4, yanlış bir kol ≈0,25, kızıl taş ≈0,05 ölçüdür (taş, kandil indirildikten sonra alınırsa). Başvuru çözümü, bir ayrımı okumak ve bir yanlış kol 0,98 eder (0,33 + 0,4 + 0,25); bu yolda ne kızıl taşa ne de kandili kaldırılı tutup durmaya pay kalır. Kızıl taşı alıp bir ayrımı okuyan oyuncunun elinde 0,22 ölçü, yani kaldırılı kandille ≈4 sn duruş kalır; yanlış bir kola girmeye yetmez. Pratikte en fazla bir ayrımda kandil okunabilir ve kandil yalnızca yürürken kaldırılır. Eşekli yolda kanalın 0,33'ü hem harcamadan hem eşikten düştüğü için pay aynıdır.
 
 **Hikâye kipi:** "Şimi'nin tarifiyle": Tamar doğru kolu söyler, yağ azalmaz. **Kodeks:** 2, 3, 4, 11.
 
@@ -341,18 +341,18 @@ Yan hikâyeli ve yan hikâyesiz altı dizinin hiçbirinde aynı girdi art arda i
 
 ## 9. Diyalog Örnekleri
 
-1. **Marta (kız kardeşlerin haberi, 11:3):** "Ya Rab, sevdiğin kişi hasta." [yakın aktarım] — Beytanyalı Meryem başını kaldırıp onaylar (sözsüz).
+1. **Marta (kız kardeşlerin haberi, 11:3):** "Ya Rab, sevdiğin kişi hasta." [yakın aktarım; kanonik replik] — Beytanyalı Meryem başını kaldırıp onaylar (sözsüz).
 2. **Şimi:** "Bu yol gece yürünmez." — **Tamar:** "Haber sabahı beklemez."
 3. **Tamar (iç ses, B1):** "Babam 'kuzey oradadır' dedi. 'Yıldız oradadır' demedi."
 4. **İsa (11:4):** "Bu hastalık ölümle sonuçlanmayacak; Tanrı'nın yüceliğine, Tanrı Oğlu'nun yüceltilmesine hizmet edecek." [yakın aktarım]
 5. **Yaşlı Tamar:** "O sözü bir testi su gibi taşıdım, dökülmesin diye. Köye vardığımda kavallar çalıyordu."
-6. **Marta (11:21–22):** "Ya Rab, burada olsaydın kardeşim ölmezdi. Ama şimdi bile Tanrı'dan ne dilersen, Tanrı'nın onu sana vereceğini biliyorum." [yakın aktarım]
+6. **Marta (11:21–22):** "Ya Rab, burada olsaydın kardeşim ölmezdi. Ama şimdi bile Tanrı'dan ne dilersen, Tanrı'nın onu sana vereceğini biliyorum." [yakın aktarım; kanonik replik]
 7. **İsa (11:25–26):** "Diriliş ve yaşam Ben'im. Bana iman eden kişi ölse de yaşayacaktır. Yaşayan ve bana iman eden asla ölmeyecek. Buna inanıyor musun?" [yakın aktarım]
-8. **Marta (11:27):** "Evet, ya Rab. Senin, dünyaya gelecek olan Mesih, Tanrı'nın Oğlu olduğuna iman ediyorum." [yakın aktarım]
-9. **Beytanyalı Meryem (11:32):** "Ya Rab, burada olsaydın kardeşim ölmezdi." [yakın aktarım]
-10. **İsa (11:39):** "Taşı kaldırın." — **Marta:** "Ya Rab, artık kokmuştur. Öleli dört gün oldu." — **İsa (11:40):** "Ben sana, iman edersen Tanrı'nın yüceliğini göreceksin, demedim mi?" [yakın aktarım]
+8. **Marta (11:27):** "Evet, ya Rab. Senin, dünyaya gelecek olan Mesih, Tanrı'nın Oğlu olduğuna iman ediyorum." [yakın aktarım; kanonik replik]
+9. **Beytanyalı Meryem (11:32):** "Ya Rab, burada olsaydın kardeşim ölmezdi." [yakın aktarım; kanonik replik]
+10. **İsa (11:39):** "Taşı kaldırın." [yakın aktarım] — **Marta (11:39):** "Ya Rab, artık kokmuştur. Öleli dört gün oldu." [yakın aktarım; kanonik replik] — **İsa (11:40):** "Ben sana, iman edersen Tanrı'nın yüceliğini göreceksin, demedim mi?" [yakın aktarım]
 11. **İsa (11:43):** "Lazar, dışarı çık!" — **(11:44):** "Onu çözün, bırakın gitsin." [yakın aktarım]
-12. **Kayafa (11:49–50):** "Siz hiçbir şey bilmiyorsunuz! Bütün ulusun yok olmasındansa halk uğruna bir adamın ölmesinin sizin için daha iyi olduğunu düşünmüyorsunuz." [yakın aktarım]
+12. **Kayafa (11:49–50):** "Siz hiçbir şey bilmiyorsunuz! Bütün ulusun yok olmasındansa halk uğruna bir adamın ölmesinin sizin için daha iyi olduğunu düşünmüyorsunuz." [yakın aktarım; kanonik replik]
 13. **Yaşlı Tamar (Sahne 2):** "Kimse o yolu gece, kadın başına yürümezdi. Ben yürüdüm."
 14. **Yaşlı Tamar:** "Bezi çözdüm, Sara. Altında dört gün önce toprağa verdiğimiz yüz vardı. Gözlerini kırptı; ışık ona fazla gelmişti."
 
@@ -371,7 +371,7 @@ Mezar sahnesinde ve dokunmama sırasında nesne bulunmaz.
 
 **Kodeks:**
 1. **Beytanya:** Yeruşalim'e üç kilometre kadar (Grekçe: on beş stadion; Yh 11:18). El-Azariye adı Lazar'dan gelir; bugünkü mezar *geleneksel*dir.
-2. **Eriha yolu:** ≈25 km, 1000 metreyi aşan iniş (*doğrulanmalı*). Adummim (Yeşu 15:7) "kızıl" demektir. Yolun haydutlarla ünü Luka 10:30'daki benzetmede de yankılanır (5. bölüm); kervanlar geceyi handa geçirirdi. "İyi Samiriyeli Hanı" *geleneksel*dir.
+2. **Eriha yolu (5. bölümdeki Yeruşalim–Eriha yolu girdisine ek):** Yolun uzunluğu ve inişi o girdidedir. Adummim (Yeşu 15:7) "kızıl" demektir. Yolun haydutlarla ünü Luka 10:30'daki benzetmede de yankılanır (5. bölüm); kervanlar geceyi handa geçirirdi. "İyi Samiriyeli Hanı" *geleneksel*dir.
 3. **Eriha:** "Hurma ağaçları kenti" (Yasa'nın Tekrarı 34:3); vadinin ağzında Kral Hirodes'in (Büyük Hirodes) kış sarayları ve kanalları (*doğrulanmalı*).
 4. **Yedi yıldız ve kuzey:** Birinci yüzyılda göğün kuzey kutbu bugünkü Kutup Yıldızı'ndan ≈12° uzaktaydı. Kutbun ≈6° çevresinde çıplak gözle kolayca seçilen bir yıldız yoktu; en yakın parlak yıldız ≈8° ötedeydi (oyunun hesabı, *doğrulanmalı*). Kuzey, kutbun çevresinde dönen yıldızların ortasından yaklaşık olarak bulunurdu; Tamar bunu babasından öğrenmiştir (1. bölüm). Aratos yön bulmayı yıldız kümeleriyle anar (*Phainomena* 37–44); Hipparkhos, Pytheas'tan aktararak kutbu yıldızsız bir yer olarak tarif eder (*doğrulanmalı*). "Ön iki yıldızdan çizgi uzatma" yöntemi dönem kaynaklarında belgelenmediği için oyunda kullanılmaz. Oyunda halka kutbun kendisine sabitlenmiştir. "Ayı" adı Yunan ve Roma geleneğindendir; Tamar kümeye "yedi yıldız" der. Bkz. Eyüp 9:9.
 5. **Yas:** Aynı gün gömme; ağıtçı kadınlar (Yeremya 9:17) ve kavalcılar (Matta 9:23); yas yerinde, yerde oturmak (Eyüp 2:13; Beytanyalı Meryem'in evde oturuşu, Yh 11:20); komşuların ekmek ve avuntu kâsesi getirmesi (Yeremya 16:7). "Üçüncü günden sonra" inancı geç bir rabbi kaynağındadır (*doğrulanmalı*).
@@ -380,7 +380,7 @@ Mezar sahnesinde ve dokunmama sırasında nesne bulunmaz.
 8. **Zeytin işliği:** Ezme taşı ve kirişli pres. "Getsemani" adının "yağ işliği" demek olduğu düşünülür (*doğrulanmalı*).
 9. **Yuhanna'da "Yahudiler":** 11. bölümde sözcük çoğunlukla avutmaya gelen Yahudiyelileri anlatır; birçoğu iman eder (11:45). Oyun onlara "taziyeciler" der.
 10. **Kayafa ve kurul:** Josephus'a göre Kayafa ≈MS 18–36 arasında başkâhindi. Kurulun kaygısı Roma'dır (11:48). 11:51–52: "Bunu kendiliğinden söylemedi. O yılın başkâhini olarak İsa'nın ulus için öleceğini önceden bildirdi. Yalnız ulus için değil, Tanrı'nın dağılmış çocuklarını bir araya toplayıp birleştirmek için de ölecekti." [yakın aktarım; *doğrulanmalı*]. 1990'da Yeruşalim'in güneyinde, üzerinde "Kayafa'nın oğlu Yusuf" diye okunan bir yazı bulunan süslü bir kemik sandığı ele geçti. Araştırmacıların çoğu onu bu başkâhinle ilişkilendirir; özdeşlik tartışmalıdır (*doğrulanmalı*).
-11. **Kandil ve kav:** El kandili birkaç saat yanar (*doğrulanmalı*); ateş çakmak taşı ve kavla yakılırdı.
+11. **Kandil ve kav (1. bölümdeki Kandil girdisine ek):** El kandili birkaç saat yanar (*doğrulanmalı*); ateş çakmak taşı ve kavla yakılırdı. Oyundaki yağ ölçüsü ve kandil menzili *oyun kısaltması*dır.
 12. **Lazar Cumartesisi:** Ortodoks ve Ermeni geleneklerinde Lazar'ın dirilişi Paskalya'dan sekiz gün önceki cumartesi, Palmiye Pazarı'nın arifesinde anılır. Bu liturjik bir anmadır, tarihsel bir gün değildir: Yuhanna dirilişin gününü vermez. Fısıh'tan altı gün önceki Beytanya ziyaretini ise ayrıca anlatır (12:1) (*geleneksel*).
 
 ## 11. Yan Hikâye — Yair'in Duvarı (6 dk, Harita A)
@@ -435,7 +435,7 @@ Mezar sahnesinde ve dokunmama sırasında nesne bulunmaz.
 
 ## 16. Üretim Notları
 
-- **Haritalar:** 5 yeni: Beytanya (A) ve Eriha yolunun dört bölmesi (B1–B4; her bölme ayrı bir ortam çizimi olarak sayılır). 2. bölümün kıyısı yeniden kullanılır. Bu sayımla proje toplamı 26'ya çıkar (GDD §16.1: 22–24). B3'ün montaja çevrilmesi bölümü 4'e indirir; sayım birimi GDD'ye bırakılır (§17). **Karo seti:** Yeni yok.
+- **Haritalar:** 5 yeni: Beytanya (A) ve Eriha yolunun dört bölmesi (B1–B4; her bölme ayrı bir ortam çizimidir). 2. bölümün kıyısı şafak LUT'uyla yeniden kullanılır ve yeniden sayılmaz. GDD §16.1'in sayım birimine göre her bölme ayrı bir haritadır. Set-piece'ler ve Anlatılan Sahne şeritleri harita sayılmadığından proje toplamı 24'tür (tavan 24). B3'ün montaja çevrilmesi bölümü 4'e, projeyi 23'e indirir (kesme adayı). **Karo seti:** Yeni yok.
 - **Karakterler:** Yeni sprite Marta, Beytanyalı Meryem, Lazar, Şimi, Yair; yeni portre yalnızca Marta. Hogla, Hagit, ağıtçı kadın ve taziyeci çift kit varyantıdır. Eşek 5. bölümün Boz setinden palet değişimiyle.
 - **Animasyon dizileri (≈50):**
   - **Tamar 3/4 (9):** kandili üfleme (10. bölümle ortak; ilk kez burada çizilir), kavla yakma (ayakta), kavla yakma (çömelerek), kandili yere koyup alma, yol okuma duruşu, arşınlama (10. bölümle ortak; ilk kez burada), oluk borusunu eğip boşaltma, sarnıçtan kova çekme, ipe asılma (işlik; "ip çekme" aksiyon hücresinden).
@@ -445,19 +445,19 @@ Mezar sahnesinde ve dokunmama sırasında nesne bulunmaz.
   - **Lazar (4):** hasta yatış, çıkış (12 kare), göz kırpma, başlık taşına el koyma. **İsa (3):** uzak yürüyüş, eğik baş, ışığa karşı silüet. **Marta (3):** koşma, el tutma, testiyle oturma. **Beytanyalı Meryem (3):** yas yerinde oturma, kalkıp koşma, ayaklara kapanma.
   - **İp takımı ve Yair, işlik (5). Şimi (3):** tarif, kandil jesti, düğüm sıkma. **Taşlar (2):** ezme taşı, tıkaç taşı (elle çizilmiş kareler). **Öbürleri (6):** 3. ışık kişilerinin kandil jesti, kol gösterme, taziyecinin baş eğmesi, kavalcı, kervandan eşeğe bindirme, çobanın oğlunun meşalesi.
 - **Set-piece:** 1. **Tablo:** 1. **Ara sahne:** 4 (dönüş montajı, eşek montajı, yağmur gecesi, dokunmama).
-- **Riskler:** Gök okumanın 10 yaş için zorluğu (kâğıt prototip; B1'de medyan 3 dk hedefi; iz yaylarının ve sınama dairelerinin okunurluğu); astronom onayı; yüz bezi için kurul onayı; harita tavanı.
+- **Riskler:** Gök okumanın 10 yaş için zorluğu (kâğıt prototip; B1'de medyan 3 dk hedefi; iz yaylarının ve sınama dairelerinin okunurluğu); astronom onayı; yüz bezi için kurul onayı; harita tavanı (proje toplamı 24 ile tavanda; yedek B3 montajı).
 - **Kesme adayları:** Yan hikâye; B3'ün montaja çevrilmesi (bu durumda Usta eşiği her yolda eşekli yolunki, 0,67 ölçü olur).
 
 ## 17. Açık Sorular
 
 1. GDD §8.4'e `ilis_marta` başlangıcı (`temkinli`) ve `b05_ifade_sargi` (5'te kurulur, 7'de okunur; K8 iç sesi) eklensin.
-2. Kandil temel tablosu GDD §5.1'e yazılsın. Bu bölüm 4. bölümün sabitlerini, 10. bölümün göz kamaşması kuralını ve Üfle eylemini kullanır; yeni kandil durumu eklemez. Üfleme ve arşınlama dizileri ilk kez burada çizildiği için 10. bölüm bunları kendi yeni dizi sayımından düşmeli.
+2. Kandil temel tablosu GDD §5.1b'ye yazıldı (kapandı). Bu bölüm 4. bölümün sabitlerini, GDD §5.1b'deki göz kamaşması kuralını ve Üfle eylemini kullanır; yeni kandil durumu eklemez. Üfleme ve arşınlama dizileri ilk kez burada çizildiği için 10. bölüm bunları kendi yeni dizi sayımından düşmeli.
 3. Bölümde iki imza bulmaca ve iki Usta kısıtı var (`usta_b07_yarim_yag`, `usta_b07_tek_cetele`). GDD §6.2'deki "her imza bulmacada bir tane" kuralı bunu doğruluyor mu, yoksa kısıt bölüm başına mı? Brief'in bayrak listesi güncellenmeli: `usta_b07_tek_cetele`, iki tanıklık bayrağı ve dört hatıra eksik.
 4. 10. bölümle eşitlik: 6 arşınlık kiriş ve 1–2–3 arşın çentikleri, "bir el beş el olur", "her çekene bir arşın, kiriş düğümüne bir", iki kama. Tamar'ın ipi burada 6 arşındır; ucunun mezarda püskül püskül olması 10. bölümde kesilen uca bağlanabilir. Komşu Seraya'nın yerini Hogla aldı (10. bölüm bu adı anmıyor).
-5. Gece yolu bölmelerinin yolun gidişine göre çizilmesi onaylanıyor mu? Çok bölmeli bir harita GDD §16.1'de tek harita mı, bölme başına bir harita mı sayılır?
+5. Kapandı: bölmelerin yolun gidişine göre çizilmesi onaylandı; her bölme ayrı harita sayılır (GDD §16.1).
 6. Yankı dirilişten sonra, geriye bakan bir itiraf olarak kuruldu (9. bölümle uyumlu). GDD §14.1'deki "umut sözü boşa çıkmış gibi görünürken" ifadesi bu konuma göre düzeltilmeli.
 7. Âl-i İmrân 3:49'a dair tarafsız bir Kodeks notu eklensin mi? (Müslüman ilahiyatçıya sorulmalı.)
-8. Metin denetimi: 11:4, 11:18, 11:33, 11:38 ve Mezmur 23:3 arama özetlerinden doğrulandı; Mezmur 23:3 kapandı. Basılı YC ile son karşılaştırma metin kilidinden önce yapılacak. 10:22'deki bayram adı ve 11:18'in "üç kilometre kadar" biçimi GDD sözlüğüne eklenmeli.
+8. Metin denetimi: 11:4, 11:18, 11:33, 11:38 ve Mezmur 23:3 arama özetlerinden doğrulandı; Mezmur 23:3 kapandı. Basılı YC ile son karşılaştırma metin kilidinden önce yapılacak. Karar: Tapınağın Açılışını Anma Bayramı (YC ile doğrulanmalı); ayetlerde YC'nin günümüz birimleri, oyun içinde dönem birimleri (GDD §15.1-5).
 9. 1. bölüme öneri: "Ustayı izle"nin 4. adımında baba yedi yıldızın döndüğü boş noktayı parmağıyla gösterebilir (tek jest; söz değişmez). Bu, buradaki öğretimi güçlendirir.
 10. GDD §6.3'teki "Babanın 1. bölümde gösterdiği yıldız" ifadesi "babanın gösterdiği, yıldızların döndüğü boş nokta" olarak düzeltilmeli.
 11. Gök hesabı astronom onayına gider: B1 saati 20:30'a taşındı (alacakaranlık izinden 30° dönüş için), Arktürüs değerleri düzeltildi, B4 kolları 40°/85°/130° oldu.
