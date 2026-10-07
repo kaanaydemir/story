@@ -113,7 +113,14 @@ function paintKirlar(g, v, x, y, px, py, rr) {
       g.fillStyle = '#1a1c30'; if (left.t) g.fillRect(px + (left.l ? 3 : 0), py + 3, TILE - (left.l ? 3 : 0) - (left.r ? 3 : 0), 2);
       break;
     }
-    case T.ROUGH: speckle(g, px, py, rr, '#3a3a34', ['#4a4840', '#2c2c28', '#56524a', '#3e4a38'], 60); if (rr() < 0.3) g.drawImage(ART.rocks[2], px + 1, py + 3); else if (rr() < 0.25) g.drawImage(ART.bush2, px, py + 2); break;
+    case T.ROUGH: {
+      speckle(g, px, py, rr, '#34342f', ['#44423b', '#2a2a26', '#4e4a42', '#3a4434'], 70);
+      const n = (Math.sin(x * 1.7 + y * 3.1) + Math.sin(x * 0.6 - y * 1.3)) * 0.5;
+      if (n > 0.55 && rr() < 0.7) g.drawImage(ART.rocks[2], px + Math.floor(rr() * 4), py + 2 + Math.floor(rr() * 4));
+      else if (n < -0.6 && rr() < 0.6) g.drawImage(ART.bush2, px + Math.floor(rr() * 3) - 1, py + 3);
+      else if (rr() < 0.15) { g.fillStyle = '#5a564c'; g.fillRect(px + Math.floor(rr() * 12), py + Math.floor(rr() * 12), 3, 2); g.fillStyle = '#6e6a5e'; g.fillRect(px + Math.floor(rr() * 12), py + Math.floor(rr() * 12), 2, 1); }
+      break;
+    }
     case T.EDGE: speckle(g, px, py, rr, '#34322e', ['#4a4840', '#26262a', '#5a564c'], 50); g.fillStyle = '#5a564c'; g.fillRect(px, py + 12, TILE, 4); g.fillStyle = '#7a7262'; g.fillRect(px, py + 12, TILE, 1); break;
     case T.ROCK: paintGrass(g, px, py, rr); break;
     case T.TRUNK: paintGrass(g, px, py, rr); break;
@@ -338,20 +345,26 @@ const Flock = {
     this.slotsFor = k; this.slots = [];
     for (let i = 0; i < 6; i++) { const a = (i / 6) * 6.283; this.slots.push({ x: P.x + Math.cos(a) * 1.6, y: P.y + Math.sin(a) * 1.25, s: null }); }
     for (let i = 0; i < 8; i++) { const a = ((i + 0.5) / 8) * 6.283; this.slots.push({ x: P.x + Math.cos(a) * 2.55, y: P.y + Math.sin(a) * 2.1, s: null }); }
-    // duvarın içine düşen yuvaları ele
-    this.slots = this.slots.filter((sl) => !this.map.solidAt(sl.x, sl.y) && sekiOf(sl.y) === sekiOf(P.y));
+    for (let i = 0; i < 10; i++) { const a = (i / 10) * 6.283 + 0.2; this.slots.push({ x: P.x + Math.cos(a) * 3.15, y: P.y + Math.sin(a) * 2.5, s: null }); }
+    // duvarın içine ya da ardına düşen yuvaları ele
+    this.slots = this.slots.filter((sl) => this.map.boxFree(sl.x, sl.y, 0.3, 0.2) && sekiOf(sl.y) === sekiOf(P.y) && this.lineFree(P, sl));
   },
   takeSlot(s, P) {
     this.makeSlots(P);
     if (s.slot && this.slots.includes(s.slot)) return s.slot;
     let best = null, bd = 1e9;
     for (const sl of this.slots) { if (sl.s && sl.s !== s) continue; const d = dist(sl.x, sl.y, s.x, s.y); if (d < bd) { bd = d; best = sl; } }
-    if (!best) best = { x: P.x + (Math.random() - 0.5) * 3, y: P.y + 1 + Math.random(), s: null };
+    if (!best) best = { x: P.x + (Math.random() - 0.5) * 1.2, y: P.y + (Math.random() - 0.5) * 0.8, s: null };
     if (s.slot) s.slot.s = null;
     best.s = s; s.slot = best;
     return best;
   },
   freeSlot(s) { if (s.slot) { s.slot.s = null; s.slot = null; } },
+  lineFree(a, b) {
+    const n = Math.ceil(dist(a.x, a.y, b.x, b.y) * 4);
+    for (let i = 1; i <= n; i++) { const x = lerp(a.x, b.x, i / n), y = lerp(a.y, b.y, i / n); if (this.map.solidAt(x, y)) return false; }
+    return true;
+  },
   // -------- olaylar --------
   lampRaised(P) {
     this.lampId++;
@@ -379,8 +392,9 @@ const Flock = {
     // birim üyeleri öndekinden arkadakine sıralanır (yola en yakın önde)
     const first = plan.pts[0];
     members.sort((a, b) => dist(a.x, a.y, first.x, first.y) - dist(b.x, b.y, first.x, first.y));
-    members.forEach((s, i) => { s.gathered = false; s.mode = 'unit'; s.rank = i; s.evalId = this.lampId; this.freeSlot(s); s.stuck = false; });
-    this.units.push({ members, pts: plan.pts.slice(), x: C.x, y: C.y, stuck: plan.stuck, P: { x: P.x, y: P.y }, trail: [{ x: C.x, y: C.y }] });
+    const U = { members, pts: plan.pts.slice(), x: C.x, y: C.y, stuck: plan.stuck, P: { x: P.x, y: P.y }, trail: [{ x: C.x, y: C.y }], done: false };
+    members.forEach((s, i) => { s.gathered = false; s.mode = 'unit'; s.rank = i; s.evalId = this.lampId; this.freeSlot(s); s.stuck = false; s.unit = U; s.ti = 0; s.goal = null; });
+    this.units.push(U);
     this.movedSinceRaise = true;
   },
   whistle(W, tamarSeki) {
@@ -416,7 +430,8 @@ const Flock = {
         else { s.startleT = 2; s.mode = s.mode === 'whistle' ? 'whistle' : 'idle'; out.dark++; if (Math.random() < 0.7) Audio.bleat('koyun', s.x, 0.25); }
       } else {
         const len = second && s.mode === 'push' && s.pushN === 1 ? 2 : 3;
-        const ux = dx / d, uy = dy / d;
+        // koninin ekseni boyunca, Tamar'dan uzaklaşan yönde (sürü dağılmasın diye eksen ağırlıklı)
+        let ux = fx * 0.75 + (dx / d) * 0.25, uy = fy * 0.75 + (dy / d) * 0.25; const ul = Math.hypot(ux, uy) || 1; ux /= ul; uy /= ul;
         const base = s.mode === 'push' && s.goal ? s.goal : { x: s.x, y: s.y };
         s.mode = 'push'; s.pushN = (second && s.pushN === 1) ? 2 : 1; s.speed = DAY_SPEED; s.stopR = 0.05;
         s.goal = this.clampGoal(s, { x: base.x + ux * len, y: base.y + uy * len });
@@ -459,7 +474,7 @@ const Flock = {
     const plan = planPath(s.x, s.y, L.x, L.y);
     s.evalId = this.lampId;
     if (!plan) { s.mode = 'idle'; return false; }
-    s.gathered = false; s.stuck = false; s.seekP = { x: L.x, y: L.y };
+    s.gathered = false; s.stuck = false; s.seekP = { x: L.x, y: L.y }; s.goal = null;
     if (plan.stuck) {
       s.mode = 'seek'; s.pts = plan.pts.slice(); s.speed = LIGHT_SPEED; s.stopR = 0.1; s.willStick = true;
     } else {
@@ -474,36 +489,50 @@ const Flock = {
   update(dt) {
     const L = this.lamp, map = this.map;
     if (this.raiseT >= 0) this.raiseT += dt;
-    // birim hareketi
+    // birim hareketi: merkez rotayı izler; üyeler merkezin bıraktığı izi (ekmek kırıntısı) sırayla izler
     for (let ui = this.units.length - 1; ui >= 0; ui--) {
       const U = this.units[ui];
-      let st = LIGHT_SPEED * dt;
-      while (st > 0 && U.pts.length) {
-        const p = U.pts[0], d = dist(U.x, U.y, p.x, p.y);
-        if (d <= st) { U.x = p.x; U.y = p.y; U.pts.shift(); st -= d; }
-        else { U.x += ((p.x - U.x) / d) * st; U.y += ((p.y - U.y) / d) * st; st = 0; }
-      }
-      const last = U.trail[U.trail.length - 1];
-      if (dist(last.x, last.y, U.x, U.y) > 0.12) U.trail.push({ x: U.x, y: U.y });
-      if (!U.pts.length) {
-        const end = { x: U.x, y: U.y };
-        if (U.stuck) {
-          const dirY = sign(U.P.y - end.y) || 1;
-          U.members.forEach((s, i) => { s.mode = 'stuckunit'; s.gathered = true; s.gatherAt = end; s.stuck = true; s.bleatT = 0.5 + i * 0.4; s.goal = { x: end.x + ((i % 6) - 2.5) * 0.72, y: end.y - dirY * (0.3 + Math.floor(i / 6) * 0.8) }; s.speed = 1.4; });
-        } else {
-          U.members.forEach((s) => { s.mode = 'arrive'; s.stuck = false; const sl = this.takeSlot(s, U.P); s.goal = { x: sl.x, y: sl.y }; s.speed = 1.6; s.gatherAt = { x: U.P.x, y: U.P.y }; s.gathered = true; });
+      if (!U.done) {
+        let st = LIGHT_SPEED * dt;
+        while (st > 0 && U.pts.length) {
+          const p = U.pts[0], d = dist(U.x, U.y, p.x, p.y);
+          if (d <= st) { U.x = p.x; U.y = p.y; U.pts.shift(); st -= d; }
+          else { U.x += ((p.x - U.x) / d) * st; U.y += ((p.y - U.y) / d) * st; st = 0; }
         }
-        this.units.splice(ui, 1);
-      } else {
-        U.members.forEach((s) => {
-          const back = Math.min(U.trail.length - 1, 2 + s.rank * 5);
-          const tp = U.trail[U.trail.length - 1 - back];
-          const nearWall = Math.abs(tp.y - 10) < 1.2 || Math.abs(tp.y - 21) < 1.2 || Math.abs(tp.y - 30) < 1.2;
-          const j = nearWall ? 0.05 : 1;
-          s.goal = { x: tp.x + Math.sin(s.id * 2.1) * 0.35 * j, y: tp.y + Math.cos(s.id * 1.7) * 0.25 * j };
-          s.speed = 1.6 + Math.min(1.2, dist(s.x, s.y, s.goal.x, s.goal.y) * 0.6);
-        });
+        const last = U.trail[U.trail.length - 1];
+        if (dist(last.x, last.y, U.x, U.y) > 0.12 || !U.pts.length) U.trail.push({ x: U.x, y: U.y });
+        if (!U.pts.length) {
+          U.done = true;
+          const end = { x: U.x, y: U.y };
+          U.members.forEach((s) => { s.gathered = true; s.stuck = !!U.stuck; s.gatherAt = U.stuck ? end : { x: U.P.x, y: U.P.y }; });
+          U.end = end;
+        }
       }
+      let alive = 0;
+      const n = U.trail.length;
+      for (const s of U.members) {
+        if (s.unit !== U || s.mode !== 'unit') continue;
+        alive++;
+        const maxIdx = U.done ? n - 1 : Math.max(0, n - 1 - (3 + s.rank * 4));
+        let tp = U.trail[Math.min(s.ti, n - 1)];
+        while (s.ti < maxIdx && dist(s.x, s.y, tp.x, tp.y) < 0.6) { s.ti++; tp = U.trail[s.ti]; }
+        if (U.done && s.ti >= n - 1 && dist(s.x, s.y, tp.x, tp.y) < 0.75) {
+          s.unit = null;
+          if (U.stuck) {
+            const i = s.rank, dirY = sign(U.P.y - U.end.y) || 1;
+            let g = { x: U.end.x + ((i % 6) - 2.5) * 0.72, y: U.end.y - dirY * (0.35 + Math.floor(i / 6) * 0.8) };
+            if (this.map.solidAt(g.x, g.y) || !this.lineFree(U.end, g)) g = { x: U.end.x + (Math.random() - 0.5) * 0.4, y: U.end.y - dirY * 0.4 };
+            s.mode = 'stuckunit'; s.goal = g; s.speed = 1.2; s.bleatT = 0.4 + i * 0.35;
+          } else {
+            const sl = this.takeSlot(s, U.P);
+            s.mode = 'arrive'; s.goal = { x: sl.x, y: sl.y }; s.speed = 1.5;
+          }
+        } else {
+          s.goal = { x: tp.x, y: tp.y };
+          s.speed = LIGHT_SPEED + Math.min(1.4, dist(s.x, s.y, tp.x, tp.y) * 0.5);
+        }
+      }
+      if (U.done && !alive) this.units.splice(ui, 1);
     }
     for (const s of this.sheep) {
       if (s.inFold && s.mode !== 'tofold') { this.moveSheep(s, dt, null, 0); continue; }
@@ -522,7 +551,7 @@ const Flock = {
           }
           if (s.pts && s.pts.length) { goal = s.pts[0]; speed = s.speed; }
           else {
-            s.mode = s.willStick ? 'stuck' : 'arrive';
+            s.mode = s.willStick ? 'stuck' : 'arrive'; s.goal = null;
             s.gathered = true; s.stuck = !!s.willStick;
             if (s.willStick) {
               const near = this.sheep.find((o) => o !== s && o.stuck && o.gatherAt && dist(o.gatherAt.x, o.gatherAt.y, s.x, s.y) < 2.2);
@@ -533,7 +562,11 @@ const Flock = {
         }
         case 'whistle': {
           const d = dist(s.x, s.y, s.goal.x, s.goal.y);
-          if (d <= s.stopR) { s.mode = 'idle'; s.goal = null; if (!this.night) { s.home = { x: s.x, y: s.y }; } }
+          if (d <= s.stopR) {
+            s.mode = 'idle'; s.goal = null; if (!this.night) { s.home = { x: s.x, y: s.y }; }
+            // ıslık noktası halkanın içindeyse, varan koyun 2. kurala geçer (Kural 6)
+            if (this.night && L && L.raised && s.whistleAt && dist(s.whistleAt.x, s.whistleAt.y, L.x, L.y) <= RING + 1e-6) this.seekLamp(s);
+          }
           else { goal = s.goal; speed = s.speed; }
           break;
         }

@@ -10,7 +10,7 @@ const KEYMAP = {
 };
 const BUTTONS = ['up', 'down', 'left', 'right', 'bakis', 'gut', 'interact', 'confirm', 'hint', 'menu', 'sprint', 'cancel', 'lookup', 'n1', 'n2', 'n3', 'n4'];
 const Input = {
-  keys: {}, mouseR: false, virt: {}, sim: {}, cur: {}, prev: {}, held: {},
+  keys: {}, latch: {}, mouseR: false, virt: {}, sim: {}, cur: {}, prev: {}, held: {},
   joy: { x: 0, y: 0, active: false, id: null }, pad: null, padCur: {},
   axisX: 0, axisY: 0, analog: 0,
   touchDevice: false, lastDevice: 'kb',
@@ -19,6 +19,7 @@ const Input = {
     window.addEventListener('keydown', (e) => {
       const n = KEYMAP[e.code];
       if (n) {
+        if (!e.repeat) this.latch[n] = true;
         this.keys[n] = true; this.lastDevice = 'kb';
         if (['up', 'down', 'left', 'right', 'gut', 'confirm', 'cancel'].includes(n) || e.code === 'Space') e.preventDefault();
         if (n === 'interact') this.keys.confirm2 = true;
@@ -36,6 +37,7 @@ const Input = {
     window.addEventListener('mouseup', (e) => { if (e.button === 2) this.mouseR = false; });
     window.addEventListener('touchstart', () => { if (!this.touchDevice) { this.touchDevice = true; Bus.emit('touchdetected'); } this.lastDevice = 'touch'; Audio.init(); }, { passive: true });
     try { this.touchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0 && matchMedia('(pointer: coarse)').matches); } catch (e) {}
+    if (this.touchDevice) this.lastDevice = 'touch';
     this.initTouch();
   },
   initTouch() {
@@ -53,7 +55,7 @@ const Input = {
     joy.addEventListener('pointerup', end); joy.addEventListener('pointercancel', end);
     const bind = (id, name) => {
       const el = document.getElementById(id);
-      el.addEventListener('pointerdown', (e) => { e.preventDefault(); this.virt[name] = true; el.classList.add('on'); try { el.setPointerCapture(e.pointerId); } catch (er) {} this.lastDevice = 'touch'; Audio.init(); });
+      el.addEventListener('pointerdown', (e) => { e.preventDefault(); this.virt[name] = true; this.vlatch[name] = true; el.classList.add('on'); try { el.setPointerCapture(e.pointerId); } catch (er) {} this.lastDevice = 'touch'; Audio.init(); });
       const up = (e) => { this.virt[name] = false; el.classList.remove('on'); };
       el.addEventListener('pointerup', up); el.addEventListener('pointercancel', up);
       // parmak düğmeden kayarsa: Güt'te ıslığı iptal eder
@@ -85,7 +87,12 @@ const Input = {
     const P = this.padCur, K = this.keys, V = this.virt;
     this.prev = this.cur; const c = {};
     const simOn = (n) => this.sim[n] && this.sim[n] > now;
-    for (const n of BUTTONS) c[n] = !!(K[n] || P[n] || V[n] || simOn(n));
+    for (const n of BUTTONS) c[n] = !!(K[n] || P[n] || V[n] || simOn(n) || this.latch[n]);
+    // dokunmatik düğmelerde de çok kısa dokunuşlar kaybolmasın
+    for (const n in this.vlatch) c[n] = true;
+    this.vlatch = {};
+    if (this.latch.interact || this.latch.gut) c.confirm = true;
+    this.latch = {};
     if (this.mouseR) c.bakis = true;
     // dokunmatik/klavye: Etkileşim ve Boşluk diyalogda "devam" da sayılır
     c.confirm = c.confirm || !!K.confirm2 || !!K.confirm3 || !!V.interact || simOn('interact');
@@ -111,7 +118,7 @@ const Input = {
   pressed(n) { return !!this.cur[n] && !this.prev[n]; },
   released(n) { return !this.cur[n] && !!this.prev[n]; },
   consume(n) { this.prev[n] = true; },
-  locks: {},
+  locks: {}, vlatch: {},
   lock(names) { (names || ['gut', 'interact', 'confirm', 'bakis', 'hint']).forEach((n) => { this.locks[n] = true; this.cur[n] = false; }); },
   simulate(name, ms) { this.sim[name] = performance.now() + (ms || 100); },
   keyLabel(action) {

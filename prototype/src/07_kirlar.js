@@ -10,7 +10,7 @@ const Scenes = {
     if (!def) { console.warn('sahne yok: ' + id); return; }
     const doSwitch = () => {
       if (this.current && this.current.exit) { try { this.current.exit(); } catch (e) { console.error(e); } }
-      Scripts.kill(); UI.closeHint(); UI.clearBark(); UI.prompt(null); UI.objective(null); UI.usta(0, false);
+      Scripts.killExcept('transition'); UI.closeHint(); UI.clearBark(); UI.prompt(null); UI.objective(null); UI.usta(0, false);
       if (UI.dlg.active) { UI.dlg.active = false; $('dialog').classList.add('hidden'); }
       if (UI.ch.active) { UI.ch.active = false; $('choices').classList.add('hidden'); }
       if (UI.cardActive) UI.closeCard();
@@ -22,7 +22,7 @@ const Scenes = {
       try { def.enter(opts.arg); } catch (e) { console.error(e); }
       Bus.emit('scene', id);
     };
-    if (opts.instant) { doSwitch(); UI.fade(0, 0.5); return; }
+    if (opts.instant) { Scripts.kill('transition'); this.busy = false; doSwitch(); UI.fade(0, 0.5); return; }
     if (this.busy) return;
     this.busy = true;
     const self = this;
@@ -72,7 +72,7 @@ const NIGHT_LAYOUT = {
   K3: [[28, 8], [29, 9]],
 };
 const TEACH_LAYOUT = {
-  K1: [[2.6, 3.2], [3.4, 2.3], [3.2, 4.2], [4.1, 3.3]],
+  K1: [[2.8, 4.3], [3.6, 3.6], [3.4, 5.2], [4.2, 4.5]],
   K2: [[23.5, 3], [24.5, 2.2], [25, 3.4], [24.6, 4.4], [26, 3]],
   K3: [[17.6, 9.0], [28.5, 7.5]],
 };
@@ -113,7 +113,7 @@ const KW = {
     if (stage === 'ogretim') {
       this.makeSheep(TEACH_LAYOUT); Flock.night = false;
       t.x = 7; t.y = 6.5; t.dir = 'right'; f.x = 5; f.y = 6.4; f.dir = 'left'; f.lamp = null; f.stone = null;
-      this.darkA = this.darkTarget = 0.28; this.darkCol = '#2a1640';
+      this.darkA = this.darkTarget = 0.4; this.darkCol = '#2a1640';
       this.nahum.x = 12; this.nahum.y = 32.5; this.yoas.x = 31; this.yoas.y = 4;
     } else if (stage === 'kuzu' || stage === 'suru') {
       this.makeSheep(NIGHT_LAYOUT); Flock.night = true;
@@ -167,6 +167,12 @@ const KW = {
     if (this.fireLit && Math.random() < dt * 14) Gfx.spawn({ x: FIRE.x * TILE + (Math.random() - 0.5) * 6, y: FIRE.y * TILE - 2, vx: (Math.random() - 0.5) * 6, vy: -14 - Math.random() * 12, t: 0, life: 0.8 + Math.random() * 0.8, c: Math.random() < 0.5 ? '#ffb35c' : '#ffe08a', s: 1 });
     const t = this.tamar;
     Audio.listenerX = t.x;
+    // ışıkta süzülen toz ve gece böcekleri (ince parçacıklar)
+    const lampA = this.father.lamp && !this.father.lamp.ground ? this.father : this.tamar.lamp ? this.tamar : null;
+    if (lampA && Math.random() < dt * 2.2) {
+      const p = lampA.lampWorld();
+      Gfx.spawn({ x: p.x * TILE + (Math.random() - 0.5) * 60, y: p.y * TILE + (Math.random() - 0.5) * 40, vx: (Math.random() - 0.5) * 5, vy: -2 - Math.random() * 3, t: 0, life: 2.5 + Math.random() * 2, c: '#ffe2a0', a: 0.55, layer: 1 });
+    }
     // kamera: baş kaldırma 6 karo kuzeye; gök bakışı tam gök
     if (this.skyLook) Cam.lookTarget = -22 * TILE - Cam.y;
     else Cam.lookTarget = Player.lookUp && Player.allowLook ? -6 * TILE : 0;
@@ -184,7 +190,7 @@ const KW = {
       if (L.goal) {
         const d = dist(L.x, L.y, L.goal.x, L.goal.y), sp = (L.speed || 0.9) * dt * (0.65 + 0.35 * Math.abs(Math.sin(L.animT * 5)));
         if (d > 0.1) { L.x += ((L.goal.x - L.x) / d) * Math.min(sp, d); L.y += ((L.goal.y - L.y) / d) * Math.min(sp, d); L.faceR = L.goal.x > L.x; L.moving = true; }
-        else { L.moving = false; if (L.onArrive) { const f = L.onArrive; L.onArrive = null; f(); } }
+        else { L.moving = false; L.goal = null; if (L.onArrive) { const f = L.onArrive; L.onArrive = null; f(); } }
       } else L.moving = false;
     }
   },
@@ -446,9 +452,8 @@ Scenes.define('yamac_ogretim', {
     const lone = KW.sheep.find((s) => s.group === 'K3' && s.x < 20);
     // Adım 1 — Değnek
     sc.step = 1;
-    yield new Promise ? 0 : 0;
     yield until(() => !f.path);
-    f.walkTo(KW.map, 1.3, 3.3);
+    f.walkTo(KW.map, 1.4, 4.4);
     yield until(() => !f.path);
     f.face(1, 0);
     yield 0.4;
@@ -703,6 +708,7 @@ Scenes.define('isigin_ardindan', {
   call(id) {
     const sc = this, f = KW.father;
     if (f.path) { UI.bark('Yoldayım, kızım.', 'Baba', 1.6); return; }
+    if (Flock.units.length) { UI.bark('Bekle kızım, önce gelsinler.', 'Baba', 2); return; }
     if (id === f.stone) {
       if (!f.standing) { UI.bark('Baba, buraya!', 'Tamar', 1.4); sc.standUp(); return; }
       UI.bark('Buradayım, kızım.', 'Baba', 1.8); return;

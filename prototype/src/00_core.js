@@ -101,6 +101,7 @@ const Scripts = {
     if (this.list.some((h) => h.done)) this.list = this.list.filter((h) => !h.done);
   },
   kill(tag) { this.list.forEach((h) => { if (!tag || h.tag === tag) h.done = true; }); this.list = this.list.filter((h) => !h.done); },
+  killExcept(tag) { this.list.forEach((h) => { if (h.tag !== tag) h.done = true; }); this.list = this.list.filter((h) => !h.done); },
   running(tag) { return this.list.some((h) => h.tag === tag && !h.done); },
 };
 const wait = (s) => s;

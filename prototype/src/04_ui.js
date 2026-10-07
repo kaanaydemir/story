@@ -27,8 +27,15 @@ const UI = {
     this.layout();
   },
   // ---------------- ölçekleme ----------------
+  safeArea() {
+    let el = this._sa;
+    if (!el) { el = this._sa = document.createElement('div'); el.style.cssText = 'position:fixed;left:0;top:0;width:0;height:0;visibility:hidden;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)'; document.body.appendChild(el); }
+    const cs = getComputedStyle(el), n = (v) => parseFloat(v) || 0;
+    return { t: n(cs.paddingTop), r: n(cs.paddingRight), b: n(cs.paddingBottom), l: n(cs.paddingLeft) };
+  },
   layout() {
-    const vw = window.innerWidth, vh = window.innerHeight, dpr = window.devicePixelRatio || 1;
+    const sa0 = this.safeArea();
+    const vw = window.innerWidth - sa0.l - sa0.r, vh = window.innerHeight - sa0.t - sa0.b, dpr = window.devicePixelRatio || 1;
     const touch = Input.touchDevice;
     const portrait = vh > vw * 1.05;
     this.portrait = portrait;
@@ -38,10 +45,10 @@ const UI = {
     const fitDev = Math.min((availW * dpr) / VW, (availH * dpr) / VH);
     let sDev = Math.floor(fitDev);
     // tam sayı ölçek tercih edilir; ekranın çok azını kullanacaksa kesirli ölçeğe düşülür
-    if (sDev < 1 || sDev / fitDev < 0.8) sDev = fitDev;
+    if (sDev < 1 || sDev / fitDev < 0.88 || portrait) sDev = fitDev;
     const cssW = Math.floor((VW * sDev) / dpr), cssH = Math.floor((VH * sDev) / dpr);
-    const x = Math.floor((availW - cssW) / 2);
-    const y = portrait && touch ? Math.max(0, Math.floor((availH - cssH) / 3)) : Math.floor((availH - cssH) / 2);
+    const x = Math.floor((availW - cssW) / 2) + sa0.l;
+    const y = (portrait && touch ? Math.max(0, Math.floor((availH - cssH) / 3)) : Math.floor((availH - cssH) / 2)) + sa0.t;
     const st = $('stage');
     st.style.width = cssW + 'px'; st.style.height = cssH + 'px'; st.style.left = x + 'px'; st.style.top = y + 'px';
     this.scale = cssW / VW;
@@ -49,7 +56,7 @@ const UI = {
     // arayüz katmanı: yatayda oyun alanının üstünde; dikeyde oyun + kontrollere kadar olan alan
     const ui = $('ui');
     let uiH = cssH;
-    if (portrait) uiH = Math.max(cssH, vh - ctrlH - y);
+    if (portrait) uiH = Math.max(cssH, vh + sa0.t - ctrlH - y);
     ui.style.left = x + 'px'; ui.style.top = y + 'px'; ui.style.width = cssW + 'px'; ui.style.height = uiH + 'px';
     const fs = Math.max(13, Math.min(22, cssW / 640 * 11.5));
     ui.style.setProperty('--fs', fs + 'px');
@@ -62,16 +69,16 @@ const UI = {
       const joy = $('joy'), tb = $('tbuttons');
       const sa = 12;
       if (portrait) {
-        t.style.top = (vh - ctrlH) + 'px'; t.style.height = ctrlH + 'px'; t.style.left = '0'; t.style.width = '100%';
+        t.style.top = (vh - ctrlH + sa0.t) + 'px'; t.style.height = (ctrlH + sa0.b) + 'px'; t.style.left = '0'; t.style.width = '100%';
         const js = Math.min(ctrlH * 0.72, vw * 0.4);
         joy.style.width = js + 'px'; joy.style.height = js + 'px'; joy.style.left = (sa + 10) + 'px'; joy.style.top = ((ctrlH - js) / 2) + 'px';
-        this.placeButtons(tb, vw, ctrlH, Math.min(ctrlH * 0.3, 78), true);
+        this.placeButtons(tb, vw, ctrlH, Math.min(ctrlH * 0.3, 78, (vw - js - sa - 30) / 3.3), true);
       } else {
         t.style.top = '0'; t.style.height = '100%'; t.style.left = '0'; t.style.width = '100%';
         const js = Math.min(vh * 0.38, 170);
         joy.style.width = js + 'px'; joy.style.height = js + 'px';
-        joy.style.left = `calc(env(safe-area-inset-left, 0px) + ${sa + 6}px)`; joy.style.top = (vh - js - 18) + 'px';
-        this.placeButtons(tb, vw, vh, Math.min(vh * 0.16, 70), false);
+        joy.style.left = (sa0.l + sa + 6) + 'px'; joy.style.top = (sa0.t + vh - js - 18) + 'px';
+        this.placeButtons(tb, vw + sa0.l, vh + sa0.t, Math.min(vh * 0.16, 70), false);
       }
     }
   },
@@ -97,11 +104,11 @@ const UI = {
     d.i++;
     if (d.i >= d.lines.length) { d.active = false; $('dialog').classList.add('hidden'); Input.lock(); return; }
     let L = d.lines[d.i]; if (typeof L === 'string') L = { text: L };
-    d.line = L; d.full = L.text; d.shown = 0; d.t = 0;
+    d.line = L; d.full = L.text; d.shown = 0; d.t = 0; d.autoT = 0;
     const el = $('dialog');
     el.className = '';
     if (L.kind) el.classList.add(L.kind);
-    el.classList.add('typing');
+    el.classList.add('typing'); if (L.lock) el.classList.add('locked');
     if (!L.por || !ART.portraits[L.por]) el.classList.add('noportrait');
     else { const cv = el.querySelector('canvas'), g = cv.getContext('2d'); g.clearRect(0, 0, 24, 24); g.drawImage(ART.portraits[L.por], 0, 0); }
     el.querySelector('.speaker').textContent = L.who || '';
@@ -111,9 +118,10 @@ const UI = {
     el.querySelector('.verse').style.display = L.ref ? '' : 'none';
     if (L.sfx) L.sfx();
   },
-  advance() {
+  advance(force) {
     const d = this.dlg;
     if (!d.active) return;
+    if (d.line && d.line.lock && !force) return;
     if (d.shown < d.full.length) { d.shown = d.full.length; $('dialog').querySelector('.text').textContent = d.full; $('dialog').classList.remove('typing'); return; }
     Audio.ui();
     this.nextLine();
@@ -308,6 +316,7 @@ const UI = {
         if (n !== d.shown) { d.shown = n; $('dialog').querySelector('.text').textContent = d.full.slice(0, n); }
         if (d.shown >= d.full.length) $('dialog').classList.remove('typing');
       }
+      if (d.line && d.line.auto != null && d.shown >= d.full.length) { d.autoT += dt; if (d.autoT >= d.line.auto) { this.nextLine(); return; } }
       if (Input.pressed('confirm')) this.advance();
     }
     if (this.bk.t > 0) { this.bk.t -= dt; if (this.bk.t <= 0) this.clearBark(); }

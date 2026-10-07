@@ -61,7 +61,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 #dialog.verse .text{font-family:var(--serif);font-size:calc(var(--fs)*1.05);color:#fbf3dc;letter-spacing:.01em}
 #dialog.verse{border-color:#b89a52;background:rgba(18,16,30,.94)}
 #dialog.narr .text{font-family:var(--serif);font-style:italic;color:#efe6d0}
-#dialog .verse{margin-top:.25em;font-size:calc(var(--fs)*.72);color:#c9b98a;letter-spacing:.02em}
+#dialog .verse{margin-top:.25em;font-size:calc(var(--fs)*.74);color:#c9b98a;letter-spacing:.02em;font-family:system-ui,-apple-system,'Segoe UI',Roboto,'DejaVu Sans',sans-serif}
 #dialog .next{position:absolute;right:.6em;bottom:.2em;color:var(--gold);animation:blink 1.1s steps(2) infinite}
 #dialog.typing .next{visibility:hidden}
 @keyframes blink{50%{opacity:0}}
@@ -104,7 +104,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
 #card.clear{background:transparent}
 #card .t{font-size:calc(var(--fs)*1.15);max-width:34em;line-height:1.5}
 #card .t.serif{font-family:var(--serif)}
-#card .ref{margin-top:.8em;color:#c9b98a;font-size:calc(var(--fs)*.75)}
+#card .ref{margin-top:.8em;color:#c9b98a;font-size:calc(var(--fs)*.75);font-family:system-ui,-apple-system,'Segoe UI',Roboto,'DejaVu Sans',sans-serif}
 #card .tap{margin-top:1.6em;color:var(--ink-dim);font-size:calc(var(--fs)*.75);animation:blink 1.6s steps(2) infinite}
 #card h1{font-weight:600;font-size:calc(var(--fs)*2);margin:.1em 0 .1em;color:var(--gold);letter-spacing:.04em;text-shadow:0 2px 0 #000}
 #card h2{font-weight:400;font-size:calc(var(--fs)*1.2);margin:.1em 0 1em;color:var(--ink)}
@@ -138,3 +138,5 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:v
   background:rgba(14,16,36,.55);border:2px solid rgba(232,198,106,.45);display:flex;align-items:center;justify-content:center;padding:0;line-height:1.1}
 .tb.on{background:rgba(232,198,106,.35);border-color:#f3dc9a}
 .tb.ctx{border-color:#f0a040;box-shadow:0 0 10px rgba(240,160,64,.6)}
+#dialog.locked{cursor:default}
+#dialog.locked .next{display:none}
