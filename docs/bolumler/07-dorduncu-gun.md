@@ -452,14 +452,14 @@ Mezar sahnesinde ve dokunmama sırasında nesne bulunmaz.
 
 ## 17. Açık Sorular
 
-1. GDD §8.4'e `ilis_marta` başlangıcı (`temkinli`) ve `b05_ifade_sargi` (5'te kurulur, 7'de okunur; K8 iç sesi) eklensin.
-2. Kandil temel tablosu GDD §5.1b'ye yazıldı (kapandı). Bu bölüm 4. bölümün sabitlerini, GDD §5.1b'deki göz kamaşması kuralını ve Üfle eylemini kullanır; yeni kandil durumu eklemez. Üfleme ve arşınlama dizileri ilk kez burada çizildiği için 10. bölüm bunları kendi yeni dizi sayımından düşmeli.
-3. Bölümde iki imza bulmaca ve iki Usta kısıtı var (`usta_b07_yarim_yag`, `usta_b07_tek_cetele`). GDD §6.2'deki "her imza bulmacada bir tane" kuralı bunu doğruluyor mu, yoksa kısıt bölüm başına mı? Brief'in bayrak listesi güncellenmeli: `usta_b07_tek_cetele`, iki tanıklık bayrağı ve dört hatıra eksik.
+1. Kapandı: GDD §8.4 `ilis_marta`nın başlangıç değerini (`temkinli`) ve `b05_ifade_sargi`yı (5'te kurulur, 7'de okunur; K8 iç sesi) içeriyor.
+2. Kandil temel tablosu GDD §5.1b'ye yazıldı (kapandı). Bu bölüm 4. bölümün sabitlerini, GDD §5.1b'deki göz alışması kuralını ve Üfle eylemini kullanır; yeni kandil durumu eklemez. Kapandı: Üfleme, arşınlama ve kandili yere koyup alma dizileri ilk kez burada çizilir ve bu bölümün sayımındadır; 10. bölüm bunları yeniden kullanım olarak anar ve saymaz (GDD §16.1).
+3. Kapandı: GDD §6.2'ye göre iki imza bulmacalı bölüm iki Usta kısıtı taşır (`usta_b07_yarim_yag`, `usta_b07_tek_cetele`). Brief'in bayrak listesi güncellenmeli: `usta_b07_tek_cetele`, iki tanıklık bayrağı ve dört hatıra eksik.
 4. 10. bölümle eşitlik: 6 arşınlık kiriş ve 1–2–3 arşın çentikleri, "bir el beş el olur", "her çekene bir arşın, kiriş düğümüne bir", iki kama. Tamar'ın ipi burada 6 arşındır; ucunun mezarda püskül püskül olması 10. bölümde kesilen uca bağlanabilir. Komşu Seraya'nın yerini Hogla aldı (10. bölüm bu adı anmıyor).
 5. Kapandı: bölmelerin yolun gidişine göre çizilmesi onaylandı; her bölme ayrı harita sayılır (GDD §16.1).
-6. Yankı dirilişten sonra, geriye bakan bir itiraf olarak kuruldu (9. bölümle uyumlu). GDD §14.1'deki "umut sözü boşa çıkmış gibi görünürken" ifadesi bu konuma göre düzeltilmeli.
+6. Kapandı: Yankı dirilişten sonra, geriye bakan bir itiraf olarak kuruldu (9. bölümle uyumlu); GDD §14.1 bu konuma göre yazıldı.
 7. Âl-i İmrân 3:49'a dair tarafsız bir Kodeks notu eklensin mi? (Müslüman ilahiyatçıya sorulmalı.)
 8. Metin denetimi: 11:4, 11:18, 11:33, 11:38 ve Mezmur 23:3 arama özetlerinden doğrulandı; Mezmur 23:3 kapandı. Basılı YC ile son karşılaştırma metin kilidinden önce yapılacak. Karar: Tapınağın Açılışını Anma Bayramı (YC ile doğrulanmalı); ayetlerde YC'nin günümüz birimleri, oyun içinde dönem birimleri (GDD §15.1-5).
 9. 1. bölüme öneri: "Ustayı izle"nin 4. adımında baba yedi yıldızın döndüğü boş noktayı parmağıyla gösterebilir (tek jest; söz değişmez). Bu, buradaki öğretimi güçlendirir.
-10. GDD §6.3'teki "Babanın 1. bölümde gösterdiği yıldız" ifadesi "babanın gösterdiği, yıldızların döndüğü boş nokta" olarak düzeltilmeli.
+10. Kapandı: GDD §6.3 artık "babanın 1. bölümde öğrettiği, yedi yıldızın döndüğü boş nokta" diyor.
 11. Gök hesabı astronom onayına gider: B1 saati 20:30'a taşındı (alacakaranlık izinden 30° dönüş için), Arktürüs değerleri düzeltildi, B4 kolları 40°/85°/130° oldu.
