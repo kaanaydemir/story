@@ -445,11 +445,11 @@ Neden: *taş yuvarlanmıştı*, *ceset yoktu*, *ipim boşa gitti*, *taş çok b�
 6. **Kapandı:** GDD §8.4 `b10_ifade_kosu_ugrak`'ı, 10'da okunan `b05_dositeos`, `b06_esik`, `ilis_*` ve isteğe bağlı `kol_b09_kemik_boncuk`'u içerir; `b03_suc` 10'da okunmaz. `ilis_yoram` yalnızca `ofke_paylasti` yolunda, `ilis_hananya` yalnızca `yakin`/`temkinli` değerleriyle okunur.
 7. **Kapandı:** Kanonik kandil tablosu GDD §5.1b'dedir (kuşakta ve omuz yükü dahil); "Yere koy" Etkileşim eylemidir (GDD §5.1a). Bu bölüm o değerleri kullanır (§6.1).
 8. Kent kapılarının gün ağarınca açılması ve Samiriyeli bir kervanın bayram haftasında kentteki handa bulunması tarihçiye sorulmalı (Kodeks 4).
-9. İki adam için stil kuralı (1. bölümdeki melek sorusuyla birlikte).
-10. GDD §5.1 tuş çakışması (Kandil/düşünce halkası; Bakış/Kulak) B1–B2'de aynı avluda yaşanır; bulmacalar eylem adlarına dayanır.
-11. GDD §14.1'deki 24:5 alıntısı YC'ye göre düzeltilmeli: "Diri olanı neden ölüler arasında arıyorsunuz?" GDD §14.1'deki "kandil ve yıldızla bahçeye yol" ifadesi "kandil ve ağaran gökle" olarak güncellenmeli.
+9. **Kapandı:** İki adamın stil kuralı GDD §2.2-A'dadır: insan biçimi, parlaklık yalnızca giysilerde; kanat, hale ve yüz ayrıntısı yok.
+10. **Kapandı:** GDD §5.1a'da Kandil ile Kavrayış ayrı eylemlerdir, Kulak Bakış'ın içindedir; bulmacalar eylem adlarına dayanır.
+11. **Kapandı:** GDD §14.1 24:5'i "Diri olanı neden ölüler arasında arıyorsunuz?" biçiminde verir ve bahçeye yolu kandil ve ağaran gökle anlatır.
 12. **Çözüldü:** Hız sabitleri GDD §4.1'de tanımlıdır; bu bölüm yan görünümde 80 / 108 / 200 px/sn kullanır. Epilogda koşu yoktur (yaşlı Tamar'ın yürüyüş seti yoktur, GDD §3.1); Koşu bölüm seçimiyle yeniden oynanan önceki bölümlerde açılmaz (§7.2).
-13. GDD §11.2: Yan görünüm set-piece'lerinde büyük sprite'ı olmayan karakterlerin katmanı ve ölçeği için genel kural; bu bölüm 9. bölümün kuralını kullanır.
-14. GDD §5.3: "Yas evi" tanımı ve pratik ihtiyaç konuşmalarının Kulak ile toplanıp toplanamayacağı; bu bölüm sözleri kendiliğinden düşen fısıltılarla verir.
+13. **Kapandı:** GDD §11.2 genel kuralı verir: büyük sprite yalnızca ön katmanda, öbür figürler orta katmanda 32×48; farklı ölçekteki figürler birbirine değmez. Bu bölüm o kuralı uygular (§4.4).
+14. **Kapandı:** GDD §5.3 yas evini tanımlar (bu bölümün şafaktan önceki evi dahil); orada Kulak ile söz toplanmaz, gerekli sözler halkaya kendiliğinden düşer.
 15. YC karşılaştırması: 23:55, 24:5–7, 24:11, 24:34, 24:35, 24:38–39, 24:41 ve Markos 16:3 basılı metinle doğrulanmalı (§1).
-16. GDD §7.2'deki 10. bölüm satırının "Girdi kesilirse" hücresi doldurulmalı (§7.2).
+16. **Kapandı:** GDD §7.2'deki 10. bölüm satırının "Girdi kesilirse" hücresi bu belgenin §7.2'siyle aynıdır.

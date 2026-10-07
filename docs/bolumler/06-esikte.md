@@ -226,9 +226,9 @@ Rüzgâr hep doğudan batıya eser (bez, yuvarlanan dikenler, toz).
 3. **Koku:** Keçiboynuzu kaynağı rüzgâraltına, batıya bir şerit yayar. Şerit 3 satır genişliğindedir (kaynağın satırı ve iki komşusu). Uzunluğu kaynak karesi dahil yalaktaki sepet ve döküntü için 10, taşınan sepet için 6 karodur. Engelin arkası kokusuz kalır (4. bölümün rüzgâr gölgesi); yalak kokuyu kesmez. Yalağa konan sepet her zaman (23, 8)'e oturur. Şeridi ağıldan yalnız kapıdan çıkar: dışarıda x 14–18, y 7–9.
 4. **İzleme:** Koku karesindeki domuz kaynağa doğru 8 yönlü en kısa yoldan yürür. Kaçarken koku karesine giren domuz orada durur ve izlemeye başlar. Kaçışı koku dışında biten domuz boşta kalır. Yalağa varan domuz yer. Yalak başında yer yoksa ağılın içinde yalağa en yakın boş kareye geçip bekler; böylece kapı tıkanmaz. Taşınan sepete varan domuz oğulun bitişik karesinden onu izler.
 5. **Arpa:** Arpaya giren domuz durup yer; yurttaş kapıya çıkıp sessizce yumruğunu sallar. Islıkla çıkarılır.
-6. **Sepet:** Ambar kapısında A ile dolar. Taşınan sepetin 8 komşu karesinde üç domuz olursa sepet devrilir. Döküntü oğulun önündeki kareye düşer ve 20 sn'de yenir; sepet ambardan yeniden doldurulur. Sepet yalağa (22, 7–9)'dan A ile konur, A ile geri alınır.
+6. **Sepet:** Ambar kapısında Etkileşim ile dolar. Taşınan sepetin 8 komşu karesinde üç domuz olursa sepet devrilir. Döküntü oğulun önündeki kareye düşer ve 20 sn'de yenir; sepet ambardan yeniden doldurulur. Sepet yalağa (22, 7–9)'dan al-koy ile konur ve geri alınır.
 7. **Boştaki domuz** son durduğu karede kalır; yalnızca yerinde döner, burnunu yere sürter (animasyon). Arpaya ve ağıla kendiliğinden girmez.
-8. **Bitiş:** Kapının üç karesi de boşken kapı dışarıdan A ile kapanır. Beş domuz ağılda ve kapı kapalıysa bulmaca biter. Süre baskısı yoktur.
+8. **Bitiş:** Kapının üç karesi de boşken kapı dışarıdan Etkileşim ile kapanır. Beş domuz ağılda ve kapı kapalıysa bulmaca biter. Süre baskısı yoktur.
 
 **Başvuru çözümü** (bitişe varan her sıra kabul edilir; yalnızca ıslıkla sokmak da olur). 12 ıslık. Her ıslıkta koninin içinde yalnızca hedef domuz bulunur. Şeride giren domuz ağıla doğru önden yürüdüğü için sıradakinin yolunu kesmez. Tablo kurallarla adım adım benzetilerek doğrulandı.
 
@@ -263,7 +263,7 @@ Rüzgâr hep doğudan batıya eser (bez, yuvarlanan dikenler, toz).
 
 **Dünyadaki sebep:** 15:17: "Sonunda aklı başına geldi." Oğul babasına söyleyeceklerini kurar (15:18–19). Kurma aşamasındaki balon **Tamar'ın tahminidir**; Tamar'ın çerçevesiyle ve "Tamar düşünür" simgesiyle gösterilir. Oğulun başına yalnızca doğrulanan cümle geçer, o da 15:18–19 metni aktığı anda.
 
-**İmgeler:** Benzetme kişileri metnin dışında konuşmadığı için Anlatılan Sahne'de söz yerine imge toplanır. Girdi standart Kulak'tır: Kulak basılıyken figürlerin üstünde imge balonları belirir ve A ile saklanır. Yöntem B1'in başında öğretilir. 15:12'nin imgesi *oğlun* kendiliğinden eklenir ve Tamar (iç ses) der ki: "Burada kimse benimle konuşmaz; ama yüzlerini aklımda tutabilirim." Sahne 5'in sonunda alınmamış B1 imgeleri, Sahne 7'nin sonunda da alınmamış B2 imgeleri kendiliğinden eklenir: "Tamar yüzleri hatırlar." Böylece aday havuzu her oyuncuda aynıdır.
+**İmgeler:** Benzetme kişileri metnin dışında konuşmadığı için Anlatılan Sahne'de söz yerine imge toplanır. Girdi standart Kulak'tır: Kulak basılıyken figürlerin üstünde imge balonları belirir ve Söz sakla ile saklanır. Yöntem B1'in başında öğretilir. 15:12'nin imgesi *oğlun* kendiliğinden eklenir ve Tamar (iç ses) der ki: "Burada kimse benimle konuşmaz; ama yüzlerini aklımda tutabilirim." Sahne 5'in sonunda alınmamış B1 imgeleri, Sahne 7'nin sonunda da alınmamış B2 imgeleri kendiliğinden eklenir: "Tamar yüzleri hatırlar." Böylece aday havuzu her oyuncuda aynıdır.
 
 | Boşluk ve tür | İmgeler ve kaynakları |
 |---|---|
@@ -288,7 +288,7 @@ Rüzgâr hep doğudan batıya eser (bez, yuvarlanan dikenler, toz).
 
 ### 7.1 Eve dönüş (Anlatılan Sahne şeridi, yan görünüm)
 
-**Kontroller:** Sol çubuk sağa ya da D: eve doğru yürümek; bırakınca oğul durur. Geri dönüş girdisi yoktur (§2.2-B). A: isteğe bağlı prova; balondaki sıradaki cümle 1 sn parlar ve söner, oğulun dudakları kıpırdar. Bakış: uzaktaki eve.
+**Kontroller:** Yürü (yalnızca sağa, eve doğru); bırakınca oğul durur. Geri dönüş girdisi yoktur (§2.2-B). Etkileşim: isteğe bağlı prova; balondaki sıradaki cümle 1 sn parlar ve söner, oğulun dudakları kıpırdar. Bakış: uzaktaki eve.
 
 1. **Yol (≈70 sn):** Oğul bitkin yürür (1,2 karo/sn, 8 karelik ayrı döngü). Zemin mordan kehribara döner; oğulun başında 15:18–19'un üç cümlelik balonu durur.
 2. **Uzaktaki ev:** Yolun %60'ında, yolun ucunda, evin önünde belirsiz bir figür belirir. Bakış ona tutulursa figür biraz netleşir; hiçbir şey kaydedilmez.
@@ -318,8 +318,8 @@ Sahne betiği kilitli adımlarla ilerler; 15:25–32'nin her ayeti her yolda aka
 | Bağlam | Seçenekler | Anlık tepki | Bayrak / eksen / ilişki | Okunur |
 |---|---|---|---|---|
 | Sahne 3: Hananya söylenir (15:2) | "Yemeği ben pişirdim, Hananya. Tencere kimseyi ayırmıyor." · "Haklı olabilirsin. Ama bugün ben de bu sofranın ekmeğini yiyorum." · *Sessiz kal* | "Tencere ayırmaz, doğru. Bana temizle kirliyi ayırt etmeyi Yasa öğretti; ben de onu sevgiyle tutarım." / "Alın terinle kazandın; seni yargılamıyorum." / Başını sallar | Yok (ton) | — |
-| Sahne 12: "Söyle bana, Tamar. Büyük oğul haksız mıydı? Yıllarca hizmet etti, buyruğundan çıkmadı." | "Haklıydı. Yıllarca çalıştı; kimse ona bir oğlak bile vermedi." · "Baba ona da dışarı çıktı, Hananya. Kapı ikisine de açıktı." · "Bilmiyorum, Hananya. Anlatan söylemedi; belki o soruyu her birimize sordu." · *Sessiz kal* | "Demek bunu düşünen yalnız ben değilim." / "Dışarı çıktı... Bunu unutmuşum." / "Belki. Bu gece ben de kendime soracağım." / "Susmak da bir cevap, komşu." | `ilis_hananya`: ilk ikisi → `yakin`, son ikisi → `temkinli` (başlangıç `temkinli`) | 9, ep (§8.3) |
-| **Yankı, Sahne 13:** Natan kalkar; balonu kendiliğinden dolar (≈12 sn, §8.2) | **Balon dolarken** Natan'a ya da kapıya yürüyüp A: sözünü keser, elini tutar · **Konuşma bitince:** "İçeri gel; annem bekliyor." (kapıda A da aynıdır) · "Otur şuraya. Önce bana anlat." · "Bu gece değil, Natan." · *Sessiz kal* (yanına oturur) · **Sokağın sonuna yürümek:** sokağın ortası geçilince konuşma durur ve onay sorusu açılır ("Bu gece değil." / "Geri dön.") | İçeri girerler / eşik taşında konuşurlar, Hulda ekmeği dışarı getirir / Tamar kıyıya, salamura teknesinin başına gider / yan yana susarlar | `b06_esik = girdi` → `eks_kalp +1`, `ilis_natan = yakin`; yerel `b06_natan_sozu = yarida` (sözü kesmek) ya da `tamam` · `disarida_konustu` ("Otur" ya da *Sessiz kal*) → `eks_kalp 0`, `ilis_natan = temkinli` · `gitti` → `eks_kalp −1`, `ilis_natan = uzak` (başlangıç `uzak`) | 9, ep; bant |
+| Sahne 12: "Söyle bana, Tamar. Büyük oğul haksız mıydı? Yıllarca hizmet etti, buyruğundan çıkmadı." | "Haklıydı. Yıllarca çalıştı; kimse ona bir oğlak bile vermedi." · "Baba ona da dışarı çıktı, Hananya. Kapı ikisine de açıktı." · "Bilmiyorum, Hananya. Anlatan söylemedi; belki o soruyu her birimize sordu." · *Sessiz kal* | "Demek bunu düşünen yalnız ben değilim." / "Dışarı çıktı... Bunu unutmuşum." / "Belki. Bu gece ben de kendime soracağım." / "Susmak da bir cevap, komşu." | `ilis_hananya`: ilk ikisi → `yakin`, son ikisi → `temkinli` (başlangıç `temkinli`) | 9, 10, ep (§8.3) |
+| **Yankı, Sahne 13:** Natan kalkar; balonu kendiliğinden dolar (≈12 sn, §8.2) | **Balon dolarken** Natan'a ya da kapıya yürüyüp Etkileşim: sözünü keser, elini tutar · **Konuşma bitince:** "İçeri gel; annem bekliyor." (kapıda Etkileşim de aynıdır) · "Otur şuraya. Önce bana anlat." · "Bu gece değil, Natan." · *Sessiz kal* (yanına oturur) · **Sokağın sonuna yürümek:** sokağın ortası geçilince konuşma durur ve onay sorusu açılır ("Bu gece değil." / "Geri dön.") | İçeri girerler / eşik taşında konuşurlar, Hulda ekmeği dışarı getirir / Tamar kıyıya, salamura teknesinin başına gider / yan yana susarlar | `b06_esik = girdi` → `eks_kalp +1`, `ilis_natan = yakin`; yerel `b06_natan_sozu = yarida` (sözü kesmek) ya da `tamam` · `disarida_konustu` ("Otur" ya da *Sessiz kal*) → `eks_kalp 0`, `ilis_natan = temkinli` · `gitti` → `eks_kalp −1`, `ilis_natan = uzak` (başlangıç `uzak`) | 9, 10, ep; bant |
 
 Eksen: + uç *Açan*, − uç *Taşıyan*. `gitti` saygıyla yazılır: Tamar öfkesini dürüstçe taşır, Hulda kapıyı açık bırakır, Natan evde kalır. Sözü kesmek ile dinleyip girmek aynı bayrağı kurar. Fark yalnızca yerel `b06_natan_sozu`'nda tutulur ve yaşlı Tamar'ın kapanış cümlesini değiştirir (Diyalog 12); bölümler arası taşınmaz.
 
@@ -328,7 +328,7 @@ Eksen: + uç *Açan*, − uç *Taşıyan*. `gitti` saygıyla yazılır: Tamar ö
 | Bayrak | Değer | Bu bölümde değişen |
 |---|---|---|
 | `b01_haber` | `koye` | Natan'ın balonundaki ikinci cümle: "Çocukken bana melekleri anlatırdın. Dekapolis'te bir handa ben de anlattım; güldüler. Sustum, sonra seni de unuttum." |
-| | `babaya` | "Annem anlattı: o gece her şeyi babama fısıldamışsın. Ben yıllarca kimsenin elini tutmadım." |
+| | `babaya` | "Annem anlattı: o gece fark ettiğini yalnızca babama fısıldamışsın. Ben yıllarca kimsenin elini tutmadım." |
 | | `kalbinde` | "Annem der ki o gece bir şey görmüşsün. Bana hiç anlatmadın; ben de sana hiç haber göndermedim." |
 | `b05_dositeos` | `yuk_birakti` | Sahne 2: Dositeos gümrükte durur. `ilis_dositeos = yakin` ise: "Ayaktayım, Tamar. Yolda beni bırakmadın." Değilse: "Ayaktayım, tuzlamacı. Yolda beni bırakmadın." Sahne 13, iç ses: "Bir yabancı için yükümü bırakmıştım. Kardeşimin kapısında ise duruyorum." |
 | | `para_gonderdi` | Sahne 2, Samiriyeli kervancı: "Dositeos iyileşti. Yonatan adında bir çoban çocuğu adamlarına haberi vaktinde ulaştırmış." Sahne 13, iç ses: "O gün elimden gelen paraydı. Bu kapıda ne verebileceğimi bilmiyorum." |
