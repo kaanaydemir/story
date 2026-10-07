@@ -2,7 +2,7 @@
 
 İncil'deki on olayı birinci yüzyıl Celile'si ve Yahudiye'sinde yaşamış kurgusal bir tanığın, **Tamar**'ın gözünden anlatan; modern ve detaylı piksel sanatlı, bulmaca ve seçim odaklı bir anlatı oyunu ("story game").
 
-> **Durum:** Tasarım aşaması. Bu depoda henüz kod yok; yalnızca tasarım belgeleri var.
+> **Durum:** Tasarım belgeleri tamamlandı (GDD sürüm 1.1 ve on bölüm). 1. bölümün oynanabilir bir web prototipi var: [`prototype/`](prototype/).
 
 ## Tek cümlede
 
@@ -23,6 +23,7 @@ Beytlehem kırlarında meleklerin müjdesini duyan dokuz yaşındaki çoban kız
 |---|---|
 | [`docs/GDD.md`](docs/GDD.md) | Ana oyun tasarım belgesi: ilkeler, sadakat ve hassasiyet kontrol listesi, mekanikler, kontroller, bulmaca ve ipucu sistemi, seçim/bayrak modeli, sanat yönü, ses, erişilebilirlik, üretim planı, açık sorular |
 | [`docs/bolumler/`](docs/bolumler/) | Bölüm başına ayrıntılı tasarım: sahne akışı, çözümleriyle bulmacalar, katılım anları, seçimler ve sonuçları, diyalog örnekleri, mekânlar ve piksel sanat notları, Kodeks girdileri, üretim notları |
+| [`prototype/`](prototype/) | 1. bölüm "Yıldızın Altında"nın oynanabilir web prototipi (tek dosya: `prototype/dist/bolum1.html`; klavye, dokunmatik ve gamepad). Kurulum, kontroller ve tasarım belgesinden sapmalar `prototype/README.md`'de |
 
 ### Bölümler
 
@@ -46,10 +47,11 @@ Ana yol toplamı yaklaşık **7,5 saat**; isteğe bağlı yan hikâyelerle yakla
 1. **Konsept paneli:** Üç bağımsız konsept yazıldı (tek tanık, topluluk/antoloji, sistem odaklı). Her biri oynanış, kaynağa sadakat ve hassasiyet, üretim ve sanat açılarından puanlandı.
 2. **Sentez:** En yüksek puanı alan sistem odaklı konsept temel alındı; diğerlerinden kahraman (Tamar), sadakat kuralları ve katılım fikirleri aşılanarak GDD yazıldı.
 3. **Bölüm tasarımı:** Her bölüm ayrı yazıldı, ardından iki bağımsız denetimden geçti: (a) İncil metnine, tarihe ve hassasiyete sadakat, (b) oynanış, bulmaca çözülebilirliği ve sistem tutarlılığı. Bulgular bölümlere işlendi.
-4. **Çapraz tutarlılık:** Tüm bölümler birlikte; bayraklar, kontroller, zorluk ve süre, zaman çizelgesi, karakter kadrosu, sözlük ve varlık bütçesi açısından denetlendi ve GDD ile bölümler eşitlendi.
+4. **Çapraz tutarlılık:** Tüm bölümler birlikte; bayraklar, kontroller, zorluk ve süre, zaman çizelgesi, karakter kadrosu, sözlük ve varlık bütçesi açısından denetlendi ve GDD ile bölümler eşitlendi (GDD sürüm 1.1).
+5. **Prototip:** 1. bölüm tarayıcıda oynanan bir prototipe dönüştürüldü, otomatik oynanış testleriyle baştan sona doğrulandı ve oynanış, mobil kontroller ve metne sadakat açısından denetlenip düzeltildi.
 
 ## Sıradaki adımlar
 
 - **Açık sorular** ([GDD §17](docs/GDD.md)): oyun adı, İsa'nın görsel temsili, Kutsal Kitap çevirisi lisansı, yaş hedefi, bölümsel yayın, seslendirme, danışma kurulu.
 - **Dikey dilim:** 3. bölüm (Altı Taş Küp) — Kavrayış, Güt ve Taşı/Dök sistemlerini ve ilk set-piece'i birlikte sınar.
-- **Teknik keşif:** fırtına set-piece'i ve kalabalık sistemi; ardından motor seçimi ve prototip.
+- **Teknik keşif:** fırtına set-piece'i ve kalabalık sistemi; ardından asıl oyun için motor seçimi (web prototipi tasarımı sınamak içindir).
